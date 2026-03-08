@@ -51,7 +51,7 @@ These behaviors make the character move according to player inputs automatically
 
 * [3D platformer keyboard mapper](/gdevelop5/extensions/physics-character3dkey-mapper)
 * [3D platformer multitouch controller mapper](/gdevelop5/objects/multitouch-joystick)
-* [3D shooter gamepad mapper](/gdevelop5/all-features/gamepad/)
+* [3D platformer gamepad mapper](/gdevelop5/all-features/gamepad/)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://3d-platformer){ .md-button .md-button--primary }
 
@@ -64,7 +64,7 @@ These behaviors make the character move according to player inputs automatically
 
 * [3D shooter keyboard mapper](/gdevelop5/extensions/physics-character3dkey-mapper) and [First person camera mouse mapper](/gdevelop5/extensions/mouse-pointer-lock/#first-person-camera-mouse-mapper)
 * [3D shooter multitouch controller mapper](/gdevelop5/objects/multitouch-joystick)
-* [3D platformer gamepad mapper](/gdevelop5/all-features/gamepad/)
+* [3D shooter gamepad mapper](/gdevelop5/all-features/gamepad/)
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://3d-first-person){ .md-button .md-button--primary }
 

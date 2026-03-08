@@ -83,7 +83,11 @@ The "gamma" rotation.
 
 ## Motion sensor
 
-In contrast to the orientation sensor which returns absolute values, the motion sensor delivers relative ones. This sensor only returns values while the device is moving. If you hold it still, no matter its orientation, the sensor will return 0. You can access the motion data along an axis via the "x", "y", "z" values and the rotation data around an axis via "alpha", "beta" and "gamma" which are explained in the next section.
+In contrast to the orientation sensor which returns absolute values, the motion sensor delivers relative ones. You can access the motion data along an axis via the "x", "y", "z" values and the rotation data around an axis via "alpha", "beta" and "gamma" which are explained in the next section.
+
+!!! note
+
+    The acceleration values include the effect of gravity. For example, a phone lying flat on a table will report approximately 9.8 m/s² on the Z-axis even when completely still.
 
 !!! note
 
@@ -125,7 +129,7 @@ This value shows the acceleration around the x-axis. If you hold your device in 
 
 ![](/gdevelop5/all-features/motion_gamma.png)
 
-This value shows the acceleration around the y-axis. If you hold your device in portrait mode with a hand on each side, you can turn your device around the y-axis and the beta value will increase.
+This value shows the acceleration around the y-axis. If you hold your device in portrait mode with a hand on each side, you can turn your device around the y-axis and the gamma value will increase.
 
 ### Conditions
 
@@ -147,15 +151,15 @@ This condition lets you compare the value of z-acceleration to a number or varia
 
 **Motion Alpha**
 
-This condition lets you compare the value of alpha to a number or variable. (m/s²)
+This condition lets you compare the rotation rate alpha to a number or variable. (°/s)
 
 **Motion Beta**
 
-This condition lets you compare the value of beta to a number or variable. (m/s²)
+This condition lets you compare the rotation rate beta to a number or variable. (°/s)
 
 **Motion Gamma**
 
-This condition lets you compare the value of gamma to a number or variable. (m/s²)
+This condition lets you compare the rotation rate gamma to a number or variable. (°/s)
 
 ### Actions
 
@@ -183,14 +187,14 @@ The "z" acceleration. (m/s²)
 
 **Alpha Value**
 
-The "alpha" rotation. (m/s²)
+The "alpha" rotation rate. (°/s)
 
 **Beta Value**
 
-The "beta" rotation. (m/s²)
+The "beta" rotation rate. (°/s)
 
 **Gamma Value**
 
-The "gamma" rotation. (m/s²)
+The "gamma" rotation rate. (°/s)
 
 ![](/gdevelop5/all-features/devicesensorsevents.png)
