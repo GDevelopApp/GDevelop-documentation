@@ -56,7 +56,7 @@ Here are a few best practices to work with the AI agent:
 - **Be highly specific in your instructions:** Describe what you want to create followed by how you'd like it to behave. Write as if you were explaining your idea to a developer who has never seen your game before. Use clear language, describe specific values, specify what you *want* to change and what you *do not* want to change.
 - **Plan your mechanics before asking the agent to build them:** Use the "[Ask](/gdevelop5/interface/ai/chat/)" mode to have the AI suggest a plan to implement. Chat with it to make sure it has understood your scope before switching to Build mode.
 - **Use one chat per task:** When you’ve finished an implementation task, start a new conversation. This keeps things focused and avoids confusing the AI with unrelated details.
-- **Keep an eye on what the AI is doing:** If the implementation plan starts going off-track, you can click the "Pause" button to stop the implementation process.
+- **Keep an eye on what the AI is doing:** If the implementation plan starts going off-track, you can click the **Stop** button to stop the implementation process.
 - **Expect variations:** Results may differ from one attempt to another. You can try to rephrase your requests for better outcomes. Feel free to document your used promts as well as their results to fine-tune your process.
 
 ## Cost of an AI request
