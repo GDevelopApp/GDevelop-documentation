@@ -68,6 +68,10 @@
     {
       "date": "2026-03-05",
       "summary": "Improved network docs: updated to async single-URL API, added HTTP methods, error variable, CORS warning, content type info, and Open URL action"
+    },
+    {
+      "date": "2026-03-09",
+      "summary": "Improved keyboard docs with missing 'Key just pressed' and 'Any key released' conditions, touch device warning, and full key names reference table; improved common-conversions docs with LargeNumberToString and JSON variable conversion features"
     }
   ]
 }
