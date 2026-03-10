@@ -158,8 +158,72 @@ The **max engine torque** allows to climb slopes faster.
 
 ## Concepts used in Physics
 
-This section is being written and will be available soon.
-In the meantime, you can refer to the descriptions for the [2D Physics Engine](/gdevelop5/behaviors/physics2/) as most concepts are the same.
+### World
+
+The world holds all physics bodies and defines the rules of the simulation. Every object with the **3D physics** behavior lives in this shared world.
+
+- **Gravity** has three components (X, Y, Z). In a typical 3D game, gravity pulls objects downward along the Z axis with a negative value. You can change the world gravity at runtime to create zero-gravity or anti-gravity effects.
+- **World scale** converts between pixels (used by GDevelop) and meters (used by the physics engine). A good starting point is to choose a scale so that dynamic objects are between 0.1 and 10 meters in size. For example, if your character is 100 pixels tall and represents a 1.8 m person, set the world scale to about `55`. Objects simulated far outside this range can lose precision.
+
+### Body Types
+
+- **Static**: Does not move from collisions or forces. Perfect for terrain, walls, and platforms.
+- **Dynamic**: Fully simulated — affected by gravity, forces, and collisions. Use this for any object that should move according to physics.
+- **Kinematic**: Moves only when its linear or angular velocity is set directly, not by external forces. Ideal for moving platforms, enemies following a path, or player-controlled characters that must interact with physics objects without being knocked away.
+
+### Collision Shapes
+
+The collision shape determines the geometry the physics engine uses for an object. It does not have to match the visible 3D model exactly — a simpler shape is often faster and more predictable.
+
+- **Box**: An axis-aligned rectangular box. Suitable for most objects. Automatically uses the object's size if no custom dimensions are set.
+- **Capsule**: A cylinder with rounded ends. Recommended for characters because it slides smoothly over slopes and steps without catching on edges.
+- **Sphere**: A perfectly round shape. Good for balls and small rolling objects.
+- **Cylinder**: A tube shape. Suitable for wheels, barrels, or pillars.
+- **Mesh** *(Static only)*: Uses the actual 3D model geometry as the collision shape. This is the most accurate option for irregular static terrain, but it only works with **Static** bodies.
+
+The **Shape orientation** property (X, Y, or Z) controls which axis the Capsule or Cylinder is aligned along. For example, a standing character typically uses Z orientation.
+
+!!! tip
+
+    For complex objects, use a hidden, simpler-shaped object with the physics behavior as a proxy, and attach the visible 3D model to it without physics.
+
+### Body Settings
+
+These properties control how a body behaves during the simulation:
+
+- **Density / Mass override**: Density determines mass relative to the object's volume. Use the **mass override** to set an exact mass in kilograms regardless of size, which is practical for cars or special objects.
+- **Friction**: How much objects resist sliding against each other when in contact. A higher value means more grip (like rubber on asphalt). When two objects touch, the combined friction is computed from both their values.
+- **Restitution**: The "bounciness." A value near 0 means objects won't bounce; near 1 means nearly elastic collisions.
+- **Linear Damping**: Slows down movement over time, simulating air resistance. Increase it to make objects come to rest more quickly.
+- **Angular Damping**: Slows down rotation over time. Increase it to prevent objects from spinning indefinitely.
+- **Gravity Scale**: Multiplies the world gravity for this specific object. Set it to `0` to make an object immune to gravity, `2` to make it fall twice as fast, or `-1` to make it float upward.
+- **Fixed Rotation**: When enabled, the object cannot rotate from collisions or forces. Useful for characters that should always stay upright.
+- **Bullet mode**: Enables continuous collision detection for fast-moving objects, reducing the chance of them passing through thin walls or floors.
+
+### Collision Layers & Masks
+
+Collision layers and masks let you control which objects can collide with each other, using the same system as the [2D Physics Engine](/gdevelop5/behaviors/physics2/).
+
+There are 16 layers and 16 masks. Two objects can collide only when **any layer of object A matches any mask of object B, *and* any layer of object B matches any mask of object A**.
+
+A common use is to prevent certain object types from interacting — for example, making enemies collide with the ground and the player, but not with each other.
+
+!!! note
+
+    Physics collision layers are entirely separate from the scene layers used to display objects.
+
+### Moving Objects
+
+Use physics-specific actions instead of the standard GDevelop movement actions:
+
+- **Forces**: Applied every frame to gradually accelerate an object in a direction. Forces are expressed in Newtons (N). You can apply them at a specific point on the object or at its center of mass to control whether rotation is also produced.
+- **Impulses**: Applied once to instantly change an object's speed. Useful for jumps, explosions, or projectile launches.
+- **Torques and angular impulses**: The rotational equivalents of forces and impulses. They spin an object around an axis.
+- **Setting velocity directly**: You can set the linear or angular velocity of an object directly. This is useful for Kinematic bodies or for precise movement control.
+
+!!! tip
+
+    To apply a force or impulse without causing any rotation, use the **at center** variants or apply the force at the object's `MassCenterX`, `MassCenterY`, `MassCenterZ` position.
 
 
 ## Reference
