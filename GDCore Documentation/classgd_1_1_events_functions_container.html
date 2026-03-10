@@ -131,9 +131,9 @@ std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <tr class="memitem:a0c266fe75a6760ff61591546b7563d54"><td class="memItemLeft" align="right" valign="top"><a id="a0c266fe75a6760ff61591546b7563d54"></a>
 <a class="el" href="classgd_1_1_events_function.html">gd::EventsFunction</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>InsertNewEventsFunction</b> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name, std::size_t position)</td></tr>
 <tr class="separator:a0c266fe75a6760ff61591546b7563d54"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7c7f8ea776cc7b7834459eafb527421"><td class="memItemLeft" align="right" valign="top"><a id="ad7c7f8ea776cc7b7834459eafb527421"></a>
-<a class="el" href="classgd_1_1_events_function.html">gd::EventsFunction</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>InsertEventsFunction</b> (const <a class="el" href="classgd_1_1_events_function.html">gd::EventsFunction</a> &amp;object, std::size_t position)</td></tr>
-<tr class="separator:ad7c7f8ea776cc7b7834459eafb527421"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3d43918f3a73c73c65b144e899d1b42"><td class="memItemLeft" align="right" valign="top"><a id="ac3d43918f3a73c73c65b144e899d1b42"></a>
+<a class="el" href="classgd_1_1_events_function.html">gd::EventsFunction</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>InsertEventsFunction</b> (const <a class="el" href="classgd_1_1_events_function.html">gd::EventsFunction</a> &amp;eventFunction, std::size_t position)</td></tr>
+<tr class="separator:ac3d43918f3a73c73c65b144e899d1b42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a349a312fca66a668967d9a5b34ab8215"><td class="memItemLeft" align="right" valign="top"><a id="a349a312fca66a668967d9a5b34ab8215"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>RemoveEventsFunction</b> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name)</td></tr>
 <tr class="separator:a349a312fca66a668967d9a5b34ab8215"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -154,6 +154,27 @@ const std::vector&lt; std::unique_ptr&lt; <a class="el" href="classgd_1_1_events
 std::vector&lt; std::unique_ptr&lt; <a class="el" href="classgd_1_1_events_function.html">gd::EventsFunction</a> &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_functions_container.html#a67718a840f69425fead54e26de80ff9d">GetInternalVector</a> ()</td></tr>
 <tr class="memdesc:a67718a840f69425fead54e26de80ff9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provide a raw access to the vector containing the functions. <br /></td></tr>
 <tr class="separator:a67718a840f69425fead54e26de80ff9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Folders management</div></td></tr>
+<tr class="memitem:abab056b5fda91f2475d1c889e6279205"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_events_function.html">gd::EventsFunction</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_functions_container.html#abab056b5fda91f2475d1c889e6279205">InsertNewEventsFunctionInFolder</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name, <a class="el" href="classgd_1_1_function_folder_or_function.html">gd::FunctionFolderOrFunction</a> &amp;functionFolderOrFunction, std::size_t position)</td></tr>
+<tr class="memdesc:abab056b5fda91f2475d1c889e6279205"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a new empty function called <em>name</em> in the given folder at the specified position.<br  />
+  <a href="classgd_1_1_events_functions_container.html#abab056b5fda91f2475d1c889e6279205">More...</a><br /></td></tr>
+<tr class="separator:abab056b5fda91f2475d1c889e6279205"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7d0ece94cd729a07617629251f99bbe"><td class="memItemLeft" align="right" valign="top">std::vector&lt; const <a class="el" href="classgd_1_1_function_folder_or_function.html">FunctionFolderOrFunction</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_functions_container.html#ac7d0ece94cd729a07617629251f99bbe">GetAllFunctionFolderOrFunction</a> () const</td></tr>
+<tr class="separator:ac7d0ece94cd729a07617629251f99bbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87802ddb3d184dae798c8cd55295e208"><td class="memItemLeft" align="right" valign="top"><a id="a87802ddb3d184dae798c8cd55295e208"></a>
+<a class="el" href="classgd_1_1_function_folder_or_function.html">gd::FunctionFolderOrFunction</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>GetRootFolder</b> ()</td></tr>
+<tr class="separator:a87802ddb3d184dae798c8cd55295e208"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5998433b1b21bd679e68c8562a9ee8d2"><td class="memItemLeft" align="right" valign="top"><a id="a5998433b1b21bd679e68c8562a9ee8d2"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>AddMissingFunctionsInRootFolder</b> ()</td></tr>
+<tr class="separator:a5998433b1b21bd679e68c8562a9ee8d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a5c43daa2dc7ca408f0caa1b979bf49"><td class="memItemLeft" align="right" valign="top"><a id="a1a5c43daa2dc7ca408f0caa1b979bf49"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_functions_container.html#a1a5c43daa2dc7ca408f0caa1b979bf49">SerializeFoldersTo</a> (<a class="el" href="classgd_1_1_serializer_element.html">SerializerElement</a> &amp;element) const</td></tr>
+<tr class="memdesc:a1a5c43daa2dc7ca408f0caa1b979bf49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serialize folder structure. <br /></td></tr>
+<tr class="separator:a1a5c43daa2dc7ca408f0caa1b979bf49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11f97e6a90156e80a1e8e3bf018b1286"><td class="memItemLeft" align="right" valign="top"><a id="a11f97e6a90156e80a1e8e3bf018b1286"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_functions_container.html#a11f97e6a90156e80a1e8e3bf018b1286">UnserializeFoldersFrom</a> (const <a class="el" href="classgd_1_1_serializer_element.html">SerializerElement</a> &amp;element)</td></tr>
+<tr class="memdesc:a11f97e6a90156e80a1e8e3bf018b1286"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unserialize folder structure. <br /></td></tr>
+<tr class="separator:a11f97e6a90156e80a1e8e3bf018b1286"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Serialization</div></td></tr>
 <tr class="memitem:a3813f04353e2dd588d30bde810d0322e"><td class="memItemLeft" align="right" valign="top"><a id="a3813f04353e2dd588d30bde810d0322e"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_functions_container.html#a3813f04353e2dd588d30bde810d0322e">SerializeEventsFunctionsTo</a> (<a class="el" href="classgd_1_1_serializer_element.html">SerializerElement</a> &amp;element) const</td></tr>
@@ -173,6 +194,24 @@ Protected Member Functions</h2></td></tr>
 <div class="textblock"><p>Used as a base class for classes that will own events-backed functions. </p>
 <dl class="section see"><dt>See also</dt><dd>gd::EventsFunctionContainer </dd></dl>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="ac7d0ece94cd729a07617629251f99bbe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7d0ece94cd729a07617629251f99bbe">&#9670;&nbsp;</a></span>GetAllFunctionFolderOrFunction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; const <a class="el" href="classgd_1_1_function_folder_or_function.html">FunctionFolderOrFunction</a> * &gt; gd::EventsFunctionsContainer::GetAllFunctionFolderOrFunction </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Returns a vector containing all object and folders in this container. Only use this for checking if you hold a valid <code><a class="el" href="classgd_1_1_function_folder_or_function.html" title="Class representing a folder structure in order to organize functions in folders (to be used with a Ev...">FunctionFolderOrFunction</a></code> - don't use this for rendering or anything else. </p>
+
+</div>
+</div>
 <a id="a3158706238a8c523c324086d0a2ecf24"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3158706238a8c523c324086d0a2ecf24">&#9670;&nbsp;</a></span>GetEventsFunction() <span class="overload">[1/4]</span></h2>
 
@@ -344,8 +383,47 @@ Protected Member Functions</h2></td></tr>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<a id="abab056b5fda91f2475d1c889e6279205"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abab056b5fda91f2475d1c889e6279205">&#9670;&nbsp;</a></span>InsertNewEventsFunctionInFolder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classgd_1_1_events_function.html">gd::EventsFunction</a> &amp; gd::EventsFunctionsContainer::InsertNewEventsFunctionInFolder </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classgd_1_1_function_folder_or_function.html">gd::FunctionFolderOrFunction</a> &amp;&#160;</td>
+          <td class="paramname"><em>functionFolderOrFunction</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>position</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Add a new empty function called <em>name</em> in the given folder at the specified position.<br  />
+ </p>
+<dl class="section return"><dt>Returns</dt><dd>A reference to the function in the list. </dd></dl>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="_events_functions_container_8h_source.html">EventsFunctionsContainer.h</a></li>
+<li>EventsFunctionsContainer.cpp</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

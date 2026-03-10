@@ -118,7 +118,7 @@ $(function() {
 <li>Insert()
 : <a class="el" href="classgd_1_1_object_groups_container.html#a8bf639d212fa044333e914d21115e8b4">gd::ObjectGroupsContainer</a>
 , <a class="el" href="classgd_1_1_serializable_with_name_list.html#a794e5785ab81ae94a24907e430dd7a31">gd::SerializableWithNameList&lt; T &gt;</a>
-, <a class="el" href="classgd_1_1_s_ptr_list.html#a9306c3c816ce12833b1a461961959f69">gd::SPtrList&lt; T &gt;</a>
+, <a class="el" href="classgd_1_1_s_ptr_list.html#a2135acf7100c3e817552da05fe266e46">gd::SPtrList&lt; T &gt;</a>
 </li>
 <li>insert()
 : <a class="el" href="classgd_1_1_string.html#ad60f544b2a03db4a75f3a4e9d3f69d4f">gd::String</a>
@@ -150,6 +150,9 @@ $(function() {
 <li>InsertExternalLayout()
 : <a class="el" href="classgd_1_1_project.html#a7a27818ab0a2c254c8c0009d98556544">gd::Project</a>
 </li>
+<li>InsertFunction()
+: <a class="el" href="classgd_1_1_function_folder_or_function.html#af7cba315f68c2a25eb1819d3bc503dcd">gd::FunctionFolderOrFunction</a>
+</li>
 <li>InsertInitialInstance()
 : <a class="el" href="classgd_1_1_initial_instances_container.html#a6a6df298dd8ce63000de3a4dbfee9703">gd::InitialInstancesContainer</a>
 </li>
@@ -171,6 +174,9 @@ $(function() {
 <li>InsertNewEvent()
 : <a class="el" href="classgd_1_1_events_list.html#ac6b11e2de96e70ee5e135e64e945f821">gd::EventsList</a>
 </li>
+<li>InsertNewEventsFunctionInFolder()
+: <a class="el" href="classgd_1_1_events_functions_container.html#abab056b5fda91f2475d1c889e6279205">gd::EventsFunctionsContainer</a>
+</li>
 <li>InsertNewEventsFunctionsExtension()
 : <a class="el" href="classgd_1_1_project.html#a4ad8bd03b2d70056eb7f3badf6d29502">gd::Project</a>
 </li>
@@ -181,7 +187,8 @@ $(function() {
 : <a class="el" href="classgd_1_1_project.html#a336056c4ddba168f580e424ad0f6d714">gd::Project</a>
 </li>
 <li>InsertNewFolder()
-: <a class="el" href="classgd_1_1_object_folder_or_object.html#ac367b7ef848904abee67ffee3949ad9f">gd::ObjectFolderOrObject</a>
+: <a class="el" href="classgd_1_1_function_folder_or_function.html#aa809161d72b0a22d6caa5037903ae9d9">gd::FunctionFolderOrFunction</a>
+, <a class="el" href="classgd_1_1_object_folder_or_object.html#ac367b7ef848904abee67ffee3949ad9f">gd::ObjectFolderOrObject</a>
 , <a class="el" href="classgd_1_1_property_folder_or_property.html#ab885fc3997d3afbecc19b70391270a64">gd::PropertyFolderOrProperty</a>
 </li>
 <li>InsertNewInitialInstance()
@@ -229,7 +236,8 @@ $(function() {
 : <a class="el" href="classgd_1_1_behavior_metadata.html#a1fbcc39d63667182fa35ba7936d482ce">gd::BehaviorMetadata</a>
 </li>
 <li>IsADescendantOf()
-: <a class="el" href="classgd_1_1_object_folder_or_object.html#ae67fa0d294e0f89c74fe71e7725713a0">gd::ObjectFolderOrObject</a>
+: <a class="el" href="classgd_1_1_function_folder_or_function.html#a0daa404653a7464c59f6b29aaaf33ad3">gd::FunctionFolderOrFunction</a>
+, <a class="el" href="classgd_1_1_object_folder_or_object.html#ae67fa0d294e0f89c74fe71e7725713a0">gd::ObjectFolderOrObject</a>
 , <a class="el" href="classgd_1_1_property_folder_or_property.html#ac9e1cb2d99f0994239523b35641377c4">gd::PropertyFolderOrProperty</a>
 </li>
 <li>IsAdvanced()
@@ -347,7 +355,8 @@ $(function() {
 , <a class="el" href="classgd_1_1_variable.html#a520e255c8871a28422cf9e0a086c6e40">gd::Variable</a>
 </li>
 <li>IsFolder()
-: <a class="el" href="classgd_1_1_object_folder_or_object.html#ac6de636c104cf065e9634fc5c6f33932">gd::ObjectFolderOrObject</a>
+: <a class="el" href="classgd_1_1_function_folder_or_function.html#ad544dbcf8d8cd0f787464154d8a0f9a9">gd::FunctionFolderOrFunction</a>
+, <a class="el" href="classgd_1_1_object_folder_or_object.html#ac6de636c104cf065e9634fc5c6f33932">gd::ObjectFolderOrObject</a>
 , <a class="el" href="classgd_1_1_property_folder_or_property.html#a5bdd37639efbf71c019b13985c7383bd">gd::PropertyFolderOrProperty</a>
 </li>
 <li>IsFolderProject()
@@ -513,7 +522,8 @@ $(function() {
 : <a class="el" href="classgd_1_1_value_type_metadata.html#a43d385a909c568d74313f8af1139fcf4">gd::ValueTypeMetadata</a>
 </li>
 <li>IsRootFolder()
-: <a class="el" href="classgd_1_1_object_folder_or_object.html#a3685736bc5330f8930e6c5493e5248be">gd::ObjectFolderOrObject</a>
+: <a class="el" href="classgd_1_1_function_folder_or_function.html#a30bc2087a66c72fd8995899833598048">gd::FunctionFolderOrFunction</a>
+, <a class="el" href="classgd_1_1_object_folder_or_object.html#a3685736bc5330f8930e6c5493e5248be">gd::ObjectFolderOrObject</a>
 , <a class="el" href="classgd_1_1_property_folder_or_property.html#a0e95adfb43fc3379da16a75f81b8ebf8">gd::PropertyFolderOrProperty</a>
 </li>
 <li>IsSameObjectsList()

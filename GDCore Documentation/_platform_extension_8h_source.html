@@ -455,65 +455,67 @@ $(function() {
 <div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160; </div>
 <div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;  <span class="keyword">static</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> GetObjectNameFromFullObjectType(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; type);</div>
 <div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160; </div>
-<div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160; <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;  <span class="keywordtype">void</span> SetNameSpace(<a class="code" href="classgd_1_1_string.html">gd::String</a> nameSpace_);</div>
-<div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160; </div>
-<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> name;  </div>
-<div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a></div>
-<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;      nameSpace;  </div>
-<div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> fullname;      </div>
-<div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> informations;  </div>
-<div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> shortDescription;  </div>
-<div class="line"><a name="l00729"></a><span class="lineno">  729</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> dimension;  </div>
-<div class="line"><a name="l00730"></a><span class="lineno">  730</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> category;</div>
-<div class="line"><a name="l00731"></a><span class="lineno">  731</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> author;   </div>
-<div class="line"><a name="l00732"></a><span class="lineno">  732</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> license;  </div>
-<div class="line"><a name="l00733"></a><span class="lineno">  733</span>&#160;  <span class="keywordtype">bool</span> deprecated;     </div>
-<div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> helpPath;  </div>
-<div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> iconUrl;   </div>
-<div class="line"><a name="l00738"></a><span class="lineno">  738</span>&#160;  std::vector&lt;gd::String&gt; tags;</div>
-<div class="line"><a name="l00739"></a><span class="lineno">  739</span>&#160; </div>
-<div class="line"><a name="l00740"></a><span class="lineno">  740</span>&#160;  std::map&lt;gd::String, gd::ObjectMetadata&gt; objectsInfos;</div>
-<div class="line"><a name="l00741"></a><span class="lineno">  741</span>&#160;  std::map&lt;gd::String, gd::BehaviorMetadata&gt; behaviorsInfo;</div>
-<div class="line"><a name="l00742"></a><span class="lineno">  742</span>&#160;  std::map&lt;gd::String, gd::EffectMetadata&gt; effectsMetadata;</div>
-<div class="line"><a name="l00743"></a><span class="lineno">  743</span>&#160;  std::map&lt;gd::String, gd::InstructionMetadata&gt; conditionsInfos;</div>
-<div class="line"><a name="l00744"></a><span class="lineno">  744</span>&#160;  std::map&lt;gd::String, gd::InstructionMetadata&gt; actionsInfos;</div>
-<div class="line"><a name="l00745"></a><span class="lineno">  745</span>&#160;  std::map&lt;gd::String, gd::ExpressionMetadata&gt; expressionsInfos;</div>
-<div class="line"><a name="l00746"></a><span class="lineno">  746</span>&#160;  std::map&lt;gd::String, gd::ExpressionMetadata&gt; strExpressionsInfos;</div>
-<div class="line"><a name="l00747"></a><span class="lineno">  747</span>&#160;  std::vector&lt;gd::DependencyMetadata&gt; extensionDependenciesMetadata;</div>
-<div class="line"><a name="l00748"></a><span class="lineno">  748</span>&#160;  std::vector&lt;gd::SourceFileMetadata&gt; extensionSourceFilesMetadata;</div>
-<div class="line"><a name="l00749"></a><span class="lineno">  749</span>&#160;  std::map&lt;gd::String, gd::EventMetadata&gt; eventsInfos;</div>
-<div class="line"><a name="l00750"></a><span class="lineno">  750</span>&#160;  std::map&lt;gd::String, gd::PropertyDescriptor&gt; extensionPropertiesMetadata;</div>
-<div class="line"><a name="l00751"></a><span class="lineno">  751</span>&#160;  std::map&lt;gd::String, InstructionOrExpressionGroupMetadata&gt;</div>
-<div class="line"><a name="l00752"></a><span class="lineno">  752</span>&#160;      instructionOrExpressionGroupMetadata;</div>
-<div class="line"><a name="l00753"></a><span class="lineno">  753</span>&#160;  std::vector&lt;gd::InGameEditorResourceMetadata&gt; inGameEditorResources;</div>
-<div class="line"><a name="l00754"></a><span class="lineno">  754</span>&#160; </div>
-<div class="line"><a name="l00755"></a><span class="lineno">  755</span>&#160;  <a class="code" href="classgd_1_1_object_metadata.html">ObjectMetadata</a> badObjectMetadata;</div>
-<div class="line"><a name="l00756"></a><span class="lineno">  756</span>&#160;  <a class="code" href="classgd_1_1_behavior_metadata.html">BehaviorMetadata</a> badBehaviorMetadata;</div>
-<div class="line"><a name="l00757"></a><span class="lineno">  757</span>&#160;  <a class="code" href="classgd_1_1_effect_metadata.html">EffectMetadata</a> badEffectMetadata;</div>
-<div class="line"><a name="l00758"></a><span class="lineno">  758</span>&#160;  <span class="keyword">static</span> std::map&lt;gd::String, gd::InstructionMetadata&gt;</div>
-<div class="line"><a name="l00759"></a><span class="lineno">  759</span>&#160;      badConditionsMetadata;  </div>
-<div class="line"><a name="l00761"></a><span class="lineno">  761</span>&#160;  <span class="keyword">static</span> std::map&lt;gd::String, gd::InstructionMetadata&gt;</div>
-<div class="line"><a name="l00762"></a><span class="lineno">  762</span>&#160;      badActionsMetadata;  </div>
-<div class="line"><a name="l00764"></a><span class="lineno">  764</span>&#160;  <span class="keyword">static</span> std::map&lt;gd::String, gd::ExpressionMetadata&gt;</div>
-<div class="line"><a name="l00765"></a><span class="lineno">  765</span>&#160;      badExpressionsMetadata;  </div>
-<div class="line"><a name="l00767"></a><span class="lineno">  767</span>&#160;};</div>
-<div class="line"><a name="l00768"></a><span class="lineno">  768</span>&#160; </div>
-<div class="line"><a name="l00769"></a><span class="lineno">  769</span>&#160;}  <span class="comment">// namespace gd</span></div>
-<div class="line"><a name="l00770"></a><span class="lineno">  770</span>&#160; </div>
-<div class="line"><a name="l00774"></a><span class="lineno">  774</span>&#160;<span class="preprocessor">#define GD_COMPLETE_EXTENSION_COMPILATION_INFORMATION() \</span></div>
-<div class="line"><a name="l00775"></a><span class="lineno">  775</span>&#160;<span class="preprocessor">  compilationInfo.runtimeOnly = false;                  \</span></div>
-<div class="line"><a name="l00776"></a><span class="lineno">  776</span>&#160;<span class="preprocessor">  compilationInfo.sfmlMajorVersion = 2;                 \</span></div>
-<div class="line"><a name="l00777"></a><span class="lineno">  777</span>&#160;<span class="preprocessor">  compilationInfo.sfmlMinorVersion = 0;                 \</span></div>
-<div class="line"><a name="l00778"></a><span class="lineno">  778</span>&#160;<span class="preprocessor">  compilationInfo.gdCoreVersion = GD_VERSION_STRING;    \</span></div>
-<div class="line"><a name="l00779"></a><span class="lineno">  779</span>&#160;<span class="preprocessor">  compilationInfo.sizeOfpInt = sizeof(int*);            \</span></div>
-<div class="line"><a name="l00780"></a><span class="lineno">  780</span>&#160;<span class="preprocessor">  compilationInfo.gccMajorVersion = __GNUC__;           \</span></div>
-<div class="line"><a name="l00781"></a><span class="lineno">  781</span>&#160;<span class="preprocessor">  compilationInfo.gccMinorVersion = __GNUC_MINOR__;     \</span></div>
-<div class="line"><a name="l00782"></a><span class="lineno">  782</span>&#160;<span class="preprocessor">  compilationInfo.gccPatchLevel = __GNUC_PATCHLEVEL__;  \</span></div>
-<div class="line"><a name="l00783"></a><span class="lineno">  783</span>&#160;<span class="preprocessor">  compilationInfo.informationCompleted = true;</span></div>
-<div class="line"><a name="l00784"></a><span class="lineno">  784</span>&#160; </div>
-<div class="line"><a name="l00785"></a><span class="lineno">  785</span>&#160;<span class="preprocessor">#include &quot;GDCore/Extensions/PlatformExtension.inl&quot;</span></div>
-<div class="ttc" id="aclassgd_1_1_behavior_html"><div class="ttname"><a href="classgd_1_1_behavior.html">gd::Behavior</a></div><div class="ttdoc">Base class used to represents a behavior that can be applied to an object. It stores the content (i....</div><div class="ttdef"><b>Definition:</b> Behavior.h:23</div></div>
+<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;  <span class="keyword">static</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> GetInstructionNameFromFullType(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; type);</div>
+<div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160; </div>
+<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160; <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160;  <span class="keywordtype">void</span> SetNameSpace(<a class="code" href="classgd_1_1_string.html">gd::String</a> nameSpace_);</div>
+<div class="line"><a name="l00729"></a><span class="lineno">  729</span>&#160; </div>
+<div class="line"><a name="l00730"></a><span class="lineno">  730</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> name;  </div>
+<div class="line"><a name="l00731"></a><span class="lineno">  731</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a></div>
+<div class="line"><a name="l00732"></a><span class="lineno">  732</span>&#160;      nameSpace;  </div>
+<div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> fullname;      </div>
+<div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> informations;  </div>
+<div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> shortDescription;  </div>
+<div class="line"><a name="l00738"></a><span class="lineno">  738</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> dimension;  </div>
+<div class="line"><a name="l00739"></a><span class="lineno">  739</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> category;</div>
+<div class="line"><a name="l00740"></a><span class="lineno">  740</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> author;   </div>
+<div class="line"><a name="l00741"></a><span class="lineno">  741</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> license;  </div>
+<div class="line"><a name="l00742"></a><span class="lineno">  742</span>&#160;  <span class="keywordtype">bool</span> deprecated;     </div>
+<div class="line"><a name="l00744"></a><span class="lineno">  744</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> helpPath;  </div>
+<div class="line"><a name="l00746"></a><span class="lineno">  746</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> iconUrl;   </div>
+<div class="line"><a name="l00747"></a><span class="lineno">  747</span>&#160;  std::vector&lt;gd::String&gt; tags;</div>
+<div class="line"><a name="l00748"></a><span class="lineno">  748</span>&#160; </div>
+<div class="line"><a name="l00749"></a><span class="lineno">  749</span>&#160;  std::map&lt;gd::String, gd::ObjectMetadata&gt; objectsInfos;</div>
+<div class="line"><a name="l00750"></a><span class="lineno">  750</span>&#160;  std::map&lt;gd::String, gd::BehaviorMetadata&gt; behaviorsInfo;</div>
+<div class="line"><a name="l00751"></a><span class="lineno">  751</span>&#160;  std::map&lt;gd::String, gd::EffectMetadata&gt; effectsMetadata;</div>
+<div class="line"><a name="l00752"></a><span class="lineno">  752</span>&#160;  std::map&lt;gd::String, gd::InstructionMetadata&gt; conditionsInfos;</div>
+<div class="line"><a name="l00753"></a><span class="lineno">  753</span>&#160;  std::map&lt;gd::String, gd::InstructionMetadata&gt; actionsInfos;</div>
+<div class="line"><a name="l00754"></a><span class="lineno">  754</span>&#160;  std::map&lt;gd::String, gd::ExpressionMetadata&gt; expressionsInfos;</div>
+<div class="line"><a name="l00755"></a><span class="lineno">  755</span>&#160;  std::map&lt;gd::String, gd::ExpressionMetadata&gt; strExpressionsInfos;</div>
+<div class="line"><a name="l00756"></a><span class="lineno">  756</span>&#160;  std::vector&lt;gd::DependencyMetadata&gt; extensionDependenciesMetadata;</div>
+<div class="line"><a name="l00757"></a><span class="lineno">  757</span>&#160;  std::vector&lt;gd::SourceFileMetadata&gt; extensionSourceFilesMetadata;</div>
+<div class="line"><a name="l00758"></a><span class="lineno">  758</span>&#160;  std::map&lt;gd::String, gd::EventMetadata&gt; eventsInfos;</div>
+<div class="line"><a name="l00759"></a><span class="lineno">  759</span>&#160;  std::map&lt;gd::String, gd::PropertyDescriptor&gt; extensionPropertiesMetadata;</div>
+<div class="line"><a name="l00760"></a><span class="lineno">  760</span>&#160;  std::map&lt;gd::String, InstructionOrExpressionGroupMetadata&gt;</div>
+<div class="line"><a name="l00761"></a><span class="lineno">  761</span>&#160;      instructionOrExpressionGroupMetadata;</div>
+<div class="line"><a name="l00762"></a><span class="lineno">  762</span>&#160;  std::vector&lt;gd::InGameEditorResourceMetadata&gt; inGameEditorResources;</div>
+<div class="line"><a name="l00763"></a><span class="lineno">  763</span>&#160; </div>
+<div class="line"><a name="l00764"></a><span class="lineno">  764</span>&#160;  <a class="code" href="classgd_1_1_object_metadata.html">ObjectMetadata</a> badObjectMetadata;</div>
+<div class="line"><a name="l00765"></a><span class="lineno">  765</span>&#160;  <a class="code" href="classgd_1_1_behavior_metadata.html">BehaviorMetadata</a> badBehaviorMetadata;</div>
+<div class="line"><a name="l00766"></a><span class="lineno">  766</span>&#160;  <a class="code" href="classgd_1_1_effect_metadata.html">EffectMetadata</a> badEffectMetadata;</div>
+<div class="line"><a name="l00767"></a><span class="lineno">  767</span>&#160;  <span class="keyword">static</span> std::map&lt;gd::String, gd::InstructionMetadata&gt;</div>
+<div class="line"><a name="l00768"></a><span class="lineno">  768</span>&#160;      badConditionsMetadata;  </div>
+<div class="line"><a name="l00770"></a><span class="lineno">  770</span>&#160;  <span class="keyword">static</span> std::map&lt;gd::String, gd::InstructionMetadata&gt;</div>
+<div class="line"><a name="l00771"></a><span class="lineno">  771</span>&#160;      badActionsMetadata;  </div>
+<div class="line"><a name="l00773"></a><span class="lineno">  773</span>&#160;  <span class="keyword">static</span> std::map&lt;gd::String, gd::ExpressionMetadata&gt;</div>
+<div class="line"><a name="l00774"></a><span class="lineno">  774</span>&#160;      badExpressionsMetadata;  </div>
+<div class="line"><a name="l00776"></a><span class="lineno">  776</span>&#160;};</div>
+<div class="line"><a name="l00777"></a><span class="lineno">  777</span>&#160; </div>
+<div class="line"><a name="l00778"></a><span class="lineno">  778</span>&#160;}  <span class="comment">// namespace gd</span></div>
+<div class="line"><a name="l00779"></a><span class="lineno">  779</span>&#160; </div>
+<div class="line"><a name="l00783"></a><span class="lineno">  783</span>&#160;<span class="preprocessor">#define GD_COMPLETE_EXTENSION_COMPILATION_INFORMATION() \</span></div>
+<div class="line"><a name="l00784"></a><span class="lineno">  784</span>&#160;<span class="preprocessor">  compilationInfo.runtimeOnly = false;                  \</span></div>
+<div class="line"><a name="l00785"></a><span class="lineno">  785</span>&#160;<span class="preprocessor">  compilationInfo.sfmlMajorVersion = 2;                 \</span></div>
+<div class="line"><a name="l00786"></a><span class="lineno">  786</span>&#160;<span class="preprocessor">  compilationInfo.sfmlMinorVersion = 0;                 \</span></div>
+<div class="line"><a name="l00787"></a><span class="lineno">  787</span>&#160;<span class="preprocessor">  compilationInfo.gdCoreVersion = GD_VERSION_STRING;    \</span></div>
+<div class="line"><a name="l00788"></a><span class="lineno">  788</span>&#160;<span class="preprocessor">  compilationInfo.sizeOfpInt = sizeof(int*);            \</span></div>
+<div class="line"><a name="l00789"></a><span class="lineno">  789</span>&#160;<span class="preprocessor">  compilationInfo.gccMajorVersion = __GNUC__;           \</span></div>
+<div class="line"><a name="l00790"></a><span class="lineno">  790</span>&#160;<span class="preprocessor">  compilationInfo.gccMinorVersion = __GNUC_MINOR__;     \</span></div>
+<div class="line"><a name="l00791"></a><span class="lineno">  791</span>&#160;<span class="preprocessor">  compilationInfo.gccPatchLevel = __GNUC_PATCHLEVEL__;  \</span></div>
+<div class="line"><a name="l00792"></a><span class="lineno">  792</span>&#160;<span class="preprocessor">  compilationInfo.informationCompleted = true;</span></div>
+<div class="line"><a name="l00793"></a><span class="lineno">  793</span>&#160; </div>
+<div class="line"><a name="l00794"></a><span class="lineno">  794</span>&#160;<span class="preprocessor">#include &quot;GDCore/Extensions/PlatformExtension.inl&quot;</span></div>
+<div class="ttc" id="aclassgd_1_1_behavior_html"><div class="ttname"><a href="classgd_1_1_behavior.html">gd::Behavior</a></div><div class="ttdoc">Base class used to represents a behavior that can be applied to an object. It stores the content (i....</div><div class="ttdef"><b>Definition:</b> Behavior.h:24</div></div>
 <div class="ttc" id="aclassgd_1_1_behavior_metadata_html"><div class="ttname"><a href="classgd_1_1_behavior_metadata.html">gd::BehaviorMetadata</a></div><div class="ttdoc">Contains user-friendly information about a behavior type.</div><div class="ttdef"><b>Definition:</b> BehaviorMetadata.h:32</div></div>
 <div class="ttc" id="aclassgd_1_1_behaviors_shared_data_html"><div class="ttname"><a href="classgd_1_1_behaviors_shared_data.html">gd::BehaviorsSharedData</a></div><div class="ttdoc">Base class for defining data shared by behaviors having the same type and name.</div><div class="ttdef"><b>Definition:</b> BehaviorsSharedData.h:23</div></div>
 <div class="ttc" id="aclassgd_1_1_compilation_info_html"><div class="ttname"><a href="classgd_1_1_compilation_info.html">gd::CompilationInfo</a></div><div class="ttdoc">Class used by gd::PlatformExtension to ensure that an extension is compiled against the right version...</div><div class="ttdef"><b>Definition:</b> PlatformExtension.h:52</div></div>

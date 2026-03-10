@@ -85,8 +85,8 @@ $(function() {
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a5819c66c3bae94d3fdbcaf0dc6e9936e"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_refactorer.html#a5819c66c3bae94d3fdbcaf0dc6e9936e">RenameObjectInEvents</a> (const <a class="el" href="classgd_1_1_platform.html">gd::Platform</a> &amp;platform, const <a class="el" href="classgd_1_1_project_scoped_containers.html">gd::ProjectScopedContainers</a> &amp;projectScopedContainers, <a class="el" href="classgd_1_1_events_list.html">gd::EventsList</a> &amp;events, const <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;targetedObjectsContainer, <a class="el" href="classgd_1_1_string.html">gd::String</a> oldName, <a class="el" href="classgd_1_1_string.html">gd::String</a> newName)</td></tr>
 <tr class="separator:a5819c66c3bae94d3fdbcaf0dc6e9936e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee6b00c825ec51738f2837b5fa4679c9"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; <a class="el" href="classgd_1_1_events_search_result.html">EventsSearchResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_refactorer.html#aee6b00c825ec51738f2837b5fa4679c9">SearchInEvents</a> (const <a class="el" href="classgd_1_1_platform.html">gd::Platform</a> &amp;platform, <a class="el" href="classgd_1_1_events_list.html">gd::EventsList</a> &amp;events, <a class="el" href="classgd_1_1_string.html">gd::String</a> search, bool matchCase, bool inConditions, bool inActions, bool inEventStrings, bool inEventSentences)</td></tr>
-<tr class="separator:aee6b00c825ec51738f2837b5fa4679c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf1170df10bb7a8d6d5a814913ad0639"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; <a class="el" href="classgd_1_1_events_search_result.html">EventsSearchResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_refactorer.html#adf1170df10bb7a8d6d5a814913ad0639">SearchInEvents</a> (const <a class="el" href="classgd_1_1_platform.html">gd::Platform</a> &amp;platform, <a class="el" href="classgd_1_1_events_list.html">gd::EventsList</a> &amp;events, <a class="el" href="classgd_1_1_string.html">gd::String</a> search, bool matchCase, bool inConditions, bool inActions, bool inEventStrings, bool inEventSentences, bool inInstructionNames=false)</td></tr>
+<tr class="separator:adf1170df10bb7a8d6d5a814913ad0639"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9076920a24754c210a88d3190b5f3c80"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; <a class="el" href="classgd_1_1_events_search_result.html">EventsSearchResult</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_refactorer.html#a9076920a24754c210a88d3190b5f3c80">ReplaceStringInEvents</a> (<a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;project, <a class="el" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a> &amp;layout, <a class="el" href="classgd_1_1_events_list.html">gd::EventsList</a> &amp;events, <a class="el" href="classgd_1_1_string.html">gd::String</a> toReplace, <a class="el" href="classgd_1_1_string.html">gd::String</a> newString, bool matchCase, bool inConditions, bool inActions, bool inEventString)</td></tr>
 <tr class="separator:a9076920a24754c210a88d3190b5f3c80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -236,8 +236,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="aee6b00c825ec51738f2837b5fa4679c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aee6b00c825ec51738f2837b5fa4679c9">&#9670;&nbsp;</a></span>SearchInEvents()</h2>
+<a id="adf1170df10bb7a8d6d5a814913ad0639"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf1170df10bb7a8d6d5a814913ad0639">&#9670;&nbsp;</a></span>SearchInEvents()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -291,7 +291,13 @@ Static Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>inEventSentences</em>&#160;</td>
+          <td class="paramname"><em>inEventSentences</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>inInstructionNames</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
