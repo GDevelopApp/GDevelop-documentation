@@ -123,7 +123,17 @@ Any change can be undone or redone with these buttons toolbar buttons. (or by us
 ## Search in events
 The "search in events" button opens a panel at the bottom of the screen. You can search for a specific term in the parameters of the conditions and actions. You can also enter a replacement parameter and replace all the occurrences of the text in the events.
 
+The search panel includes several options to refine your search:
+- **In conditions / In actions** – search inside condition and action parameters.
+- **In event strings** – search inside string literals used in events.
+- **In event sentences** – search the human-readable sentences shown for each instruction.
+- **In instruction names** – search by the internal (technical) name of a condition or action, which is useful to locate a specific instruction across your events.
+
 ![](/gdevelop5/interface/events-editor/pasted/20230313-184033.png)
+
+## Global Search
+
+The **Global Search** lets you search across all Events Sheets in your project at once, including those inside extensions. Open it from the **Edit** menu or with the keyboard shortcut. Results are grouped by scene, external events, and extension, so you can quickly jump to any matching event across your entire project.
 
 ## Diagnostic Report
 
