@@ -353,7 +353,7 @@ An animated 3D model, useful for most elements of a 3D game.
 
 ### Object properties
 
-- **Center point** (choice, one of: "ModelOrigin", "ObjectCenter", "BottomCenterZ", "BottomCenterY"). Default value is `ModelOrigin`.
+- **Center point** (choice, one of: "ModelOrigin", "ObjectCenter", "CenteredOnZ", "BottomCenterZ", "BottomCenterY"). Default value is `CenteredOnZ`.
 - **Crossfade duration** (🔢 Number, Duration). Default value is `0.10000000149011612`.
 - **Depth** (🔢 Number, Distance). Default value is `100`.
 - **Height** (🔢 Number, Distance). Default value is `100`.
@@ -371,7 +371,7 @@ An animated 3D model, useful for most elements of a 3D game.
 ??? quote "See internal technical details"
 
 
-    - **Center point** is stored as `centerLocation` (choice). Default value is `ModelOrigin`.
+    - **Center point** is stored as `centerLocation` (choice). Default value is `CenteredOnZ`.
     - **Crossfade duration** is stored as `crossfadeDuration` (number). Unit is Second. Default value is `0.10000000149011612`.
     - **Depth** is stored as `depth` (number). Unit is Pixel. Default value is `100`.
     - **Height** is stored as `height` (number). Unit is Pixel. Default value is `100`.
