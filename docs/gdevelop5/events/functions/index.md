@@ -29,6 +29,10 @@ By default, extensions don't have any function. Add one by clicking on the "+" b
 
 ![](empty-extension.png)
 
+### Organize functions with folders
+
+When an extension has many functions, you can group them into **folders** to keep the list tidy. Right-click in the functions list and choose **Add a folder**, then drag functions into it. Folder names cannot contain `/`.
+
 A new function is added, it's time to give it a name. By convention:
 
 - actions start with a verb for instance `Jump`
