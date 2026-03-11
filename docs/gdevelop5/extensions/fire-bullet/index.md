@@ -43,11 +43,11 @@ Fire bullets with built-in cooldown, ammo, reloading, and overheating. Once adde
 - **Reload automatically** (🔘 Boolean). Default value is `true`.
 - **Number of bullets created at once** (🔢 Number). Multi-Fire bullets will be evenly spaced inside the firing arc. Default value is `1`.
 - **Bullet speed variance** (🔢 Number, Speed). Bullet speed will be adjusted by a random value within this range. Default value is `0`.
-- **Exponential cooling rate (per second)** (🔢 Number). Happens faster when heat is high and slower when heat is low. Default value is `0.29999999999999999`.
-- **Firing cooldown** (🔢 Number, Duration). Objects cannot shoot while firing cooldown is active. Default value is `0.10000000000000001`.
+- **Exponential cooling rate (per second)** (🔢 Number). Happens faster when heat is high and slower when heat is low. Default value is `0.3`.
+- **Firing cooldown** (🔢 Number, Duration). Objects cannot shoot while firing cooldown is active. Default value is `0.1`.
 - **Firing arc** (🔢 Number, Angle). Multi-Fire bullets will be evenly spaced inside the firing arc. Default value is `45`.
 - **Heat increase per shot (between 0 and 1)** (🔢 Number). Object is overheated when Heat reaches 1. Default value is `0`.
-- **Linear cooling rate (per second)** (🔢 Number). Default value is `0.10000000000000001`.
+- **Linear cooling rate (per second)** (🔢 Number). Default value is `0.1`.
 - **Max ammo ** (🔢 Number). Default value is `0`.
 - **Overheat duration** (🔢 Number, Duration). Object cannot shoot while overheat duration is active. Default value is `0`.
 - **Reloading duration** (🔢 Number, Duration). Objects cannot shoot while reloading is in progress. Default value is `1`.
@@ -63,11 +63,11 @@ Fire bullets with built-in cooldown, ammo, reloading, and overheating. Once adde
     - **Reload automatically** is stored as `AutomaticReloading` (Boolean). Default value is `true`.
     - **Number of bullets created at once** is stored as `BulletQuantity` (Number). Default value is `1`.
     - **Bullet speed variance** is stored as `BulletSpeedVariance` (Number). Unit is PixelSpeed. Default value is `0`.
-    - **Exponential cooling rate (per second)** is stored as `ExponentialCoolingRate` (Number). Default value is `0.29999999999999999`.
-    - **Firing cooldown** is stored as `FireCooldown` (Number). Unit is Second. Default value is `0.10000000000000001`.
+    - **Exponential cooling rate (per second)** is stored as `ExponentialCoolingRate` (Number). Default value is `0.3`.
+    - **Firing cooldown** is stored as `FireCooldown` (Number). Unit is Second. Default value is `0.1`.
     - **Firing arc** is stored as `FiringArc` (Number). Unit is DegreeAngle. Default value is `45`.
     - **Heat increase per shot (between 0 and 1)** is stored as `HeatIncreasePerShot` (Number). Default value is `0`.
-    - **Linear cooling rate (per second)** is stored as `LinearCoolingRate` (Number). Default value is `0.10000000000000001`.
+    - **Linear cooling rate (per second)** is stored as `LinearCoolingRate` (Number). Default value is `0.1`.
     - **Max ammo ** is stored as `MaxAmmo` (Number). Default value is `0`.
     - **Overheat duration** is stored as `OverheatDuration` (Number). Unit is Second. Default value is `0`.
     - **Reloading duration** is stored as `ReloadDuration` (Number). Unit is Second. Default value is `1`.

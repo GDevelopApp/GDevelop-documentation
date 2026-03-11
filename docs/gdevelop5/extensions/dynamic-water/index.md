@@ -38,18 +38,18 @@ Easily create a realistic liquid surface simulation.
 - **Body opacity** (🔢 Number). Default value is `100`.
 - **ColorOfColumns** (🎨 Color). Default value is `255;255;255`.
 - **The number of columns (springs) extended on the water surface ** (🔢 Number). Default value is `50`.
-- **The Damping value. Controls how fast the springs will return to their original position** (🔢 Number). Default value is `0.025000000000000001`.
+- **The Damping value. Controls how fast the springs will return to their original position** (🔢 Number). Default value is `0.025`.
 - **Show the spring columns** (🔘 Boolean). Default value is `false`.
-- **The Spread value will dictacte how much a wave oscilliation wil pass onto their neighboors. BEWARE, super high values may make the water oscilliate forever !** (🔢 Number). Default value is `0.10000000000000001`.
+- **The Spread value will dictacte how much a wave oscilliation wil pass onto their neighboors. BEWARE, super high values may make the water oscilliate forever !** (🔢 Number). Default value is `0.1`.
 - **SufaceOpacity** (🔢 Number). Default value is `100`.
 - **SurfaceColor** (🎨 Color). Default value is `107;165;233`.
 - **SurfaceSize** (🔢 Number). Default value is `1`.
-- **The water spring constant. Grater values will pull the water with greater force.** (🔢 Number). Default value is `0.025000000000000001`.
+- **The water spring constant. Grater values will pull the water with greater force.** (🔢 Number). Default value is `0.025`.
 - **Thickness of the surface collision** (🔢 Number). Default value is `8`.
 - **WaveDirection** (Choice, one of: "Right", "Left"). Default value is `Right`.
 - **Wave length, the smaller the value, the longer the wave** (🔢 Number). Default value is `0.5`.
 - **Wave magnitude, in pixels** (🔢 Number). Default value is `16`.
-- **Wave period. between 0 and 1** (🔢 Number). Default value is `0.10000000000000001`.
+- **Wave period. between 0 and 1** (🔢 Number). Default value is `0.1`.
 
 ??? quote "See internal technical details"
 
@@ -59,18 +59,18 @@ Easily create a realistic liquid surface simulation.
     - **Body opacity** is stored as `BodyOpacity` (Number). Default value is `100`.
     - **ColorOfColumns** is stored as `ColorOfColumns` (Color). Default value is `255;255;255`.
     - **The number of columns (springs) extended on the water surface ** is stored as `Columns` (Number). Default value is `50`.
-    - **The Damping value. Controls how fast the springs will return to their original position** is stored as `Dampening` (Number). Default value is `0.025000000000000001`.
+    - **The Damping value. Controls how fast the springs will return to their original position** is stored as `Dampening` (Number). Default value is `0.025`.
     - **Show the spring columns** is stored as `ShowColumns` (Boolean). Default value is `false`.
-    - **The Spread value will dictacte how much a wave oscilliation wil pass onto their neighboors. BEWARE, super high values may make the water oscilliate forever !** is stored as `Spread` (Number). Default value is `0.10000000000000001`.
+    - **The Spread value will dictacte how much a wave oscilliation wil pass onto their neighboors. BEWARE, super high values may make the water oscilliate forever !** is stored as `Spread` (Number). Default value is `0.1`.
     - **SufaceOpacity** is stored as `SufaceOpacity` (Number). Default value is `100`.
     - **SurfaceColor** is stored as `SurfaceColor` (Color). Default value is `107;165;233`.
     - **SurfaceSize** is stored as `SurfaceSize` (Number). Default value is `1`.
-    - **The water spring constant. Grater values will pull the water with greater force.** is stored as `Tension` (Number). Default value is `0.025000000000000001`.
+    - **The water spring constant. Grater values will pull the water with greater force.** is stored as `Tension` (Number). Default value is `0.025`.
     - **Thickness of the surface collision** is stored as `Thickness` (Number). Default value is `8`.
     - **WaveDirection** is stored as `WaveDirection` (Choice). Default value is `Right`.
     - **Wave length, the smaller the value, the longer the wave** is stored as `WaveLength` (Number). Default value is `0.5`.
     - **Wave magnitude, in pixels** is stored as `WaveMagnitude` (Number). Default value is `16`.
-    - **Wave period. between 0 and 1** is stored as `WavePeriod` (Number). Default value is `0.10000000000000001`.
+    - **Wave period. between 0 and 1** is stored as `WavePeriod` (Number). Default value is `0.1`.
 
 ### Behavior actions
 

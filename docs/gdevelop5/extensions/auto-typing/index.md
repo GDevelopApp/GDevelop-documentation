@@ -24,12 +24,12 @@ Reveal a text one letter after the other.
 
 ### Behavior properties
 
-- **Time between characters** (🔢 Number, Duration). Default value is `0.050000000000000003`.
+- **Time between characters** (🔢 Number, Duration). Default value is `0.05`.
 
 ??? quote "See internal technical details"
 
 
-    - **Time between characters** is stored as `Interval` (Number). Unit is Second. Default value is `0.050000000000000003`.
+    - **Time between characters** is stored as `Interval` (Number). Unit is Second. Default value is `0.05`.
     > This behavior must be used on an object also having a behavior with type "TextContainerCapability::TextContainerBehavior". This is stored on property `Text`.
 
 

@@ -57,36 +57,36 @@ For platformer character.
 ### Behavior properties
 
 - **Idle animation** (🔘 Boolean). Apply breath animation on the object. Default value is `true`.
-- **Scale strength** (🔢 Number). Default value is `0.10000000000000001`.
+- **Scale strength** (🔢 Number). Default value is `0.1`.
 - **Scaling speed** (🔢 Number, Duration). Default value is `500`.
 - **Jump animation** (🔘 Boolean). Apply squash and stretch animation on the object. Default value is `true`.
-- **Scale strength** (🔢 Number). Default value is `0.20000000000000001`.
+- **Scale strength** (🔢 Number). Default value is `0.2`.
 - **Scaling speed** (🔢 Number). Default value is `200`.
 - **Fall animation** (🔘 Boolean). Apply stretch animation on the object. Default value is `true`.
-- **Scale strength** (🔢 Number). Default value is `0.29999999999999999`.
+- **Scale strength** (🔢 Number). Default value is `0.3`.
 - **Scaling speed** (🔢 Number). Default value is `200`.
 - **Land animation** (🔘 Boolean). Apply squash animation on the object. Default value is `true`.
-- **Scale strength** (🔢 Number). Default value is `0.59999999999999998`.
+- **Scale strength** (🔢 Number). Default value is `0.6`.
 - **Scaling speed** (🔢 Number). Default value is `100`.
 
 ??? quote "See internal technical details"
 
 
     - **Idle animation** is stored as `AIdleCheck` (Boolean). Default value is `true`.
-    - **Scale strength** is stored as `BIdleScale` (Number). Default value is `0.10000000000000001`.
+    - **Scale strength** is stored as `BIdleScale` (Number). Default value is `0.1`.
     - **Scaling speed** is stored as `CIdleScalingSpeed` (Number). Unit is Second. Default value is `500`.
     > This behavior must be used on an object also having a behavior with type "PlatformBehavior::PlatformerObjectBehavior". This is stored on property `DPlatformerCharacterBehavior`.
 
     > This behavior must be used on an object also having a behavior with type "Tween::TweenBehavior". This is stored on property `ETweenBehavior`.
 
     - **Jump animation** is stored as `FJumpCheck` (Boolean). Default value is `true`.
-    - **Scale strength** is stored as `GJumpScale` (Number). Default value is `0.20000000000000001`.
+    - **Scale strength** is stored as `GJumpScale` (Number). Default value is `0.2`.
     - **Scaling speed** is stored as `HJumpScalingSpeed` (Number). Default value is `200`.
     - **Fall animation** is stored as `IallCheck` (Boolean). Default value is `true`.
-    - **Scale strength** is stored as `JFallScale` (Number). Default value is `0.29999999999999999`.
+    - **Scale strength** is stored as `JFallScale` (Number). Default value is `0.3`.
     - **Scaling speed** is stored as `KFallScalingSpeed` (Number). Default value is `200`.
     - **Land animation** is stored as `LandCheck` (Boolean). Default value is `true`.
-    - **Scale strength** is stored as `MLandScale` (Number). Default value is `0.59999999999999998`.
+    - **Scale strength** is stored as `MLandScale` (Number). Default value is `0.6`.
     - **Scaling speed** is stored as `NLandScalingSpeed` (Number). Default value is `100`.
 
 ### Behavior actions
