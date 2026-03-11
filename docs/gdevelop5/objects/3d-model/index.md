@@ -87,6 +87,7 @@ The **center location** determines the point around which the object rotates and
 
 - **Model origin**: Uses the origin point from the 3D model file.
 - **Object center**: Rotates around the middle of the object's bounding box.
+- **Centered on Z only**: Centers the object on the Z axis (depth) only, leaving X and Y at the model's origin. This is the default and is useful for most characters and objects that need to rotate around their depth center.
 - **Bottom center (Z)**: Rotates around the bottom center, useful for objects that should pivot at their base.
 - **Bottom center (Y)**: Rotates around the bottom center using the Y axis.
 
