@@ -72,6 +72,10 @@
     {
       "date": "2026-03-10",
       "summary": "Filled in the 'Concepts used in Physics' section of the 3D Physics Engine docs: world/gravity/scale, body types, collision shapes (Box/Capsule/Sphere/Cylinder/Mesh), body settings, collision layers & masks, and movement (forces/impulses/velocities)"
+    },
+    {
+      "date": "2026-03-11",
+      "summary": "Improved simple Tilemap docs: added two-coordinate-system explanation, tile reading/writing, runtime tile removal, flipping tiles at runtime, coordinate conversion expressions, and grid resize at runtime"
     }
   ]
 }

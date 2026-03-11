@@ -83,6 +83,33 @@ To do so, tiles have identifiers. The tile identifier (id) is automatically comp
 
 If the image width and/or the tile size change, the tile identifiers will also change. To expand the atlas image, to have more tiles, without impacting the tile maps based on it, the atlas should be expanded towards the bottom.
 
+### Two coordinate systems
+
+Tile manipulation actions and conditions come in two variants, letting you address a tile either by **scene coordinates** (useful when you know where the player clicked or where an object is) or by **grid coordinates** (column/row index inside the map):
+
+- **At position** — pass the X/Y scene coordinates (e.g. the mouse position, or an object's X/Y). GDevelop converts them to the correct grid cell automatically.
+- **On the grid** — pass the column index (grid X) and row index (grid Y) directly.
+
+Expressions are also available to convert between the two systems: you can turn a scene position into a grid coordinate (useful for detecting which cell was clicked), or get the scene position of the center of any cell (useful for spawning objects exactly in the middle of a tile or for a cursor that snaps to the grid).
+
+### Reading and writing tiles
+
+Use the **Tile (at position)** and **Tile (on the grid)** expression/condition/action to read or change the tile ID at a given cell. Setting a tile ID of `-1` is equivalent to removing the tile (leaving the cell empty).
+
+You can also use the dedicated **Remove tile** action (available in both "at position" and "on the grid" variants) to explicitly clear a cell.
+
+### Flipping tiles
+
+Individual tiles can be flipped horizontally or vertically at runtime without changing their ID. Use the **Flip tile horizontally** or **Flip tile vertically** actions (both "at position" and "on the grid" variants). Corresponding conditions let you check whether a tile is currently flipped.
+
+!!! tip
+
+    Flipping tiles is purely visual — it does not change the tile's hitbox.
+
+### Resizing the grid at runtime
+
+The grid dimensions can be changed at runtime with the **Grid row count** and **Grid column count** expression/condition/action. Reducing the size removes the tiles at the edges; increasing it adds empty cells.
+
 ## Reference
 
 All actions, conditions and expressions are listed in [the tilemap reference page](/gdevelop5/all-features/tilemap/reference/#tile-map).
