@@ -67,7 +67,7 @@ Student accounts are fully anonymized accounts which can be administrated by tea
 
 !!! tip
 
-    Advanced account access options (reuse existing emails, SSO, etc...) are not available yet, but are being worked on.
+    You can also invite existing GDevelop accounts as students — useful if your institution uses SSO or if students already have their own GDevelop accounts. See [Add, archive and restore student accounts](#add-archive-and-restore-student-accounts) for details.
 
 ### Distraction-free view
 
@@ -126,11 +126,15 @@ Teacher accounts have the same rights as the main account but cannot unsubscribe
 
 ### Add, archive and restore student accounts
 
-Once you've purchased GDevelop for Education, head to the Teach tab and click on "Manage Seats" to start creating accounts for your students.
+Once you've purchased GDevelop for Education, head to the Teach tab and click on "Manage Seats" to start adding accounts for your students.
 
-Using this field, create multiple student accounts at once:
+There are two ways to add student accounts:
 
-![Zoom on the "Add students batch" feature](./add-multiple-students.png)
+- **Create new accounts**: Batch-create anonymous student accounts with auto-generated credentials. This is the simplest option for most classrooms.
+
+    ![Zoom on the "Add students batch" feature](./add-multiple-students.png)
+
+- **Invite existing accounts**: Send an invitation to students who already have a GDevelop account. This is particularly useful when your institution uses SSO (Single Sign-On) or when students already have personal GDevelop accounts. Students receive a notification and must accept the invitation to join the plan.
 
 It is then possible to manage the student accounts by archiving and restoring accounts.
 You can also export account credentials in a CSV file (that can be opened using any spreadsheet app).
