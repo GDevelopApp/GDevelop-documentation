@@ -14,7 +14,6 @@ nav:
         - Extended math support: extended-math
         - Frames per second (FPS): fps
         - Hash: hash
-        - Object picking tools: object-picking-tools
         - Read pixels: read-pixels
         - Record: record
         - Regular Expressions: reg-ex
@@ -55,7 +54,7 @@ nav:
         - Values of multiple objects: values-of-multiple-objects
     - General:
         - Array tools: array-tools
-        - Extended variables support: extended-variables
+        - Variables copier: extended-variables
         - Repeat every X seconds: repeat-every-xseconds
     - Input:
         - Android back button: back-button
@@ -164,6 +163,7 @@ nav:
         - Advanced:
             - Crypto Api: crypto-api
             - Game properties data: get-properties-data
+            - Unpicks all instances: object-picking-tools
             - Random Color Generator: random-color
             - Rotate a string 13 characters: rotate13
         - Audio:

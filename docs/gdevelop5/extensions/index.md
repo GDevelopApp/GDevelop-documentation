@@ -37,7 +37,6 @@ Read more about this:
 |<img src="https://resources.gdevelop-app.com/assets/Icons/function-variant.svg" class="extension-icon"></img>|**Extended math support**|Extra math: clamp, map, lerp, factorial, fibonacci, distance, angle, conversions, constants.|[Read more...](/gdevelop5/extensions/extended-math)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/SEO/SEO_board_performance_profit.svg" class="extension-icon"></img>|**Frames per second (FPS)**|Calculate and display frames per second (FPS).|[Read more...](/gdevelop5/extensions/fps)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Security and Protection/Security and Protection_security_protection_delete_document_shredder.svg" class="extension-icon"></img>|**Hash**|Hash strings using MD5 or SHA256 algorithms.|[Read more...](/gdevelop5/extensions/hash)|
-|<img src="https://resources.gdevelop-app.com/assets/Icons/selection-ellipse-arrow-inside.svg" class="extension-icon"></img>|**Object picking tools**|Pick object instances by highest or lowest variable value, z-order, and more.|[Read more...](/gdevelop5/extensions/object-picking-tools)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Computers and Hardware/Computers and Hardware_screen_computer_image.svg" class="extension-icon"></img>|**Read pixels**|Read the values of pixels on the screen.|[Read more...](/gdevelop5/extensions/read-pixels)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/video-vintage.svg" class="extension-icon"></img>|**Record**|Record gameplay as video clips for download.|[Read more...](/gdevelop5/extensions/record)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/regex.svg" class="extension-icon"></img>|**Regular Expressions**|Manipulates string with regular expressions.|[Read more...](/gdevelop5/extensions/reg-ex)|
@@ -94,7 +93,7 @@ Read more about this:
 ||Name|Description||
 |---|---|---|---|
 |<img src="https://asset-resources.gdevelop.io/public-resources/Icons/Line Hero Pack/Master/SVG/Text Editing/9bfb52500e68d0fd164b1e30bc696e40566187245b80c345848379f40bb6fad7_Text Editing_bullet_points_list.svg" class="extension-icon"></img>|**Array tools**|Array utilities: search, sort, shuffle, slice, concat, reverse, pop, random element access.|[Read more...](/gdevelop5/extensions/array-tools)|
-|<img src="https://resources.gdevelop-app.com/assets/Icons/variable-box.svg" class="extension-icon"></img>|**Extended variables support**|Check variable existence, copy, delete, and create dynamic variables at runtime.|[Read more...](/gdevelop5/extensions/extended-variables)|
+|<img src="https://resources.gdevelop-app.com/assets/Icons/variable-box.svg" class="extension-icon"></img>|**Variables copier**|Copy structure and array variables.|[Read more...](/gdevelop5/extensions/extended-variables)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/repeat.svg" class="extension-icon"></img>|**Repeat every X seconds**|Trigger an action repeatedly at a configurable time interval in seconds.|[Read more...](/gdevelop5/extensions/repeat-every-xseconds)|
 
 ### Input
@@ -236,6 +235,7 @@ guarantee they meet all the quality standards of fully reviewed extensions.
 |---|---|---|---|
 |<img src="https://asset-resources.gdevelop.io/public-resources/Icons/fac7ecb74ef7da92ab59c3e431fb9587c105c2889a41cfac489135c0eb4643d1_shield-key.svg" class="extension-icon"></img>|**Crypto Api**|Random number generator for integers and floats using the Crypto API.|[Read more...](https://developer.mozilla.org/en-US/docs/Web/API/Crypto/getRandomValues) ([reference](/gdevelop5/extensions/crypto-api))|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/numeric.svg" class="extension-icon"></img>|**Game properties data**|Get Version, Title, Publisher name, PackageName from properties tab.|[Read more...](/gdevelop5/extensions/get-properties-data)|
+|<img src="https://resources.gdevelop-app.com/assets/Icons/selection-ellipse-arrow-inside.svg" class="extension-icon"></img>|**Unpicks all instances**|Unpick all instances of an object.|[Read more...](/gdevelop5/extensions/object-picking-tools)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/format-color-fill.svg" class="extension-icon"></img>|**Random Color Generator**|Create a random color for a scene, an object, or any other color input.|[Read more...](/gdevelop5/extensions/random-color)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/format-text-rotation-none.svg" class="extension-icon"></img>|**Rotate a string 13 characters**|This extension rotates all alphabetic characters in a string by 13 characters.|[Read more...](/gdevelop5/extensions/rotate13)|
 
