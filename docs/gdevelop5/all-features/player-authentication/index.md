@@ -30,6 +30,8 @@ You can use the action **"Display authentication banner"**. For example, this ca
 
 We recommend showing the banner again if the user goes back to the main menu, or display a button to log in (see the next section).
 
+Use the action **"Hide authentication banner"** if you want to dismiss the banner programmatically, for example when starting a gameplay sequence where the banner would be distracting.
+
 ## Open an authentication window
 
 The authentication window opens up when the player clicks on the banner, but if you want to handle the opening of the window yourself, you can use the action **"Open an authentication window"**. This is perfect if you prefer to have a "Login" or "Connect" button in your game. It's also useful if you want to ensure your players log in before playing.
@@ -40,7 +42,7 @@ You may want to know when it is open, to prevent some actions to be triggered or
 
 ## Check if a player is authenticated
 
-Based on wether the player is connected or not, your game logic will differ.
+Based on whether the player is connected or not, your game logic will differ.
 For instance, if they are not connected you will display an input for them to enter their username, and if they are connected you will display their username.
 To do so, you can use the condition **"Player is authenticated"**.
 
@@ -53,19 +55,15 @@ This is particularly useful to implement to handle when a player logs in to a di
 
 ![](/gdevelop5/all-features/player-authentication/logged-in-events.png)
 
-## Use a player's username
+## Use a player's username and ID
 
 If you'd like to retrieve the username of the connected player, to name a character in your game, or adapt your messages to be more personalized, you can use the expression `PlayerAuthentication::Username()`.
+
+To get the player's unique identifier — for example, to store per-player data on a server or in a variable — use `PlayerAuthentication::UserID()`. This ID is stable across sessions and devices for the same account.
 
 ## Log out the player
 
 If needed, an action is available to log out the player from the game, you can use the action **"Log out player"**.
-
-## Other features
-
-!!! note
-
-    Player accounts is still experimental and new features will quickly be added to find the player unique identifier, store progress, saves or items, and more!
 
 ## Reference
 
