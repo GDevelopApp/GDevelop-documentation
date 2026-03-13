@@ -16,7 +16,7 @@ Inventories are composed of items. As mentioned above, the default "Inventory" d
 Use the action "Add an item" to add an item to the inventory. The name of the item can be chosen freely. For example, an item could be "Sword", "Gold", "Bullets", etc.
 You can also use the action "Remove an item" to remove one item in an inventory.
 
-You can set limits on the items of an inventory by using the action "Set a maximum count for an item". Enter the item name and the count. When an item has reached its maximum count, adding new items won't increase the count of the item in the inventory.
+You can set limits on the items of an inventory by using the action "Set a maximum count for an item". Enter the item name and the count. When an item has reached its maximum count, adding new items won't increase the count of the item in the inventory. To remove a previously set limit and allow unlimited quantities again, use the action "Set unlimited count for an item".
 
 You can use the conditions "Item full" to check if an item reached the full capacity. The condition "Has an item" allows a check to be made of the inventory to see _if_ the player has at least one of the specified items.
 
@@ -36,8 +36,8 @@ To use Sprites and Text objects to create a display:
 
   - use the condition "Has an item" in order to check to see if an item is "owned"
   - display or hide the associated object on the screen
-  - use the expression "Item count" (for example, `InventoryTools::Count("PlayerInventory", "Gold")` **or now** `Inventory::Count("PlayerInventory", "Gold")`) to access the count of a given item
-  - use the "Item count" to set the text of a "Text" object that is displayed on the screen
+  - use the expression `Inventory::Count("PlayerInventory", "Gold")` to access the count of a given item, and set the text of a "Text" object to display it on the screen
+  - use the expression `Inventory::Maximum("PlayerInventory", "Gold")` to get the maximum allowed count for an item (returns 0 if the item is set to unlimited)
 
 ## Saving/loading inventories
 

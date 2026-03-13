@@ -72,6 +72,10 @@
     {
       "date": "2026-03-10",
       "summary": "Filled in the 'Concepts used in Physics' section of the 3D Physics Engine docs: world/gravity/scale, body types, collision shapes (Box/Capsule/Sphere/Cylinder/Mesh), body settings, collision layers & masks, and movement (forces/impulses/velocities)"
+    },
+    {
+      "date": "2026-03-13",
+      "summary": "Improved player-authentication docs (fixed typo, added UserID() expression, HideAuthenticationBanner action, removed outdated experimental note) and inventory docs (cleaned up expression syntax, added SetUnlimited action, added Maximum expression)"
     }
   ]
 }
