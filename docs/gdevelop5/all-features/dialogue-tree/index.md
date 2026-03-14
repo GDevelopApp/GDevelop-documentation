@@ -238,6 +238,59 @@ The demo does not use the entire capability of the extension and is aiming to pr
 - Tell the game engine how you want the dialogue data to be displayed to the player and used by the engine - for each of the three types
 - Set reusable commands to be triggered by Yarn - such as changing of avatars, playing of sound effects and any other game events to help tell your story.
 
+### Handling the three dialogue line types
+
+Each frame while a dialogue is running, use the **Dialogue line type is** condition to check what kind of line is currently active, then react accordingly:
+
+- **text** — display the line using **Get clipped text** (for scrolling letter-by-letter) or **Get line text** (all at once). Call **Scroll clipped text** every frame to advance the scrolling. Use **Complete text scrolling** to instantly reveal the full line (e.g. when the player presses a button). Check **Clipped text scrolling has completed** before calling **Go to next dialogue line**.
+- **options** — read how many choices are available with **Get options count**, then display each one with **Get option text (by index)**. Use **Select next/previous option** or **Select option (by index)** to move the cursor. Call **Confirm selected option** when the player confirms their choice.
+- **command** — use the **Is command called** condition to detect each `<<command>>` and run the corresponding game logic.
+
+Use **Dialogue is running** to know when the dialogue has ended, and **Stop dialogue** to forcibly end it early.
+
+### Working with branch tags
+
+In Yarn, each node can have tags defined in its header. Tags let you attach metadata to a node — for example which character is speaking, what emotion to display, or which music to play — without mixing that information into the dialogue text the player sees.
+
+Add tags in the Yarn node header:
+
+```
+title: VillainIntro
+tags: character(villain) mood(angry)
+---
+You dare enter my domain?
+===
+```
+
+Tags can be simple words (`angry`) or can carry parameters (`character(villain)`).
+
+In GDevelop events, use:
+
+- **Branch contains tag** condition — becomes true when the current branch has a tag matching the given name. Tags with parameters like `character(villain)` are matched by their name (`character`).
+- **Tag parameter** expression — after a **Branch contains tag** match, use `TagParameter(0)` to read the first parameter (e.g. `villain`), `TagParameter(1)` for the second, and so on.
+- **Get branch tags** expression — returns all tags as a comma-separated string, useful for debugging.
+
+This is useful to drive avatar changes, animations, or sound effects based on who is speaking and what mood they are in, without hard-coding those details in commands.
+
+### Tracking visited branches
+
+The extension automatically remembers which branches the player has visited during the current session. Use this to write adaptive dialogue — for instance an NPC who reacts differently the second time the player talks to them.
+
+- **Branch has been visited** condition — checks if a branch title has been visited before. Leave the title parameter empty to check the current branch.
+- **Get visited branch titles** expression — returns all visited titles as a comma-separated string (useful for debugging).
+
+Combined with a Yarn `$variable` that you set when a branch is first entered (`<<set $metVillain to true>>`), and the **Branch has been visited** condition in GDevelop, you can make NPCs remember past conversations.
+
+### Saving and loading dialogue state
+
+The dialogue state — all Yarn `$variables` and the list of visited branches — can be saved to and restored from a GDevelop variable. This lets you persist dialogue progress alongside your game saves.
+
+- **Save state to variable** action — stores the current dialogue state (variables and visited branches) into a structured scene or global variable.
+- **Load state from variable** action — restores a previously saved state from that variable.
+- **Clear dialogue state** action — resets all Yarn variables and the visited-branch history.
+
+To persist between sessions, after calling **Save state to variable**, use the **Storage** or **Save State** features to write that variable to device storage. On load, read it back and call **Load state from variable** before starting any dialogue.
+
 # Examples
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://dialogue-tree-with-yarn){ .md-button .md-button--primary }
