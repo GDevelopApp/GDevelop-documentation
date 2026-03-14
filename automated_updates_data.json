@@ -76,6 +76,10 @@
     {
       "date": "2026-03-13",
       "summary": "Improved player-authentication docs (fixed typo, added UserID() expression, HideAuthenticationBanner action, removed outdated experimental note) and inventory docs (cleaned up expression syntax, added SetUnlimited action, added Maximum expression)"
+    },
+    {
+      "date": "2026-03-14",
+      "summary": "Improved dialogue tree docs: added sections on the three line types, branch tags with parameters, visited branch tracking, and save/load dialogue state"
     }
   ]
 }
