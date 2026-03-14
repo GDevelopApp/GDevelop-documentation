@@ -13,6 +13,8 @@ GDevelop has native support for Steamworks, a suit of tools provided by steam to
 - Getting player information
 - Anti-cheat/DRM
 
+The Steamworks extension is available in both the GDevelop desktop app and the web-based editor (GDevelop.io).
+
 To use Steamworks in GDevelop, you will need to:
 
 1. Register your game on Steamworks, and obtain an **App ID** for your game
