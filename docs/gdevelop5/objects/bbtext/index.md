@@ -32,6 +32,10 @@ There are a few additional styles that are supported in GDevelop too:
 
 !!! note
 
+    If an invalid color value is used in a `[color]` tag (for example `[color=blues]` instead of `[color=blue]`), the text will not be rendered with that color — the tag will be silently ignored.
+
+!!! note
+
     Under the hood, the extension uses a patched version of [pixi-multistyle-text](https://github.com/tleunen/pixi-multistyle-text/) to support BBCode. If you're interested in the technical details, the supported styling features are [listed here](https://pixijs.download/dev/docs/PIXI.TextStyle.html).
 
 ## Default styling

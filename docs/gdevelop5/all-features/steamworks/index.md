@@ -4,7 +4,7 @@ title: Steamworks
 
 # Steamworks (Steam integration)
 
-GDevelop has native support for Steamworks, a suit of tools provided by steam to help integrate your game with their platform and provide common game development features, including
+GDevelop has native support for Steamworks, a suite of tools provided by Steam to help integrate your game with their platform and provide common game development features, including
 
 - Achievements
 - Networking
@@ -12,6 +12,8 @@ GDevelop has native support for Steamworks, a suit of tools provided by steam to
 - UGC (User Generated Content) Workshop
 - Getting player information
 - Anti-cheat/DRM
+
+The Steamworks extension is available in both the GDevelop desktop app and the web-based editor (gd.games).
 
 To use Steamworks in GDevelop, you will need to:
 
