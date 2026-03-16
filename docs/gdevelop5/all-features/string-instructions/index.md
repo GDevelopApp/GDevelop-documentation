@@ -64,3 +64,15 @@ If the string does not exist, -1 will be returned.
 In this expression, the string entered is searched in the text in the backward direction but rather than starting from the end, it starts from the position entered. This will give us the position of the last occurrence of the string in the text considered for search.
 
 If the string does not exist, -1 will be returned.
+
+## Replace the first occurrence in a text
+
+`StrReplaceOne` searches a text for the first occurrence of a given substring and replaces it with another. Only the first match is replaced; the rest of the string is left unchanged.
+
+For example, `StrReplaceOne("hello world hello", "hello", "hi")` returns `"hi world hello"`.
+
+## Replace all occurrences in a text
+
+`StrReplaceAll` replaces every occurrence of a given substring with another. Unlike `StrReplaceOne`, all matches are replaced.
+
+For example, `StrReplaceAll("hello world hello", "hello", "hi")` returns `"hi world hi"`.

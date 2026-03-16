@@ -107,6 +107,38 @@ You can then monitor DamageTimer to start an action after 500 milliseconds (0.5 
 
 ![](/gdevelop5/all-features/reset-variable-timer.png)
 
+## Time scale
+
+The **time scale** controls how fast time passes in a scene. A value of `1` is normal speed, `2` makes everything twice as fast, and `0.5` slows the game to half speed. Setting it to `0` effectively pauses all time-based mechanics.
+
+Use the **Change time scale** action to set it, and the `TimeScale()` expression to read the current value. This is useful for slow-motion effects, a pause screen, or speed-up power-ups.
+
+!!! tip
+
+    Object timers and `TimeDelta()` both respect the time scale, so physics, tweens, and any logic using `TimeDelta()` will automatically slow down or speed up. Scene timers also follow the time scale.
+
+## Getting the current wall-clock time
+
+The `Time("format")` expression returns information about the current real-world date and time. The `format` parameter selects what is returned:
+
+| Format | Returns |
+|---|---|
+| `"hour"` | Hour of the day (0–23) |
+| `"min"` | Minutes (0–59) |
+| `"sec"` | Seconds (0–59) |
+| `"mday"` | Day of the month (1–31) |
+| `"mon"` | Month (0 = January, 11 = December) |
+| `"year"` | Years since 1900 (e.g. 125 for 2025) |
+| `"wday"` | Day of the week (0 = Sunday, 6 = Saturday) |
+| `"yday"` | Day of the year (0–365) |
+| `"timestamp"` | Unix timestamp in milliseconds |
+
+For example, `Time("hour")` returns `14` at 2 PM. `Time("timestamp")` is useful to record when a score was achieved or to measure real elapsed time across sessions.
+
+!!! note
+
+    `Time("mon")` returns 0 for January, not 1. Add 1 when displaying the month to players.
+
 ## Reference
 
 All actions, conditions and expressions are listed in [timers reference page](/gdevelop5/all-features/timers-and-time/reference/).

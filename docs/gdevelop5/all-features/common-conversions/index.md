@@ -26,6 +26,14 @@ To input a string in a numerical expression, you can convert it to number using 
 
 To input a number in string expression, you can use the "Number > Text" expression. If the number used is greater than or equal to 1e+21, the expression returns its value in scientific notation.
 
+If you need to display or store a very large number without scientific notation, use the **Large Number to Text** expression (`LargeNumberToString`). It forces the full decimal representation regardless of the magnitude. For example, `LargeNumberToString(1e21)` returns `"1000000000000000000000"` instead of `"1e+21"`.
+
+## Converting variables to JSON
+
+The **Variable to JSON** expression (`ToJSON`) converts any variable (including structures and arrays) to a JSON-formatted string. This is useful when you want to store a complex variable in a text field, send it over the network, or save it to storage.
+
+Use the **Object variable to JSON** expression (`ObjectVarToJSON`) to do the same for an object variable.
+
 ## Reference
 
 All actions, conditions and expressions are listed in [conversions reference page](/gdevelop5/all-features/common-conversions/reference/).
