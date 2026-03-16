@@ -114,7 +114,7 @@ There are two ways you can package your Asset Pack to submit it to the GDevelop 
 
 - **Recommended:** Set your objects through the engine, and export the `.gdo` file that was automatically generated. This file will include the complete object configuration and folder structure as set up in the engine.
 
-- **Manual packaging:** Set your files manually, if you have a large number of assets, you can create a pack by manually organizing the files without using the game engine editor, following [the provided technical specifications](./technical-speficication.md).
+- **Manual packaging:** Set your files manually, if you have a large number of assets, you can create a pack by manually organizing the files without using the game engine editor, following [the provided technical specifications](./technical-specifications.md).
 
 To export a `.gdo` file from the GDevelop editor, follow these steps:
 
