@@ -80,6 +80,10 @@
     {
       "date": "2026-03-15",
       "summary": "Improved string-instructions (added StrReplaceOne/StrReplaceAll), common-conversions (added LargeNumberToString, ToJSON/ObjectVarToJSON), timers (added TimeScale and Time() format selectors), and gamepad docs (added analog triggers, deadzone, StickForceX/Y, controller type detection)"
+    },
+    {
+      "date": "2026-03-16",
+      "summary": "Improved keyboard docs: added complete valid key name reference (letters, numpad, arrows, function keys, modifier keys with left/right variants, navigation, punctuation) with case-sensitivity note"
     }
   ]
 }
