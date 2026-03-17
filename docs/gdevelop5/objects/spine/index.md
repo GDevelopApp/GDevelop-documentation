@@ -74,6 +74,7 @@ Skins allow you to change the appearance of your Spine character without changin
 - Switch between different character outfits or appearances at runtime.
 - Each skin can have different images attached to the same bones.
 - The default skin is named "default" unless you specify otherwise in Spine.
+- The **Set skin** action accepts an expression, so you can use a variable or any string expression to dynamically choose which skin to apply.
 
 ### Flipping and scaling
 
