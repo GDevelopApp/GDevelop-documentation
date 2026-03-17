@@ -104,7 +104,11 @@ Public Member Functions</h2></td></tr>
 <p>Add one as a member to any class you want to track: </p><div class="fragment"><div class="line"><span class="keyword">class </span>Layout {</div>
 <div class="line">    MemoryTracked _memoryTracked{<span class="keyword">this</span>, <span class="stringliteral">&quot;Layout&quot;</span>};</div>
 <div class="line">};</div>
-</div><!-- fragment --> </div><hr/>The documentation for this class was generated from the following file:<ul>
+</div><!-- fragment --><p>When adding a new tracked class, also update:</p><ul>
+<li>GDevelop.js/Bindings/postjs.js (trackedClassNames set in patchClassesForUseAfterFreeDetection)</li>
+<li>newIDE/app/src/MainFrame/MemoryTrackedRegistryDialog.js (trackedClasses array) </li>
+</ul>
+</div><hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="_memory_tracked_registry_8h_source.html">MemoryTrackedRegistry.h</a></li>
 </ul>
 </div><!-- contents -->
