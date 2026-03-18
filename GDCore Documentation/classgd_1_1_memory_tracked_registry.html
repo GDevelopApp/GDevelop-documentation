@@ -69,6 +69,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classgd_1_1_memory_tracked_registry-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -116,6 +117,12 @@ static long&#160;</td><td class="memItemRight" valign="bottom"><b>getAliveCountF
 <tr class="memitem:a721d10ddbe5f0b1f7e41bcf88051171f"><td class="memItemLeft" align="right" valign="top"><a id="a721d10ddbe5f0b1f7e41bcf88051171f"></a>
 static long&#160;</td><td class="memItemRight" valign="bottom"><b>getDeadCountForClass</b> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;className)</td></tr>
 <tr class="separator:a721d10ddbe5f0b1f7e41bcf88051171f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1aa8283d77fb8bcdf636d928f643f718"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_memory_tracked_registry.html#a1aa8283d77fb8bcdf636d928f643f718">setCurrentCallContextId</a> (long id)</td></tr>
+<tr class="separator:a1aa8283d77fb8bcdf636d928f643f718"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e828ad9270384b3d7d1aa5c6db2c481"><td class="memItemLeft" align="right" valign="top">static long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_memory_tracked_registry.html#a0e828ad9270384b3d7d1aa5c6db2c481">getDeadContextId</a> (long ptr, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;className)</td></tr>
+<tr class="separator:a0e828ad9270384b3d7d1aa5c6db2c481"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab7636edf687a342737be7cad24a09a1"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_memory_tracked_registry.html#aab7636edf687a342737be7cad24a09a1">getDeadContextTimeMs</a> (long ptr, const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;className)</td></tr>
+<tr class="separator:aab7636edf687a342737be7cad24a09a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A static registry tracking the lifetime of C++ objects exposed to JavaScript via Emscripten/WebIDL bindings. </p>
@@ -123,8 +130,111 @@ static long&#160;</td><td class="memItemRight" valign="bottom"><b>getDeadCountFo
 <li>alive: objects currently alive</li>
 <li>dead: objects that were alive and are now destroyed</li>
 </ul>
+<p>Additionally stores a bounded ring buffer of destruction contexts per class, capturing which JS call triggered each destruction and when it happened.</p>
 <p>This allows JavaScript wrappers to detect use-after-free by calling isDead(), and enables per-class statistics for debugging. </p>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a0e828ad9270384b3d7d1aa5c6db2c481"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e828ad9270384b3d7d1aa5c6db2c481">&#9670;&nbsp;</a></span>getDeadContextId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static long gd::MemoryTrackedRegistry::getDeadContextId </td>
+          <td>(</td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>className</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns the call-context ID that was active when the object was destroyed, or -1 if the context has been evicted from the ring buffer. </p>
+
+</div>
+</div>
+<a id="aab7636edf687a342737be7cad24a09a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab7636edf687a342737be7cad24a09a1">&#9670;&nbsp;</a></span>getDeadContextTimeMs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static double gd::MemoryTrackedRegistry::getDeadContextTimeMs </td>
+          <td>(</td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>className</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Returns the wall-clock timestamp (ms since Unix epoch) when the object was destroyed, or 0 if the context is not available. </p>
+
+</div>
+</div>
+<a id="a1aa8283d77fb8bcdf636d928f643f718"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1aa8283d77fb8bcdf636d928f643f718">&#9670;&nbsp;</a></span>setCurrentCallContextId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void gd::MemoryTrackedRegistry::setCurrentCallContextId </td>
+          <td>(</td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Set by JS before each wrapped method call (integer ID, ~50-100ns). </p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="_memory_tracked_registry_8h_source.html">MemoryTrackedRegistry.h</a></li>
 </ul>
 </div><!-- contents -->
