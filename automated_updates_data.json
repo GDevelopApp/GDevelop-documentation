@@ -80,6 +80,10 @@
     {
       "date": "2026-03-15",
       "summary": "Improved string-instructions (added StrReplaceOne/StrReplaceAll), common-conversions (added LargeNumberToString, ToJSON/ObjectVarToJSON), timers (added TimeScale and Time() format selectors), and gamepad docs (added analog triggers, deadzone, StickForceX/Y, controller type detection)"
+    },
+    {
+      "date": "2026-03-20",
+      "summary": "Improved window docs (added screen/window size expressions and Advanced Window features), screenshot doc (added desktop-only warning, removed outdated beta note), and device-sensors doc (fixed wrong rotation units m/s² → deg/s², fixed gamma description typo)"
     }
   ]
 }

@@ -3,35 +3,27 @@ title: Screenshot extension
 ---
 # Screenshot extension
 
-This extension lets you save a screenshot of the running game in a specified folder.
+This extension lets you save a screenshot of the running game as a PNG file.
 
-Note: As of GDevelop 5.0.0-beta92 the screenshot action is no longer an extension. Just add an action and search for `screenshot` or go to `Other Actions`/`Screenshot`/`Take screenshot`.
+!!! warning
 
-### Actions
+    The screenshot action only works in **desktop builds** (Windows, macOS, Linux). It is not available on web (browser) or mobile (Android/iOS) builds, because those platforms do not provide direct file system write access.
 
-#### Take screenshot
+## Taking a screenshot
 
-Use this action to save a screenshot of everything which is currently drawn on the game window into a *png* file.
-
-##### Parameters:
-
-**Save path**: The file path where the screenshot should be saved.
-
-The save path needs to be an absolute path on the file system (Like "C:\MyFolder\MyScreenshot.png" on Windows)'
+Use the **"Take screenshot"** action to capture everything currently drawn on the game canvas and save it to a PNG file. Provide an absolute file path as the save path (for example `C:\Users\Me\Pictures\shot.png` on Windows).
 
 Relative paths are not supported.
 
-!!! note
+!!! tip
 
-    In order to create a game that runs on all supported platforms you should use the special folders from the file system extension in combination with the path separator. These determine the path to common folders like *Pictures*, *Documents* or *Desktop* automatically. You can read more about it in [this article](/gdevelop5/all-features/filesystem).
+    Use the expressions from the [File system](/gdevelop5/all-features/filesystem) extension to build a portable path that works across operating systems. For example:
 
-## Example
+    ```
+    FileSystem::PicturesPath() + FileSystem::PathDelimiter() + "my_screenshot.png"
+    ```
 
-This path:
-
-``` <FileSystem::PicturesPath>() + <FileSystem::PathDelimiter>() + "my_screenshot.png" ```
-
-This will save the screenshot to the *Pictures* folder on Windows, Linux and MacOS.
+    This saves the screenshot to the *Pictures* folder on Windows, Linux and macOS.
 
 ## Reference
 
