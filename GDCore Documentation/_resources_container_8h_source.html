@@ -552,18 +552,21 @@ $(function() {
 <div class="line"><a name="l00775"></a><span class="lineno">  775</span>&#160; </div>
 <div class="line"><a name="l00779"></a><span class="lineno">  779</span>&#160;  <span class="keywordtype">void</span> UnserializeFrom(<span class="keyword">const</span> <a class="code" href="classgd_1_1_serializer_element.html">SerializerElement</a> &amp;element);</div>
 <div class="line"><a name="l00780"></a><span class="lineno">  780</span>&#160; </div>
-<div class="line"><a name="l00781"></a><span class="lineno">  781</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00782"></a><span class="lineno">  782</span>&#160;  <span class="keywordtype">void</span> Init(<span class="keyword">const</span> <a class="code" href="classgd_1_1_resources_container.html">ResourcesContainer</a> &amp;other);</div>
-<div class="line"><a name="l00783"></a><span class="lineno">  783</span>&#160; </div>
-<div class="line"><a name="l00784"></a><span class="lineno">  784</span>&#160;  SourceType sourceType = Unknown;</div>
-<div class="line"><a name="l00785"></a><span class="lineno">  785</span>&#160; </div>
-<div class="line"><a name="l00786"></a><span class="lineno">  786</span>&#160;  std::vector&lt;std::shared_ptr&lt;Resource&gt;&gt; resources;</div>
-<div class="line"><a name="l00787"></a><span class="lineno">  787</span>&#160; </div>
-<div class="line"><a name="l00788"></a><span class="lineno">  788</span>&#160;  <span class="keyword">static</span> <a class="code" href="classgd_1_1_resource.html">Resource</a> badResource;</div>
-<div class="line"><a name="l00789"></a><span class="lineno">  789</span>&#160;  <span class="keyword">static</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> badResourceName;</div>
-<div class="line"><a name="l00790"></a><span class="lineno">  790</span>&#160;};</div>
+<div class="line"><a name="l00784"></a><span class="lineno">  784</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> UnserializeResourceFrom(<a class="code" href="classgd_1_1_resource.html">gd::Resource</a> &amp;resource,</div>
+<div class="line"><a name="l00785"></a><span class="lineno">  785</span>&#160;                                      <span class="keyword">const</span> <a class="code" href="classgd_1_1_serializer_element.html">SerializerElement</a> &amp;resourceElement);</div>
+<div class="line"><a name="l00786"></a><span class="lineno">  786</span>&#160; </div>
+<div class="line"><a name="l00787"></a><span class="lineno">  787</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00788"></a><span class="lineno">  788</span>&#160;  <span class="keywordtype">void</span> Init(<span class="keyword">const</span> <a class="code" href="classgd_1_1_resources_container.html">ResourcesContainer</a> &amp;other);</div>
+<div class="line"><a name="l00789"></a><span class="lineno">  789</span>&#160; </div>
+<div class="line"><a name="l00790"></a><span class="lineno">  790</span>&#160;  SourceType sourceType = Unknown;</div>
 <div class="line"><a name="l00791"></a><span class="lineno">  791</span>&#160; </div>
-<div class="line"><a name="l00792"></a><span class="lineno">  792</span>&#160;} <span class="comment">// namespace gd</span></div>
+<div class="line"><a name="l00792"></a><span class="lineno">  792</span>&#160;  std::vector&lt;std::shared_ptr&lt;Resource&gt;&gt; resources;</div>
+<div class="line"><a name="l00793"></a><span class="lineno">  793</span>&#160; </div>
+<div class="line"><a name="l00794"></a><span class="lineno">  794</span>&#160;  <span class="keyword">static</span> <a class="code" href="classgd_1_1_resource.html">Resource</a> badResource;</div>
+<div class="line"><a name="l00795"></a><span class="lineno">  795</span>&#160;  <span class="keyword">static</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> badResourceName;</div>
+<div class="line"><a name="l00796"></a><span class="lineno">  796</span>&#160;};</div>
+<div class="line"><a name="l00797"></a><span class="lineno">  797</span>&#160; </div>
+<div class="line"><a name="l00798"></a><span class="lineno">  798</span>&#160;} <span class="comment">// namespace gd</span></div>
 <div class="ttc" id="aclassgd_1_1_atlas_resource_html"><div class="ttname"><a href="classgd_1_1_atlas_resource.html">gd::AtlasResource</a></div><div class="ttdoc">Describe an atlas file used by a project.</div><div class="ttdef"><b>Definition:</b> ResourcesContainer.h:549</div></div>
 <div class="ttc" id="aclassgd_1_1_atlas_resource_html_a4db957bc0cf38d2dafa9d90ba48bc7a2"><div class="ttname"><a href="classgd_1_1_atlas_resource.html#a4db957bc0cf38d2dafa9d90ba48bc7a2">gd::AtlasResource::GetFile</a></div><div class="ttdeci">virtual const gd::String &amp; GetFile() const override</div><div class="ttdoc">Return, if applicable, the String containing the file used by the resource. The file is relative to t...</div><div class="ttdef"><b>Definition:</b> ResourcesContainer.h:557</div></div>
 <div class="ttc" id="aclassgd_1_1_atlas_resource_html_a947a91134c47df9ce94e868c13ab730f"><div class="ttname"><a href="classgd_1_1_atlas_resource.html#a947a91134c47df9ce94e868c13ab730f">gd::AtlasResource::UseFile</a></div><div class="ttdeci">virtual bool UseFile() const override</div><div class="ttdoc">Return true if the resource use a file.</div><div class="ttdef"><b>Definition:</b> ResourcesContainer.h:560</div></div>
