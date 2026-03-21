@@ -39,7 +39,7 @@ You can't use a key combination that is already used by another command. An excl
 
 The command palette shows all the commands you can execute in the current menu. This allows you to quickly access tools.
 
-By default, use Ctrl+P to open the command palette. You can change it to your liking—see the **Editing Shortcuts** section on this page.
+By default, use **Ctrl+P** (or **Ctrl+K**) to open the command palette. The Ctrl+K shortcut is fixed and cannot be changed, while Ctrl+P can be customized—see the **Editing Shortcuts** section on this page.
 
 ![](/gdevelop5/interface/shortcuts5.png)
 
