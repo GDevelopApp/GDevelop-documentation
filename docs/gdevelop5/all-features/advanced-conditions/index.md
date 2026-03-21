@@ -19,7 +19,7 @@ If the "**OR**" condition is used in an event, the actions are performed when on
 
 !!! warning
 
-    The OR condition has a special behavior regarding the [object filtering logic of GDevelop](http://wiki.compilgames.net/doku.php/gdevelop5/tutorials/basic-game-making-concepts#events_and_how_objects_are_selected_by_these_events). The objects listed under it are _unselected_ by GDevelop if their condition is not met, so actions specific to these objects may not work. In some cases, using "Pick all instances" on the action side will fix things. In other cases, replacing the OR will be necessary.
+    The OR condition has a special behavior regarding the [object filtering logic of GDevelop](/gdevelop5/tutorials/basic-game-making-concepts#how-objects-are-selected). The objects listed under it are _unselected_ by GDevelop if their condition is not met, so actions specific to these objects may not work. In some cases, using "Pick all instances" on the action side will fix things. In other cases, replacing the OR will be necessary.
 
 ## Not logical operation
 ![](not-condition.png)
