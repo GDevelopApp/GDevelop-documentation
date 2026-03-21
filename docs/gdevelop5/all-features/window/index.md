@@ -39,6 +39,28 @@ By default, the game name is used for the executable name (on Windows, macOS and
 
 With the action to change the title, the title bar on Windows, macOS and Linux will be changed. Nothing will be visible on Android and iOS. For HTML5 games, the web page title will be changed.
 
+## Getting window and screen dimensions
+
+Several expressions let you read the current size of the game area:
+
+- `SceneWindowWidth()` / `SceneWindowHeight()` — the size (in pixels) of the game canvas currently displayed.
+- `ScreenWidth()` / `ScreenHeight()` — the size of the browser page or the desktop window that contains the game. On a web build this returns the browser viewport size; on a desktop build it returns the application window size.
+
+These are useful to position UI elements that must stay anchored to the edges of the screen, or to adapt the game to different screen sizes at runtime.
+
+## Advanced Window features (desktop only)
+
+The **Advanced Window** extension provides additional control over the application window on **Windows, macOS and Linux** desktop builds. It has no effect on web or mobile builds.
+
+Some useful things you can do with it:
+
+- **Resize and position the window** — move the window to specific screen coordinates or read its current position with the `WindowX()` / `WindowY()` expressions.
+- **Control window state** — maximize, minimize, or restore the window; enable or disable the ability for the player to resize, move, minimize or close the window.
+- **Window appearance** — set the window opacity (0 to 1), toggle the window shadow, or enable content protection to prevent the OS from including the window in screenshots and screen recordings.
+- **Always on top** — keep the window floating above all other windows, for example for a mini game HUD or an overlay tool.
+- **Kiosk mode** — lock the game in fullscreen and prevent the player from exiting, which is useful for public installations or kiosk terminals.
+- **Flash / alert** — make the window flash in the taskbar to notify the player.
+
 ## Reference
 
 All actions, conditions and expressions are listed in [the window reference page](/gdevelop5/all-features/window/reference/).

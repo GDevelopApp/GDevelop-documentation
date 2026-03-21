@@ -125,7 +125,7 @@ This value shows the acceleration around the x-axis. If you hold your device in 
 
 ![](/gdevelop5/all-features/motion_gamma.png)
 
-This value shows the acceleration around the y-axis. If you hold your device in portrait mode with a hand on each side, you can turn your device around the y-axis and the beta value will increase.
+This value shows the acceleration around the y-axis. If you hold your device in portrait mode with a hand on each side, you can turn your device around the y-axis and the gamma value will increase.
 
 ### Conditions
 
@@ -147,15 +147,15 @@ This condition lets you compare the value of z-acceleration to a number or varia
 
 **Motion Alpha**
 
-This condition lets you compare the value of alpha to a number or variable. (m/s²)
+This condition lets you compare the value of alpha to a number or variable. (deg/s²)
 
 **Motion Beta**
 
-This condition lets you compare the value of beta to a number or variable. (m/s²)
+This condition lets you compare the value of beta to a number or variable. (deg/s²)
 
 **Motion Gamma**
 
-This condition lets you compare the value of gamma to a number or variable. (m/s²)
+This condition lets you compare the value of gamma to a number or variable. (deg/s²)
 
 ### Actions
 
@@ -183,14 +183,14 @@ The "z" acceleration. (m/s²)
 
 **Alpha Value**
 
-The "alpha" rotation. (m/s²)
+The "alpha" rotation. (deg/s²)
 
 **Beta Value**
 
-The "beta" rotation. (m/s²)
+The "beta" rotation. (deg/s²)
 
 **Gamma Value**
 
-The "gamma" rotation. (m/s²)
+The "gamma" rotation. (deg/s²)
 
 ![](/gdevelop5/all-features/devicesensorsevents.png)
