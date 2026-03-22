@@ -67,7 +67,7 @@ This action deactivates the orientation sensor so that it stops delivering alpha
 
 **Is Absolute**
 
-This value indicates that the orientation data is in absolute values. In reference to the Earth's coordinates (value 1) or using an arbitrary frame, is determined by the device (value 0).
+Returns `1` if the orientation data is relative to the Earth's coordinate frame (absolute, like a true compass heading), or `0` if the device uses an arbitrary reference frame. Not all devices support absolute orientation.
 
 **Alpha Value**
 
@@ -90,6 +90,10 @@ In contrast to the orientation sensor which returns absolute values, the motion 
     The motion sensor rotation values (alpha, beta, gamma) are currently badly supported on mobile devices. It would currently be better to calculate the value from the orientation data
 
 ### Axes explained
+
+!!! note
+
+    The acceleration values include the force of gravity. For example, when the device is lying flat and still, the Z-axis reads approximately **9.8 m/s²** (Earth's gravitational acceleration). Keep this in mind when interpreting the values.
 
 #### Acceleration X
 
@@ -125,7 +129,7 @@ This value shows the acceleration around the x-axis. If you hold your device in 
 
 ![](/gdevelop5/all-features/motion_gamma.png)
 
-This value shows the acceleration around the y-axis. If you hold your device in portrait mode with a hand on each side, you can turn your device around the y-axis and the beta value will increase.
+This value shows the acceleration around the y-axis. If you hold your device in portrait mode with a hand on each side, you can turn your device around the y-axis and the gamma value will increase.
 
 ### Conditions
 
@@ -147,15 +151,15 @@ This condition lets you compare the value of z-acceleration to a number or varia
 
 **Motion Alpha**
 
-This condition lets you compare the value of alpha to a number or variable. (m/s²)
+This condition lets you compare the rotation rate around the z-axis to a number or variable. (deg/s)
 
 **Motion Beta**
 
-This condition lets you compare the value of beta to a number or variable. (m/s²)
+This condition lets you compare the rotation rate around the x-axis to a number or variable. (deg/s)
 
 **Motion Gamma**
 
-This condition lets you compare the value of gamma to a number or variable. (m/s²)
+This condition lets you compare the rotation rate around the y-axis to a number or variable. (deg/s)
 
 ### Actions
 
@@ -183,14 +187,14 @@ The "z" acceleration. (m/s²)
 
 **Alpha Value**
 
-The "alpha" rotation. (m/s²)
+The rotation rate around the z-axis. (deg/s)
 
 **Beta Value**
 
-The "beta" rotation. (m/s²)
+The rotation rate around the x-axis. (deg/s)
 
 **Gamma Value**
 
-The "gamma" rotation. (m/s²)
+The rotation rate around the y-axis. (deg/s)
 
 ![](/gdevelop5/all-features/devicesensorsevents.png)
