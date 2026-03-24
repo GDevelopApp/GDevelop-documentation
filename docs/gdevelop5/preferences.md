@@ -44,6 +44,10 @@ If **Cancel changes** is selected, any edits in the current window are **abandon
 If **Apply changes** (default) is selected, any edits in the current window are **applied** (only available in some windows).
 
 
+## JavaScript type errors
+
+GDevelop can display type errors in JavaScript code events, helping you catch potential issues in your code directly in the editor. This option is disabled by default and can be enabled in the preferences.
+
 ## Hints and explanations
 
 GDevelop displays hints and explanations for certain features. You can turn them off if you prefer.
