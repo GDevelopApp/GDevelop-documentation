@@ -3,35 +3,29 @@ title: Screenshot extension
 ---
 # Screenshot extension
 
-This extension lets you save a screenshot of the running game in a specified folder.
+This extension lets you save a screenshot of the running game as a PNG file.
 
-Note: As of GDevelop 5.0.0-beta92 the screenshot action is no longer an extension. Just add an action and search for `screenshot` or go to `Other Actions`/`Screenshot`/`Take screenshot`.
+!!! warning
 
-### Actions
+    Screenshots are only supported in **desktop (Windows/macOS/Linux) builds**. On web and mobile, the action has no effect because file-system access is not available.
 
-#### Take screenshot
+## Take screenshot
 
-Use this action to save a screenshot of everything which is currently drawn on the game window into a *png* file.
+Use the **Take screenshot** action to save everything currently drawn on the game window as a PNG file to the specified path.
 
-##### Parameters:
+**Save path**: An absolute path on the file system where the screenshot will be written (for example `C:\MyScreenshots\shot.png` on Windows). Relative paths are not supported. If the path does not end with `.png`, the extension is added automatically.
 
-**Save path**: The file path where the screenshot should be saved.
+!!! tip
 
-The save path needs to be an absolute path on the file system (Like "C:\MyFolder\MyScreenshot.png" on Windows)'
-
-Relative paths are not supported.
-
-!!! note
-
-    In order to create a game that runs on all supported platforms you should use the special folders from the file system extension in combination with the path separator. These determine the path to common folders like *Pictures*, *Documents* or *Desktop* automatically. You can read more about it in [this article](/gdevelop5/all-features/filesystem).
+    Use expressions from the [File System](/gdevelop5/all-features/filesystem) extension to build paths that work on all desktop platforms — for example `FileSystem::PicturesPath() + FileSystem::PathDelimiter() + "my_screenshot.png"` saves the file to the user's *Pictures* folder on Windows, macOS, and Linux.
 
 ## Example
 
-This path:
+```
+FileSystem::PicturesPath() + FileSystem::PathDelimiter() + "my_screenshot.png"
+```
 
-``` <FileSystem::PicturesPath>() + <FileSystem::PathDelimiter>() + "my_screenshot.png" ```
-
-This will save the screenshot to the *Pictures* folder on Windows, Linux and MacOS.
+This saves the screenshot to the *Pictures* folder on Windows, Linux, and macOS.
 
 ## Reference
 
