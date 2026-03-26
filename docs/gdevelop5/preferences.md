@@ -31,6 +31,8 @@ Themes let you customize the look of the interface.
 
 There are multiple themes to choose from, and you can even create your own. See [how you can make one](https://github.com/4ian/GDevelop/blob/master/newIDE/README-themes.md).
 
+**Show type errors in JavaScript events** enables type error highlighting in the JavaScript code editor. When turned on, the editor will underline code that has type errors, helping you catch mistakes early. A restart of GDevelop is required for this change to take effect.
+
 ## Changing backdrop click behavior
 
 ![](/gdevelop5/properties-dialogue.png)
