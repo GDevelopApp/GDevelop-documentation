@@ -26,6 +26,10 @@ Yarn uses a special JSON file format to store its dialogue data.
 To create or edit an existing yarn JSON file, you need to first add an action to the event sheet in GD that requires it.
 That action is called "Load dialogue data from JSON file". Under the resource dropdown - regardless if you have any JSON resources yet - you will find a little brush button, which will let you open yarn and create/edit one.
 
+!!! tip
+
+    You can also load dialogue data stored in a scene variable using the **"Load dialogue data from scene variable"** action. This is useful when dialogue data has been fetched from a network source or assembled dynamically at runtime.
+
 ![](/gdevelop5/all-features/yarngd.png)
 
 ## About Yarn: the anatomy of interactive story syntax
@@ -130,7 +134,7 @@ Don't forget that you can put anything inside this **<<if ...>>**...**<<endif>>*
 
 !!! note
 
-    The dialogue tree extension stores all the $variables the player sets while playing the game and also comes with expressions/actions to get/set them - in case you want to store  them when the game is saved by the player and be able to reload them.
+    The dialogue tree extension stores all the $variables the player sets while playing the game. You can read or write them from GDevelop events using the **"Set dialogue state variable"** actions and the **Variable** / **VariableString** expressions. To persist player choices as part of a game save, use **"Save dialogue state"** (which serialises all $variables into a global variable) and **"Load dialogue state"** to restore them. Use **"Clear dialogue state"** when starting a new game.
 
 
 ### 3. Option line type
@@ -237,6 +241,43 @@ The demo does not use the entire capability of the extension and is aiming to pr
 - Set when a dialogue gets triggered - using the "Start Dialogue from branch..." action, and passing as a parameter the name of the node title where it will start from. That is typically the  root of a tree. In my example the npc object's dialogueBranch variable is used. That makes it easy to make many npcs and just change that in their properties
 - Tell the game engine how you want the dialogue data to be displayed to the player and used by the engine - for each of the three types
 - Set reusable commands to be triggered by Yarn - such as changing of avatars, playing of sound effects and any other game events to help tell your story.
+
+### Displaying options
+
+When the current line type is **options**, you can display all choices at once using the **HorizontalOptionsList** and **VerticalOptionsList** expressions. Both return a formatted string of all option texts, and accept a cursor string parameter (default `>`) that marks the currently highlighted choice.
+
+For keyboard or gamepad navigation, use **"Select next option"** and **"Select previous option"** to move the cursor, then **"Confirm selected option"** to follow the chosen branch. The **SelectedOptionIndex** expression returns the index of the currently highlighted option (starting from 0), which you can also use to position a visual cursor object.
+
+If you prefer to render each option individually, use the **Option(index)** expression and loop from `0` to `OptionsCount() - 1`.
+
+### Built-in typewriter effect
+
+The extension includes a built-in typewriter (character-by-character reveal) system:
+
+- **"Scroll clipped text"** — call this on a timer every frame or at a fixed interval to reveal one more character each time.
+- **ClippedLineText** expression — returns the currently visible portion of the text; assign it to your text object.
+- **"Complete clipped text scrolling"** — instantly reveals the full line. Useful when the player presses a button to skip the animation.
+- **"Has clipped text scrolling completed"** condition — becomes true once all characters are visible. Use this to decide when to show a "press to continue" prompt.
+
+### Branch tags
+
+Yarn nodes can carry metadata **tags** defined on the first line of a node (after the title and before the body). Tags are useful to attach non-dialogue information to a branch, such as the name of a speaker, a background scene, or a music track.
+
+In GDevelop events you can read tags with:
+
+- **BranchTags** expression — returns all tags as a comma-separated string.
+- **BranchTag(index)** expression — returns a single tag by its index (0-based).
+- **"Current branch contains tag"** condition — checks whether a given tag is present on the current branch.
+- **TagParameter(index)** expression — when a tag condition matched, returns one of its space-separated parameters (useful for tags like `speaker John`).
+
+### Tracking visited branches
+
+The extension remembers which branches the player has visited during the session:
+
+- **"Was branch visited"** condition — lets you check whether the player has already been to a specific branch. Useful to show a different greeting the second time the player talks to an NPC, for example.
+- **VisitedBranchTitles** expression — returns a comma-separated list of all branch titles visited so far.
+
+Visit history is part of the dialogue state and is saved/restored by **"Save dialogue state"** / **"Load dialogue state"** along with all $variables.
 
 # Examples
 
