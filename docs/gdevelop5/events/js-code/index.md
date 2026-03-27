@@ -9,7 +9,7 @@ To add a JavaScript event, click on the + button in the Events Sheet toolbar, an
 
 ![](pasted/20230305-105515.png)
 
-When added, click on the code to edit it. The code will be executed each time the event is reached by GDevelop.
+When added, click on the code to edit it. The code will be executed each time the event is reached by GDevelop. The scroll position and cursor position are saved so that when you reopen the tab, you return to where you were.
 
 In all JavaScript events, you have access to a variable named `runtimeScene`. This variable represents the scene being played. Below is an example of a standard GDevelop event, and an equivalent event that uses a JavaScript:
 

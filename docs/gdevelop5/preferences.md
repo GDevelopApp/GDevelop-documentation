@@ -44,6 +44,10 @@ If **Cancel changes** is selected, any edits in the current window are **abandon
 If **Apply changes** (default) is selected, any edits in the current window are **applied** (only available in some windows).
 
 
+## JavaScript events
+
+In the preferences, you can enable **Show type errors in JavaScript events** to display type checking errors directly in the JavaScript code editor. This can help catch mistakes such as calling a method that doesn't exist on an object. It is off by default to keep the editor uncluttered while you write code.
+
 ## Hints and explanations
 
 GDevelop displays hints and explanations for certain features. You can turn them off if you prefer.
