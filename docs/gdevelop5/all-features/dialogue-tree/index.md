@@ -65,6 +65,9 @@ An example of that in the demo project is the way the animated avatar is changed
 
 **<<avatar ant>>**  when the command **avatar** is  triggered, the avatar's sprite object is set to change its animation to the word after it - CommandParameter(0) (**ant**)
 
+- **`DialogueTree::CommandParameter(index)`** — returns the parameter at position `index` (0-based). Pass `-1` to get the command name itself.
+- **`DialogueTree::CommandParametersCount`** — the number of parameters (not counting the command name).
+
 !!! tip
 
     If you are using the extension's built in scrolling functionality, you can insert pauses between text/other commands with the built in <<wait 1000>> command. 1000 in this case is equal to 1 second, but can be anything you choose. <<wait 500>> will for example pause the text scrolling for half a second, then continue. If you have another command after it, it won't get triggered before that half second is over. So wait can be used to insert pauses between a chain of custom commands too - similar to rpg maker :)
@@ -195,6 +198,68 @@ Ok kids we're gonna go with...
     [PickBirdMascot0](/Bird Head)
 <<endif>>
 ```
+
+----
+
+## Displaying options to the player
+
+When the current line type is `options`, you have several ways to display the choices:
+
+- **`DialogueTree::Option(index)`** — get the text of the option at position `index` (0-based). Use `DialogueTree::OptionsCount` to know how many options exist.
+- **`DialogueTree::HorizontalOptionsList(cursor)`** — returns all options concatenated in one line, with the `cursor` string placed before the currently selected option (useful for a compact single-line display).
+- **`DialogueTree::VerticalOptionsList(cursor)`** — same, but each option is on its own line.
+
+Use the `Select next option` / `Select previous option` actions to move the highlighted choice (wraps around), or `Select option` to jump to a specific index. `DialogueTree::SelectedOptionIndex` gives the index of the highlighted option. Confirm the choice with `Confirm selected option`.
+
+## Built-in typewriter effect
+
+The extension includes a built-in **typewriter (text scrolling) effect** that reveals the current line one character at a time.
+
+- Call **`Scroll clipped text`** action every frame (e.g., on every game tick) to advance by one character.
+- Use **`DialogueTree::ClippedLineText()`** as the expression for your text object (instead of `DialogueTree::LineText()`).
+- Use **`Complete clipped text scrolling`** to instantly reveal the full line (useful when the player presses a button to skip the animation).
+- The condition **`Clipped text scrolling has completed`** becomes true when all characters are visible.
+
+!!! tip
+
+    The `<<wait milliseconds>>` command integrates with the scrolling: it pauses the reveal for the given number of milliseconds before continuing, which is useful for dramatic pauses mid-sentence.
+
+## Branch tags
+
+Yarn nodes can carry **tags** in their header: `--- MyNode #emotion #mood(sad) ---`. These tags let you attach metadata to a branch that your game can act on without adding visible dialogue text or commands.
+
+- **`DialogueTree::BranchTags()`** — returns all tags of the current branch as a comma-separated string.
+- **`DialogueTree::BranchTag(index)`** — returns the tag at position `index` (0-based).
+- The condition **`Current branch contains tag`** checks whether a specific tag is present. If the tag has a parameter (e.g., `#mood(sad)`), the matched parameter is accessible via **`DialogueTree::TagParameter(index)`**.
+
+A common use case is triggering animations or music changes when a branch starts, by checking its tags.
+
+## Tracking visited branches
+
+The extension automatically remembers which branches the player has visited during the current session.
+
+- The condition **`Branch was visited`** checks whether a specific branch title has been seen before.
+- **`DialogueTree::VisitedBranchTitles()`** returns a comma-separated string of all visited branch names.
+
+This is useful for letting NPCs react differently to repeat conversations, or for preventing the player from re-reading items they have already picked up.
+
+## Dialogue state variables
+
+Yarn's `<<set $variable to value>>` syntax stores values inside the dialogue engine. You can read and write these from GDevelop events too:
+
+- **`DialogueTree::VariableString(name)`** and **`DialogueTree::Variable(name)`** — get a dialogue variable as a string or number.
+- Actions **`Set dialogue state string/number/boolean variable`** — set a dialogue variable directly from an event.
+- Conditions **`Compare dialogue state string/number/boolean variable`** — check a dialogue variable's value.
+
+This lets you synchronise Yarn variables with GDevelop variables (e.g., copy them to a scene variable before saving).
+
+## Saving and loading dialogue state
+
+Use the actions **`Save dialogue state to variable`** and **`Load dialogue state from variable`** to preserve the player's dialogue progress (which branches were visited and what Yarn variables are set) across sessions.
+
+- These actions serialise/deserialise into a **scene or global variable**, which you can then persist to device storage using the regular Storage or Save State extension.
+- **Important:** the state includes Yarn variables and visited-branch history, but **not** the current position in the active dialogue. After loading, you still need to call `Start dialogue from branch` to resume at the right place.
+- The action **`Clear dialogue state`** resets all Yarn variables and visited-branch history (use it when starting a New Game).
 
 ----
 
