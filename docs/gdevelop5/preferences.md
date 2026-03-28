@@ -51,6 +51,10 @@ GDevelop displays hints and explanations for certain features. You can turn them
 Example of a hint/explanation:
 ![](/gdevelop5/hints2.png)
 
+## JavaScript events
+
+In the **Advanced** section of preferences, you can enable **Display type errors in JavaScript events**. When turned on, the JavaScript code editor highlights type errors directly in the code, which is useful for catching mistakes while writing custom JavaScript logic.
+
 ## Keyboard shortcuts
 
 There is a separate page discussing keyboard shortcuts and the command palette.
