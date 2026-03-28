@@ -32,6 +32,8 @@ This is the **recommended** approach for most games. It automatically stores the
 
 For this, use actions **Save game to device storage** and **Load game from device storage**.
 
+Both load actions have an optional parameter **Stop and restart all the scenes currently played**. If your game uses stacked scenes (for example, a pause menu scene on top of the game scene), setting this to **Yes** will cleanly stop and restart all active scenes before applying the loaded state. Leave it at the default **No** for most single-scene games.
+
 ![](save-device-storage-action.png)
 
 Each save uses a **storage key**, such as `"Save1"`, `"CheckpointA"`, or `"Autosave"`, to identify the save slot. This enables you to offer multiple save slots (in some games, it's usual to have 3 to 5 save slots that the player can use).

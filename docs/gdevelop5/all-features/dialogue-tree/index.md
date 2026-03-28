@@ -6,10 +6,9 @@ title: The Dialogue Tree extension
 !!! tip
 
     **Try out these game examples!** 🎮
-    
+
     - [Dialogue tree simple demo](https://editor.gdevelop.io/?project=https://resources.gdevelop-app.com/examples/dialogue-tree-simple-demo/dialogue-tree-simple-demo.json)
     - [Dialogue tree with yarn online](https://editor.gdevelop.io/?project=https://resources.gdevelop-app.com/examples/dialogue-tree-with-yarn/dialogue-tree-with-yarn.json)
-    - [Yarnalia game](https://editor.gdevelop.io/?project=https://resources.gdevelop-app.com/examples/dialogue-tree-simple-demo/dialogue-tree-simple-demo.json)
 
 
 The Dialogue Tree extension can be used to quickly create a dynamic dialogue tree behaviour. It comes with actions, conditions and expressions that make it extremely easy to set such a system with text scrolling, animated avatars and conditional dialogues. The example demo project does that in only 16 events.
@@ -130,7 +129,7 @@ Don't forget that you can put anything inside this **<<if ...>>**...**<<endif>>*
 
 !!! note
 
-    The dialogue tree extension stores all the $variables the player sets while playing the game and also comes with expressions/actions to get/set them - in case you want to store  them when the game is saved by the player and be able to reload them.
+    The Dialogue Tree extension keeps track of all `$variables` the player sets during the game. You can read and write these variables from GDevelop events using the **Set dialogue state variable** actions. To persist player choices across game sessions, use the **Save dialogue state** action (stores the state to a global variable) and **Load dialogue state** action (restores it). Use **Clear dialogue state** when starting a new game to reset all accumulated choices.
 
 
 ### 3. Option line type
@@ -160,8 +159,8 @@ This will simply tell yarn to continue to that node, without any user input. Use
 
      Avoid using options that contain a link to a non existent node or no link at all. That may cause the extension to crash your game
 
-**Gotchas to watch out for:
-**
+**Gotchas to watch out for:**
+
 If you try to do conditional options like this:
 ```
 Ok kids we're gonna go with...
@@ -233,10 +232,13 @@ The demo does not use the entire capability of the extension and is aiming to pr
 
 ### The basic life cycle of a dialogue
 
--  Load the dialogue tree data at the beginning of the game or the level
-- Set when a dialogue gets triggered - using the "Start Dialogue from branch..." action, and passing as a parameter the name of the node title where it will start from. That is typically the  root of a tree. In my example the npc object's dialogueBranch variable is used. That makes it easy to make many npcs and just change that in their properties
-- Tell the game engine how you want the dialogue data to be displayed to the player and used by the engine - for each of the three types
-- Set reusable commands to be triggered by Yarn - such as changing of avatars, playing of sound effects and any other game events to help tell your story.
+- Load the dialogue tree data at the beginning of the game or the level.
+- Start a dialogue with the **Start dialogue from branch** action, passing the node title as a parameter. Typically this is stored in an NPC's variable so each NPC can have its own starting branch.
+- For each game frame while a dialogue is running, read the current line type (text, command, or options) with conditions and display or react accordingly:
+    - For **text lines**: display `LineText()` or use `ClippedLineText()` with the **Scroll clipped text** action on a timer to create a typewriter effect. Call **Complete clipped text scrolling** if the player wants to skip ahead. Advance to the next line with **Go to the next dialogue line**.
+    - For **option lines**: display the choices (using `Option(index)` or `VerticalOptionsList()`/`HorizontalOptionsList()`), allow the player to navigate with **Select next/previous option**, then confirm with **Confirm selected option**.
+    - For **command lines**: check the command name with the condition **Dialogue line command is**, then trigger the corresponding game event (change avatar, play a sound, etc.). Use `CommandParameter(index)` to read the command's parameters.
+- Set reusable commands triggered by Yarn — such as changing avatars, playing sound effects, and other game events to help tell your story.
 
 # Examples
 
