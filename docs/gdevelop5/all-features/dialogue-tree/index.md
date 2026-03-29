@@ -238,6 +238,67 @@ The demo does not use the entire capability of the extension and is aiming to pr
 - Tell the game engine how you want the dialogue data to be displayed to the player and used by the engine - for each of the three types
 - Set reusable commands to be triggered by Yarn - such as changing of avatars, playing of sound effects and any other game events to help tell your story.
 
+### Typewriter (clipped text) effect
+
+The extension includes built-in support for a typewriter effect that gradually reveals dialogue text character by character.
+
+- Use the **"Scroll clipped text"** action (typically on a timer event) to advance the effect one character per call.
+- Display the result using the **ClippedLineText** expression — this returns only the visible portion of the text so far.
+- Use the **"Complete clipped text scrolling"** action to instantly reveal the full text (e.g., when the player presses a button to skip).
+- The **"Clipped text has completed scrolling"** condition becomes true once the full text has been revealed. Use this to prevent the player from advancing to the next line before the text is fully shown.
+
+### Displaying options to the player
+
+When the dialogue line type is `options`, the player must choose between multiple branches. The extension provides several helpers:
+
+- **`Option(index)`** — returns the text of a single option by its index (starting at 0).
+- **`OptionsCount`** — returns the total number of available options.
+- **`SelectedOptionIndex`** — returns the index of the currently highlighted option.
+- **`HorizontalOptionsList("cursor")`** / **`VerticalOptionsList("cursor")`** — return all options as a formatted string, with a cursor marker (default `>`) placed next to the selected option. Useful for displaying all choices in a single text object.
+- **`SelectNextOption`** / **`SelectPreviousOption`** / **`SelectOption(index)`** actions — move the selection cursor.
+- **`HasSelectedOptionChanged`** condition — fires when the player changes the highlighted option. Use it to update the cursor display without redrawing every frame.
+- **`ConfirmSelectOption`** — validates the currently highlighted option and advances the dialogue to that branch.
+
+### Branch tags
+
+Yarn nodes support **tags** — metadata attached to a branch header that can be used to drive game logic without embedding commands inside the dialogue text. In the Yarn editor, tags appear at the top of a node as `#tag` entries.
+
+- **`CurrentBranchContainsTag("tagname")`** condition — true when the active branch has the given tag.
+- **`BranchTag(index)`** expression — returns a tag of the current branch by index.
+- **`BranchTags`** expression — returns all tags of the current branch as a single string.
+- **`TagParameter(index)`** expression — returns a space-delimited parameter embedded in a tag, once that tag has been found by the `CurrentBranchContainsTag` condition.
+
+Tags are a clean alternative to `<<commands>>` for metadata that applies to an entire branch (e.g., marking a branch as `#combat`, `#important`, or `#npc_angry`).
+
+### Tracking visited branches
+
+The extension automatically tracks which branches the player has already visited.
+
+- **`WasBranchVisited("branchTitle")`** condition — true if the player has reached that branch before. Useful for showing different NPC dialogue the second time you talk to them.
+- **`VisitedBranchTitles`** expression — returns a string listing all visited branch titles, which you can inspect or store.
+
+This visited-branch state is also part of the dialogue state that can be saved and loaded (see below).
+
+### Getting and setting dialogue variables from GDevelop events
+
+Yarn variables (set with `<<set $variable to value>>`) are stored inside the dialogue state. You can read and write them directly from GDevelop events:
+
+- **`Variable("name")`** / **`VariableString("name")`** expressions — read a dialogue state variable as a number or string.
+- **`CompareDialogueStateStringVariable`** / **`CompareDialogueStateNumberVariable`** / **`CompareDialogueStateBooleanVariable`** conditions — compare a dialogue state variable against a value without needing an expression.
+- **`SetStringVariable`** / **`SetNumberVariable`** / **`SetBooleanVariable`** actions — set a dialogue state variable from GDevelop, so you can inject game state (score, player name, flags) into the dialogue logic.
+
+### Saving and restoring dialogue state
+
+Player choices, visited branches, and dialogue variables are all part of the **dialogue state**. To make choices persist across game saves:
+
+- **"Save dialogue state"** action — serializes the entire dialogue state into a global variable, which can then be stored using the Storage or Save State extension.
+- **"Load dialogue state"** action — restores a previously saved state from a global variable.
+- **"Clear dialogue state"** action — resets all dialogue state. Call this when the player starts a new game.
+
+!!! tip
+
+    Combine dialogue state save/load with GDevelop's **Save State** extension: save the global variable that holds the serialised dialogue state at the same time as the rest of the game, so that player choices are fully restored when they continue their save.
+
 # Examples
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://dialogue-tree-with-yarn){ .md-button .md-button--primary }

@@ -84,6 +84,10 @@
     {
       "date": "2026-03-24",
       "summary": "Fixed device-sensors docs (typo in gamma rotation description, wrong units deg/s vs m/s² for rotation values, clarified Is Absolute expression, added gravity note to acceleration) and fixed broken wiki URL in advanced-conditions OR condition"
+    },
+    {
+      "date": "2026-03-29",
+      "summary": "Improved dialogue-tree docs: added sections on branch tags, typewriter effect, options display helpers, visited-branch tracking, dialogue state variables, and save/load/clear dialogue state"
     }
   ]
 }
