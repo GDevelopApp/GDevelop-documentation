@@ -137,7 +137,7 @@ The **Global Search** lets you search across all Events Sheets in your project a
 
 ## Diagnostic Report
 
-The diagnostic report helps you find issues in your events such as missing actions, conditions, or expressions from extensions, as well as invalid parameters. When the Events Editor detects problems, they are shown with a red underline.
+The diagnostic report helps you find issues in your events such as missing actions, conditions, or expressions from extensions, as well as invalid parameters. It scans both scene events and extension function events. When the Events Editor detects problems, they are shown with a red underline.
 
 You can open the diagnostic report by:
 - Pressing **F7** (default keyboard shortcut)
