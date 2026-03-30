@@ -101,6 +101,10 @@ Equivalent events would be:
 
 By writing the **annotation** `/** @type {gdjs.XXX} */` just before the declaration of a variable in JavaScript, you let the code editor know that the variable has the type gdjs.XXX. The editor will be able to assist you by providing **autocompletion** while you type (or when you hover over a word).
 
+!!! tip
+
+    You can enable **type error highlighting** in the code editor by going to **Preferences** and toggling "Show type errors in JavaScript events" (a restart is required). This helps catch type mismatches as you write code.
+
 Most of the time annotations are not needed. The methods that you are using are already setup with type annotations. But when you use a list of objects, you may want to access this object specific method (for example, methods to modify the animation of a sprite object). In this case, you could write `/** @type {gdjs.SpriteRuntimeObject} */`.
 
 If you don't do this, the code will still work, but the editor will only be able to provide you with the methods of [gdjs.RuntimeObject](https://docs.gdevelop.io/GDJS%20Runtime%20Documentation/classes/gdjs.RuntimeObject.html) (the base class).

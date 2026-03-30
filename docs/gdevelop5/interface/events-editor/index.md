@@ -143,4 +143,4 @@ You can open the diagnostic report by:
 - Pressing **F7** (default keyboard shortcut)
 - Opening the command palette (Ctrl+P) and searching for "diagnostic report"
 
-The diagnostic report scans your project and lists all detected issues. You can click on any error in the report to navigate directly to the problematic event, making it easier to fix issues quickly.
+The diagnostic report scans your project — including scene events and extension function events — and lists all detected issues. You can click on any error in the report to navigate directly to the problematic event, making it easier to fix issues quickly.
