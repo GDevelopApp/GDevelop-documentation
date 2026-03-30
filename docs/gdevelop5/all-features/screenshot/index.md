@@ -17,9 +17,7 @@ Use this action to save a screenshot of everything which is currently drawn on t
 
 **Save path**: The file path where the screenshot should be saved.
 
-The save path needs to be an absolute path on the file system (Like "C:\MyFolder\MyScreenshot.png" on Windows)'
-
-Relative paths are not supported.
+The save path must be an absolute path on the file system (e.g. `C:\MyFolder\MyScreenshot.png` on Windows). Relative paths are not supported. If the path does not end with `.png`, the extension is appended automatically.
 
 !!! note
 
@@ -29,9 +27,9 @@ Relative paths are not supported.
 
 This path:
 
-``` <FileSystem::PicturesPath>() + <FileSystem::PathDelimiter>() + "my_screenshot.png" ```
+``` FileSystem::PicturesPath() + FileSystem::PathDelimiter() + "my_screenshot.png" ```
 
-This will save the screenshot to the *Pictures* folder on Windows, Linux and MacOS.
+This will save the screenshot to the *Pictures* folder on Windows, Linux and macOS.
 
 ## Reference
 
