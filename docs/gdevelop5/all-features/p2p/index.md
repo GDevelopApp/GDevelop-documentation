@@ -8,6 +8,8 @@ title: Peer-to-peer
 
     P2P leaks the client's IP addresses when connecting to them. If someone knows your broker server and P2P ID, they know your IP address and can use it to DDoS or geolocalize you. Make sure to properly inform your players and not to use lobby/matchmaking systems alongside P2P, as those may share the player's P2P ID with unknown peers.
 
+    To prevent IP sharing, use the **Disable IP address sharing** action before connecting to the broker. This forces all traffic through a TURN relay server (add one with the **Use a custom ICE server** action) at the cost of higher latency.
+
 
 !!! warning
 
@@ -29,6 +31,12 @@ There are two options for setting up a broker server:
 
   * Setting up a custom server (recommended), which can be run on a local computer as a test.
   * Using a default, public server.
+
+#### Configure ICE servers (for internet play)
+
+By default, P2P uses public STUN servers to establish connections. For games played over the internet (not just LAN), it is strongly recommended to add at least one self-hosted STUN server and one TURN relay server using the **Use a custom ICE server** action. This action can be called multiple times to add multiple servers. It must be called **before** connecting to the broker.
+
+TURN servers are required when players are behind strict firewalls or NAT that prevent direct connections. Without a TURN server, some players may be unable to connect.
 
 ####  Set up a custom (local) server
 
@@ -67,13 +75,23 @@ To use that server use the action "Use the default server".
 
 To connect instances, you need to enter their ID in the other instances. The ID can be found with the expression `P2P::GetID()`. To connect, use the "Connect to other instance" action and pass as a parameter the ID of another instance. Both instances will then connect automatically. You can then send an event from one instance to the other one to make sure that the connection is established.
 
+Wait for the **Is P2P ready** condition to become true before reading the ID or connecting, as initialization happens asynchronously after connecting to the broker server.
+
+Use the **Peer Connected** condition (and `P2P::GetLastConnectedPeer()` expression) to detect when a remote peer has initiated a connection to you. Similarly, the **Peer disconnected** condition fires when a connection drops, and `P2P::GetLastDisconnectedPeer()` returns the ID of the peer that left. The **An error occurred** condition combined with `P2P::GetLastError()` lets you display or log connection problems.
+
 ### Changing the ID generation
 
-The default P2P ID generation is very long to avoid conflicts, but if you want to have an easily shareable ID, it is not ideal. You can use a custom ID generation on your custom P2P broker by following [the instructions on the peerjs-server documentation](https://github.com/peers/peerjs-server#custom-client-id-generation).
+The default P2P ID generation is very long to avoid conflicts, but if you want to have an easily shareable ID, it is not ideal. You can use the **Override the client ID** action to set a custom ID before connecting to the broker — useful for room-code-style matchmaking. Alternatively, configure custom ID generation on your broker by following [the instructions on the peerjs-server documentation](https://github.com/peers/peerjs-server#custom-client-id-generation).
+
+### Disconnecting
+
+Use **Disconnect from a peer** to close a connection with one specific client, **Disconnect from all peers** to close all peer connections while keeping the broker connection alive, or **Disconnect from all** to fully shut down both peer connections and the broker connection.
 
 ## Interacting with connected games
 
 Once you got connected, you can trigger actions remotely. You can select another specific game instance (using its id) or send an event to all connected instances.
+
+Events carry an optional string payload retrieved with `P2P::GetEventData("eventName")` and an optional sender ID retrieved with `P2P::GetEventSender("eventName")`. If you need to transfer structured data (arrays, structures), use the variable variants of the send actions (**Trigger event on all connected clients (variable)** / **Trigger event on a specific client (variable)**) and retrieve the data with the **Get event data (variable)** action, which populates a scene variable with the received value.
 
 ### Choosing if you want to activate data loss mode
 
