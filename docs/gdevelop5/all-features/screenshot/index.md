@@ -3,35 +3,27 @@ title: Screenshot extension
 ---
 # Screenshot extension
 
-This extension lets you save a screenshot of the running game in a specified folder.
-
-Note: As of GDevelop 5.0.0-beta92 the screenshot action is no longer an extension. Just add an action and search for `screenshot` or go to `Other Actions`/`Screenshot`/`Take screenshot`.
-
-### Actions
-
-#### Take screenshot
-
-Use this action to save a screenshot of everything which is currently drawn on the game window into a *png* file.
-
-##### Parameters:
-
-**Save path**: The file path where the screenshot should be saved.
-
-The save path needs to be an absolute path on the file system (Like "C:\MyFolder\MyScreenshot.png" on Windows)'
-
-Relative paths are not supported.
+This extension lets you save a screenshot of the running game as a PNG file.
 
 !!! note
 
-    In order to create a game that runs on all supported platforms you should use the special folders from the file system extension in combination with the path separator. These determine the path to common folders like *Pictures*, *Documents* or *Desktop* automatically. You can read more about it in [this article](/gdevelop5/all-features/filesystem).
+    Screenshots are only supported on **Windows, Linux, and macOS**. Web and mobile exports do not support this feature.
+
+## Take a screenshot
+
+Use the **Take screenshot** action to save everything currently drawn on the game window into a PNG file. The action requires an absolute file path as the save destination.
+
+Use the [File System](/gdevelop5/all-features/filesystem) expressions to build cross-platform paths automatically, rather than hard-coding platform-specific paths.
 
 ## Example
 
-This path:
+To save a screenshot to the user's Pictures folder:
 
-``` <FileSystem::PicturesPath>() + <FileSystem::PathDelimiter>() + "my_screenshot.png" ```
+```
+FileSystem::PicturesPath() + FileSystem::PathDelimiter() + "my_screenshot.png"
+```
 
-This will save the screenshot to the *Pictures* folder on Windows, Linux and MacOS.
+This works on Windows, Linux, and macOS.
 
 ## Reference
 
