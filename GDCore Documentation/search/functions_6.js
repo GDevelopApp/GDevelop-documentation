@@ -434,7 +434,7 @@ var searchData=
   ['getrequiredbehaviortypes_3347',['GetRequiredBehaviorTypes',['../classgd_1_1_behavior_metadata.html#a4889863feb840bff485bf382f9dc3d2e',1,'gd::BehaviorMetadata']]],
   ['getresource_3348',['GetResource',['../classgd_1_1_resources_container.html#a5923ba37a6779e2a1791ec8fb280fce9',1,'gd::ResourcesContainer::GetResource(const gd::String &amp;name)'],['../classgd_1_1_resources_container.html#a63bf7f27fbd103849b2d1005b8f5c0b2',1,'gd::ResourcesContainer::GetResource(const gd::String &amp;name) const']]],
   ['getresourceat_3349',['GetResourceAt',['../classgd_1_1_resources_container.html#a28b729f50fe998c0befd3b7697551136',1,'gd::ResourcesContainer::GetResourceAt(std::size_t index) const'],['../classgd_1_1_resources_container.html#a55fc91821a11e28dbaa719324147eb01',1,'gd::ResourcesContainer::GetResourceAt(std::size_t index)']]],
-  ['getresourcenamewithfile_3350',['GetResourceNameWithFile',['../classgd_1_1_resources_container.html#a5d1f2b52ff06f9e80739fe9468ef866c',1,'gd::ResourcesContainer']]],
+  ['getresourcenameswithfile_3350',['GetResourceNamesWithFile',['../classgd_1_1_resources_container.html#a12e737ec1a7aa4eb78ee6b2f75cf51d8',1,'gd::ResourcesContainer']]],
   ['getresourcenamewithorigin_3351',['GetResourceNameWithOrigin',['../classgd_1_1_resources_container.html#a9b37ff3a8ce8dd816004360ddb2c5678',1,'gd::ResourcesContainer']]],
   ['getresourceposition_3352',['GetResourcePosition',['../classgd_1_1_resources_container.html#a6707c0c8faf4cec351a341bbc55ea9fa',1,'gd::ResourcesContainer']]],
   ['getresourcescontainer_3353',['GetResourcesContainer',['../classgd_1_1_resources_containers_list.html#ab9ca6a990141052e9649a27962e1ab97',1,'gd::ResourcesContainersList']]],
