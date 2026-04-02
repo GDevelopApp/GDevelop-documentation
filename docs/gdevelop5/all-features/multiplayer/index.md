@@ -111,12 +111,30 @@ Typically, you can use this condition to either start moving things in your game
     - Condition and expression **Player number**. Use this expression or condition to retrieve and compare the player number of a player in the lobby. Numbers are 1, 2, 3, etc.
       This will be particularly useful during the game so you can assign who has permissions to do what, and who is in charge of what, depending on the player number.
 
+    - Expression **Current lobby ID**: returns the unique identifier of the current lobby. Useful if you want to let players invite friends directly to a specific lobby.
+
+    - Expressions **Player username** and **Current player username**: return the GDevelop/gd.games username of a specific player (by player number) or of the current player. You can use these to display player names in the game HUD.
+
+    - Expressions **Player ping** and **Current player ping**: return the network latency in milliseconds for a given player or for the current player. Useful to display connection quality indicators.
+
+    - Expressions **Player number that just joined** and **Player number that just left**: return the player number of the most recent player to join or leave the lobby. Use alongside the conditions **Any player has joined** / **Any player has left** when you need to react generically without checking each player number individually.
+
     - Conditions **Player has left**:
       use this condition to know if a player has left the lobby. This can be useful to adapt your game if a player leaves the game, either by ending the game or adapt the difficulty of the game.
 
 When developing the game, you can open multiple preview windows and join the same lobby with the same account. This way, you can test the multiplayer features without needing multiple devices.
 
 ![Open multiple preview windows to test a multiplayer game](./multiple-previews.png)
+
+### Quick join: skipping the lobby screen
+
+Instead of showing the full lobbies UI, you can use **Quick join** to instantly place a player into the next available lobby without any intermediate screen. This is useful for games where you want a seamless "play now" experience.
+
+- The action **Join the next available lobby** will search for an open lobby and join it automatically. You can optionally show a loading indicator and fall back to the full lobbies window if no lobby is available.
+- The action **Join a specific lobby by its ID** lets you send a player directly to a known lobby (for invite links or friend sessions). Use the **Current lobby ID** expression to obtain the lobby ID from the host and share it with others.
+
+Use the condition **Is searching for a lobby to join** to know if the quick join is still in progress, and **Quick join failed to join a lobby** to detect failure (for example to show an error message or open the full lobby screen instead).
+The expression **Quick join failure reason** returns `'FULL'` when all lobbies are full, `'NOT_ENOUGH_PLAYERS'` when the lobby requires more players to start, or `'UNKNOWN'` for other errors.
 
 ### Letting players join a game in progress
 
@@ -323,7 +341,12 @@ For instance, when an arrow shot by a player hits another character or an enemy,
 
 !!! note
 
-    You can also use the action **Send a custom message to other players** in this case. This action sends a message to other players. For instance a message `Arrow hit player 2` can be sent to all players, so that they can handle the collision on their side, using the condition to read the custom message.
+    You can also use **custom messages** in this case. Two actions are available:
+
+    - **Send a custom message to other players** — sends a named text message with a string payload.
+    - **Send a custom message with a variable to other players** — sends a named message whose payload is taken from a variable (useful for structured data like coordinates or health values).
+
+    Both actions include an automatic retry system so the message is reliably delivered. Use the condition **Message has been received** (with the message name) to react when the message arrives. Use the action **Get message variable** to copy the message payload into a variable, or the expression **Message data** to read the payload as a string, and **Message sender** to know which player number sent it.
 
 ### Can I still do procedural generation of objects in a multiplayer game?
 
@@ -335,6 +358,10 @@ If a player is disconnected or close the game, other players will be notified (t
 
 If the host quits the game, the lobby game will be ended for all players.
 Note that each player's scene will keep running unless you use the condition to check for lobby game ending (usually, to redirect to a menu or back to the lobbies).
+
+### Adjusting the synchronization rate
+
+By default, synchronized objects send updates **30 times per second**. You can adjust this with the **Objects synchronization rate** action (accepts values from 1 to 60). Lowering the rate reduces bandwidth usage at the cost of less smooth replication; raising it improves smoothness but increases traffic. In most cases the default of 30 is a good balance.
 
 ### Known missing features or limitations
 
