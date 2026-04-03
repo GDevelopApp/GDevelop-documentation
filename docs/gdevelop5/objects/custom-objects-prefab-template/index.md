@@ -30,7 +30,7 @@ To create a new custom object, the easiest way is to add a few objects on the sc
 
 ![Two objects extracted into a single custom object](./extract-custom-object.png)
 
-Choose an extension name, custom object name and validate. This will open a new editor containing the objects you've selected along with the instances from the scene. In the scene, the instances you've selected are replaced by a unique custom object, that acts as a container for all of them.
+Choose an extension name, custom object name and validate. This will open a new editor containing the objects you've selected along with the instances from the scene. In the scene, the instances you've selected are replaced by a unique custom object, that acts as a container for all of them. You can also set a custom **icon** for the object (distinct from the extension icon) in the object options — the icon field becomes available once the extension itself has an icon set.
 
 ![A custom object that was just created](./custom-object-with-two-buttons.png)
 
