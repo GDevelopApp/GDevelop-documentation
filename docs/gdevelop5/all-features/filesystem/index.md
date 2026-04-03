@@ -131,7 +131,7 @@ This action loads the JSON formatted text from a file and converts it into a sce
 == Parameters ==
 ** Scene variable: ** The name of the scene variable to which the loaded structure will be added.
 
-** Load path: ** The path on the file system where the file should be saved.
+** Load path: ** The path on the file system where the file is located.
 It is advised to use the expressions for special folders (see below) to keep your game platform independent.
 
 ** (Optional) Result variable: ** Variable to store the result. It can either hold the value 'ok': the task was successful or 'error': an error occurred.
@@ -143,7 +143,7 @@ This action loads the JSON formatted text from a file and converts it into a sce
 == Parameters ==
 ** Scene variable: ** The name of the scene variable to which the loaded structure will be added.
 
-** Load path: ** The path on the file system where the file should be saved.
+** Load path: ** The path on the file system where the file is located.
 It is advised to use the expressions for special folders (see below) to keep your game platform independent.
 
 ** (Optional) Result variable: ** Variable to store the result. It can either hold the value 'ok': the task was successful or 'error': an error occurred. The variable will be updated, at the moment the file operation has finished.
@@ -184,13 +184,22 @@ It is advised to use the expressions for special folders (see below) to keep you
 
 ---
 
-####  Delete a file
+####  Delete a file (async)
 This action deletes the file at the given file path __asynchronously__.
 == Parameters ==
 ** File path: ** The path on the file system where the file is located.
 It is advised to use the expressions for special folders (see below) to keep your game platform independent.
 
 ** (Optional) Result variable: ** Variable to store the result. It can either hold the value 'ok': the task was successful or 'error': an error occurred. The variable will be updated, at the moment the file operation has finished.
+
+---
+
+####  Read directory contents
+This action reads the contents of a directory and stores the list of files and subdirectories into a scene variable as an array. This operation is asynchronous.
+== Parameters ==
+** Directory path: ** The absolute path to the directory to read.
+
+** Scene variable: ** The variable that will receive the list of entries (array of strings with names). If an error occurs, the variable is set to the string `"error"` instead.
 
 ## Expressions
 These expressions return the path to special folders on the users' operating system. If you use these expressions for loading and saving files it will be guaranteed to work on all supported operating systems. (Currently Windows, Linux, and macOS)
@@ -216,6 +225,14 @@ This folder is used for storing application settings.
 ####  Path delimiter
 This expression returns the operating system independent path delimiter character. ("\" on Windows and "/" on Linux and macOS).
 Use this expression to build cross-platform file paths that can be accessed on all supported operating systems.
+####  Home folder
+This expression returns the operating system independent path to the _Home_ folder of the user that runs your game (e.g. `C:\Users\Alice` on Windows or `/home/alice` on Linux).
+####  Directory name
+This expression takes a file or folder path and returns only the directory portion, stripping the filename. Useful when you need to derive a directory path from a known file path.
+####  File name
+This expression takes a file path and returns only the filename including its extension (e.g. `"screenshot.png"`).
+####  Extension name
+This expression takes a file path and returns only the file extension including the leading period (e.g. `".png"`, `".json"`).
 
 ## Example
 In order to save a screenshot to the _Pictures_ directory you could write:
