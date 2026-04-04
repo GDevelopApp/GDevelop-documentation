@@ -4,7 +4,7 @@ title: Save & Load (Save State)
 
 # Save & Load (Save State)
 
-The **Save State** extension allows you to **save and restore the full state of your game** at any time — including all objects, variables, sounds, effects, and more.
+The **Save State** extension allows you to **save and restore the full state of your game** at any time — including all objects, variables, sounds, effects, timers, layers, tweens, asynchronous actions (Wait), and more.
 
 It is designed to be **easy to use by default**, while also providing **advanced configuration options** for developers who need finer control over what gets saved or loaded.
 
@@ -34,7 +34,11 @@ For this, use actions **Save game to device storage** and **Load game from devic
 
 ![](save-device-storage-action.png)
 
-Each save uses a **storage key**, such as `"Save1"`, `"CheckpointA"`, or `"Autosave"`, to identify the save slot. This enables you to offer multiple save slots (in some games, it's usual to have 3 to 5 save slots that the player can use).
+Each save uses a **storage key**, such as `"Save1"`, `"CheckpointA"`, or `"Autosave"`, to identify the save slot. This enables you to offer multiple save slots (in some games, it’s usual to have 3 to 5 save slots that the player can use).
+
+!!! note
+
+    Saving to and loading from device storage is **asynchronous**. The operation completes at the end of the frame — use the "Save just succeeded/failed" and "Load just succeeded/failed" conditions (see below) to react to the result rather than acting immediately after the action.
 
 
 !!! tip
@@ -56,7 +60,17 @@ This is useful for:
 
 ## Monitoring Save/Load Operations
 
-The extension provides a few **expressions and conditions** to help you monitor saves and loads. In particular, the "Load just succeeded" condition is perfect to run some logic after a scene was loaded. This is somewhat similar to "At the beginning of the scene", except that after a loading a scene is already considered as started (because it was "frozen in time" in the save state).
+The extension provides **conditions and expressions** to help you monitor saves and loads.
+
+**Conditions** (triggered once, on the frame the operation completes):
+
+- **Save just succeeded** / **Save just failed** — check whether the last save operation completed successfully.
+- **Load just succeeded** / **Load just failed** — check whether the last load operation completed successfully. "Load just succeeded" is the right place to run post-load logic (e.g. updating the UI). This is similar to "At the beginning of the scene", except that after loading, the scene is already considered started because it was frozen in the save state.
+
+**Expressions**:
+
+- `SaveState::TimeSinceLastSave()` — returns the number of seconds elapsed since the last successful save (returns `-1` if no save has been made yet in this session).
+- `SaveState::TimeSinceLastLoad()` — returns the number of seconds elapsed since the last successful load (returns `-1` if no load has been made yet in this session). Useful for autosave or inactivity reminders.
 
 ## Advanced: Excluding Objects from Save States with the “Save Configuration” Behavior.
 
@@ -91,7 +105,7 @@ Similarly, you can use these actions for fine-grained control on what is saved/l
 
 The Save State system supports **profiles**, allowing you to save only some part of the game. For example, you could:
 
-- Make a full save of the game after a level is completed (this is what happens when you don't specify a profile: the "default" profile is used).
+- Make a full save of the game after a level is completed. When you don't specify a profile name in the save/load action, the `"default"` profile is used and all objects/variables that have no explicit profile exclusion are included.
 - During a level, use the save state with a specific profile `"enemies"` to save enemies positions when a checkpoint is reached. If they player dies, you put it back to the checkpoint position and the save state with the profile `"enemies"` so that enemies are restored - but the rest of the game continues to run.
 
 Each object, variable, or piece of scene/game data can be assigned one or more **profile names** (like `"default"`, `"checkpoint"`, `"player"`, etc.). For example, a coin can be `items, coins`.
