@@ -25,6 +25,8 @@ Fill all the fields, in particular, the name and the descriptions of your extens
 * *Author* is your username. An account will have to be registered and a proper username will be needed to be able to add the username. Type the username and pick the username from the drop-down menu
 * *Dimension* indicates whether the extension works in **2D**, **3D**, **2D/3D**, or is not applicable to a specific dimension. Set this to help users quickly identify compatibility.
 
+Once the extension has an icon, individual **behaviors** and **custom objects** within the extension can each be given their own icon. Open the behavior or custom object configuration panel and use the **Icon URL** field to pick a different SVG icon from the resource store. This lets each behavior or object stand out with a distinct icon in the editor.
+
 #### Ensure your extension follow the best practices
 
 Read the [best practices for extensions](/gdevelop5/extensions/best-practices) here.
