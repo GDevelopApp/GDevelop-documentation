@@ -132,6 +132,8 @@ Don't forget that you can put anything inside this **<<if ...>>**...**<<endif>>*
 
     The dialogue tree extension stores all the $variables the player sets while playing the game and also comes with expressions/actions to get/set them - in case you want to store  them when the game is saved by the player and be able to reload them.
 
+Yarn `$variables` are scoped to the dialogue system only — they are not GDevelop scene or global variables. To read or write them from GDevelop events, use the **Set dialogue state string/number/boolean variable** actions (passing the variable name without the `$` prefix), and the `DialogueTree::Variable("name")` (number) or `DialogueTree::VariableString("name")` (string) expressions.
+
 
 ### 3. Option line type
 
@@ -237,6 +239,36 @@ The demo does not use the entire capability of the extension and is aiming to pr
 - Set when a dialogue gets triggered - using the "Start Dialogue from branch..." action, and passing as a parameter the name of the node title where it will start from. That is typically the  root of a tree. In my example the npc object's dialogueBranch variable is used. That makes it easy to make many npcs and just change that in their properties
 - Tell the game engine how you want the dialogue data to be displayed to the player and used by the engine - for each of the three types
 - Set reusable commands to be triggered by Yarn - such as changing of avatars, playing of sound effects and any other game events to help tell your story.
+
+## Branch tags
+
+Yarn nodes support **tags** in their header — for example:
+
+```
+title: VillageElder
+tags: important npc
+---
+```
+
+From GDevelop you can check whether the current branch contains a specific tag using the **Current dialogue branch contains a tag** condition, and retrieve the tag by index with the `DialogueTree::BranchTag(index)` expression. Tags are a convenient alternative to `<<commands>>` for attaching metadata to dialogue branches (e.g. marking which branches unlock achievements, or which character portrait to show).
+
+## Tracking visited branches
+
+The extension automatically records which branches the player has visited. Use the **Branch title has been visited** condition to check if the player has already seen a specific branch. The `DialogueTree::VisitedBranchTitles()` expression returns a comma-separated list of all visited branch titles if you need to inspect them programmatically.
+
+## Saving and loading dialogue state
+
+Player choices and `$variables` accumulate in memory as the dialogue runs, but they are lost when the game is closed. To persist them across sessions, use the dialogue state actions:
+
+- **Save dialogue state** — serialises the current state (visited branches and variables) into a GDevelop **global variable**. Call this alongside your normal game-save logic.
+- **Load dialogue state** — restores a previously saved state from that global variable. Call this when the player loads a save.
+- **Clear dialogue state** — resets all dialogue state, useful when starting a new game.
+
+The saved state variable can be stored to permanent storage using the [Storage extension](/gdevelop5/all-features/storage/) like any other variable.
+
+## Typewriter effect
+
+The extension includes a built-in character-by-character reveal effect. Each frame, call the **Scroll clipped text** action; use `DialogueTree::ClippedText()` as the displayed text instead of `DialogueTree::LineText()`. The **Clipped text has completed scrolling** condition tells you when the full line has been revealed, and **Complete clipped text scrolling** lets the player skip ahead to the full line instantly.
 
 # Examples
 

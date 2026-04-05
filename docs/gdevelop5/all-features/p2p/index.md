@@ -52,7 +52,7 @@ After the above has been completed, the **Use custom broker server** action is u
 
 !!! tip
 
-    Note that this is a local server, so it will only work on your machine. When releasing your game you will need to deploy one to a Node.js compatible hosting, like Heroku.
+    Note that this is a local server, so it will only work on your machine. When releasing your game you will need to deploy the server to a Node.js compatible hosting service (such as Railway, Render, or a VPS of your choice).
 
 ####  Use the default server
 
