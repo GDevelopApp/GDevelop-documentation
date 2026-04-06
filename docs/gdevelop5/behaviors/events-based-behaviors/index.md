@@ -39,6 +39,10 @@ You can choose the description and the name to display to users when they will a
 
 ![](pasted/20210906-234834.png)
 
+!!! tip
+
+    Each behavior can have its own icon, separate from the extension icon. To set it, open the behavior configuration and use the **Icon URL** field (requires the extension to have an icon set first). This makes it easier for users to identify your behavior in the list.
+
 Behaviors can also embed properties, which are number, strings or booleans that are stored inside the behavior. Check out the section below about how to add and use properties.
 
 ## Add functions to your behavior

@@ -66,6 +66,10 @@ Breaking change update:
  - ✅ 1.2.0 -> 2.0.0
  - ✅ 1.2.3 -> 2.0.0
 
+### Set an icon
+
+Use the **Icon URL** field in the extension options to set an SVG icon for your extension. Once the extension has an icon, you can also set separate icons for individual behaviors and objects within the extension. This makes it easier to identify your extension and its components in the editor.
+
 ### Write descriptions
 
 All descriptions, names, and sentences should be filled out. They should be:
