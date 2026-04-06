@@ -81,3 +81,4 @@ Remember to tell about it on social medias, on the Discord and on the forum to l
 
 
     Later, if you want to publish an upload, be sure to increase the version number (in the game properties in GDevelop). Otherwise, the Play Store will reject the new Android App Bundle if it has the same version number as an existing one.
+<img width="720" height="1600" alt="83722" src="https://github.com/user-attachments/assets/6b92862e-c697-48de-984d-4afe2847942d" />
