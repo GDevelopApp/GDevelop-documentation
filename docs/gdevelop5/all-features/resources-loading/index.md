@@ -48,6 +48,11 @@ Default intermediary loading screens can be replaced by custom scenes using the 
 
 ![](loading-screen-events.png)
 
+When building a custom loading screen you can use:
+
+- **Scene preloaded** condition: becomes true once all resources for a given scene have finished loading in the background.
+- **Scene loading progress** expression: returns a value between `0` and `1` representing how much of a scene's resources have loaded. Use it to drive a progress bar or spinner.
+
 ## Reference
 
 All actions, conditions and expressions are listed in [the scene reference page](/gdevelop5/all-features/scene/reference/).
