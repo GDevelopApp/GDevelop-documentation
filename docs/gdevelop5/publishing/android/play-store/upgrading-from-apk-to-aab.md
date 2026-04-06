@@ -1,4 +1,4 @@
----
+photo Earn---
 title: Upgrading your app from APK to Android App Bundles
 ---
 # Upgrading your app from APK to Android App Bundles
