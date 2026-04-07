@@ -56,6 +56,10 @@ The condition can be then used in the scene:
 
 By doing this for more complex needs, you can break down game menus or even gameplay objects (like a player character, complex obstacles, enemies, etc...) into custom object that can be edited independently. Your scene stays simple and only focused on the high level details of your game.
 
+## Set a custom icon for a custom object
+
+Each custom object can have its own icon, which is displayed in the object list and the asset store. To set an icon, open the custom object editor and use the **Icon URL** field. Note that the extension must already have an icon set before you can assign a separate icon to individual custom objects.
+
 ## Change the default size of a custom object
 
 The grey rectangle on the scene is the custom object default size. Your can change this size by clicking on the button on the top right corner.
