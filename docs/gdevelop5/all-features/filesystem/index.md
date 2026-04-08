@@ -192,6 +192,17 @@ It is advised to use the expressions for special folders (see below) to keep you
 
 ** (Optional) Result variable: ** Variable to store the result. It can either hold the value 'ok': the task was successful or 'error': an error occurred. The variable will be updated, at the moment the file operation has finished.
 
+---
+
+####  Read the content of a directory
+This action reads the list of files and subdirectories inside a directory and stores them in a scene variable as an array of strings. Each element is the **name** (not the full path) of a file or subdirectory found in that folder.
+== Parameters ==
+** Directory path: ** The absolute path to the directory to read.
+
+** Variable: ** The scene variable where the result will be stored. On success, it becomes an array of strings. On error, the variable is set to `"error"`.
+
+This is useful for scanning a save folder for existing save files, listing level files stored as JSON, or building a simple file browser.
+
 ## Expressions
 These expressions return the path to special folders on the users' operating system. If you use these expressions for loading and saving files it will be guaranteed to work on all supported operating systems. (Currently Windows, Linux, and macOS)
 !!! tip
@@ -213,9 +224,21 @@ This folder is used for temporary files that your operating system can delete at
 ####  Userdata folder
 This expression returns the operating system independent path to the _UserData_ folder of the user that runs your game.
 This folder is used for storing application settings.
+####  User home folder
+This expression returns the path to the current user's home directory (e.g. `C:\Users\username` on Windows, `/home/username` on Linux, `/Users/username` on macOS).
 ####  Path delimiter
 This expression returns the operating system independent path delimiter character. ("\" on Windows and "/" on Linux and macOS).
 Use this expression to build cross-platform file paths that can be accessed on all supported operating systems.
+
+## Path utility expressions
+
+When you have a file path as a string, these expressions let you extract individual parts of it:
+
+- **Directory name**: Returns the directory portion of a path, without the filename. For example, from `C:\Games\saves\save1.json` it returns `C:\Games\saves`.
+- **File name**: Returns the filename with its extension. From `C:\Games\saves\save1.json` it returns `save1.json`.
+- **Extension name**: Returns the file extension including the leading period. From `save1.json` it returns `.json`.
+
+These are helpful when you receive a full file path (for example from the **Read the content of a directory** action combined with the folder path) and need to extract just the name or extension.
 
 ## Example
 In order to save a screenshot to the _Pictures_ directory you could write:

@@ -88,6 +88,10 @@
     {
       "date": "2026-04-02",
       "summary": "Improved multiplayer docs: added Quick Join section, documented player username/ping/last-joined/last-left expressions, lobby ID expression, custom message variable variant, and synchronization rate action"
+    },
+    {
+      "date": "2026-04-08",
+      "summary": "Improved filesystem docs (added ReadDirectory action, UserHomePath expression, and path utility expressions) and fixed screenshot docs (broken expression syntax, outdated beta note, added desktop-only caveat)"
     }
   ]
 }
