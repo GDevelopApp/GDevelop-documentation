@@ -35,7 +35,7 @@ By default, extensions don't have any behavior. Add one by clicking on the "+" b
 
 ![](/gdevelop5/events/functions/empty-extension.png)
 
-You can choose the description and the name to display to users when they will add your behavior to an object. If you need to use a specific object (sprites, texts...), you can choose it with the drop-down list at the bottom.
+You can choose the description and the name to display to users when they will add your behavior to an object. You can also set a custom icon and a help page link for the behavior — this is especially useful when an extension provides multiple behaviors, so each one can be visually distinguished. If you need to use a specific object (sprites, texts...), you can choose it with the drop-down list at the bottom.
 
 ![](pasted/20210906-234834.png)
 

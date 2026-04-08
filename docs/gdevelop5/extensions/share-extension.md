@@ -18,7 +18,7 @@ Open your extension from the [Project Manager](/gdevelop5/interface/project-mana
 Fill all the fields, in particular, the name and the descriptions of your extension:
 
 * The *name* will be displayed in the search (and will be useful for people to search for your extension),
-* The *short description* will also be displayed in the search results, along with the *icon*,
+* The *short description* will also be displayed in the search results, along with the *icon*. If your extension contains multiple behaviors or custom objects, each one can also have its own individual icon and help page link (configured in its own options editor),
 * The *description* will be displayed when [installing the extension](/gdevelop5/extensions/search). It should contain a quick explanation about how to use the extension.
 * The *version* is a version number, in the format `X.Y.Z`. For example: `1.0.0`. Start with 1.0.0 if you're confident that your extension is ready, or `0.0.1` if it's still subject to changes.
 * *Tags* is a list of comma-separated "tags", that help to search the extension. Read the existing tags when [you search for extensions](/gdevelop5/extensions/search) to get some inspiration. Reuse existing tags as possible.
