@@ -97,7 +97,9 @@ const angle = eventsFunctionContext.getArgument("Angle");
 
 ![](wrap-function.png)
 
-For object parameters, `getObjects` must be used. It gives an `Array` of `RuntimeObject`.
+### Get object parameters in JavaScript
+
+For object parameters, `getObjects` must be used. It gives an `Array` of `gdjs.RuntimeObject`.
 
 ```javascript
 const players = eventsFunctionContext.getObjects("Player");
@@ -106,6 +108,35 @@ for (const player of players) {
 
 }
 ```
+
+When you chose a specific type for the object in the parameter list, you need to declare the type in the code to get all the autocompletions. For instance, for sprite objects, you will add the following:
+
+```javascript
+/** @type {Array<gdjs.SpriteRuntimeObject>} */
+const players = eventsFunctionContext.getObjects("Player");
+```
+You can find a list of all object type in the [GDJS documentation page for RuntimeObject](https://docs.gdevelop.io/GDJS%20Runtime%20Documentation/classes/gdjs.RuntimeObject.html).
+
+
+### Get resources in JavaScript
+
+Resource parameters are string containing the name of the resource. You can get the resource content from some [ResourceManager](https://docs.gdevelop.io/GDJS%20Runtime%20Documentation/interfaces/gdjs.ResourceManager.html).
+
+For instance, to get an image for a 2D game you can do as follows:
+
+```javascript
+const resourceName = eventsFunctionContext.getArgument("MyImage");
+runtimeScene.getGame().getImageManager().getPIXITexture(resourceName);
+```
+
+For 3D games, you can get a texture with this other method:
+```javascript
+runtimeScene.getGame().getImageManager().getThreeTexture(resourceName);
+```
+
+!!! warning
+
+    By default, resource names look like a relative path, but it should not be used as a path because it won't necessarily be a valid path (and it can be changed by users to anything). 
 
 ### Call a library from an event-function
 
