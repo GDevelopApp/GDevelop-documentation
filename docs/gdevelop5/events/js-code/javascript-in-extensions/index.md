@@ -115,12 +115,12 @@ When you chose a specific type for the object in the parameter list, you need to
 /** @type {Array<gdjs.SpriteRuntimeObject>} */
 const players = eventsFunctionContext.getObjects("Player");
 ```
-You can find a list of all object type in the [GDJS documentation page for RuntimeObject](https://docs.gdevelop.io/GDJS%20Runtime%20Documentation/classes/gdjs.RuntimeObject.html).
+You can find the list of all object types in the [GDJS documentation page for RuntimeObject](https://docs.gdevelop.io/GDJS%20Runtime%20Documentation/classes/gdjs.RuntimeObject.html).
 
 
 ### Get resources in JavaScript
 
-Resource parameters are string containing the name of the resource. You can get the resource content from some [ResourceManager](https://docs.gdevelop.io/GDJS%20Runtime%20Documentation/interfaces/gdjs.ResourceManager.html).
+Resource parameters are strings containing the name of the resource. You can get the resource content from some [ResourceManager](https://docs.gdevelop.io/GDJS%20Runtime%20Documentation/interfaces/gdjs.ResourceManager.html).
 
 For instance, to get an image for a 2D game you can do as follows:
 
