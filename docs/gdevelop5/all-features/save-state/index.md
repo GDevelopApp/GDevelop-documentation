@@ -56,7 +56,17 @@ This is useful for:
 
 ## Monitoring Save/Load Operations
 
-The extension provides a few **expressions and conditions** to help you monitor saves and loads. In particular, the "Load just succeeded" condition is perfect to run some logic after a scene was loaded. This is somewhat similar to "At the beginning of the scene", except that after a loading a scene is already considered as started (because it was "frozen in time" in the save state).
+The extension provides conditions and expressions to monitor saves and loads:
+
+- **Save just succeeded** / **Save just failed** — true for one frame after a save attempt completes.
+- **Load just succeeded** / **Load just failed** — true for one frame after a load attempt completes.
+- **Time since last save** / **Time since last load** — expressions that return the elapsed time in seconds since the last successful save or load. They return `-1` if no save/load has happened yet in the current session.
+
+The "Load just succeeded" condition is especially useful to run initialization logic after restoring a save. It is similar to "At the beginning of the scene", except that after loading, the scene is already in its saved state (not freshly initialized).
+
+!!! tip
+
+    Always check "Load just failed" when loading from device storage so you can handle the case where no save file exists yet (e.g., on a first play-through).
 
 ## Advanced: Excluding Objects from Save States with the “Save Configuration” Behavior.
 
