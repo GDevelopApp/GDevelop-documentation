@@ -67,6 +67,8 @@ Shadows are computed around the camera with a range suitable for most games. You
 
     Shadow casting and shadow receiving can be controlled independently. For example, you might want a flying object to cast shadows on the ground but not receive shadows from other objects.
 
+When models are both casting and receiving shadows, you might see some darkened patterns on them. This can be fixed thanks to the **Shadow bias** property of [lights](/gdevelop5/objects/3d-light/#avoid-shadow-artefacts).
+
 ## Origin and center points
 
 The 3D model object has two important configuration points that affect how it's positioned and rotated:
