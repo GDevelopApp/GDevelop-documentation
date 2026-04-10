@@ -24,7 +24,7 @@ Light effects don't have a position in the scene, but you can change the directi
 
 ## Avoid shadow artefacts
 
-When [3D model objects](/gdevelop5/objects/3d-model/) are both casting and receiving shadows, you might see some darkened patterns on them. The **Shadow bias** property of lights can be used to avoid this "shadow acne". Choose a value small enough like 0.001 to avoid creating distance between shadows and objects but not too small to avoid shadow glitches on low/medium quality.
+When [3D model objects](/gdevelop5/objects/3d-model/) are both casting and receiving shadows, you might see some darkened patterns on them. The **Shadow bias** property of lights can be used to avoid this "shadow acne". Choose a value small enough like `0.001` to avoid creating distance between shadows and objects but not too small to avoid shadow glitches on low/medium quality.
 
 ## Display more light objects
 
