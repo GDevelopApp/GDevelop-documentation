@@ -4,9 +4,18 @@ nav:
     - Panel Sprite ("9 patch"): panel_sprite
     - Tilemap: simple_tilemap
     - light
-    - text
     - 3D Box: 3d-box
     - 3D Model: 3d-model
     - ...
     - External Tilemap (LDtk/Tiled): tilemap
+    - Text:
+      - text
+      - bitmap_text
+      - bbtext
+    - User Interface:
+      - button
+      - resource-bar
+      - slider
+      - text_input
+      - toggle-switch
     - Custom Objects ("Prefabs"): custom-objects-prefab-template
