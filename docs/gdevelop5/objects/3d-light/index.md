@@ -29,6 +29,7 @@ When [3D model objects](/gdevelop5/objects/3d-model/) are both casting and recei
 ## Display more light objects
 
 Light objects can be heavy on the GPU especially when they cast shadows. In order to allow game creators to add many lights in the scene, the engine automatically hide lights the furthest away from the camera. By default, the limits are:
+
 - 20 visible light objects
 - 4 light objects casting shadows
 
