@@ -4,7 +4,7 @@ title: Save & Load (Save State)
 
 # Save & Load (Save State)
 
-The **Save State** extension allows you to **save and restore the full state of your game** at any time — including all objects, variables, sounds, effects, and more.
+The **Save State** extension allows you to **save and restore the full state of your game** at any time — including all objects, variables, sounds, effects, linked object relationships, and more.
 
 It is designed to be **easy to use by default**, while also providing **advanced configuration options** for developers who need finer control over what gets saved or loaded.
 
