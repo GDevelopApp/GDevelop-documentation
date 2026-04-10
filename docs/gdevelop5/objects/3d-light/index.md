@@ -1,7 +1,7 @@
 ---
-title: 3D light
+title: 3D Light
 ---
-# 3D light
+# 3D Light
 
 ## Choose the right light
 
