@@ -36,6 +36,7 @@ For this, use actions **Save game to device storage** and **Load game from devic
 
 Each save uses a **storage key**, such as `"Save1"`, `"CheckpointA"`, or `"Autosave"`, to identify the save slot. This enables you to offer multiple save slots (in some games, it's usual to have 3 to 5 save slots that the player can use).
 
+The load action has an optional **Stop and restart all scenes** parameter. When enabled, all currently running scenes are stopped and restarted before the state is applied — useful when loading a save from the main menu where the gameplay scenes aren't running yet. When disabled (the default), the state is applied on top of the currently running scenes.
 
 !!! tip
 
@@ -56,7 +57,12 @@ This is useful for:
 
 ## Monitoring Save/Load Operations
 
-The extension provides a few **expressions and conditions** to help you monitor saves and loads. In particular, the "Load just succeeded" condition is perfect to run some logic after a scene was loaded. This is somewhat similar to "At the beginning of the scene", except that after a loading a scene is already considered as started (because it was "frozen in time" in the save state).
+The extension provides **conditions and expressions** to help you monitor saves and loads:
+
+- **Save just succeeded** / **Save just failed** — trigger on the frame immediately after a save attempt completes. Use these to show a "Game saved!" message or handle a storage-full error.
+- **Load just succeeded** / **Load just failed** — trigger on the frame after a load attempt. "Load just succeeded" is perfect for running initialization logic after a scene is restored, similar to "At the beginning of the scene" — except the scene is already considered started (it was "frozen in time" in the save state).
+- `SaveState::TimeSinceLastSave()` — returns the number of seconds elapsed since the last successful save, or `-1` if no save has occurred yet in this session. Useful for implementing autosave timers.
+- `SaveState::TimeSinceLastLoad()` — returns the number of seconds elapsed since the last successful load, or `-1` if no load has occurred.
 
 ## Advanced: Excluding Objects from Save States with the “Save Configuration” Behavior.
 
