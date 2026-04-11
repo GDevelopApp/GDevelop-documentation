@@ -44,6 +44,8 @@ Example `gdevelop-settings.yaml`:
 preferences:
   autosaveOnPreview: true
   eventsSheetZoomLevel: 10
+shortcuts:
+  RELOAD_PROJECT: 'CmdOrCtrl+Shift+R'
 ```
 
 Examples of available settings are:
@@ -52,6 +54,8 @@ Examples of available settings are:
 * `showDeprecatedInstructionWarning` - Show warnings for deprecated actions/conditions
 * `themeName` - Editor theme name
 * `eventsSheetZoomLevel` - Zoom level for the events sheet
+
+You can also define project-specific keyboard shortcuts in the `shortcuts` section. Use the command name as the key (visible in the keyboard shortcuts preferences panel) and the key combination as the value. For example, `RELOAD_PROJECT: 'CmdOrCtrl+Shift+R'` binds the "Reload project" command for everyone working on the project.
 
 These settings override personal preferences only while the project is open and do not permanently change each developer's preferences. This file works with version control, so your team can share consistent editor settings alongside the game files.
 
