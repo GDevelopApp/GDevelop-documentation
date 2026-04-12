@@ -3,35 +3,24 @@ title: Screenshot extension
 ---
 # Screenshot extension
 
-This extension lets you save a screenshot of the running game in a specified folder.
+This extension lets you save a screenshot of the running game as a PNG file.
 
-Note: As of GDevelop 5.0.0-beta92 the screenshot action is no longer an extension. Just add an action and search for `screenshot` or go to `Other Actions`/`Screenshot`/`Take screenshot`.
+!!! warning
 
-### Actions
+    Screenshots are only supported on **desktop builds** (Windows, Linux, and macOS). The action does nothing on web (HTML5) or mobile (Android, iOS) exports.
 
-#### Take screenshot
+## Take a screenshot
 
-Use this action to save a screenshot of everything which is currently drawn on the game window into a *png* file.
+Use the **Take screenshot** action and provide a file path where the PNG file should be saved.
 
-##### Parameters:
+- The output is always a **PNG file**. If the path you provide does not end in `.png`, the extension is added automatically.
+- Use an **absolute path** or build one dynamically using [FileSystem expressions](/gdevelop5/all-features/filesystem) so the path works correctly on all desktop operating systems.
 
-**Save path**: The file path where the screenshot should be saved.
+!!! tip
 
-The save path needs to be an absolute path on the file system (Like "C:\MyFolder\MyScreenshot.png" on Windows)'
+    Use `FileSystem::PicturesPath() + FileSystem::PathDelimiter() + "screenshot.png"` to save to the user's **Pictures** folder on Windows, Linux, and macOS automatically.
 
-Relative paths are not supported.
-
-!!! note
-
-    In order to create a game that runs on all supported platforms you should use the special folders from the file system extension in combination with the path separator. These determine the path to common folders like *Pictures*, *Documents* or *Desktop* automatically. You can read more about it in [this article](/gdevelop5/all-features/filesystem).
-
-## Example
-
-This path:
-
-``` <FileSystem::PicturesPath>() + <FileSystem::PathDelimiter>() + "my_screenshot.png" ```
-
-This will save the screenshot to the *Pictures* folder on Windows, Linux and MacOS.
+If saving fails (for example, because the folder does not exist or permissions are denied), an error is written to the console but the game continues running. There is no built-in condition to detect whether the save succeeded.
 
 ## Reference
 

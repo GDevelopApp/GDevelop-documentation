@@ -88,6 +88,10 @@
     {
       "date": "2026-04-02",
       "summary": "Improved multiplayer docs: added Quick Join section, documented player username/ping/last-joined/last-left expressions, lobby ID expression, custom message variable variant, and synchronization rate action"
+    },
+    {
+      "date": "2026-04-12",
+      "summary": "Improved window/game area docs (added IsFullScreen condition, game resolution vs window size distinction, SceneWindowWidth/ScreenWidth expressions, resize modes, CenterWindow desktop note, WindowTitle expression) and screenshot docs (added desktop-only warning, PNG-only format note, error handling note)"
     }
   ]
 }
