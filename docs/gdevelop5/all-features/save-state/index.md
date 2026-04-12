@@ -4,7 +4,7 @@ title: Save & Load (Save State)
 
 # Save & Load (Save State)
 
-The **Save State** extension allows you to **save and restore the full state of your game** at any time — including all objects, variables, sounds, effects, and more.
+The **Save State** extension allows you to **save and restore the full state of your game** at any time — including all objects, variables, sounds, effects, linked object relationships, and more.
 
 It is designed to be **easy to use by default**, while also providing **advanced configuration options** for developers who need finer control over what gets saved or loaded.
 
@@ -74,6 +74,10 @@ Add the **Save Configuration** behavior to any object you don’t want to includ
 !!! tip
 
     The best practice is to tag all objects from your game interface, virtual controls as well as objects that are not part of the gameplay with this behavior and the "Do not save" mode.
+
+!!! note
+
+    **Linked object relationships and "Do not save":** links between two saved objects are preserved across save/load. Links between two excluded ("Do not save") objects are left untouched. However, a link between a saved object and a "Do not save" object cannot be serialized, so it will be lost when the save state is restored.
 
 ### Exclude Variables or other Scene/Game Data from Save States
 

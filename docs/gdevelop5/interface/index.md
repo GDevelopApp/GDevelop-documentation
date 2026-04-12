@@ -100,6 +100,8 @@ Use the project manager to add new elements to your project.
 
 To close a project, click the three-dot menu on the project's card and select "Close Project." Ensure all changes are saved beforehand.
 
+To **reload the project from disk or cloud** (discarding any unsaved changes), open the command palette and search for "Reload project". GDevelop will ask for confirmation before discarding changes.
+
 ![Project-manager-open-project](Project-manager-open-project.png)
 
 ### 2. Scene editor
