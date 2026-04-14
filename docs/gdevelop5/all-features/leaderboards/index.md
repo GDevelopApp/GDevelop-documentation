@@ -32,11 +32,34 @@ Use the action **"Save connected player score"** (or **"Save player score"** if 
 
 ## Check that the score was correctly saved
 
-You have 3 conditions at your disposal to monitor how the saving is run through.
+You have 3 conditions at your disposal to monitor how the saving is run through:
+
+- **Score is saving** — true while the save request is in flight.
+- **Last score save has succeeded** — true once the save completes successfully.
+- **Last score save has errored** — true if the save failed.
 
 ![](/gdevelop5/all-features/leaderboards/pasted/20220412-143408.png)
 
 For each of those conditions, you can specify the leaderboard but this is optional. This can prove useful if you try to save the player score in multiple leaderboards at once.
+
+### Get the error code from a failed save
+
+When a save fails, the **`Leaderboards::LastSaveError`** string expression returns an error code you can use to give feedback to the player or debug the issue. Common error codes include:
+
+| Error code | Meaning |
+|---|---|
+| `SAME_AS_PREVIOUS` | The same player and score were already submitted — duplicate ignored |
+| `TOO_FAST` | The save was attempted within 500 ms of the previous attempt — wait a bit |
+| `LEADERBOARD_RATE_LIMIT_EXCEEDED` | More than 6 successful entries were submitted to the same leaderboard within 1 minute |
+| `GLOBAL_RATE_LIMIT_EXCEEDED` | More than 12 successful entries were submitted across all leaderboards within 1 minute |
+
+!!! tip
+
+    Rate limits apply client-side to prevent abuse. A typical game flow (one save per level completion) will never hit them. They become relevant only if your events could accidentally trigger the action every frame or in a tight loop.
+
+### Control whether connected-player scores take priority
+
+By default, when a player is logged in, the **"Save player score"** action automatically attaches the score to that player (ignoring the player-name parameter). Use the action **"Always attach scores to the connected player"** to turn this automatic upgrade on or off.
 
 ## Display a leaderboard
 
@@ -53,6 +76,12 @@ While it's **loading**, to let the player know that the leaderboard will display
 - Use the condition "Leaderboard display is loading" to trigger an action (display a text "Loading" for example)
 
 Either case, if there's an error during the display, *it will close automatically*. You can also use the 2 conditions "Leaderboard display has errored" and "Leaderboard display has loaded" if you want to add logic around a possible error.
+
+## Close the leaderboard programmatically
+
+The leaderboard view has a built-in close button that the player can use at any time. You can also close it yourself with the **"Close current leaderboard"** action — for example, after a time limit or when the player presses a specific key.
+
+To detect that the player has closed the view by clicking the built-in close button, use the **"Closed by player"** condition. It is true for exactly one frame after the view closes. This is a good time to resume gameplay, play a sound, or change the scene.
 
 ## Advanced: pause the scene when the leaderboard is displayed
 

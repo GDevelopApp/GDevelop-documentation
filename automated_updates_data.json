@@ -88,6 +88,10 @@
     {
       "date": "2026-04-02",
       "summary": "Improved multiplayer docs: added Quick Join section, documented player username/ping/last-joined/last-left expressions, lobby ID expression, custom message variable variant, and synchronization rate action"
+    },
+    {
+      "date": "2026-04-14",
+      "summary": "Improved leaderboards docs: documented CloseLeaderboardView action, HasPlayerJustClosedLeaderboardView condition, LastSaveError expression with error-code table, SetPreferSendConnectedPlayerScore action, and client-side rate limiting details"
     }
   ]
 }
