@@ -30,6 +30,10 @@ When used as a **condition**, it also returns false if nothing was picked — us
 
 When an object is **deleted from the scene**, all its links are automatically cleaned up so that other objects no longer point to the removed instance.
 
+## Save and restore links
+
+Links between objects are **saved and restored** by the [Save State extension](/gdevelop5/all-features/save-state). Links involving objects marked as "Do not save" are not persisted — only links where both objects are included in the save are restored.
+
 ## Use cases
 
 Linked objects are well suited for **permanent one-to-one or one-to-many relationships** that would be cumbersome to track with variables:
