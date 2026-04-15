@@ -88,6 +88,10 @@
     {
       "date": "2026-04-02",
       "summary": "Improved multiplayer docs: added Quick Join section, documented player username/ping/last-joined/last-left expressions, lobby ID expression, custom message variable variant, and synchronization rate action"
+    },
+    {
+      "date": "2026-04-15",
+      "summary": "Fixed js-code/index.md: corrected deleteFromScene() and getElapsedTime() signatures (no longer take runtimeScene param), added examples for global variables access and object creation from JavaScript"
     }
   ]
 }

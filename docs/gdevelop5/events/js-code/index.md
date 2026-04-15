@@ -173,10 +173,10 @@ objects.forEach(object => {
 
   if (enemy.getAnimation() === 1 && platformerBehavior.isOnFloor() && !platformerBehavior.isMoving()) {
       object.activateBehavior("PlatformerObject", false);
-      enemy.setOpacity(enemy.getOpacity() - 50 * object.getElapsedTime(runtimeScene) / 1000);
+      enemy.setOpacity(enemy.getOpacity() - 50 * object.getElapsedTime() / 1000);
 
       if (enemy.getOpacity() === 0) {
-          object.deleteFromScene(runtimeScene);
+          object.deleteFromScene();
       }
   }
 });
@@ -184,6 +184,31 @@ objects.forEach(object => {
 
 The equivalent events would be:
 ![](fade-out-and-behavior.png)
+
+### Read and change global variables
+
+Global variables are stored on the game object, not the scene. Use `runtimeScene.getGame().getVariables()` to access them:
+
+```javascript
+const globalVar = runtimeScene.getGame().getVariables().get("HighScore");
+const currentScore = globalVar.getAsNumber();
+if (currentScore > 1000) {
+  globalVar.setNumber(currentScore + 100);
+}
+```
+
+For a string global variable, use `getAsString()` and `setString()`.
+
+### Create a new instance of an object
+
+Call `runtimeScene.createObject("ObjectName")` to spawn a new instance. The method returns the new object (or `null` if the object name is not found):
+
+```javascript
+const newEnemy = runtimeScene.createObject("Enemy");
+if (newEnemy !== null) {
+  newEnemy.setPosition(100, 200);
+}
+```
 
 ### Use JavaScript to get the value of a parameter of a function
 
