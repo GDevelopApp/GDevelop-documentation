@@ -5,6 +5,10 @@ title: Screenshot extension
 
 This extension lets you save a screenshot of the running game in a specified folder.
 
+!!! warning "Desktop only"
+
+    Screenshots are only supported when running on **Windows, macOS, or Linux** (desktop builds). The action does nothing on web exports or mobile platforms.
+
 Note: As of GDevelop 5.0.0-beta92 the screenshot action is no longer an extension. Just add an action and search for `screenshot` or go to `Other Actions`/`Screenshot`/`Take screenshot`.
 
 ### Actions

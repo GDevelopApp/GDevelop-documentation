@@ -41,6 +41,12 @@ Each save uses a **storage key**, such as `"Save1"`, `"CheckpointA"`, or `"Autos
 
     While there is no hard limitation on the number of saves, some devices or browsers might have a limitation on the total size occupied by the saves. It's usually safer to limit the number of saves the player can do.
 
+The load action also has an optional **"Stop and restart all the scenes currently played"** parameter. When enabled, all scenes are fully unloaded and re-created from the save state, which gives the cleanest restoration. When disabled (the default), existing scenes are updated in place — objects not present in the save are deleted and missing ones are re-created, but the scene is not restarted. For most games the default works well; enable it if you encounter odd state after loading.
+
+!!! note
+
+    On web platforms, device storage is backed by the browser's **IndexedDB**, which is persistent across sessions. On desktop (Windows/macOS/Linux) it is stored in a local file. Either way the same `"Save game to device storage"` / `"Load game from device storage"` actions are used — no platform-specific code is needed.
+
 ### 2. Save to a Variable (Advanced)
 
 You can also save the entire game state into a **scene or global variable**.
@@ -56,7 +62,21 @@ This is useful for:
 
 ## Monitoring Save/Load Operations
 
-The extension provides a few **expressions and conditions** to help you monitor saves and loads. In particular, the "Load just succeeded" condition is perfect to run some logic after a scene was loaded. This is somewhat similar to "At the beginning of the scene", except that after a loading a scene is already considered as started (because it was "frozen in time" in the save state).
+The extension provides conditions and expressions to help you monitor saves and loads:
+
+- **Save just succeeded** / **Save just failed** — True for exactly one frame immediately after a save attempt completes.
+- **Load just succeeded** / **Load just failed** — True for exactly one frame immediately after a load attempt completes.
+
+The "Load just succeeded" condition is particularly useful for running logic right after a game is restored — for example, repositioning the camera or playing a fade-in effect. Unlike "At the beginning of the scene", after loading a state the scene is already considered started (its state was "frozen in time" when the save was made).
+
+Two expressions are also available:
+
+- **Time since last save** — number of seconds since the last successful save. Returns -1 if no save has occurred yet.
+- **Time since last load** — number of seconds since the last successful load. Returns -1 if no load has occurred yet.
+
+!!! tip
+
+    Use "Save just failed" to show an error message to the player or to retry the save automatically.
 
 ## Advanced: Excluding Objects from Save States with the “Save Configuration” Behavior.
 
