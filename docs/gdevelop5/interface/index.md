@@ -100,6 +100,10 @@ Use the project manager to add new elements to your project.
 
 To close a project, click the three-dot menu on the project's card and select "Close Project." Ensure all changes are saved beforehand.
 
+!!! tip
+
+    Use **Reload Project** (available in the project menu) to discard all unsaved changes and reload the project from disk or cloud. This is useful after external edits or to recover from an unwanted state.
+
 ![Project-manager-open-project](Project-manager-open-project.png)
 
 ### 2. Scene editor
