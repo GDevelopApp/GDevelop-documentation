@@ -238,6 +238,72 @@ The demo does not use the entire capability of the extension and is aiming to pr
 - Tell the game engine how you want the dialogue data to be displayed to the player and used by the engine - for each of the three types
 - Set reusable commands to be triggered by Yarn - such as changing of avatars, playing of sound effects and any other game events to help tell your story.
 
+### Displaying dialogue text (typewriter effect)
+
+The extension provides two ways to display the current text line:
+
+- **`GetClippedLineText()`** — returns the text up to the current scroll position. Use this with the **"Scroll clipped text"** action to create a classic typewriter effect: call "Scroll clipped text" every frame (or on a timer to control speed), and each call reveals one more character.
+- **`GetLineText()`** — returns the complete text of the current line at once, skipping any `<<wait>>` pauses entirely.
+
+The **"Has clipped scrolling completed"** condition becomes true when the entire line is revealed. Use this to show a "press any key to continue" indicator. You can also let the player skip to the end of the current line by calling **"Complete clipped text scrolling"** (for example, when they press a button while text is still scrolling).
+
+The `<<wait N>>` command pauses scrolling for N milliseconds. It only takes effect when you have at least one **"Command is called"** condition active in the same event sheet.
+
+### Handling player choices (option lines)
+
+When the dialogue reaches a branch point (`[[Choice text|NodeName]]`), the line type becomes **options**. Use the **"Dialogue line is type"** condition (set to `options`) to detect this and switch to your choice UI.
+
+To display the available choices:
+
+- **`GetLineOptionsCount()`** — how many options the player can pick from.
+- **`GetLineOption(index)`** — the text of one option (index starts at 0).
+- **`GetLineOptionsTextVertical(cursor)`** — all options joined with newlines, with a cursor string (e.g. `">"`) prepended to the currently selected one. Handy for displaying all choices in a single text object. `GetLineOptionsTextHorizontal(cursor)` does the same on a single line.
+
+To handle selection input:
+
+- **"Select next option"** and **"Select previous option"** cycle through the list (wrapping around at the ends). Hook these to keyboard arrows, gamepad D-pad, or a joystick.
+- **"Select option at index"** jumps directly to a specific option — useful for on-screen tap targets.
+- **"Has selected option changed"** fires once when the selection changes, letting you update the display only when needed rather than every frame.
+- **"Confirm selected option"** validates the highlighted choice and advances the dialogue to the linked branch.
+
+Use **`GetSelectedOption()`** to get the index of the currently highlighted option.
+
+### Branch tags
+
+Each Yarn node can have tags defined in its header, letting you attach metadata to an entire branch — for example to identify the speaking character, the scene mood, or a soundtrack cue.
+
+In the Yarn editor, add tags by editing the node header:
+
+```
+title: ShopkeeperGreeting
+tags: merchant, friendly
+---
+Welcome to my shop, traveller!
+===
+```
+
+Tags can also carry parameters using the format `tagName(param1,param2)`.
+
+Use the **"Branch contains tag"** condition to check for a tag at the start of a branch, and **`GetTagParameter(index)`** to read its parameters. This is useful for actions that apply to a whole branch (switching portrait art, changing background music) rather than mid-line `<<commands>>`.
+
+Use **`GetBranchTitle()`** to get the name of the currently active node, and **"Branch title is"** to check for a specific one.
+
+### Tracking visited branches
+
+The dialogue runner remembers which branches the player has already seen. Use the **"Branch has been visited"** condition to check this — for example, to have an NPC say something different after the first conversation, or to unlock new dialogue options once certain branches are visited.
+
+**`GetVisitedBranchTitles()`** returns a comma-separated list of all visited branch names, which is useful for debugging.
+
+### Saving and restoring dialogue state
+
+The dialogue runner keeps its own internal state: all `$variables` set during the dialogue, and the record of visited branches. This state is separate from GDevelop scene or global variables.
+
+- **"Save dialogue state to variable"** copies this state into a GDevelop global variable as a structured object.
+- **"Load dialogue state from variable"** restores it from that variable.
+- **"Clear dialogue state"** resets all `$variables` and the visited-branches history.
+
+To persist dialogue progress across game sessions, pass the global variable holding the dialogue state to the Save & Load extension alongside your other game data.
+
 # Examples
 
 [Open example in GDevelop](https://editor.gdevelop.io/?project=example://dialogue-tree-with-yarn){ .md-button .md-button--primary }

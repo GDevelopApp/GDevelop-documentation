@@ -88,6 +88,10 @@
     {
       "date": "2026-04-02",
       "summary": "Improved multiplayer docs: added Quick Join section, documented player username/ping/last-joined/last-left expressions, lobby ID expression, custom message variable variant, and synchronization rate action"
+    },
+    {
+      "date": "2026-04-18",
+      "summary": "Improved dialogue-tree docs (typewriter effect, option selection input, branch tags, visited branch tracking, save/load state) and screenshot docs (desktop-only warning, auto .png extension, no success condition)"
     }
   ]
 }
