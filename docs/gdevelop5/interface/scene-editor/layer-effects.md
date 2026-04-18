@@ -97,24 +97,21 @@ Applies a color-map effect on an object or layer.
 
 This works by modifying a reference "color image map" containing all possible colors.
 
-  - Download the reference color map image below, or create your own.
-  - In an image editor (like Photoshop or GIMP), tweak the color balances of the reference color image map.
-      * e.g. In an image editor, using the invert colors function on the reference map will also invert all of the colors of the objects on the layer that the Color Map effect is used.
-  - Save it as a new file, then use this resulting file as the color image map for the effect in GDevelop.
-**Download the image file below and use it as the color map** in GDevelop:
+Create your own color map
 
-color-map-original-template.png (reference color map image): ![](/gdevelop5/interface/scene-editor/color-map-original-template.png)
+  - Download the reference color map image:
+    ![](/gdevelop5/interface/scene-editor/color-map-original-template.png)
+  - Use an image editor (like [GIMP](https://www.gimp.org) or Photoshop) to tweak the color the reference color image map with some filters. For instance, you can use GIMP [Rotate Colors](https://docs.gimp.org/3.0/en/gimp-filter-color-rotate.html) filter.
+      - Try some filters on your assets first to get an dea of the end result
+      - Once you found the right settings, apply the same filters to the reference color map image.
+      - Save it as a new file
+  - Use this new image as the color image map for the effect in GDevelop.
 
-!!! note
+Try some ready-to-use color maps
 
-    Each example color map below relates to the images above with the same name. By shifting the original template's colors, it shifts the colors of all of the objects on that layer.
-color-map-model-1.png : ![](/gdevelop5/interface/scene-editor/color-map-model-1.png)
-color-map-model-2.png : ![](/gdevelop5/interface/scene-editor/color-map-model-2.png)
-color-map-model-3.png : ![](/gdevelop5/interface/scene-editor/color-map-model-3.png)
-
-!!! note
-
-    Don't forget to make changes to the colors of this file using an image editor. Otherwise, no changes will be visible (as the original colors won't be changed).
+- color-map-model-1.png : ![](/gdevelop5/interface/scene-editor/color-map-model-1.png)
+- color-map-model-2.png : ![](/gdevelop5/interface/scene-editor/color-map-model-2.png)
+- color-map-model-3.png : ![](/gdevelop5/interface/scene-editor/color-map-model-3.png)
 
 ####  CRT
 
