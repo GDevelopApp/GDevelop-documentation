@@ -83,6 +83,20 @@ To do so, tiles have identifiers. The tile identifier (id) is automatically comp
 
 If the image width and/or the tile size change, the tile identifiers will also change. To expand the atlas image, to have more tiles, without impacting the tile maps based on it, the atlas should be expanded towards the bottom.
 
+### Coordinate conversion
+
+Tile manipulation actions come in two variants: one using **scene coordinates** (world position in pixels) and one using **grid coordinates** (column and row indices). Use whichever is more convenient for your logic.
+
+The expressions `GridX(posX, posY)` and `GridY(posX, posY)` convert a scene position to the corresponding grid column and row. Conversely, `TileCenterX(col, row)` and `TileCenterY(col, row)` return the scene position at the center of a given tile. These are useful when you need to snap objects to tiles or detect which tile an object is standing on.
+
+### Flipping tiles
+
+Tiles can be flipped horizontally or vertically in-game with the **Flip tile** actions. Flipping lets you reuse a single tile for mirrored variants — for example, the same slope tile can face left or right — without adding extra tiles to the atlas. You can also check whether a tile is currently flipped with the corresponding conditions.
+
+### Resizing the grid at runtime
+
+The grid dimensions can be changed with the **Set grid column count** and **Set grid row count** actions. Tiles outside the new boundaries are removed. This is useful for procedural level generation or for building levels that expand as the player progresses.
+
 ## Reference
 
 All actions, conditions and expressions are listed in [the tilemap reference page](/gdevelop5/all-features/tilemap/reference/#tile-map).

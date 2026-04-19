@@ -88,6 +88,10 @@
     {
       "date": "2026-04-02",
       "summary": "Improved multiplayer docs: added Quick Join section, documented player username/ping/last-joined/last-left expressions, lobby ID expression, custom message variable variant, and synchronization rate action"
+    },
+    {
+      "date": "2026-04-19",
+      "summary": "Improved tilemap docs: added coordinate conversion, tile flipping, grid resize to simple tilemap; added display modes and LDtk level switching to external tilemap; cleaned up screenshot doc (removed outdated note, fixed broken expression syntax, added desktop-only warning)"
     }
   ]
 }

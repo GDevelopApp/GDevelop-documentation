@@ -197,6 +197,20 @@ Internally, GDevelop will work as follow:
 * If you set a tileset JSON file in the object, this tileset will be used. Note that if at the same time, another tileset is bundled in your Tilemap JSON file, the external tileset JSON file will still be used by the object: the bundled tileset will be ignored.
 * If you do not provide a tileset JSON file, the object will look for a tileset inside the Tilemap JSON and load it if present.
 
+## Display mode and layers
+
+The External Tilemap renders its layers using one of three **display modes**, which can be changed at runtime with the **Set display mode** action:
+
+- **visible**: renders only the layers that are marked as visible in Tiled or LDtk. This is useful to hide or show entire layers (for example a secret passage layer) from within the editor.
+- **all**: renders every layer regardless of the visibility setting in the editor.
+- **index**: renders only the single layer at the chosen **layer index** (starting from 0). Use this mode when you want to draw each layer independently — for example to place a parallax background layer behind your scene objects while a foreground decoration layer stays on top.
+
+The active layer index can be read or changed with the **Layer index** expression and action.
+
+## LDtk: switching between levels
+
+LDtk projects can contain multiple **levels**. Use the **Set level index** action to switch which level the object displays at runtime (0 is the first level). This allows you to navigate a multi-level LDtk world without reloading or recreating the tilemap object.
+
 ## Animate tiles
 
 If you have **animated tiles**, they will need to be arranged in the right order in a single row on the atlas to work.
