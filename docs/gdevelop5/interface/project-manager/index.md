@@ -23,4 +23,6 @@ You can fold and unfold each category by clicking on the small arrow next to eac
 
   * **5.External layouts:** Similar to external events, you can create an external layout for anything you want to use throughout your project(like UI and menu set ups), and then load them into any scene you choose. See [External Layouts](/gdevelop5/interface/scene-editor/external-layouts) to learn how to use them.
 
+## Reloading a project
 
+If your project file was changed externally (for example, by a teammate committing a new version to a shared repository, or by editing the file outside GDevelop), you can reload it without closing GDevelop. Open the **File** menu and choose **Reload project** (or search for it in the command palette with Ctrl+P). This discards all unsaved changes and replaces the current project with the version on disk or in the cloud.

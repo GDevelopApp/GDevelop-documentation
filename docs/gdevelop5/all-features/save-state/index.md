@@ -104,6 +104,7 @@ When you perform a save or load, you can specify one or more profiles — and on
 
     While it’s technically possible to save the game at any moment, it’s **recommended** to save or load at stable points in gameplay — such as checkpoints or after the end of an action — to avoid inconsistencies (e.g., during physics updates or combat animations).
 
+- **Linked object relationships** are saved and restored automatically for objects included in the save state. Links between a saved and a non-saved object are not preserved (the non-saved object has no identity in the save file).
 - **Custom objects** are not yet fully serialized. They will be recreated and placed correctly, but their internal state may reset to default.
 - **Third-party extensions** that manage data outside of GDevelop’s variable/object system might not be captured.
 - **Performance impact:** Saving large games (many objects or variables) can briefly freeze the game; use with care on mobile or web platforms.

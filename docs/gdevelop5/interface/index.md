@@ -113,6 +113,10 @@ The Events Editor allows you to define your game's logic using GDevelop's visual
 
 Learn more about [its usage on this page](/gdevelop5/interface/events-editor) or check [the help about events](/gdevelop5/events).
 
+!!! tip
+
+    You can right-click on an editor tab (Event Sheets, Extensions, etc.) and choose **Open in new window** to pop it out into a separate, resizable window. This is an experimental feature.
+
 ### 4. Preview
 You can preview your project at any time using the **[Preview](/gdevelop5/interface/preview/#previewing-your-game)** button in the toolbar. Additional options are available in the drop-down menu next to the button.
 
