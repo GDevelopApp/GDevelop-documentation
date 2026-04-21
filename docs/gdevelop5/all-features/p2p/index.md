@@ -89,6 +89,53 @@ Here are two examples:
 * if you use a synchronized score counter, you don't want to lose any data, as missing only one point of the counter would *desynchronize* the counters, so the dataloss mode would be deactivated.
 * If you want to synchronize positions, only the last position sent is relevant, not older positions. In this case, you would activate the dataloss mode *to prevent delays/lags*.
 
+### Sending structured data with variables
+
+Instead of sending simple string data, you can attach an entire **variable** (including structures and arrays) to a P2P event using the **"Send event to all with variable"** or **"Send event to peer with variable"** actions. On the receiving side, use the **"Get event data as variable"** action to copy the received data into a local variable.
+
+This is useful for sending complex game state, such as player position and health in a single message, without having to manually serialize and parse strings.
+
+### Knowing who sent an event
+
+Use the expression `P2P::GetEventSender("EventName")` to get the **ID of the peer** who triggered a specific event. This is useful when you need to send a reply or track which player performed an action.
+
+## Monitoring connections and errors
+
+### Detecting when a peer connects or disconnects
+
+The **"A peer has connected"** condition triggers once when a new peer establishes a connection. Use the expression `P2P::GetLastConnectedPeer()` in the same event to read the new peer's ID — for example, to store it in a list or greet the player.
+
+Similarly, the **"A peer has disconnected"** condition fires when a connection is lost, and `P2P::GetLastDisconnectedPeer()` returns that peer's ID so you can clean up their state (remove their character, update the lobby, etc.).
+
+### Handling errors
+
+The **"An error occurred"** condition triggers when P2P encounters a problem (such as failing to connect to the broker). Use the expression `P2P::GetLastError()` to retrieve a description of the error and display it or log it for debugging.
+
+The **"P2P is ready"** condition becomes true once the extension has successfully connected to a broker server and has been assigned a peer ID. It is useful to gate the "Connect" button in a lobby screen behind this condition.
+
+## Disconnecting
+
+Several actions let you cleanly close connections:
+
+- **Disconnect from a peer** — drops the connection to one specific peer.
+- **Disconnect from all peers** — closes all peer connections but keeps the broker connection alive (your game stays "in the lobby").
+- **Disconnect from the broker server** — leaves the broker but keeps existing peer connections open.
+- **Disconnect from all** — fully shuts down P2P, closing the broker connection and all peer connections.
+
+## Advanced: Custom ID before connecting
+
+By default, the broker server assigns a long random ID. If you want players to share a short, human-readable code, use the **"Override the client ID"** action and pass a custom string **before** calling any "connect to broker" action.
+
+!!! warning
+
+    Custom IDs must be unique across all connected clients. If two clients request the same ID, one of them will be rejected.
+
+## Advanced: Custom ICE servers (STUN/TURN)
+
+WebRTC uses ICE servers for NAT traversal — discovering how two peers behind firewalls can reach each other. You can call **"Use a custom ICE server"** one or more times **before** connecting to the broker to add your own STUN or TURN servers. Providing a TURN server is recommended for players behind strict NATs who cannot connect directly.
+
+If you want to prevent IP addresses from being shared at all, use the **"Force relay server"** action (set to *yes*) before connecting to the broker. This routes all traffic through a TURN relay server, completely hiding peer IPs — at the cost of higher latency and server bandwidth.
+
 ## Reference
 
 All actions, conditions and expressions are listed in [the peer-to-peer reference page](/gdevelop5/all-features/p2p/reference/).

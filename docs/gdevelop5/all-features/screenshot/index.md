@@ -3,35 +3,23 @@ title: Screenshot extension
 ---
 # Screenshot extension
 
-This extension lets you save a screenshot of the running game in a specified folder.
+This extension lets you save a screenshot of the running game to a file.
 
-Note: As of GDevelop 5.0.0-beta92 the screenshot action is no longer an extension. Just add an action and search for `screenshot` or go to `Other Actions`/`Screenshot`/`Take screenshot`.
+!!! warning
 
-### Actions
+    Screenshots are only supported on **desktop builds** (Windows, Linux, macOS). The action has no effect in web or mobile exports.
 
-#### Take screenshot
+## Take screenshot
 
-Use this action to save a screenshot of everything which is currently drawn on the game window into a *png* file.
+Use the **"Take screenshot"** action to save everything currently drawn on the game window as a PNG file.
 
-##### Parameters:
+The action requires an **absolute file path** — relative paths are not supported. Use the [filesystem expressions](/gdevelop5/all-features/filesystem) to build a portable path that works on every desktop platform:
 
-**Save path**: The file path where the screenshot should be saved.
+```
+FileSystem::PicturesPath() + FileSystem::PathDelimiter() + "my_screenshot.png"
+```
 
-The save path needs to be an absolute path on the file system (Like "C:\MyFolder\MyScreenshot.png" on Windows)'
-
-Relative paths are not supported.
-
-!!! note
-
-    In order to create a game that runs on all supported platforms you should use the special folders from the file system extension in combination with the path separator. These determine the path to common folders like *Pictures*, *Documents* or *Desktop* automatically. You can read more about it in [this article](/gdevelop5/all-features/filesystem).
-
-## Example
-
-This path:
-
-``` <FileSystem::PicturesPath>() + <FileSystem::PathDelimiter>() + "my_screenshot.png" ```
-
-This will save the screenshot to the *Pictures* folder on Windows, Linux and MacOS.
+This saves the file to the user's Pictures folder on Windows, Linux, and macOS. You can also use `FileSystem::DesktopPath()`, `FileSystem::DocumentsPath()`, or `FileSystem::TempPath()` depending on where you want the file to land.
 
 ## Reference
 
