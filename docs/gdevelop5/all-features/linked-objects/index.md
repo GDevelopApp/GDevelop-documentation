@@ -74,6 +74,10 @@ In this example, for every existing "Pathfinder" object, a new "Terrain" object 
 
     To see more advance usages, take a look at the [Linked Objects Tools extension page](/gdevelop5/all-features/extensions/linked-objects-tools)
 
+## Save and restore links
+
+When using the **Save State** extension, all links between saved objects are automatically included in the save and restored when the state is loaded. Links involving objects that are excluded from the save (marked "Do not save") are not persisted, since those objects carry no save identity.
+
 ## Reference
 
 All actions, conditions and expressions are listed in [the linked objects reference page](/gdevelop5/all-features/linked-objects/reference/).

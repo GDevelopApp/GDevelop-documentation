@@ -4,7 +4,7 @@ title: Save & Load (Save State)
 
 # Save & Load (Save State)
 
-The **Save State** extension allows you to **save and restore the full state of your game** at any time — including all objects, variables, sounds, effects, and more.
+The **Save State** extension allows you to **save and restore the full state of your game** at any time — including all objects, variables, sounds, effects, linked object relationships, and more.
 
 It is designed to be **easy to use by default**, while also providing **advanced configuration options** for developers who need finer control over what gets saved or loaded.
 
@@ -107,3 +107,7 @@ When you perform a save or load, you can specify one or more profiles — and on
 - **Custom objects** are not yet fully serialized. They will be recreated and placed correctly, but their internal state may reset to default.
 - **Third-party extensions** that manage data outside of GDevelop’s variable/object system might not be captured.
 - **Performance impact:** Saving large games (many objects or variables) can briefly freeze the game; use with care on mobile or web platforms.
+
+!!! tip
+
+    Links created by the **Linked Objects** extension are saved and restored automatically. Links between objects excluded from the save state (tagged as "Do not save") are not persisted, since those objects have no save identity.
