@@ -88,6 +88,10 @@
     {
       "date": "2026-04-02",
       "summary": "Improved multiplayer docs: added Quick Join section, documented player username/ping/last-joined/last-left expressions, lobby ID expression, custom message variable variant, and synchronization rate action"
+    },
+    {
+      "date": "2026-04-22",
+      "summary": "Improved resources-loading docs (named Preload scene action, documented SceneLoadingProgress expression and AreSceneAssetsLoaded condition, clarified custom loading screen approach) and added extension lifecycle functions table to events/functions docs"
     }
   ]
 }

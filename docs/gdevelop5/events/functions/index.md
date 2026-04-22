@@ -161,6 +161,22 @@ A function can call itself! In the events of a function, you can use the same ac
 
 You can [use the actions in "Functions" category to return expression/condition values](/gdevelop5/events/functions/return).
 
+### Extension lifecycle functions
+
+Beyond the custom actions, conditions, and expressions you define, an extension can also include special **lifecycle functions** that the engine calls automatically at key moments. These are added from the "+" menu in the extension editor (shown in the **Advanced** section of the function selector).
+
+| Lifecycle function | When it runs |
+|---|---|
+| `onFirstSceneLoaded` | Once, before the very first scene of the game starts, before any events run |
+| `onSceneLoaded` | Once each time a scene starts (including the first), before that scene's events |
+| `onScenePreEvents` | Every frame, before the scene's event sheet runs |
+| `onScenePostEvents` | Every frame, after the scene's event sheet runs |
+| `onScenePaused` | Once when a scene is paused by the "Pause and start a new scene" action |
+| `onSceneResumed` | Once when a paused scene is resumed |
+| `onSceneUnloading` | Once just before a scene is unloaded from memory |
+
+These are useful when building extensions that need to run global logic across the entire game — for example, tracking analytics events, managing a global audio system, or running cleanup code when a scene ends. Only one function of each type can exist per extension.
+
 ### Sharing functions
 
 Functions can be shared across projects (like actions/conditions that are built in GDevelop). The simplest way to do it is just to copy/paste them. But if you've created a useful set of functions, you may consider [sharing them with the community](/gdevelop5/extensions/share-extension).

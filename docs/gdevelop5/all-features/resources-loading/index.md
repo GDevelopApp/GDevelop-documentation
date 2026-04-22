@@ -34,9 +34,11 @@ The scenes are pre-loaded in the same order as the scene list in the editor. The
 
 ![](scene-list.png)
 
-An action allows to change the default loading order by choosing which scene to pre-load in the background next. For instance, this action can be used at the beginning of the scene to make sure that the next level will be pre-loaded as soon as possible.
+The **Preload scene** action lets you override the default loading order by requesting that a specific scene's resources are loaded in the background as soon as possible. Use it at the beginning of a scene (for example, at the start of a menu scene) to ensure the next level is ready by the time the player reaches it.
 
 ![](preload-scene-action.png)
+
+You can check whether the background loading for a scene has completed using the **Scene preloaded** condition (`AreSceneAssetsLoaded`). The **Scene loading progress** expression (`SceneLoadingProgress("SceneName")`) returns a value between 0 and 1 representing how far along the background loading is.
 
 !!! tip
 
@@ -44,7 +46,12 @@ An action allows to change the default loading order by choosing which scene to 
 
 ## Make a custom loading screen
 
-Default intermediary loading screens can be replaced by custom scenes using the following events. A [resource bar](/gdevelop5/objects/resource-bar) can be used to display the loading progress.
+Default intermediary loading screens can be replaced by custom scenes using events. The approach is to start a dedicated loading scene early, trigger background loading of the next scene from it, then switch automatically once loading is complete.
+
+Inside the loading scene, use:
+
+- `SceneLoadingProgress("TargetScene")` — an expression returning a number from 0 (nothing loaded) to 1 (fully loaded). Connect it to a [resource bar](/gdevelop5/objects/resource-bar) to give visual feedback.
+- **Scene preloaded** condition (`AreSceneAssetsLoaded("TargetScene")`) — becomes true when all resources for the target scene are ready. Use it to switch to the target scene automatically.
 
 ![](loading-screen-events.png)
 
