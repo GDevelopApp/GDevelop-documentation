@@ -98,12 +98,6 @@ Each object, variable, or piece of scene/game data can be assigned one or more *
 
 When you perform a save or load, you can specify one or more profiles — and only the data tagged with those profiles will be affected.
 
-## What is Saved
-
-The Save State extension captures all object instances, scene variables, timers, layers, sounds, and other scene data by default. In addition:
-
-- **Linked object relationships** created with the [Linked Objects](/gdevelop5/all-features/linked-objects) extension are automatically saved and restored. Links between objects that are excluded from saves (e.g., tagged with "Do not save") are not included.
-
 ## Known Limitations
 
 !!! note
