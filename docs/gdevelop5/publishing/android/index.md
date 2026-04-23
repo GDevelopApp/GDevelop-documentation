@@ -3,7 +3,7 @@ title: Publish your game to Android
 ---
 # Publish your game to Android
 
-GDevelop allows you to publish your games to multiple platforms, including Android and iOS with the Cloud Build services, or [manually](/gdevelop5/publishing/android_and_ios_with_cordova).
+GDevelop allows you to publish your games to multiple platforms, including Android and iOS with the Cloud Build services, or [manually(/gdevelop5/publishing/android_and_ios_with_cordova).
 
 ## Making sure that your game is ready for packaging
 
