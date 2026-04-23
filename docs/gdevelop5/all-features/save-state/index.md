@@ -4,7 +4,7 @@ title: Save & Load (Save State)
 
 # Save & Load (Save State)
 
-The **Save State** extension allows you to **save and restore the full state of your game** at any time — including all objects, variables, sounds, effects, and more.
+The **Save State** extension allows you to **save and restore the full state of your game** at any time — including objects (position, variables, behaviors), global and scene variables, scene timers, "Trigger Once" states, sounds and music being played, tweens, layers, async actions (Wait X seconds), and linked objects.
 
 It is designed to be **easy to use by default**, while also providing **advanced configuration options** for developers who need finer control over what gets saved or loaded.
 
@@ -32,6 +32,8 @@ This is the **recommended** approach for most games. It automatically stores the
 
 For this, use actions **Save game to device storage** and **Load game from device storage**.
 
+Both load actions have an optional **"Stop and restart all the scenes currently played?"** parameter (default: No). When set to Yes, all currently running scenes are unloaded and re-created before applying the save state — useful when you need a clean slate (e.g. returning from a menu to the game). When set to No, the save state is applied on top of the currently running scenes.
+
 ![](save-device-storage-action.png)
 
 Each save uses a **storage key**, such as `"Save1"`, `"CheckpointA"`, or `"Autosave"`, to identify the save slot. This enables you to offer multiple save slots (in some games, it's usual to have 3 to 5 save slots that the player can use).
@@ -56,7 +58,17 @@ This is useful for:
 
 ## Monitoring Save/Load Operations
 
-The extension provides a few **expressions and conditions** to help you monitor saves and loads. In particular, the "Load just succeeded" condition is perfect to run some logic after a scene was loaded. This is somewhat similar to "At the beginning of the scene", except that after a loading a scene is already considered as started (because it was "frozen in time" in the save state).
+The extension provides **conditions and expressions** to react to save/load events:
+
+**Conditions:**
+- **Save just succeeded** — triggers the frame after a save completed successfully. Use this to show a "Game saved!" notification.
+- **Save just failed** — triggers if a save attempt failed. Use this to warn the player.
+- **Load just succeeded** — triggers the frame after a load completed successfully. This is useful to run initialization logic after restoring a save (analogous to "At the beginning of the scene", but the scene is already running since it was "frozen in time" in the save state).
+- **Load just failed** — triggers if a load attempt failed (e.g. no save found for that key).
+
+**Expressions:**
+- **TimeSinceLastSave** — number of seconds since the last successful save. Returns `-1` if no save has happened yet in this session.
+- **TimeSinceLastLoad** — number of seconds since the last successful load. Returns `-1` if no load has happened yet in this session.
 
 ## Advanced: Excluding Objects from Save States with the “Save Configuration” Behavior.
 
@@ -66,10 +78,13 @@ You can customize this behavior using the **Save Configuration** behavior or ded
 
 Add the **Save Configuration** behavior to any object you don’t want to include in save states or only in some save states. Then, set up the properties:
 
-- **Default persistence**:
-    - "Persisted" (default): the object is included in save states and loaded back.
-    - "Do not save": the object is excluded. It won't be saved, and even if it was saved, it won't be loaded.
-- **Profile names** (advanced usage): optional comma-separated list of profiles (see below) in which this object should be included.
+- **Persistence mode**:
+    - "Include in save states" (default): the object is included in save states and loaded back.
+    - "Do not save": the object is excluded. It won’t be saved, and even if it was previously saved, it won’t be loaded back.
+- **Save profile names** (advanced): optional comma-separated list of profiles (see below) in which this object should be included.
+
+!!! note
+    Objects that do **not** have a Save Configuration behavior are treated as "Include in save states" for the default profile — they are saved and loaded normally.
 
 !!! tip
 
@@ -96,7 +111,7 @@ The Save State system supports **profiles**, allowing you to save only some part
 
 Each object, variable, or piece of scene/game data can be assigned one or more **profile names** (like `"default"`, `"checkpoint"`, `"player"`, etc.). For example, a coin can be `items, coins`.
 
-When you perform a save or load, you can specify one or more profiles — and only the data tagged with those profiles will be affected.
+When you perform a save or load, you can specify one or more profiles (comma-separated) — and only the data tagged with **at least one** of those profiles will be affected. Data not tagged with any of the specified profiles is left untouched during loading.
 
 ## Known Limitations
 

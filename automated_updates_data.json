@@ -88,6 +88,10 @@
     {
       "date": "2026-04-02",
       "summary": "Improved multiplayer docs: added Quick Join section, documented player username/ping/last-joined/last-left expressions, lobby ID expression, custom message variable variant, and synchronization rate action"
+    },
+    {
+      "date": "2026-04-23",
+      "summary": "Improved save-state docs: documented all 4 save/load conditions, TimeSinceLastSave/Load expressions, scene stack clearing parameter, full list of saved data types, and default object persistence behavior"
     }
   ]
 }
