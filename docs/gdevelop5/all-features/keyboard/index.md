@@ -3,39 +3,75 @@ title: Keyboard
 ---
 # Keyboard
 
-GDevelop gives access to all inputs made on the keyboard. This includes conditions to check if a key was pressed or released.
+GDevelop gives access to all inputs made on the keyboard. This includes conditions to check if a key is held, just pressed, or released.
 
-## Any key pressed
+!!! note
 
-For this condition, the corresponding action/s will be performed if any key on the keyboard is pressed.
+    Keyboard conditions only work with physical keyboards. For mobile or touch-based games, use [mouse and touch conditions](/gdevelop5/all-features/mouse-touch) instead.
 
-## Key pressed
+## Conditions
 
-Whenever the key selected while setting this condition is pressed, the corresponding actions are performed.
+### Any key pressed
 
-## Key released
+True as long as **any** key on the keyboard is held down. Use this to detect whether the player is actively using the keyboard.
 
-Whenever the key selected while setting this condition is released, the corresponding actions are performed.
+### Any key released
 
-## Key pressed (text expression)
+True for **one frame** when any key is released.
 
-To test a key press using this condition, you need to enter the key name in the form of text expression. For example, if you want to check condition for left arrow key press, you need to enter "Left" in the field.
+### Key pressed
+
+True as long as the specified key is **held down**. Use this for continuous actions like moving a character — the condition remains true every frame the key is held.
+
+### Key just pressed
+
+True for **one frame only**, on the frame the specified key is first pressed. Use this for single-shot actions like jumping or firing a weapon, where you want the action to happen exactly once per key press rather than repeatedly.
+
+!!! tip
+
+    Prefer **Key just pressed** over **Key pressed** for actions that should only happen once per key press (shooting, jumping, toggling a state). Use **Key pressed** for continuous movement.
+
+### Key released
+
+True for **one frame** when the specified key is released.
+
+### Key pressed / Key released (text expression)
+
+These conditions accept a **text expression** as the key name instead of a fixed key from the picker. This is useful when the key to check is stored in a variable or computed at runtime — for example, when letting the player remap controls.
 
 !!! danger
 
-    Make sure that the key name is surrounded by quotes.
+    The key name must be a string. When entering a literal key name, surround it with quotes (e.g., `"Space"`, `"Left"`).
 
-![](/gdevelop5/all-features/annotation_2019-06-20_191229.png)
+## Expressions
 
-## Key released (text expression)
+### LastPressedKey()
 
-To test a key release using this condition, you need to enter the key name in the form of text expression. For example, if you want to check condition for left arrow key release, you need to enter "Left" in the field.
+Returns the name of the most recent key pressed on the keyboard as a string (e.g., `"Space"`, `"a"`, `"Left"`). Returns an empty string if no key has been pressed yet. Useful for key-rebinding systems or displaying which key was last used.
 
-![](/gdevelop5/all-features/annotation_2019-06-20_191302.png)
+## Key names
 
-## Last key pressed
+The table below lists all valid key names for use with the text expression conditions and with `LastPressedKey()`.
 
-"Last key pressed" expression returns the last key press in the form of a string. For example, if the last key press is the left arrow key, the expression will return "Left".
+| Category | Key names |
+|---|---|
+| Letters | `a` `b` `c` `d` `e` `f` `g` `h` `i` `j` `k` `l` `m` `n` `o` `p` `q` `r` `s` `t` `u` `v` `w` `x` `y` `z` |
+| Number row | `Num0` `Num1` `Num2` `Num3` `Num4` `Num5` `Num6` `Num7` `Num8` `Num9` |
+| Numpad digits | `Numpad0` `Numpad1` `Numpad2` `Numpad3` `Numpad4` `Numpad5` `Numpad6` `Numpad7` `Numpad8` `Numpad9` |
+| Numpad operators | `NumpadAdd` `NumpadSubtract` `NumpadMultiply` `NumpadDivide` `NumpadReturn` |
+| Numpad arrows | `NumpadLeft` `NumpadUp` `NumpadRight` `NumpadDown` `NumpadHome` `NumpadEnd` `NumpadPageUp` `NumpadPageDown` |
+| Arrow keys | `Left` `Up` `Right` `Down` |
+| Function keys | `F1` `F2` `F3` `F4` `F5` `F6` `F7` `F8` `F9` `F10` `F11` `F12` |
+| Modifier keys | `LShift` `RShift` `LControl` `RControl` `LAlt` `RAlt` `LSystem` `RSystem` |
+| Navigation | `Home` `End` `PageUp` `PageDown` `Insert` `Delete` |
+| Editing | `Back` (Backspace) `Tab` `Return` (Enter) `Space` `Escape` |
+| Operators | `Add` `Subtract` `Multiply` `Divide` |
+| Punctuation | `SemiColon` `Comma` `Period` `Quote` `Slash` `BackSlash` `Equal` `Dash` `LBracket` `RBracket` `Tilde` `Menu` |
+| Other | `Pause` |
+
+!!! note
+
+    Modifier keys distinguish left and right variants (`LShift` vs `RShift`, `LControl` vs `RControl`, etc.). Use the specific variant if your game needs to tell them apart, or check both if you want either modifier key to work.
 
 ## Reference
 

@@ -88,6 +88,10 @@
     {
       "date": "2026-04-02",
       "summary": "Improved multiplayer docs: added Quick Join section, documented player username/ping/last-joined/last-left expressions, lobby ID expression, custom message variable variant, and synchronization rate action"
+    },
+    {
+      "date": "2026-04-24",
+      "summary": "Improved keyboard docs: added missing 'Key just pressed' and 'Any key released' conditions, added complete key names table grouped by category, and added mobile platform limitation note"
     }
   ]
 }
