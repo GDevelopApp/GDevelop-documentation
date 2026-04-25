@@ -38,7 +38,7 @@ The **Preload scene** action lets you override the default loading order by requ
 
 ![](preload-scene-action.png)
 
-You can check whether the background loading for a scene has completed using the **Scene preloaded** condition (`AreSceneAssetsLoaded`). The **Scene loading progress** expression (`SceneLoadingProgress("SceneName")`) returns a value between 0 and 1 representing how far along the background loading is.
+You can check whether the background loading for a scene has completed using the **Scene preloaded** condition. The **Scene loading progress** expression (`SceneLoadingProgress("SceneName")`) returns a value between 0 and 1 representing how far along the background loading is.
 
 !!! tip
 
@@ -51,7 +51,7 @@ Default intermediary loading screens can be replaced by custom scenes using even
 Inside the loading scene, use:
 
 - `SceneLoadingProgress("TargetScene")` — an expression returning a number from 0 (nothing loaded) to 1 (fully loaded). Connect it to a [resource bar](/gdevelop5/objects/resource-bar) to give visual feedback.
-- **Scene preloaded** condition (`AreSceneAssetsLoaded("TargetScene")`) — becomes true when all resources for the target scene are ready. Use it to switch to the target scene automatically.
+- **Scene preloaded** condition — becomes true when all resources for the target scene are ready. Use it to switch to the target scene automatically.
 
 ![](loading-screen-events.png)
 
