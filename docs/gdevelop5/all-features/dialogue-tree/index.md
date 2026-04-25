@@ -3,35 +3,32 @@ title: The Dialogue Tree extension
 ---
 # The Dialogue Tree extension
 
+The Dialogue Tree extension is used to create branching dialogues with choices, commands, and variables — driven by **Yarn Spinner** script files. It is well-suited for RPGs, visual novels, and any game with story-heavy content.
+
+GDevelop bundles a **Yarn editor** directly in the IDE, so you can write and preview your dialogue without leaving GDevelop.
+
 !!! tip
 
     **Try out these game examples!** 🎮
     
     - [Dialogue tree simple demo](https://editor.gdevelop.io/?project=https://resources.gdevelop-app.com/examples/dialogue-tree-simple-demo/dialogue-tree-simple-demo.json)
-    - [Dialogue tree with yarn online](https://editor.gdevelop.io/?project=https://resources.gdevelop-app.com/examples/dialogue-tree-with-yarn/dialogue-tree-with-yarn.json)
-    - [Yarnalia game](https://editor.gdevelop.io/?project=https://resources.gdevelop-app.com/examples/dialogue-tree-simple-demo/dialogue-tree-simple-demo.json)
-
-
-The Dialogue Tree extension can be used to quickly create a dynamic dialogue tree behaviour. It comes with actions, conditions and expressions that make it extremely easy to set such a system with text scrolling, animated avatars and conditional dialogues. The example demo project does that in only 16 events.
-
-If you want to make a game that is heavy on the story - be it an RPG, a Visual Novel or something else altogether, this extension will help you get there very fast and let you focus on your story.
-
-GDevelop not only provides the extension but it also gets bundled with a popular story editor called [YARN](https://github.com/YarnSpinnerTool/YarnEditor) to author the data the extension uses.
-
-Yarn has been battle-tested on a number of commercial and indie games. If you come from Ren'Py, RPG Maker, AGS or some other engine focused on story-heavy games, you will feel right at home with GDevelop. Just keep reading ;)
+    - [Dialogue tree with yarn](https://editor.gdevelop.io/?project=https://resources.gdevelop-app.com/examples/dialogue-tree-with-yarn/dialogue-tree-with-yarn.json)
 
 ## Getting started
 
-Yarn uses a special JSON file format to store its dialogue data.
-To create or edit an existing yarn JSON file, you need to first add an action to the event sheet in GD that requires it.
-That action is called "Load dialogue data from JSON file". Under the resource dropdown - regardless if you have any JSON resources yet - you will find a little brush button, which will let you open yarn and create/edit one.
+Yarn stores dialogue in a JSON file. There are two ways to load it at the start of a scene:
+
+- **Load dialogue tree from a JSON file** — the most common approach. Pick or create a JSON resource; a brush icon opens the built-in Yarn editor directly.
+- **Load dialogue tree from a scene variable** — useful when dialogue data is fetched from a server or constructed at runtime, and has been stored in a scene variable.
 
 ![](/gdevelop5/all-features/yarngd.png)
 
+After loading, call **Start dialogue from branch** with the name of the starting node to begin a conversation.
+
 ## About Yarn: the anatomy of interactive story syntax
 
-The Dialogue Tree extension is built on top of a javascript library called [bondagejs](https://github.com/hylyh/bondage.js).
-Yarn and that library follow a syntax that is similar to [twine](https://twinery.org).
+The Dialogue Tree extension is built on top of a JavaScript library called [bondage.js](https://github.com/hylyh/bondage.js).
+Yarn and that library follow a syntax similar to [Twine](https://twinery.org).
 
 It has a very easy to learn, but also very powerful syntax which can be used to create complex story events based on user choices or other events the user has visited.
 
@@ -42,7 +39,7 @@ You can have more than one tree in a single file and for example have the dialog
 To edit a node in Yarn, you just double click on it. To close and save it, just click outside of its editor area.
 
 When you edit a node, you are writing in Yarn syntax.
-Writing stories in Yarn is just like writing dialogue, but also sprinkling it with behind the scenes hidden to the player instructions wrapped in special tags. These instructions can be used to drive what happens in the game. Depending on <<the>> \[\[wrapping\]\] tags, there are three types of data that yarn understands - these three types are called "Dialogue line types" in my extension:
+Writing stories in Yarn is just like writing dialogue, but also sprinkling it with behind the scenes hidden to the player instructions wrapped in special tags. These instructions can be used to drive what happens in the game. Depending on <<the>> \[\[wrapping\]\] tags, there are three types of data that yarn understands - these three types are called "Dialogue line types":
 
 ### 1. Text line type
 The text is what the user will see displayed when they reach the dialogue branch it is on. If you don't put any special wrappers of the other type around your text - it will remain ordinary text. Yarn will give you a hint when that is not the case by changing its colour.
@@ -59,20 +56,17 @@ Commands can also take parameters that the engine can use to decide on how to tr
 
 **<<mycommand parameter0 parameter1 parameter2>>** and so on.
 
-An example of that in the demo project is the way the animated avatar is changed:
+An example from the demo project: changing the animated avatar.
 
 ![](/gdevelop5/all-features/yarncommandsexample.png)
 
-**<<avatar ant>>**  when the command **avatar** is  triggered, the avatar's sprite object is set to change its animation to the word after it - CommandParameter(0) (**ant**)
+**<<avatar ant>>** — when the command `avatar` is triggered, the avatar's sprite animation is set to `CommandParameter(0)` which is `ant`.
 
 !!! tip
 
     If you are using the extension's built in scrolling functionality, you can insert pauses between text/other commands with the built in <<wait 1000>> command. 1000 in this case is equal to 1 second, but can be anything you choose. <<wait 500>> will for example pause the text scrolling for half a second, then continue. If you have another command after it, it won't get triggered before that half second is over. So wait can be used to insert pauses between a chain of custom commands too - similar to rpg maker :)
 
-Apart of the commands you can set up for yourself, and the ones built into the extension, yarn's parser library - bondagejs comes with a few very cool built in ones that can be used to store information and use it to conditionally show text to the user.
-So lets say your player visits a dialogue branch of an item once and has read it. Then having that information, the player starts a conversation with a npc.
-
-This lets you tell Yarn that if the player has seen that item, the npc will say one thing - if not- they will say another thing. The syntax to do it is incredibly simple:
+Apart from the commands you set up yourself, Yarn's built-in commands can store information and conditionally show text. The syntax is simple:
 
 ![](/gdevelop5/all-features/ifelsecommandsyarn.png)
 
@@ -130,7 +124,7 @@ Don't forget that you can put anything inside this **<<if ...>>**...**<<endif>>*
 
 !!! note
 
-    The dialogue tree extension stores all the $variables the player sets while playing the game and also comes with expressions/actions to get/set them - in case you want to store  them when the game is saved by the player and be able to reload them.
+    The dialogue tree extension stores all the `$variables` set during play. Use the **Save/Load dialogue state** actions (see below) to persist them with your game save so player choices survive across sessions.
 
 
 ### 3. Option line type
@@ -198,45 +192,83 @@ Ok kids we're gonna go with...
 
 ----
 
-## Known issues:
+## Known issues
 
-*  Using a -> shortcut crashes my game - This is a known bug in bondage.js - the library that the dialogue tree extension is using to parse yarn files. See [https://github.com/hylyh/bondage.js/issues/31](https://github.com/hylyh/bondage.js/issues/31) to check if that has been fixed. The reason it happens is that bondagejs expects you to indent any linked text with tabs, otherwise its seen as a syntax error. If you want to use the shortcut syntax, please refer to this example json file as  to howto do it without crashing the parser [https://github.com/hylyh/bondage.js/blob/master/tests/yarn_files/shortcuts.json](https://github.com/hylyh/bondage.js/blob/master/tests/yarn_files/shortcuts.json)
+- **Using `->` shortcut crashes the game** — This is a known bug in bondage.js. It expects shortcut text to be indented with tabs; otherwise it is treated as a syntax error. See [https://github.com/hylyh/bondage.js/issues/31](https://github.com/hylyh/bondage.js/issues/31).
 
-* an empty space is clipped from text that comes after <<command>> - this is a known bug in bondagejs [https://github.com/hylyh/bondage.js/issues/61](https://github.com/hylyh/bondage.js/issues/61)
+- **An empty space is clipped from text after `<<command>>`** — Known bondage.js bug: [https://github.com/hylyh/bondage.js/issues/61](https://github.com/hylyh/bondage.js/issues/61).
 
-!!! warning
+- **Yarn editor problems** — Issues when opening or saving a Yarn file are likely Yarn editor bugs. Report them at [https://github.com/YarnSpinnerTool/YarnEditor](https://github.com/YarnSpinnerTool/YarnEditor).
 
-    If you ever encounter an issue  that in its message mentions the file **bondage.min.js** , it is more than likely that it's an issue with the library. Please report it at the bondagejs git tracker, not gdevelop's [https://github.com/hylyh/bondage.js/issues/](https://github.com/hylyh/bondage.js/issues/)
-
-* I encountered a problem while using Yarn to edit my dialogue - If that happens, unless you have encountered the problem when opening or saving your dialogue - it's likely a bug in Yarn, not Gdevelop.
+- **BBcode text styling issues** — Underlined text is not supported by pixi in general; it will not render in the game even if it appears in the Yarn editor preview.
 
 !!! warning
 
-        To report Yarn editor bugs, please use the Yarn bug tracker, where more developers working on Yarn will see it.
-    [https://github.com/YarnSpinnerTool/YarnEditor](https://github.com/YarnSpinnerTool/YarnEditor)
-
-* I encountered a problem with the styling of the text coming from the Dialogue Tree - If that happens, it's likely a bug with another extension. If you are using the BBcode extension, and for example underlined text style does not work or some combination of styles does not work, the problem more than likely lies with the pixi-multistyle-text library that it is using. It is also worth noting that **pixi currently does not support __text underlining__ style in general. So while you can see it in Yarn editor, it will not work in your game**.
-
-!!! warning
-
-    To report pixi-multistyle-text bugs, please use the tracker below: [https://github.com/tleunen/pixi-multistyle-text](https://github.com/tleunen/pixi-multistyle-text)
+    If an error message mentions **bondage.min.js**, it is a bondage.js library issue. Report it at [https://github.com/hylyh/bondage.js/issues/](https://github.com/hylyh/bondage.js/issues/), not in the GDevelop tracker.
 
 ## Setting up the event sheet in GDevelop
 
-The best thing to do to get started really is to open the demo project  for the dialogue tree extension. From there on you can build your own functionality on top or even your own extensions.
-If you look at the event sheet, you will find that the entire logic fits on a single screenshot
+The best starting point is the demo project for the dialogue tree extension. The entire dialogue logic can fit in a single screenshot's worth of events:
 
 ![](/gdevelop5/all-features/yarngdeventsheet.png)
 
-
-The demo does not use the entire capability of the extension and is aiming to provide the functionality in the simplest/quickest way. The extension contains many more actions, conditions and expressions which can be used to build very customisable presentations to the player.
+The demo shows the simplest approach. The extension has many more actions, conditions, and expressions for more customisable presentation — see the sections below and the reference page.
 
 ### The basic life cycle of a dialogue
 
--  Load the dialogue tree data at the beginning of the game or the level
-- Set when a dialogue gets triggered - using the "Start Dialogue from branch..." action, and passing as a parameter the name of the node title where it will start from. That is typically the  root of a tree. In my example the npc object's dialogueBranch variable is used. That makes it easy to make many npcs and just change that in their properties
-- Tell the game engine how you want the dialogue data to be displayed to the player and used by the engine - for each of the three types
-- Set reusable commands to be triggered by Yarn - such as changing of avatars, playing of sound effects and any other game events to help tell your story.
+1. **Load** the dialogue data at the beginning of a scene.
+2. **Start** a dialogue with **Start dialogue from branch**, passing the node title (e.g. the NPC object's `dialogueBranch` variable so each NPC has its own entry point).
+3. Each frame, check **Dialogue is running** to gate player movement and other actions.
+4. On player input, call **Go to the next dialogue line** and then check which **line type** is active to decide what to render.
+5. When the dialogue ends, `Dialogue is running` becomes false.
+
+The three line types drive all display logic:
+
+- **text** — a line of story text. Read it with `DialogueTree::LineText()` and display it in a text object. Call **Go to the next dialogue line** when the player confirms they've read it.
+- **options** — a branching choice. Use `DialogueTree::OptionsCount()` and `DialogueTree::Option(index)` (0-based) to display each option, **Select next/previous option** or **Select option by number** to move the cursor, and **Confirm selected option** to advance to the chosen branch. `DialogueTree::HorizontalOptionsList(">")` and `DialogueTree::VerticalOptionsList(">")` can build a quick formatted list with a cursor marker in one expression.
+- **command** — a hidden instruction from the Yarn script (e.g. `<<avatar ant>>`). Use the **Command is called** condition to catch it by name, and `DialogueTree::CommandParameter(index)` (0-based) to read its parameters.
+
+## Typewriter effect
+
+To reveal text character by character, use `DialogueTree::ClippedLineText()` instead of `DialogueTree::LineText()`. Each time the **Scroll clipped text** action runs, one more character is revealed. Call it repeatedly (e.g. every 30 ms with a timer) to animate the effect.
+
+- **Complete clipped text scrolling** instantly reveals the full line — useful when the player wants to skip the animation.
+- The condition **Clipped text has completed scrolling** becomes true once all characters are visible. Use it to prevent advancing to the next line before the text is fully shown.
+- The Yarn command `<<wait 1000>>` (milliseconds) pauses the scrolling at that point for the given duration.
+
+## Branch tags
+
+Yarn nodes can have **tags** written at the top of the node body. Tags are an alternative to commands for attaching metadata to an entire branch — for example, to set background music or camera mode when a conversation begins.
+
+Use the **Current dialogue branch contains a tag** condition to check for a tag by name, then read its parameters with `DialogueTree::TagParameter(index)` (0-based). You can also read all tags as a comma-separated string with `DialogueTree::BranchTags()` or a specific one by index with `DialogueTree::BranchTag(index)`.
+
+## Dialogue state variables
+
+Yarn's `<<set $variable to value>>` command stores variables inside the dialogue engine. These are separate from GDevelop variables.
+
+From GDevelop events you can:
+
+- Read them with `DialogueTree::Variable("varName")` (number) or `DialogueTree::VariableString("varName")` (string).
+- Write them with **Set dialogue state string/number/boolean variable** — useful for seeding the dialogue with game state (e.g. the player's name or a quest flag) before starting a conversation.
+- Compare them directly with the **Compare dialogue state string/number/boolean variable** conditions.
+
+The condition **Branch title has been visited** checks whether the player has passed through a particular node. `DialogueTree::VisitedBranchTitles()` returns all visited titles as a comma-separated string.
+
+## Saving and restoring dialogue state
+
+Player choices and visited branches accumulate as *dialogue state*. To preserve this across game sessions:
+
+1. Use **Save dialogue state** (stores all variables and visited branch history into a global variable).
+2. Persist that global variable alongside your normal game save (e.g. with the Storage extension or the Save State extension).
+3. On load, restore it with **Load dialogue state**.
+
+Use **Clear dialogue state** when starting a new game to reset all choices and branch history.
+
+## Stopping and checking dialogue
+
+- **Stop running dialogue** interrupts a running conversation at any time.
+- **Dialogue has branch** checks whether a named branch exists in the loaded data before starting it — useful to avoid errors when branches are optional.
+- **Current dialogue branch title is** triggers game events when the player reaches a specific node.
 
 # Examples
 
