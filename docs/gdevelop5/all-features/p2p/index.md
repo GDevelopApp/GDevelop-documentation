@@ -71,9 +71,22 @@ To connect instances, you need to enter their ID in the other instances. The ID 
 
 The default P2P ID generation is very long to avoid conflicts, but if you want to have an easily shareable ID, it is not ideal. You can use a custom ID generation on your custom P2P broker by following [the instructions on the peerjs-server documentation](https://github.com/peers/peerjs-server#custom-client-id-generation).
 
+## Checking readiness
+
+After connecting to a broker server, use the **Is P2P ready** condition before sending any events. This condition becomes true once the extension has successfully initialized and obtained a client ID.
+
 ## Interacting with connected games
 
 Once you got connected, you can trigger actions remotely. You can select another specific game instance (using its id) or send an event to all connected instances.
+
+### Sending string data vs. variable data
+
+Events can carry extra data alongside the event name:
+
+* Use **Trigger event on all/a specific connected client** with a string parameter for simple values (numbers, short text).
+* Use the **variable** variants of those same actions to send an entire scene variable — including structures and arrays — making it easy to transmit player state, position data, or any complex payload in a single event.
+
+On the receiving side, **Get event data** returns the string payload, while **Get event data (variable)** copies the received data into a scene variable.
 
 ### Choosing if you want to activate data loss mode
 
@@ -88,6 +101,42 @@ Here are two examples:
 
 * if you use a synchronized score counter, you don't want to lose any data, as missing only one point of the counter would *desynchronize* the counters, so the dataloss mode would be deactivated.
 * If you want to synchronize positions, only the last position sent is relevant, not older positions. In this case, you would activate the dataloss mode *to prevent delays/lags*.
+
+## Tracking connections and disconnections
+
+Two conditions let you react when the network topology changes:
+
+* **Peer connected** — triggers once when a remote peer initiates a connection. Use the `P2P::GetLastConnectedPeer()` expression inside this condition to know which peer just joined, for example to greet them or add them to a player list.
+* **Peer disconnected** — triggers once when any connected peer drops. Use `P2P::GetLastDisconnectedPeer()` to identify who left so you can remove them from the game state.
+
+### Disconnecting
+
+You can also disconnect programmatically:
+
+* **Disconnect from a peer** — closes the connection to one specific client by ID.
+* **Disconnect from all peers** — closes all peer connections while keeping the broker connection alive so the client can reconnect later.
+* **Disconnect from broker** — leaves the broker server (the client ID is no longer reachable by new peers).
+* **Disconnect from all** — closes both all peer connections and the broker connection in one action.
+
+## Error handling
+
+Use the **An error occurred** condition to detect failures. Pair it with the `P2P::GetLastError()` expression to read the error description and display it to the player or log it for debugging.
+
+## Advanced network configuration
+
+These actions must be called **before** connecting to a broker server.
+
+### Custom ICE servers (STUN/TURN)
+
+For internet games (not LAN-only), it is strongly recommended to configure at least one STUN and one TURN server using **Use a custom ICE server**. You can call this action multiple times to add several servers. Without a TURN server, players behind strict NATs or firewalls may be unable to connect.
+
+### Protecting player IP addresses
+
+By default, peers share their IP addresses directly, which speeds up connections but exposes each player's IP. Use **Disable IP address sharing** to force all traffic through your TURN relay server instead. This action trades some latency for better privacy and should be combined with a self-hosted TURN server.
+
+### Custom client ID
+
+Call **Override the client ID** before connecting to the broker to set a specific, human-readable ID instead of the auto-generated one. This is useful for testing or for scenarios where you pre-assign IDs (e.g., "player1", "player2").
 
 ## Reference
 
