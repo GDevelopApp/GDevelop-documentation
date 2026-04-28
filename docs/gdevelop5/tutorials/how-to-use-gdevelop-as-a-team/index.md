@@ -58,3 +58,55 @@ These settings override personal preferences only while the project is open and 
 !!! note
 
     Project-specific settings are only supported in the desktop version of GDevelop.
+
+## Custom toolbar buttons and npm scripts
+
+If your project has a `package.json` file (with npm scripts defined), you can add custom buttons to the GDevelop toolbar via `gdevelop-settings.yaml`. Each button runs a named npm script from your `package.json` when clicked.
+
+```yaml
+toolbarButtons:
+  - name: "Lint"
+    icon: "🔍"
+    npmScript: "lint"
+  - name: "Build assets"
+    icon: "🏗️"
+    npmScript: "build-assets"
+```
+
+Each button requires:
+
+* `name` - Label shown in the toolbar tooltip
+* `icon` - Emoji or short text used as the button icon
+* `npmScript` - Name of the script to run (must match a key in `package.json`'s `scripts` section)
+
+### Lifecycle hooks
+
+A toolbar button can also be set to run **automatically** at key editor moments by adding a `hook` field:
+
+```yaml
+toolbarButtons:
+  - name: "Sync assets on open"
+    icon: "🔄"
+    npmScript: "sync-assets"
+    hook: "onEditorReady"
+  - name: "Hot-reload watcher"
+    icon: "👁️"
+    npmScript: "watch"
+    hook: "onPreviewStart"
+  - name: "Stop watcher"
+    icon: "⏹️"
+    npmScript: "stop-watch"
+    hook: "onPreviewEnd"
+```
+
+Available hooks:
+
+* `onEditorReady` - Runs once when the project is opened in the editor
+* `onPreviewStart` - Runs each time a preview is launched
+* `onPreviewEnd` - Runs each time a preview is stopped
+
+The first time a hook or button triggers a script, GDevelop will ask for confirmation before running it. You can choose to skip future confirmations for that project.
+
+!!! warning
+
+    Only run npm scripts from projects you created yourself or from sources you fully trust. Scripts execute on your computer and could potentially cause harm if they come from an unknown source.
