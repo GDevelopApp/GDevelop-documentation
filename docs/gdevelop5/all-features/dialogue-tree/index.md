@@ -130,7 +130,9 @@ Don't forget that you can put anything inside this **<<if ...>>**...**<<endif>>*
 
 !!! note
 
-    The dialogue tree extension stores all the $variables the player sets while playing the game and also comes with expressions/actions to get/set them - in case you want to store  them when the game is saved by the player and be able to reload them.
+    The dialogue tree extension stores all the $variables the player sets while playing the game and also comes with expressions/actions to get/set them. Use the **Save dialogue state** and **Load dialogue state** actions to persist progress across game sessions — they save both the Yarn `$variables` and the complete record of which branches the player has visited. Use **Clear dialogue state** to reset everything (for example when starting a New Game).
+
+    As an alternative to setting a `$variable` to track whether the player has seen a branch, you can use the **Branch title has been visited** condition directly in your GDevelop events.
 
 
 ### 3. Option line type
@@ -195,6 +197,18 @@ Ok kids we're gonna go with...
     [PickBirdMascot0](/Bird Head)
 <<endif>>
 ```
+
+### Node Tags
+
+In the Yarn editor, every node has a **Tags** field in its header. Tags let you attach metadata to an entire branch without embedding commands inside the dialogue text.
+
+To add tags, open a node in Yarn and fill in the Tags field with space-separated words, for example: `combat music`.
+
+In GDevelop events, use the **Current dialogue branch contains a tag** condition to react to a tag the moment a branch starts — before any text lines are processed. This makes tags ideal for one-shot events like changing the background music or switching the camera, since they fire once per branch rather than at a specific point in the text.
+
+Tags can also carry parameters using the syntax **tagname(param0,param1)**. After the condition matches, use the **TagParameter(index)** expression to read each parameter. For example, a tag `avatar(ant,happy)` lets you retrieve `TagParameter(0)` → `ant` and `TagParameter(1)` → `happy`, so a single condition can update both the character sprite and its expression at once.
+
+Use **BranchTag(index)** to read tags by position and **BranchTags** to get the full comma-separated list of all tags on the current branch.
 
 ----
 
