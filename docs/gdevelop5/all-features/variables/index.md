@@ -37,8 +37,6 @@ A variable with the *Number* data type can contain numeric values, such as `0`, 
 A variable with the *Text* data type can contain text, such as the words `Hello world`. In programming languages, this data type is often referred to as a _string_. In this documentation,
 the terms *text* and *string* are used interchangeably.
 
-Text variables default to an empty string (`""`) when no initial value is set.
-
 ### Boolean
 
 A variable with the *Boolean* data type contains the simplest form of information: either yes or no, 1 or 0, true or false. They are useful as they can be easily toggled.
