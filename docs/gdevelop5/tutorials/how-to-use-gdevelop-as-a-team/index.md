@@ -55,6 +55,48 @@ Examples of available settings are:
 
 These settings override personal preferences only while the project is open and do not permanently change each developer's preferences. This file works with version control, so your team can share consistent editor settings alongside the game files.
 
+### Custom toolbar buttons and automation
+
+You can add custom buttons to the GDevelop toolbar that run [npm](https://docs.npmjs.com/) scripts from your project's `package.json`. This is useful for teams who want quick access to linters, code generators, or other build tools without leaving the editor.
+
+To use this feature, place a `package.json` in your project folder and list your scripts there. Then add a `toolbarButtons` section to `gdevelop-settings.yaml`:
+
+```yaml
+toolbarButtons:
+  - name: Lint
+    icon: "🔍"
+    npmScript: lint
+  - name: Generate types
+    icon: "⚙️"
+    npmScript: generate-types
+```
+
+Each button requires `name` (label shown in the tooltip), `icon` (emoji or short text), and `npmScript` (the script key from `package.json`).
+
+#### Lifecycle hooks
+
+You can also have a script run automatically when a specific editor event occurs, by adding a `hook` field:
+
+| Hook value | When it runs |
+|---|---|
+| `onEditorReady` | When the project finishes loading and the editor is ready |
+| `onPreviewStart` | After a preview window launches |
+| `onPreviewEnd` | When all preview windows are closed |
+
+```yaml
+toolbarButtons:
+  - name: Watch
+    icon: "👁️"
+    npmScript: watch
+    hook: onEditorReady
+  - name: Sync assets
+    icon: "🔄"
+    npmScript: sync-assets
+    hook: onPreviewStart
+```
+
+A button with a `hook` still appears in the toolbar and can be clicked manually as well. GDevelop will show a one-time security confirmation before running any npm script, since scripts execute on your computer.
+
 !!! note
 
-    Project-specific settings are only supported in the desktop version of GDevelop.
+    Project-specific settings and custom toolbar buttons are only supported in the desktop version of GDevelop.
