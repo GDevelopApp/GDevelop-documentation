@@ -42,7 +42,7 @@ You can have more than one tree in a single file and for example have the dialog
 To edit a node in Yarn, you just double click on it. To close and save it, just click outside of its editor area.
 
 When you edit a node, you are writing in Yarn syntax.
-Writing stories in Yarn is just like writing dialogue, but also sprinkling it with behind the scenes hidden to the player instructions wrapped in special tags. These instructions can be used to drive what happens in the game. Depending on <<the>> \[\[wrapping\]\] tags, there are three types of data that yarn understands - these three types are called "Dialogue line types" in my extension:
+Writing stories in Yarn is just like writing dialogue, but also sprinkling it with behind the scenes hidden to the player instructions wrapped in special tags. These instructions can be used to drive what happens in the game. Depending on <<the>> \[\[wrapping\]\] tags, there are three types of data that yarn understands - these three types are called "Dialogue line types" in the extension:
 
 ### 1. Text line type
 The text is what the user will see displayed when they reach the dialogue branch it is on. If you don't put any special wrappers of the other type around your text - it will remain ordinary text. Yarn will give you a hint when that is not the case by changing its colour.
@@ -53,9 +53,9 @@ The text is what the user will see displayed when they reach the dialogue branch
 
 ### 2. <<Command>> line type
 Remember the magic Yarn syntax we mentioned earlier - the words we place between the ordinary text the player reads to make things happen in the game?
-We call them commands. They are wrapped between **<<** and **>>**. Anything you place between these two symbols is a  **<<hidden message>>** that the player will not see, but the Gdevelop will. These messages can be used to trigger events for you. If you are using the extension's built in scrolling logic, these commands will be triggered whenever the text scrolling has reached the <<command>>.
+We call them commands. They are wrapped between **<<** and **>>**. Anything you place between these two symbols is a  **<<hidden message>>** that the player will not see, but GDevelop will. These messages can be used to trigger events for you. If you are using the extension's built in scrolling logic, these commands will be triggered whenever the text scrolling has reached the <<command>>.
 
-Commands can also take parameters that the engine can use to decide on how to trigger something. To pass parameters to a command, just type them after the first word which is the command,  using spaces like this:
+Commands can also take parameters that the engine can use to decide on how to trigger something. To pass parameters to a command, type them after the command name using spaces:
 
 **<<mycommand parameter0 parameter1 parameter2>>** and so on.
 
@@ -128,10 +128,15 @@ _other blah_
 
 Don't forget that you can put anything inside this **<<if ...>>**...**<<endif>>**  block -  be it other commands or dialogue choices leading to other branches.
 
-!!! note
+### Branch Tags
 
-    The dialogue tree extension stores all the $variables the player sets while playing the game and also comes with expressions/actions to get/set them - in case you want to store  them when the game is saved by the player and be able to reload them.
+Branch tags are a powerful alternative to commands for driving game logic. Unlike commands — which are placed inline within a branch's text — tags are attached to the branch itself and are available as soon as the branch starts. This makes them ideal for events that should happen when a branch begins, such as playing music, changing the atmosphere, or setting an avatar.
 
+In the Yarn editor, each node has a **Tags** field where you can enter one or more space-separated tag names, for example: `battle dark`.
+
+Once a branch with tags is reached during dialogue, you can check for tags in your GDevelop events using the **"Current dialogue branch contains a tag"** condition. After this condition matches, you can read tag parameters with the **TagParameter** expression.
+
+Tags can also carry parameters using the `tagName(param1,param2)` syntax, allowing you to pass values without needing a separate command. For example, entering `music(battle_theme) atmosphere(dark)` in a branch's Tags field lets you check for `music` with the branch-contains-tag condition, then use `TagParameter(0)` to get `battle_theme` and play the right music track. This keeps your dialogue text clean while still giving GDevelop all the information it needs.
 
 ### 3. Option line type
 
@@ -196,6 +201,24 @@ Ok kids we're gonna go with...
 <<endif>>
 ```
 
+## Saving and restoring dialogue state
+
+The dialogue tree tracks all Yarn variables (set via `<<set $variable to value>>`) and which branches the player has visited. This state can be preserved across game sessions.
+
+Use the **"Save dialogue state"** action to store the entire dialogue state — including all Yarn variables and visited branch history — into a global variable. You can then save that global variable to device storage (using the Storage extension) or include it in a save state. When the player loads their save, use **"Load dialogue state"** to restore it.
+
+Use **"Clear dialogue state"** when starting a new game to reset all Yarn variables and visited history.
+
+## Tracking visited branches
+
+The **"Branch title has been visited"** condition lets you check whether the player has already seen a particular dialogue branch. This is useful for:
+
+- Showing different dialogue when a player returns to an NPC they've spoken to before.
+- Marking quests or secrets as discovered.
+- Giving the player lore-based hints only after they've encountered certain events.
+
+The **"Get a list of all visited branches"** expression returns a comma-separated string of all visited branch titles, which can be helpful for debugging.
+
 ----
 
 ## Known issues:
@@ -234,7 +257,7 @@ The demo does not use the entire capability of the extension and is aiming to pr
 ### The basic life cycle of a dialogue
 
 -  Load the dialogue tree data at the beginning of the game or the level
-- Set when a dialogue gets triggered - using the "Start Dialogue from branch..." action, and passing as a parameter the name of the node title where it will start from. That is typically the  root of a tree. In my example the npc object's dialogueBranch variable is used. That makes it easy to make many npcs and just change that in their properties
+- Set when a dialogue gets triggered - using the "Start Dialogue from branch..." action, and passing as a parameter the name of the node title where it will start from. That is typically the root of a tree. In the demo project the NPC object's `dialogueBranch` variable is used, which makes it easy to have many NPCs just by changing that variable in their properties.
 - Tell the game engine how you want the dialogue data to be displayed to the player and used by the engine - for each of the three types
 - Set reusable commands to be triggered by Yarn - such as changing of avatars, playing of sound effects and any other game events to help tell your story.
 
