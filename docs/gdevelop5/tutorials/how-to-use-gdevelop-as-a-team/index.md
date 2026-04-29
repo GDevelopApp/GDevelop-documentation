@@ -71,7 +71,7 @@ toolbarButtons:
     npmScript: generate-types
 ```
 
-Each button requires `name` (label shown in the tooltip), `icon` (emoji or short text), and `npmScript` (the script key from `package.json`).
+Each button requires `name` (label shown in the tooltip), `icon` (emoji), and `npmScript` (the script key from `package.json`).
 
 #### Lifecycle hooks
 
