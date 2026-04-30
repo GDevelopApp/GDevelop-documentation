@@ -1,3 +1,4 @@
+Name Game: Snipers
 ---
 title: Publish your game on the Play Store
 ---
