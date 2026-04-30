@@ -11,7 +11,7 @@ GDevelop's main game creation interface is divided into multiple tabs: the **Hom
 Watch an overview of GDevelop's layout:
 
 <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/bR2BjT7JG0k" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/OsPTdjhqur8?si=hN4Pc6Rw08zZgB2X" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ## Home Page tab
