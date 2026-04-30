@@ -22,7 +22,7 @@ GDevelop offers a wide variety of objects, each designed for a specific use. Bel
     - [Sprite](/gdevelop5/objects/sprite)
     - [Tiled Sprite](/gdevelop5/objects/tiled_sprite)
     - [Panel Sprite ("9-patch")](/gdevelop5/objects/panel_sprite)
-    - [Tilemap](/gdevelop5/objects/simple-tilemap)
+    - [Tilemap](/gdevelop5/objects/simple_tilemap)
     - [3D Model](/gdevelop5/objects/3d-model)
     - [3D Box](/gdevelop5/objects/3d-box)
 - **Display text** (like scores, dialogue, or labels):
