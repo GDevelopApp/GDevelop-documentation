@@ -32,6 +32,16 @@ Support for transparency (faces with transparent or semi opaque colors) can be e
 
 This can be produce strange results if you expect other faces of the box to be shown behind. This is due to how 3D rendering works. It's also more costly to render for the 3D engine.
 
+## Object orientation
+
+3D boxes expose expressions to get their **local basis vectors** — the directions the object considers as "forward", "up", and "right" based on its current rotation. These are available through the **3D object** behavior as `Base3DBehavior::ForwardX`, `ForwardY`, `ForwardZ`, `UpX`, `UpY`, `UpZ`, `RightX`, `RightY`, and `RightZ`.
+
+These are useful for:
+
+- Moving the object in the direction it is facing (e.g., multiply the forward vector by a speed value)
+- Applying forces or impulses aligned with the object's current orientation
+- Building projectile or physics systems that depend on where an object is pointing
+
 ## Performance considerations
 
 A lot of 3D boxes can impact your game as they require multiple faces to be rendered, even if these faces are partially or totally hidden behind other 3D or 2D objects.

@@ -97,6 +97,15 @@ Camera angle controls the camera rotation.  Similar to objects, the default angl
 
 ![](/wiki/pres_coord2.png)
 
+### 3D camera direction
+
+For 3D layers, the camera exposes expressions to get its **local basis vectors** — `CameraForwardX/Y/Z`, `CameraUpX/Y/Z`, and `CameraRightX/Y/Z`. These return the direction the camera is currently facing and its orientation axes in world space.
+
+This is useful for:
+
+- Moving a character in the direction the camera is looking (camera-relative movement common in 3D games)
+- Implementing first-person or third-person controls where character movement follows the camera's orientation
+
 ### Enforce camera boundaries
 
 Many games use a moving camera but they also must prevent the camera from displaying an area outside the game's boundaries.  This can be accomplished by using the **Enforce camera boundaries** action after all other camera movement actions.
