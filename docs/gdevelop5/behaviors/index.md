@@ -17,7 +17,7 @@ For example, behaviors can:
 Most behaviors can be customized to make your game feel unique. Behaviors attached to an object can be manipulated in [events](/gdevelop5/events).
 
 <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/-U8WFcpUmMg" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/6LYmbp6XL_M?si=rI9lj-DilVhFQm7K" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ## Most commonly used behaviors
