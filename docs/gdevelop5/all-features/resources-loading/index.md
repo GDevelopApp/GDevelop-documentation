@@ -55,6 +55,18 @@ Inside the loading scene, use:
 
 ![](loading-screen-events.png)
 
+## Load an object independently
+
+Usually, all objects are loaded with their scene. When a scene have a lot of resources, you might want to choose when to load and unload resources of heaviest objects. For this, you must select **Preload with action** for the **Resources preloading** property of your objects.
+
+![](object-preload-property.png)
+
+You can then use the **Preload object** and **Unload object** actions.
+
+![](object-preload-action.png)
+
+![](object-preload-events.png)
+
 ## Reference
 
 All actions, conditions and expressions are listed in [the scene reference page](/gdevelop5/all-features/scene/reference/).
