@@ -14,7 +14,7 @@ In GDevelop, **events** define the logic of a game. You can use events to create
     You can use [the GDevelop AI](/gdevelop5/interface/ai) to help you build your game, including the events running the game logic.
 
 <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/rBZ3kuvr9G0" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/ZDo44sQsqZs?si=cEJIVSE1e3VqF7y8" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ## Event structure - Conditions and actions
