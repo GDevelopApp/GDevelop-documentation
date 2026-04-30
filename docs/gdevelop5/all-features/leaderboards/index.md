@@ -38,6 +38,19 @@ You have 3 conditions at your disposal to monitor how the saving is run through.
 
 For each of those conditions, you can specify the leaderboard but this is optional. This can prove useful if you try to save the player score in multiple leaderboards at once.
 
+If the save fails, use the expression **`Leaderboards::LastSaveError(leaderboardId)`** to retrieve the reason. Common error values include:
+
+| Error | Meaning |
+|---|---|
+| `"SAME_AS_PREVIOUS"` | Score was identical to the last submitted score |
+| `"TOO_FAST"` | Score was submitted less than 500ms after the previous one |
+| `"LEADERBOARD_RATE_LIMIT_EXCEEDED"` | More than 6 scores per minute sent to this leaderboard |
+| `"GLOBAL_RATE_LIMIT_EXCEEDED"` | More than 12 scores per minute sent across all leaderboards |
+
+!!! tip
+
+    To avoid rate limit errors, only submit a score at meaningful moments — such as when a level ends or the player dies — rather than continuously during gameplay.
+
 ## Display a leaderboard
 
 Use the action "**Display leaderboard**" to load and display a leaderboard on the screen. It will be displayed on top of your game, and the view will have a button to close it in order to come back to your game.
@@ -53,6 +66,8 @@ While it's **loading**, to let the player know that the leaderboard will display
 - Use the condition "Leaderboard display is loading" to trigger an action (display a text "Loading" for example)
 
 Either case, if there's an error during the display, *it will close automatically*. You can also use the 2 conditions "Leaderboard display has errored" and "Leaderboard display has loaded" if you want to add logic around a possible error.
+
+Use the action **"Close current leaderboard"** to dismiss the leaderboard programmatically — for example, if you want to close it after a timeout or when the player presses a specific key. Use the condition **"Closed by player"** to detect when the player closed the leaderboard themselves, so you can resume gameplay or navigate to the next scene.
 
 ## Advanced: pause the scene when the leaderboard is displayed
 

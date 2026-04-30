@@ -92,6 +92,10 @@
     {
       "date": "2026-04-22",
       "summary": "Improved resources-loading docs (named Preload scene action, documented SceneLoadingProgress expression and AreSceneAssetsLoaded condition, clarified custom loading screen approach) and added extension lifecycle functions table to events/functions docs"
+    },
+    {
+      "date": "2026-04-30",
+      "summary": "Fixed object effects doc (removed incorrect 'layer name' step, added 3 action types, added enable/disable section) and improved leaderboards doc (added CloseLeaderboardView action, HasPlayerJustClosedLeaderboardView condition, LastSaveError expression with error codes table, and rate limiting tip)"
     }
   ]
 }

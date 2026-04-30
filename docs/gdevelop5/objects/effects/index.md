@@ -47,13 +47,24 @@ In this example, the Dark Night effect is called "Effect" and has two parameters
 
 ![](https://github.com/user-attachments/assets/9bf6871e-c57b-40f8-a249-d09f04774d88)
 
-You can then add an event with an action called "Effect Parameter":
+There are three actions depending on the type of parameter you want to change:
 
-* Enter first the layer name (don't forget the quotes). For the base layer, enter an empty string (`""`).
+- **Effect property (number)** — for numeric values such as blur strength or opacity.
+- **Effect property (string)** — for text values such as a texture file path used by some effects.
+- **Effect property (enable or disable)** — for boolean toggles exposed by some effects.
+
+For each action, select the object, then:
+
 * Enter the name of the effect, for example `"Effect"`.
 * Enter the name of the parameter, for example `"intensity"` or `"opacity"`.
-* Finally, enter the new value to be set for this parameter.
+* Enter the new value to set.
 
 !!! danger
 
-    All of these names are case sensitive. In particular the parameter names are lowercased. Be sure to double check the name of your effect and parameters.
+    All of these names are case-sensitive. In particular, property names are lowercased. Be sure to double-check the name of your effect and parameters.
+
+## Enable or disable an effect during the game
+
+You can toggle an effect on or off without removing it entirely. Use the **Enable an object effect** action, specifying the effect name and whether to enable or disable it.
+
+The **Effect is enabled** condition lets you check the current state of an effect — for example, to activate a glow only when an item can be picked up, then disable it once collected.
