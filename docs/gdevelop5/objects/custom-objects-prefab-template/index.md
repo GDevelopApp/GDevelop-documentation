@@ -5,6 +5,10 @@ title: Custom Objects ("prefabs")
 
 **Custom objects** are containers, composed of one or more other objects and having custom logic (made with events, like in a traditional scene) inside them.
 
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/dCxkgLi6HoM?si=S1yaN_f_HzLIFsno" frameborder="0" allowfullscreen></iframe>
+</div>
+
 !!! tip
 
     "Custom objects" are also called **"Prefabs"** or "Templates" in some game engines.
