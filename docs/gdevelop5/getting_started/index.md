@@ -55,6 +55,6 @@ Then follow along with the [Asteroids Game Example](https://wiki.gdevelop.io/gde
 
 ### Video path
 
-Start by watching the [Official Intro Tutorial Video Series](https://www.youtube.com/watch?v=595-swNh0Mw&list=PL3YlZTdKiS89Kj7IQVPoNElJCWrjZaCC8&ab_channel=GDevelop).
+Start by watching the [Official Intro Tutorial Video Series](https://www.youtube.com/watch?v=OsPTdjhqur8&list=PL3YlZTdKiS8-wDBb_40p7symnBvIub90S).
 
 Then follow along with the [Asteroids game example](https://www.youtube.com/watch?v=w1SCpQ-mRCk&list=PL3YlZTdKiS8_Q8UPu2BJV5P5gYA-Q-k19&ab_channel=GDevelop) and build your own physics-based asteroids game.
