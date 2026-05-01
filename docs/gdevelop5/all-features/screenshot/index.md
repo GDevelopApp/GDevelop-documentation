@@ -3,35 +3,29 @@ title: Screenshot extension
 ---
 # Screenshot extension
 
-This extension lets you save a screenshot of the running game in a specified folder.
+The **Take screenshot** action saves everything currently drawn on the game window to a PNG file on disk.
 
-Note: As of GDevelop 5.0.0-beta92 the screenshot action is no longer an extension. Just add an action and search for `screenshot` or go to `Other Actions`/`Screenshot`/`Take screenshot`.
+!!! warning
 
-### Actions
+    This action is only supported on **Windows, macOS, and Linux** desktop builds. It has no effect in a browser or on mobile.
 
-#### Take screenshot
+## Taking a screenshot
 
-Use this action to save a screenshot of everything which is currently drawn on the game window into a *png* file.
+The action requires an absolute file path as the save location. Relative paths are not supported.
 
-##### Parameters:
+To build a path that works across operating systems, combine expressions from the [Filesystem extension](/gdevelop5/all-features/filesystem) with the image file name:
 
-**Save path**: The file path where the screenshot should be saved.
+```
+FileSystem::PicturesPath() + FileSystem::PathDelimiter() + "my_screenshot.png"
+```
 
-The save path needs to be an absolute path on the file system (Like "C:\MyFolder\MyScreenshot.png" on Windows)'
+This saves the screenshot to the system Pictures folder on Windows, Linux, and macOS.
 
-Relative paths are not supported.
+You can also target other common folders (`FileSystem::DocumentsPath()`, `FileSystem::DesktopPath()`, etc.) or construct a fully custom path. The folder must already exist — the action will fail silently if it does not.
 
-!!! note
+!!! tip
 
-    In order to create a game that runs on all supported platforms you should use the special folders from the file system extension in combination with the path separator. These determine the path to common folders like *Pictures*, *Documents* or *Desktop* automatically. You can read more about it in [this article](/gdevelop5/all-features/filesystem).
-
-## Example
-
-This path:
-
-``` <FileSystem::PicturesPath>() + <FileSystem::PathDelimiter>() + "my_screenshot.png" ```
-
-This will save the screenshot to the *Pictures* folder on Windows, Linux and MacOS.
+    The screenshot captures the full game canvas at the moment the action runs. To give a specific filename per capture, use a variable that you increment or stamp with the current time.
 
 ## Reference
 

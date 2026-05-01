@@ -92,6 +92,10 @@
     {
       "date": "2026-04-22",
       "summary": "Improved resources-loading docs (named Preload scene action, documented SceneLoadingProgress expression and AreSceneAssetsLoaded condition, clarified custom loading screen approach) and added extension lifecycle functions table to events/functions docs"
+    },
+    {
+      "date": "2026-05-01",
+      "summary": "Improved window/index.md: added game resolution vs window size distinction, resize modes (adaptWidth/adaptHeight), IsFullScreen condition, dimension expressions (SceneWindowWidth/Height, ScreenWidth/Height, WindowTitle), CenterWindow, SetWindowIcon, and Advanced Window extension pointer; also rewrote screenshot/index.md to remove outdated beta note and clarify desktop-only support"
     }
   ]
 }
