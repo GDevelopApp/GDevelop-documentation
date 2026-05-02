@@ -9,7 +9,7 @@ title: The Dialogue Tree extension
     
     - [Dialogue tree simple demo](https://editor.gdevelop.io/?project=https://resources.gdevelop-app.com/examples/dialogue-tree-simple-demo/dialogue-tree-simple-demo.json)
     - [Dialogue tree with yarn online](https://editor.gdevelop.io/?project=https://resources.gdevelop-app.com/examples/dialogue-tree-with-yarn/dialogue-tree-with-yarn.json)
-    - [Yarnalia game](https://editor.gdevelop.io/?project=https://resources.gdevelop-app.com/examples/dialogue-tree-simple-demo/dialogue-tree-simple-demo.json)
+    - [Yarnalia game](https://editor.gdevelop.io/?project=example://yarnalia)
 
 
 The Dialogue Tree extension can be used to quickly create a dynamic dialogue tree behaviour. It comes with actions, conditions and expressions that make it extremely easy to set such a system with text scrolling, animated avatars and conditional dialogues. The example demo project does that in only 16 events.
@@ -24,7 +24,7 @@ Yarn has been battle-tested on a number of commercial and indie games. If you co
 
 Yarn uses a special JSON file format to store its dialogue data.
 To create or edit an existing yarn JSON file, you need to first add an action to the event sheet in GD that requires it.
-That action is called "Load dialogue data from JSON file". Under the resource dropdown - regardless if you have any JSON resources yet - you will find a little brush button, which will let you open yarn and create/edit one.
+That action is called "Load dialogue data from JSON file". Under the resource dropdown — regardless if you have any JSON resources yet — you will find a little brush button, which will let you open yarn and create/edit one.
 
 ![](/gdevelop5/all-features/yarngd.png)
 
@@ -53,7 +53,7 @@ The text is what the user will see displayed when they reach the dialogue branch
 
 ### 2. <<Command>> line type
 Remember the magic Yarn syntax we mentioned earlier - the words we place between the ordinary text the player reads to make things happen in the game?
-We call them commands. They are wrapped between **<<** and **>>**. Anything you place between these two symbols is a  **<<hidden message>>** that the player will not see, but the Gdevelop will. These messages can be used to trigger events for you. If you are using the extension's built in scrolling logic, these commands will be triggered whenever the text scrolling has reached the <<command>>.
+We call them commands. They are wrapped between **<<** and **>>**. Anything you place between these two symbols is a  **<<hidden message>>** that the player will not see, but GDevelop will. These messages can be used to trigger events for you. If you are using the extension's built-in scrolling logic, these commands will be triggered whenever the text scrolling has reached the <<command>>.
 
 Commands can also take parameters that the engine can use to decide on how to trigger something. To pass parameters to a command, just type them after the first word which is the command,  using spaces like this:
 
@@ -237,6 +237,53 @@ The demo does not use the entire capability of the extension and is aiming to pr
 - Set when a dialogue gets triggered - using the "Start Dialogue from branch..." action, and passing as a parameter the name of the node title where it will start from. That is typically the  root of a tree. In my example the npc object's dialogueBranch variable is used. That makes it easy to make many npcs and just change that in their properties
 - Tell the game engine how you want the dialogue data to be displayed to the player and used by the engine - for each of the three types
 - Set reusable commands to be triggered by Yarn - such as changing of avatars, playing of sound effects and any other game events to help tell your story.
+
+### Loading dialogue from a scene variable
+
+Instead of a JSON file, you can load dialogue data stored in a scene variable using the **"Load dialogue tree from a scene variable"** action. This is useful when dialogue content is fetched from a remote server, assembled procedurally, or restored from a game save stored in a global variable.
+
+### Typewriter effect
+
+The extension has built-in support for a character-by-character typewriter reveal:
+
+- Display text using the `DialogueTree::ClippedLineText()` expression instead of `DialogueTree::LineText()`.
+- Call the **"Scroll clipped text"** action on a repeating timer to advance by one character each tick.
+- Use the **"Complete clipped text scrolling"** action to instantly reveal all remaining text — for example, when the player presses a skip button.
+- Use the **"Clipped text has completed scrolling"** condition to prevent advancing to the next line before all text is visible.
+
+The built-in `<<wait 500>>` Yarn command (value in milliseconds) pauses scrolling at that point, allowing dramatic pauses mid-sentence.
+
+### Branch tags
+
+Yarn nodes can be given **tags** — a space-separated list on the `tags:` line of the node header inside the Yarn editor. Tags offer an alternative to `<<commands>>` for attaching metadata to a branch.
+
+- **"Current dialogue branch contains a tag"** condition — triggers when the running branch has a specific tag.
+- `DialogueTree::BranchTag(index)` expression — returns a specific tag by position.
+- `DialogueTree::BranchTags()` expression — returns all tags of the running branch as a space-separated string.
+- `DialogueTree::TagParameter(index)` expression — reads a parameter embedded inside a tag (e.g., if the tag is `speaker:Margaret`, `TagParameter(0)` returns `Margaret`).
+
+Tags are especially handy for setting NPC portraits, background music, or scene context without embedding logic commands in the dialogue text.
+
+### Tracking visited branches and saving dialogue state
+
+The extension automatically records which branches the player has visited. Use the **"Branch title has been visited"** condition to have an NPC say something different on a second visit, or to unlock new dialogue paths after certain events. The `DialogueTree::VisitedBranchTitles()` expression returns all visited titles as a comma-separated string.
+
+To persist the full dialogue state — `$variables`, visited branches — across game sessions:
+
+- **Save dialogue state** — stores the state into a global variable.
+- **Load dialogue state** — restores it from that global variable.
+- **Clear dialogue state** — resets all `$variables` and the visit history; call this when the player starts a new game.
+
+Pair these actions with the [Storage](/gdevelop5/all-features/storage) or [Save State](/gdevelop5/all-features/save-state) extensions to write the global variable to disk between sessions.
+
+### Other useful conditions and expressions
+
+- **"Dialogue is running"** condition — use to disable player movement or input while a dialogue is active.
+- **"Dialogue has branch"** condition — verify a branch exists before calling "Start dialogue from branch" to avoid a crash from a missing node title.
+- **"Current dialogue branch title"** condition — trigger scene events whenever the dialogue enters a specific branch (e.g., auto-play a cutscene).
+- **"Has selected option changed"** condition — re-render the selection cursor only when the player actually moves to a different option, avoiding unnecessary redraws every frame.
+- `DialogueTree::HorizontalOptionsList(cursor)` / `DialogueTree::VerticalOptionsList(cursor)` — returns all options pre-formatted as a single string with a cursor marker at the selected position, ready to display in one text object.
+- `DialogueTree::BranchText()` — returns the full raw Yarn text of the current branch; useful for debugging.
 
 # Examples
 
