@@ -192,6 +192,16 @@ It is advised to use the expressions for special folders (see below) to keep you
 
 ** (Optional) Result variable: ** Variable to store the result. It can either hold the value 'ok': the task was successful or 'error': an error occurred. The variable will be updated, at the moment the file operation has finished.
 
+---
+
+####  Read a directory (async)
+This action reads the contents of a directory (all files and sub-directories) and stores them in an array variable.
+== Parameters ==
+** Directory path: ** The absolute path to the directory to list.
+It is advised to use the expressions for special folders (see below) to keep your game platform independent.
+
+** Variable to store the result: ** A scene variable that will be set to an array of the names of all files and sub-directories in the directory. It is set to `"error"` if an error occurred.
+
 ## Expressions
 These expressions return the path to special folders on the users' operating system. If you use these expressions for loading and saving files it will be guaranteed to work on all supported operating systems. (Currently Windows, Linux, and macOS)
 !!! tip
@@ -202,8 +212,12 @@ This expression returns the operating system independent path to the _Desktop_ f
 ####  Documents folder
 This expression returns the operating system independent path to the _Documents_ folder of the user that runs your game.
 This is the standard folder for storing documents.
-####  This games executable folder
-This expression returns the operating system independent path to the folder where your game is being executed from.
+####  Game executable folder
+This expression returns the path to the folder where your game executable is located. Useful to load resources that are bundled alongside the game binary.
+####  Game executable file
+This expression returns the full path to the game's executable file itself (including the filename).
+####  User's home folder
+This expression returns the path to the user's home folder (e.g. `C:\Users\Alice` on Windows, `/home/alice` on Linux, `/Users/alice` on macOS).
 ####  Pictures folder
 This expression returns the operating system independent path to the _Pictures_ folder of the user that runs your game.
 This is the standard folder for storing images.
@@ -216,6 +230,19 @@ This folder is used for storing application settings.
 ####  Path delimiter
 This expression returns the operating system independent path delimiter character. ("\" on Windows and "/" on Linux and macOS).
 Use this expression to build cross-platform file paths that can be accessed on all supported operating systems.
+
+### Path manipulation expressions
+
+These expressions take a path string as input and extract a portion of it.
+
+####  Get directory name from a path
+Returns the directory portion of a path, without the trailing filename. For example, `FileSystem::DirectoryName("/home/alice/save.json")` returns `"/home/alice"`.
+
+####  Get file name from a path
+Returns the filename (with its extension) from a path. For example, `FileSystem::FileName("/home/alice/save.json")` returns `"save.json"`.
+
+####  Get file extension from a path
+Returns the extension (including the period) of the file at the given path. For example, `FileSystem::ExtensionName("/home/alice/save.json")` returns `".json"`.
 
 ## Example
 In order to save a screenshot to the _Pictures_ directory you could write:
