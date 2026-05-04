@@ -26,6 +26,24 @@ You can change this behavior:
 
 When a scene with unloading enabled is displayed again, its resources are loaded once more. These options are helpful for large or modular games or to reduce memory usage in web games.
 
+## Load object resources on demand
+
+By default, every object's resources are preloaded as part of their scene. For objects used infrequently — such as rare enemies, boss characters, or unlockable content — you can defer loading until the moment they are actually needed.
+
+Open the object's properties, expand the **Advanced** section, and set **Resources preloading** to **Preload with an action**. With this setting, the object's resources are excluded from the scene's initial download.
+
+Use the following actions and conditions to control loading at runtime:
+
+- **Preload object** action — starts loading the object's resources in the background.
+- **Object preloaded** condition — becomes true when all resources for the object are ready.
+- **Unload object** action — releases the object's resources from memory (only works when **Resources preloading** is set to **Preload with an action**).
+
+These work with both individual objects and object groups, so you can load or unload a whole group at once.
+
+!!! tip
+
+    Deferring object resources is most useful in large games where certain content (boss fights, cutscene assets, bonus levels) is unlikely to be reached immediately. It keeps the initial loading screen short and reduces peak memory usage.
+
 ## Optimize resource loading
 
 Intermediary loading screens can be avoided by choosing in which order scenes are pre-loaded.
