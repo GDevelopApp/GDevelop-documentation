@@ -130,7 +130,7 @@ Don't forget that you can put anything inside this **<<if ...>>**...**<<endif>>*
 
 !!! note
 
-    The dialogue tree extension stores all the $variables the player sets while playing the game and also comes with expressions/actions to get/set them - in case you want to store  them when the game is saved by the player and be able to reload them.
+    The dialogue tree extension stores all the `$variables` set during dialogue. Use the **Save dialogue state** and **Load dialogue state** actions together with GDevelop's [Save & Load](/gdevelop5/all-features/save-state/) feature to persist dialogue progress across sessions, so the player's choices survive a save/load cycle.
 
 
 ### 3. Option line type
@@ -237,6 +237,30 @@ The demo does not use the entire capability of the extension and is aiming to pr
 - Set when a dialogue gets triggered - using the "Start Dialogue from branch..." action, and passing as a parameter the name of the node title where it will start from. That is typically the  root of a tree. In my example the npc object's dialogueBranch variable is used. That makes it easy to make many npcs and just change that in their properties
 - Tell the game engine how you want the dialogue data to be displayed to the player and used by the engine - for each of the three types
 - Set reusable commands to be triggered by Yarn - such as changing of avatars, playing of sound effects and any other game events to help tell your story.
+
+## Typewriter text effect
+
+Use `ClippedLineText()` instead of `LineText()` to reveal the current line character by character. Call the **Scroll clipped text** action every tick to advance the reveal — the more frequently it is called, the faster text appears.
+
+To let the player speed through text, bind **Complete clipped text scrolling** to a button press so the full line appears instantly. Use the **Has clipped text scrolling completed** condition to guard the **Go to next dialogue line** action, ensuring the player can only advance after the full text is visible.
+
+The built-in `<<wait 1000>>` Yarn command pauses scrolling automatically for the given number of milliseconds, allowing you to time dramatic pauses mid-sentence without extra event logic.
+
+## Branch tags
+
+Yarn node headers support a `tags:` field of space-separated words:
+
+```
+title: VillageWell
+tags: npc outdoors
+---
+Node text here.
+===
+```
+
+Use the **Current branch contains tag** condition to react to these at runtime. Tags can carry parameters using the `tagName(value)` syntax — for example `character(ant)` — and the `TagParameter(0)` expression retrieves the first value. A common pattern is to encode the speaking character in a tag so the portrait sprite swaps automatically without needing a `<<avatar>>` command in every branch.
+
+The **Was branch visited** condition checks whether the player has previously passed through a specific branch, which lets NPCs refer to past conversations and makes the world feel reactive.
 
 # Examples
 
