@@ -171,6 +171,14 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>CanHaveSubInstruction
 const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#a97d2a742bea27faef5e76118a6559601">GetDeprecationMessage</a> () const</td></tr>
 <tr class="memdesc:a97d2a742bea27faef5e76118a6559601"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the deprecation message that explains why the instruction is deprecated and what to use instead. <br /></td></tr>
 <tr class="separator:a97d2a742bea27faef5e76118a6559601"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53180daf0d5a2e1fdd965f1848af336c"><td class="memItemLeft" align="right" valign="top"><a id="a53180daf0d5a2e1fdd965f1848af336c"></a>
+<a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#a53180daf0d5a2e1fdd965f1848af336c">SetHint</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;hint_)</td></tr>
+<tr class="memdesc:a53180daf0d5a2e1fdd965f1848af336c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a hint attached to the instruction itself. Hints are short reminders about how the instruction should be used and can be surfaced by tooling, documentation or AI/LLM agents. <br /></td></tr>
+<tr class="separator:a53180daf0d5a2e1fdd965f1848af336c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6908d5d7d22008202728ab26f39fe16"><td class="memItemLeft" align="right" valign="top"><a id="ac6908d5d7d22008202728ab26f39fe16"></a>
+const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#ac6908d5d7d22008202728ab26f39fe16">GetHint</a> () const</td></tr>
+<tr class="memdesc:ac6908d5d7d22008202728ab26f39fe16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the hint attached to the instruction itself. See SetHint. <br /></td></tr>
+<tr class="separator:ac6908d5d7d22008202728ab26f39fe16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a933ebc3ce9a934daf67e7d04279ff99a"><td class="memItemLeft" align="right" valign="top"><a id="a933ebc3ce9a934daf67e7d04279ff99a"></a>
 <a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#a933ebc3ce9a934daf67e7d04279ff99a">SetGroup</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;str)</td></tr>
 <tr class="memdesc:a933ebc3ce9a934daf67e7d04279ff99a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the group of the instruction in the IDE. <br /></td></tr>
@@ -191,6 +199,10 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:aa02003c1ef8e9aff24249a1f142c11c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#aa02003c1ef8e9aff24249a1f142c11c7">SetParameterLongDescription</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;longDescription) override</td></tr>
 <tr class="memdesc:aa02003c1ef8e9aff24249a1f142c11c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the long description shown in the editor for the last added parameter.  <a href="classgd_1_1_instruction_metadata.html#aa02003c1ef8e9aff24249a1f142c11c7">More...</a><br /></td></tr>
 <tr class="separator:aa02003c1ef8e9aff24249a1f142c11c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adadf81a16ecfbfd73f0ff122ddbcd610"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#adadf81a16ecfbfd73f0ff122ddbcd610">SetParameterHint</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;hint) override</td></tr>
+<tr class="memdesc:adadf81a16ecfbfd73f0ff122ddbcd610"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set a hint attached to the last added parameter. Hints are short reminders about how the parameter should be used (e.g. "object timers
+must be started manually") and can be surfaced by tooling, documentation or AI/LLM agents.  <a href="classgd_1_1_instruction_metadata.html#adadf81a16ecfbfd73f0ff122ddbcd610">More...</a><br /></td></tr>
+<tr class="separator:adadf81a16ecfbfd73f0ff122ddbcd610"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7cdb0adae1a65194d24ba70cdecd7986"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_instruction_metadata.html#a7cdb0adae1a65194d24ba70cdecd7986">SetParameterExtraInfo</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;extraInfo) override</td></tr>
 <tr class="memdesc:a7cdb0adae1a65194d24ba70cdecd7986"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the additional information, used for some parameters with special type (for example, it can contains the type of object accepted by the parameter), for the last added parameter.  <a href="classgd_1_1_instruction_metadata.html#a7cdb0adae1a65194d24ba70cdecd7986">More...</a><br /></td></tr>
 <tr class="separator:a7cdb0adae1a65194d24ba70cdecd7986"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1128,6 +1140,38 @@ Public Attributes</h2></td></tr>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_instruction_metadata.html#a85b81d629c5090222af6801d75631abc" title="Add a parameter to the instruction metadata.">AddParameter</a> </dd></dl>
 
 <p>Implements <a class="el" href="classgd_1_1_abstract_function_metadata.html#a6a16c7e6c9d3f4fb31febc62b57eb3e6">gd::AbstractFunctionMetadata</a>.</p>
+
+</div>
+</div>
+<a id="adadf81a16ecfbfd73f0ff122ddbcd610"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adadf81a16ecfbfd73f0ff122ddbcd610">&#9670;&nbsp;</a></span>SetParameterHint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classgd_1_1_instruction_metadata.html">InstructionMetadata</a>&amp; gd::InstructionMetadata::SetParameterHint </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>hint</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set a hint attached to the last added parameter. Hints are short reminders about how the parameter should be used (e.g. "object timers
+must be started manually") and can be surfaced by tooling, documentation or AI/LLM agents. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_instruction_metadata.html#a85b81d629c5090222af6801d75631abc" title="Add a parameter to the instruction metadata.">AddParameter</a> </dd></dl>
+
+<p>Implements <a class="el" href="classgd_1_1_abstract_function_metadata.html#ad42f42b5d7025587b1bef7b60c28c5a3">gd::AbstractFunctionMetadata</a>.</p>
 
 </div>
 </div>

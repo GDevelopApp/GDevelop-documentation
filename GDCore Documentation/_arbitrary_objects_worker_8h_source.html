@@ -78,46 +78,47 @@ $(function() {
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * reserved. This project is released under the MIT License.</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#ifndef ARBITRARYOBJECTSWORKER_H</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#define ARBITRARYOBJECTSWORKER_H</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;map&gt;</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &quot;GDCore/String.h&quot;</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacegd.html">gd</a> {</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">class </span>Object;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">class </span>ObjectsContainer;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keyword">class </span>Behavior;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;}  <span class="comment">// namespace gd</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacegd.html">gd</a> {</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
-<div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="classgd_1_1_arbitrary_objects_worker.html">   30</a></span>&#160;<span class="keyword">class </span>GD_CORE_API <a class="code" href="classgd_1_1_arbitrary_objects_worker.html">ArbitraryObjectsWorker</a> {</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; <span class="keyword">public</span>:</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  <a class="code" href="classgd_1_1_arbitrary_objects_worker.html">ArbitraryObjectsWorker</a>(){};</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;  <span class="keyword">virtual</span> ~<a class="code" href="classgd_1_1_arbitrary_objects_worker.html">ArbitraryObjectsWorker</a>();</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
-<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="classgd_1_1_arbitrary_objects_worker.html#acd36936839dcc5e21418e490e300ff85">   38</a></span>&#160;  <span class="keywordtype">void</span> <a class="code" href="classgd_1_1_arbitrary_objects_worker.html#acd36936839dcc5e21418e490e300ff85">Launch</a>(<a class="code" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a>&amp; objects) { VisitObjectContainer(objects); };</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160; </div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;  <span class="keywordtype">void</span> VisitObjectContainer(<a class="code" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a>&amp; objects);</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;  <span class="keywordtype">void</span> VisitObject(<a class="code" href="classgd_1_1_object.html">gd::Object</a>&amp; <span class="keywordtype">object</span>);</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  <span class="keywordtype">void</span> VisitBehavior(<a class="code" href="classgd_1_1_behavior.html">gd::Behavior</a>&amp; behavior);</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> DoVisitObjectContainer(<a class="code" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a>&amp; objects){};</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> DoVisitObject(<a class="code" href="classgd_1_1_object.html">gd::Object</a>&amp; <span class="keywordtype">object</span>){};</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> DoVisitBehavior(<a class="code" href="classgd_1_1_behavior.html">gd::Behavior</a>&amp; behavior){};</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;};</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;}  <span class="comment">// namespace gd</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor">#endif  </span><span class="comment">// ARBITRARYOBJECTSWORKER_H</span></div>
-<div class="ttc" id="aclassgd_1_1_arbitrary_objects_worker_html"><div class="ttname"><a href="classgd_1_1_arbitrary_objects_worker.html">gd::ArbitraryObjectsWorker</a></div><div class="ttdoc">ArbitraryObjectsWorker is an abstract class used to browse objects (and behaviors) and do some work o...</div><div class="ttdef"><b>Definition:</b> ArbitraryObjectsWorker.h:30</div></div>
-<div class="ttc" id="aclassgd_1_1_arbitrary_objects_worker_html_acd36936839dcc5e21418e490e300ff85"><div class="ttname"><a href="classgd_1_1_arbitrary_objects_worker.html#acd36936839dcc5e21418e490e300ff85">gd::ArbitraryObjectsWorker::Launch</a></div><div class="ttdeci">void Launch(gd::ObjectsContainer &amp;objects)</div><div class="ttdoc">Launch the worker on the specified object container.</div><div class="ttdef"><b>Definition:</b> ArbitraryObjectsWorker.h:38</div></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;map&gt;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;memory&gt;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;vector&gt;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &quot;GDCore/String.h&quot;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacegd.html">gd</a> {</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">class </span>Object;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="keyword">class </span>ObjectsContainer;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="keyword">class </span>Behavior;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;}  <span class="comment">// namespace gd</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacegd.html">gd</a> {</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160; </div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classgd_1_1_arbitrary_objects_worker.html">   29</a></span>&#160;<span class="keyword">class </span>GD_CORE_API <a class="code" href="classgd_1_1_arbitrary_objects_worker.html">ArbitraryObjectsWorker</a> {</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  <a class="code" href="classgd_1_1_arbitrary_objects_worker.html">ArbitraryObjectsWorker</a>(){};</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  <span class="keyword">virtual</span> ~<a class="code" href="classgd_1_1_arbitrary_objects_worker.html">ArbitraryObjectsWorker</a>();</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classgd_1_1_arbitrary_objects_worker.html#acd36936839dcc5e21418e490e300ff85">   37</a></span>&#160;  <span class="keywordtype">void</span> <a class="code" href="classgd_1_1_arbitrary_objects_worker.html#acd36936839dcc5e21418e490e300ff85">Launch</a>(<a class="code" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a>&amp; objects) { VisitObjectContainer(objects); };</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="classgd_1_1_arbitrary_objects_worker.html#a2ef4cb93cef0f7a39da7c267e5de96fd">   42</a></span>&#160;  <span class="keywordtype">void</span> <a class="code" href="classgd_1_1_arbitrary_objects_worker.html#a2ef4cb93cef0f7a39da7c267e5de96fd">Launch</a>(<a class="code" href="classgd_1_1_object.html">gd::Object</a>&amp; <span class="keywordtype">object</span>) { VisitObject(<span class="keywordtype">object</span>); };</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  <span class="keywordtype">void</span> VisitObjectContainer(<a class="code" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a>&amp; objects);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  <span class="keywordtype">void</span> VisitObject(<a class="code" href="classgd_1_1_object.html">gd::Object</a>&amp; <span class="keywordtype">object</span>);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  <span class="keywordtype">void</span> VisitBehavior(<a class="code" href="classgd_1_1_behavior.html">gd::Behavior</a>&amp; behavior);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> DoVisitObjectContainer(<a class="code" href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a>&amp; objects){};</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> DoVisitObject(<a class="code" href="classgd_1_1_object.html">gd::Object</a>&amp; <span class="keywordtype">object</span>){};</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> DoVisitBehavior(<a class="code" href="classgd_1_1_behavior.html">gd::Behavior</a>&amp; behavior){};</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;};</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160; </div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;}  <span class="comment">// namespace gd</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160; </div>
+<div class="ttc" id="aclassgd_1_1_arbitrary_objects_worker_html"><div class="ttname"><a href="classgd_1_1_arbitrary_objects_worker.html">gd::ArbitraryObjectsWorker</a></div><div class="ttdoc">ArbitraryObjectsWorker is an abstract class used to browse objects (and behaviors) and do some work o...</div><div class="ttdef"><b>Definition:</b> ArbitraryObjectsWorker.h:29</div></div>
+<div class="ttc" id="aclassgd_1_1_arbitrary_objects_worker_html_a2ef4cb93cef0f7a39da7c267e5de96fd"><div class="ttname"><a href="classgd_1_1_arbitrary_objects_worker.html#a2ef4cb93cef0f7a39da7c267e5de96fd">gd::ArbitraryObjectsWorker::Launch</a></div><div class="ttdeci">void Launch(gd::Object &amp;object)</div><div class="ttdoc">Launch the worker on the specified object.</div><div class="ttdef"><b>Definition:</b> ArbitraryObjectsWorker.h:42</div></div>
+<div class="ttc" id="aclassgd_1_1_arbitrary_objects_worker_html_acd36936839dcc5e21418e490e300ff85"><div class="ttname"><a href="classgd_1_1_arbitrary_objects_worker.html#acd36936839dcc5e21418e490e300ff85">gd::ArbitraryObjectsWorker::Launch</a></div><div class="ttdeci">void Launch(gd::ObjectsContainer &amp;objects)</div><div class="ttdoc">Launch the worker on the specified object container.</div><div class="ttdef"><b>Definition:</b> ArbitraryObjectsWorker.h:37</div></div>
 <div class="ttc" id="aclassgd_1_1_behavior_html"><div class="ttname"><a href="classgd_1_1_behavior.html">gd::Behavior</a></div><div class="ttdoc">Base class used to represents a behavior that can be applied to an object. It stores the content (i....</div><div class="ttdef"><b>Definition:</b> Behavior.h:24</div></div>
 <div class="ttc" id="aclassgd_1_1_object_html"><div class="ttname"><a href="classgd_1_1_object.html">gd::Object</a></div><div class="ttdoc">Represent an object of a platform.</div><div class="ttdef"><b>Definition:</b> Object.h:39</div></div>
 <div class="ttc" id="aclassgd_1_1_objects_container_html"><div class="ttname"><a href="classgd_1_1_objects_container.html">gd::ObjectsContainer</a></div><div class="ttdoc">Used as a base class for classes that will own objects (see gd::Object).</div><div class="ttdef"><b>Definition:</b> ObjectsContainer.h:38</div></div>

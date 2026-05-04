@@ -134,6 +134,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_object.html#a1537f12f96f02ddd936988e4ae440905">GetType</a> () const</td></tr>
 <tr class="memdesc:a1537f12f96f02ddd936988e4ae440905"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the type of the object. <br /></td></tr>
 <tr class="separator:a1537f12f96f02ddd936988e4ae440905"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42d18d367a0e1f59746ecdf226e9c7ae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_object.html#a42d18d367a0e1f59746ecdf226e9c7ae">SetResourcesPreloading</a> (<a class="el" href="classgd_1_1_string.html">gd::String</a> resourcesPreloading_)</td></tr>
+<tr class="separator:a42d18d367a0e1f59746ecdf226e9c7ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa15508bbb6399f404f41c102e82ce6c1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_object.html#aa15508bbb6399f404f41c102e82ce6c1">GetResourcesPreloading</a> () const</td></tr>
+<tr class="separator:aa15508bbb6399f404f41c102e82ce6c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Behaviors management</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>Members functions related to behaviors management. </p>
 </div></td></tr>
@@ -238,6 +242,8 @@ std::unique_ptr&lt; <a class="el" href="classgd_1_1_object_configuration.html">g
 <tr class="separator:a25d7e74d5369784282872cf9e5c71e54"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84764b9b642e72e38e59881aa10b97da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_object.html#a84764b9b642e72e38e59881aa10b97da">persistentUuid</a></td></tr>
 <tr class="separator:a84764b9b642e72e38e59881aa10b97da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d75a88dd6431466b000219524c3be14"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_object.html#a2d75a88dd6431466b000219524c3be14">resourcesPreloading</a> = &quot;with-scene&quot;</td></tr>
+<tr class="separator:a2d75a88dd6431466b000219524c3be14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Represent an object of a platform. </p>
@@ -431,6 +437,32 @@ std::unique_ptr&lt; <a class="el" href="classgd_1_1_object_configuration.html">g
 </div><!-- fragment --> 
 </div>
 </div>
+<a id="aa15508bbb6399f404f41c102e82ce6c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa15508bbb6399f404f41c102e82ce6c1">&#9670;&nbsp;</a></span>GetResourcesPreloading()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classgd_1_1_string.html">gd::String</a>&amp; gd::Object::GetResourcesPreloading </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Get when the object resources must be preloaded: <code>with-scene</code>(default), <code>manually</code>. </p>
+
+</div>
+</div>
 <a id="a12791c07b8323b89efff87b88108f2b9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a12791c07b8323b89efff87b88108f2b9">&#9670;&nbsp;</a></span>Init()</h2>
 
@@ -538,6 +570,33 @@ std::unique_ptr&lt; <a class="el" href="classgd_1_1_object_configuration.html">g
 
 </div>
 </div>
+<a id="a42d18d367a0e1f59746ecdf226e9c7ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42d18d367a0e1f59746ecdf226e9c7ae">&#9670;&nbsp;</a></span>SetResourcesPreloading()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gd::Object::SetResourcesPreloading </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td>
+          <td class="paramname"><em>resourcesPreloading_</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Set when the object resources must be preloaded: <code>with-scene</code>(default), <code>manually</code>. </p>
+
+</div>
+</div>
 <a id="a49d87805a85c10bc86c589f2f30efc87"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a49d87805a85c10bc86c589f2f30efc87">&#9670;&nbsp;</a></span>UnserializeFrom()</h2>
 
@@ -636,6 +695,29 @@ std::unique_ptr&lt; <a class="el" href="classgd_1_1_object_configuration.html">g
 </table>
 </div><div class="memdoc">
 <p>A persistent random version 4 UUID, useful for computing changesets. </p>
+
+</div>
+</div>
+<a id="a2d75a88dd6431466b000219524c3be14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d75a88dd6431466b000219524c3be14">&#9670;&nbsp;</a></span>resourcesPreloading</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classgd_1_1_string.html">gd::String</a> gd::Object::resourcesPreloading = &quot;with-scene&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>When set to <code>"manually"</code>, its resources are not preloaded with the scene. </p>
 
 </div>
 </div>
