@@ -26,7 +26,8 @@ Pause a scene timer.
 
     > Technical note: this action internal type (in GDevelop JSON) is `PauseTimer`.
 
-!!! tip
+??? tip "Hints and advice"
+
     Scene timers must be started (e.g. with the "Start (or reset) a scene timer" action) before being used. They are scene-wide and should not be (re)started at each frame, otherwise they keep restarting.
 
 **Delete a scene timer**  
@@ -40,7 +41,8 @@ Delete a scene timer from memory.
 
     > Technical note: this action internal type (in GDevelop JSON) is `RemoveTimer`.
 
-!!! tip
+??? tip "Hints and advice"
+
     Scene timers must be started (e.g. with the "Start (or reset) a scene timer" action) before being used. They are scene-wide and should not be (re)started at each frame, otherwise they keep restarting.
 
 **Start (or reset) a scene timer**  
@@ -54,7 +56,8 @@ Reset the specified scene timer, if the timer doesn't exist it's created and sta
 
     > Technical note: this action internal type (in GDevelop JSON) is `ResetTimer`.
 
-!!! tip
+??? tip "Hints and advice"
+
     Scene timers must be started (e.g. with the "Start (or reset) a scene timer" action) before being used. They are scene-wide and should not be (re)started at each frame, otherwise they keep restarting.
 
 **Unpause a scene timer**  
@@ -68,7 +71,8 @@ Unpause a scene timer.
 
     > Technical note: this action internal type (in GDevelop JSON) is `UnPauseTimer`.
 
-!!! tip
+??? tip "Hints and advice"
+
     Scene timers must be started (e.g. with the "Start (or reset) a scene timer" action) before being used. They are scene-wide and should not be (re)started at each frame, otherwise they keep restarting.
 
 **Wait X seconds**  
@@ -96,7 +100,8 @@ Compare the elapsed time of a scene timer. This condition doesn't start the time
 
     > Technical note: this condition internal type (in GDevelop JSON) is `CompareTimer`.
 
-!!! tip
+??? tip "Hints and advice"
+
     Scene timers must be started (e.g. with the "Start (or reset) a scene timer" action) before being used. They are scene-wide and should not be (re)started at each frame, otherwise they keep restarting.
 
 **Time scale**  
@@ -122,7 +127,8 @@ Test if the specified scene timer is paused.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `TimerPaused`.
 
-!!! tip
+??? tip "Hints and advice"
+
     Scene timers must be started (e.g. with the "Start (or reset) a scene timer" action) before being used. They are scene-wide and should not be (re)started at each frame, otherwise they keep restarting.
 
 
