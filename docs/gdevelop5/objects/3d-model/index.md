@@ -97,6 +97,14 @@ The **center location** determines the point around which the object rotates and
 
     For characters, setting the origin to "Bottom center (Z)" makes it easy to place them on the ground, as the object's Z position will represent the ground level where the character stands.
 
+## Orientation vectors
+
+Every 3D object exposes its **forward**, **up**, and **right** direction vectors through expressions in the **Base 3D** behavior. These are unit vectors that reflect the object's current rotation in the world.
+
+A common use is to move an object in the direction it is facing. For example, to push a spaceship or character forward you can multiply `ForwardX`, `ForwardY`, and `ForwardZ` by a speed value and apply them to the object's position each frame. Similarly, you can fire a projectile along the forward vector, or apply a physics impulse in that direction.
+
+The camera also exposes its own forward, up, and right vectors through expressions like `Scene3D::CameraForwardX`. These are useful for camera-relative movement — for instance, moving a character in the direction the camera is pointing for first-person or third-person controls.
+
 ## File format
 
 GDevelop supports 3D models saved in the **GLB (.glb) format**. It is a standardized file format used to share 3D data. Notably, it includes the 3D mesh of the object, as well as its textures, material specifications, and animations. This format is also sometimes called **GLTF**, for "GL Transmission Format". You can sometimes find .gltf files, but only the **.glb** files are supported by GDevelop, as they can embed the textures and animations whereas .gltf files require separate files.
