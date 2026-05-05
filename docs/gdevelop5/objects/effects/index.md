@@ -35,6 +35,12 @@ When a preview is running, you can see **the changes you've made in real time** 
 
 ![](https://github.com/user-attachments/assets/a871eccf-07a8-473a-a5af-37cc5869e116)
 
+## Enable or disable an effect during the game
+
+You can toggle an effect on or off without removing it entirely. Use the **Enable an object effect** action, specifying the object, the effect name, and whether to enable or disable it. The **Object effect is enabled** condition lets you check the current state of an effect.
+
+This is useful for gameplay feedback — for example, enabling an outline effect when the player hovers over an item, then disabling it afterwards.
+
 ## Change effect parameters during the game
 
 Using events, you can manipulate the parameters during the game. It can be useful for different situations, for example animating or activating an effect only when an object is hit, firing bullets, moving, etc...
@@ -47,13 +53,14 @@ In this example, the Dark Night effect is called "Effect" and has two parameters
 
 ![](https://github.com/user-attachments/assets/9bf6871e-c57b-40f8-a249-d09f04774d88)
 
-You can then add an event with an action called "Effect Parameter":
+Select the object in an event, then use one of these actions depending on the type of parameter:
 
-* Enter first the layer name (don't forget the quotes). For the base layer, enter an empty string (`""`).
-* Enter the name of the effect, for example `"Effect"`.
-* Enter the name of the parameter, for example `"intensity"` or `"opacity"`.
-* Finally, enter the new value to be set for this parameter.
+- **Effect property (number)** — for numeric values such as blur strength, brightness, or intensity.
+- **Effect property (string)** — for text values such as the texture file path used by the Displacement effect.
+- **Effect property (boolean)** — for yes/no toggles exposed by some effects.
+
+For each action, enter the name of the effect (for example `"Effect"`) and the name of the parameter (for example `"intensity"` or `"opacity"`), then provide the new value.
 
 !!! danger
 
-    All of these names are case sensitive. In particular the parameter names are lowercased. Be sure to double check the name of your effect and parameters.
+    All of these names are case-sensitive. In particular, parameter names are lowercased. Be sure to double-check the name of your effect and parameters.
