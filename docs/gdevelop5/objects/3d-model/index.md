@@ -97,6 +97,12 @@ The **center location** determines the point around which the object rotates and
 
     For characters, setting the origin to "Bottom center (Z)" makes it easy to place them on the ground, as the object's Z position will represent the ground level where the character stands.
 
+## Object orientation
+
+A 3D model's current orientation can be read as three direction vectors expressed in the world: a **forward**, an **up** and a **right** vector. These are useful when the object's rotation is not aligned with the world axes — for example to make a turret fire a projectile in the direction it is currently aiming, to move a vehicle along the way it is facing, or to spawn a thruster effect under a tilted spaceship.
+
+The same kind of vectors are also available for the 3D camera, which can help align gameplay with the player's point of view (such as moving relative to where the camera is looking).
+
 ## File format
 
 GDevelop supports 3D models saved in the **GLB (.glb) format**. It is a standardized file format used to share 3D data. Notably, it includes the 3D mesh of the object, as well as its textures, material specifications, and animations. This format is also sometimes called **GLTF**, for "GL Transmission Format". You can sometimes find .gltf files, but only the **.glb** files are supported by GDevelop, as they can embed the textures and animations whereas .gltf files require separate files.
