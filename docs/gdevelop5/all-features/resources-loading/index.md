@@ -77,6 +77,8 @@ The **Preload object** action does not pause the game while the object's resourc
 
     Global objects and global object groups are not yet supported.
 
+Object unloading is done only when no objects are living on the scene. If you try to unload an object that is being used, it will stay loaded.
+
 ## Reference
 
 All actions, conditions and expressions are listed in [the scene reference page](/gdevelop5/all-features/scene/reference/).
