@@ -92,6 +92,10 @@
     {
       "date": "2026-04-22",
       "summary": "Improved resources-loading docs (named Preload scene action, documented SceneLoadingProgress expression and AreSceneAssetsLoaded condition, clarified custom loading screen approach) and added extension lifecycle functions table to events/functions docs"
+    },
+    {
+      "date": "2026-05-07",
+      "summary": "Improved window docs (game resolution vs window size distinction, resize mode, center window, window icon, screen/window size expressions), keyboard docs (Key just pressed, Any key released, on-screen keyboard note), and screenshot docs (desktop-only platform note, PNG auto-extension)"
     }
   ]
 }

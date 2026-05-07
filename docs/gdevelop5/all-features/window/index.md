@@ -8,6 +8,8 @@ The window of the game is the area in which the game is displayed. It DOES NOT r
 ## Fullscreen
 The "De/activate fullscreen" action allows you to toggle the game between fullscreen on/off. When the window is in fullscreen, it will take up as much area as possible. You can control the action using the "YES" and "NO" actions.
 
+For HTML5 games, the action has an optional "Keep aspect ratio" parameter. When set to "yes" (the default), black bars will be added so the game keeps its original proportions; when set to "no", the game will be stretched to fill the screen.
+
 ## Window margins
 The margin of the window is the distance between the side of the window and the game window displayed. Shown below is the preview of a game with 100 px margins on all 4 sides.
 
@@ -15,21 +17,28 @@ The margin of the window is the distance between the side of the window and the 
 
 Notice the black borders on all for sides of the window. The width of the borders is 100px.
 
-## Size of the window
+## Game resolution and window size
 
-Size of the window is the number of pixels visible in the game. The "Width" field refers to the number of pixels in the horizontal directions while the "Height" field refers to the number of pixels in the vertical direction.
+GDevelop makes a distinction between two different concepts:
 
-While setting the size of the window, if you want to scale the current area to the set resolution, choose "NO". This will decrease the visual quality of the game if the size entered is lower than default and will increase the visual quality if the size entered is higher than the default size.
+- The **game resolution** is the size of the game area in pixels. It defines how much of the game world is visible and the unit used by all game coordinates. The default resolution is set in the project properties.
+- The **window size** is the size of the system window the game runs in. On the web, mobile or fullscreen, the window size is imposed by the browser, the device or the screen — it can't be changed by the game. On Windows, macOS and Linux, it can be updated with the "Game window size" action.
 
-![](/gdevelop5/all-features/annotation_2019-06-29_175454.png)
+The "**Game resolution**" action changes how much of the game world is visible without changing the size of the window. Reducing the resolution makes objects appear larger (zooming in); increasing it makes them appear smaller (zooming out).
 
-If you want to scale the set resolution to the window area, choose "YES". This will crop the window and display only the number of pixels entered in the action. This does not affect the visual quality as long as the game is scaled up or down because of the size of the system window.
+The "**Game window size**" action only works on Windows, macOS and Linux. It has an option to also update the game resolution: if you say "no", the game will be stretched or reduced to fit the new window.
 
-!!! note
+The "**Center the game window on the screen**" action centers the window on the screen (Windows, macOS and Linux only).
 
-    The game is cropped starting from the top-left corner of the game.
+### Game resolution resize mode
 
-![](/gdevelop5/all-features/annotation_2019-06-29_175540.png)
+When the system window or screen size changes (for example a player resizing a browser window or rotating their phone), the game resolution can be adapted automatically. Use the "**Game resolution resize mode**" action with one of:
+
+- `adaptWidth`: the game width is updated to fit in the window or screen, keeping the height fixed.
+- `adaptHeight`: the game height is updated to fit, keeping the width fixed.
+- *(empty)*: disables resizing — the game is stretched or shown with black bars to fit the window.
+
+The "**Automatically adapt the game resolution**" action enables or disables that adaptation while the game is running. It only takes effect when the resize mode above is `adaptWidth` or `adaptHeight`.
 
 ## Window title
 
@@ -38,6 +47,17 @@ The window title is the name of the window that is visible on the title bar (loc
 By default, the game name is used for the executable name (on Windows, macOS and Linux), the app name (on Android and iOS) and the title bar (on Windows, macOS and Linux) (and the page title for HTML5 games). You can [learn more about it in game properties.](/gdevelop5/interface/project-manager/properties)
 
 With the action to change the title, the title bar on Windows, macOS and Linux will be changed. Nothing will be visible on Android and iOS. For HTML5 games, the web page title will be changed.
+
+## Window icon
+
+The "**Window's icon**" action changes the icon shown in the window's title bar and the operating system task bar. It takes the name of an image resource of your project. This only applies to Windows, macOS and Linux: on mobile, the app icon is set when the game is built; on the web, the icon comes from the page's favicon.
+
+## Reading screen and window dimensions
+
+A few expressions help adapt the game to the player's screen or window:
+
+- `SceneWindowWidth()` / `SceneWindowHeight()`: the size of the area where the scene is rendered (the canvas size for HTML5 games).
+- `ScreenWidth()` / `ScreenHeight()`: the size of the player's screen (or the page for HTML5 games running in a browser).
 
 ## Reference
 
