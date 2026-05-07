@@ -114,27 +114,24 @@ $(function() {
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_instructions_list.html">gd::InstructionsList</a>&amp; GetActions()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> actions; };</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;  <a class="code" href="classgd_1_1_instructions_list.html">gd::InstructionsList</a>&amp; GetActions() { <span class="keywordflow">return</span> actions; };</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  <span class="keyword">virtual</span> <a class="code" href="classgd_1_1_instructions_list.html">gd::InstructionsList</a>* GetInstructionList(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; label) <span class="keyword">override</span>;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;  <span class="keyword">virtual</span> <span class="keyword">const</span> <a class="code" href="classgd_1_1_instructions_list.html">gd::InstructionsList</a>* GetInstructionList(<span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a>&amp; label) <span class="keyword">const override</span>;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160; </div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  <span class="keyword">virtual</span> std::vector&lt;const gd::InstructionsList*&gt; GetAllConditionsVectors()</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;      <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  <span class="keyword">virtual</span> std::vector&lt;const gd::InstructionsList*&gt; GetAllActionsVectors() <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  <span class="keyword">virtual</span> std::vector&lt;gd::InstructionsList*&gt; GetAllConditionsVectors();</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  <span class="keyword">virtual</span> std::vector&lt;gd::InstructionsList*&gt; GetAllActionsVectors();</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> SerializeTo(SerializerElement&amp; element) <span class="keyword">const</span>;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> UnserializeFrom(<a class="code" href="classgd_1_1_project.html">gd::Project</a>&amp; project,</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                               <span class="keyword">const</span> SerializerElement&amp; element);</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160; <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  <a class="code" href="classgd_1_1_instructions_list.html">gd::InstructionsList</a> conditions;</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  <a class="code" href="classgd_1_1_instructions_list.html">gd::InstructionsList</a> actions;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;  EventsList events;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  VariablesContainer variables;</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;};</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;}  <span class="comment">// namespace gd</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;  <span class="keyword">virtual</span> std::vector&lt;const gd::InstructionsList*&gt; GetAllConditionsVectors()</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;      <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  <span class="keyword">virtual</span> std::vector&lt;const gd::InstructionsList*&gt; GetAllActionsVectors() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  <span class="keyword">virtual</span> std::vector&lt;gd::InstructionsList*&gt; GetAllConditionsVectors();</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  <span class="keyword">virtual</span> std::vector&lt;gd::InstructionsList*&gt; GetAllActionsVectors();</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> SerializeTo(SerializerElement&amp; element) <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> UnserializeFrom(<a class="code" href="classgd_1_1_project.html">gd::Project</a>&amp; project,</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                               <span class="keyword">const</span> SerializerElement&amp; element);</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160; </div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160; <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;  <a class="code" href="classgd_1_1_instructions_list.html">gd::InstructionsList</a> conditions;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  <a class="code" href="classgd_1_1_instructions_list.html">gd::InstructionsList</a> actions;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;  EventsList events;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;  VariablesContainer variables;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;};</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;}  <span class="comment">// namespace gd</span></div>
 <div class="ttc" id="aclassgd_1_1_base_event_html"><div class="ttname"><a href="classgd_1_1_base_event.html">gd::BaseEvent</a></div><div class="ttdoc">Base class defining an event.</div><div class="ttdef"><b>Definition:</b> Event.h:43</div></div>
 <div class="ttc" id="aclassgd_1_1_events_list_html"><div class="ttname"><a href="classgd_1_1_events_list.html">gd::EventsList</a></div><div class="ttdoc">A list of events.</div><div class="ttdef"><b>Definition:</b> EventsList.h:32</div></div>
 <div class="ttc" id="aclassgd_1_1_instructions_list_html"><div class="ttname"><a href="classgd_1_1_instructions_list.html">gd::InstructionsList</a></div><div class="ttdef"><b>Definition:</b> InstructionsList.h:25</div></div>
@@ -148,7 +145,6 @@ $(function() {
 <div class="ttc" id="aclassgd_1_1_standard_event_html_ac3744baf26e56261709c9e60561ce8cf"><div class="ttname"><a href="classgd_1_1_standard_event.html#ac3744baf26e56261709c9e60561ce8cf">gd::StandardEvent::GetVariables</a></div><div class="ttdeci">virtual const gd::VariablesContainer &amp; GetVariables() const</div><div class="ttdef"><b>Definition:</b> StandardEvent.h:37</div></div>
 <div class="ttc" id="aclassgd_1_1_standard_event_html_ace14261e5248d41ca68c85b2bb9d1fb8"><div class="ttname"><a href="classgd_1_1_standard_event.html#ace14261e5248d41ca68c85b2bb9d1fb8">gd::StandardEvent::CanHaveSubEvents</a></div><div class="ttdeci">virtual bool CanHaveSubEvents() const</div><div class="ttdef"><b>Definition:</b> StandardEvent.h:32</div></div>
 <div class="ttc" id="aclassgd_1_1_standard_event_html_ae00d2cdf0cfe40ab773d17e8fd5667e4"><div class="ttname"><a href="classgd_1_1_standard_event.html#ae00d2cdf0cfe40ab773d17e8fd5667e4">gd::StandardEvent::GetVariables</a></div><div class="ttdeci">virtual gd::VariablesContainer &amp; GetVariables()</div><div class="ttdef"><b>Definition:</b> StandardEvent.h:38</div></div>
-<div class="ttc" id="aclassgd_1_1_string_html"><div class="ttname"><a href="classgd_1_1_string.html">gd::String</a></div><div class="ttdoc">String represents an UTF8 encoded string.</div><div class="ttdef"><b>Definition:</b> String.h:33</div></div>
 <div class="ttc" id="aclassgd_1_1_variables_container_html"><div class="ttname"><a href="classgd_1_1_variables_container.html">gd::VariablesContainer</a></div><div class="ttdoc">Class defining a container for gd::Variable.</div><div class="ttdef"><b>Definition:</b> VariablesContainer.h:29</div></div>
 <div class="ttc" id="anamespacegd_html"><div class="ttname"><a href="namespacegd.html">gd</a></div><div class="ttdef"><b>Definition:</b> CommonTools.h:24</div></div>
 </div><!-- fragment --></div><!-- contents -->
