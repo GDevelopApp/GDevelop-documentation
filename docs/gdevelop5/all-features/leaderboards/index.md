@@ -38,6 +38,12 @@ You have 3 conditions at your disposal to monitor how the saving is run through.
 
 For each of those conditions, you can specify the leaderboard but this is optional. This can prove useful if you try to save the player score in multiple leaderboards at once.
 
+If the save errored, you can read the error message with the `Leaderboards::LastSaveError()` expression — useful to display a hint to the player (network issue, score rejected, etc.) or to log it for debugging.
+
+!!! tip
+
+    By default, when the player is connected, scores are automatically attached to the connected player even if you use the "Save player score" action. If you need to send anonymous scores while the player is logged in (for example, for a "guest" mode), use the action **"Always attach scores to the connected player"** to disable this behavior.
+
 ## Display a leaderboard
 
 Use the action "**Display leaderboard**" to load and display a leaderboard on the screen. It will be displayed on top of your game, and the view will have a button to close it in order to come back to your game.
@@ -53,6 +59,8 @@ While it's **loading**, to let the player know that the leaderboard will display
 - Use the condition "Leaderboard display is loading" to trigger an action (display a text "Loading" for example)
 
 Either case, if there's an error during the display, *it will close automatically*. You can also use the 2 conditions "Leaderboard display has errored" and "Leaderboard display has loaded" if you want to add logic around a possible error.
+
+To detect when the player closes the leaderboard view (with the built-in close button), use the condition **"Closed by player"**. This is the right place to resume gameplay, change scene, or unpause your game. If you need to close the view from your events instead, use the action **"Close current leaderboard"**.
 
 ## Advanced: pause the scene when the leaderboard is displayed
 
