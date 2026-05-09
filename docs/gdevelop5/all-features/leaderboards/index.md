@@ -32,11 +32,20 @@ Use the action **"Save connected player score"** (or **"Save player score"** if 
 
 ## Check that the score was correctly saved
 
-You have 3 conditions at your disposal to monitor how the saving is run through.
+A few conditions are available to monitor how the saving is going:
 
 ![](/gdevelop5/all-features/leaderboards/pasted/20220412-143408.png)
 
+- **"Score is saving"**: useful to display a loading indicator (or temporarily disable a "Submit" button) while the score is being sent.
+- **"Last score save has succeeded"** / **"Last score save has errored"**: check the result once the request is over.
+
 For each of those conditions, you can specify the leaderboard but this is optional. This can prove useful if you try to save the player score in multiple leaderboards at once.
+
+If a save failed, the **`Leaderboards::LastSaveError()`** string expression returns the error code (for example, an HTTP status code, `REQUEST_NOT_SENT` if the request couldn't reach the servers, or `SAVED_ENTRY_CANT_BE_READ` if the score was saved but the response couldn't be read). This is helpful to log the error or to display a more detailed message to the player.
+
+### Always attach scores to the connected player
+
+By default, when a player is connected (see [player authentication](/gdevelop5/all-features/player-authentication)), scores sent through the **"Save player score"** action are automatically attached to the connected player — even if you also pass a player name. To change this behavior, use the action **"Always attach scores to the connected player"** and disable it: the explicit player name will then be used instead.
 
 ## Display a leaderboard
 
@@ -53,6 +62,12 @@ While it's **loading**, to let the player know that the leaderboard will display
 - Use the condition "Leaderboard display is loading" to trigger an action (display a text "Loading" for example)
 
 Either case, if there's an error during the display, *it will close automatically*. You can also use the 2 conditions "Leaderboard display has errored" and "Leaderboard display has loaded" if you want to add logic around a possible error.
+
+### Detecting when the leaderboard is closed
+
+When the player closes the leaderboard view (using the close button), the condition **"Closed by player"** is triggered for one frame. This is useful to react to the closing — for example, resuming gameplay, switching scene, or showing a follow-up menu.
+
+You can also close the leaderboard from your events with the action **"Close current leaderboard"**, which is useful if you want to dismiss the view automatically (for example after a few seconds, or when a button is pressed).
 
 ## Advanced: pause the scene when the leaderboard is displayed
 
