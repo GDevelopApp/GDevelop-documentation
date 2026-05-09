@@ -59,12 +59,12 @@ Read more about this:
 |<img src="https://resources.gdevelop-app.com/assets/Icons/vector-difference-ab.svg" class="extension-icon"></img>|**Camera shake**|Shake layer cameras.|[Read more...](/gdevelop5/extensions/camera-shake)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/UI Essentials/UI Essentials_zoom_in_plus.svg" class="extension-icon"></img>|**Camera Zoom**|Zoom camera smoothly with optional anchor point.|[Read more...](/gdevelop5/extensions/camera-zoom)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/layers-triple-outline.svg" class="extension-icon"></img>|**Copy camera settings**|Copy camera position, zoom, and rotation from one layer to another.|[Read more...](/gdevelop5/extensions/copy-camera-settings)|
-|<img src="https://resources.gdevelop-app.com/assets/Icons/drag-variant.svg" class="extension-icon"></img>|**Drag camera with the mouse (or touchscreen)**|Pan/drag camera with mouse or touch. Configurable inertia and bounds.|[Read more...](/gdevelop5/extensions/drag-camera-with-pointer)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/camera-metering-matrix.svg" class="extension-icon"></img>|**Edge scroll camera**|Scroll camera when cursor is near screen edges.|[Read more...](/gdevelop5/extensions/edge-scroll-camera)|
 |<img src="https://asset-resources.gdevelop.io/public-resources/Icons/Line Hero Pack/Master/SVG/Security and Protection/e8248ffd504c314e6a9d9d560c3a0fdad3398a5f125ae6a4c0654d4e68c86376_Security and Protection_security_protection_eye_scan_lock.svg" class="extension-icon"></img>|**First person 3D camera**|Move the camera to look though objects eyes.|[Read more...](/gdevelop5/extensions/first-person-camera)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/camera-switch-outline.svg" class="extension-icon"></img>|**Follow multiple 2D objects with the camera**|Auto-zoom and position camera to keep all instances of an object visible.|[Read more...](/gdevelop5/extensions/follow-objects-with-camera)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/image-move.svg" class="extension-icon"></img>|**Parallax for Tiled Sprite**|Parallax scrolling for Tiled Sprite backgrounds.|[Read more...](/gdevelop5/extensions/parallax)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Applications and Programming/Applications and Programming_app_apps_applications_tiles.svg" class="extension-icon"></img>|**Room-based camera movement**|Move/zoom camera to frame the room object containing the player.|[Read more...](https://victrisgames.itch.io/room-based-camera-movement) ([reference](/gdevelop5/extensions/room-based-camera-movement))|
+|<img src="https://resources.gdevelop-app.com/assets/Icons/drag-variant.svg" class="extension-icon"></img>|**Scrollable viewport**|Move a camera by dragging or with the scroll wheel.|[Read more...](/gdevelop5/extensions/scrollable-viewport)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Computers and Hardware/Computers and Hardware_camcoder_gopro_go_pro_camera.svg" class="extension-icon"></img>|**Smooth Camera**|Smoothly scroll to follow an object.|[Read more...](/gdevelop5/tutorials/follow-player-with-camera/) ([reference](/gdevelop5/extensions/smooth-camera))|
 |<img src="https://asset-resources.gdevelop.io/public-resources/Icons/Line Hero Pack/Master/SVG/Virtual Reality/94e95d2c318e1f3dc7151a351024e13c574e1e44669c6696aa107d60230073f6_Virtual Reality_3d_vision_eye_vr.svg" class="extension-icon"></img>|**Third person camera**|Third-person camera orbiting an object at configurable distance, elevation, and rotation.|[Read more...](/gdevelop5/extensions/third-person-camera)|
 
@@ -254,6 +254,7 @@ guarantee they meet all the quality standards of fully reviewed extensions.
 ||Name|Description||
 |---|---|---|---|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/vector-difference-ab.svg" class="extension-icon"></img>|**3D camera shake**|Shake 3D layer cameras.|[Read more...](/gdevelop5/extensions/camera-shake3d)|
+|<img src="https://resources.gdevelop-app.com/assets/Icons/drag-variant.svg" class="extension-icon"></img>|**Drag camera with the mouse (or touchscreen)**|Pan/drag camera with mouse or touch.|[Read more...](/gdevelop5/extensions/drag-camera-with-pointer)|
 
 ### Device
 

@@ -28,12 +28,12 @@ nav:
         - Camera shake: camera-shake
         - Camera Zoom: camera-zoom
         - Copy camera settings: copy-camera-settings
-        - Drag camera with the mouse (or touchscreen): drag-camera-with-pointer
         - Edge scroll camera: edge-scroll-camera
         - First person 3D camera: first-person-camera
         - Follow multiple 2D objects with the camera: follow-objects-with-camera
         - Parallax for Tiled Sprite: parallax
         - Room-based camera movement: room-based-camera-movement
+        - Scrollable viewport: scrollable-viewport
         - Smooth Camera: smooth-camera
         - Third person camera: third-person-camera
     - Game mechanic:
@@ -174,6 +174,7 @@ nav:
             - Sound volume based on distance: sound-volume-based-on-distance
         - Camera:
             - 3D camera shake: camera-shake3d
+            - Drag camera with the mouse (or touchscreen): drag-camera-with-pointer
         - Device:
             - GPS: geolocation
             - Voice Recognition API: voice-recognition

@@ -1,13 +1,20 @@
 # Drag camera with the mouse (or touchscreen)
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/drag-variant.svg" class="extension-icon"></img>
-Pan/drag camera with mouse or touch. Configurable inertia and bounds.
+Pan/drag camera with mouse or touch.
 
 **Authors and contributors** to this experimental extension: [ddabrahim](https://gd.games/ddabrahim), [VictrisGames](https://gd.games/VictrisGames).
+
+!!! warning
+    This is an extension made by a community member and it only got through a
+    light review by the GDevelop extension team. As such, we can't guarantee it
+    meets all the quality standards of fully reviewed extensions.
 
 ---
 
 Move a camera by dragging the mouse (or touchscreen). 
+
+This extension is deprecated. The [scrollable viewport extension](https://wiki.gdevelop.io/gdevelop5/extensions/scrollable-viewport) should be used instead.
 
 How to use:
 
