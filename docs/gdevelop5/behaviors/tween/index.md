@@ -9,7 +9,7 @@ The Tween (from inbe**tween**) [behavior](/gdevelop5/behaviors) animates [object
 - Angle (and rotation X/Y for 3D objects)
 - Scale (X, Y, or both)
 - Size (width, height, depth for 3D objects)
-- Opacity
+- Opacity (2D objects only)
 - Color (RGB or HSL modes)
 - Text character size
 - Effect properties (numeric or color parameters)
