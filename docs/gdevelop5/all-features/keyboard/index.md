@@ -5,17 +5,19 @@ title: Keyboard
 
 GDevelop gives access to all inputs made on the keyboard. This includes conditions to check if a key was pressed or released.
 
-## Any key pressed
+!!! warning
 
-For this condition, the corresponding action/s will be performed if any key on the keyboard is pressed.
+    Keyboard conditions do not work with the on-screen keyboard of touch devices. For mobile or touchscreen games, use the [mouse/touch](/gdevelop5/all-features/mouse-touch) conditions instead.
 
-## Key pressed
+## Any key pressed / Any key released
 
-Whenever the key selected while setting this condition is pressed, the corresponding actions are performed.
+These conditions are true when any key on the keyboard is pressed or released during the current frame. They are useful for "Press any key to start" screens.
 
-## Key released
+## Key pressed / Key just pressed / Key released
 
-Whenever the key selected while setting this condition is released, the corresponding actions are performed.
+- **Key pressed** stays true as long as the selected key is held down. Use it for movement or continuous actions.
+- **Key just pressed** is true only on the frame the key starts being pressed. Use it for one-shot actions like firing or jumping when you don't want auto-repeat.
+- **Key released** is true on the frame the key stops being pressed.
 
 ## Key pressed (text expression)
 
@@ -23,13 +25,11 @@ To test a key press using this condition, you need to enter the key name in the 
 
 !!! danger
 
-    Make sure that the key name is surrounded by quotes.
+    Make sure that the key name is surrounded by quotes. Key names are case-sensitive.
+
+The same approach is used for the "Key just pressed" and "Key released" text-expression variants. This is useful when the key to check is dynamic — for example, when reading a key binding from a variable for customizable controls.
 
 ![](/gdevelop5/all-features/annotation_2019-06-20_191229.png)
-
-## Key released (text expression)
-
-To test a key release using this condition, you need to enter the key name in the form of text expression. For example, if you want to check condition for left arrow key release, you need to enter "Left" in the field.
 
 ![](/gdevelop5/all-features/annotation_2019-06-20_191302.png)
 
