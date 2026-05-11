@@ -5,17 +5,20 @@ title: Keyboard
 
 GDevelop gives access to all inputs made on the keyboard. This includes conditions to check if a key was pressed or released.
 
-## Any key pressed
+!!! warning
 
-For this condition, the corresponding action/s will be performed if any key on the keyboard is pressed.
+    Keyboard conditions do not react to the on-screen (virtual) keyboard of mobile or touchscreen devices. When making a game for mobile/touchscreen devices, use mouse/touch conditions or the [text input object](/gdevelop5/objects/text_input) instead.
 
-## Key pressed
+## Key pressed vs Key just pressed
 
-Whenever the key selected while setting this condition is pressed, the corresponding actions are performed.
+There are two ways to check if a player is pressing a key, with an important difference:
 
-## Key released
+- **Key pressed**: stays true *as long as the key is held down*. The associated actions run on every frame while the key is held. Use this for continuous actions like moving a character.
+- **Key just pressed**: is true *only on the single frame* during which the key was pressed. Use this for one-shot actions like jumping, shooting, opening a menu, etc. — this avoids needing a [Trigger once](/gdevelop5/all-features/advanced-conditions/trigger-once) condition.
 
-Whenever the key selected while setting this condition is released, the corresponding actions are performed.
+## Any key pressed / Any key released
+
+These conditions trigger when *any* key on the keyboard is pressed (or released). They are useful for "Press any key to continue" screens or to detect when the player starts interacting with the game.
 
 ## Key pressed (text expression)
 
@@ -35,7 +38,11 @@ To test a key release using this condition, you need to enter the key name in th
 
 ## Last key pressed
 
-"Last key pressed" expression returns the last key press in the form of a string. For example, if the last key press is the left arrow key, the expression will return "Left".
+"Last key pressed" expression returns the last key press in the form of a string. For example, if the last key press is the left arrow key, the expression will return "Left". This is handy for building key-rebinding screens, where you want to capture whichever key the player presses next.
+
+## Left and right variants of modifier keys
+
+Keys like **Shift**, **Control**, **Alt** and the **Meta/Win** key exist as two physical keys on most keyboards (one on each side). GDevelop distinguishes them: the key list includes separate entries such as **LShift** and **RShift**, **LControl** and **RControl**, etc. If you want to react to either side, add a condition for each variant.
 
 ## Reference
 
