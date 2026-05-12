@@ -88,53 +88,6 @@ $(function() {
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a51dab63ed2b51c8521a350f3024c01bb"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classgd_1_1_base_event.html">gd::BaseEvent</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_base_event.html#a51dab63ed2b51c8521a350f3024c01bb">Clone</a> () const</td></tr>
 <tr class="separator:a51dab63ed2b51c8521a350f3024c01bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Event properties</div></td></tr>
-<tr><td colspan="2"><div class="groupText"><p>Members functions to be overridden by derived classes to expose the event properties </p>
-</div></td></tr>
-<tr class="memitem:aa1e6a9d5eea7c3e48c11f492c8715cb4"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_base_event.html#aa1e6a9d5eea7c3e48c11f492c8715cb4">IsExecutable</a> () const</td></tr>
-<tr class="separator:aa1e6a9d5eea7c3e48c11f492c8715cb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a619c19e03a55c9ffa4a0bd3848852e7b"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_base_event.html#a619c19e03a55c9ffa4a0bd3848852e7b">CanHaveSubEvents</a> () const</td></tr>
-<tr class="separator:a619c19e03a55c9ffa4a0bd3848852e7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab91a7bf60e2df6f4f13e3ff4f68125d"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classgd_1_1_events_list.html">gd::EventsList</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_base_event.html#aab91a7bf60e2df6f4f13e3ff4f68125d">GetSubEvents</a> () const</td></tr>
-<tr class="separator:aab91a7bf60e2df6f4f13e3ff4f68125d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa341b80a4073c17f4ecae98119a848e3"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classgd_1_1_events_list.html">gd::EventsList</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_base_event.html#aa341b80a4073c17f4ecae98119a848e3">GetSubEvents</a> ()</td></tr>
-<tr class="separator:aa341b80a4073c17f4ecae98119a848e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38dd768f5e3ad52ef0f6888dfb360a15"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_base_event.html#a38dd768f5e3ad52ef0f6888dfb360a15">HasSubEvents</a> () const</td></tr>
-<tr class="memdesc:a38dd768f5e3ad52ef0f6888dfb360a15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if the events has sub events.  <a href="classgd_1_1_base_event.html#a38dd768f5e3ad52ef0f6888dfb360a15">More...</a><br /></td></tr>
-<tr class="separator:a38dd768f5e3ad52ef0f6888dfb360a15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68f3059fed2654962a987f6995eba614"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_base_event.html#a68f3059fed2654962a987f6995eba614">CanHaveVariables</a> () const</td></tr>
-<tr class="separator:a68f3059fed2654962a987f6995eba614"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad877a0623a23c7292388beb0864db95a"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classgd_1_1_variables_container.html">gd::VariablesContainer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_base_event.html#ad877a0623a23c7292388beb0864db95a">GetVariables</a> () const</td></tr>
-<tr class="separator:ad877a0623a23c7292388beb0864db95a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc38b5ffb7f368be9c0eeb39b3986dac"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classgd_1_1_variables_container.html">gd::VariablesContainer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_base_event.html#adc38b5ffb7f368be9c0eeb39b3986dac">GetVariables</a> ()</td></tr>
-<tr class="separator:adc38b5ffb7f368be9c0eeb39b3986dac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:affb88f3f95ad5a7d84d5cc9236fd7806"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_base_event.html#affb88f3f95ad5a7d84d5cc9236fd7806">HasVariables</a> () const</td></tr>
-<tr class="memdesc:affb88f3f95ad5a7d84d5cc9236fd7806"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if the events has local variables.  <a href="classgd_1_1_base_event.html#affb88f3f95ad5a7d84d5cc9236fd7806">More...</a><br /></td></tr>
-<tr class="separator:affb88f3f95ad5a7d84d5cc9236fd7806"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5813de7c210d66862b82fd6969013a1f"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; <a class="el" href="classgd_1_1_instructions_list.html">gd::InstructionsList</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_base_event.html#a5813de7c210d66862b82fd6969013a1f">GetAllConditionsVectors</a> ()</td></tr>
-<tr class="memdesc:a5813de7c210d66862b82fd6969013a1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a list of all conditions of the event.  <a href="classgd_1_1_base_event.html#a5813de7c210d66862b82fd6969013a1f">More...</a><br /></td></tr>
-<tr class="separator:a5813de7c210d66862b82fd6969013a1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e82d3d0cca8cdfaf4c21259796d5c3c"><td class="memItemLeft" align="right" valign="top"><a id="a2e82d3d0cca8cdfaf4c21259796d5c3c"></a>
-virtual std::vector&lt; const <a class="el" href="classgd_1_1_instructions_list.html">gd::InstructionsList</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetAllConditionsVectors</b> () const</td></tr>
-<tr class="separator:a2e82d3d0cca8cdfaf4c21259796d5c3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a157d8377133f1f8c8420247ceba90cbe"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; <a class="el" href="classgd_1_1_instructions_list.html">gd::InstructionsList</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_base_event.html#a157d8377133f1f8c8420247ceba90cbe">GetAllActionsVectors</a> ()</td></tr>
-<tr class="memdesc:a157d8377133f1f8c8420247ceba90cbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a list of all actions of the event.  <a href="classgd_1_1_base_event.html#a157d8377133f1f8c8420247ceba90cbe">More...</a><br /></td></tr>
-<tr class="separator:a157d8377133f1f8c8420247ceba90cbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1972e209c9643b76c84d918cfa3b649"><td class="memItemLeft" align="right" valign="top"><a id="af1972e209c9643b76c84d918cfa3b649"></a>
-virtual std::vector&lt; const <a class="el" href="classgd_1_1_instructions_list.html">gd::InstructionsList</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetAllActionsVectors</b> () const</td></tr>
-<tr class="separator:af1972e209c9643b76c84d918cfa3b649"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f7679bb5bb3089411bc8ec81764c51e"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_base_event.html#a9f7679bb5bb3089411bc8ec81764c51e">GetAllSearchableStrings</a> () const</td></tr>
-<tr class="memdesc:a9f7679bb5bb3089411bc8ec81764c51e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a list of all strings of the event.  <a href="classgd_1_1_base_event.html#a9f7679bb5bb3089411bc8ec81764c51e">More...</a><br /></td></tr>
-<tr class="separator:a9f7679bb5bb3089411bc8ec81764c51e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a468b19aa29254873480b7f5d7acd16ac"><td class="memItemLeft" align="right" valign="top"><a id="a468b19aa29254873480b7f5d7acd16ac"></a>
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>ReplaceAllSearchableStrings</b> (std::vector&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt; newSearchableString)</td></tr>
-<tr class="separator:a468b19aa29254873480b7f5d7acd16ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b6f72f12cbf7137f1bbbb1fe009f71c"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; std::pair&lt; <a class="el" href="classgd_1_1_expression.html">gd::Expression</a> *, <a class="el" href="classgd_1_1_parameter_metadata.html">gd::ParameterMetadata</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_base_event.html#a2b6f72f12cbf7137f1bbbb1fe009f71c">GetAllExpressionsWithMetadata</a> ()</td></tr>
-<tr class="memdesc:a2b6f72f12cbf7137f1bbbb1fe009f71c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a list of all expressions of the event, each with their associated metadata.  <a href="classgd_1_1_base_event.html#a2b6f72f12cbf7137f1bbbb1fe009f71c">More...</a><br /></td></tr>
-<tr class="separator:a2b6f72f12cbf7137f1bbbb1fe009f71c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c0108b34b1d6de5d9e474eaebed863e"><td class="memItemLeft" align="right" valign="top"><a id="a9c0108b34b1d6de5d9e474eaebed863e"></a>
-virtual std::vector&lt; std::pair&lt; const <a class="el" href="classgd_1_1_expression.html">gd::Expression</a> *, const <a class="el" href="classgd_1_1_parameter_metadata.html">gd::ParameterMetadata</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetAllExpressionsWithMetadata</b> () const</td></tr>
-<tr class="separator:a9c0108b34b1d6de5d9e474eaebed863e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Code generation</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>Members functions used to generate code from the event </p>
 </div></td></tr>
@@ -207,6 +160,69 @@ Public Attributes</h2></td></tr>
 <tr class="separator:af7f2d47a1625c73343eb549394b6d6fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01d9d72cc7814a410ccd45500ad5640f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_base_event.html#a01d9d72cc7814a410ccd45500ad5640f">percentDuringLastSession</a></td></tr>
 <tr class="separator:a01d9d72cc7814a410ccd45500ad5640f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader">Event properties</h2></td></tr>
+<tr><td class="ititle" colspan="2"><p><a class="anchor" id="amgrp8112cbdd033fc6020fe643f886cea132"></a>Members functions to be overridden by derived classes to expose the event properties </p>
+</td></tr>
+<tr class="memitem:a9e14955fb2eb00a0f6a68898f92a59ce"><td class="memItemLeft" align="right" valign="top"><a id="a9e14955fb2eb00a0f6a68898f92a59ce"></a>
+static const <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><b>conditionsLabel</b> = &quot;conditions&quot;</td></tr>
+<tr class="separator:a9e14955fb2eb00a0f6a68898f92a59ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4f8a9c7f7806c329cf1f7bb5f6b5483"><td class="memItemLeft" align="right" valign="top"><a id="aa4f8a9c7f7806c329cf1f7bb5f6b5483"></a>
+static const <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><b>actionsLabel</b> = &quot;actions&quot;</td></tr>
+<tr class="separator:aa4f8a9c7f7806c329cf1f7bb5f6b5483"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b9370acc612089feb68ad65c41b79c3"><td class="memItemLeft" align="right" valign="top"><a id="a3b9370acc612089feb68ad65c41b79c3"></a>
+static const <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><b>whileConditionsLabel</b> = &quot;whileConditions&quot;</td></tr>
+<tr class="separator:a3b9370acc612089feb68ad65c41b79c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1e6a9d5eea7c3e48c11f492c8715cb4"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_base_event.html#aa1e6a9d5eea7c3e48c11f492c8715cb4">IsExecutable</a> () const</td></tr>
+<tr class="separator:aa1e6a9d5eea7c3e48c11f492c8715cb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a619c19e03a55c9ffa4a0bd3848852e7b"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_base_event.html#a619c19e03a55c9ffa4a0bd3848852e7b">CanHaveSubEvents</a> () const</td></tr>
+<tr class="separator:a619c19e03a55c9ffa4a0bd3848852e7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab91a7bf60e2df6f4f13e3ff4f68125d"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classgd_1_1_events_list.html">gd::EventsList</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_base_event.html#aab91a7bf60e2df6f4f13e3ff4f68125d">GetSubEvents</a> () const</td></tr>
+<tr class="separator:aab91a7bf60e2df6f4f13e3ff4f68125d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa341b80a4073c17f4ecae98119a848e3"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classgd_1_1_events_list.html">gd::EventsList</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_base_event.html#aa341b80a4073c17f4ecae98119a848e3">GetSubEvents</a> ()</td></tr>
+<tr class="separator:aa341b80a4073c17f4ecae98119a848e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38dd768f5e3ad52ef0f6888dfb360a15"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_base_event.html#a38dd768f5e3ad52ef0f6888dfb360a15">HasSubEvents</a> () const</td></tr>
+<tr class="memdesc:a38dd768f5e3ad52ef0f6888dfb360a15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if the events has sub events.  <a href="classgd_1_1_base_event.html#a38dd768f5e3ad52ef0f6888dfb360a15">More...</a><br /></td></tr>
+<tr class="separator:a38dd768f5e3ad52ef0f6888dfb360a15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68f3059fed2654962a987f6995eba614"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_base_event.html#a68f3059fed2654962a987f6995eba614">CanHaveVariables</a> () const</td></tr>
+<tr class="separator:a68f3059fed2654962a987f6995eba614"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad877a0623a23c7292388beb0864db95a"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classgd_1_1_variables_container.html">gd::VariablesContainer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_base_event.html#ad877a0623a23c7292388beb0864db95a">GetVariables</a> () const</td></tr>
+<tr class="separator:ad877a0623a23c7292388beb0864db95a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc38b5ffb7f368be9c0eeb39b3986dac"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classgd_1_1_variables_container.html">gd::VariablesContainer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_base_event.html#adc38b5ffb7f368be9c0eeb39b3986dac">GetVariables</a> ()</td></tr>
+<tr class="separator:adc38b5ffb7f368be9c0eeb39b3986dac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affb88f3f95ad5a7d84d5cc9236fd7806"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_base_event.html#affb88f3f95ad5a7d84d5cc9236fd7806">HasVariables</a> () const</td></tr>
+<tr class="memdesc:affb88f3f95ad5a7d84d5cc9236fd7806"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if the events has local variables.  <a href="classgd_1_1_base_event.html#affb88f3f95ad5a7d84d5cc9236fd7806">More...</a><br /></td></tr>
+<tr class="separator:affb88f3f95ad5a7d84d5cc9236fd7806"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61bc5b3f1706162f4fd27f155bf1471a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classgd_1_1_instructions_list.html">gd::InstructionsList</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_base_event.html#a61bc5b3f1706162f4fd27f155bf1471a">GetInstructionList</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;label)</td></tr>
+<tr class="memdesc:a61bc5b3f1706162f4fd27f155bf1471a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the instruction list identified by <em>label</em>, or nullptr if the event has no such list.  <a href="classgd_1_1_base_event.html#a61bc5b3f1706162f4fd27f155bf1471a">More...</a><br /></td></tr>
+<tr class="separator:a61bc5b3f1706162f4fd27f155bf1471a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ae7eb04fabd0de3aee1291426890d88"><td class="memItemLeft" align="right" valign="top"><a id="a4ae7eb04fabd0de3aee1291426890d88"></a>
+virtual const <a class="el" href="classgd_1_1_instructions_list.html">gd::InstructionsList</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>GetInstructionList</b> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;label) const</td></tr>
+<tr class="separator:a4ae7eb04fabd0de3aee1291426890d88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5813de7c210d66862b82fd6969013a1f"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; <a class="el" href="classgd_1_1_instructions_list.html">gd::InstructionsList</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_base_event.html#a5813de7c210d66862b82fd6969013a1f">GetAllConditionsVectors</a> ()</td></tr>
+<tr class="memdesc:a5813de7c210d66862b82fd6969013a1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a list of all conditions of the event.  <a href="classgd_1_1_base_event.html#a5813de7c210d66862b82fd6969013a1f">More...</a><br /></td></tr>
+<tr class="separator:a5813de7c210d66862b82fd6969013a1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e82d3d0cca8cdfaf4c21259796d5c3c"><td class="memItemLeft" align="right" valign="top"><a id="a2e82d3d0cca8cdfaf4c21259796d5c3c"></a>
+virtual std::vector&lt; const <a class="el" href="classgd_1_1_instructions_list.html">gd::InstructionsList</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetAllConditionsVectors</b> () const</td></tr>
+<tr class="separator:a2e82d3d0cca8cdfaf4c21259796d5c3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a157d8377133f1f8c8420247ceba90cbe"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; <a class="el" href="classgd_1_1_instructions_list.html">gd::InstructionsList</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_base_event.html#a157d8377133f1f8c8420247ceba90cbe">GetAllActionsVectors</a> ()</td></tr>
+<tr class="memdesc:a157d8377133f1f8c8420247ceba90cbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a list of all actions of the event.  <a href="classgd_1_1_base_event.html#a157d8377133f1f8c8420247ceba90cbe">More...</a><br /></td></tr>
+<tr class="separator:a157d8377133f1f8c8420247ceba90cbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1972e209c9643b76c84d918cfa3b649"><td class="memItemLeft" align="right" valign="top"><a id="af1972e209c9643b76c84d918cfa3b649"></a>
+virtual std::vector&lt; const <a class="el" href="classgd_1_1_instructions_list.html">gd::InstructionsList</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetAllActionsVectors</b> () const</td></tr>
+<tr class="separator:af1972e209c9643b76c84d918cfa3b649"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f7679bb5bb3089411bc8ec81764c51e"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_base_event.html#a9f7679bb5bb3089411bc8ec81764c51e">GetAllSearchableStrings</a> () const</td></tr>
+<tr class="memdesc:a9f7679bb5bb3089411bc8ec81764c51e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a list of all strings of the event.  <a href="classgd_1_1_base_event.html#a9f7679bb5bb3089411bc8ec81764c51e">More...</a><br /></td></tr>
+<tr class="separator:a9f7679bb5bb3089411bc8ec81764c51e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a468b19aa29254873480b7f5d7acd16ac"><td class="memItemLeft" align="right" valign="top"><a id="a468b19aa29254873480b7f5d7acd16ac"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>ReplaceAllSearchableStrings</b> (std::vector&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a> &gt; newSearchableString)</td></tr>
+<tr class="separator:a468b19aa29254873480b7f5d7acd16ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b6f72f12cbf7137f1bbbb1fe009f71c"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; std::pair&lt; <a class="el" href="classgd_1_1_expression.html">gd::Expression</a> *, <a class="el" href="classgd_1_1_parameter_metadata.html">gd::ParameterMetadata</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_base_event.html#a2b6f72f12cbf7137f1bbbb1fe009f71c">GetAllExpressionsWithMetadata</a> ()</td></tr>
+<tr class="memdesc:a2b6f72f12cbf7137f1bbbb1fe009f71c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a list of all expressions of the event, each with their associated metadata.  <a href="classgd_1_1_base_event.html#a2b6f72f12cbf7137f1bbbb1fe009f71c">More...</a><br /></td></tr>
+<tr class="separator:a2b6f72f12cbf7137f1bbbb1fe009f71c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c0108b34b1d6de5d9e474eaebed863e"><td class="memItemLeft" align="right" valign="top"><a id="a9c0108b34b1d6de5d9e474eaebed863e"></a>
+virtual std::vector&lt; std::pair&lt; const <a class="el" href="classgd_1_1_expression.html">gd::Expression</a> *, const <a class="el" href="classgd_1_1_parameter_metadata.html">gd::ParameterMetadata</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetAllExpressionsWithMetadata</b> () const</td></tr>
+<tr class="separator:a9c0108b34b1d6de5d9e474eaebed863e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Base class defining an event. </p>
@@ -454,6 +470,37 @@ Public Attributes</h2></td></tr>
 <dl class="section note"><dt>Note</dt><dd>Used to preprocess or search in the event strings. </dd></dl>
 
 <p>Reimplemented in <a class="el" href="classgd_1_1_link_event.html#ad601e354e2ec20ba16d3bc68f2e03573">gd::LinkEvent</a>, <a class="el" href="classgd_1_1_group_event.html#aa60375f07367019e9e6ad73696815816">gd::GroupEvent</a>, and <a class="el" href="classgd_1_1_comment_event.html#ac6d69cd21fbba606d2e70384b51c22f7">gd::CommentEvent</a>.</p>
+
+</div>
+</div>
+<a id="a61bc5b3f1706162f4fd27f155bf1471a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61bc5b3f1706162f4fd27f155bf1471a">&#9670;&nbsp;</a></span>GetInstructionList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="classgd_1_1_instructions_list.html">gd::InstructionsList</a>* gd::BaseEvent::GetInstructionList </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>label</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Return the instruction list identified by <em>label</em>, or nullptr if the event has no such list. </p>
+<p>Supported labels are "conditions", "actions", and "whileConditions" (only for <a class="el" href="classgd_1_1_while_event.html" title="While event is a standard event that is repeated while some conditions are true.">WhileEvent</a>). Derived classes should override this; the base implementation always returns nullptr. </p>
+
+<p>Reimplemented in <a class="el" href="classgd_1_1_while_event.html#aa6b2d7ef3bcc107572d0e4d85c7e954d">gd::WhileEvent</a>, <a class="el" href="classgd_1_1_standard_event.html#a026004ac7c697a31d9482c44c4162d74">gd::StandardEvent</a>, <a class="el" href="classgd_1_1_repeat_event.html#af204a8940879d7f8458992a8a3fc766f">gd::RepeatEvent</a>, <a class="el" href="classgd_1_1_for_each_event.html#a971a7aaba3ec7dead9af093d3ed0a64c">gd::ForEachEvent</a>, <a class="el" href="classgd_1_1_for_each_child_variable_event.html#a1b535222631a1b95331d7df60bc98d04">gd::ForEachChildVariableEvent</a>, and <a class="el" href="classgd_1_1_else_event.html#aa9946cac4cf04704808a7cb48a076061">gd::ElseEvent</a>.</p>
 
 </div>
 </div>
