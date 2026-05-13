@@ -115,6 +115,12 @@ By clicking the Delete selected events button, selected events will be removed f
 
 ![](/gdevelop5/interface/events-editor/pasted/20230313-183632.png)
 
+## Selecting multiple events
+
+You can select multiple events by holding **Ctrl** (or **Cmd** on macOS) while clicking on each event. Clicking again on an already-selected event removes it from the selection.
+
+Use **Ctrl+A** (or **Cmd+A**) to select all events in the current sheet, and **Ctrl+Shift+A** to deselect everything. Pressing **Esc** also clears the current selection.
+
 ## Undo/Redo changes
 Any change can be undone or redone with these buttons toolbar buttons. (or by using keyboard shortcuts ctrl+ Z/Y)
 

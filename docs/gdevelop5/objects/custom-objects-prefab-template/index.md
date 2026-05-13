@@ -62,6 +62,12 @@ The grey rectangle on the scene is the custom object default size. Your can chan
 
 ![](./object-scene-properties.png)
 
+## Layers and cameras inside a custom object
+
+A custom object can use its own [layers](/gdevelop5/interface/scene-editor/layers-and-cameras) and you can move, rotate or zoom their cameras with the usual camera actions from inside the custom object events. The camera origin is the center of the custom object bounds, so changing the camera position moves the content shown by the custom object relative to that center.
+
+This is useful, for example, to scroll the inside of a custom object (a minimap, a scrollable panel, a parallax background, etc.) independently of the scene camera.
+
 ## Custom object variants: create various styles or configurations
 
 **Variants** allow you to create different visual styles or configurations of the same custom object. Each variant can have its own child object configurations (like different images, fonts, or colors) and initial instance placements, while sharing the same events and logic.
