@@ -10,6 +10,7 @@ Preload an object resources in background.
 ??? quote "See parameters & details"
 
     - Parameter 1 (🔤 String): Object name
+    - Parameter 2 (🔤 Name of a scene (String)): Object scene
 
     > Technical note: parameter 0 is an internal parameter handled by GDevelop.
 
@@ -90,6 +91,7 @@ Unload an object resources. The "resource preloading" property must be set to "p
 ??? quote "See parameters & details"
 
     - Parameter 1 (🔤 String): Object name
+    - Parameter 2 (🔤 Name of a scene (String)): Object scene
 
     > Technical note: parameter 0 is an internal parameter handled by GDevelop.
 
@@ -104,6 +106,7 @@ Check if object resources have finished to load in background.
 ??? quote "See parameters & details"
 
     - Parameter 1 (🔤 String): Object name
+    - Parameter 2 (🔤 Name of a scene (String)): Object scene
 
     > Technical note: parameter 0 is an internal parameter handled by GDevelop.
 
