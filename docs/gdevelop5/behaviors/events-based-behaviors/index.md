@@ -137,6 +137,7 @@ Properties can be:
 * Numbers
 * Strings (including colors or string with choices)
 * Booleans (displayed as a checkbox)
+* Layers (a layer name from the scene)
 
 Properties can also be used to required behaviors as described in a following section.
 

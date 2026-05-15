@@ -65,7 +65,7 @@ Usually, all objects are loaded along with their scene. However, when a scene ha
 
 ![](object-preload-property.png)
 
-You can then use the **Preload object** and **Unload object** actions.
+You can then use the **Preload object** and **Unload object** actions. Both actions take the name of the scene the object belongs to, which allows you to preload or unload objects coming from any scene of the project, not only the current one.
 
 ![](object-preload-action.png)
 
