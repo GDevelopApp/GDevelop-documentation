@@ -73,6 +73,8 @@ The **Preload object** action does not pause the game while the object's resourc
 
 ![](object-preload-events.png)
 
+The **Preload object**, **Unload object** and **Object preloaded** actions/conditions also accept an optional **Object scene** parameter. Use it to load or unload an object that belongs to another scene before that scene is displayed.
+
 !!! note
 
     Global objects and global object groups are not yet supported.
