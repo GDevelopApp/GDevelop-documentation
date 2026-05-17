@@ -137,6 +137,7 @@ Properties can be:
 * Numbers
 * Strings (including colors or string with choices)
 * Booleans (displayed as a checkbox)
+* Layer (text): the name of a layer of the scene the object is on. The behavior user can pick the layer from the list of scene layers.
 
 Properties can also be used to required behaviors as described in a following section.
 
