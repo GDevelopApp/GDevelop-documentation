@@ -1,4 +1,24 @@
----
+---using UnityEngine;
+
+public class CarShop : MonoBehaviour
+{
+    public MoneyManager moneyManager;
+    public Car car;
+
+    void OnMouseDown()
+    {
+        if (!car.isOwned && moneyManager.money >= car.buyPrice)
+        {
+            moneyManager.RemoveMoney(car.buyPrice);
+            car.isOwned = true;
+        }
+        else if (car.isOwned)
+        {
+            moneyManager.AddMoney(car.sellPrice);
+            car.isOwned = false;
+        }
+    }
+}
 title: Monetizing Your Games
 icon: material/cash-multiple
 ---
