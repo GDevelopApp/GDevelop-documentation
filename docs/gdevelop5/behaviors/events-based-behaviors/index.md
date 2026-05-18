@@ -137,6 +137,7 @@ Properties can be:
 * Numbers
 * Strings (including colors or string with choices)
 * Booleans (displayed as a checkbox)
+* Layers (a string used to pick a layer of the scene, for example to spawn an effect on a specific layer)
 
 Properties can also be used to required behaviors as described in a following section.
 
@@ -157,7 +158,7 @@ You can then use the behavior entered as a property inside the actions, conditio
 
     This is an advanced feature that is helpful to create behaviors that are based on other. For example, you could make a behavior called "Platformer enemy" that is using the "Platformer object" behavior and adding specific actions, conditions and logic to make an enemy chase the player.
 
-If you create a behavior and want to use this, just go to the properties of this behavior and add a new property. Choose the type "Required Behavior" for this property. You can then use this new behavior in the events of the behavior you just edited.
+If you create a behavior and want to use this, just go to the properties of this behavior and add a new property. Choose the type "Required Behavior" for this property. You can then pick the required behavior either from the drop-down list or by clicking the button next to it to browse all available behaviors in a dialog. You can then use this new behavior in the events of the behavior you just edited.
 
 To use a behavior based on another, you don't need to do anything special! Just add it to your object as usual: any missing behavior will be added to your object, so you can start using it immediately.
 
