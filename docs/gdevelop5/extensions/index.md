@@ -231,6 +231,12 @@ The following extensions are made by a community members and they only got
 though a light review by the GDevelop extension team. As such, we can't
 guarantee they meet all the quality standards of fully reviewed extensions.
 
+### 3D
+
+||Name|Description||
+|---|---|---|---|
+|<img src="https://asset-resources.gdevelop.io/public-resources/Icons/732ef90b7fcf5dd9171fe95d0cf262e09159b487304915a4693baa893d9ce16c_grass.svg" class="extension-icon"></img>|**3D foliage swaying**|Sway foliage of 3D objects according to the wind.|[Read more...](/gdevelop5/extensions/foliage-swaying3d)|
+
 ### Advanced
 
 ||Name|Description||

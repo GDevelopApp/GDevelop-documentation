@@ -162,6 +162,8 @@ nav:
         - Tween into view: tween-into-view
         - YSort: ysort
     - Experimental extensions:
+        - 3D:
+            - 3D foliage swaying: foliage-swaying3d
         - Advanced:
             - Crypto Api: crypto-api
             - Game properties data: get-properties-data
