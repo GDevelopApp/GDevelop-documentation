@@ -137,6 +137,7 @@ Properties can be:
 * Numbers
 * Strings (including colors or string with choices)
 * Booleans (displayed as a checkbox)
+* Layer — picks an existing layer of the scene the object is on, which is useful when a behavior needs to act on a specific layer (for example to move its camera or apply an effect).
 
 Properties can also be used to required behaviors as described in a following section.
 
