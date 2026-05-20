@@ -124,6 +124,7 @@ plugins:
         "gdevelop5/publishing/android_and_ios/play-store/index.md": "gdevelop5/publishing/android/play-store/index.md"
         "gdevelop5/publishing/android_and_ios/play-store/upgrading-from-apk-to-aab.md": "gdevelop5/publishing/android/play-store/upgrading-from-apk-to-aab.md"
         "gdevelop5/interface/ask-ai.md": "gdevelop5/interface/ai/index.md"
+        "gdevelop5/interface/scene-editor/events.md": "gdevelop5/interface/events-editor/index.md"
         # Tutorials
         "gdevelop5/tutorials/platformer/start.md": "gdevelop5/tutorials/platformer/index.md"
         "gdevelop5/tutorials/asteroids/start.md": "gdevelop5/tutorials/asteroids/index.md"
