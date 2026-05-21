@@ -39,7 +39,7 @@ By default, the preview starts with the scene that you're currently editing. If 
 
 ![](/gdevelop5/interface/preview/pasted/20230313-205620.png)
 
-A flag will be added to the icon to remind you that the preview is always starting from the chosen scene, even if you're editing another one. You can later remove this setting by using the same menu and deselecting the option.
+A flag will be added to the icon to remind you that the preview is always starting from the chosen scene, even if you're editing another one. This setting is saved with your project, so it is restored the next time you open it. You can later remove this setting by using the same menu and deselecting the option.
 
 ## Launch a Network preview (Preview over WiFi/LAN)
 

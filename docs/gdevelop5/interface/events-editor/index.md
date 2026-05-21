@@ -109,6 +109,12 @@ You can change the colour of **comments** and **event group** by right-clicking 
 
 ![](/gdevelop5/interface/events-editor/pasted/20230313-183427.png)
 
+## Selecting events
+
+You can click an event to select it, and hold **Ctrl** (or **Cmd** on macOS) while clicking to add or remove events from a multi-selection.
+
+To select every event in the current sheet at once, use **Ctrl+A** (or **Cmd+A** on macOS), or pick **Select All** from the Edit menu. **Ctrl+Shift+A** (or **Cmd+Shift+A**) clears the selection.
+
 ## Delete selected events
 
 By clicking the Delete selected events button, selected events will be removed from the event sheet, as well as any subevents. (you can also press the Delete key)
