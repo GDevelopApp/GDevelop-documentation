@@ -352,35 +352,30 @@ $(function() {
 <div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_project_scoped_containers.html">gd::ProjectScopedContainers</a> &amp;projectScopedContainers_,</div>
 <div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> &amp;rootType_)</div>
 <div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;      : platform(platform_), projectScopedContainers(projectScopedContainers_),</div>
-<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;        rootType(rootType_),</div>
-<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;        rootObjectName(<span class="stringliteral">&quot;&quot;</span>) <span class="comment">// Always empty, might be changed if variable fields</span></div>
-<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;                           <span class="comment">// in the editor are changed to use coloration.</span></div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;        {};</div>
-<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160; </div>
-<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;  <span class="keywordtype">void</span> AddColoration(</div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;      gd::ExpressionColorationDescription::ColorationKind colorationKind,</div>
-<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;      <span class="keywordtype">size_t</span> startPosition, <span class="keywordtype">size_t</span> endPosition) {</div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    <span class="keywordflow">if</span> (!colorations.empty() &amp;&amp;</div>
-<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;        colorations.back().GetColorationKind() == colorationKind &amp;&amp;</div>
-<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;        colorations.back().GetEndPosition() == startPosition) {</div>
-<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;      colorations.back().SetEndPosition(endPosition);</div>
-<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;    } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;      <a class="code" href="structgd_1_1_expression_coloration_description.html">gd::ExpressionColorationDescription</a> coloration(</div>
-<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;          colorationKind, startPosition, endPosition);</div>
-<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;      colorations.push_back(coloration);</div>
-<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;    }</div>
-<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;  }</div>
-<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160; </div>
-<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;  std::vector&lt;ExpressionColorationDescription&gt; colorations;</div>
-<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;  <span class="keywordtype">size_t</span> searchedPosition;</div>
-<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160; </div>
-<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_platform.html">gd::Platform</a> &amp;platform;</div>
-<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_project_scoped_containers.html">gd::ProjectScopedContainers</a> &amp;projectScopedContainers;</div>
-<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> rootType;</div>
-<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> rootObjectName;</div>
-<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;};</div>
-<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160; </div>
-<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;} <span class="comment">// namespace gd</span></div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;        rootType(rootType_){};</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160; </div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;  <span class="keywordtype">void</span> AddColoration(</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;      gd::ExpressionColorationDescription::ColorationKind colorationKind,</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;      <span class="keywordtype">size_t</span> startPosition, <span class="keywordtype">size_t</span> endPosition) {</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;    <span class="keywordflow">if</span> (!colorations.empty() &amp;&amp;</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;        colorations.back().GetColorationKind() == colorationKind &amp;&amp;</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;        colorations.back().GetEndPosition() == startPosition) {</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;      colorations.back().SetEndPosition(endPosition);</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;    } <span class="keywordflow">else</span> {</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;      <a class="code" href="structgd_1_1_expression_coloration_description.html">gd::ExpressionColorationDescription</a> coloration(</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;          colorationKind, startPosition, endPosition);</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;      colorations.push_back(coloration);</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;    }</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;  }</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160; </div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;  std::vector&lt;ExpressionColorationDescription&gt; colorations;</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160; </div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_platform.html">gd::Platform</a> &amp;platform;</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_project_scoped_containers.html">gd::ProjectScopedContainers</a> &amp;projectScopedContainers;</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;  <span class="keyword">const</span> <a class="code" href="classgd_1_1_string.html">gd::String</a> rootType;</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;};</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160; </div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;} <span class="comment">// namespace gd</span></div>
 <div class="ttc" id="aclassgd_1_1_expression_parser2_node_worker_html"><div class="ttname"><a href="classgd_1_1_expression_parser2_node_worker.html">gd::ExpressionParser2NodeWorker</a></div><div class="ttdoc">The interface for any worker class (&quot;visitor&quot; pattern) that want to interact with the nodes of a pars...</div><div class="ttdef"><b>Definition:</b> ExpressionParser2NodeWorker.h:36</div></div>
 <div class="ttc" id="aclassgd_1_1_expression_syntax_coloring_helper_html"><div class="ttname"><a href="classgd_1_1_expression_syntax_coloring_helper.html">gd::ExpressionSyntaxColoringHelper</a></div><div class="ttdoc">Returns the list of coloration descriptions for an expression node.</div><div class="ttdef"><b>Definition:</b> ExpressionSyntaxColoringHelper.h:89</div></div>
 <div class="ttc" id="aclassgd_1_1_expression_syntax_coloring_helper_html_a646bfab1be60788bb4dff2f8bdb4fcab"><div class="ttname"><a href="classgd_1_1_expression_syntax_coloring_helper.html#a646bfab1be60788bb4dff2f8bdb4fcab">gd::ExpressionSyntaxColoringHelper::GetColorationDescriptionsFor</a></div><div class="ttdeci">static const std::vector&lt; ExpressionColorationDescription &gt; GetColorationDescriptionsFor(const gd::Platform &amp;platform, const gd::ProjectScopedContainers &amp;projectScopedContainers, const gd::String &amp;rootType, gd::ExpressionNode &amp;node)</div><div class="ttdoc">Given the expression, find the node at the specified location and returns colorations for it.</div><div class="ttdef"><b>Definition:</b> ExpressionSyntaxColoringHelper.h:96</div></div>

@@ -104,10 +104,51 @@ static <a class="el" href="classgd_1_1_serializer_element.html">SerializerElemen
 static <a class="el" href="classgd_1_1_serializer_element.html">SerializerElement</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_serializer.html#a89689319b02fa88e129597ffb1649dfc">FromJSON</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;json)</td></tr>
 <tr class="memdesc:a89689319b02fa88e129597ffb1649dfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a <a class="el" href="classgd_1_1_serializer_element.html" title="A generic container that can represent a value ( containing a string, double, bool or int),...">gd::SerializerElement</a> from a JSON string. <br /></td></tr>
 <tr class="separator:a89689319b02fa88e129597ffb1649dfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Canonical serialization mode.</div></td></tr>
+<tr><td colspan="2"><div class="groupText"><p>When enabled, ToJSON writes object keys in alphabetical order and various SerializeTo helpers write default values (false, "", []) for properties that would otherwise be omitted.</p>
+<p>This makes git diffs minimal and shift-free when toggling boolean flags or adding/removing optional sub-structures (e.g. sub-events, local variables). </p>
+</div></td></tr>
+<tr class="memitem:a92e23c0966bfc4edc3628504a051d8a3"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_serializer.html#a92e23c0966bfc4edc3628504a051d8a3">SetCanonicalMode</a> (bool canonical)</td></tr>
+<tr class="memdesc:a92e23c0966bfc4edc3628504a051d8a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable/disable canonical serialization mode globally.  <a href="classgd_1_1_serializer.html#a92e23c0966bfc4edc3628504a051d8a3">More...</a><br /></td></tr>
+<tr class="separator:a92e23c0966bfc4edc3628504a051d8a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a51b77e30c54bd4ff07330888a4f828"><td class="memItemLeft" align="right" valign="top"><a id="a7a51b77e30c54bd4ff07330888a4f828"></a>
+static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_serializer.html#a7a51b77e30c54bd4ff07330888a4f828">IsCanonicalMode</a> ()</td></tr>
+<tr class="memdesc:a7a51b77e30c54bd4ff07330888a4f828"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if canonical serialization mode is currently active. <br /></td></tr>
+<tr class="separator:a7a51b77e30c54bd4ff07330888a4f828"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The class used to save/load projects and GDCore classes from/to XML or JSON. </p>
-</div><hr/>The documentation for this class was generated from the following files:<ul>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a92e23c0966bfc4edc3628504a051d8a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92e23c0966bfc4edc3628504a051d8a3">&#9670;&nbsp;</a></span>SetCanonicalMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void gd::Serializer::SetCanonicalMode </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>canonical</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Enable/disable canonical serialization mode globally. </p>
+<p>Affects ToJSON (alphabetical key order) and various SerializeTo helpers (always writing default values for optional properties). </p>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="_serializer_8h_source.html">Serializer.h</a></li>
 <li>Serializer.cpp</li>
 </ul>

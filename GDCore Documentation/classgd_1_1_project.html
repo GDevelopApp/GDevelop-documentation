@@ -466,6 +466,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="separator:aca132134e31018e4088d1150a4e31e3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada4d96d9a7f1aba56bf0623e926842eb"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_project.html#ada4d96d9a7f1aba56bf0623e926842eb">GetFirstLayout</a> ()</td></tr>
 <tr class="separator:ada4d96d9a7f1aba56bf0623e926842eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3034fc66f71de0c91770bd47a0a0aa0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_project.html#af3034fc66f71de0c91770bd47a0a0aa0">SetPreviewLayout</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name)</td></tr>
+<tr class="separator:af3034fc66f71de0c91770bd47a0a0aa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26b7a4c9f2c411e36b08cf9dcce6fe62"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_project.html#a26b7a4c9f2c411e36b08cf9dcce6fe62">GetPreviewLayout</a> () const</td></tr>
+<tr class="separator:a26b7a4c9f2c411e36b08cf9dcce6fe62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Events functions extensions management</div></td></tr>
 <tr class="memitem:a9fcd03cdcddd53dadbe0d61f0885b952"><td class="memItemLeft" align="right" valign="top"><a id="a9fcd03cdcddd53dadbe0d61f0885b952"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_project.html#a9fcd03cdcddd53dadbe0d61f0885b952">HasEventsFunctionsExtensionNamed</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name) const</td></tr>
@@ -1225,6 +1229,32 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Return true if pixels rounding option is enabled. </p>
+
+</div>
+</div>
+<a id="a26b7a4c9f2c411e36b08cf9dcce6fe62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26b7a4c9f2c411e36b08cf9dcce6fe62">&#9670;&nbsp;</a></span>GetPreviewLayout()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classgd_1_1_string.html">gd::String</a>&amp; gd::Project::GetPreviewLayout </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Get the layout used by the IDE to start all previews. Returns an empty string if there is no preview override. </p>
 
 </div>
 </div>
@@ -2465,6 +2495,33 @@ Static Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="af3034fc66f71de0c91770bd47a0a0aa0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3034fc66f71de0c91770bd47a0a0aa0">&#9670;&nbsp;</a></span>SetPreviewLayout()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gd::Project::SetPreviewLayout </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Set the layout used by the IDE to start all previews. An empty string means there is no preview override. </p>
 
 </div>
 </div>
