@@ -332,32 +332,32 @@ Sway foliage according to the wind.
 
 ### Behavior properties
 
-- **Ambient Occlusion strength** (🔢 Number). Ambient occlusion intensity. (0-1; default: 1). Default value is `1`.
+- **Ambient Occlusion strength** (🔢 Number). Ambient occlusion intensity (0-1; default: 1). Default value is `1`.
 - **Bottom color** (🎨 Color). Bottom gradient color. Default value is `65;117;5`.
 - **Color contrast** (🔢 Number). Color contrast multiplier (0-3; default: 1.05). Default value is `1.05`.
 - **Color saturation** (🔢 Number). Color saturation multiplier (0-3; default: 1.2). Default value is `1.2`.
-- **Culling mode** (Choice, one of: "UseSource", "BackfaceCullingOn", "BackfaceCullingOff"). 3D model face culling mode.
-- **Debug output** (🔘 Boolean). Prints material/mesh and auto-scale debug info to console. (requires object to be in the scene; default: off). Default value is `false`.
-- **Fade distance end** (🔢 Number, Distance). Distance where fade reaches zero. Requires enabled distance culling. (0-100000; default: 1600). Default value is `1600`.
-- **Fade distance start** (🔢 Number, Distance). Distance where fade-out starts. Requires enabled distance culling. (0-100000; default: 1200). Default value is `1200`.
-- **Environment strength** (🔢 Number). Environment reflection intensity. (0-1; default: 1). Default value is `1`.
+- **Culling mode** (Choice, one of: "UseSource", "BackfaceCullingOn", "BackfaceCullingOff"). 3D model face culling mode. Default value is `UseSource`.
+- **Debug output** (🔘 Boolean). Prints material/mesh and auto-scale debug info to console (requires object to be in the scene; default: off). Default value is `false`.
+- **Fade distance end** (🔢 Number, Distance). Distance where fade reaches zero. Requires enabled distance culling (0-100000; default: 1600). Default value is `1600`.
+- **Fade distance start** (🔢 Number, Distance). Distance where fade-out starts. Requires enabled distance culling (0-100000; default: 1200). Default value is `1200`.
+- **Environment strength** (🔢 Number). Environment reflection intensity (0-1; default: 1). Default value is `1`.
 - **Gradient end** (🔢 Number). Gradient end point (0-1; default: 1). Default value is `1`.
 - **Gradient start** (🔢 Number). Gradient start point (0-1; default: 0). Default value is `0`.
 - **Ignore UV map** (🔘 Boolean). Uses world-height gradient instead of UV gradient (only when color grading is on; default: off). Default value is `false`.
-- **Material to sway** (🔤 String). Material name to target. (empty = auto-pick).
-- **Metallic factor** (🔢 Number). PBR metallic value. (0-1; default: 0). Default value is `0`.
-- **Normal strength** (🔢 Number). Normal map strength. (0-1; default: 1). Default value is `1`.
-- **Roughness factor** (🔢 Number). PBR roughness value. (0-1; default: 1). Default value is `1`.
-- **Specular factor** (🔢 Number). Specular intensity. (where supported; 0-1; default: 0.1). Default value is `0.1`.
-- **Sway response** (🔢 Number). Sorts unexpected visual behavior. For low-poly models use smaller number. (0-200; 0 = auto). Default value is `0`.
-- **Sway type** (Choice, one of: "Grass", "Leaves", "Bush", "TreeTrunk"). Wind animation model.
+- **Material to sway** (🔤 String). Material name to target (empty = auto-pick).
+- **Metallic factor** (🔢 Number). PBR metallic value (0-1; default: 0). Default value is `0`.
+- **Normal strength** (🔢 Number). Normal map strength (0-1; default: 1). Default value is `1`.
+- **Roughness factor** (🔢 Number). PBR roughness value (0-1; default: 1). Default value is `1`.
+- **Specular factor** (🔢 Number). Specular intensity (where supported; 0-1; default: 0.1). Default value is `0.1`.
+- **Sway response** (🔢 Number). How much the object is deformed by the wind. For low-poly models use small number around 0.5. (0-200; 0 = auto). Default value is `0`.
+- **Sway type** (Choice, one of: "Grass", "Leaves", "Bush", "TreeTrunk"). Wind animation model. Default value is `Grass`.
 - **Top color** (🎨 Color). Top gradient color. Default value is `184;233;134`.
 - **Use color gradient** (🔘 Boolean). Enables top/bottom gradient tint and color grading (default: off). Default value is `false`.
-- **Custom PBR settings** (🔘 Boolean). Enables custom PBR tuning controls. (default: off). Default value is `false`.
-- **Distance culling** (🔘 Boolean). Enables distance-based dither fade/culling. (default: off). Default value is `false`.
-- **GPU instancing** (🔘 Boolean). Uses GPU instancing for supported sway types. (better performance; default: off). Default value is `false`.
+- **Custom PBR settings** (🔘 Boolean). Enables custom PBR tuning controls (default: off). Default value is `false`.
+- **Distance culling** (🔘 Boolean). Enables distance-based dither fade/culling (default: off). Default value is `false`.
+- **GPU instancing** (🔘 Boolean). Uses GPU instancing for supported sway types (better performance; default: off). Default value is `false`.
 - **Use two sided lighting** (🔘 Boolean). If enabled, both frontface and backface are lit. Useful for planes/cards (default: on). Default value is `true`.
-- **Enable uniform sway** (🔘 Boolean). If enabled, all instances sway similarly. If off, each gets random phase variation. (default: on). Default value is `true`.
+- **Enable uniform sway** (🔘 Boolean). If enabled, all instances sway similarly. If off, each gets random phase variation (default: on). Default value is `true`.
 
 ??? quote "See internal technical details"
 
@@ -366,7 +366,7 @@ Sway foliage according to the wind.
     - **Bottom color** is stored as `BottomColor` (Color). Default value is `65;117;5`.
     - **Color contrast** is stored as `ColorContrast` (Number). Default value is `1.05`.
     - **Color saturation** is stored as `ColorSaturation` (Number). Default value is `1.2`.
-    - **Culling mode** is stored as `CullingMode` (Choice). Default value is ``.
+    - **Culling mode** is stored as `CullingMode` (Choice). Default value is `UseSource`.
     - **Debug output** is stored as `DebugOutput` (Boolean). Default value is `false`.
     - **Fade distance end** is stored as `DistanceFadeEnd` (Number). Unit is Pixel. Default value is `1600`.
     - **Fade distance start** is stored as `DistanceFadeStart` (Number). Unit is Pixel. Default value is `1200`.
@@ -380,7 +380,7 @@ Sway foliage according to the wind.
     - **Roughness factor** is stored as `Roughness` (Number). Default value is `1`.
     - **Specular factor** is stored as `Specular` (Number). Default value is `0.1`.
     - **Sway response** is stored as `SwayResponse` (Number). Default value is `0`.
-    - **Sway type** is stored as `SwayType` (Choice). Default value is ``.
+    - **Sway type** is stored as `SwayType` (Choice). Default value is `Grass`.
     - **Top color** is stored as `TopColor` (Color). Default value is `184;233;134`.
     - **Use color gradient** is stored as `UseColorGradient` (Boolean). Default value is `false`.
     - **Custom PBR settings** is stored as `UseCustomPBR` (Boolean). Default value is `false`.
