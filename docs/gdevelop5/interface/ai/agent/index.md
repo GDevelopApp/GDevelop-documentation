@@ -35,6 +35,8 @@ For more complex requests, the AI will first display a **plan** — a numbered l
 
 As it works on your request, it will show a step-by-step implementation summary of everything it is doing. Some steps can also have extra details you can inspect. In the cases of dealing with a hard to fulfill request, some implementation task could fail (for example: generating complex, heavy dependent game logic). In these cases, the AI agent will move foreward and try alternative ways to continue.
 
+For larger requests, the AI may delegate parts of the work to specialised **sub-agents** focused on a single aspect (for example, analysing your existing events or doing in-depth research before making changes). Sub-agent steps appear inline in the conversation so you can expand them and see what the sub-agent was asked to do and what it produced, before the main agent continues with the rest of the plan.
+
 !!! note
 
     As all AIs in the market, answers might not be perfect. From time to time the agent can confuse some concepts, misunderstand your game or lack clarity on what you're trying to do. Always verify its answers, and use them as suggestions rather than truths. 
