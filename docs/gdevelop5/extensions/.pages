@@ -193,7 +193,6 @@ nav:
             - Countdown timer (deprecated): countdown-timer
             - JSON Resource Loading: jsonresource-loader
             - Load images from a URL: load-image-from-url
-            - Maze Generator: maze-generator
             - 3D model 9-patch: model9patch3d
             - Variables/References: references
             - 3D sprite: sprite3d
