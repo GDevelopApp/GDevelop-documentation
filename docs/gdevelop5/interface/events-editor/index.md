@@ -111,7 +111,7 @@ You can change the colour of **comments** and **event group** by right-clicking 
 
 ## Select events
 
-You can select multiple events by holding **Shift** or **Ctrl** while clicking. To select every event in the current sheet at once, use **Select All** (available from the Edit menu and the command palette). Clicking on an already-selected event while a multi-selection is active will deselect that single event, letting you fine-tune the selection before applying an action.
+You can select multiple events by holding **Shift** or **Ctrl** while clicking. To select every event in the current sheet at once, use **Select All** (available from the Edit menu and the command palette). Clicking on an already-selected event while a multi-selection is active will deselect that single event.
 
 ## Delete selected events
 
