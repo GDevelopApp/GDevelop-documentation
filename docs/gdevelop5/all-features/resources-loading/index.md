@@ -69,6 +69,8 @@ You can then use the **Preload object** and **Unload object** actions.
 
 ![](object-preload-action.png)
 
+These actions and the **Object preloaded** condition take a scene name as a parameter, so you can preload, unload or check objects defined in another scene (for example, preloading a level's objects from a menu scene).
+
 The **Preload object** action does not pause the game while the object's resources are being preloaded. If you try to create the object immediately, you will likely see "pink images" because some resources have not finished loading yet. To check when it is safe to create the object, use the **Object preloaded** condition.
 
 ![](object-preload-events.png)

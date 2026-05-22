@@ -20,6 +20,8 @@ These icons indicate that the field accepts an _expression_. An expression is a 
 
     For a complete list of the function expressions that GDevelop provides out of the box, refer to [expressions reference](/gdevelop5/all-features/expressions-reference).
 
+Expressions written in the events sheet are colored to make them easier to read at a glance: numbers, strings, operators, object names, variables and boolean values each use a distinct color. This helps you quickly spot the structure of an expression and catch typos.
+
 <div class="video-container">
   <iframe src="https://www.youtube.com/embed/JNqekjjendk" frameborder="0" allowfullscreen></iframe>
 </div>

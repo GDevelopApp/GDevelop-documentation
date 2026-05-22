@@ -108,6 +108,10 @@ There are also several [useful expressions](https://wiki.gdevelop.io/gdevelop5/a
 - CameraBorderLeft(layer, number)
 - CameraBorderRight(layer, number)
 
+### Moving layer cameras from a custom object
+
+Custom objects expose their own layers, which can be moved like scene layers using the same camera actions and expressions from inside the custom object's events. This is useful when a custom object embeds its own scrolling UI, minimap or framed view that should pan independently from the scene's camera.
+
 ## Reference
 
 All actions, conditions and expressions are listed in [layers and cameras reference page](/gdevelop5/all-features/layers-and-cameras/reference/).

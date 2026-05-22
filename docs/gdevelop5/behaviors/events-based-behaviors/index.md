@@ -137,6 +137,7 @@ Properties can be:
 * Numbers
 * Strings (including colors or string with choices)
 * Booleans (displayed as a checkbox)
+* Layers — to let extension users pick one of the scene's layers (useful when your behavior needs to act on a specific layer, like moving its camera)
 
 Properties can also be used to required behaviors as described in a following section.
 

@@ -41,6 +41,8 @@ By default, the preview starts with the scene that you're currently editing. If 
 
 A flag will be added to the icon to remind you that the preview is always starting from the chosen scene, even if you're editing another one. You can later remove this setting by using the same menu and deselecting the option.
 
+This setting is saved in the project file, so it is preserved when you reopen the project or share it with collaborators.
+
 ## Launch a Network preview (Preview over WiFi/LAN)
 
 By selecting **Network preview (Preview over WiFi/LAN)** from the drop-down menu beside the preview button, you can preview your game on mobile devices (or any other computer) connected to the same network as the editor.
