@@ -73,6 +73,16 @@ toolbarButtons:
 
 Each button requires `name` (label shown in the tooltip), `icon` (emoji), and `npmScript` (the script key from `package.json`).
 
+By default, the external terminal closes automatically when the script finishes successfully, and stays open with a "Command failed!" message if it fails. To always keep the terminal open after the script runs (useful for long-running scripts like watchers or dev servers), add `keepTerminalOpen: true`:
+
+```yaml
+toolbarButtons:
+  - name: Dev server
+    icon: "🚀"
+    npmScript: dev
+    keepTerminalOpen: true
+```
+
 #### Lifecycle hooks
 
 You can also have a script run automatically when a specific editor event occurs, by adding a `hook` field:
