@@ -12,7 +12,6 @@ The right approach depends on your game type:
 * **Top-down games, RPGs, arcade games**: use the [**Collision**](#detect-collisions) condition, combined with the [**Separate objects**](#make-objects-solids-use-the-separate-objects-action-good-for-top-down-games-rpg) action — and optionally the [Top-Down Movement behavior](/gdevelop5/behaviors/topdown).
 * **Platformers**: use the [Platformer character and Platform behaviors](#platformer-games-use-the-platformer-character-and-platform-behaviors).
 * **AI navigation around obstacles**: use the [Pathfinding behavior](#enemies-and-ai-use-the-pathfinding-behavior-with-obstacles).
-* **Levels made of tiles**: use a [Tile map collision mask object](#levels-made-of-tiles-use-the-tile-map-collision-mask-object).
 * **Realistic 2D physics** (pinball, angry-birds-style, ragdolls): use the [Physics 2 behavior](#game-with-physics-use-the-physics-2-behavior).
 * **3D games** (3D platformer, FPS, third-person, racing): use the [Physics 3D behavior](#3d-games-use-the-physics-3d-behavior).
 * **Line-of-sight, lasers, "what's in front of the player"**: use the [Raycast condition](#line-of-sight-and-lasers-use-the-raycast-condition).
@@ -104,20 +103,6 @@ You do not need to add the standard Collision condition to keep the agent away f
 
         **See it in action!** 🎮
     Open this example online: [Pathfinding Basics](https://editor.gdevelop.io?project=example://pathfinding-basics)
-
-## Levels made of tiles: use the Tile map collision mask object
-
-If your level is built from a [tile map](/gdevelop5/objects/tilemap) (for example, exported from Tiled or LDtk), you can detect collisions between your character and the tiles using a dedicated **Tile map collision mask** object.
-
-* Place a **Tile map collision mask** object on top of your tile map and select which tile layer / class represents the solid tiles.
-* From then on, the collision mask object behaves like any other object for collision conditions. You can use the **Collision** condition or the **Separate objects** action against it as if it were a wall.
-
-This means you can have a single tile map drawing your whole level, and a single invisible "collision" object handling all the physical interactions for free.
-
-!!! tip
-
-        **See it in action!** 🎮
-    Open this example online: [Platformer with Tile Map](https://editor.gdevelop.io?project=example://platformer-with-tilemap)
 
 ## Game with physics? Use the Physics 2 behavior
 
