@@ -31,6 +31,44 @@ If you want to scale the set resolution to the window area, choose "YES". This w
 
 ![](/gdevelop5/all-features/annotation_2019-06-29_175540.png)
 
+!!! note
+
+    Changing the game window size only works on desktop platforms (Windows, macOS, Linux). Games running in a browser or on mobile cannot resize their window, but the game resolution can still be updated.
+
+## Game resolution vs window size
+
+These two concepts are distinct and often confused:
+
+- The **game resolution** is the number of pixels the game internally renders. Use the action **"Game resolution"** to change it without resizing the window — useful for example to adapt the rendering to a low-end device.
+- The **game window size** is the size of the visible area on screen. On desktop, you can change it independently from the resolution. On HTML5 and mobile, the window size is decided by the browser/device.
+
+### Game resolution resize mode
+
+Use the **"Game resolution resize mode"** action to control how the game resolution adapts to the window or screen size:
+
+- `adaptWidth`: the game width is automatically updated to fill the window or screen.
+- `adaptHeight`: the game height is automatically updated to fill the window or screen.
+- Leave empty to disable automatic resizing (the game resolution stays fixed and is stretched to fit).
+
+This is paired with the **"Automatically adapt the game resolution"** action, which decides if the resolution should be re-adapted at runtime (when the player resizes the window or rotates the device). If turned off, the resolution is only adjusted once when the game starts.
+
+## Centering the window
+
+The **"Center the game window on the screen"** action moves the game window to the center of the user's screen. This only works on Windows, macOS and Linux (it has no effect when the game runs in a browser or on iOS/Android).
+
+## Window icon
+
+Use the **"Window's icon"** action to change the icon shown in the title bar and taskbar. Pass the name of an image resource already included in your project. This applies to desktop builds; on mobile and HTML5 the icon is determined by the build/page settings instead.
+
+## Reading screen and window dimensions
+
+A few expressions let you query sizes at runtime:
+
+- `SceneWindowWidth()` / `SceneWindowHeight()`: the current game resolution (the size of the rendering canvas).
+- `ScreenWidth()` / `ScreenHeight()`: the size of the screen or, for HTML5 games in a browser, the size of the page.
+
+Use the scene window expressions for in-game logic like positioning HUD elements, and the screen expressions when you need to know how large the user's display is.
+
 ## Window title
 
 The window title is the name of the window that is visible on the title bar (located at the top) of the window. The default title name is "Preview of ProjectName" during a preview.
