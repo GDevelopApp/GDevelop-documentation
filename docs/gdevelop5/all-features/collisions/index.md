@@ -50,8 +50,6 @@ After running the "Separate objects" action, objects are moved. _Collisions betw
 
     The Collision condition uses each object's **collision mask**. By default it's a rectangle matching the object's dimensions, but you can edit it on a Sprite object to better fit the shape of your character. See [Edit Collision Masks](/gdevelop5/objects/sprite/edit-collision-mask) for details.
 
-    There's also a **pixel-perfect** option on the Collision condition. It is more accurate for irregular sprites but is significantly slower — most games (including almost all of the official examples) use the default, faster check.
-
     The Collision condition can also be **inverted** (right-click the condition → "Invert condition") to check that two objects are **not** colliding. This is useful, for example, to allow placing an object only on empty ground.
 
 You can find usage of these conditions and actions in the examples:
