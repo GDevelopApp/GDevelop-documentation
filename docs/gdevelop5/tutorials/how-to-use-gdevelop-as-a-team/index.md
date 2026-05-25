@@ -71,7 +71,7 @@ toolbarButtons:
     npmScript: generate-types
 ```
 
-Each button requires `name` (label shown in the tooltip), `icon` (emoji), and `npmScript` (the script key from `package.json`).
+Each button requires `name` (label shown in the tooltip), `icon` (emoji), and `npmScript` (the script key from `package.json`). You can also add `keepTerminalOpen: true` if you want the terminal window to stay open after the script finishes — useful for long-running commands like watchers or dev servers. By default, the terminal closes on success and stays open only if the script fails, so you can read the error.
 
 #### Lifecycle hooks
 
