@@ -60,4 +60,4 @@ You can then add an event with an action called "Effect Parameter":
 
 ## Reference
 
-All effects are listed in [the effect reference page](/gdevelop5/all-features/effects/reference/).
+All effects are listed in [the effects reference page](/gdevelop5/all-features/effects/reference/).
