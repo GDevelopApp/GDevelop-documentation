@@ -57,3 +57,7 @@ You can then add an event with an action called "Effect Parameter":
 !!! danger
 
     All of these names are case sensitive. In particular the parameter names are lowercased. Be sure to double check the name of your effect and parameters.
+
+## Reference
+
+All effects are listed in [the effects reference page](/gdevelop5/all-features/effects/reference/).
