@@ -11,7 +11,7 @@ To export the game, click **Share** in the GDevelop interface. You will be prese
 ![Share game](Export.png)
 
 <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/p97ah8i-aY4" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/AC7iGC8pAmU?si=nyQKOdZ4AUeIT2i3" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ## Publish and share on GDevelop's free service gd.games
