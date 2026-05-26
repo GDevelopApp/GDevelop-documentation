@@ -180,4 +180,4 @@ Add blur to the top and bottom of the entire layer or object. Perfect to simulat
 
 ## Reference
 
-N/A
+All effects are listed in [the effect reference page](/gdevelop5/all-features/effects/reference/).
