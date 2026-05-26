@@ -11,7 +11,7 @@ You can use different types of objects in your game, each serving a specific pur
 Objects can also include [behaviors](/gdevelop5/behaviors), which give them built-in abilities—like moving, jumping, or following a path. To control what happens during gameplay, you can use [events](/gdevelop5/events) to make objects move, rotate, switch animations, or apply effects.
 
 <div class="video-container">
-  <iframe src="https://www.youtube.com/embed/r_Z8N9asT14" frameborder="0" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/L9ybto94XSU?si=eRx8EHRMCgqNv5HX" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ## Common object types in GDevelop
