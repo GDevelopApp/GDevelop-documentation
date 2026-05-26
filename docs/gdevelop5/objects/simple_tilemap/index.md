@@ -6,6 +6,10 @@ title: Tilemap
 
 The Tilemap object can be used to display tile-based objects. It's a good way to create **maps** for RPG, strategy games or create objects by **assembling tiles**, useful for platformer, retro-looking games, etc.
 
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/RVGVGKCts3Q?si=C-XRj0vLlkr1z1U2" frameborder="0" allowfullscreen></iframe>
+</div>
+
 They are performant and useful to render large levels. While the Tilemap is quick and easy to use, you may want to design maps in an external editor like LDtk or Tiled. In this case, take a look at the [External Tilemap object](/gdevelop5/objects/tilemap).
 
 <div class="video-container">
