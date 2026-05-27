@@ -3,7 +3,7 @@
 <img src="https://asset-resources.gdevelop.io/public-resources/Icons/Line Hero Pack/Master/SVG/UI Essentials/a87576ab3a35744221b26f87e4409ec174fb8fb79435b181232c40c29ac7340e_UI Essentials_sand_clock_time.svg" class="extension-icon"></img>
 A timer against the clock to create timer challenges in your projects. Countdown functionality.
 
-**Authors and contributors** to this experimental extension: [CuriosVoult](https://gd.games/CuriosVoult).
+**Authors and contributors** to this experimental extension: [CuriosVault](https://gd.games/CuriosVault).
 
 !!! warning
     This is an extension made by a community member and it only got through a
