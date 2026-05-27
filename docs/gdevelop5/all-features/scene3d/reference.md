@@ -668,6 +668,8 @@ Properties of this effect are:
 - **Light color**. Default value is `255;255;255`. For events, write: `"color"`.
 - **Intensity**. Default value is `0.75`. For events, write: `"intensity"`.
 
+[Read more explanations about it.](/gdevelop5/objects/3d-light)
+
 ### Effect "Bloom"
 
 Apply a bloom effect.
@@ -680,6 +682,8 @@ Properties of this effect are:
 - **Strength**: Between 0 and 3. Default value is `1`. For events, write: `"strength"`.
 - **Threshold**: Between 0 and 1. Default value is `0`. For events, write: `"threshold"`.
 
+
+
 ### Effect "Brightness and contrast."
 
 Adjust brightness and contrast.
@@ -690,6 +694,8 @@ Properties of this effect are:
 
 - **Brightness**: Between -1 and 1. Default value is `0`. For events, write: `"brightness"`.
 - **Contrast**: Between -1 and 1. Default value is `0`. For events, write: `"contrast"`.
+
+
 
 ### Effect "Directional light"
 
@@ -710,6 +716,8 @@ Properties of this effect are:
 - **Shadow quality**. Default value is `medium`. For events, write: `"shadowQuality"`.
 - **3D world top**. Default value is `Z+`. For events, write: `"top"`.
 
+[Read more explanations about it.](/gdevelop5/objects/3d-light)
+
 ### Effect "Fog (exponential)"
 
 Exponential fog for 3D objects.
@@ -721,6 +729,8 @@ Properties of this effect are:
 - **Fog color**. Default value is `255;255;255`. For events, write: `"color"`.
 - **Density**: Density of the fog. Usual values are between 0.0005 (far away) and 0.005 (very thick fog).. Default value is `0.0012`. For events, write: `"density"`.
 
+
+
 ### Effect "Exposure"
 
 Adjust exposure.
@@ -730,6 +740,8 @@ This effect is for 3D layers only.
 Properties of this effect are:
 
 - **Exposure**: Positive value. Default value is `1`. For events, write: `"exposure"`.
+
+
 
 ### Effect "Hemisphere light"
 
@@ -746,6 +758,8 @@ Properties of this effect are:
 - **Sky color**. Default value is `255;255;255`. For events, write: `"skyColor"`.
 - **3D world top**. Default value is `Z+`. For events, write: `"top"`.
 
+[Read more explanations about it.](/gdevelop5/objects/3d-light)
+
 ### Effect "Hue and saturation"
 
 Adjust hue and saturation.
@@ -756,6 +770,8 @@ Properties of this effect are:
 
 - **Hue**: Between -180° and 180°. Default value is `0`. For events, write: `"hue"`.
 - **Saturation**: Between -1 and 1. Default value is `0`. For events, write: `"saturation"`.
+
+
 
 ### Effect "Fog (linear)"
 
@@ -768,6 +784,8 @@ Properties of this effect are:
 - **Fog color**. Default value is `255;255;255`. For events, write: `"color"`.
 - **Distance where the fog is fully opaque**. Default value is `2000`. For events, write: `"far"`.
 - **Distance where the fog starts**. Default value is `200`. For events, write: `"near"`.
+
+
 
 ### Effect "Skybox"
 
@@ -783,6 +801,8 @@ Properties of this effect are:
 - **Left face (X-)**. For events, write: `"leftFaceResourceName"`.
 - **Right face (X+)**. For events, write: `"rightFaceResourceName"`.
 - **Top face (Y-)**. For events, write: `"topFaceResourceName"`.
+
+
 
 
 
