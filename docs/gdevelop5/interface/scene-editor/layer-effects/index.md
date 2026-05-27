@@ -83,10 +83,6 @@ There are three different actions depending on the type of parameter you want to
 - **Effect property (string)** — for text values such as the texture file path used by the Displacement effect.
 - **Effect property (boolean)** — for yes/no toggles exposed by some effects.
 
-## Advanced effects usage
-
-
-
 ## Reference
 
 All effects are listed in [the effects reference page](/gdevelop5/all-features/effects/reference/).
