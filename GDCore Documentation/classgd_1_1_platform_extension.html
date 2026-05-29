@@ -110,10 +110,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad6ef5770ddc0d121d4db23219cb596b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_platform_extension.html">PlatformExtension</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_platform_extension.html#ad6ef5770ddc0d121d4db23219cb596b8">SetExtensionHelpPath</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;helpPath_)</td></tr>
 <tr class="memdesc:ad6ef5770ddc0d121d4db23219cb596b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the path to the help, relative to the GDevelop documentation root. For example, "/all-features/collisions" for "https://wiki.gdevelop.io/gdevelop5/all-features/collisions".  <a href="classgd_1_1_platform_extension.html#ad6ef5770ddc0d121d4db23219cb596b8">More...</a><br /></td></tr>
 <tr class="separator:ad6ef5770ddc0d121d4db23219cb596b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a737fe4f423cfee79efd899b2a236c104"><td class="memItemLeft" align="right" valign="top"><a id="a737fe4f423cfee79efd899b2a236c104"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_platform_extension.html#a737fe4f423cfee79efd899b2a236c104">MarkAsDeprecated</a> ()</td></tr>
-<tr class="memdesc:a737fe4f423cfee79efd899b2a236c104"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mark this extension as deprecated: the IDE will hide it from the user. <br /></td></tr>
-<tr class="separator:a737fe4f423cfee79efd899b2a236c104"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab781a3f9f9cffa7667c324f5eb99d677"><td class="memItemLeft" align="right" valign="top"><a id="ab781a3f9f9cffa7667c324f5eb99d677"></a>
+<a class="el" href="classgd_1_1_platform_extension.html">PlatformExtension</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_platform_extension.html#ab781a3f9f9cffa7667c324f5eb99d677">MarkAsDeprecatedSince</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;version)</td></tr>
+<tr class="memdesc:ab781a3f9f9cffa7667c324f5eb99d677"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mark this extension as deprecated: the IDE will hide it from users in new projects. <br /></td></tr>
+<tr class="separator:ab781a3f9f9cffa7667c324f5eb99d677"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Features declaration</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>Declare features provided by the extension </p>
 </div></td></tr>
@@ -252,6 +252,8 @@ const std::vector&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_platform_extension.html#a9f3b12a09af5b5bfdac9d64203f85ec0">IsDeprecated</a> () const</td></tr>
 <tr class="memdesc:a9f3b12a09af5b5bfdac9d64203f85ec0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the extension is flagged as being deprecated. <br /></td></tr>
 <tr class="separator:a9f3b12a09af5b5bfdac9d64203f85ec0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c3d1324e4554d48a0cb1a1b503e0f9a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_platform_extension.html#a2c3d1324e4554d48a0cb1a1b503e0f9a">GetDeprecationGDVersion</a> ()</td></tr>
+<tr class="separator:a2c3d1324e4554d48a0cb1a1b503e0f9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c40e3c3d6a15ec67776cf17272be979"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_platform_extension.html#a4c40e3c3d6a15ec67776cf17272be979">GetNameSpace</a> ()</td></tr>
 <tr class="memdesc:a4c40e3c3d6a15ec67776cf17272be979"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the namespace of the extension.  <a href="classgd_1_1_platform_extension.html#a4c40e3c3d6a15ec67776cf17272be979">More...</a><br /></td></tr>
 <tr class="separator:a4c40e3c3d6a15ec67776cf17272be979"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1186,6 +1188,32 @@ template&lt;class T &gt; </div>
 
 <p>Get the <a class="el" href="classgd_1_1_behaviors_shared_data.html" title="Base class for defining data shared by behaviors having the same type and name.">gd::BehaviorsSharedData</a> handling the given behavior shared data. </p>
 <p>Return nullptr if <em>behaviorType</em> is not provided by the extension. </p>
+
+</div>
+</div>
+<a id="a2c3d1324e4554d48a0cb1a1b503e0f9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c3d1324e4554d48a0cb1a1b503e0f9a">&#9670;&nbsp;</a></span>GetDeprecationGDVersion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classgd_1_1_string.html">gd::String</a>&amp; gd::PlatformExtension::GetDeprecationGDVersion </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Get the version of GDevelop when this extension got deprecated. </p>
 
 </div>
 </div>
