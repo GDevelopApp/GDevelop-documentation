@@ -134,6 +134,8 @@ plugins:
         "fr/gdevelop5/tutorials/isometric-rpg/start.md": "gdevelop5/tutorials/index.md"
         "es/gdevelop5/tutorials/platformer/start.md": "gdevelop5/tutorials/platformer/index.md"
         "ja/gdevelop5/tutorials/platformer/start.md": "gdevelop5/tutorials/platformer/index.md"
+        # Behavior pages
+        "gdevelop5/behaviors/anchor/index.md": "gdevelop5/all-features/anchor-behavior/index.md"
         # Extensions reference pages from old wiki were transferred to index pages
         "gdevelop5/extensions/advanced-jump/reference.md": "gdevelop5/extensions/advanced-jump/index.md"
         "gdevelop5/extensions/advanced-p2pevent-handling/reference.md": "gdevelop5/extensions/advanced-p2pevent-handling/index.md"
