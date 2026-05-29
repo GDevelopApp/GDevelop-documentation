@@ -506,7 +506,7 @@ Change the object shape offset on Z..
     > Technical note: this action internal type (in GDevelop JSON) is `Physics3D::Physics3DBehavior::SetShapeOffsetZ`.
 
 **Shape scale**  
-Modify an object shape scale. It affects custom shape dimensions, if custom dimensions are not set the body will be scaled automatically to the object size.
+Modify an object shape scale. It affects custom shape dimensions. If custom dimensions are not set, the body will be scaled automatically to the object size.
 
 ??? quote "See parameters & details"
 

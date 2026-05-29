@@ -1054,7 +1054,7 @@ Set an object as static. Is not affected by gravity, and can't be moved by force
     > Technical note: this action internal type (in GDevelop JSON) is `Physics2::SetStatic`.
 
 **Shape scale**  
-Modify an object shape scale. It affects custom shape dimensions and shape offset, if custom dimensions are not set the body will be scaled automatically to the object size.
+Modify an object shape scale. It affects custom shape dimensions and shape offset. If custom dimensions are not set, the body will be scaled automatically to the object size.
 
 ??? quote "See parameters & details"
 
