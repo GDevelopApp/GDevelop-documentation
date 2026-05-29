@@ -1,5 +1,5 @@
 nav:
-  - Anchor Behavior: ../all-features/anchor-behavior
+  - Anchor Behavior: /gdevelop5/all-features/anchor-behavior
   - Destroy outside screen behavior: destroyoutside
   - Draggable Object Behavior: draggable
   - pathfinding
