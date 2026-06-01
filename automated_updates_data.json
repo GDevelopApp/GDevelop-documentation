@@ -92,6 +92,10 @@
     {
       "date": "2026-04-22",
       "summary": "Improved resources-loading docs (named Preload scene action, documented SceneLoadingProgress expression and AreSceneAssetsLoaded condition, clarified custom loading screen approach) and added extension lifecycle functions table to events/functions docs"
+    },
+    {
+      "date": "2026-06-01",
+      "summary": "Improved keyboard docs: added 'Key just pressed' and 'Any key released' conditions, full list of valid key names, touchscreen note, and clarified the 'Last pressed key' expression"
     }
   ]
 }
