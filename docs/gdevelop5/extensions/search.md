@@ -21,6 +21,10 @@ Type something in the search bar to filter extensions according to what you woul
 
 Extensions are presented with their names, followed by a short description. This should give you an idea of what the extension can do in your game.
 
+!!! tip
+
+    You can also search for and install extensions without leaving the events sheet: when looking for an action or condition, use the *Search for new actions/conditions in extensions* entry to open the extension search directly. After installing, the new actions and conditions are immediately available.
+
 ## Install an extension
 
 If you find an interesting extension, click on it to open a window with more details. For example, here is an overview of the "Flash (blink)" extension:
