@@ -8,7 +8,7 @@ One SDK for cross-platform publishing HTML5 games.
 ---
 
 One SDK for cross-platform publishing HTML5 games. 
-Please refer to [Playgama documentation](https://wiki.playgama.com/playgama/sdk/engines/gdevelop) for detailed guidance.
+Please refer to [Playgama documentation](https://wiki.playgama.com/playgama/sdk/getting-started) for detailed guidance.
 
 [Read more...](/gdevelop5/extensions/playgama-bridge/details)
 
