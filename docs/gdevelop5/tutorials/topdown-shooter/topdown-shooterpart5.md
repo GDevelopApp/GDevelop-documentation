@@ -16,11 +16,11 @@ In this tutorial, you will learn how to :
 You are reading Part 5 of the Top-Down Shooter Tutorial. If you haven't read Part 4, then you can read it by selecting it down below.
 
 1.   [Part 1](/gdevelop5/tutorials/topdown-shooter)
-2.   [Part 2](/gdevelop5/tutorials/topdown-shooter/topdown-shooterPart2)
-3.   [Part 3](/gdevelop5/tutorials/topdown-shooter/topdown-shooterPart3)
-4.   [Part 4](/gdevelop5/tutorials/topdown-shooter/topdown-shooterPart4)
+2.   [Part 2](/gdevelop5/tutorials/topdown-shooter/topdown-shooterpart2)
+3.   [Part 3](/gdevelop5/tutorials/topdown-shooter/topdown-shooterpart3)
+4.   [Part 4](/gdevelop5/tutorials/topdown-shooter/topdown-shooterpart4)
 5.   Part 5
-6.  [Part 6](/gdevelop5/tutorials/topdown-shooter/topdown-shooterPart6)
+6.  [Part 6](/gdevelop5/tutorials/topdown-shooter/topdown-shooterpart6)
 
 This tutorial will help you to begin to use **GDevelop**. You will create a **top-down shooter**game where the player shoots and kills the enemy. Note that you can read the [Getting Started](/gdevelop5/getting_started/) page to get an overview of the software. It explains the main concepts and describes the interface of **GDevelop**.
 

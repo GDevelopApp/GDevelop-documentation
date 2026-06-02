@@ -17,11 +17,11 @@ In this tutorial, you will learn how to :
 You are reading Part 3 of the Top-Down Shooter Tutorial. If you haven't read Part 2, then you can read it by selecting it down below.
 
 1.   [Part 1](/gdevelop5/tutorials/topdown-shooter)
-2.   [Part 2](/gdevelop5/tutorials/topdown-shooter/topdown-shooterPart2)
+2.   [Part 2](/gdevelop5/tutorials/topdown-shooter/topdown-shooterpart2)
 3.   Part 3
-4.   [Part 4](/gdevelop5/tutorials/topdown-shooter/topdown-shooterPart4)
-5.   [Part 5](/gdevelop5/tutorials/topdown-shooter/topdown-shooterPart5)
-6.  [Part 6](/gdevelop5/tutorials/topdown-shooter/topdown-shooterPart6)
+4.   [Part 4](/gdevelop5/tutorials/topdown-shooter/topdown-shooterpart4)
+5.   [Part 5](/gdevelop5/tutorials/topdown-shooter/topdown-shooterpart5)
+6.  [Part 6](/gdevelop5/tutorials/topdown-shooter/topdown-shooterpart6)
 
 This tutorial will help you to begin to use **GDevelop**. You will create a **top-down shooter**game where the player shoots and kills the enemy. Note that you can read the [Getting Started](/gdevelop5/getting_started/) page to get an overview of the software. It explains the main concepts and describes the interface of **GDevelop**.
 
@@ -98,4 +98,4 @@ Now we have our **Health**. But we still have a lot to do. Now, if we want our *
 
 ## Conclusion
 
-In this part, we created a **Health Bar** for our **Player** and displayed it successfully. In [Part 4](/gdevelop5/tutorials/topdown-shooter/topdown-shooterPart4), we will learn to make our **Enemy** using Pathfinding Behavior and using it to damage our Player.
+In this part, we created a **Health Bar** for our **Player** and displayed it successfully. In [Part 4](/gdevelop5/tutorials/topdown-shooter/topdown-shooterpart4), we will learn to make our **Enemy** using Pathfinding Behavior and using it to damage our Player.
