@@ -9,5 +9,4 @@ nav:
   - Top-Down Movement behavior: topdown
   - Tween behavior: tween
   - ...
-  - All behaviors: /gdevelop5/behaviors/all-behaviors
   - Custom behaviors: events-based-behaviors
