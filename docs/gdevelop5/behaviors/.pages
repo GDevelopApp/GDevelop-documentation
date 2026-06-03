@@ -9,4 +9,5 @@ nav:
   - Top-Down Movement behavior: topdown
   - Tween behavior: tween
   - ...
+  - All behaviors: all-behaviors
   - Custom behaviors: events-based-behaviors

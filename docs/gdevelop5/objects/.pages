@@ -10,4 +10,5 @@ nav:
     - 3D Light: 3d-light
     - ...
     - External Tilemap (LDtk/Tiled): tilemap
+    - All objects: all-objects
     - Custom Objects ("Prefabs"): custom-objects-prefab-template
