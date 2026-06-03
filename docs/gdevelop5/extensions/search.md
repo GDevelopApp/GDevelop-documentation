@@ -33,6 +33,10 @@ Click on **Install in project** to download the extension. You can see it is the
 
 ![](/gdevelop5/extensions/search/pasted/20230305-114754.png)
 
+!!! tip
+
+    You can also install an extension without leaving the events sheet: when searching for an action or a condition, results from extensions that are not yet installed are also shown. Choosing one of them offers to install its extension in the project straight away.
+
 ## Use the new extension
 
 Once the extension is installed, you can usually:

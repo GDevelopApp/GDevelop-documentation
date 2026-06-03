@@ -15,7 +15,7 @@ The first field ask you for the extension where the function must be stored. Rem
 
 This will allow then to share the extension and reuse it in other games with little to no changes.
 
-You can either select an existing extension or enter the name of a new one - that will be created for you.
+You can either select an existing extension or enter the name of a new one - that will be created for you. By default, a valid extension and function name are already suggested, so you can create the function right away and adjust the names if needed.
 
 Enter then the name of the function. Like the name of an extension, the name of a function is limited to alphanumerical characters (0-9, a-Z) and underscores. No spaces are allowed.
 
