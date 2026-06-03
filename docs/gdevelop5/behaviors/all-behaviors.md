@@ -10,6 +10,7 @@ are provided in GDevelop.
 ||Name|Description||
 |---|---|---|---|
 |<img src="/gdevelop5/icons/CppPlatform/Extensions/destroyoutsideicon.png" class="extension-icon"></img>|**Destroy when outside of the screen**|Destroy objects automatically when they go outside of the 2D camera borders.|[Read more...](/gdevelop5/behaviors/destroyoutside) ([reference](/gdevelop5/all-features/destroy-outside-behavior/reference))|
+|<img src="/gdevelop5/icons/res/actions/saveUp.svg" class="extension-icon"></img>|**Save state configuration**|Allow the customize how the object is persisted in a save state.|[Read more...](/gdevelop5/all-features/save-state) ([reference](/gdevelop5/all-features/save-state/reference))|
 
 ### Movement
 
@@ -21,6 +22,16 @@ are provided in GDevelop.
 |<img src="/gdevelop5/icons/CppPlatform/Extensions/AStaricon.png" class="extension-icon"></img>|**Pathfinding**|Move objects to a target while avoiding all objects that are flagged as obstacles.|[Read more...](/gdevelop5/behaviors/pathfinding) ([reference](/gdevelop5/all-features/pathfinding-behavior/reference))|
 |<img src="/gdevelop5/icons/CppPlatform/Extensions/pathfindingobstacleicon.png" class="extension-icon"></img>|**Obstacle for pathfinding**|Flag objects as being obstacles for pathfinding.|[Read more...](/gdevelop5/behaviors/pathfinding) ([reference](/gdevelop5/all-features/pathfinding-behavior/reference))|
 |<img src="/gdevelop5/icons/res/physics-deprecated32.png" class="extension-icon"></img>|**Physics Engine**|Make objects move as if they are subject to the laws of physics. If you're creating a new game, prefer Physics Engine 2.0|[Read more...](/gdevelop5/behaviors/physics) ([reference](/gdevelop5/all-features/physics-behavior/reference))|
+|<img src="/gdevelop5/icons/res/physics32.png" class="extension-icon"></img>|**2D Physics Engine**|Simulate realistic 2D physics for the object including gravity, forces, collisions, and joints.|[Read more...](/gdevelop5/behaviors/physics2) ([reference](/gdevelop5/all-features/physics2/reference))|
+|<img src="/gdevelop5/icons/JsPlatform/Extensions/physics3d.svg" class="extension-icon"></img>|**3D physics engine**|Simulate realistic 3D physics for this object including gravity, forces, collisions, etc.|[Read more...](/gdevelop5/behaviors/physics3d) ([reference](/gdevelop5/all-features/physics3d/reference))|
+|<img src="/gdevelop5/icons/JsPlatform/Extensions/physics_car3d.svg" class="extension-icon"></img>|**3D physics car**|Simulate a realistic car using the 3D physics engine. This is mostly useful for the car controlled b...|[Read more...](/gdevelop5/behaviors/physics3d) ([reference](/gdevelop5/all-features/physics3d/reference))|
+|<img src="/gdevelop5/icons/JsPlatform/Extensions/physics_character3d.svg" class="extension-icon"></img>|**3D physics character**|Allow an object to jump and run on platforms that have the 3D physics behavior(and which are general...|[Read more...](/gdevelop5/behaviors/physics3d) ([reference](/gdevelop5/all-features/physics3d/reference))|
+
+### Players
+
+||Name|Description||
+|---|---|---|---|
+|<img src="/gdevelop5/icons/JsPlatform/Extensions/multiplayer.svg" class="extension-icon"></img>|**Multiplayer object**|Allow the object to be synchronized with other players in the lobby.|[Read more...](/gdevelop5/all-features/multiplayer) ([reference](/gdevelop5/all-features/multiplayer/reference))|
 
 ### User interface
 
@@ -28,6 +39,13 @@ are provided in GDevelop.
 |---|---|---|---|
 |<img src="/gdevelop5/icons/CppPlatform/Extensions/draggableicon.png" class="extension-icon"></img>|**Draggable object**|Move objects by holding a mouse button (or touch).|[Read more...](/gdevelop5/behaviors/draggable) ([reference](/gdevelop5/all-features/draggable-behavior/reference))|
 |<img src="/gdevelop5/icons/CppPlatform/Extensions/AnchorIcon.png" class="extension-icon"></img>|**Anchor**|Anchor objects to the window's bounds.|[Read more...](/gdevelop5/behaviors/anchor) ([reference](/gdevelop5/all-features/anchor-behavior/reference))|
+
+### Visual effect
+
+||Name|Description||
+|---|---|---|---|
+|<img src="/gdevelop5/icons/CppPlatform/Extensions/lightObstacleIcon32.png" class="extension-icon"></img>|**Light Obstacle Behavior**|Flag objects as being obstacles to 2D lights. The light emitted by light objects will be stopped by ...|[Read more...](/gdevelop5/all-features/lighting/reference)|
+|<img src="/gdevelop5/icons/JsPlatform/Extensions/tween_behavior32.png" class="extension-icon"></img>|**Tween**|Smoothly animate position, angle, scale and other properties of objects.|[Read more...](/gdevelop5/behaviors/tween) ([reference](/gdevelop5/all-features/tween/reference))|
 
 ## Reviewed behaviors
 
@@ -282,4 +300,5 @@ that handles several object types at once.
 |<img src="/gdevelop5/icons/res/actions/scale24_black.png" class="extension-icon"></img>|**Scalable objects**|Actions/conditions/expression to change or check the scale of an object (default: 1).|[Read more...](/gdevelop5/objects) ([reference](/gdevelop5/all-features/scalable-capability/reference))|
 |<img src="/gdevelop5/icons/res/actions/opacity24.png" class="extension-icon"></img>|**Objects with opacity**|Action/condition/expression to change or check the opacity of an object (0-255).|[Read more...](/gdevelop5/objects) ([reference](/gdevelop5/all-features/opacity-capability/reference))|
 |<img src="/gdevelop5/icons/res/conditions/text24_black.png" class="extension-icon"></img>|**Objects containing a text**|Allows an object to contain a text, usually shown on screen, that can be modified.|[Read more...](/gdevelop5/objects) ([reference](/gdevelop5/all-features/text-container-capability/reference))|
+|<img src="/gdevelop5/icons/res/conditions/3d_box.svg" class="extension-icon"></img>|**3D capability**|Common features for all 3D objects: position in 3D space (including the Z axis, in addition to X and...|[Read more...](/gdevelop5/all-features/scene3d/reference)|
 

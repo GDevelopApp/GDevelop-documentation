@@ -10,6 +10,10 @@ provided in GDevelop.
 ||Name|Description||
 |---|---|---|---|
 |<img src="/gdevelop5/icons/CppPlatform/Extensions/primitivedrawingicon.png" class="extension-icon"></img>|**Shape painter**|Draw basic 2D shapes using events.|[Read more...](/gdevelop5/objects/shape_painter) ([reference](/gdevelop5/all-features/primitive-drawing/reference))|
+|<img src="/gdevelop5/icons/JsPlatform/Extensions/spine.svg" class="extension-icon"></img>|**Spine (experimental)**|Display and smoothly animate a 2D object with skeletal animations made with Spine. Use files exported from Spine (json, atlas and image).|[Read more...](/gdevelop5/objects/spine) ([reference](/gdevelop5/all-features/spine-object/reference))|
+|<img src="/gdevelop5/icons/JsPlatform/Extensions/tile_map_collision_mask32.svg" class="extension-icon"></img>|**External Tilemap (Tiled/LDtk) collision mask**|Invisible object handling collisions with parts of a tilemap.|[Read more...](/gdevelop5/objects/tilemap) ([reference](/gdevelop5/all-features/tilemap/reference))|
+|<img src="/gdevelop5/icons/JsPlatform/Extensions/tile_map.svg" class="extension-icon"></img>|**Tile map**|Grid-based map built from reusable tiles.|[Read more...](/gdevelop5/objects/tilemap) ([reference](/gdevelop5/all-features/tilemap/reference))|
+|<img src="/gdevelop5/icons/JsPlatform/Extensions/tile_map.svg" class="extension-icon"></img>|**External Tilemap (Tiled/LDtk)**|Tilemap imported from external editors like LDtk or Tiled.|[Read more...](/gdevelop5/objects/tilemap) ([reference](/gdevelop5/all-features/tilemap/reference))|
 
 ### General
 
@@ -19,18 +23,30 @@ provided in GDevelop.
 |<img src="/gdevelop5/icons/CppPlatform/Extensions/spriteicon.png" class="extension-icon"></img>|**Sprite**|Animated object which can be used for most elements of a 2D game.|[Read more...](/gdevelop5/objects/sprite) ([reference](/gdevelop5/all-features/sprite/reference))|
 |<img src="/gdevelop5/icons/CppPlatform/Extensions/TiledSpriteIcon.png" class="extension-icon"></img>|**Tiled Sprite**|Displays an image repeated over an area.|[Read more...](/gdevelop5/objects/tiled_sprite) ([reference](/gdevelop5/all-features/tiled-sprite-object/reference))|
 |<img src="/gdevelop5/icons/CppPlatform/Extensions/PanelSpriteIcon.png" class="extension-icon"></img>|**Panel Sprite ("9-patch")**|An image with edges and corners that are stretched separately from the full image.|[Read more...](/gdevelop5/objects/panel_sprite) ([reference](/gdevelop5/all-features/panel-sprite-object/reference))|
+|<img src="/gdevelop5/icons/JsPlatform/Extensions/3d_box.svg" class="extension-icon"></img>|**3D Box**|A box with images for each face|[Read more...](/gdevelop5/all-features/scene3d/reference)|
+|<img src="/gdevelop5/icons/JsPlatform/Extensions/3d_model.svg" class="extension-icon"></img>|**3D Model**|An animated 3D model, useful for most elements of a 3D game.|[Read more...](/gdevelop5/all-features/scene3d/reference)|
 
 ### Text
 
 ||Name|Description||
 |---|---|---|---|
 |<img src="/gdevelop5/icons/CppPlatform/Extensions/texticon.png" class="extension-icon"></img>|**Text**|Displays a text on the screen.|[Read more...](/gdevelop5/objects/text) ([reference](/gdevelop5/all-features/text-object/reference))|
+|<img src="/gdevelop5/icons/JsPlatform/Extensions/bbcode32.png" class="extension-icon"></img>|**BBText**|Formatted text allowing to mix styles using BBCode markup.|[Read more...](/gdevelop5/objects/bbtext) ([reference](/gdevelop5/all-features/bbtext/reference))|
+|<img src="/gdevelop5/icons/JsPlatform/Extensions/bitmapfont32.png" class="extension-icon"></img>|**Bitmap Text**|Image-based text.|[Read more...](/gdevelop5/objects/bitmap_text) ([reference](/gdevelop5/all-features/bitmap-text/reference))|
+
+### User interface
+
+||Name|Description||
+|---|---|---|---|
+|<img src="/gdevelop5/icons/JsPlatform/Extensions/text_input.svg" class="extension-icon"></img>|**Text input**|A text field the player can type text into.|[Read more...](/gdevelop5/all-features/text-input/reference)|
+|<img src="/gdevelop5/icons/JsPlatform/Extensions/videoicon32.png" class="extension-icon"></img>|**Video**|Displays a video.|[Read more...](/gdevelop5/objects/video) ([reference](/gdevelop5/all-features/video/reference))|
 
 ### Visual effect
 
 ||Name|Description||
 |---|---|---|---|
 |<img src="/gdevelop5/icons/CppPlatform/Extensions/particleSystemicon.png" class="extension-icon"></img>|**2D particles emitter**|2D effects like smoke, fire or sparks.|[Read more...](/gdevelop5/objects/particles_emitter) ([reference](/gdevelop5/all-features/particle-system/reference))|
+|<img src="/gdevelop5/icons/CppPlatform/Extensions/lightIcon32.png" class="extension-icon"></img>|**Light**|Displays a 2D light on the scene, with a customizable radius and color. Then add the Light Obstacle ...|[Read more...](/gdevelop5/all-features/lighting/reference)|
 
 ## Reviewed objects
 
