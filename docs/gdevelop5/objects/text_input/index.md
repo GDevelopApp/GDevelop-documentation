@@ -40,6 +40,18 @@ According to the type, some devices might display visual aids or **a different k
 After adding a Text Input object, put an instance on the scene. You can then use the expression `Text` on the object in the events to read the text. For example, this event copies the content of the field into a [Text object](/gdevelop5/objects/text) (to display it somewhere else on the screen):
 ![](pasted/20220310-010309.png)
 
+To know when the player is done typing, use the **Input is submitted** condition. This is triggered when the player presses the Enter key on a keyboard, or the corresponding button on a mobile virtual keyboard. It's the natural way to react to a search query or to validate a login form without adding a separate button.
+
+## Focusing the field
+
+A field is *focused* when the cursor is in it and the player can type. Use the **Focused** condition to check this state, and the **Focus** action to put the cursor in the field from events (as if the player had touched or clicked it). This is useful to automatically select the first field of a form when a scene starts, or to move focus to the next field after a submission.
+
+## Placeholder and limiting the input
+
+A **placeholder** is the greyed-out hint text displayed while the field is empty (for example "Enter your name..."). It disappears as soon as the player types and is never returned by the `Text` expression.
+
+You can also set a **maximum length** to limit how many characters the player can enter, which is handy for things like usernames or fixed-length codes.
+
 ## Read-only and disabled fields
 
 You can set, either from the object properties or using actions, the field as :
