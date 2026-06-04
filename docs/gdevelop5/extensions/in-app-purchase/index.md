@@ -26,6 +26,8 @@ The general worflow is the following:
 - When the player clicks on a product, use the action to order it,
 - If the purchase is approved (the variable you set up is set to true), give the user what they bought
 
+> ⚠️ Apple requires apps with in-app purchases to offer a **"Restore purchases" button**, otherwise they will be **rejected during the App Store review**. Add a button in your game that calls the action *"Restore purchases"*, then use the condition *"Product is owned"* (or the "approved" product events) to unlock what the user paid for.
+
 
 [Read more...](/gdevelop5/extensions/in-app-purchase/setup)
 
@@ -99,6 +101,19 @@ Make sure you register them all and finalize registration before ordering a prod
 
     > Technical note: this action internal type (in GDevelop JSON) is `InAppPurchase::RegisterItem`.
 
+**Restore purchases**  
+Replay the user's transactions to restore their previous purchases. This is required by Apple: apps with in-app purchases must offer a button to "Restore purchases", otherwise they will be rejected during the App Store review.  
+
+When the restoration is done, the scene variable is set to true. Restored purchases will also trigger the "approved" event of the products, so the unlocking logic set up with the action "Update a variable when a product event is triggered" will run again. You can also use the condition "Product is owned" to check if a product is owned after restoring.
+
+??? quote "See parameters & details"
+
+    - Parameter 1 (🔤 String): The name of the scene variable to set to "true" when the restoration is done
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `InAppPurchase::RestorePurchases`.
+
 **Update a variable when a product event is triggered**  
 When an event is triggered for a product (approved or finished), this sets a scene variable to true.   
 You can then compare the value of the variable in a condition, and have actions launched to react to the changes.
@@ -119,6 +134,19 @@ Finished is triggered after you have marked the purchased as delivered (less use
 
 
 ## Conditions
+
+**Product is owned**  
+Check if a product is owned by the user (for example a non-consumable product that was purchased, or an active subscription). Useful after restoring the purchases of the user to unlock the content they paid for.  
+
+Ensure you use the condition to check if the store is ready and that the product ID has been registered and finalized before using this condition.
+
+??? quote "See parameters & details"
+
+    - Parameter 1 (🔤 String): The id or alias of the product to check
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `InAppPurchase::ProductOwned`.
 
 **Store is ready**  
 Triggers after finalizing the registration. Products can then be retrieved and purchased (you can get data of a product like the price, you can use the action to order a product...).
