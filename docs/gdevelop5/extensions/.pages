@@ -162,8 +162,6 @@ nav:
         - Tween into view: tween-into-view
         - YSort: ysort
     - Experimental extensions:
-        - 3D:
-            - 3D foliage swaying: foliage-swaying3d
         - Advanced:
             - Crypto Api: crypto-api
             - Game properties data: get-properties-data
@@ -239,6 +237,7 @@ nav:
             - Animation system: animation-system
             - Character game feel: character-game-feel
             - Dynamic Water: dynamic-water
+            - 3D foliage swaying: foliage-swaying3d
             - Make it rain: make-it-rain
             - Object recolorizer (experimental): recolorizer
             - Reflection: reflection

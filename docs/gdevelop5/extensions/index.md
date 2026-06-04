@@ -231,12 +231,6 @@ The following extensions are made by a community members and they only got
 though a light review by the GDevelop extension team. As such, we can't
 guarantee they meet all the quality standards of fully reviewed extensions.
 
-### 3D
-
-||Name|Description||
-|---|---|---|---|
-|<img src="https://asset-resources.gdevelop.io/public-resources/Icons/732ef90b7fcf5dd9171fe95d0cf262e09159b487304915a4693baa893d9ce16c_grass.svg" class="extension-icon"></img>|**3D foliage swaying**|Sway foliage of 3D objects according to the wind.|[Read more...](/gdevelop5/extensions/foliage-swaying3d)|
-
 ### Advanced
 
 ||Name|Description||
@@ -338,7 +332,7 @@ guarantee they meet all the quality standards of fully reviewed extensions.
 
 ||Name|Description||
 |---|---|---|---|
-|<img src="https://asset-resources.gdevelop.io/public-resources/Icons/61baa8834b0d9487f3e61ff92262e69581d7d4bed684b5016dcc4c9a0ba75db4_gamepad-variant-outline.svg" class="extension-icon"></img>|**GamePix SDK**|The GamePix game SDK provides a series of utility methods needed for running your game in the GamePi...|[Read more...](/gdevelop5/extensions/game-pix-sdk)|
+|<img src="https://asset-resources.gdevelop.io/public-resources/Icons/61baa8834b0d9487f3e61ff92262e69581d7d4bed684b5016dcc4c9a0ba75db4_gamepad-variant-outline.svg" class="extension-icon"></img>|**GamePix SDK**|The GamePix game SDK provides a series of utility methods needed for running your game in the GamePix ecosystem.|[Read more...](/gdevelop5/extensions/game-pix-sdk)|
 |<img src="https://asset-resources.gdevelop.io/public-resources/Icons/Glyphster Pack/Master/SVG/Graphic Design/7e88b8d233e2643ac7abf20c1c7373e93ab9d8b42236b431709fa910883c818a_Graphic Design_flash_light_on_bolt_lightning.svg" class="extension-icon"></img>|**Gamejolt**|Support the complete Gamejolt API.|[Read more...](https://gamejolt.com/game-api/doc) ([reference](/gdevelop5/extensions/gamejolt-api))|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/api.svg" class="extension-icon"></img>|**Newgrounds API**|Allows developers to use newgrounds API.|[Read more...](https://bitbucket.org/newgrounds/newgrounds.io-for-javascript-html5/src/master/) ([reference](/gdevelop5/extensions/newgrounds-api))|
 |<img src="https://asset-resources.gdevelop.io/public-resources/Icons/17afc029e0ccfc314f5b7f5f53632ca24b3e6082d0cc87c0777dcfa79fd56e0b_chat-processing-outline.svg" class="extension-icon"></img>|**OllamaAI**|This extension adds the functionality to your project to easily send requests to the "Ollama" AI, and get responses from it.|[Read more...](/gdevelop5/extensions/ollama-ai)|
@@ -363,6 +357,7 @@ guarantee they meet all the quality standards of fully reviewed extensions.
 |<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Videogames/Videogames_videogame_pacman_ghost_character_play.svg" class="extension-icon"></img>|**Animation system**|Adds easy to use pre-made animations.|[Read more...](/gdevelop5/extensions/animation-system)|
 |<img src="https://asset-resources.gdevelop.io/public-resources/Icons/Line Hero Pack/Master/SVG/Videogames/a9c73353ecb47ef44b3cf3c744d303a7df2b28787b82eeb1d9cceb2a3980ad9c_Videogames_videogame_pacman_game_video.svg" class="extension-icon"></img>|**Character game feel**|Add game feel to your platformer character object.|[Read more...](/gdevelop5/extensions/character-game-feel)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/waves.svg" class="extension-icon"></img>|**Dynamic Water**|Easily create a realistic liquid surface simulation.|[Read more...](/gdevelop5/extensions/dynamic-water)|
+|<img src="https://asset-resources.gdevelop.io/public-resources/Icons/732ef90b7fcf5dd9171fe95d0cf262e09159b487304915a4693baa893d9ce16c_grass.svg" class="extension-icon"></img>|**3D foliage swaying**|Sway foliage of 3D objects according to the wind.|[Read more...](/gdevelop5/extensions/foliage-swaying3d)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Weather/Weather_forecast_umbrella_weather_rain_water_drop.svg" class="extension-icon"></img>|**Make it rain**|Make an object rain from a selected direction or a selected object.|[Read more...](/gdevelop5/extensions/make-it-rain)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Graphic Design/Graphic Design_color_colour_palette_paint_brush.svg" class="extension-icon"></img>|**Object recolorizer (experimental)**|Independently change the colors of a sprite, a tiled sprite or a panel sprite.|[Read more...](/gdevelop5/extensions/recolorizer)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/reflect-vertical.svg" class="extension-icon"></img>|**Reflection**|Add a reflection to a selected object.|[Read more...](/gdevelop5/extensions/reflection)|

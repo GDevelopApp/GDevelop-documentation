@@ -1,4 +1,4 @@
-# Objects
+# All objects
 
 This page lists all the [objects](/gdevelop5/objects/) that are 
 provided in GDevelop.
@@ -63,9 +63,7 @@ In addition to core features, new objects are provided by
 
 ||Name|Description||
 |---|---|---|---|
-|<img src="https://asset-resources.gdevelop.io/public-resources/Icons/Glyphster Pack/Master/SVG/Applications and Programming/a99813f48b4c6bc26cf2a28cb711a75105386ad69408d7e895ff69bb29051e95_Applications and Programming_application_coding_web_page_add.svg" class="extension-icon"></img>|**Multiplayer custom lobbies**|Customize the interface of multiplayer lobbies.
-
-Joining will only work if the "join after game star...|[Read more...](/gdevelop5/extensions/multiplayer-custom-lobbies)|
+|<img src="https://asset-resources.gdevelop.io/public-resources/Icons/Glyphster Pack/Master/SVG/Applications and Programming/a99813f48b4c6bc26cf2a28cb711a75105386ad69408d7e895ff69bb29051e95_Applications and Programming_application_coding_web_page_add.svg" class="extension-icon"></img>|**Multiplayer custom lobbies**|Customize the interface of multiplayer lobbies.|[Read more...](/gdevelop5/extensions/multiplayer-custom-lobbies)|
 
 ### User interface
 

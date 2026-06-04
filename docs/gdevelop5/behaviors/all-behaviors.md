@@ -206,12 +206,6 @@ The following behaviors are made by a community members and they only got
 though a light review by the GDevelop extension team. As such, we can't
 guarantee they meet all the quality standards of fully reviewed behaviors.
 
-### 3D
-
-||Name|Description||
-|---|---|---|---|
-|<img src="https://asset-resources.gdevelop.io/public-resources/Icons/ad5e8116ff9fc4eabc9004870679c85f30189302c6d07050ab8dc20307ee5ea4_tailwind.svg" class="extension-icon"></img>|**Foliage swaying**|Sway foliage according to the wind.|[Read more...](/gdevelop5/extensions/foliage-swaying3d)|
-
 ### Game mechanic
 
 ||Name|Description||
@@ -242,15 +236,10 @@ guarantee they meet all the quality standards of fully reviewed behaviors.
 |<img src="https://asset-resources.gdevelop.io/public-resources/Icons/Glyphster Pack/Master/SVG/Space/9ea467d2404c1736b87d763c884e9b9dfb13a401360f69c6a17afc8f5d583d58_Space_warp_galaxy.svg" class="extension-icon"></img>|**Hedgehog character animator**|Change animations and horizontal flipping of hedgehog characters automatically.|[Read more...](/gdevelop5/extensions/hedgehog-platformer)|
 |<img src="https://asset-resources.gdevelop.io/public-resources/Icons/Glyphster Pack/Master/SVG/Space/9ea467d2404c1736b87d763c884e9b9dfb13a401360f69c6a17afc8f5d583d58_Space_warp_galaxy.svg" class="extension-icon"></img>|**Hedgehog character rolling**|Toggle rolling mode.|[Read more...](/gdevelop5/extensions/hedgehog-platformer)|
 |<img src="https://asset-resources.gdevelop.io/public-resources/Icons/Glyphster Pack/Master/SVG/Space/9ea467d2404c1736b87d763c884e9b9dfb13a401360f69c6a17afc8f5d583d58_Space_warp_galaxy.svg" class="extension-icon"></img>|**Hedgehog spring**|Push hedgehog characters.|[Read more...](/gdevelop5/extensions/hedgehog-platformer)|
-|<img src="https://asset-resources.gdevelop.io/public-resources/Icons/8834e0c63a962c74f1dab4c8f918c171261597341c4ca6574b300ab35855274b_human.svg" class="extension-icon"></img>|**Revolute joint connector**|Create and manage revolute joints between two objects.
-Also known as a hinge joint because the objec...|[Read more...](/gdevelop5/extensions/joint-connector)|
-|<img src="https://asset-resources.gdevelop.io/public-resources/Icons/8834e0c63a962c74f1dab4c8f918c171261597341c4ca6574b300ab35855274b_human.svg" class="extension-icon"></img>|**Weld joint connector**|Create and manage weld joints between two objects.
-Also known as a static joint because the objects ...|[Read more...](/gdevelop5/extensions/joint-connector)|
-|<img src="https://asset-resources.gdevelop.io/public-resources/Icons/8834e0c63a962c74f1dab4c8f918c171261597341c4ca6574b300ab35855274b_human.svg" class="extension-icon"></img>|**Distance joint connector**|Create and manage distance joints between two objects. 
-Acts like a spring because the objects try to stay the same distance apart.|[Read more...](/gdevelop5/extensions/joint-connector)|
-|<img src="https://asset-resources.gdevelop.io/public-resources/Icons/8834e0c63a962c74f1dab4c8f918c171261597341c4ca6574b300ab35855274b_human.svg" class="extension-icon"></img>|**Rope joint connector**|Create and manage rope joints between two objects. 
-Objects can get closer, but they cannot exceed the starting distance from each other.
-|[Read more...](/gdevelop5/extensions/joint-connector)|
+|<img src="https://asset-resources.gdevelop.io/public-resources/Icons/8834e0c63a962c74f1dab4c8f918c171261597341c4ca6574b300ab35855274b_human.svg" class="extension-icon"></img>|**Revolute joint connector**|Create and manage revolute joints between two objects.|[Read more...](/gdevelop5/extensions/joint-connector)|
+|<img src="https://asset-resources.gdevelop.io/public-resources/Icons/8834e0c63a962c74f1dab4c8f918c171261597341c4ca6574b300ab35855274b_human.svg" class="extension-icon"></img>|**Weld joint connector**|Create and manage weld joints between two objects.|[Read more...](/gdevelop5/extensions/joint-connector)|
+|<img src="https://asset-resources.gdevelop.io/public-resources/Icons/8834e0c63a962c74f1dab4c8f918c171261597341c4ca6574b300ab35855274b_human.svg" class="extension-icon"></img>|**Distance joint connector**|Create and manage distance joints between two objects. |[Read more...](/gdevelop5/extensions/joint-connector)|
+|<img src="https://asset-resources.gdevelop.io/public-resources/Icons/8834e0c63a962c74f1dab4c8f918c171261597341c4ca6574b300ab35855274b_human.svg" class="extension-icon"></img>|**Rope joint connector**|Create and manage rope joints between two objects. |[Read more...](/gdevelop5/extensions/joint-connector)|
 |<img src="https://asset-resources.gdevelop.io/public-resources/Icons/Line Hero Pack/Master/SVG/Sports and Fitness/29b5c1893f81031cca98c9a1c447464b433717bdf3569ce5fac7c7cb0a8a2b82_Sports and Fitness_gym_running_foot_run.svg" class="extension-icon"></img>|**3D jump (deprecated)**|Jump and fall along Z axis.|[Read more...](/gdevelop5/extensions/jump3d)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/magnet.svg" class="extension-icon"></img>|**Magnetic Effect**|Attraction to another object, with customisable speed and distance.|[Read more...](/gdevelop5/extensions/magnetic-effect)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Maps and Navigation/Maps and Navigation_map_find_search.svg" class="extension-icon"></img>|**Navigation mesh pathfinding (experimental)**|Move objects to a target in straight lines while avoiding all objects that are flagged as obstacles.|[Read more...](/gdevelop5/extensions/nav-mesh-pathfinding)|
@@ -278,6 +267,7 @@ Objects can get closer, but they cannot exceed the starting distance from each o
 |<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Videogames/Videogames_videogame_pacman_ghost_character_play.svg" class="extension-icon"></img>|**Animation Behavior**|Animate any sprite with this extension.|[Read more...](/gdevelop5/extensions/animation-system)|
 |<img src="https://asset-resources.gdevelop.io/public-resources/Icons/Line Hero Pack/Master/SVG/Videogames/a9c73353ecb47ef44b3cf3c744d303a7df2b28787b82eeb1d9cceb2a3980ad9c_Videogames_videogame_pacman_game_video.svg" class="extension-icon"></img>|**Character game feel**|For platformer character.|[Read more...](/gdevelop5/extensions/character-game-feel)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/waves.svg" class="extension-icon"></img>|**Dynamic Water Body**|Easily create a realistic liquid surface simulation.|[Read more...](/gdevelop5/extensions/dynamic-water)|
+|<img src="https://asset-resources.gdevelop.io/public-resources/Icons/ad5e8116ff9fc4eabc9004870679c85f30189302c6d07050ab8dc20307ee5ea4_tailwind.svg" class="extension-icon"></img>|**Foliage swaying**|Sway foliage according to the wind.|[Read more...](/gdevelop5/extensions/foliage-swaying3d)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Graphic Design/Graphic Design_color_colour_palette_paint_brush.svg" class="extension-icon"></img>|**Sprite recolorizer**|Independently change the colors of a sprite.|[Read more...](/gdevelop5/extensions/recolorizer)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Graphic Design/Graphic Design_color_colour_palette_paint_brush.svg" class="extension-icon"></img>|**Tiled sprite recolorizer**|Independently change the colors of a tiled sprite.|[Read more...](/gdevelop5/extensions/recolorizer)|
 |<img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Graphic Design/Graphic Design_color_colour_palette_paint_brush.svg" class="extension-icon"></img>|**Panel sprite recolorizer**|Independently change the colors of a panel sprite.|[Read more...](/gdevelop5/extensions/recolorizer)|
