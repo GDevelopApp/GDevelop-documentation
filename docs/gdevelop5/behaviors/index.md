@@ -34,7 +34,7 @@ Here are some commonly used behaviors:
 - [Tween](/gdevelop5/behaviors/tween)
 - [Multiplayer Object](/gdevelop5/all-features/multiplayer)
 
-While these behaviors are often used, the [full list of behaviors available in GDevelop](/gdevelop5/extensions/) keeps growing every day: see the [list of all GDevelop extensions](/gdevelop5/extensions/) to discover them.
+While these behaviors are often used, the [full list of behaviors available in GDevelop](/behaviors/all-behaviors) keeps growing every day: see the [list of all GDevelop extensions](/gdevelop5/extensions/) to discover them.
 
 Behaviors can be contributed by the community or the GDevelop core development team. You can [create new behaviors](/gdevelop5/behaviors/events-based-behaviors), with or without code, directly inside GDevelop.
 
