@@ -47,7 +47,7 @@ GDevelop offers a wide variety of objects, each designed for a specific use. Bel
 
 !!! tip
 
-    Many more objects are available through extensions, which you can add from the extension library. Advanced users can also **create their own custom objects**, either to create an entirely new kind of object on the screen or to [assemble multiple objects into one ("prefabs")](/gdevelop5/objects/custom-objects-prefab-template).
+    [Many more objects](/gdevelop5/objects/all-objects) are available through extensions, which you can add from the [extension library](/gdevelop5/extensions). Advanced users can also **create their own custom objects**, either to create an entirely new kind of object on the screen or to [assemble multiple objects into one ("prefabs")](/gdevelop5/objects/custom-objects-prefab-template).
 
 ## Adding an object to your game
 
