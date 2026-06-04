@@ -1,6 +1,6 @@
 # Lights Reference
 
-This provides a 2D light object, and a behavior to mark other 2D objects as being obstacles for the lights. This is a great way to create a special atmosphere to your game, along with effects, make it more realistic or to create gameplays based on lights. 
+This provides a 2D light object, and a behavior to mark other 2D objects as being obstacles for the lights. This is a great way to create a special atmosphere to your game, along with effects, make it more realistic or to create gameplays based on lights. [Read more explanations about it.](/gdevelop5/objects/light)
 
 
 

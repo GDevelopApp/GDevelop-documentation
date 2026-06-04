@@ -932,14 +932,14 @@ Support for 3D in GDevelop: this provides 3D objects and the common features for
 
 ## 3D Box (from extension 3D)
 
-A box with images for each face 
+A box with images for each face [Read more explanations about it.](/gdevelop5/objects/3d-box)
 
 _No expressions for this object._
 
 
 ## 3D Model (from extension 3D)
 
-An animated 3D model, useful for most elements of a 3D game. 
+An animated 3D model, useful for most elements of a 3D game. [Read more explanations about it.](/gdevelop5/objects/3d-model)
 
 _No expressions for this object._
 
@@ -1149,14 +1149,14 @@ Allow your game to send scores to your leaderboards (anonymously or from the log
 
 ## Light (from extension Lights)
 
-Displays a 2D light on the scene, with a customizable radius and color. Then add the Light Obstacle behavior to the objects that must act as obstacle to the lights. 
+Displays a 2D light on the scene, with a customizable radius and color. Then add the Light Obstacle behavior to the objects that must act as obstacle to the lights. [Read more explanations about it.](/gdevelop5/objects/light)
 
 _No expressions for this object._
 
 
 ## Light Obstacle Behavior (from extension Lights)
 
-Flag objects as being obstacles to 2D lights. The light emitted by light objects will be stopped by the object. This does not work on 3D objects and 3D games. 
+Flag objects as being obstacles to 2D lights. The light emitted by light objects will be stopped by the object. This does not work on 3D objects and 3D games. [Read more explanations about it.](/gdevelop5/objects/light)
 
 _No expressions for this behavior._
 
@@ -1576,7 +1576,7 @@ Adds integrations for Steam's Steamworks game development SDK.
 
 ## Text input (from extension Text Input)
 
-A text field the player can type text into. 
+A text field the player can type text into. [Read more explanations about it.](/gdevelop5/objects/text_input)
 
 | Expression | Description |  |
 |-----|-----|-----|

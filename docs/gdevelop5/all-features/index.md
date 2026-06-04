@@ -138,7 +138,7 @@ GDevelop can also be extended with extensions: take a look at [the list of exten
 |<img src="" class="extension-icon"></img>|**Text entry object**|Deprecated. Invisible object capturing keyboard text input into a string.|[Read more...](/gdevelop5/objects/text_entry) ([reference](/gdevelop5/all-features/text-entry-object/reference))|
 |<img src="" class="extension-icon"></img>|**Advanced window management**|Window focus, position, size, always-on-top, minimize/maximize, content protection. Desktop only.|[Read more...](/gdevelop5/all-features/advanced-window/reference)|
 |<img src="" class="extension-icon"></img>|**Device vibration**|Trigger vibrations on mobile devices with configurable duration and patterns.|[Read more...](/gdevelop5/all-features/device-vibration) ([reference](/gdevelop5/all-features/device-vibration/reference))|
-|<img src="" class="extension-icon"></img>|**Text Input**|Text input field for players. Placeholder, font, color, disabled state, read-only, focus control.|[Read more...](/gdevelop5/all-features/text-input/reference)|
+|<img src="" class="extension-icon"></img>|**Text Input**|Text input field for players. Placeholder, font, color, disabled state, read-only, focus control.|[Read more...](/gdevelop5/objects/text_input) ([reference](/gdevelop5/all-features/text-input/reference))|
 |<img src="" class="extension-icon"></img>|**Video**|Video object: play/pause/loop MPEG4 videos on screen. Volume, playback speed, opacity control.|[Read more...](/gdevelop5/objects/video) ([reference](/gdevelop5/all-features/video/reference))|
 
 ### Visual effect
@@ -147,7 +147,7 @@ GDevelop can also be extended with extensions: take a look at [the list of exten
 |---|---|---|---|
 |<img src="" class="extension-icon"></img>|**Particle system**|2D particle emitter for fire, smoke, explosions, magic effects. Configurable color, size, speed, lifetime.|[Read more...](/gdevelop5/objects/particles_emitter) ([reference](/gdevelop5/all-features/particle-system/reference))|
 |<img src="" class="extension-icon"></img>|**Effects**|Visual effects: blur, glow, color adjust, outline, shadow, pixelate, CRT, reflection, displacement, and more.|[Read more...](/gdevelop5/interface/scene-editor/layer-effects) ([reference](/gdevelop5/all-features/effects/reference))|
-|<img src="" class="extension-icon"></img>|**Lights**|2D light objects with configurable radius, color, and optional texture. Obstacle behavior blocks light.|[Read more...](/gdevelop5/all-features/lighting/reference)|
+|<img src="" class="extension-icon"></img>|**Lights**|2D light objects with configurable radius, color, and optional texture. Obstacle behavior blocks light.|[Read more...](/gdevelop5/objects/light) ([reference](/gdevelop5/all-features/lighting/reference))|
 |<img src="" class="extension-icon"></img>|**Tweening**|Smoothly animate position, scale, rotation, opacity, color, variables over time. Easing functions.|[Read more...](/gdevelop5/behaviors/tween) ([reference](/gdevelop5/all-features/tween/reference))|
 
 

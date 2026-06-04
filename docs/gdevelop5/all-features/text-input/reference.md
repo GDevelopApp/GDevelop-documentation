@@ -1,6 +1,6 @@
 # Text Input Reference
 
-A text field the player can type text into. 
+A text field the player can type text into. [Read more explanations about it.](/gdevelop5/objects/text_input)
 
 
 

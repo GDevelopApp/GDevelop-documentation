@@ -44,7 +44,7 @@ are provided in GDevelop.
 
 ||Name|Description||
 |---|---|---|---|
-|<img src="/gdevelop5/icons/CppPlatform/Extensions/lightObstacleIcon32.png" class="extension-icon"></img>|**Light Obstacle Behavior**|Flag objects as being obstacles to 2D lights. The light emitted by light objects will be stopped by ...|[Read more...](/gdevelop5/all-features/lighting/reference)|
+|<img src="/gdevelop5/icons/CppPlatform/Extensions/lightObstacleIcon32.png" class="extension-icon"></img>|**Light Obstacle Behavior**|Flag objects as being obstacles to 2D lights. The light emitted by light objects will be stopped by ...|[Read more...](/gdevelop5/objects/light) ([reference](/gdevelop5/all-features/lighting/reference))|
 |<img src="/gdevelop5/icons/JsPlatform/Extensions/tween_behavior32.png" class="extension-icon"></img>|**Tween**|Smoothly animate position, angle, scale and other properties of objects.|[Read more...](/gdevelop5/behaviors/tween) ([reference](/gdevelop5/all-features/tween/reference))|
 
 ## Reviewed behaviors

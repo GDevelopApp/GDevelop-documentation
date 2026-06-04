@@ -23,8 +23,8 @@ provided in GDevelop.
 |<img src="/gdevelop5/icons/CppPlatform/Extensions/spriteicon.png" class="extension-icon"></img>|**Sprite**|Animated object which can be used for most elements of a 2D game.|[Read more...](/gdevelop5/objects/sprite) ([reference](/gdevelop5/all-features/sprite/reference))|
 |<img src="/gdevelop5/icons/CppPlatform/Extensions/TiledSpriteIcon.png" class="extension-icon"></img>|**Tiled Sprite**|Displays an image repeated over an area.|[Read more...](/gdevelop5/objects/tiled_sprite) ([reference](/gdevelop5/all-features/tiled-sprite-object/reference))|
 |<img src="/gdevelop5/icons/CppPlatform/Extensions/PanelSpriteIcon.png" class="extension-icon"></img>|**Panel Sprite ("9-patch")**|An image with edges and corners that are stretched separately from the full image.|[Read more...](/gdevelop5/objects/panel_sprite) ([reference](/gdevelop5/all-features/panel-sprite-object/reference))|
-|<img src="/gdevelop5/icons/JsPlatform/Extensions/3d_box.svg" class="extension-icon"></img>|**3D Box**|A box with images for each face|[Read more...](/gdevelop5/all-features/scene3d/reference)|
-|<img src="/gdevelop5/icons/JsPlatform/Extensions/3d_model.svg" class="extension-icon"></img>|**3D Model**|An animated 3D model, useful for most elements of a 3D game.|[Read more...](/gdevelop5/all-features/scene3d/reference)|
+|<img src="/gdevelop5/icons/JsPlatform/Extensions/3d_box.svg" class="extension-icon"></img>|**3D Box**|A box with images for each face|[Read more...](/gdevelop5/objects/3d-box) ([reference](/gdevelop5/all-features/scene3d/reference))|
+|<img src="/gdevelop5/icons/JsPlatform/Extensions/3d_model.svg" class="extension-icon"></img>|**3D Model**|An animated 3D model, useful for most elements of a 3D game.|[Read more...](/gdevelop5/objects/3d-model) ([reference](/gdevelop5/all-features/scene3d/reference))|
 
 ### Text
 
@@ -38,7 +38,7 @@ provided in GDevelop.
 
 ||Name|Description||
 |---|---|---|---|
-|<img src="/gdevelop5/icons/JsPlatform/Extensions/text_input.svg" class="extension-icon"></img>|**Text input**|A text field the player can type text into.|[Read more...](/gdevelop5/all-features/text-input/reference)|
+|<img src="/gdevelop5/icons/JsPlatform/Extensions/text_input.svg" class="extension-icon"></img>|**Text input**|A text field the player can type text into.|[Read more...](/gdevelop5/objects/text_input) ([reference](/gdevelop5/all-features/text-input/reference))|
 |<img src="/gdevelop5/icons/JsPlatform/Extensions/videoicon32.png" class="extension-icon"></img>|**Video**|Displays a video.|[Read more...](/gdevelop5/objects/video) ([reference](/gdevelop5/all-features/video/reference))|
 
 ### Visual effect
@@ -46,7 +46,7 @@ provided in GDevelop.
 ||Name|Description||
 |---|---|---|---|
 |<img src="/gdevelop5/icons/CppPlatform/Extensions/particleSystemicon.png" class="extension-icon"></img>|**2D particles emitter**|2D effects like smoke, fire or sparks.|[Read more...](/gdevelop5/objects/particles_emitter) ([reference](/gdevelop5/all-features/particle-system/reference))|
-|<img src="/gdevelop5/icons/CppPlatform/Extensions/lightIcon32.png" class="extension-icon"></img>|**Light**|Displays a 2D light on the scene, with a customizable radius and color. Then add the Light Obstacle ...|[Read more...](/gdevelop5/all-features/lighting/reference)|
+|<img src="/gdevelop5/icons/CppPlatform/Extensions/lightIcon32.png" class="extension-icon"></img>|**Light**|Displays a 2D light on the scene, with a customizable radius and color. Then add the Light Obstacle ...|[Read more...](/gdevelop5/objects/light) ([reference](/gdevelop5/all-features/lighting/reference))|
 
 ## Reviewed objects
 
