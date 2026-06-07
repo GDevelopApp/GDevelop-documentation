@@ -198,4 +198,4 @@ Congratulations! Now your example has been submitted, but it won't be directly a
 
 !!! warning
 
-        There is no guarantee that your example will be accepted, it can be rejected if the example is not for the library. Also remember that while it's hard to get some feedback, reviewers are asking for changes because they believe this will improve your example. Try to rework the example using their feedback! Once you think it's good enough, you can ask for another review or discuss points where you might disagree.
+        There is no guarantee your example will be accepted, especially if it doesn't fit [one of the scopes](#choose-a-scope) mentionned above. Also, reviewers may ask for changes to improve the example.
