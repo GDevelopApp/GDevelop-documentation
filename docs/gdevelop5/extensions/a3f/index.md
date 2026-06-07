@@ -454,6 +454,82 @@ Note that if a morph target is affected by a playing animation, it will override
 
     > Technical note: this action internal type (in GDevelop JSON) is `A3F::ResetMorphTargets`.
 
+**👀Rotate child toward 3D object (Experimental)**  
+Rotate the child towards the 3D object.  
+Unlike "👀Look at 3D object", this action rotates toward the target at a specified speed without locking the up direction.
+Note that if a child is affected by a playing animation, it will override this change. In that case, please pause the animation.
+
+??? quote "See parameters & details"
+
+    - Parameter 1: 👾 Object
+    - Parameter 2 (🧩 Behavior): 3D capability
+    - Parameter 3 (🔤 String): Child name
+    - Parameter 4 (🔤 String): Child front (one of: "x", "y", "z", "-x", "-y", "-z")
+    - Parameter 5 (🔢 Number): Angle (in degrees)
+    - Parameter 6 (👾 Object): Target 3D object
+    - Parameter 7 (🧩 Behavior): Target 3D capability
+    - Parameter 8 (🔤 String): Points of the target 3D object (one of: "Center point", "Origin point")
+
+    > Technical note: parameters 0, 9 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `A3F::RotateChildTowardObject`.
+
+**👀Rotate child toward 3D object on axis (Experimental)**  
+Rotates a child toward a target along a single specified axis.  
+The rotation is constrained to the given axis leaving the other axes unchanged.
+Note that if a child is affected by a playing animation, it will override this change. In that case, please pause the animation.
+
+??? quote "See parameters & details"
+
+    - Parameter 1: 👾 Object
+    - Parameter 2 (🧩 Behavior): 3D capability
+    - Parameter 3 (🔤 String): Child name
+    - Parameter 4 (🔤 String): Child front (one of: "x", "y", "z", "-x", "-y", "-z")
+    - Parameter 5 (🔤 String): Axis (one of: "x", "y", "z")
+    - Parameter 6 (🔢 Number): Angle (in degrees)
+    - Parameter 7 (👾 Object): Target 3D object
+    - Parameter 8 (🧩 Behavior): Target 3D capability
+    - Parameter 9 (🔤 String): Points of the target 3D object (one of: "Center point", "Origin point")
+
+    > Technical note: parameters 0, 10 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `A3F::RotateChildTowardOnAxis`.
+
+**👀Rotate toward 3D object (Experimental)**  
+Unlike "👀Look at 3D object", this action rotates toward the target at a specified speed without locking the up direction.
+
+??? quote "See parameters & details"
+
+    - Parameter 1: 👾 Object
+    - Parameter 2 (🧩 Behavior): 3D capability
+    - Parameter 3 (🔢 Number): Angle (in degrees)
+    - Parameter 4 (👾 Object): Target 3D object
+    - Parameter 5 (🧩 Behavior): Target 3D capability
+    - Parameter 6 (🔤 String): Points of the target 3D object (one of: "Center point", "Origin point")
+
+    > Technical note: parameters 0, 7 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `A3F::RotateTowardObject`.
+
+**👀Rotate toward 3D object on axis (Experimental)**  
+Rotates an object toward a target along a single specified axis.  
+The rotation is constrained to the given axis (y, or z), leaving
+the other axes unchanged.
+
+??? quote "See parameters & details"
+
+    - Parameter 1: 👾 Object
+    - Parameter 2 (🧩 Behavior): 3D capability
+    - Parameter 3 (🔤 String): Axis (one of: "y", "z")
+    - Parameter 4 (🔢 Number): Angle (in degrees)
+    - Parameter 5 (👾 Object): Target 3D object
+    - Parameter 6 (🧩 Behavior): Target 3D capability
+    - Parameter 7 (🔤 String): Points of the target 3D object (one of: "Center point", "Origin point")
+
+    > Technical note: parameters 0, 8 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `A3F::RotateTowardOnAxis`.
+
 **👂️Set listener for camera**  
 Set a listener on the 3D camera.  
 Only one listener can exist in the scene at any time.
