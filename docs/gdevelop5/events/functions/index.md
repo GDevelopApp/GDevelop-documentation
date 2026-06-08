@@ -113,6 +113,10 @@ Function that are conditions or expressions must return a value. The returned va
 
 ![](function-return-action.png)
 
+!!! tip
+
+    When you create a new expression, the matching return action is added automatically for you. If you later change the expression between a number and a text, the return action is updated to the right type.
+
 ### Use variables from function events
 
 Variables can be useful within functions for intermediary results or to keep a state in the extension. You can declare new [variables](/gdevelop5/all-features/variables) that are accessible only inside the extension by clicking on **Extension global variables** or **Extension scene variables**.
