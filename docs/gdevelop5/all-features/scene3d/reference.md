@@ -285,6 +285,7 @@ A box with images for each face
 - **Right face** (🗂️ Resource).
 - **Tile** (🔘 Boolean). Default value is `false`.
 - **Right face** (🔘 Boolean). Default value is `true`.
+- **Tile scale** (🔢 Number). The scale applied to tiled textures. A value of 1 displays them at the same size as in 2D. Default value is `1`.
 - **Tint** (🎨 Color). Default value is `255;255;255`.
 - **Top face** (🗂️ Resource).
 - **Tile** (🔘 Boolean). Default value is `false`.
@@ -317,6 +318,7 @@ A box with images for each face
     - **Right face** is stored as `rightFaceResourceName` (resource). Default value is ``.
     - **Tile** is stored as `rightFaceResourceRepeat` (boolean). Default value is `false`.
     - **Right face** is stored as `rightFaceVisible` (boolean). Default value is `true`.
+    - **Tile scale** is stored as `tileScale` (number). Default value is `1`.
     - **Tint** is stored as `tint` (Color). Default value is `255;255;255`.
     - **Top face** is stored as `topFaceResourceName` (resource). Default value is ``.
     - **Tile** is stored as `topFaceResourceRepeat` (boolean). Default value is `false`.
