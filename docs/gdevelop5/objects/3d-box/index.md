@@ -26,6 +26,12 @@ Lighting can be set up through [layers effects](../../interface/scene-editor/lay
 
 Shadows are rendered around the camera. You can tweak their range, quality and the light intensity by editing the Directional Light effect in the layer.
 
+## Tiling textures
+
+Instead of stretching a face's image to fit the box, you can make it repeat (tile) by enabling **Tile** in the object's texture properties. This is useful for surfaces like floors or walls where a small texture should cover a large area.
+
+Use the **Tile scale** property to control how big the repeated texture appears: a value of 1 displays it at the same size as in 2D, while higher values make the texture larger (so it repeats fewer times across each face).
+
 ## About transparency
 
 Support for transparency (faces with transparent or semi opaque colors) can be enabled by checking the checkbox **"Enable texture transparency"** when editing a 3D box object.
