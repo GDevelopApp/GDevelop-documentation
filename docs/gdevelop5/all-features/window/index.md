@@ -13,23 +13,37 @@ The margin of the window is the distance between the side of the window and the 
 
 ![](/gdevelop5/all-features/annotation_2019-06-29_174027.png)
 
-Notice the black borders on all for sides of the window. The width of the borders is 100px.
+Notice the black borders on all four sides of the window. The width of the borders is 100px.
 
-## Size of the window
+## Game resolution and game window size
 
-Size of the window is the number of pixels visible in the game. The "Width" field refers to the number of pixels in the horizontal directions while the "Height" field refers to the number of pixels in the vertical direction.
+GDevelop makes a distinction between two different sizes:
 
-While setting the size of the window, if you want to scale the current area to the set resolution, choose "NO". This will decrease the visual quality of the game if the size entered is lower than default and will increase the visual quality if the size entered is higher than the default size.
+* The **game resolution** is the number of pixels visible inside the game — the size of the game area itself. The "Width" field is the number of pixels in the horizontal direction, the "Height" field the number of pixels in the vertical direction.
+* The **game window size** is the size of the actual system window in which the game is displayed.
+
+The "Game resolution" action changes the game area size without touching the window. Lowering the resolution makes everything appear larger (fewer, bigger pixels stretched to fill the window); raising it makes everything appear smaller and sharper.
+
+The "Game window size" action changes the size of the system window. It only works on platforms that support it (Windows, macOS and Linux): a game running in a browser or on a phone cannot resize its window. This action has an option to also update the game resolution to match the new window — if you leave it off, the game is stretched or shrunk to fit the window instead.
 
 ![](/gdevelop5/all-features/annotation_2019-06-29_175454.png)
 
-If you want to scale the set resolution to the window area, choose "YES". This will crop the window and display only the number of pixels entered in the action. This does not affect the visual quality as long as the game is scaled up or down because of the size of the system window.
+### Adapting the resolution to the window
 
-!!! note
+When the window or screen is resized (for example when the player resizes the window or rotates their phone), you can control how the game resolution reacts:
 
-    The game is cropped starting from the top-left corner of the game.
+* The "Game resolution resize mode" action chooses whether the game **width** should be adapted, the **height** should be adapted, or whether the resolution should stay fixed (no automatic resizing).
+* The "Automatically adapt the game resolution" action turns this automatic adaptation on or off. It only has an effect when a resize mode (width or height) is selected.
 
-![](/gdevelop5/all-features/annotation_2019-06-29_175540.png)
+You can read the current sizes with expressions: `SceneWindowWidth()` and `SceneWindowHeight()` give the game area size (the canvas for HTML5 games), while `ScreenWidth()` and `ScreenHeight()` give the full screen size (or the page size for HTML5 games in a browser). These are useful to reposition UI objects so they stay on screen on any resolution.
+
+## Center the window
+
+The "Center the game window on the screen" action moves the window to the middle of the screen. Like resizing the window, this only works on Windows, macOS and Linux — it has no effect in a browser or on iOS/Android.
+
+## Window icon
+
+The "Window's icon" action replaces the icon of the game's window with one of the game's images, given by its resource name. This affects the desktop window (Windows, macOS, Linux).
 
 ## Window title
 
