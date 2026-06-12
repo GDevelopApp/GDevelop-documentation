@@ -39,3 +39,5 @@ A lot of 3D boxes can impact your game as they require multiple faces to be rend
 If your object is only shown from a certain point of view, you can disable the visibility of certain faces of the cube.
 
 Be sure to reduce the number of 3D objects you use as much as you can, especially for good performance on low-end devices. Rather than using multiple objects, you can also enable tiling and resize the object (like you would do with a [tiled sprite](../tiled_sprite) instead of using multiple [sprites](../sprite)).
+
+When tiling is enabled, the **Tile scale** property lets you control the size of the tiled texture on the faces: a scale of 1 displays the texture at the same size as in 2D, while a larger value makes the texture bigger so it repeats fewer times.
