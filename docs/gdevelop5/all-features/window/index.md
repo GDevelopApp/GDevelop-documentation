@@ -31,6 +31,22 @@ If you want to scale the set resolution to the window area, choose "YES". This w
 
 ![](/gdevelop5/all-features/annotation_2019-06-29_175540.png)
 
+## Resolution resize mode
+
+Instead of keeping a fixed resolution, you can have the game resolution automatically follow the window or screen size. The "Game resolution resize mode" action lets you choose to adapt the **width** of the resolution to fit the window, adapt the **height**, or disable automatic resizing. This is useful to support many screen ratios without black borders.
+
+When a resize mode is set, the "Automatically adapt the game resolution" action controls whether the resolution keeps updating live as the window or screen size changes during the game.
+
+## Centering and resizing the window
+
+On Windows, macOS and Linux, the "Center the game window on the screen" action repositions the window in the middle of the screen, and the "Game window size" action changes the size of the system window itself (which is distinct from the game resolution).
+
+These actions have no effect for games running in a web browser or on Android/iOS, where the window size is controlled by the browser or operating system.
+
+## Window icon
+
+The "Window's icon" action replaces the icon shown for the game window using an image from your project. As with the window size, this only applies on Windows, macOS and Linux.
+
 ## Window title
 
 The window title is the name of the window that is visible on the title bar (located at the top) of the window. The default title name is "Preview of ProjectName" during a preview.
@@ -38,6 +54,10 @@ The window title is the name of the window that is visible on the title bar (loc
 By default, the game name is used for the executable name (on Windows, macOS and Linux), the app name (on Android and iOS) and the title bar (on Windows, macOS and Linux) (and the page title for HTML5 games). You can [learn more about it in game properties.](/gdevelop5/interface/project-manager/properties)
 
 With the action to change the title, the title bar on Windows, macOS and Linux will be changed. Nothing will be visible on Android and iOS. For HTML5 games, the web page title will be changed.
+
+## Reading the window and screen size
+
+Expressions are available to read the current dimensions at runtime: `SceneWindowWidth()` and `SceneWindowHeight()` give the size of the game window (the canvas for HTML5 games), while `ScreenWidth()` and `ScreenHeight()` give the size of the whole screen (or the page for HTML5 games running in a browser). These are handy to position UI relative to the actual display size, especially when the resolution resize mode is enabled.
 
 ## Reference
 
