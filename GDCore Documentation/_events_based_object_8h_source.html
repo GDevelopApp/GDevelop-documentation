@@ -278,19 +278,22 @@ $(function() {
 <div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;  <span class="keywordtype">void</span> UnserializeFrom(<a class="code" href="classgd_1_1_project.html">gd::Project</a>&amp; project,</div>
 <div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;                       <span class="keyword">const</span> <a class="code" href="classgd_1_1_serializer_element.html">SerializerElement</a>&amp; element) <span class="keyword">override</span>;</div>
 <div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160; </div>
-<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160; <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> defaultName;</div>
-<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> assetStoreTag;</div>
-<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;  <span class="keywordtype">bool</span> isRenderedIn3D;</div>
-<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;  <span class="keywordtype">bool</span> isAnimatable;</div>
-<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;  <span class="keywordtype">bool</span> isTextContainer;</div>
-<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;  <span class="keywordtype">bool</span> isInnerAreaFollowingParentSize;</div>
-<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;  <span class="keywordtype">bool</span> isUsingLegacyInstancesRenderer;</div>
-<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;  <a class="code" href="classgd_1_1_events_based_object_variant.html">gd::EventsBasedObjectVariant</a> defaultVariant;</div>
-<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;  <a class="code" href="classgd_1_1_events_based_object_variants_container.html">gd::EventsBasedObjectVariantsContainer</a> variants;</div>
-<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;};</div>
-<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160; </div>
-<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;}  <span class="comment">// namespace gd</span></div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;  <span class="keywordtype">void</span> UnserializeDefaultVariantFrom(<a class="code" href="classgd_1_1_project.html">gd::Project</a> &amp;project,</div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;                                     <span class="keyword">const</span> <a class="code" href="classgd_1_1_serializer_element.html">SerializerElement</a> &amp;element);</div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160; </div>
+<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160; <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> defaultName;</div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;  <a class="code" href="classgd_1_1_string.html">gd::String</a> assetStoreTag;</div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;  <span class="keywordtype">bool</span> isRenderedIn3D;</div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;  <span class="keywordtype">bool</span> isAnimatable;</div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;  <span class="keywordtype">bool</span> isTextContainer;</div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;  <span class="keywordtype">bool</span> isInnerAreaFollowingParentSize;</div>
+<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;  <span class="keywordtype">bool</span> isUsingLegacyInstancesRenderer;</div>
+<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;  <a class="code" href="classgd_1_1_events_based_object_variant.html">gd::EventsBasedObjectVariant</a> defaultVariant;</div>
+<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;  <a class="code" href="classgd_1_1_events_based_object_variants_container.html">gd::EventsBasedObjectVariantsContainer</a> variants;</div>
+<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;};</div>
+<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160; </div>
+<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;}  <span class="comment">// namespace gd</span></div>
 <div class="ttc" id="aclassgd_1_1_abstract_events_based_entity_html"><div class="ttname"><a href="classgd_1_1_abstract_events_based_entity.html">gd::AbstractEventsBasedEntity</a></div><div class="ttdoc">Represents a behavior or an object that is implemented with events.</div><div class="ttdef"><b>Definition:</b> AbstractEventsBasedEntity.h:29</div></div>
 <div class="ttc" id="aclassgd_1_1_abstract_events_based_entity_html_a13264582318411fd7e7ed698fd4b988a"><div class="ttname"><a href="classgd_1_1_abstract_events_based_entity.html#a13264582318411fd7e7ed698fd4b988a">gd::AbstractEventsBasedEntity::SetPrivate</a></div><div class="ttdeci">AbstractEventsBasedEntity &amp; SetPrivate(bool isPrivate_)</div><div class="ttdoc">Set that the behavior or object is private - it can't be used outside of its extension.</div><div class="ttdef"><b>Definition:</b> AbstractEventsBasedEntity.h:52</div></div>
 <div class="ttc" id="aclassgd_1_1_abstract_events_based_entity_html_a1b4f644f3c46f030c7a740433332ceb1"><div class="ttname"><a href="classgd_1_1_abstract_events_based_entity.html#a1b4f644f3c46f030c7a740433332ceb1">gd::AbstractEventsBasedEntity::SetDescription</a></div><div class="ttdeci">virtual AbstractEventsBasedEntity &amp; SetDescription(const gd::String &amp;description_)</div><div class="ttdoc">Set the description of the behavior or object, to be displayed in the editor.</div><div class="ttdef"><b>Definition:</b> AbstractEventsBasedEntity.h:66</div></div>
