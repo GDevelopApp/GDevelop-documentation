@@ -21,6 +21,7 @@ We have written various *guides* that allow everyone to improve and submit quali
 * Contribute to the editor, see the [readme on Github](https://github.com/4ian/GDevelop/blob/master/newIDE/README.md)
 * Report bugs/crashes, see the [guide to reporting a bug](/gdevelop5/community/guide-to-reporting-a-bug)
 * Contribute to the translations
+
   * [Translate the editor](https://crowdin.com/project/gdevelop)
   * [Translate the events](https://crowdin.com/project/gdevelop-extensions)
 
