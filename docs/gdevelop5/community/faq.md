@@ -44,6 +44,7 @@ Sadly, that is a known issue with the renderer and its way of scaling. You can u
 ## How can I contribute to GDevelop?
 
 Any kind of work that spreads the word about GDevelop or improves the user experience is a contribution. Some examples of valuable contributions:
+
 - Help edit the documentation wiki
 - Answer questions on the forum/discord
 - Build example games
@@ -53,5 +54,7 @@ Any kind of work that spreads the word about GDevelop or improves the user exper
 - Provide good bug reports
 - Talk about GDevelop to big group of people/schools
 - Help translate the project on Crowdin
+  - [Translate the editor](https://crowdin.com/project/gdevelop)
+  - [Translate the events](https://crowdin.com/project/gdevelop-extensions)
 - Create a good game and leave the "Made with GDevelop splash screen"
 - And of course writing code for the engine itself
