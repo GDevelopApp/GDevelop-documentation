@@ -20,28 +20,13 @@ Click on **Ask AI** in the top-right corner of GDevelop to open it.
 
 ![Open Ask AI](./Askai-Open.png)
 
-## One assistant that can both answer and build
+## One assistant that can answer and build
 
-There used to be two separate modes (one to "Ask" questions and one to "Build"). Now there is a **single assistant**: you simply describe what you want in plain language, and it decides whether to answer, explain, or make changes in your project.
-
-The same conversation can move smoothly between talking and doing. For example, you can ask *"How would a double jump work?"*, discuss it, and then say *"Great, add it to the Player"* — all without switching anything.
+You simply describe what you want in plain language, and the AI decides whether to answer, explain, or make changes in your project.
 
 ![A conversation where the AI builds a feature in a game](./ai-conversation.png)
 
 The AI knows all built-in GDevelop features and the official, reviewed extensions. It does **not** know about community extensions unless they've been approved by the GDevelop team.
-
-## "Auto edit": chatting safely or letting the AI build
-
-Next to the message box you'll find an **Auto edit** switch:
-
-- **Auto edit on** (the default): the AI applies changes to your project directly as it works. This is the best setting when you want it to build something for you.
-- **Auto edit off**: the AI can still read your project, answer and suggest, but it will **ask for your confirmation before each change**. This is perfect for brainstorming, planning, or asking questions when you don't want to risk any modification to your game.
-
-When Auto edit is off and the AI wants to make a change, it shows a short prompt with the change it intends to make. You can choose **Yes, just this change**, **Yes, and enable auto-edit** (to stop being asked for the rest of the conversation), or **No**.
-
-!!! tip
-
-    Turn Auto edit **off** while you're still figuring out *what* you want. Once you and the AI agree on a plan, turn it **on** and let it build. This avoids unwanted changes and saves credits.
 
 ## What the AI can build for you
 
@@ -82,6 +67,19 @@ You can pick a **reasoning level** for the AI, next to the message box. A higher
 - **Maximum** — available with a **Pro** subscription, for the most demanding requests.
 
 Start with Medium for everyday tasks, and raise the level only when a request is large or the AI is struggling to get something right.
+
+## "Auto edit": chatting safely or letting the AI build
+
+Next to the message box you'll find an **Auto edit** switch:
+
+- **Auto edit on** (the default): the AI applies changes to your project directly as it works. This is the best setting when you want it to build something for you.
+- **Auto edit off**: the AI can still read your project, answer and suggest, but it will **ask for your confirmation before each change**. This is perfect for brainstorming, planning, or asking questions when you don't want to risk any modification to your game.
+
+When Auto edit is off and the AI wants to make a change, it shows a short prompt with the change it intends to make. You can choose **Yes, just this change**, **Yes, and enable auto-edit** (to stop being asked for the rest of the conversation), or **No**.
+
+!!! tip
+
+    Turn Auto edit **off** while you're still figuring out *what* you want. Once you and the AI agree on a plan, turn it **on** and let it build. This avoids unwanted changes and saves credits.
 
 ## Restoring your project to an earlier point
 
