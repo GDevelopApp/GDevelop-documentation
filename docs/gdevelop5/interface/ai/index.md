@@ -3,7 +3,7 @@ title: Ask AI (build and chat with AI)
 ---
 # Ask AI: build and chat with your game's AI
 
-Unlike general-purpose AI tools like ChatGPT, Claude, or Google Gemini, GDevelop AI is **tailored for game creation**. It knows how GDevelop works, and it can read your game's objects, behaviors, variables and events to understand what you're working on.
+GDevelop AI is a **creation agent for making games**: describe what you want in plain language, and it will answer your questions, brainstorm ideas, and build mechanics directly in your project. Unlike general-purpose tools like ChatGPT, Claude or Google Gemini, it's specialised for GDevelop — it knows how the engine works and can read your game's objects, behaviors, variables and events to understand what you're working on.
 
 It can help you:
 
@@ -19,8 +19,6 @@ It can help you:
 Click on **Ask AI** in the top-right corner of GDevelop to open it.
 
 ![Open Ask AI](./Askai-Open.png)
-
-## One assistant that can answer and build
 
 You simply describe what you want in plain language, and the AI decides whether to answer, explain, or make changes in your project.
 
@@ -39,12 +37,14 @@ When it builds, the AI can take many concrete actions in your game, such as:
 - Creating global or scene-wide elements,
 - Finding and installing suitable official extensions or assets.
 
-It's well suited for:
+!!! note
 
-- Simple changes — *"Make object_X 25% bigger"*,
-- Game mechanics — *"Make an enemy that shoots the player once it's within 20px"*,
-- Experiments — *"Make the key move away from the player when they try to reach it"*,
-- Learning — by reading the events the AI writes, you can see how a mechanic is actually built.
+    It's well suited for:
+
+    - Simple changes — *"Make object_X 25% bigger"*,
+    - Game mechanics — *"Make an enemy that shoots the player once it's within 20px"*,
+    - Experiments — *"Make the key move away from the player when they try to reach it"*,
+    - Learning — by reading the events the AI writes, you can see how a mechanic is actually built.
 
 ## How the AI works on your request
 
