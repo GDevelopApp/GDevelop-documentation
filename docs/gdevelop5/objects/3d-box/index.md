@@ -32,6 +32,10 @@ Support for transparency (faces with transparent or semi opaque colors) can be e
 
 This can be produce strange results if you expect other faces of the box to be shown behind. This is due to how 3D rendering works. It's also more costly to render for the 3D engine.
 
+## Tiling textures
+
+A face can repeat (tile) its texture instead of stretching it across the whole face. When a face is set to tile, the **Tile scale** property controls how large the repeated texture appears: a value of 1 displays it at the same size as in 2D, and smaller values make the texture smaller so it repeats more times across the face (good for 3D games, where the camera can come very close to 3D objects).
+
 ## Performance considerations
 
 A lot of 3D boxes can impact your game as they require multiple faces to be rendered, even if these faces are partially or totally hidden behind other 3D or 2D objects.
