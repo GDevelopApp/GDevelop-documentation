@@ -34,7 +34,7 @@ This can be produce strange results if you expect other faces of the box to be s
 
 ## Tiling textures
 
-A face can repeat (tile) its texture instead of stretching it across the whole face. When a face is set to tile, the **Tile scale** property controls how large the repeated texture appears: a value of 1 displays it at the same size as in 2D, and higher values make the texture larger so it repeats fewer times across the face.
+A face can repeat (tile) its texture instead of stretching it across the whole face. When a face is set to tile, the **Tile scale** property controls how large the repeated texture appears: a value of 1 displays it at the same size as in 2D, and smaller values make the texture smaller so it repeats more times across the face (good for 3D games, where the camera can come very close to 3D objects).
 
 ## Performance considerations
 
