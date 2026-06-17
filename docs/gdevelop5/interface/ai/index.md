@@ -1,81 +1,151 @@
 ---
-title: Ask AI (build/chat with AI)
+title: Ask AI (build and chat with AI)
 ---
-# Ask AI: Build your game with AI
-Unlike general-purpose AI tools like ChatGPT, Claude, or Google Gemini, GDevelop AI is **tailored for game creation**. It knows how GDevelop works, it has access to your game's objects configuration, events and context.
+# Ask AI: build and chat with your game's AI
+
+Unlike general-purpose AI tools like ChatGPT, Claude, or Google Gemini, GDevelop AI is **tailored for game creation**. It knows how GDevelop works, and it can read your game's objects, behaviors, variables and events to understand what you're working on.
+
 It can help you:
 
-- Understand features and how to use them
-- Build specific mechanics or systems
-- Help fix small implementation errors
-- Explore, brainstorm and bring new ideas to life
+- Understand features and how to use them,
+- Build specific mechanics or whole systems,
+- Fix small implementation mistakes,
+- Explore, brainstorm and bring new ideas to life.
 
 !!! tip
 
-    Think of it as an always available mentor and creative collaborator that speaks GDevelop fluently.
+    Think of it as an always-available mentor and creative collaborator that speaks GDevelop fluently.
 
-Click on **Ask AI** on the top-right corner (1) of GDevelop to open the AI chat.
+Click on **Ask AI** in the top-right corner of GDevelop to open it.
+
 ![Open Ask AI](./Askai-Open.png)
 
-## How it works
+## One assistant that can both answer and build
 
-The AI understands all built-in GDevelop features, and official reviewed extensions. However, its knowledge does not include community extensions unless they’ve been approved by the GDevelop team. 
-Context is everything to assure good AI results. To improve its suggestions, the AI can read the content of your project: object's configuration, behaviors, variables and event sheet.
+There used to be two separate modes (one to "Ask" questions and one to "Build"). Now there is a **single assistant**: you simply describe what you want in plain language, and it decides whether to answer, explain, or make changes in your project.
 
-The AI has two modes:
+The same conversation can move smoothly between talking and doing. For example, you can ask *"How would a double jump work?"*, discuss it, and then say *"Great, add it to the Player"* — all without switching anything.
 
-- **[Ask a question (AI chat)](./chat)**: silimar to Chat GPT or Gemini conversations. The AI will answer questions on game development, GDevelop usage, and idea brainstorming. This mode is recommended to learn the tool and define the implementation plan before using the Build mode.
-- **[Build for me (AI agent)](./agent)**: similar to Cursor or V0. The AI will build your implementation requests inside your game. This can range from simple changes (example: "Make X object 20% bigger") to more complex requests ("Create an enemy that starts shooting arrows when the player comes 20px near it").
+![A conversation where the AI builds a feature in a game](./ai-conversation.png)
 
-For mor information on credit consumption and good practices:
-[Learn more about the GDevelop AI agent](./agent){ .md-button .md-button--primary .full-width }
+The AI knows all built-in GDevelop features and the official, reviewed extensions. It does **not** know about community extensions unless they've been approved by the GDevelop team.
 
-[Learn more about the GDevelop AI chat](./chat){ .md-button .full-width }
+## "Auto edit": chatting safely or letting the AI build
 
-## Cost of AI requests
-An AI request could use 3 to 30 credits depending on the scope.
-The number of credits used depends on the work and processing ("thinking") the AI has to do:
+Next to the message box you'll find an **Auto edit** switch:
 
-- an "Ask" request can be 2 to 5 credits,
-- a simple "Build" request to do a small change could use 10 credits while implementations with multiple events could be 16 to 20 credits.
+- **Auto edit on** (the default): the AI applies changes to your project directly as it works. This is the best setting when you want it to build something for you.
+- **Auto edit off**: the AI can still read your project, answer and suggest, but it will **ask for your confirmation before each change**. This is perfect for brainstorming, planning, or asking questions when you don't want to risk any modification to your game.
+
+When Auto edit is off and the AI wants to make a change, it shows a short prompt with the change it intends to make. You can choose **Yes, just this change**, **Yes, and enable auto-edit** (to stop being asked for the rest of the conversation), or **No**.
 
 !!! tip
 
-    Start by using the "Ask" mode to wirte your prompts and define the scope of your desired implementation. Once the AI has a feasible plan switch to "Build mode". This will prevent you from spending unnecessary credits.
+    Turn Auto edit **off** while you're still figuring out *what* you want. Once you and the AI agree on a plan, turn it **on** and let it build. This avoids unwanted changes and saves credits.
 
-## Aquiring credits for AI requests
-All accounts starts with a few free AI credits. Once you've used all your free AI credits, you can:
+## What the AI can build for you
 
-- Wait for them to replenish (every Sunday at 23:50 UTC)
-- [upgrade]( https://editor.gdevelop.io/?initial-dialog=subscription) to GDevelop premium subscriptions
-- [Buy](https://editor.gdevelop.io/?initial-dialog=credits-purchase) additional [GDevelop credits](/gdevelop5/interface/profile/credits/) to get more AI requests
-- Give [quality feedback](/gdevelop5/interface/games-dashboard/player-feedback/) to GDevelop creators
-- Follow GDevelop accounts on socials and claim the credits through your profile
+When it builds, the AI can take many concrete actions in your game, such as:
+
+- Creating scenes,
+- Adding objects and placing them in a scene,
+- Adding behaviors to objects,
+- Creating or modifying events to build your game's logic,
+- Creating global or scene-wide elements,
+- Finding and installing suitable official extensions or assets.
+
+It's well suited for:
+
+- Simple changes — *"Make object_X 25% bigger"*,
+- Game mechanics — *"Make an enemy that shoots the player once it's within 20px"*,
+- Experiments — *"Make the key move away from the player when they try to reach it"*,
+- Learning — by reading the events the AI writes, you can see how a mechanic is actually built.
+
+## How the AI works on your request
+
+The AI replies within a few seconds, then gets to work. Rather than doing everything in one block, it **breaks your request into smaller pieces of work** and tackles them one after another. You'll see these as short steps in the conversation, for example *"Exploring the game"*, *"Inspecting the game structure"*, *"Editing the game"*, or *"Searching the asset store"*.
+
+For more involved requests, the AI first lays out a **plan**: a numbered list of the steps it intends to follow. Each step shows its status (pending, in progress, or done), and you can expand a step to see the detailed actions it performed. This makes it easy to follow along and notice if something heads in an unexpected direction.
+
+If a step turns out to be difficult (for example, building complex, heavily interconnected logic), it may not fully succeed. When that happens, the AI moves forward and tries an alternative approach to keep going.
 
 !!! note
-    A package of 500 credits usually represents 60 to 100 requests to the AI. 
 
-**Premium Subscriptions** like GDevelop Silver, Gold or Pro receive more free AI requests every week: 200 with Silver, 1000 with Gold and 3000 with Pro.
+    Like all AI tools, the answers aren't always perfect. Now and then the AI can confuse a concept, misunderstand your game, or miss what you intended. **Always double-check what it does.** Keep its work when it's useful, and adjust or undo the parts that aren't.
 
+## Choosing how hard the AI thinks (reasoning level)
+
+You can pick a **reasoning level** for the AI, next to the message box. A higher level means the AI thinks more deeply before acting — which can give better results on tricky requests, but takes a bit longer and uses more credits.
+
+- **Medium** — available to everyone, a good balance for most requests.
+- **High** — available with a **Gold** or **Pro** subscription, for more complex builds.
+- **Maximum** — available with a **Pro** subscription, for the most demanding requests.
+
+Start with Medium for everyday tasks, and raise the level only when a request is large or the AI is struggling to get something right.
+
+## Restoring your project to an earlier point
+
+For **cloud projects**, GDevelop automatically saves a restore point **before** each of your messages and AI requests. If a build went in a direction you don't like, you can roll back: in the conversation, find the saved point (shown as **Project saved**) and use the **restore** button to bring your project back to that state.
+
+!!! warning
+
+    Restoring overwrites the current project state with the saved one, so use it when you genuinely want to discard the changes made since that point. GDevelop will ask you to confirm before restoring.
+
+If you're working on a **local project** (saved on your computer) rather than a cloud project, this automatic restore isn't available — so it's a good idea to **save your project or keep a working copy** before asking the AI to make big changes.
+
+## Pausing and starting fresh
+
+- **Stop**: if the AI starts going off-track, click **Stop** to pause it. It will wait for your next message instead of continuing.
+- **New chat**: when you've finished a task, start a new conversation. This keeps each chat focused on one topic and helps the AI avoid confusing it with unrelated details.
+
+## Cost of AI requests
+
+Each request uses some of your **AI usage**, depending on how much work and "thinking" it involves: a quick question costs very little, while building several events at once costs more. The reasoning level also matters — higher levels use more.
+
+**Monitoring your usage**
+
+Your remaining AI usage is shown as a **percentage** near the message box (for example, *"You still have 80% left on this week's AI usage"*). Your allowance **resets every week, on Sunday evening** (23:50 UTC). Hover or tap the info icon to see exactly when it resets.
+
+!!! tip
+
+    Keeping **Auto edit off** while you plan, and only switching it on to build an agreed-upon plan, is the best way to make your weekly usage go further.
+
+**Getting more AI usage**
+
+If you've used up your allowance, you can:
+
+- Wait for it to reset (every Sunday at 23:50 UTC),
+- [Upgrade](https://editor.gdevelop.io/?initial-dialog=subscription) to a GDevelop premium subscription — Silver, Gold and Pro each include more weekly AI usage,
+- [Buy](https://editor.gdevelop.io/?initial-dialog=credits-purchase) additional [GDevelop credits](/gdevelop5/interface/profile/credits/),
+- Give [quality feedback](/gdevelop5/interface/games-dashboard/player-feedback/) to other GDevelop creators,
+- Follow GDevelop on social media and claim credits through your profile.
+
+!!! note
+
+    High AI demand can occasionally slow things down or prevent a proper response. If that happens — don't worry — you won't be charged for it.
+
+## Good practices
+
+- **Be specific:** describe *what* you want and *how* it should behave, as if explaining your idea to a developer who has never seen your game. Give concrete values, and say what you *do* and *do not* want changed.
+- **Plan before you build:** with Auto edit off, discuss the mechanic and let the AI propose an approach. Once it clearly understands your goal, switch Auto edit on to build it.
+- **One chat per task:** start a new conversation for each new feature to keep things focused.
+- **Keep an eye on the work:** watch the steps and the plan. If something looks wrong, stop the AI and rephrase.
+- **Expect variation:** results can differ between attempts. Rephrasing often helps — and noting down prompts that worked well will sharpen your own process.
 
 ## AI privacy
 
-GDevelop AI is built on general purpose Large Language Models (LLMs) that can be adapted, fine tuned or have internally multiple agents working on a request.
+GDevelop AI is built on general-purpose Large Language Models (LLMs), which can be adapted, fine-tuned, or coordinate several specialized steps internally to handle a request.
 
-**GDevelop AI is not trained on your accout's files nor individual projects**.
-Local and cloud project are only accessible to the AI when the chat is in use. All cloud projects are stored separately from the GDevelop AI infrastructure which prevents it from access them without your request.
+**GDevelop AI is not trained on your account's files or your individual projects.** Local and cloud projects are only accessible to the AI while you're actively using it in a conversation. Cloud projects are stored separately from the GDevelop AI infrastructure, which prevents access to them without your request.
 
-**In all cases there is no usage of private data for improving the AI.**
+The AI also has **no access** to personal details such as your username, profile information, leaderboards, or analytics. It cannot browse the internet.
 
+**In all cases, your private data is never used to improve the AI.**
 
 ## How to improve the AI
 
-You can rate the AI’s answers with a 👍 or 👎. Positive ratings will signal the AI to follow that rationale. Negative feedback will nudge the GDevelop team that the answer wasn't correct.
+Because no community projects are used to train it, the main way to improve the AI is to **rate its answers** with a 👍 or 👎. Positive ratings reinforce a good approach; negative feedback flags to the GDevelop team that an answer wasn't right.
 
-In the case of negative feedback, adding context to why the answer wasn't correct will help the engineers stir the AI to the right direction.
+When leaving negative feedback, adding a short note on *why* the answer was wrong helps the team steer the AI in the right direction.
 
 ![AI report](./AI_report.png)
-
-!!! note
-
-    High AI demand can temporarily slow processing down or prevent the AI to give a proper response. In that case — don’t worry — you won’t be charged any credits.
