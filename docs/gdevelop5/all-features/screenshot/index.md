@@ -13,6 +13,10 @@ Note: As of GDevelop 5.0.0-beta92 the screenshot action is no longer an extensio
 
 Use this action to save a screenshot of everything which is currently drawn on the game window into a *png* file.
 
+!!! warning
+
+    Saving a screenshot to a file is only supported when the game runs as a desktop application (Windows, Linux or macOS). On web and mobile (Android/iOS) exports, the game has no access to the file system, so this action has no effect. If the save path does not end with `.png`, the extension automatically appends it.
+
 ##### Parameters:
 
 **Save path**: The file path where the screenshot should be saved.

@@ -38,6 +38,12 @@ You have 3 conditions at your disposal to monitor how the saving is run through.
 
 For each of those conditions, you can specify the leaderboard but this is optional. This can prove useful if you try to save the player score in multiple leaderboards at once.
 
+If a save fails, you can read the reason of the failure with the **"Error of last save attempt"** expression (`Leaderboards::LastSaveError`) — useful to display a meaningful message to the player or to log the problem.
+
+!!! tip
+
+    By default, when a [player is logged in](/gdevelop5/all-features/player-authentication), scores are automatically attached to their account, even if you use the "Save player score" action. You can change this with the action **"Always attach scores to the connected player"** if you need to submit a score under a custom name while a player is connected.
+
 ## Display a leaderboard
 
 Use the action "**Display leaderboard**" to load and display a leaderboard on the screen. It will be displayed on top of your game, and the view will have a button to close it in order to come back to your game.
@@ -53,6 +59,8 @@ While it's **loading**, to let the player know that the leaderboard will display
 - Use the condition "Leaderboard display is loading" to trigger an action (display a text "Loading" for example)
 
 Either case, if there's an error during the display, *it will close automatically*. You can also use the 2 conditions "Leaderboard display has errored" and "Leaderboard display has loaded" if you want to add logic around a possible error.
+
+The leaderboard view has a button allowing the player to close it. To react to this, use the condition **"Closed by player"** (triggered the moment the player closes the view) — for instance to resume the game or go back to a menu. You can also close the leaderboard from your events with the action **"Close current leaderboard"**.
 
 ## Advanced: pause the scene when the leaderboard is displayed
 
