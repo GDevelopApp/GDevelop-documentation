@@ -46,3 +46,11 @@ You can set, either from the object properties or using actions, the field as :
 
 * Read-only. Text can still be selected and usually the appearance of the field does not change, but the text can't be modified.
 * Disabled. Text usually can't be selected, nor modified, and some devices or platforms will gray the input.
+
+## Limit the text the user can write
+
+You can limit the characters in a text input field by setting a maximum number of characters allowed for input. This is typically achieved by implementing a condition that checks the length of the input text against the specified limit, preventing further input when the limit is reached.
+
+You can limit the text input using the following expression: ***StrLength(TextInput.Text()) < [numeric_variable]***. 
+![TextInputExample](https://github.com/GDevelopApp/GDevelop-documentation/assets/58533713/10266e06-f7a4-4cd1-bfc0-14eec04f0825)
+
