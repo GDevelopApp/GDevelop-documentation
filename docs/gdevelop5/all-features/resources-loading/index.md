@@ -9,7 +9,7 @@ title: Resources loading
 
 ## Understand how resources are loaded
 
-When a game starts a loading screen is shown while resources for the first scene (the one with a flag) are downloaded. It also includes resources used by global objects.
+When a game starts a loading screen is shown while resources for the first scene are downloaded. It also includes resources used by global objects. The first scene is the one marked with a flag (right-click a scene in the [project manager](/gdevelop5/interface/project-manager) and choose **Set as start scene**); if none is set, it's the first scene in the list.
 
 The resources used by other scenes are downloaded in background while users interact with the first scene, a game menu for instance.
 
