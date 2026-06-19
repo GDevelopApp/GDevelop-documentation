@@ -104,7 +104,7 @@ To close a project, click the three-dot menu on the project's card and select "C
 
 ### 2. Scene editor
 
-The **Scene editor** is where you design and build game levels and menus by placing and configuring objects. The first scene in the list is loaded when the game starts.
+The **Scene editor** is where you design and build game levels and menus by placing and configuring objects. By default, the first scene in the list is loaded when the game starts; you can make any scene the start scene by right-clicking it in the [project manager](/gdevelop5/interface/project-manager) and choosing **Set as start scene**.
 
 Learn more about the scene editor [here](/gdevelop5/interface/scene-editor).
 
