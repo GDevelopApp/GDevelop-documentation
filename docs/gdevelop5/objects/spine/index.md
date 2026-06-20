@@ -26,7 +26,7 @@ You can:
 It uses files exported from Spine (`.json`, `.atlas`, and image files) to render and animate characters or elements with smooth, interpolated bone-based movement.
 
 !!! tip
-    To ensure proper compatibility with GDevelop, use **Spine version 4.1** when exporting your animations. You can select the Spine version in the **Spine launcher** before exporting your files.
+    To ensure proper compatibility with GDevelop, use **Spine version 4.2** when exporting your animations. You can select the Spine version in the **Spine launcher** before exporting your files.
 
 
 !!! note
