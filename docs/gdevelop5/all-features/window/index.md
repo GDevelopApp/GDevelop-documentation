@@ -15,21 +15,31 @@ The margin of the window is the distance between the side of the window and the 
 
 Notice the black borders on all for sides of the window. The width of the borders is 100px.
 
-## Size of the window
+## Game resolution and window size
 
-Size of the window is the number of pixels visible in the game. The "Width" field refers to the number of pixels in the horizontal directions while the "Height" field refers to the number of pixels in the vertical direction.
+It's important to distinguish two different concepts:
 
-While setting the size of the window, if you want to scale the current area to the set resolution, choose "NO". This will decrease the visual quality of the game if the size entered is lower than default and will increase the visual quality if the size entered is higher than the default size.
+* The **game resolution** is the number of pixels that the game renders (its internal "game area"). The "Width" field refers to the number of pixels in the horizontal direction while the "Height" field refers to the number of pixels in the vertical direction. Changing it with the "Game resolution" action does not change the size of the system window: the rendered image is stretched or reduced to fit the window.
+* The **window size** is the size, in pixels, of the system window on the screen. The "Game window size" action only works on Windows, macOS and Linux: games running in browsers or on mobile phones can not change their window size.
+
+When you set the game window size, you can also choose whether the game resolution should be updated to match it. If you do not update the resolution, the game is stretched or reduced to fit the new window size.
 
 ![](/gdevelop5/all-features/annotation_2019-06-29_175454.png)
 
-If you want to scale the set resolution to the window area, choose "YES". This will crop the window and display only the number of pixels entered in the action. This does not affect the visual quality as long as the game is scaled up or down because of the size of the system window.
-
-!!! note
-
-    The game is cropped starting from the top-left corner of the game.
-
 ![](/gdevelop5/all-features/annotation_2019-06-29_175540.png)
+
+## Adapting the resolution to the screen
+
+By default, when the window or screen size changes, the game keeps its resolution and the rendered image is scaled to fit. You can instead ask GDevelop to update the game resolution automatically so that the game area matches the available space:
+
+* Use the **"Game resolution resize mode"** action with `adaptWidth` to update the game width to fit the window or screen (the height stays the same), or `adaptHeight` to do the opposite. An empty value disables this automatic resizing.
+* Use the **"Automatically adapt the game resolution"** action to enable or disable the resolution update while the game is running. This only has an effect when a resize mode (adapt width or height) is set.
+
+This is useful to display more or less of the game world depending on the player's screen, rather than simply scaling a fixed image.
+
+## Window icon and centering
+
+On Windows, macOS and Linux, the **"Window's icon"** action changes the icon of the game's window using an image of your project. The **"Center the game window on the screen"** action repositions the window in the middle of the screen. Neither has any effect when the game runs in a web browser or on iOS/Android.
 
 ## Window title
 
@@ -38,6 +48,15 @@ The window title is the name of the window that is visible on the title bar (loc
 By default, the game name is used for the executable name (on Windows, macOS and Linux), the app name (on Android and iOS) and the title bar (on Windows, macOS and Linux) (and the page title for HTML5 games). You can [learn more about it in game properties.](/gdevelop5/interface/project-manager/properties)
 
 With the action to change the title, the title bar on Windows, macOS and Linux will be changed. Nothing will be visible on Android and iOS. For HTML5 games, the web page title will be changed.
+
+## Reading the screen and window size
+
+Expressions are available to read sizes at runtime:
+
+* `SceneWindowWidth()` and `SceneWindowHeight()` give the size of the area in which the scene is displayed (the canvas for HTML5 games).
+* `ScreenWidth()` and `ScreenHeight()` give the size of the screen, or the size of the page for HTML5 games running in a browser.
+
+These are useful to position UI elements relative to the actual display, or to detect when the player is on a small or large screen.
 
 ## Reference
 
