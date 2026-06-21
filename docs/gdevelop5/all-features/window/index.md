@@ -15,21 +15,26 @@ The margin of the window is the distance between the side of the window and the 
 
 Notice the black borders on all for sides of the window. The width of the borders is 100px.
 
-## Size of the window
+## Game resolution and window size
 
-Size of the window is the number of pixels visible in the game. The "Width" field refers to the number of pixels in the horizontal directions while the "Height" field refers to the number of pixels in the vertical direction.
+GDevelop makes a distinction between two different sizes:
 
-While setting the size of the window, if you want to scale the current area to the set resolution, choose "NO". This will decrease the visual quality of the game if the size entered is lower than default and will increase the visual quality if the size entered is higher than the default size.
+* The **game resolution** is the number of pixels that the game renders — in other words, how much of the game world is visible. The "Game resolution" action changes this area without changing the size of the system window.
+* The **game window size** is the size, in pixels, of the actual system window the game runs in. The "Game window size" action changes it (when the action also updates the game resolution, the rendered area follows; otherwise the game is stretched or shrunk to fill the window).
+
+Changing the window size only works on platforms that support it: games running in a browser or on a phone can not resize their window, but they can still update their game resolution.
 
 ![](/gdevelop5/all-features/annotation_2019-06-29_175454.png)
 
-If you want to scale the set resolution to the window area, choose "YES". This will crop the window and display only the number of pixels entered in the action. This does not affect the visual quality as long as the game is scaled up or down because of the size of the system window.
+### Game resolution resize mode
 
-!!! note
-
-    The game is cropped starting from the top-left corner of the game.
+The "Game resolution resize mode" action controls what happens to the game resolution when the window or screen size changes. Use `"adaptWidth"` to update the game width to fit the window, `"adaptHeight"` to update the game height, or an empty string to keep the resolution fixed. You can combine it with the "Automatically adapt the game resolution" action so that the visible area follows the window or screen size while the game is running — useful to support many screen ratios.
 
 ![](/gdevelop5/all-features/annotation_2019-06-29_175540.png)
+
+## Center the game window
+
+The "Center the game window on the screen" action positions the window in the middle of the screen. This only works on Windows, macOS and Linux, not for games running in a browser or on iOS/Android.
 
 ## Window title
 
@@ -38,6 +43,17 @@ The window title is the name of the window that is visible on the title bar (loc
 By default, the game name is used for the executable name (on Windows, macOS and Linux), the app name (on Android and iOS) and the title bar (on Windows, macOS and Linux) (and the page title for HTML5 games). You can [learn more about it in game properties.](/gdevelop5/interface/project-manager/properties)
 
 With the action to change the title, the title bar on Windows, macOS and Linux will be changed. Nothing will be visible on Android and iOS. For HTML5 games, the web page title will be changed.
+
+## Reading the window and screen size
+
+A few expressions let you read sizes at runtime, which is handy to position objects relative to the visible area or to compute a layout:
+
+* `SceneWindowWidth()` and `SceneWindowHeight()` return the size of the scene window (the canvas for HTML5 games).
+* `ScreenWidth()` and `ScreenHeight()` return the size of the whole screen (or the page for HTML5 games running in a browser).
+
+## Advanced window management
+
+For desktop games exported with Electron (Windows, macOS, Linux), the **Advanced window management** extension adds actions and conditions to focus, show or hide the window, maximize, minimize, set it always on top, change its opacity or position, and enable content protection. These actions have no effect on web and mobile games.
 
 ## Reference
 
