@@ -9,6 +9,10 @@ GDevelop gives access to all inputs made on the keyboard. This includes conditio
 
 For this condition, the corresponding action/s will be performed if any key on the keyboard is pressed.
 
+## Any key released
+
+For this condition, the corresponding action/s will be performed if any key on the keyboard is released.
+
 ## Key pressed
 
 Whenever the key selected while setting this condition is pressed, the corresponding actions are performed.
