@@ -52,7 +52,7 @@ GDevelop can also be extended with extensions: take a look at [the list of exten
 |<img src="" class="extension-icon"></img>|**Destroy Outside Screen Behavior**|Auto-destroy 2D objects when outside camera bounds. Configurable extra margin distance.|[Read more...](/gdevelop5/behaviors/destroyoutside) ([reference](/gdevelop5/all-features/destroy-outside-behavior/reference))|
 |<img src="" class="extension-icon"></img>|**Inventories**|Named inventories with items, counts, max limits, equip state. Save/load to variable.|[Read more...](/gdevelop5/all-features/inventory) ([reference](/gdevelop5/all-features/inventory/reference))|
 |<img src="" class="extension-icon"></img>|**Dialogue Tree**|Yarn Spinner dialogue trees: branching dialogues, choices, commands, variables. Built-in editor.|[Read more...](/gdevelop5/all-features/dialogue-tree) ([reference](/gdevelop5/all-features/dialogue-tree/reference))|
-|<img src="" class="extension-icon"></img>|**Save State (experimental)**|Save/load full game state (objects, variables, sounds, effects). Profile-based filtering.|[Read more...](/gdevelop5/all-features/save-state) ([reference](/gdevelop5/all-features/save-state/reference))|
+|<img src="" class="extension-icon"></img>|**Save State**|Save/load full game state (objects, variables, sounds, effects). Profile-based filtering.|[Read more...](/gdevelop5/all-features/save-state) ([reference](/gdevelop5/all-features/save-state/reference))|
 
 ### General
 
