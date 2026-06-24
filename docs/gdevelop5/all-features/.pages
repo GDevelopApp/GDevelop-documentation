@@ -25,7 +25,7 @@ nav:
         - Destroy Outside Screen Behavior: destroy-outside-behavior
         - Dialogue Tree: dialogue-tree
         - Inventories: inventory
-        - Save State (experimental): save-state
+        - Save State: save-state
     - General:
         - 3D: scene3d
         - Conversion: common-conversions
