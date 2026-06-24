@@ -54,6 +54,16 @@ This is useful for:
     Variable-based saves are stored only in memory — they are **not persisted** between game sessions. You must persist the variable somewhere if you want to keep the save state.
 
 
+## Managing Saves
+
+When saving to device storage, you can build a full save menu using the dedicated actions to manage existing saves:
+
+- **List existing saves**: stores all saves in a variable, as an array sorted from the most recently updated to the oldest. Each entry contains the save's `name` and the `savedAt` / `updatedAt` timestamps (in milliseconds), which is convenient to display a "Continue" button or show when each slot was last used.
+- **Check if a save exists**: useful to enable or disable a "Load" button for a given slot.
+- **Delete a save** and **Duplicate a save**: to let players remove a slot or copy one (for example, to back up a save before overwriting it).
+
+These actions are asynchronous: each one comes with a matching condition (such as **Saves listing completed** or **Save existence check completed**) to know when the result is available.
+
 ## Monitoring Save/Load Operations
 
 The extension provides a few **expressions and conditions** to help you monitor saves and loads. In particular, the "Load just succeeded" condition is perfect to run some logic after a scene was loaded. This is somewhat similar to "At the beginning of the scene", except that after a loading a scene is already considered as started (because it was "frozen in time" in the save state).
