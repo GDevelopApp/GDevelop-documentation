@@ -249,6 +249,9 @@ const std::map&lt; <a class="el" href="classgd_1_1_string.html">gd::String</a>, 
 <tr class="memitem:a2b7f2c7b7814d23293aea9a005478d01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_serializer_element.html">SerializerElement</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_serializer_element.html#a2b7f2c7b7814d23293aea9a005478d01">GetChild</a> (<a class="el" href="classgd_1_1_string.html">gd::String</a> name, std::size_t index=0, <a class="el" href="classgd_1_1_string.html">gd::String</a> deprecatedName=&quot;&quot;) const</td></tr>
 <tr class="memdesc:a2b7f2c7b7814d23293aea9a005478d01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a child of the element using its name.  <a href="classgd_1_1_serializer_element.html#a2b7f2c7b7814d23293aea9a005478d01">More...</a><br /></td></tr>
 <tr class="separator:a2b7f2c7b7814d23293aea9a005478d01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b66f22bf235db790ca1d6caad672041"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_serializer_element.html">SerializerElement</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_serializer_element.html#a6b66f22bf235db790ca1d6caad672041">GetOrCreateChild</a> (<a class="el" href="classgd_1_1_string.html">gd::String</a> name, <a class="el" href="classgd_1_1_string.html">gd::String</a> deprecatedName=&quot;&quot;)</td></tr>
+<tr class="memdesc:a6b66f22bf235db790ca1d6caad672041"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get or create a child of the element.  <a href="classgd_1_1_serializer_element.html#a6b66f22bf235db790ca1d6caad672041">More...</a><br /></td></tr>
+<tr class="separator:a6b66f22bf235db790ca1d6caad672041"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9c66a528f61414e1cbee758169c78ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgd_1_1_serializer_element.html">SerializerElement</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_serializer_element.html#ae9c66a528f61414e1cbee758169c78ec">GetChild</a> (std::size_t index) const</td></tr>
 <tr class="memdesc:ae9c66a528f61414e1cbee758169c78ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a child of the element using its index (when the element is considered as an array).  <a href="classgd_1_1_serializer_element.html#ae9c66a528f61414e1cbee758169c78ec">More...</a><br /></td></tr>
 <tr class="separator:ae9c66a528f61414e1cbee758169c78ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -547,7 +550,7 @@ static <a class="el" href="classgd_1_1_serializer_element.html">SerializerElemen
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">name</td><td>The name of the child. </td></tr>
-    <tr><td class="paramname">name</td><td>The index of the child, in case of an array. </td></tr>
+    <tr><td class="paramname">index</td><td>The index of the child, in case of an array. </td></tr>
   </table>
   </dd>
 </dl>
@@ -696,6 +699,42 @@ static <a class="el" href="classgd_1_1_serializer_element.html">SerializerElemen
     <tr><td class="paramname">name</td><td>The name of the attribute </td></tr>
     <tr><td class="paramname">defaultValue</td><td>The value returned if the attribute is not found. </td></tr>
     <tr><td class="paramname">deprecatedName</td><td>An alternative name for the attribute that will be used if the first one doesn't exist. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a6b66f22bf235db790ca1d6caad672041"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b66f22bf235db790ca1d6caad672041">&#9670;&nbsp;</a></span>GetOrCreateChild()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classgd_1_1_serializer_element.html">SerializerElement</a> &amp; gd::SerializerElement::GetOrCreateChild </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td>
+          <td class="paramname"><em>deprecatedName</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get or create a child of the element. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>The name of the child. </td></tr>
   </table>
   </dd>
 </dl>
