@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/keyboard-backspace.svg" class="extension-icon"></img>
 Customize Android back button: prevent default quit, detect presses. Android only.
 
-**Authors and contributors** to this experimental extension: [arthuro555](https://gd.games/arthuro555).
+**Authors and contributors** to this extension: [arthuro555](https://gd.games/arthuro555).
 
 ---
 

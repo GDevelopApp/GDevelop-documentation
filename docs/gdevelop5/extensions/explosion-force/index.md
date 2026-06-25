@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/bomb.svg" class="extension-icon"></img>
 Apply radial explosion physics force to nearby Physics 2D objects within radius.
 
-**Authors and contributors** to this experimental extension: [VictrisGames](https://gd.games/VictrisGames).
+**Authors and contributors** to this extension: [VictrisGames](https://gd.games/VictrisGames).
 
 ---
 

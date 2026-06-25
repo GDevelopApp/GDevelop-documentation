@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/movie-filter.svg" class="extension-icon"></img>
 Screen transitions painted with plain color fill using Shape Painter.
 
-**Authors and contributors** to this experimental extension: (not specified).
+**Authors and contributors** to this extension: (not specified).
 
 ---
 

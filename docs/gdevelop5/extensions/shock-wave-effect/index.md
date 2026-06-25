@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/octagram-outline.svg" class="extension-icon"></img>
 Draw expanding shock wave effect.
 
-**Authors and contributors** to this experimental extension: [Alios](https://gd.games/Alios).
+**Authors and contributors** to this extension: [Alios](https://gd.games/Alios).
 
 ---
 

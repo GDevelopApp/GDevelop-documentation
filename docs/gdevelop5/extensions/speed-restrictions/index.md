@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/speedometer.svg" class="extension-icon"></img>
 Limit max movement and rotation speed for forces-based or Physics 2D.
 
-**Authors and contributors** to this experimental extension: [VictrisGames](https://gd.games/VictrisGames).
+**Authors and contributors** to this extension: [VictrisGames](https://gd.games/VictrisGames).
 
 ---
 

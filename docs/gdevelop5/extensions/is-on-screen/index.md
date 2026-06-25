@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/monitor-screenshot.svg" class="extension-icon"></img>
 Condition to check if an object is visible in its layer's camera viewport.
 
-**Authors and contributors** to this experimental extension: [Bouh](https://gd.games/Bouh), [Silver-Streak](https://gd.games/Silver-Streak), [VictrisGames](https://gd.games/VictrisGames).
+**Authors and contributors** to this extension: [Bouh](https://gd.games/Bouh), [Silver-Streak](https://gd.games/Silver-Streak), [VictrisGames](https://gd.games/VictrisGames).
 
 ---
 

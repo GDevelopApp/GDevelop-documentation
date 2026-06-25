@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/step-backward.svg" class="extension-icon"></img>
 Cancel drag and smoothly tween object back to original position.
 
-**Authors and contributors** to this experimental extension: [D8H](https://gd.games/D8H).
+**Authors and contributors** to this extension: [D8H](https://gd.games/D8H).
 
 ---
 

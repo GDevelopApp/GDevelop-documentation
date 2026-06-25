@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/variable-box.svg" class="extension-icon"></img>
 Copy structure and array variables.
 
-**Authors and contributors** to this experimental extension: [Bouh](https://gd.games/Bouh), [D8H](https://gd.games/D8H).
+**Authors and contributors** to this extension: [Bouh](https://gd.games/Bouh), [D8H](https://gd.games/D8H).
 
 ---
 

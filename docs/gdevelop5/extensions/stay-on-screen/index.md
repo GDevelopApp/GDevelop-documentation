@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/monitor-screenshot.svg" class="extension-icon"></img>
 Constrain object position to remain within the camera viewport boundaries.
 
-**Authors and contributors** to this experimental extension: [4ian](https://gd.games/4ian), [Bouh](https://gd.games/Bouh), [D8H](https://gd.games/D8H).
+**Authors and contributors** to this extension: [4ian](https://gd.games/4ian), [Bouh](https://gd.games/Bouh), [D8H](https://gd.games/D8H).
 
 ---
 

@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Virtual Reality/Virtual Reality_360_rotate_vr_movement.svg" class="extension-icon"></img>
 Lock and hide mouse pointer for unlimited movement (e.g., FPS mouse look).
 
-**Authors and contributors** to this experimental extension: [PANDAKO](https://gd.games/PANDAKO), [D8H](https://gd.games/D8H).
+**Authors and contributors** to this extension: [PANDAKO](https://gd.games/PANDAKO), [D8H](https://gd.games/D8H).
 
 ---
 

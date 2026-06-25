@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/peanut-outline.svg" class="extension-icon"></img>
 Draw dynamically changing shapes like a fog of war.
 
-**Authors and contributors** to this experimental extension: [D8H](https://gd.games/D8H).
+**Authors and contributors** to this extension: [D8H](https://gd.games/D8H).
 
 ---
 

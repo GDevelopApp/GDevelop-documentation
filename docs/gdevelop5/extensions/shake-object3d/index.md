@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/vector-difference-ab.svg" class="extension-icon"></img>
 Shake 3D objects.
 
-**Authors and contributors** to this experimental extension: [D8H](https://gd.games/D8H).
+**Authors and contributors** to this extension: [D8H](https://gd.games/D8H).
 
 ---
 
@@ -22,7 +22,7 @@ Shake 3D objects with translation and rotation.
 
 ### Behavior properties
 
-- **Frequency** (🔢 Number). Default value is `5.00000000000364`.
+- **Frequency** (🔢 Number). Default value is `0`.
 - **Start to shake at the object creation** (🔘 Boolean). Default value is `false`.
 - **Rotation amplitude around X axis** (🔢 Number, Angle). Default value is `5`.
 - **Rotation amplitude around Y axis** (🔢 Number, Angle). Default value is `5`.
@@ -34,7 +34,7 @@ Shake 3D objects with translation and rotation.
 ??? quote "See internal technical details"
 
 
-    - **Frequency** is stored as `Frequency` (Number). Default value is `5.00000000000364`.
+    - **Frequency** is stored as `Frequency` (Number). Default value is `0`.
     - **Start to shake at the object creation** is stored as `IsStartingAtCreation` (Boolean). Default value is `false`.
     > This behavior must be used on an object also having a behavior with type "Scene3D::Base3DBehavior". This is stored on property `Object3D`.
 

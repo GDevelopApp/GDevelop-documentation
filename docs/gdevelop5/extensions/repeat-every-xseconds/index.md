@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/repeat.svg" class="extension-icon"></img>
 Trigger an action repeatedly at a configurable time interval in seconds.
 
-**Authors and contributors** to this experimental extension: [arthuro555](https://gd.games/arthuro555), [VegeTato](https://gd.games/VegeTato), [D8H](https://gd.games/D8H).
+**Authors and contributors** to this extension: [arthuro555](https://gd.games/arthuro555), [VegeTato](https://gd.games/VegeTato), [D8H](https://gd.games/D8H).
 
 ---
 

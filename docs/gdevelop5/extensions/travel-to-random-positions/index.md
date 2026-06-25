@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/axis-arrow.svg" class="extension-icon"></img>
 Move objects to random nearby positions using Pathfinding. Optional direction bias.
 
-**Authors and contributors** to this experimental extension: [VictrisGames](https://gd.games/VictrisGames).
+**Authors and contributors** to this extension: [VictrisGames](https://gd.games/VictrisGames).
 
 ---
 

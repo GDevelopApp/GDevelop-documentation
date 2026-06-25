@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/repeat.svg" class="extension-icon"></img>
 Move objects back-and-forth horizontally or vertically for set time or distance.
 
-**Authors and contributors** to this experimental extension: [Greench](https://gd.games/Greench).
+**Authors and contributors** to this extension: [Greench](https://gd.games/Greench).
 
 ---
 

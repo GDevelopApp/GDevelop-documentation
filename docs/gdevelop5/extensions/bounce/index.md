@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/volleyball.svg" class="extension-icon"></img>
 Bounce objects off collisions using forces. Not for Physics engine or Platformer.
 
-**Authors and contributors** to this experimental extension: [4ian](https://gd.games/4ian).
+**Authors and contributors** to this extension: [4ian](https://gd.games/4ian).
 
 ---
 

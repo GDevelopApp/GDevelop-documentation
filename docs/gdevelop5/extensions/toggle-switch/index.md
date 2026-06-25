@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Interface Elements/Interface Elements_interface_ui_toggle_switch.svg" class="extension-icon"></img>
 Shape Painter toggle switch. Click/touch to toggle on/off with hover halo.
 
-**Authors and contributors** to this experimental extension: [VictrisGames](https://gd.games/VictrisGames).
+**Authors and contributors** to this extension: [VictrisGames](https://gd.games/VictrisGames).
 
 ---
 

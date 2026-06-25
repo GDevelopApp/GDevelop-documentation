@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/gesture-swipe-right.svg" class="extension-icon"></img>
 Detect swipe gestures with angle, distance, and duration. Single-touch only.
 
-**Authors and contributors** to this experimental extension: [E1e5en](https://gd.games/E1e5en), [VictrisGames](https://gd.games/VictrisGames).
+**Authors and contributors** to this extension: [E1e5en](https://gd.games/E1e5en), [VictrisGames](https://gd.games/VictrisGames).
 
 ---
 

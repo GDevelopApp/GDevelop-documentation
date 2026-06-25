@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/alpha-w-box-outline.svg" class="extension-icon"></img>
 Remap keyboard controls for platformer and top-down movements.
 
-**Authors and contributors** to this experimental extension: [Add00](https://gd.games/Add00).
+**Authors and contributors** to this extension: [Add00](https://gd.games/Add00).
 
 ---
 

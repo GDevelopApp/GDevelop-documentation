@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/video-vintage.svg" class="extension-icon"></img>
 Record gameplay as video clips for download.
 
-**Authors and contributors** to this experimental extension: [Add00](https://gd.games/Add00).
+**Authors and contributors** to this extension: [Add00](https://gd.games/Add00).
 
 ---
 

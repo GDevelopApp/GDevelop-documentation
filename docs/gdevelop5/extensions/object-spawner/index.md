@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/plus-one.svg" class="extension-icon"></img>
 Spawn objects periodically with configurable interval, capacity, and spawn area.
 
-**Authors and contributors** to this experimental extension: [VictrisGames](https://gd.games/VictrisGames).
+**Authors and contributors** to this extension: [VictrisGames](https://gd.games/VictrisGames).
 
 ---
 

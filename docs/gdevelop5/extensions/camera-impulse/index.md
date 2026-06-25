@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Arrows/Arrows_thin_arrow_up_down_directions.svg" class="extension-icon"></img>
 Camera impulse movement for earthquake or impact effects.
 
-**Authors and contributors** to this experimental extension: [D8H](https://gd.games/D8H).
+**Authors and contributors** to this extension: [D8H](https://gd.games/D8H).
 
 ---
 

@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Communication/Communication_pc_server_sync_sharing.svg" class="extension-icon"></img>
 WebSocket client: connect to server, send/receive string messages in real-time.
 
-**Authors and contributors** to this experimental extension: (not specified).
+**Authors and contributors** to this extension: (not specified).
 
 ---
 

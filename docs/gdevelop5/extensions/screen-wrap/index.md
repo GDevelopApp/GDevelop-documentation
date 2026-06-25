@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/monitor-screenshot.svg" class="extension-icon"></img>
 Teleport objects to opposite screen edge when exiting viewport.
 
-**Authors and contributors** to this experimental extension: [Entropy](https://gd.games/Entropy), [VictrisGames](https://gd.games/VictrisGames), [MelonDev](https://gd.games/MelonDev).
+**Authors and contributors** to this extension: [Entropy](https://gd.games/Entropy), [VictrisGames](https://gd.games/VictrisGames), [MelonDev](https://gd.games/MelonDev).
 
 ---
 

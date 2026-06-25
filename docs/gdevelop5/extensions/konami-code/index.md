@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/alpha-a-circle-outline.svg" class="extension-icon"></img>
 Detect classic Konami Code input sequence for cheats and easter eggs.
 
-**Authors and contributors** to this experimental extension: [Giampiero](https://gd.games/Giampiero).
+**Authors and contributors** to this extension: [Giampiero](https://gd.games/Giampiero).
 
 ---
 

@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/repeat.svg" class="extension-icon"></img>
 Horizontal back-and-forth movement with automatic flip. Requires GoLeft/TurnLeft animations.
 
-**Authors and contributors** to this experimental extension: [4ian](https://gd.games/4ian).
+**Authors and contributors** to this extension: [4ian](https://gd.games/4ian).
 
 ---
 

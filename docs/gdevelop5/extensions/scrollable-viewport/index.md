@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/drag-variant.svg" class="extension-icon"></img>
 Move a camera by dragging or with the scroll wheel.
 
-**Authors and contributors** to this experimental extension: [D8H](https://gd.games/D8H), [ddabrahim](https://gd.games/ddabrahim), [VictrisGames](https://gd.games/VictrisGames).
+**Authors and contributors** to this extension: [D8H](https://gd.games/D8H), [ddabrahim](https://gd.games/ddabrahim), [VictrisGames](https://gd.games/VictrisGames).
 
 ---
 

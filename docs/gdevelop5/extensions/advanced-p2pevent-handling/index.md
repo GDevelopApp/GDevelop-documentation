@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Applications and Programming/Applications and Programming_sitemap_map_ux_application.svg" class="extension-icon"></img>
 Handle all received P2P events at once per frame for better performance.
 
-**Authors and contributors** to this experimental extension: [arthuro555](https://gd.games/arthuro555).
+**Authors and contributors** to this extension: [arthuro555](https://gd.games/arthuro555).
 
 ---
 

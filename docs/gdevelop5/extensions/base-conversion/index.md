@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/hexadecimal.svg" class="extension-icon"></img>
 Convert numbers between bases (decimal, hexadecimal, binary, etc.).
 
-**Authors and contributors** to this experimental extension: [Ahnaf30e](https://gd.games/Ahnaf30e).
+**Authors and contributors** to this extension: [Ahnaf30e](https://gd.games/Ahnaf30e).
 
 ---
 

@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Movies and Entertainment/Movies and Entertainment_cinema_oscar_movies_award.svg" class="extension-icon"></img>
 Detect if object hasn't moved for a configurable duration.
 
-**Authors and contributors** to this experimental extension: [4ian](https://gd.games/4ian).
+**Authors and contributors** to this extension: [4ian](https://gd.games/4ian).
 
 ---
 

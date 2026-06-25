@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/gamepad-variant-outline.svg" class="extension-icon"></img>
 Gamepad/controller support: buttons, sticks, triggers, vibration. Mapper behaviors for 2D/3D.
 
-**Authors and contributors** to this experimental extension: [Bouh](https://gd.games/Bouh), [lhphr](https://gd.games/lhphr), [ZachjuKamashi](https://gd.games/ZachjuKamashi), [D8H](https://gd.games/D8H).
+**Authors and contributors** to this extension: [Bouh](https://gd.games/Bouh), [lhphr](https://gd.games/lhphr), [ZachjuKamashi](https://gd.games/ZachjuKamashi), [D8H](https://gd.games/D8H).
 
 ---
 

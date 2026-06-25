@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Cleaning/Cleaning_cleaning_clean_plunger.svg" class="extension-icon"></img>
 Rotate object like turret toward target position. Configurable speed and acceleration.
 
-**Authors and contributors** to this experimental extension: [D8H](https://gd.games/D8H).
+**Authors and contributors** to this extension: [D8H](https://gd.games/D8H).
 
 ---
 

@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/vector-arrange-above.svg" class="extension-icon"></img>
 Create fading shadow clone trail.
 
-**Authors and contributors** to this experimental extension: [Entropy](https://gd.games/Entropy), [VictrisGames](https://gd.games/VictrisGames), [fuzzy](https://gd.games/fuzzy).
+**Authors and contributors** to this extension: [Entropy](https://gd.games/Entropy), [VictrisGames](https://gd.games/VictrisGames), [fuzzy](https://gd.games/fuzzy).
 
 ---
 

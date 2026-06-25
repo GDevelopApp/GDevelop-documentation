@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/function-variant.svg" class="extension-icon"></img>
 Extra math: clamp, map, lerp, factorial, fibonacci, distance, angle, conversions, constants.
 
-**Authors and contributors** to this experimental extension: [Add00](https://gd.games/Add00), [Jurfix](https://gd.games/Jurfix).
+**Authors and contributors** to this extension: [Add00](https://gd.games/Add00), [Jurfix](https://gd.games/Jurfix).
 
 ---
 

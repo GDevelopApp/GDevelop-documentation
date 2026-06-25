@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/camera-enhance.svg" class="extension-icon"></img>
 Capture objects, layers, or scene areas as images into sprite textures.
 
-**Authors and contributors** to this experimental extension: [arthuro555](https://gd.games/arthuro555), [TulenvakiProductions](https://gd.games/TulenvakiProductions).
+**Authors and contributors** to this extension: [arthuro555](https://gd.games/arthuro555), [TulenvakiProductions](https://gd.games/TulenvakiProductions).
 
 ---
 

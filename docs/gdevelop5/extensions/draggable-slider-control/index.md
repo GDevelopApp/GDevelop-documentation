@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/UI Essentials/UI Essentials_sliders_options.svg" class="extension-icon"></img>
 Shape Painter slider for selecting numerical values.
 
-**Authors and contributors** to this experimental extension: [D8H](https://gd.games/D8H), [VictrisGames](https://gd.games/VictrisGames).
+**Authors and contributors** to this extension: [D8H](https://gd.games/D8H), [VictrisGames](https://gd.games/VictrisGames).
 
 ---
 

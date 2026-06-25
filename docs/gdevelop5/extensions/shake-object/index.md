@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/arrow-all.svg" class="extension-icon"></img>
 Shake objects with configurable translation, rotation, and scale intensity.
 
-**Authors and contributors** to this experimental extension: [VictrisGames](https://gd.games/VictrisGames).
+**Authors and contributors** to this extension: [VictrisGames](https://gd.games/VictrisGames).
 
 ---
 

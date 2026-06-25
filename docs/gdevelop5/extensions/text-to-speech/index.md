@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Users/Users_user_chat_talk.svg" class="extension-icon"></img>
 Read text aloud using system Text-to-Speech. Configurable voice and speed.
 
-**Authors and contributors** to this experimental extension: [jugule](https://gd.games/jugule).
+**Authors and contributors** to this extension: [jugule](https://gd.games/jugule).
 
 ---
 

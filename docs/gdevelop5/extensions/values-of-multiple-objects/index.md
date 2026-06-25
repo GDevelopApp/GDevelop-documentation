@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/dots-hexagon.svg" class="extension-icon"></img>
 Aggregate min/max/average position, size, Z-order across picked object instances.
 
-**Authors and contributors** to this experimental extension: [VictrisGames](https://gd.games/VictrisGames), [Bouh](https://gd.games/Bouh), [Uiles](https://gd.games/Uiles).
+**Authors and contributors** to this extension: [VictrisGames](https://gd.games/VictrisGames), [Bouh](https://gd.games/Bouh), [Uiles](https://gd.games/Uiles).
 
 ---
 

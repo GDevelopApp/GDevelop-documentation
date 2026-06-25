@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/camera-switch-outline.svg" class="extension-icon"></img>
 Auto-zoom and position camera to keep all instances of an object visible.
 
-**Authors and contributors** to this experimental extension: [VictrisGames](https://gd.games/VictrisGames), [MrMen](https://gd.games/MrMen).
+**Authors and contributors** to this extension: [VictrisGames](https://gd.games/VictrisGames), [MrMen](https://gd.games/MrMen).
 
 ---
 

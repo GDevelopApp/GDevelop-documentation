@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/typewriter.svg" class="extension-icon"></img>
 Typewriter text reveal effect, one letter at a time. For Text/BitmapText objects.
 
-**Authors and contributors** to this experimental extension: [Bouh](https://gd.games/Bouh), [VictrisGames](https://gd.games/VictrisGames), [D8H](https://gd.games/D8H).
+**Authors and contributors** to this extension: [Bouh](https://gd.games/Bouh), [VictrisGames](https://gd.games/VictrisGames), [D8H](https://gd.games/D8H).
 
 ---
 

@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/layers-triple-outline.svg" class="extension-icon"></img>
 Copy camera position, zoom, and rotation from one layer to another.
 
-**Authors and contributors** to this experimental extension: [VictrisGames](https://gd.games/VictrisGames).
+**Authors and contributors** to this extension: [VictrisGames](https://gd.games/VictrisGames).
 
 ---
 

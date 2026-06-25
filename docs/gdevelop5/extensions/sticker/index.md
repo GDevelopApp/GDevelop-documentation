@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/sticker-outline.svg" class="extension-icon"></img>
 Stick objects to others, following position and rotation. For accessories/skeletons.
 
-**Authors and contributors** to this experimental extension: [D8H](https://gd.games/D8H).
+**Authors and contributors** to this extension: [D8H](https://gd.games/D8H).
 
 ---
 

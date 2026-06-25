@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/cursor-default-outline.svg" class="extension-icon"></img>
 Change mouse cursor type (pointer, crosshair, etc). Auto-change on object hover.
 
-**Authors and contributors** to this experimental extension: [arthuro555](https://gd.games/arthuro555), [Bouh](https://gd.games/Bouh).
+**Authors and contributors** to this extension: [arthuro555](https://gd.games/arthuro555), [Bouh](https://gd.games/Bouh).
 
 ---
 

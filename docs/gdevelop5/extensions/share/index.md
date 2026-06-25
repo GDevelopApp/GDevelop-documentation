@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/share-variant.svg" class="extension-icon"></img>
 Share text/URL via system share dialog. Mobile browsers and apps only.
 
-**Authors and contributors** to this experimental extension: [4ian](https://gd.games/4ian), [arthuro555](https://gd.games/arthuro555).
+**Authors and contributors** to this extension: [4ian](https://gd.games/4ian), [arthuro555](https://gd.games/arthuro555).
 
 ---
 

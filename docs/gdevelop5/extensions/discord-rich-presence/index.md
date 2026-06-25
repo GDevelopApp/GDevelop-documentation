@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/discord.svg" class="extension-icon"></img>
 Display game activity status in Discord via Rich Presence integration.
 
-**Authors and contributors** to this experimental extension: [arthuro555](https://gd.games/arthuro555).
+**Authors and contributors** to this extension: [arthuro555](https://gd.games/arthuro555).
 
 ---
 

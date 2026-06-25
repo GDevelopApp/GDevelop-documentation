@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/access-point-network.svg" class="extension-icon"></img>
 Check if the device is currently connected to the internet.
 
-**Authors and contributors** to this experimental extension: [TheGemDev](https://gd.games/TheGemDev).
+**Authors and contributors** to this extension: [TheGemDev](https://gd.games/TheGemDev).
 
 ---
 

@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/sort-ascending.svg" class="extension-icon"></img>
 Set Z-order from Y position for depth illusion in top-down/isometric views.
 
-**Authors and contributors** to this experimental extension: (not specified).
+**Authors and contributors** to this extension: (not specified).
 
 ---
 

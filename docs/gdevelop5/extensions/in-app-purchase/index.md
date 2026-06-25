@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Shopping and Ecommerce/Shopping and Ecommerce_wallet_money_cash.svg" class="extension-icon"></img>
 In-app purchases for Android/iOS: list products, buy, and restore purchases.
 
-**Authors and contributors** to this experimental extension: [arthuro555](https://gd.games/arthuro555), [4ian](https://gd.games/4ian), [Clem](https://gd.games/Clem).
+**Authors and contributors** to this extension: [arthuro555](https://gd.games/arthuro555), [4ian](https://gd.games/4ian), [Clem](https://gd.games/Clem).
 
 ---
 

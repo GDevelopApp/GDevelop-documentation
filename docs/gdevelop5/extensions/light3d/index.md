@@ -3,7 +3,7 @@
 <img src="https://asset-resources.gdevelop.io/public-resources/Icons/f237ae4e3b857c556846c7b2c0b132556fd4bcdeff217034b4d9c97dc1aab1d6_lightbulb-on-outline.svg" class="extension-icon"></img>
 A collection of light object for 3D.
 
-**Authors and contributors** to this experimental extension: [D8H](https://gd.games/D8H).
+**Authors and contributors** to this extension: [D8H](https://gd.games/D8H).
 
 ---
 

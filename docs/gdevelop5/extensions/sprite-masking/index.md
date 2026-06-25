@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/transition-masked.svg" class="extension-icon"></img>
 Mask objects using a sprite or a Shape Painter.
 
-**Authors and contributors** to this experimental extension: [arthuro555](https://gd.games/arthuro555).
+**Authors and contributors** to this extension: [arthuro555](https://gd.games/arthuro555).
 
 ---
 

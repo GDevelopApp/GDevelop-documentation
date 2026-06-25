@@ -3,7 +3,7 @@
 <img src="https://asset-resources.gdevelop.io/public-resources/Icons/7447548d05f2c067f0403c5eb2fcf1c36756dc7e9540a418e7f14040fa20ac6f_volume-high.svg" class="extension-icon"></img>
 Collapsible volume menu object with slider and mute button.
 
-**Authors and contributors** to this experimental extension: [HelperWesley](https://gd.games/HelperWesley).
+**Authors and contributors** to this extension: [HelperWesley](https://gd.games/HelperWesley).
 
 ---
 

@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/flash-outline.svg" class="extension-icon"></img>
 Flash/blink objects: toggle visibility, color tint, effect, or opacity over time.
 
-**Authors and contributors** to this experimental extension: [4ian](https://gd.games/4ian), [Entropy](https://gd.games/Entropy), [VictrisGames](https://gd.games/VictrisGames).
+**Authors and contributors** to this extension: [4ian](https://gd.games/4ian), [Entropy](https://gd.games/Entropy), [VictrisGames](https://gd.games/VictrisGames).
 
 ---
 

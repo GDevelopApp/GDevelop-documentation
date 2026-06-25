@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/heart-half-full.svg" class="extension-icon"></img>
 Health/life system: damage, shield, armor, regeneration, cooldown, and over-healing.
 
-**Authors and contributors** to this experimental extension: [4ian](https://gd.games/4ian), [Muzan7](https://gd.games/Muzan7), [VictrisGames](https://gd.games/VictrisGames).
+**Authors and contributors** to this extension: [4ian](https://gd.games/4ian), [Muzan7](https://gd.games/Muzan7), [VictrisGames](https://gd.games/VictrisGames).
 
 ---
 

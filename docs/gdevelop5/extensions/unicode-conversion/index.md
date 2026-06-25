@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/dice-d10.svg" class="extension-icon"></img>
 Convert between text and Unicode/binary representations. Basic string obfuscation support.
 
-**Authors and contributors** to this experimental extension: [Ahnaf30e](https://gd.games/Ahnaf30e).
+**Authors and contributors** to this extension: [Ahnaf30e](https://gd.games/Ahnaf30e).
 
 ---
 

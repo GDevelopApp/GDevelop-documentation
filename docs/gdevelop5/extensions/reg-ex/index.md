@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/regex.svg" class="extension-icon"></img>
 Manipulates string with regular expressions.
 
-**Authors and contributors** to this experimental extension: [Add00](https://gd.games/Add00).
+**Authors and contributors** to this extension: [Add00](https://gd.games/Add00).
 
 ---
 
