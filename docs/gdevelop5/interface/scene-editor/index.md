@@ -51,6 +51,8 @@ Another method to unlock an instance is finding the instance on the [instance pa
   10. **Animation:** displays and modifies instance's animation
 
 
+When the selected object has [behaviors](/gdevelop5/behaviors), the panel also shows a **Behaviors** section. This lets you override a behavior's property values for that specific instance, without changing the values used by the other instances of the object.
+
 All objects share common properties (as well as common actions and conditions in events). **You can [learn about these here](/gdevelop5/objects/base_object)**.
 * Some objects can also have special properties. For example, a [Sprite object](/gdevelop5/objects/sprite) allow you to set the initial animation of each instance on the scene (the default animation being the first). Read about [objects](/gdevelop5/objects) to see all the objects that you can use in GDevelop.
 
