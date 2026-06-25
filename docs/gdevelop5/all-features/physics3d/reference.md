@@ -107,7 +107,7 @@ Simulate realistic 3D physics for this object including gravity, forces, collisi
 ### Behavior shared properties
 
 - **gravityX** (🔢 Number, Force (in Newton)). Default value is `0`.
-- **gravityY** (🔢 Number, Force (in Newton)). Default value is `456`.
+- **gravityY** (🔢 Number, Force (in Newton)). Default value is `9.8`.
 - **gravityZ** (🔢 Number, Force (in Newton)). Default value is `-9.8`.
 - **worldScale** (🔢 Number). Default value is `100`.
 
@@ -115,7 +115,7 @@ Simulate realistic 3D physics for this object including gravity, forces, collisi
 
 
     - **gravityX** is stored as `gravityX` (Number). Unit is Newton. Default value is `0`.
-    - **gravityY** is stored as `gravityY` (Number). Unit is Newton. Default value is `456`.
+    - **gravityY** is stored as `gravityY` (Number). Unit is Newton. Default value is `9.8`.
     - **gravityZ** is stored as `gravityZ` (Number). Unit is Newton. Default value is `-9.8`.
     - **worldScale** is stored as `worldScale` (Number). Default value is `100`.
 
