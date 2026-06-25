@@ -3,9 +3,13 @@ title: For each child variable event
 ---
 ## For each child variable (of a structure or array)
 
-**For each child variable** events give the [child variables](/gdevelop5/all-features/variables/) from structure variables (or arrays) one at a time to their sub-events.
+**For each child variable** events give the child variables from [structure variables (or arrays)](/gdevelop5/all-features/variables/structures-and-arrays) one at a time to their sub-events.
 
 This event stores the value of each child variable (as a string or number) and the name of the child variable (as a string) into variables you specify in the parameters of the event. You can use either scene variables or [local variables](/gdevelop5/all-features/variables/local-variables) for the variable to iterate on, for the variable storing the child value, and for the optional variable storing the child name.
+
+!!! tip
+
+    The ["Array tool" extension](/gdevelop5/extensions/array-tools) allows to search, sort, shuffle... without having to make your own loop.
 
 ## Local variables
 

@@ -41,7 +41,7 @@ Arrays can be created in the Variables Editor, using events or by using an exten
 
     Array variables should only contain children of the same type, here numbers. When you need a mix of numbers and strings (or even only several numbers), you can make each child a structure as explained in the [Array of structures](#array-of-structures) section.
 
-## Accessing child variables in structures or arrays
+## Access child variables in structures or arrays
 
 Variables that exist within a collection variable (i.e: an array or a structure) are known as _child variables_.
 To access the value of a child variable, use the following syntax in an [expressions](/gdevelop5/all-features/expressions), replacing the values in angled brackets with variable names:
@@ -77,7 +77,7 @@ Parent variables need to be declared, but it's not the case for children variabl
 
     Just be careful the data doesn't become too difficult to manage if you create structures with a lot of variables.
 
-### Accessing child variables dynamically
+### Access child variables dynamically
 
 You can use expressions to dynamically access child variables.
 
@@ -86,6 +86,10 @@ For example, imagine storing the player's score for each level. If you want to s
 ```
 Scores.Alice.Levels[CurrentLevel]
 ```
+
+### Access every child variable
+
+["For each child variable" events](/gdevelop5/events/foreach-child-variable) give the child variables from structure variables (or arrays) one at a time to their sub-events.
 
 ### Array of structures
 
