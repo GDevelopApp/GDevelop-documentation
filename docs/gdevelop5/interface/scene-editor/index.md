@@ -54,6 +54,8 @@ Another method to unlock an instance is finding the instance on the [instance pa
 All objects share common properties (as well as common actions and conditions in events). **You can [learn about these here](/gdevelop5/objects/base_object)**.
 * Some objects can also have special properties. For example, a [Sprite object](/gdevelop5/objects/sprite) allow you to set the initial animation of each instance on the scene (the default animation being the first). Read about [objects](/gdevelop5/objects) to see all the objects that you can use in GDevelop.
 
+If the object has [behaviors](/gdevelop5/behaviors), their properties are also listed in the panel. Changing them here overrides the behavior values for the selected instance(s) only, without affecting the other instances of the object. You can select several instances to edit their behavior properties all at once.
+
 !!! tip
 
     While the difference between an instance and an object can be fuzzy if you're new to GDevelop, it's important to understand that an **object** is like a *blueprint* (it's also called a "Class" in some programming languages). You can have multiple objects *living* on the scene: these are called **instances**.
