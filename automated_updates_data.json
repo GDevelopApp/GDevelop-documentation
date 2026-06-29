@@ -96,6 +96,10 @@
     {
       "date": "2026-06-24",
       "summary": "Improved window docs: distinguished game resolution from window size, documented resize mode and auto-adapt, added center window and window icon actions, and listed scene/screen size expressions"
+    },
+    {
+      "date": "2026-06-29",
+      "summary": "Improved keyboard docs: explained Key pressed vs Key just pressed, added Any key released, noted touch-device limitation, clarified text-expression key and Last pressed key for remapping"
     }
   ]
 }
