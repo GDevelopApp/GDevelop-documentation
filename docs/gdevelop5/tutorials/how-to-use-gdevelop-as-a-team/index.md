@@ -97,6 +97,32 @@ toolbarButtons:
 
 A button with a `hook` still appears in the toolbar and can be clicked manually as well. GDevelop will show a one-time security confirmation before running any npm script, since scripts execute on your computer.
 
+### Custom resource properties
+
+You can define extra properties that team members can fill in for resources (images, audio files, etc.) directly from the resource properties panel. This is useful to store pipeline information alongside each asset, such as the source file, a license, or whether an asset has been reviewed.
+
+Add a `resourceCustomProperties` section to `gdevelop-settings.yaml`:
+
+```yaml
+resourceCustomProperties:
+  - name: source
+    label: Source file
+    type: string
+    description: Path to the original asset in the art pipeline
+  - name: reviewed
+    label: Reviewed
+    type: boolean
+    default: false
+  - name: license
+    label: License
+    type: string
+    resourceKinds:
+      - image
+      - audio
+```
+
+Each entry requires a `name` (unique key, using letters, numbers, `-` or `_`) and a `type` (`string`, `boolean` or `number`). You can also add a `label` (shown in the editor, defaults to the name), a `description`, a `default` value, and a `resourceKinds` list to limit the property to certain kinds of resources (otherwise it applies to all of them). The values entered are saved with the project, so the whole team shares them through version control.
+
 !!! note
 
     Project-specific settings and custom toolbar buttons are only supported in the desktop version of GDevelop.
