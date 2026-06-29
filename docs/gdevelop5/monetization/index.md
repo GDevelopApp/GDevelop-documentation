@@ -5,6 +5,41 @@ icon: material/cash-multiple
 
 # Monetizing Your Games
 
+<img width="720" height="1506" alt="image" src="https://github.com/user-attachments/assets/c7962e7c-cd82-47d0-a156-20f5d7013d57" />
+
+GDevelop में अपने गेम से आय उत्पन्न करने के मुख्य तरीके:
+
+## 1. विज्ञापन (Ads)
+यहाँ AdMob एक्सटेंशन को सेटअप करने के बारे में विस्तार से बताएं।
+
+## 2. इन-ऐप खरीदारी (In-App Purchases)
+यहाँ IAP का उपयोग करके डिजिटल सामान बेचने की प्रक्रिया बताएं।
+
+## 3. सर्वश्रेष्ठ अभ्यास (Best Practices)
+* उपयोगकर्ता अनुभव (User Experience) को प्रभावित न करें।
+* विज्ञापन लगाने के सही समय (जैसे लेवल पूरा होने पर) का चयन करें।
+
+Monetizing your game is an exciting opportunity...
+
+
+GDevelop में अपने गेम से आय उत्पन्न करने के मुख्य तरीके:
+
+## 1. विज्ञापन (Ads)
+यहाँ बताएं कि AdMob एक्सटेंशन को कैसे सेटअप करें।
+
+## 2. इन-ऐप खरीदारी (In-App Purchases)
+यहाँ IAP का उपयोग करके कैसे डिजिटल सामान बेचें, इसकी प्रक्रिया दें।
+
+## 3. सर्वश्रेष्ठ अभ्यास (Best Practices)
+*   उपयोगकर्ता अनुभव (User Experience) को प्रभावित न करें।
+*   विज्ञापन लगाने के सही समय (जैसे लेवल पूरा होने पर) का चयन करें।
+
+title: Monetizing Your Games
+icon: material/cash-multiple
+---
+
+# Monetizing Your Games
+
 Monetizing your game is an exciting opportunity, but it's important to note that it is entirely optional when using GDevelop. Whether you choose to monetize or not, GDevelop provides multiple ways to do so, allowing you to find the best fit for your game's audience and platform.
 
 <div class="video-container">
