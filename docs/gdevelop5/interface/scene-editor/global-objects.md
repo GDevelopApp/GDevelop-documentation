@@ -1,4 +1,4 @@
----
+lkkio---
 title: Global Objects
 ---
 # Global Objects
