@@ -4,6 +4,8 @@ Add an outline on all objects of the layer having the effect.  **This won't work
 
 ![](outline-effect.png)
 
+Use **Thickness** to set how wide the outline is and **Color of the outline** to choose its color. Applied to an object, this is a common way to highlight a selected or hovered item.
+
 
 ## Reference
 

@@ -96,6 +96,10 @@
     {
       "date": "2026-06-24",
       "summary": "Improved window docs: distinguished game resolution from window size, documented resize mode and auto-adapt, added center window and window icon actions, and listed scene/screen size expressions"
+    },
+    {
+      "date": "2026-07-02",
+      "summary": "Added usage guidance to visual effect docs: CRT, drop shadow, god rays, tilt shift, and outline effects"
     }
   ]
 }
