@@ -196,6 +196,8 @@ nav:
             - 3D sprite: sprite3d
         - Input:
             - Double key press: double-key-press
+            - 3D airplane gamepad mapper: physics-airplane3dgamepad-mapper
+            - 3D airplane multitouch controller mapper: physics-airplane3dmultitouch-mapper
             - Screen Orientation Checker: screen-orientation-checker
             - Selection tools: selection-tools
         - Movement:
@@ -207,6 +209,7 @@ nav:
             - 3D jump (deprecated): jump3d
             - Magnetic Effect: magnetic-effect
             - Navigation mesh pathfinding (experimental): nav-mesh-pathfinding
+            - 3D physics airplane: physics-airplane3d
             - Platform ledge grabber: platform-ledge-grabber
             - Point and Orbit: point-and-orbit
             - Pushable/Pullable Box: pushable-and-pullable-box

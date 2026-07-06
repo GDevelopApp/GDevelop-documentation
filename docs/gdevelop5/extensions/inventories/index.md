@@ -28,29 +28,29 @@ Add an item in an inventory.
 
     > Technical note: this action internal type (in GDevelop JSON) is `Inventories::AddItem`.
 
-**Save an inventory in a scene variable**  
-Save all the items of the inventory in a scene variable, so that it can be restored later.
+**Save an inventory in a variable**  
+Save all the items of the inventory in a variable, so that it can be restored later.
 
 ??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Inventory name
-    - Parameter 2 (🗄️ Scene variable): Scene variable
+    - Parameter 2: 🗄️ Any variable
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-    > Technical note: this action internal type (in GDevelop JSON) is `Inventories::CopyInventoryToVariable`.
+    > Technical note: this action internal type (in GDevelop JSON) is `Inventories::CopyInventoryToVariable2`.
 
-**Load an inventory from a scene variable**  
-Load the content of the inventory from a scene variable.
+**Load an inventory from a variable**  
+Load the content of the inventory from a variable.
 
 ??? quote "See parameters & details"
 
     - Parameter 1 (🔤 Name (String)): Inventory name
-    - Parameter 2 (🗄️ Scene variable): Scene variable
+    - Parameter 2: 🗄️ Any variable
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-    > Technical note: this action internal type (in GDevelop JSON) is `Inventories::CopyToVariableToInventory`.
+    > Technical note: this action internal type (in GDevelop JSON) is `Inventories::CopyToVariableToInventory2`.
 
 **Remove an item**  
 Remove an item from an inventory.
