@@ -1,4 +1,5 @@
----
+49#@
+rt---
 title: Publish your game to Android and iOS manually using Cordova
 ---
 
