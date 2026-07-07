@@ -49,7 +49,7 @@ Common features that can be used for all objects in GDevelop. [Read more explana
 | `Object.BoundingBoxTop()` | Return the bounding box (the area encapsulating the object) top position. ||
 | `Object.CenterX()` | Return the X position of the center of rotation. ||
 | `Object.CenterY()` | Return the Y position of the center of rotation. ||
-| `Object.Distance(object)` | Distance between two objects ||
+| `Object.Distance(object)` | Distance between two objects, on the X/Y plane only (Z is ignored) ||
 | | _👾 Object_ | Object |
 | `Object.DistanceToPosition(number, number)` | Distance between an object and a position ||
 | | _🔢 Number_ | Target X position |
@@ -63,7 +63,7 @@ Common features that can be used for all objects in GDevelop. [Read more explana
 | `Object.ObjectName()` | Return the name of the object ||
 | `Object.ObjectTimerElapsedTime(string)` | Value of an object timer ||
 | | _🔤 Name (String)_ | Timer's name |
-| `Object.SqDistance(object)` | Square distance between two objects ||
+| `Object.SqDistance(object)` | Square distance between two objects, on the X/Y plane only (Z is ignored) ||
 | | _👾 Object_ | Object |
 | `Object.SqDistanceToPosition(number, number)` | Square distance between an object and a position ||
 | | _🔢 Number_ | Target X position |

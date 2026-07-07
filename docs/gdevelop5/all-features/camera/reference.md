@@ -21,6 +21,10 @@ Center the camera on the specified object.
 
     > Technical note: this action internal type (in GDevelop JSON) is `CenterCameraOnObject`.
 
+??? tip "Hints and advice"
+
+    This only centers the 2D camera on the X/Y axes: it does not set the camera Z position nor a 3D viewing angle. For 3D games, use the 3D camera actions or a camera behavior (third person camera, first person camera...).
+
 **Layer time scale**  
 Change the time scale applied to the objects of the layer.
 

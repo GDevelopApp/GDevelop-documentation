@@ -31,6 +31,10 @@ Change the tint of an object. The default color is white.
 
     > Technical note: this action internal type (in GDevelop JSON) is `ChangeColor`.
 
+??? tip "Hints and advice"
+
+    The tint is multiplicative on the image pixels (white restores the original colors): it can only darken or shift existing colors, and cannot turn a non-white sprite into an arbitrary solid color. For a solid color, use a white image, another animation/image or an effect.
+
 **Current frame**  
 Modify the current frame of the object
 
