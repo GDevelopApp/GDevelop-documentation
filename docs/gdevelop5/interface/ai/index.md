@@ -5,6 +5,10 @@ title: Build and learn with GDevelop AI
 
 GDevelop AI is a **creation agent for making games**: describe what you want in plain language, and it will answer your questions, brainstorm ideas, and build mechanics directly in your project. Unlike general-purpose tools like ChatGPT, Claude or Google Gemini, it's specialised for GDevelop — it knows how the engine works and can read your game's objects, behaviors, variables and events to understand what you're working on.
 
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/ytujiDwhDo8?si=lzqPNI6ILkk9YfAi" frameborder="0" allowfullscreen></iframe>
+</div>
+
 It can help you:
 
 - Understand features and how to use them,
