@@ -26,6 +26,10 @@ To organize objects into a group:
 
 You can now use this group of objects in events.
 
+!!! note
+
+    When you add an object to a group, it automatically receives the behaviors and variables that the rest of the group has in common, if it doesn't already have them. This keeps the group usable as a single object in events.
+
 ## Add variables to an object group
 
 A group of object does not have variables by itself. Rather, the variables of a group are displayed by finding all the common variables contained in all the objects of the group.
