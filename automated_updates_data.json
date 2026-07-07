@@ -1,5 +1,5 @@
 {
-  "last_automated_updates_commit": "2aa0fdea7bb1367dae9b31588ad3702f8f1b5be5",
+  "last_automated_updates_commit": "83481725932de83ee10286931de90c95bc2da191",
   "last_improved_things": [
     {
       "date": "2026-02-16",
@@ -100,6 +100,10 @@
     {
       "date": "2026-06-28",
       "summary": "Improved Text Input object docs: added placeholder and max length notes, appearance customization (colors, border, padding, alignment), and submission/focus detection"
+    },
+    {
+      "date": "2026-07-07",
+      "summary": "Improved keyboard docs: added 'Key just pressed' (held vs one-frame) and 'Any key released' conditions, control-remapping note, and a reference list of valid key names"
     }
   ]
 }

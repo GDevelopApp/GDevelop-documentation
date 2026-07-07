@@ -21,18 +21,6 @@ NEVER use this to load your game.json into a variable - this would increase your
 
 ## Actions
 
-**Load a JSON resource in a global variable**  
-Loads a JSON resource into a global structure variable.
-
-??? quote "See parameters & details"
-
-    - Parameter 1 (jsonResource): The resource to load the JSON from
-    - Parameter 2 (🗄️ Global variable): The global variable to load the JSON to
-
-    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
-
-    > Technical note: this action internal type (in GDevelop JSON) is `JSONResourceLoader::LoadJSONToGlobal`.
-
 **Load a JSON resource in an object variable**  
 Loads a JSON resource into an object structure variable.
 
@@ -46,17 +34,17 @@ Loads a JSON resource into an object structure variable.
 
     > Technical note: this action internal type (in GDevelop JSON) is `JSONResourceLoader::LoadJSONToObject`.
 
-**Load a JSON resource in a scene variable**  
-Loads a JSON resource into a scene structure variable.
+**Load a JSON resource in a variable**  
+Loads a JSON resource into a structure variable.
 
 ??? quote "See parameters & details"
 
     - Parameter 1 (jsonResource): The resource to load the JSON from
-    - Parameter 2 (🗄️ Scene variable): The scene variable to load the JSON to
+    - Parameter 2 (🗄️ Any variable): The variable to load the JSON to
 
     > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
-    > Technical note: this action internal type (in GDevelop JSON) is `JSONResourceLoader::LoadJSONToScene`.
+    > Technical note: this action internal type (in GDevelop JSON) is `JSONResourceLoader::LoadJSONToVariable`.
 
 
 

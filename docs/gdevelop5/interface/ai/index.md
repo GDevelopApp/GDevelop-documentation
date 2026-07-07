@@ -30,9 +30,12 @@ The AI knows all built-in GDevelop features and the official, reviewed extension
 
 When it builds, the AI can take many concrete actions in your game, such as:
 
-- Creating scenes,
-- Adding objects and placing them in a scene,
+- Creating and deleting scenes,
+- Adding, editing and removing objects and placing them in a scene,
 - Adding behaviors to objects,
+- Organizing objects into groups,
+- Reading, creating and deleting object, scene and global variables,
+- Inspecting and adjusting object and scene effects,
 - Creating or modifying events to build your game's logic,
 - Creating global or scene-wide elements,
 - Finding and installing suitable official extensions or assets.
