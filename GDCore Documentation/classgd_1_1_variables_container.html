@@ -180,6 +180,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_variables_container.html#a81f0306ab726ad3e93adcfd7053313e0">ForEachVariableMatchingSearch</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;search, std::function&lt; void(const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;name, const <a class="el" href="classgd_1_1_variable.html">gd::Variable</a> &amp;variable)&gt; fn) const</td></tr>
 <tr class="memdesc:a81f0306ab726ad3e93adcfd7053313e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call the callback for each variable with a name matching the specified search. <br /></td></tr>
 <tr class="separator:a81f0306ab726ad3e93adcfd7053313e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5cf82292cedfd8581f12df9b90628f8d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_variables_container.html#a5cf82292cedfd8581f12df9b90628f8d">ClearMixedValues</a> ()</td></tr>
+<tr class="memdesc:a5cf82292cedfd8581f12df9b90628f8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the "mixed values" marker on all the variables of the container (see <code><a class="el" href="classgd_1_1_variable.html#afd8533afbc1a146772362b2f85a1df09" title="Clear the &quot;mixed values&quot; marker on this variable and all its children (a variable with entirely mixed...">gd::Variable::ClearMixedValues</a></code>).  <a href="classgd_1_1_variables_container.html#a5cf82292cedfd8581f12df9b90628f8d">More...</a><br /></td></tr>
+<tr class="separator:a5cf82292cedfd8581f12df9b90628f8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Saving and loading</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>Members functions related to saving and loading the object. </p>
 </div></td></tr>
@@ -214,6 +217,26 @@ const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</t
 <dd>
 <a class="el" href="classgd_1_1_object.html" title="Represent an object of a platform.">gd::Object</a> </dd></dl>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a5cf82292cedfd8581f12df9b90628f8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5cf82292cedfd8581f12df9b90628f8d">&#9670;&nbsp;</a></span>ClearMixedValues()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gd::VariablesContainer::ClearMixedValues </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Clear the "mixed values" marker on all the variables of the container (see <code><a class="el" href="classgd_1_1_variable.html#afd8533afbc1a146772362b2f85a1df09" title="Clear the &quot;mixed values&quot; marker on this variable and all its children (a variable with entirely mixed...">gd::Variable::ClearMixedValues</a></code>). </p>
+<p>This marker is only relevant for the temporary variables containers built by the editor to display the variables shared by several objects. It must never be kept on variables stored in a project (object variables, instance variables...). </p>
+
+</div>
+</div>
 <a id="ad1e434be506f41f47a86c922185d5973"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad1e434be506f41f47a86c922185d5973">&#9670;&nbsp;</a></span>Insert()</h2>
 

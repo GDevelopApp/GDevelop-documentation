@@ -158,6 +158,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_variable.html#a5e600123b22877f3b5ec2a36e7206c57">MarkAsMixedValues</a> ()</td></tr>
 <tr class="memdesc:a5e600123b22877f3b5ec2a36e7206c57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true when objects of a group have different values for a variable. <br /></td></tr>
 <tr class="separator:a5e600123b22877f3b5ec2a36e7206c57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd8533afbc1a146772362b2f85a1df09"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_variable.html#afd8533afbc1a146772362b2f85a1df09">ClearMixedValues</a> ()</td></tr>
+<tr class="memdesc:afd8533afbc1a146772362b2f85a1df09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear the "mixed values" marker on this variable and all its children (a variable with entirely mixed types is casted back to a number).  <a href="classgd_1_1_variable.html#afd8533afbc1a146772362b2f85a1df09">More...</a><br /></td></tr>
+<tr class="separator:afd8533afbc1a146772362b2f85a1df09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9299f8dfc9a14e9f743940f2a6ec5cc7"><td class="memItemLeft" align="right" valign="top"><a id="a9299f8dfc9a14e9f743940f2a6ec5cc7"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>operator=</b> (double val)</td></tr>
 <tr class="separator:a9299f8dfc9a14e9f743940f2a6ec5cc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -413,6 +416,26 @@ static <a class="el" href="classgd_1_1_variable.html">gd::Variable</a>&#160;</td
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="afd8533afbc1a146772362b2f85a1df09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd8533afbc1a146772362b2f85a1df09">&#9670;&nbsp;</a></span>ClearMixedValues()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gd::Variable::ClearMixedValues </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Clear the "mixed values" marker on this variable and all its children (a variable with entirely mixed types is casted back to a number). </p>
+<p>This marker is only relevant for the temporary variables containers built by the editor to display the variables shared by several objects (see <code><a class="el" href="classgd_1_1_object_refactorer.html#a8dff9d407e9440dd20e18edd1d0fa423">gd::ObjectRefactorer::MergeVariableContainers</a></code>). It must never be kept on a variable stored in a project (object variables, instance variables...). </p>
+
+</div>
+</div>
 <a id="aed487fad1b85fd1c8486a43ac30d467d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aed487fad1b85fd1c8486a43ac30d467d">&#9670;&nbsp;</a></span>GetAtIndex() <span class="overload">[1/2]</span></h2>
 
