@@ -1,5 +1,5 @@
 {
-  "last_automated_updates_commit": "bf8e571c4107deda2257385bcbc45ed9595814e9",
+  "last_automated_updates_commit": "83481725932de83ee10286931de90c95bc2da191",
   "last_improved_things": [
     {
       "date": "2026-02-16",
@@ -96,6 +96,10 @@
     {
       "date": "2026-06-24",
       "summary": "Improved window docs: distinguished game resolution from window size, documented resize mode and auto-adapt, added center window and window icon actions, and listed scene/screen size expressions"
+    },
+    {
+      "date": "2026-07-07",
+      "summary": "Improved keyboard docs: added 'Key just pressed' (held vs one-frame) and 'Any key released' conditions, control-remapping note, and a reference list of valid key names"
     }
   ]
 }
