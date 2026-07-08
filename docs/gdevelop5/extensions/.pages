@@ -234,6 +234,7 @@ nav:
             - ChatBubble: chat-bubble
             - Clock: clock
             - Pause when losing focus: pause-focus-lost
+            - Convert 3D position to screen position: project-to-camera3d
             - Scrollbar: scrollbar
             - Star Rating: star-rating
         - Visual effect:
