@@ -4,6 +4,12 @@ Add an outline on all objects of the layer having the effect.  **This won't work
 
 ![](outline-effect.png)
 
+Use the **thickness** property to set how wide the outline is, and **color** to change its color. Applied on a single object, this is a common way to highlight an item that can be picked up or interacted with.
+
+!!! note
+
+    This is a 2D effect. It has no effect on 3D objects or 3D layers.
+
 
 ## Reference
 
