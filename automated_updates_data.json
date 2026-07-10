@@ -104,6 +104,10 @@
     {
       "date": "2026-07-07",
       "summary": "Improved keyboard docs: added 'Key just pressed' (held vs one-frame) and 'Any key released' conditions, control-remapping note, and a reference list of valid key names"
+    },
+    {
+      "date": "2026-07-10",
+      "summary": "Expanded visual effect pages (CRT, drop-shadow, god-rays, kawase-blur, outline, rgb-split, tilt-shift) with use cases and 2D-only notes; clarified object effect availability"
     }
   ]
 }
