@@ -43,6 +43,10 @@ For published games, additional options are available:
 
     If a game isn't properly displaying a project, make sure that the project of the game still exists in your local files or in the cloud. Then, open the project so GDevelop recognizes it and links it to the game to which it belongs.
 
+### Restoring a deleted cloud project
+
+Deleting a cloud project doesn't remove it immediately: it is kept for a limited time before being permanently erased. Use the filter at the top of the Games list to switch from **Active projects** to **Deleted projects** and see them. Each deleted project displays when it was deleted, and a **Restore** action brings it back to your active games as long as it is still within the retention period.
+
 ## Game earnings and GDevelop credits wallet
 
 Each account on GDevelop can optionally earn from games published on gd.games. Creators have two options to cash out their game earnings:
