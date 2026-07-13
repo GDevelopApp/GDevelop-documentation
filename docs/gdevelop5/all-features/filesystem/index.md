@@ -131,7 +131,7 @@ This action loads the JSON formatted text from a file and converts it into a sce
 == Parameters ==
 ** Scene variable: ** The name of the scene variable to which the loaded structure will be added.
 
-** Load path: ** The path on the file system where the file should be saved.
+** Load path: ** The path on the file system where the file is located.
 It is advised to use the expressions for special folders (see below) to keep your game platform independent.
 
 ** (Optional) Result variable: ** Variable to store the result. It can either hold the value 'ok': the task was successful or 'error': an error occurred.
@@ -143,7 +143,7 @@ This action loads the JSON formatted text from a file and converts it into a sce
 == Parameters ==
 ** Scene variable: ** The name of the scene variable to which the loaded structure will be added.
 
-** Load path: ** The path on the file system where the file should be saved.
+** Load path: ** The path on the file system where the file is located.
 It is advised to use the expressions for special folders (see below) to keep your game platform independent.
 
 ** (Optional) Result variable: ** Variable to store the result. It can either hold the value 'ok': the task was successful or 'error': an error occurred. The variable will be updated, at the moment the file operation has finished.
@@ -184,7 +184,7 @@ It is advised to use the expressions for special folders (see below) to keep you
 
 ---
 
-####  Delete a file
+####  Delete a file (async)
 This action deletes the file at the given file path __asynchronously__.
 == Parameters ==
 ** File path: ** The path on the file system where the file is located.
