@@ -42,6 +42,7 @@ When it builds, the AI can take many concrete actions in your game, such as:
 - Inspecting and adjusting object and scene effects,
 - Creating or modifying events to build your game's logic,
 - Creating global or scene-wide elements,
+- Inspecting and changing project properties (such as the game name, resolution, orientation or first scene) and managing resources,
 - Finding and installing suitable official extensions or assets.
 
 !!! note
