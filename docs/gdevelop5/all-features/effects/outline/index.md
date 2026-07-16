@@ -4,6 +4,12 @@ Add an outline on all objects of the layer having the effect.  **This won't work
 
 ![](outline-effect.png)
 
+Set the **Thickness** and **Color** of the outline to match your art style — for example a thin white line to highlight a selected object.
+
+!!! note
+
+    A thick outline can be clipped at the edges of the object. If that happens, increase the **Padding** to give the effect more room to draw.
+
 
 ## Reference
 
