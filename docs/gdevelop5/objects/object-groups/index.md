@@ -28,7 +28,7 @@ You can now use this group of objects in events.
 
 !!! note
 
-    When you add an object to a group, it automatically receives the behaviors and variables that the rest of the group has in common, if it doesn't already have them. This keeps the group usable as a single object in events.
+    When you add an object to a group, it automatically receives the variables and the compatible behaviors that the rest of the group has in common, if it doesn't already have them. This keeps the group usable as a single object in events. Behaviors that can't work on the object (because of its type) are not added.
 
 ## Add variables to an object group
 
