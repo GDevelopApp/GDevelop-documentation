@@ -79,6 +79,12 @@ Student accounts have a **distraction-free view** that students cannot deactivat
 - Announcements and ads
 - GDevelop gaming page (community-shared games)
 
+### GDevelop AI access
+
+[GDevelop AI](/gdevelop5/interface/ai/) is **disabled by default** for student accounts: students don't see the "Ask AI" button and can't send requests to the AI.
+
+Teachers can choose to enable it for all the students of the plan. To do so, open the Teach tab, click the settings icon next to the "Manage seats" button, and activate "Allow students to use GDevelop's AI" in the "Advanced student options" dialog. The setting applies to every student account of the plan and can be turned back off at any time.
+
 ### Access to examples and starters
 
 Students **can still access** the built-in examples and starter games. These are valuable learning resources that:
@@ -199,7 +205,12 @@ The recommended approach is to archive accounts you want to clean up and create 
 
 **Are any features restricted on student accounts?**
 
-No. Student accounts have **full access** to all game-making features—identical to the web and desktop versions. The only difference is the distraction-free view that hides commercial content, social features, and community games. All actual game development functionality is available.
+Student accounts have **full access** to all game-making features—identical to the web and desktop versions. The only differences are:
+
+- The distraction-free view that hides commercial content, social features, and community games;
+- [GDevelop AI](/gdevelop5/interface/ai/), which is disabled by default and can be [enabled by a teacher](#gdevelop-ai-access).
+
+All actual game development functionality is available.
 
 ### Support
 
