@@ -1,13 +1,13 @@
 # Animate Shadow Clones
 
 <img src="https://resources.gdevelop-app.com/assets/Icons/vector-arrange-above.svg" class="extension-icon"></img>
-Create fading shadow clone trail.
+Create a fading shadow clone trail.
 
-**Authors and contributors** to this extension: [Entropy](https://gd.games/Entropy), [VictrisGames](https://gd.games/VictrisGames), [fuzzy](https://gd.games/fuzzy).
+**Authors and contributors** to this extension: [Entropy](https://gd.games/Entropy), [VictrisGames](https://gd.games/VictrisGames), [fuzzy](https://gd.games/fuzzy), [D8H](https://gd.games/D8H).
 
 ---
 
-Select the primary object, the shadow clone object, the number of shadow clones, the number of frames between shadow clones, the rate that shadow clones will reduce opacity and size (if desired), the Z-value and the layer the shadow clones will be created on.
+Create a fading shadow clone trail.
 
 This extension can be used to:
 
@@ -22,7 +22,6 @@ These object variables are provided to manage the shadow clones:
 
 
 - ShadowCloneOrder: Shadow clone identifier, where 1 is the shadow clone closest to the primary object
-- FramesBehindPrimary: The number of frames that the shadow clone is behind the primary object
 
 Notes: 
 
@@ -32,54 +31,240 @@ Notes:
 
 Watch this [tutorial video](https://youtu.be/2t4ANYgrrak) to see examples of how to use this extension.
 
-[Read more...](https://www.youtube.com/watch?v=2t4ANYgrrak)
-
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
 
-## Actions
 
-**Animate shadow clones that follow the path of a primary object**  
-Select the primary object, the shadow clone object, the number of shadow clones, the number of frames between shadow clones, the rate that shadow clones will fade away (if desired), the Z-value of the shadow clones, and the layer the shadow clones will be created on.
+
+## Shadow clone emitter 
+
+Create a fading shadow clone trail. 
+
+### Behavior properties
+
+- **Number of clones** (🔢 Number). Default value is `5`.
+- **Frames gap** (🔢 Number). Default value is `8`.
+- **Match object angle** (🔘 Boolean). Default value is `true`.
+- **Match object animation** (🔘 Boolean). Default value is `true`.
+- **Match object animation** (🔘 Boolean). Default value is `true`.
+- **Match object horizontal flip** (🔘 Boolean). Default value is `true`.
+- **Match object X scale** (🔘 Boolean). Default value is `true`.
+- **Match object Y scale** (🔘 Boolean). Default value is `true`.
+- **Match object vertical flip** (🔘 Boolean). Default value is `true`.
+- **Last clone opacity** (🔢 Number). Values from 0 to 1. Default value is `0`.
+- **First clone opacity** (🔢 Number). Values from 0 to 1. Default value is `0.5`.
+- **Last clone scale** (🔢 Number). Values from 0 to 1. Default value is `1`.
+
+??? quote "See internal technical details"
+
+
+    > This behavior must be used on an object also having a behavior with type "AnimatableCapability::AnimatableBehavior". This is stored on property `Animation`.
+
+    - **Number of clones** is stored as `ClonesCount` (Number). Default value is `5`.
+    > This behavior must be used on an object also having a behavior with type "FlippableCapability::FlippableBehavior". This is stored on property `Flippable`.
+
+    - **Frames gap** is stored as `FramesGap` (Number). Default value is `8`.
+    - **Match object angle** is stored as `MatchAngle` (Boolean). Default value is `true`.
+    - **Match object animation** is stored as `MatchAnimation` (Boolean). Default value is `true`.
+    - **Match object animation** is stored as `MatchAnimationFrame` (Boolean). Default value is `true`.
+    - **Match object horizontal flip** is stored as `MatchHorizontalFlip` (Boolean). Default value is `true`.
+    - **Match object X scale** is stored as `MatchScaleX` (Boolean). Default value is `true`.
+    - **Match object Y scale** is stored as `MatchScaleY` (Boolean). Default value is `true`.
+    - **Match object vertical flip** is stored as `MatchVerticalFlip` (Boolean). Default value is `true`.
+    > This behavior must be used on an object also having a behavior with type "OpacityCapability::OpacityBehavior". This is stored on property `Opacity`.
+
+    - **Last clone opacity** is stored as `OpacityEnd` (Number). Default value is `0`.
+    - **First clone opacity** is stored as `OpacityStart` (Number). Default value is `0.5`.
+    > This behavior must be used on an object also having a behavior with type "ScalableCapability::ScalableBehavior". This is stored on property `Scale`.
+
+    - **Last clone scale** is stored as `ScaleEnd` (Number). Default value is `1`.
+
+### Behavior actions
+
+**Animate shadow clones**  
+Create and animate a fading shadow clone trail. This action must be called every frame.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (👾 Object): Object that shadow clones will follow
-    - Parameter 2 (👾 Object): Shadows clones will be made of this object (Cannot be the same object used for primary object)
-    - Parameter 3 (🔢 Number): Number of shadow clones (Default: 1)
-    - Parameter 4 (🔢 Number): Number of empty frames between shadow clones (Default: 1)
-    - Parameter 5 (🔢 Number): Fade speed (Range: 0 to 255) (Default: 0)
-      Decrease in opacity for each consecutive shadow clone 
-    - Parameter 6 (🔢 Number): Shrink speed (Range: 0 to 100) (Default: 0)
-      Decrease in scale for each consecutive shadow clone 
-    - Parameter 7 (🔤 Layer name (String)): Shadow clones will be created on this layer. (Default: "") (Base Layer)
-    - Parameter 8 (🔢 Number): Z value for created shadow clones
-    - Parameter 9 (❓ Yes or No): Match X scale of primary object:
-    - Parameter 10 (❓ Yes or No): Match Y scale of primary object:
-    - Parameter 11 (❓ Yes or No): Match angle of primary object:
-    - Parameter 12 (❓ Yes or No): Match animation of primary object:
-    - Parameter 13 (❓ Yes or No): Match animation frame of primary object:
-    - Parameter 14 (❓ Yes or No): Match the vertical flip of primary object:
-    - Parameter 15 (❓ Yes or No): Match the horizontal flip of primary object:
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (👾 Object): Shadow clone
+      Must be a different object that the one with emitter behavior.
+    - Parameter 3 (🧩 Behavior): Scalable objects
+    - Parameter 4 (🧩 Behavior): Flippable objects
+    - Parameter 5 (🧩 Behavior): Objects with opacity
+    - Parameter 6 (🧩 Behavior): Objects with animations
 
-    > Technical note: parameters 0, 16 are internal parameters handled by GDevelop.
+    > Technical note: parameter 7 is an internal parameter handled by GDevelop.
 
-    > Technical note: this action internal type (in GDevelop JSON) is `ShadowClones::AnimateShadowClones`.
+    > Technical note: this action internal type (in GDevelop JSON) is `ShadowClones::ShadowCloneEmitter::AnimateClones`.
 
-**Delete shadow clone objects that are linked to a primary object**  
+**Delete shadow clones**  
 Delete shadow clone objects that are linked to a primary object.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (👾 Object): Primary object
-    - Parameter 2 (👾 Object): Shadow clones
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (👾 Object): Shadow clone
 
-    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
-    > Technical note: this action internal type (in GDevelop JSON) is `ShadowClones::DeleteShadowClones`.
+    > Technical note: this action internal type (in GDevelop JSON) is `ShadowClones::ShadowCloneEmitter::DeleteClones`.
+
+**Number of clones**  
+Change the number of clones following the object.
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ShadowClones::ShadowCloneEmitter::SetClonesCount`.
+
+**Frames gap**  
+Change the number of frames between 2 clones.
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ShadowClones::ShadowCloneEmitter::SetFramesGap`.
+
+**Last clone opacity**  
+Change the last clone opacity (from 0 to 1).
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ShadowClones::ShadowCloneEmitter::SetOpacityEnd`.
+
+**First clone opacity**  
+Change the first clone opacity (from 0 to 1).
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ShadowClones::ShadowCloneEmitter::SetOpacityStart`.
+
+**Last clone scale**  
+Change the last clone scale (from 0 to 1).
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ShadowClones::ShadowCloneEmitter::SetScaleEnd`.
 
 
+### Behavior conditions
 
+**Number of clones**  
+Compare the number of clones following the object.
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ShadowClones::ShadowCloneEmitter::ClonesCount`.
+
+**Frames gap**  
+Compare the number of frames between 2 clones.
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ShadowClones::ShadowCloneEmitter::FramesGap`.
+
+**Last clone opacity**  
+Compare the last clone opacity (from 0 to 1).
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ShadowClones::ShadowCloneEmitter::OpacityEnd`.
+
+**First clone opacity**  
+Compare the first clone opacity (from 0 to 1).
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ShadowClones::ShadowCloneEmitter::OpacityStart`.
+
+**Last clone scale**  
+Compare the last clone scale (from 0 to 1).
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ShadowClones::ShadowCloneEmitter::ScaleEnd`.
+
+
+### Behavior expressions
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `Object.ShadowCloneEmitter::ClonesCount()` | Return the number of clones following the object. ||
+| `Object.ShadowCloneEmitter::FramesGap()` | Return the number of frames between 2 clones. ||
+| `Object.ShadowCloneEmitter::OpacityEnd()` | Return the last clone opacity (from 0 to 1). ||
+| `Object.ShadowCloneEmitter::OpacityStart()` | Return the first clone opacity (from 0 to 1). ||
+| `Object.ShadowCloneEmitter::ScaleEnd()` | Return the last clone scale (from 0 to 1). ||
 
 
 ---
