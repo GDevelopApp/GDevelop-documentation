@@ -11,10 +11,10 @@ If you need to show more detail 3D objects, check the [3D model object](../3d-mo
 
 Lighting can be set up through [layers effects](../../interface/scene-editor/layer-effects). Ambient and directional light effects allow to configure basic lighting for 3D layers.
 
-3D boxes can be set up to react to lighting in different ways:
+3D boxes can be set up to react to lighting in different ways, using the **Material type** property:
 
-- Either it does not react to light, meaning that it's always shown with the colors of the texture that was set (like a 2D object)
-- Or it does react to light. In this case, don't forget to set up a light in the layer effects.
+- With the **Basic** material, the box does not react to light (and casts no shadows): it's always shown with the colors of the texture that was set (like a 2D object).
+- With the **Standard** material, the box reacts to light. In this case, don't forget to set up a light in the layer effects.
 
 ## Shadows
 
