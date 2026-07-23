@@ -135,7 +135,12 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>IsAdditionalReservedC
 <tr class="separator:a4fdce384b58326c5e30abb227122dacc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Contains functions to handle the grammar of the expressions accepted by GDevelop. </p>
+<div class="textblock"><p>Contains functions to handle the grammar of the expressions accepted by GDevelop.</p>
+<dl class="section warning"><dt>Warning</dt><dd>This file is ported to JavaScript (notably <code>IsAllowedInIdentifier</code> and the character sets it relies on). Any change here must be mirrored in:<ul>
+<li><code>newIDE/app/src/EventsSheet/EventsTree/TextRenderer/EventScriptIdentifiers.js</code> (this repository),</li>
+<li><code>generation-api/src/lib/gdevelop-identifiers.js</code> (GDevelop-services repository). </li>
+</ul>
+</dd></dl>
 </div><h2 class="groupheader">Function Documentation</h2>
 <a id="a4fdce384b58326c5e30abb227122dacc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4fdce384b58326c5e30abb227122dacc">&#9670;&nbsp;</a></span>IsAllowedInIdentifier()</h2>
