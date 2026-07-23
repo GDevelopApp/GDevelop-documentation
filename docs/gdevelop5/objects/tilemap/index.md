@@ -178,6 +178,16 @@ Hide the invisible obstacles/platforms at the start of the scene using events:
 
 You can also put these objects on a separate layer in GDevelop and hide the layer.
 
+### Generate collisions directly on the tilemap object
+
+Instead of using a separate **Tilemap collision mask** object, collisions can also be generated directly on the External Tilemap object by enabling the **Enable collision** property. The **Class filter** property works the same way as for the collision mask object: leave it empty to create hitboxes for every tile, or set it to a Tiled "Class" value to only keep the matching tiles.
+
+## Manipulate tiles in-game
+
+Tiles can be read and modified while the game is running through actions, conditions and expressions: get or set the tile at a given position (in scene coordinates or grid coordinates), remove a tile, flip tiles horizontally or vertically, and change the grid size of the map. This makes it possible to build or alter levels dynamically.
+
+Each tile in the tileset has an identifier used by these actions. See the [integrated Tilemap object](/gdevelop5/objects/simple_tilemap) for an explanation of how tile identifiers are computed.
+
 ## Choose between a bundled or external tileset
 
 Tiled allows to embed the tileset data in the Tilemap JSON file. This is done by default when **Embed in map** is checked when creating a new tileset in Tiled, when editing a map. This is well supported by GDevelop, which will detect that there is a tileset in the Tilemap JSON file and load it.
