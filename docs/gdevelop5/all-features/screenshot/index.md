@@ -19,7 +19,11 @@ Use this action to save a screenshot of everything which is currently drawn on t
 
 The save path needs to be an absolute path on the file system (Like "C:\MyFolder\MyScreenshot.png" on Windows)'
 
-Relative paths are not supported.
+Relative paths are not supported. If the path does not end with `.png`, this extension automatically appends it.
+
+!!! note
+
+    Taking a screenshot only works on games exported for Windows, Linux and macOS. It is not supported on web or mobile games.
 
 !!! note
 
