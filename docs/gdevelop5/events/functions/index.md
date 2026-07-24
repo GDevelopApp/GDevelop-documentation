@@ -21,9 +21,9 @@ Similarly to scenes or [external events](/gdevelop5/interface), functions are wr
 
 Functions are grouped into [extensions](/gdevelop5/extensions). They are the same as [the extensions that can be installed](/gdevelop5/extensions/search). Extensions of a project are listed in the [Project Manager](/gdevelop5/interface/project-manager).
 
-![](/gdevelop5/extensions/create/pasted/20230305-115305.png)
+![](/gdevelop5/extensions/create-search-extension.png){ width="447" }
 
-Click on **Create or search for new extensions** at the bottom. Then, select **Create a new extension** to [create a new extension](/gdevelop5/extensions/create).
+Click on the **+** button at the top-right of the **Extensions** section. Then, select **Create a new extension** to [create a new extension](/gdevelop5/extensions/create).
 
 By default, extensions don't have any function. Add one by clicking on the "+" button on the left next to **Functions**.
 
