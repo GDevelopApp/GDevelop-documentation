@@ -27,17 +27,20 @@ Click on the **+** button at the top-right of the **Extensions** section. Then, 
 
 By default, extensions don't have any function. Add one by clicking on the "+" button on the left next to **Functions**.
 
-![](empty-extension.png)
-
-### Organize functions with folders
-
-When an extension has many functions, you can group them into **folders** to keep the list tidy. Right-click in the functions list and choose **Add a folder**, then drag functions into it. Folder names cannot contain `/`.
+![](add-function.png)
 
 A new function is added, it's time to give it a name. By convention:
 
 - actions start with a verb for instance `Jump`
 - conditions start with `Is` for instance `IsJumping`
 - expressions don't have any verb for instance `JumpSpeed`
+
+![](empty-function.png)
+
+### Organize functions with folders
+
+When an extension has many functions, you can group them into **folders** to keep the list tidy. Right-click in the functions list and choose **Add a folder**, then drag functions into it. Folder names cannot contain `/`.
+
 
 ## Describe a function
 
@@ -51,7 +54,7 @@ Selecting a function displays its events and the **function configuration** pane
 
 Parameters can be inserted in a sentence by writing `_PARAMx_` between underscores where `x` must be replaced by the parameter number (starting from 1).
 
-![](pasted/20221118-093605.png)
+![](function-description.png)
 
 ## Add parameters
 
@@ -62,8 +65,6 @@ They can be added from the **Parameter** tab. Each of them requires:
   * **Name** - the identifier used in the function events to access to the parameter value.
   * **Type**  - either object, number or text (see the [list of all types](/gdevelop5/events/functions/#references-of-parameters)).
   * **Label** - shown to extension users when filling the parameter values.
-
-![](pasted/20221118-093700.png)
 
 ## Write function events
 
@@ -77,7 +78,7 @@ Only the objects from the function parameters can be used in a function. Scene o
 
 When **Any object** is selected for the **object type**, the object can be used with a limited set of actions and conditions. Choosing a specific object type gives additional actions and conditions.
 
-![](pasted/20221118-093830.png)
+![](function-using-objects.png)
 
 Conditions and actions from behaviors can also be used in functions events. For this, behavior parameters must be added after an object parameter.
 
@@ -97,7 +98,7 @@ Parameters can also be used directly in expressions by writing their name. For i
 
 Here is an example of a text parameter that will get a scene name, which is then used in an action for changing the scene.
 
-![](function_text_expression.png)
+![](function-using-string.png)
 
 !!! note
 
@@ -125,7 +126,7 @@ Variables can be useful within functions for intermediary results or to keep a s
 
 Extension functions can be found in conditions and actions lists like any other feature of the engine.
 
-![](pasted/20221118-094110.png)
+![](function-usage.png)
 
 ## Write functions dedicated to your project
 

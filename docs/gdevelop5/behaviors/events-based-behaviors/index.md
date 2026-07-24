@@ -149,7 +149,7 @@ Properties won't be usable from outside of the behavior. Properties are said to 
 
 ![](generate-property-accessors.png)
 
-## Behaviors using other behaviors as properties
+## Rely on other behaviors
 
 It is possible for behaviors to use other "required behaviors" as properties. When this is the case, GDevelop will ensure that any object using your behavior will also use the other one.
 You can then use the behavior entered as a property inside the actions, conditions, expressions and the lifecycle functions of your own behavior.
