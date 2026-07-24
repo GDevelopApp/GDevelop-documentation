@@ -15,11 +15,11 @@ Developers can also [contribute to extensions built directly inside GDevelop](ht
 
 Open the project manager, then click on **Create or search for new extensions**:
 
-![](create/pasted/20230305-115305.png)
+![](create-search-extension.png)
 
 A new window opened up, at the bottom click **Create a new extension**:
 
-![](create/pasted/20230305-115341.png)
+![](extension-store.png)
 
 A new extension is added to the project manager. It's recommended to immediately change the name to something that will hint at what the extension is providing by a right click on the extension and choose **Rename**.
 
