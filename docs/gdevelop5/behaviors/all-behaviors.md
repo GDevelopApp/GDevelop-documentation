@@ -284,6 +284,12 @@ guarantee they meet all the quality standards of fully reviewed behaviors.
 Capabilities allow to [create extensions](/gdevelop5/extensions/create/) 
 that handles several object types at once.
 
+### Advanced
+
+||Name|Description||
+|---|---|---|---|
+|<img src="/gdevelop5/icons/JsPlatform/Extensions/tile_map.svg" class="extension-icon"></img>|**Tile map capability**|Common features for all tile map objects.|[Read more...](/gdevelop5/objects/tilemap) ([reference](/gdevelop5/all-features/tilemap/reference))|
+
 ### General
 
 ||Name|Description||

@@ -90,246 +90,10 @@ _No expressions for this object._
 
 Grid-based map built from reusable tiles. 
 
-### Object actions
-
-**Flip tile horizontally (on the grid)**  
-Flip tile horizontally at grid coordinates.
-
-??? quote "See parameters & details"
-
-    - Parameter 0 (👾 Object): Tile map
-    - Parameter 1 (🔢 Number): Grid X
-    - Parameter 2 (🔢 Number): Grid Y
-    - Parameter 3 (❓ Yes or No): Flip horizontally
-
-    > Technical note: this action internal type (in GDevelop JSON) is `TileMap::FlipTileOnXAtGridCoordinates`.
-
-**Flip tile horizontally (at position)**  
-Flip tile horizontally at scene coordinates.
-
-??? quote "See parameters & details"
-
-    - Parameter 0 (👾 Object): Tile map
-    - Parameter 1 (🔢 Number): Position X
-    - Parameter 2 (🔢 Number): Position Y
-    - Parameter 3 (❓ Yes or No): Flip horizontally
-
-    > Technical note: this action internal type (in GDevelop JSON) is `TileMap::FlipTileOnXAtPosition`.
-
-**Flip tile vertically (on the grid)**  
-Flip tile vertically at grid coordinates.
-
-??? quote "See parameters & details"
-
-    - Parameter 0 (👾 Object): Tile map
-    - Parameter 1 (🔢 Number): Grid X
-    - Parameter 2 (🔢 Number): Grid Y
-    - Parameter 3 (❓ Yes or No): Flip vertically
-
-    > Technical note: this action internal type (in GDevelop JSON) is `TileMap::FlipTileOnYAtGridCoordinates`.
-
-**Flip tile vertically (at position)**  
-Flip tile vertically at scene coordinates.
-
-??? quote "See parameters & details"
-
-    - Parameter 0 (👾 Object): Tile map
-    - Parameter 1 (🔢 Number): Position X
-    - Parameter 2 (🔢 Number): Position Y
-    - Parameter 3 (❓ Yes or No): Flip vertically
-
-    > Technical note: this action internal type (in GDevelop JSON) is `TileMap::FlipTileOnYAtPosition`.
-
-**Remove tile (on the grid)**  
-Remove the tile at the grid coordinates.
-
-??? quote "See parameters & details"
-
-    - Parameter 0 (👾 Object): Tile map
-    - Parameter 1 (🔢 Number): Grid X
-    - Parameter 2 (🔢 Number): Grid Y
-
-    > Technical note: this action internal type (in GDevelop JSON) is `TileMap::RemoveTileAtGridCoordinates`.
-
-**Remove tile (at position)**  
-Remove the tile at the scene coordinates.
-
-??? quote "See parameters & details"
-
-    - Parameter 0 (👾 Object): Tile map
-    - Parameter 1 (🔢 Number): Position X
-    - Parameter 2 (🔢 Number): Position Y
-
-    > Technical note: this action internal type (in GDevelop JSON) is `TileMap::RemoveTileAtPosition`.
-
-**Grid column count**  
-Change the grid column count in the tile map.
-
-??? quote "See parameters & details"
-
-    - Parameter 0 (👾 Object): Tile map
-    - Parameter 1: 🟰 Operator
-    - Parameter 2 (🔢 Number): Value
-
-    > Technical note: this action internal type (in GDevelop JSON) is `TileMap::SimpleTileMap::SetGridColumnCount`.
-
-**Grid row count**  
-Change the grid row count in the tile map.
-
-??? quote "See parameters & details"
-
-    - Parameter 0 (👾 Object): Tile map
-    - Parameter 1: 🟰 Operator
-    - Parameter 2 (🔢 Number): Value
-
-    > Technical note: this action internal type (in GDevelop JSON) is `TileMap::SimpleTileMap::SetGridRowCount`.
-
-**Tile (on the grid)**  
-Change the id of the tile at the grid coordinates.
-
-??? quote "See parameters & details"
-
-    - Parameter 0 (👾 Object): Tile map
-    - Parameter 1: 🟰 Operator
-    - Parameter 2 (🔢 Number): Value
-    - Parameter 3 (🔢 Number): Grid X
-    - Parameter 4 (🔢 Number): Grid Y
-
-    > Technical note: this action internal type (in GDevelop JSON) is `TileMap::SimpleTileMap::SetTileIdAtGrid`.
-
-**Tile (at position)**  
-Change the id of the tile at the scene coordinates.
-
-??? quote "See parameters & details"
-
-    - Parameter 0 (👾 Object): Tile map
-    - Parameter 1: 🟰 Operator
-    - Parameter 2 (🔢 Number): Value
-    - Parameter 3 (🔢 Number): Position X
-    - Parameter 4 (🔢 Number): Position Y
-
-    > Technical note: this action internal type (in GDevelop JSON) is `TileMap::SimpleTileMap::SetTileIdAtPosition`.
-
-
-### Object conditions
-
-**Tile flipped horizontally (on the grid)**  
-Check if tile at grid coordinates is flipped horizontally.
-
-??? quote "See parameters & details"
-
-    - Parameter 0 (👾 Object): Tile map
-    - Parameter 1 (🔢 Number): Grid X
-    - Parameter 2 (🔢 Number): Grid Y
-
-    > Technical note: this condition internal type (in GDevelop JSON) is `TileMap::IsTileFlippedOnXAtGridCoordinates`.
-
-**Tile flipped horizontally (at position)**  
-Check if tile at scene coordinates is flipped horizontally.
-
-??? quote "See parameters & details"
-
-    - Parameter 0 (👾 Object): Tile map
-    - Parameter 1 (🔢 Number): Position X
-    - Parameter 2 (🔢 Number): Position Y
-
-    > Technical note: this condition internal type (in GDevelop JSON) is `TileMap::IsTileFlippedOnXAtPosition`.
-
-**Tile flipped vertically (on the grid)**  
-Check if tile at grid coordinates is flipped vertically.
-
-??? quote "See parameters & details"
-
-    - Parameter 0 (👾 Object): Tile map
-    - Parameter 1 (🔢 Number): Grid X
-    - Parameter 2 (🔢 Number): Grid Y
-
-    > Technical note: this condition internal type (in GDevelop JSON) is `TileMap::IsTileFlippedOnYAtGridCoordinates`.
-
-**Tile flipped vertically (at position)**  
-Check if tile at scene coordinates is flipped vertically.
-
-??? quote "See parameters & details"
-
-    - Parameter 0 (👾 Object): Tile map
-    - Parameter 1 (🔢 Number): Position X
-    - Parameter 2 (🔢 Number): Position Y
-
-    > Technical note: this condition internal type (in GDevelop JSON) is `TileMap::IsTileFlippedOnYAtPosition`.
-
-**Grid column count**  
-Compare the grid column count in the tile map.
-
-??? quote "See parameters & details"
-
-    - Parameter 0 (👾 Object): Tile map
-    - Parameter 1: 🟰 Relational operator
-    - Parameter 2 (🔢 Number): Value to compare
-
-    > Technical note: this condition internal type (in GDevelop JSON) is `TileMap::SimpleTileMap::GridColumnCount`.
-
-**Grid row count**  
-Compare the grid row count in the tile map.
-
-??? quote "See parameters & details"
-
-    - Parameter 0 (👾 Object): Tile map
-    - Parameter 1: 🟰 Relational operator
-    - Parameter 2 (🔢 Number): Value to compare
-
-    > Technical note: this condition internal type (in GDevelop JSON) is `TileMap::SimpleTileMap::GridRowCount`.
-
-**Tile (on the grid)**  
-Compare the id of the tile at the grid coordinates.
-
-??? quote "See parameters & details"
-
-    - Parameter 0 (👾 Object): Tile map
-    - Parameter 1: 🟰 Relational operator
-    - Parameter 2 (🔢 Number): Value to compare
-    - Parameter 3 (🔢 Number): Grid X
-    - Parameter 4 (🔢 Number): Grid Y
-
-    > Technical note: this condition internal type (in GDevelop JSON) is `TileMap::SimpleTileMap::TileIdAtGrid`.
-
-**Tile (at position)**  
-Compare the id of the tile at the scene coordinates.
-
-??? quote "See parameters & details"
-
-    - Parameter 0 (👾 Object): Tile map
-    - Parameter 1: 🟰 Relational operator
-    - Parameter 2 (🔢 Number): Value to compare
-    - Parameter 3 (🔢 Number): Position X
-    - Parameter 4 (🔢 Number): Position Y
-
-    > Technical note: this condition internal type (in GDevelop JSON) is `TileMap::SimpleTileMap::TileIdAtPosition`.
-
-
 ### Object expressions
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Object.GridColumnCount()` | Return the grid column count in the tile map. ||
-| `Object.GridRowCount()` | Return the grid row count in the tile map. ||
-| `Object.GridX(number, number)` | Get the grid column coordinates in the tile map corresponding to the scene coordinates. ||
-| | _🔢 Number_ | Position X |
-| | _🔢 Number_ | Position Y |
-| `Object.GridY(number, number)` | Get the grid row coordinates in the tile map corresponding to the scene coordinates. ||
-| | _🔢 Number_ | Position X |
-| | _🔢 Number_ | Position Y |
-| `Object.TileCenterX(number, number)` | Get the scene X position of the center of the tile. ||
-| | _🔢 Number_ | Grid X |
-| | _🔢 Number_ | Grid Y |
-| `Object.TileCenterY(number, number)` | Get the scene Y position of the center of the tile. ||
-| | _🔢 Number_ | Grid X |
-| | _🔢 Number_ | Grid Y |
-| `Object.TileIdAtGrid(number, number)` | Return the id of the tile at the grid coordinates. ||
-| | _🔢 Number_ | Grid X |
-| | _🔢 Number_ | Grid Y |
-| `Object.TileIdAtPosition(number, number)` | Return the id of the tile at the scene coordinates. ||
-| | _🔢 Number_ | Position X |
-| | _🔢 Number_ | Position Y |
 | `Object.TilesetColumnCount()` | Get the number of columns in the tileset. ||
 | `Object.TilesetRowCount()` | Get the number of rows in the tileset. ||
 
@@ -341,7 +105,9 @@ Tilemap imported from external editors like LDtk or Tiled.
 
 - **Animation FPS** (🔢 Number). Default value is `4`.
 - **Animation speed scale** (🔢 Number). Default value is `1`.
+- **Class filter** (🔤 String). Only the tiles with the given class (set in Tiled 1.9+) will have hitboxes created.
 - **Display mode** (choice, one of: "visible", "all", "index"). Default value is `visible`.
+- **Enable collision** (🔘 Boolean). Default value is `true`.
 - **Layer index to display** (🔢 Number). If "index" is selected as the display mode, this is the index of the layer to display. Default value is `0`.
 - **Level index to display** (🔢 Number). Select which level to render via its index (LDtk). Default value is `0`.
 - **Atlas image** (🗂️ Resource). The Atlas image containing the tileset.
@@ -353,7 +119,9 @@ Tilemap imported from external editors like LDtk or Tiled.
 
     - **Animation FPS** is stored as `animationFps` (number). Default value is `4`.
     - **Animation speed scale** is stored as `animationSpeedScale` (number). Default value is `1`.
+    - **Class filter** is stored as `collisionMaskTag` (string). Default value is ``.
     - **Display mode** is stored as `displayMode` (choice). Default value is `visible`.
+    - **Enable collision** is stored as `isCollisionMaskEnabled` (boolean). Default value is `true`.
     - **Layer index to display** is stored as `layerIndex` (number). Default value is `0`.
     - **Level index to display** is stored as `levelIndex` (number). Default value is `0`.
     - **Atlas image** is stored as `tilemapAtlasImage` (resource). Default value is ``.
@@ -511,6 +279,271 @@ Check the tileset JSON file being used.
 | `Object.AnimationSpeedScale()` | Get the Animation speed scale ||
 | `Object.LayerIndex()` | Get the layer index being displayed ||
 | `Object.LevelIndex()` | Return the level index being displayed.. ||
+
+## Tile map capability 
+
+Common features for all tile map objects. 
+
+### Behavior actions
+
+**Flip tile horizontally (on the grid)**  
+Flip tile horizontally at grid coordinates.
+
+??? quote "See parameters & details"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Grid X
+    - Parameter 3 (🔢 Number): Grid Y
+    - Parameter 4 (❓ Yes or No): Flip horizontally
+
+    > Technical note: this action internal type (in GDevelop JSON) is `TileMap::TileMapBehavior::FlipTileOnXAtGridCoordinates`.
+
+**Flip tile horizontally (at position)**  
+Flip tile horizontally at scene coordinates.
+
+??? quote "See parameters & details"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Position X
+    - Parameter 3 (🔢 Number): Position Y
+    - Parameter 4 (❓ Yes or No): Flip horizontally
+
+    > Technical note: this action internal type (in GDevelop JSON) is `TileMap::TileMapBehavior::FlipTileOnXAtPosition`.
+
+**Flip tile vertically (on the grid)**  
+Flip tile vertically at grid coordinates.
+
+??? quote "See parameters & details"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Grid X
+    - Parameter 3 (🔢 Number): Grid Y
+    - Parameter 4 (❓ Yes or No): Flip vertically
+
+    > Technical note: this action internal type (in GDevelop JSON) is `TileMap::TileMapBehavior::FlipTileOnYAtGridCoordinates`.
+
+**Flip tile vertically (at position)**  
+Flip tile vertically at scene coordinates.
+
+??? quote "See parameters & details"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Position X
+    - Parameter 3 (🔢 Number): Position Y
+    - Parameter 4 (❓ Yes or No): Flip vertically
+
+    > Technical note: this action internal type (in GDevelop JSON) is `TileMap::TileMapBehavior::FlipTileOnYAtPosition`.
+
+**Remove tile (on the grid)**  
+Remove the tile at the grid coordinates.
+
+??? quote "See parameters & details"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Grid X
+    - Parameter 3 (🔢 Number): Grid Y
+
+    > Technical note: this action internal type (in GDevelop JSON) is `TileMap::TileMapBehavior::RemoveTileAtGridCoordinates`.
+
+**Remove tile (at position)**  
+Remove the tile at the scene coordinates.
+
+??? quote "See parameters & details"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Position X
+    - Parameter 3 (🔢 Number): Position Y
+
+    > Technical note: this action internal type (in GDevelop JSON) is `TileMap::TileMapBehavior::RemoveTileAtPosition`.
+
+**Grid column count**  
+Change the grid column count in the tile map.
+
+??? quote "See parameters & details"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: this action internal type (in GDevelop JSON) is `TileMap::TileMapBehavior::SetGridColumnCount`.
+
+**Grid row count**  
+Change the grid row count in the tile map.
+
+??? quote "See parameters & details"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: this action internal type (in GDevelop JSON) is `TileMap::TileMapBehavior::SetGridRowCount`.
+
+**Tile (on the grid)**  
+Change the id of the tile at the grid coordinates.
+
+??? quote "See parameters & details"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+    - Parameter 4 (🔢 Number): Grid X
+    - Parameter 5 (🔢 Number): Grid Y
+
+    > Technical note: this action internal type (in GDevelop JSON) is `TileMap::TileMapBehavior::SetTileIdAtGrid`.
+
+**Tile (at position)**  
+Change the id of the tile at the scene coordinates.
+
+??? quote "See parameters & details"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+    - Parameter 4 (🔢 Number): Position X
+    - Parameter 5 (🔢 Number): Position Y
+
+    > Technical note: this action internal type (in GDevelop JSON) is `TileMap::TileMapBehavior::SetTileIdAtPosition`.
+
+
+### Behavior conditions
+
+**Grid column count**  
+Compare the grid column count in the tile map.
+
+??? quote "See parameters & details"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `TileMap::TileMapBehavior::GridColumnCount`.
+
+**Grid row count**  
+Compare the grid row count in the tile map.
+
+??? quote "See parameters & details"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `TileMap::TileMapBehavior::GridRowCount`.
+
+**Tile flipped horizontally (on the grid)**  
+Check if tile at grid coordinates is flipped horizontally.
+
+??? quote "See parameters & details"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Grid X
+    - Parameter 3 (🔢 Number): Grid Y
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `TileMap::TileMapBehavior::IsTileFlippedOnXAtGridCoordinates`.
+
+**Tile flipped horizontally (at position)**  
+Check if tile at scene coordinates is flipped horizontally.
+
+??? quote "See parameters & details"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Position X
+    - Parameter 3 (🔢 Number): Position Y
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `TileMap::TileMapBehavior::IsTileFlippedOnXAtPosition`.
+
+**Tile flipped vertically (on the grid)**  
+Check if tile at grid coordinates is flipped vertically.
+
+??? quote "See parameters & details"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Grid X
+    - Parameter 3 (🔢 Number): Grid Y
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `TileMap::TileMapBehavior::IsTileFlippedOnYAtGridCoordinates`.
+
+**Tile flipped vertically (at position)**  
+Check if tile at scene coordinates is flipped vertically.
+
+??? quote "See parameters & details"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2 (🔢 Number): Position X
+    - Parameter 3 (🔢 Number): Position Y
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `TileMap::TileMapBehavior::IsTileFlippedOnYAtPosition`.
+
+**Tile (on the grid)**  
+Compare the id of the tile at the grid coordinates.
+
+??? quote "See parameters & details"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+    - Parameter 4 (🔢 Number): Grid X
+    - Parameter 5 (🔢 Number): Grid Y
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `TileMap::TileMapBehavior::TileIdAtGrid`.
+
+**Tile (at position)**  
+Compare the id of the tile at the scene coordinates.
+
+??? quote "See parameters & details"
+
+    - Parameter 0 (👾 Object): Tile map
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+    - Parameter 4 (🔢 Number): Position X
+    - Parameter 5 (🔢 Number): Position Y
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `TileMap::TileMapBehavior::TileIdAtPosition`.
+
+
+### Behavior expressions
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `Object.TileMap::GridColumnCount()` | Return the grid column count in the tile map. ||
+| `Object.TileMap::GridRowCount()` | Return the grid row count in the tile map. ||
+| `Object.TileMap::GridX(number, number)` | Get the grid column coordinates in the tile map corresponding to the scene coordinates. ||
+| | _🔢 Number_ | Position X |
+| | _🔢 Number_ | Position Y |
+| `Object.TileMap::GridY(number, number)` | Get the grid row coordinates in the tile map corresponding to the scene coordinates. ||
+| | _🔢 Number_ | Position X |
+| | _🔢 Number_ | Position Y |
+| `Object.TileMap::TileCenterX(number, number)` | Get the scene X position of the center of the tile. ||
+| | _🔢 Number_ | Grid X |
+| | _🔢 Number_ | Grid Y |
+| `Object.TileMap::TileCenterY(number, number)` | Get the scene Y position of the center of the tile. ||
+| | _🔢 Number_ | Grid X |
+| | _🔢 Number_ | Grid Y |
+| `Object.TileMap::TileIdAtGrid(number, number)` | Return the id of the tile at the grid coordinates. ||
+| | _🔢 Number_ | Grid X |
+| | _🔢 Number_ | Grid Y |
+| `Object.TileMap::TileIdAtPosition(number, number)` | Return the id of the tile at the scene coordinates. ||
+| | _🔢 Number_ | Position X |
+| | _🔢 Number_ | Position Y |
+| `Object.TileMap::TilesetColumnCount()` | Get the number of columns in the tileset. ||
+| `Object.TileMap::TilesetRowCount()` | Get the number of rows in the tileset. ||
 
 
 

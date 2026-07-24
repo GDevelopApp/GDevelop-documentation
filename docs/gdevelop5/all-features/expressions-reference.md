@@ -1606,26 +1606,6 @@ Grid-based map built from reusable tiles. [Read more explanations about it.](/gd
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Object.GridColumnCount()` | Return the grid column count in the tile map. ||
-| `Object.GridRowCount()` | Return the grid row count in the tile map. ||
-| `Object.GridX(number, number)` | Get the grid column coordinates in the tile map corresponding to the scene coordinates. ||
-| | _🔢 Number_ | Position X |
-| | _🔢 Number_ | Position Y |
-| `Object.GridY(number, number)` | Get the grid row coordinates in the tile map corresponding to the scene coordinates. ||
-| | _🔢 Number_ | Position X |
-| | _🔢 Number_ | Position Y |
-| `Object.TileCenterX(number, number)` | Get the scene X position of the center of the tile. ||
-| | _🔢 Number_ | Grid X |
-| | _🔢 Number_ | Grid Y |
-| `Object.TileCenterY(number, number)` | Get the scene Y position of the center of the tile. ||
-| | _🔢 Number_ | Grid X |
-| | _🔢 Number_ | Grid Y |
-| `Object.TileIdAtGrid(number, number)` | Return the id of the tile at the grid coordinates. ||
-| | _🔢 Number_ | Grid X |
-| | _🔢 Number_ | Grid Y |
-| `Object.TileIdAtPosition(number, number)` | Return the id of the tile at the scene coordinates. ||
-| | _🔢 Number_ | Position X |
-| | _🔢 Number_ | Position Y |
 | `Object.TilesetColumnCount()` | Get the number of columns in the tileset. ||
 | `Object.TilesetRowCount()` | Get the number of rows in the tileset. ||
 
@@ -1639,6 +1619,35 @@ Tilemap imported from external editors like LDtk or Tiled. [Read more explanatio
 | `Object.AnimationSpeedScale()` | Get the Animation speed scale ||
 | `Object.LayerIndex()` | Get the layer index being displayed ||
 | `Object.LevelIndex()` | Return the level index being displayed.. ||
+
+## Tile map capability (from extension Tile map)
+
+Common features for all tile map objects. [Read more explanations about it.](/gdevelop5/objects/tilemap)
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `Object.TileMap::GridColumnCount()` | Return the grid column count in the tile map. ||
+| `Object.TileMap::GridRowCount()` | Return the grid row count in the tile map. ||
+| `Object.TileMap::GridX(number, number)` | Get the grid column coordinates in the tile map corresponding to the scene coordinates. ||
+| | _🔢 Number_ | Position X |
+| | _🔢 Number_ | Position Y |
+| `Object.TileMap::GridY(number, number)` | Get the grid row coordinates in the tile map corresponding to the scene coordinates. ||
+| | _🔢 Number_ | Position X |
+| | _🔢 Number_ | Position Y |
+| `Object.TileMap::TileCenterX(number, number)` | Get the scene X position of the center of the tile. ||
+| | _🔢 Number_ | Grid X |
+| | _🔢 Number_ | Grid Y |
+| `Object.TileMap::TileCenterY(number, number)` | Get the scene Y position of the center of the tile. ||
+| | _🔢 Number_ | Grid X |
+| | _🔢 Number_ | Grid Y |
+| `Object.TileMap::TileIdAtGrid(number, number)` | Return the id of the tile at the grid coordinates. ||
+| | _🔢 Number_ | Grid X |
+| | _🔢 Number_ | Grid Y |
+| `Object.TileMap::TileIdAtPosition(number, number)` | Return the id of the tile at the scene coordinates. ||
+| | _🔢 Number_ | Position X |
+| | _🔢 Number_ | Position Y |
+| `Object.TileMap::TilesetColumnCount()` | Get the number of columns in the tileset. ||
+| `Object.TileMap::TilesetRowCount()` | Get the number of rows in the tileset. ||
 
 ---
 
