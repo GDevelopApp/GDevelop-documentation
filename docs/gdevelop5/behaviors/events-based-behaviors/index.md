@@ -27,7 +27,7 @@ Behaviors from community extensions are chosen for their ability to be useful in
 
 Behaviors are grouped into [extensions](/gdevelop5/extensions). They are the same as [the extensions that can be installed](/gdevelop5/extensions/search). Extensions of a project are listed in the [Project Manager](/gdevelop5/interface/project-manager).
 
-![](/gdevelop5/extensions/create-search-extension.png)
+![](/gdevelop5/extensions/create-search-extension.png){ width="447" }
 
 Click on **Create or search for new extensions** at the bottom. Then, select **Create a new extension** to [create a new extension](/gdevelop5/extensions/create).
 
@@ -45,11 +45,11 @@ Behaviors can also embed properties, which are number, strings or booleans that 
 
 Click on the behavior in the list to see the list of functions composing the behavior. It will appear on the right side panel.
 
-![](add-behavior-function.png)
+![](add-behavior-function.png){ width="555" }
 
 By default, a behavior is empty and does nothing. To add interactivity, you can add a new function. You'll be given the choice between some predefined functions, called *lifecycle methods*, or a custom function. Lifecycle methods will be called by the game engine automatically at some key moment during the game. Custom functions will be available to extension users as conditions, actions or expressions (like [usual functions outside behaviors](/gdevelop5/events/functions)).
 
-![](behavior-function-types.png)
+![](behavior-function-types.png){ width="595" }
 
 ### Run events at object creations
 

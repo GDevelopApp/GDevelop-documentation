@@ -15,7 +15,7 @@ Developers can also [contribute to extensions built directly inside GDevelop](ht
 
 Open the project manager, then click on **Create or search for new extensions**:
 
-![](create-search-extension.png)
+![](create-search-extension.png){ width="447" }
 
 A new window opened up, at the bottom click **Create a new extension**:
 
