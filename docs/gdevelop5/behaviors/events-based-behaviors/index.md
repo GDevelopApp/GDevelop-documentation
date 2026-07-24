@@ -33,11 +33,11 @@ Click on the **+** button at the top-right of the **Extensions** section. Then, 
 
 By default, extensions don't have any behavior. Add one by clicking on the "+" button on the left next to **Behaviors**.
 
-![](/gdevelop5/events/functions/empty-extension.png)
+![](add-behavior.png){ width="555" }
 
 You can choose the description and the name to display to users when they will add your behavior to an object. You can also set a custom icon and a help page link for the behavior — this is especially useful when an extension provides multiple behaviors, so each one can be visually distinguished. If you need to use a specific object (sprites, texts...), you can choose it with the drop-down list at the bottom.
 
-![](pasted/20210906-234834.png)
+![](behavior-description.png)
 
 Behaviors can also embed properties, which are number, strings or booleans that are stored inside the behavior. Check out the section below about how to add and use properties.
 
@@ -61,7 +61,7 @@ Events from the **doStepPreEvents** function are run every time a frame is rende
 
 The following `doStepPreEvents` function events automatically deletes objects that are too damaged:
 
-![](pasted/20210906-235321.png)
+![](do-step-pre-events.png)
 
 ### Add custom action, condition or expression
 
@@ -76,7 +76,7 @@ Behaviors and the scene events communicate through functions:
 
 For example, this function defines an action that can be used to add damage to the object:
 
-![](pasted/20210906-235538.png)
+![](behavior-function.png)
 
 ### Run events at other lifecycle key times
 
@@ -95,11 +95,11 @@ Once your behavior is created, you can start attaching it to objects. The best p
 
 Here, you can see the "Destructible Object" behavior for example (that was created in the previous screenshots):
 
-![](pasted/20210907-000055.png)
+![](user-side-behavior-list.png)
 
 The custom behavior that you created is then displayed in the list of the behaviors attached to the object:
 
-![](pasted/20210907-000202.png)
+![](user-side-behavior.png){ width="499" }
 
 You can run the game and see that the events in the `doStepPreEvents` function (or `doStepPostEvents`) will be executed. In the example of the Destructible behavior that was created, if the "Damage" variable is set to a number greater or equal to 100, the object will be destroyed automatically.
 
@@ -111,10 +111,10 @@ To test this, we've added the "Destructible" behavior to object "Platform". Then
 
 Like any other "built-in behavior", you can also use actions/conditions (or expressions) if you have declared functions as such in the behavior. For example, in the "Destructible" behavior, we created an action to cause some damage to the object. We can find it and use it in the events sheet:
 
-![](pasted/20210907-000606.png)
+![](user-side-behavior-action.png)
 
 It is displayed in the events sheet:
-![](custom-behavior-action-events-sheet.png)
+![](user-side-events.png)
 
 As you can see, this allows creating very expressive and easy-to-read events. You can then make the behavior more complex or reuse it on other objects.
 
