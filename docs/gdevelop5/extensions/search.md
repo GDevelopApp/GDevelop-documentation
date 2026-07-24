@@ -9,9 +9,9 @@ title: Install new extensions
 
     You can browse the [list of GDevelop extensions here](/gdevelop5/extensions).
 
-Finding **new behaviors, conditions, actions or expressions** for your game in GDevelop is easy. In the [Project Manager](/gdevelop5/interface/project-manager), click on *Create or search for new extensions*:
+Finding **new behaviors, conditions, actions or expressions** for your game in GDevelop is easy. In the [Project Manager](/gdevelop5/interface/project-manager), click on the **+** button at the top-right of the **Extensions** section:
 
-![](/gdevelop5/extensions/search/pasted/20230305-114603.png)
+![](/gdevelop5/extensions/create-search-extension.png){ width="447" }
 
 All the extensions from the GDevelop ecosystem will be shown:
 

@@ -29,7 +29,7 @@ Behaviors are grouped into [extensions](/gdevelop5/extensions). They are the sam
 
 ![](/gdevelop5/extensions/create-search-extension.png){ width="447" }
 
-Click on **Create or search for new extensions** at the bottom. Then, select **Create a new extension** to [create a new extension](/gdevelop5/extensions/create).
+Click on the **+** button at the top-right of the **Extensions** section. Then, select **Create a new extension** to [create a new extension](/gdevelop5/extensions/create).
 
 By default, extensions don't have any behavior. Add one by clicking on the "+" button on the left next to **Behaviors**.
 
