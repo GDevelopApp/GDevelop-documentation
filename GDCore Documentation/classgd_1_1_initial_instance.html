@@ -266,6 +266,13 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_initial_instance.html#a8b023122d7c4c05e9234e6d11717ef0f">SetShouldKeepRatio</a> (bool enable=true)</td></tr>
 <tr class="memdesc:a8b023122d7c4c05e9234e6d11717ef0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define if instance's dimensions should keep the same ratio. <br /></td></tr>
 <tr class="separator:a8b023122d7c4c05e9234e6d11717ef0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56bcff81a834eb901a0ed57acbc73f96"><td class="memItemLeft" align="right" valign="top"><a id="a56bcff81a834eb901a0ed57acbc73f96"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_initial_instance.html#a56bcff81a834eb901a0ed57acbc73f96">IsHidden</a> () const</td></tr>
+<tr class="memdesc:a56bcff81a834eb901a0ed57acbc73f96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true if the instance is hidden when the scene starts. <br /></td></tr>
+<tr class="separator:a56bcff81a834eb901a0ed57acbc73f96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cc72b871105a2c77f744ab9bf43f35a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_initial_instance.html#a9cc72b871105a2c77f744ab9bf43f35a">SetHidden</a> (bool enable=true)</td></tr>
+<tr class="memdesc:a9cc72b871105a2c77f744ab9bf43f35a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set if the instance is hidden when the scene starts.  <a href="classgd_1_1_initial_instance.html#a9cc72b871105a2c77f744ab9bf43f35a">More...</a><br /></td></tr>
+<tr class="separator:a9cc72b871105a2c77f744ab9bf43f35a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Variable management</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>Members functions related to initial instance variables management. </p>
 </div></td></tr>
@@ -694,6 +701,35 @@ const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</t
 
 <p>Set whether the instance has a width/height which is different from its object default width/height or not. This is independent from <code>SetHasCustomDepth</code>. </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classgd_1_1_object.html" title="Represent an object of a platform.">gd::Object</a> </dd></dl>
+
+</div>
+</div>
+<a id="a9cc72b871105a2c77f744ab9bf43f35a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cc72b871105a2c77f744ab9bf43f35a">&#9670;&nbsp;</a></span>SetHidden()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void gd::InitialInstance::SetHidden </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>enable</em> = <code>true</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Set if the instance is hidden when the scene starts. </p>
+<p>A hidden instance is still created but not displayed, until it is shown with the "Show" action. </p>
 
 </div>
 </div>
