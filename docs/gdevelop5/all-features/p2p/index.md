@@ -63,9 +63,28 @@ After the above has been completed, the **Use custom broker server** action is u
 You can also use the default server provided by PeerJS.
 To use that server use the action "Use the default server".
 
+## Protecting the players' IP addresses
+
+As explained in the warnings above, connecting directly to another peer normally exposes both players' IP addresses to each other. To avoid this, you can force all traffic to go through a relay (TURN) server instead of a direct connection:
+
+  * Use the **Disable IP address sharing** action (before connecting to the broker). This forces the game to only use relay servers, so peers never learn each other's IP address.
+  * A relay server is required for this to work. Use the **Use a custom ICE server** action to provide the URL (and optional username/password) of a STUN/TURN server. This action must also be called before connecting to a broker.
+
+Relaying every message through a server adds some latency and requires you to run (or pay for) a TURN server, so it is a trade-off between privacy and performance/cost.
+
 ## Connecting
 
 To connect instances, you need to enter their ID in the other instances. The ID can be found with the expression `P2P::GetID()`. To connect, use the "Connect to other instance" action and pass as a parameter the ID of another instance. Both instances will then connect automatically. You can then send an event from one instance to the other one to make sure that the connection is established.
+
+### Detecting connections, disconnections and errors
+
+Rather than assuming a connection is established, you can react to the peer-to-peer events themselves:
+
+  * The **Peer connected** condition is true for one frame when a new peer connects. The expression `P2P::GetLastConnectedPeer()` returns the ID of that peer.
+  * The **Peer disconnected** condition is true for one frame when a peer disconnects. The expression `P2P::GetLastDisconnectedPeer()` returns the ID of the peer that left, which is useful to remove the corresponding player from your game.
+  * The **An error occurred** condition lets you handle failures (for example an unreachable broker server), and `P2P::GetLastError()` returns a description of the problem.
+
+You can also check that the connection to the broker is ready with the **Is P2P ready** condition before trying to connect to other clients.
 
 ### Changing the ID generation
 
