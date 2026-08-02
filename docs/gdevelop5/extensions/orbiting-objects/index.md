@@ -3,7 +3,7 @@
 <img src="https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Space/Space_earth_moon_orbit.svg" class="extension-icon"></img>
 Make objects orbit around a center object in a circular or elliptical path.
 
-**Authors and contributors** to this extension: [VictrisGames](https://gd.games/VictrisGames), [VegeTato](https://gd.games/VegeTato).
+**Authors and contributors** to this extension: [VictrisGames](https://gd.games/VictrisGames), [VegeTato](https://gd.games/VegeTato), [D8H](https://gd.games/D8H).
 
 ---
 
@@ -35,69 +35,219 @@ An example shows how to use this extension ([open the project online](https://ed
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
 
-## Actions
 
-**Move objects in elliptical orbit around a center object**  
+
+## Orbiting object emitter 
+
+Make objects orbit around itself in a circular path. 
+
+### Behavior properties
+
+- **Orbit speed** (🔢 Number, Angular speed). Use a negative value to orbit counter-clockwise. Default value is `90`.
+- **Quantity of orbiting objects** (🔢 Number). Default value is `3`.
+- **Orbit radius on X axis** (🔢 Number, Distance). Default value is `200`.
+- **Orbit radius on Y axis** (🔢 Number, Distance). Use a negative value to change which part is in front. Default value is `200`.
+- **Fill the gap when an object is deleted** (🔘 Boolean). Default value is `true`.
+- **Spining speed** (🔢 Number, Angular speed). Default value is `0`.
+- **Starting angle offset** (🔢 Number, Angle). Default value is `0`.
+- **Z-order offset** (🔢 Number). Leave it to zero for an automatic Z-sorting. Default value is `0`.
+
+??? quote "See internal technical details"
+
+
+    - **Orbit speed** is stored as `OrbitAngularSpeed` (Number). Unit is AngularSpeed. Default value is `90`.
+    - **Quantity of orbiting objects** is stored as `Quantity` (Number). Default value is `3`.
+    - **Orbit radius on X axis** is stored as `RadiusX` (Number). Unit is Pixel. Default value is `200`.
+    - **Orbit radius on Y axis** is stored as `RadiusY` (Number). Unit is Pixel. Default value is `200`.
+    - **Fill the gap when an object is deleted** is stored as `ShouldFillGap` (Boolean). Default value is `true`.
+    - **Spining speed** is stored as `SpiningSpeed` (Number). Unit is AngularSpeed. Default value is `0`.
+    - **Starting angle offset** is stored as `StartingOffset` (Number). Unit is DegreeAngle. Default value is `0`.
+    - **Z-order offset** is stored as `ZOrderOffset` (Number). Default value is `0`.
+
+### Behavior actions
+
+**Animate orbiting objects**  
 Move objects in elliptical orbit around a center object. Z-order is changed to make 3D effect.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (👾 Object): Center object
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
     - Parameter 2 (👾 Object): Orbiting object
       Cannot be the same object used for the Center object
-    - Parameter 3 (🔢 Number): Quantity of orbiting objects
-    - Parameter 4 (🔢 Number): Orbit speed (in degrees per second)
-      Use negative numbers to orbit counter-clockwise
-    - Parameter 5 (🔢 Number): Vertical distance from the center object (pixels)
-    - Parameter 6 (🔢 Number): Angular speed (in degrees per second)
-      Use negative numbers to rotate counter-clockwise
-    - Parameter 7 (🔢 Number): Starting angle offset (in degrees)
-    - Parameter 8 (❓ Yes or No): Reset locations of orbiting objects after quantity is reduced
-    - Parameter 9 (🔢 Number): Horizontal distance from the center object (pixels)
-    - Parameter 10 (🔤 String): Foreground Side (one of: "Top", "Bottom", "Left", "Right")
 
-    > Technical note: parameters 0, 11 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
-    > Technical note: this action internal type (in GDevelop JSON) is `OrbitingObjects::AnimateEllipticalOrbitingObjects`.
-
-**Move objects in orbit around a center object**  
-Move objects in orbit around a center object.
-
-??? quote "See parameters & details"
-
-    - Parameter 1 (👾 Object): Center object
-    - Parameter 2 (👾 Object): Orbiting object
-      Cannot be the same object used for the Center object
-    - Parameter 3 (🔢 Number): Quantity of orbiting objects
-    - Parameter 4 (🔢 Number): Orbit speed (in degrees per second)
-      Use negative numbers to orbit counter-clockwise
-    - Parameter 5 (🔢 Number): Distance from the center object (in pixels)
-    - Parameter 6 (🔢 Number): Angular speed (in degrees per second)
-      Use negative numbers to rotate counter-clockwise
-    - Parameter 7 (🔤 Layer name (String)): Layer that orbiting objects will be created on (base layer if empty)
-    - Parameter 8 (🔢 Number): Z order of orbiting objects
-    - Parameter 9 (🔢 Number): Starting angle offset (in degrees)
-    - Parameter 10 (❓ Yes or No): Reset locations of orbiting objects after quantity is reduced
-
-    > Technical note: parameters 0, 11 are internal parameters handled by GDevelop.
-
-    > Technical note: this action internal type (in GDevelop JSON) is `OrbitingObjects::AnimateOrbitingObjects`.
+    > Technical note: this action internal type (in GDevelop JSON) is `OrbitingObjects::OrbitingObjectEmitter::AnimateOrbitingObjects`.
 
 **Delete orbiting objects that are linked to a center object**  
 Delete orbiting objects that are linked to a center object.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (👾 Object): Center object
+    - Parameter 0: 👾 Object
+    - Parameter 1 (🧩 Behavior): Behavior
+      Cannot be the same object that was used for the Center object
     - Parameter 2 (👾 Object): Orbiting object
       Cannot be the same object that was used for the Center object
 
-    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
-    > Technical note: this action internal type (in GDevelop JSON) is `OrbitingObjects::DeleteOrbitingObjects`.
+    > Technical note: this action internal type (in GDevelop JSON) is `OrbitingObjects::OrbitingObjectEmitter::DeleteOrbitingObjects`.
+
+**Orbit speed**  
+Change the orbit speed of the object. Use a negative value to orbit counter-clockwise.
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `OrbitingObjects::OrbitingObjectEmitter::SetOrbitAngularSpeed`.
+
+**Quantity of orbiting objects**  
+Change the quantity of orbiting objects of the object.
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `OrbitingObjects::OrbitingObjectEmitter::SetQuantity`.
+
+**Orbit radius on X axis**  
+Change the orbit radius on X axis of the object.
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `OrbitingObjects::OrbitingObjectEmitter::SetRadiusX`.
+
+**Orbit radius on Y axis**  
+Change the orbit radius on Y axis of the object. Use a negative value to change which part is in front.
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `OrbitingObjects::OrbitingObjectEmitter::SetRadiusY`.
+
+**Spining speed**  
+Change the spining speed of the object.
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Operator
+    - Parameter 3 (🔢 Number): Value
+
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `OrbitingObjects::OrbitingObjectEmitter::SetSpiningSpeed`.
 
 
+### Behavior conditions
 
+**Orbit speed**  
+Compare the orbit speed of the object. Use a negative value to orbit counter-clockwise.
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `OrbitingObjects::OrbitingObjectEmitter::OrbitAngularSpeed`.
+
+**Quantity of orbiting objects**  
+Compare the quantity of orbiting objects of the object.
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `OrbitingObjects::OrbitingObjectEmitter::Quantity`.
+
+**Orbit radius on X axis**  
+Compare the orbit radius on X axis of the object.
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `OrbitingObjects::OrbitingObjectEmitter::RadiusX`.
+
+**Orbit radius on Y axis**  
+Compare the orbit radius on Y axis of the object. Use a negative value to change which part is in front.
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `OrbitingObjects::OrbitingObjectEmitter::RadiusY`.
+
+**Spining speed**  
+Compare the spining speed of the object.
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🧩 Behavior
+    - Parameter 2: 🟰 Relational operator
+    - Parameter 3 (🔢 Number): Value to compare
+
+    > Technical note: parameter 4 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `OrbitingObjects::OrbitingObjectEmitter::SpiningSpeed`.
+
+
+### Behavior expressions
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `Object.OrbitingObjectEmitter::OrbitAngularSpeed()` | Return the orbit speed of the object. Use a negative value to orbit counter-clockwise. ||
+| `Object.OrbitingObjectEmitter::Quantity()` | Return the quantity of orbiting objects of the object. ||
+| `Object.OrbitingObjectEmitter::RadiusX()` | Return the orbit radius on X axis of the object. ||
+| `Object.OrbitingObjectEmitter::RadiusY()` | Return the orbit radius on Y axis of the object. Use a negative value to change which part is in front. ||
+| `Object.OrbitingObjectEmitter::SpiningSpeed()` | Return the spining speed of the object. ||
 
 
 ---
