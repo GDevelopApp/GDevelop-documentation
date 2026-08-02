@@ -9,6 +9,8 @@ title: Text entry object
 
 The text entry object captures user input and stores it in memory. You can use this object to simulate text input fields. For example, you might use the text entry object to provide a way that the player of your game can enter his/her name or any other information.
 
+The object itself is invisible on screen: it only listens to the keyboard. To show the captured text to the player, you need to display it with another object such as a [Text object](/gdevelop5/objects/text). Pressing <kbd>Backspace</kbd> removes the last typed character. It only works with a physical keyboard, which is why the [Text Input](/gdevelop5/objects/text_input) object should be preferred, especially for mobile games.
+
 ### Add text entry object
 
 After creating a new object from the Objects Editor list, select "Text entry" from the displayed list of choices
@@ -37,6 +39,8 @@ Using events, it is possible to enable or disable the "Text entry" object. Event
 
 ![](textentryobjectevents.png)
 
+You can also change the stored text with events. The "Text in memory" action lets you clear the captured text (set it to an empty string) once it has been validated, or fill it with a default value before the player starts typing.
+
 ## Examples
 
 !!! note
@@ -51,4 +55,4 @@ Using events, it is possible to enable or disable the "Text entry" object. Event
 
 ## Reference
 
-All actions, conditions and expressions are listed in [the shape painter reference page](/gdevelop5/all-features/text-entry-object/reference/).
+All actions, conditions and expressions are listed in [the Text entry object reference page](/gdevelop5/all-features/text-entry-object/reference/).
