@@ -128,6 +128,10 @@ You can then click **Apply** and drag'n'drop the object on the scene if it's not
 
 A platformer game often needs different kind of objects like platforms, jumpthru or ladders. One collision mask should be created for each kind. The example in the following screenshots can be opened in the online editor ([open the project](https://editor.gdevelop.io/?project=example://platformer-with-tilemap)).
 
+!!! tip
+
+    You can also enable collisions directly on the External Tilemap object, without a separate collision mask object. In the object properties, turn on **Enable collision** and, if you split your tiles by "Class" in Tiled, use the **Class filter** property to only build hitboxes for the tiles matching that class.
+
 ### Generating tilemap collision masks automatically
 
 !!! warning
@@ -212,6 +216,10 @@ Tiled also lets you put a different duration for each frame - this extension onl
 In GDevelop, you can choose the speed of the animation(s) of the Tilemap, which is by default 4 FPS (4 images per second, which means 1000/4 = 250ms between each image):
 
 ![](pasted/20210104-112229.png)
+
+## Edit tiles at runtime
+
+Tiles can be read and changed while the game is running: you can get or set the tile at a given position (in scene coordinates) or grid coordinates, remove a tile, flip a tile horizontally or vertically, and resize the map's grid. This is useful, for example, to build or destroy parts of a level during gameplay.
 
 ## Reference
 
