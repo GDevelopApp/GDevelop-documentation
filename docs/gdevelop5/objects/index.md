@@ -157,6 +157,8 @@ Each instance of an object living on the scene can have timers set during the ga
 
 By default, object instances are all marked as visible, meaning they are displayed on the screen. Using events, you can **hide** any instance during the game. A hidden object instance won't be displayed anymore, but will still exist on the scene (reacting to collisions and following all other events as usual).
 
+You can also make an instance start hidden when the scene begins: select it in the scene editor and toggle its visibility in the [Instance Properties panel](/gdevelop5/interface/scene-editor/#instance-properties-panel). The instance is still created and reacts to events, but is only displayed once you show it.
+
 !!! tip
 
     Some objects, like Sprite or Text objects, can also have an **opacity**. The opacity, between 0 and 255, defines how transparent an object is (0 being fully transparent, 255 being fully opaque and is the default). This can be changed independently from the visibility.

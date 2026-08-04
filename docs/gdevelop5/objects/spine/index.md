@@ -23,7 +23,7 @@ You can:
 - Apply different **skins** to change the character's appearance at runtime.
 - Use multiple animations with smooth transitions between them.
 
-It uses files exported from Spine (`.json`, `.atlas`, and image files) to render and animate characters or elements with smooth, interpolated bone-based movement.
+It uses files exported from Spine (the skeleton as a `.json` or binary `.skel` file, an `.atlas`, and image files) to render and animate characters or elements with smooth, interpolated bone-based movement.
 
 !!! tip
     To ensure proper compatibility with GDevelop, use **Spine version 4.2** when exporting your animations. You can select the Spine version in the **Spine launcher** before exporting your files.
@@ -39,10 +39,10 @@ In the object editor, you can configure:
 
 | Property            | Description                                                                                               |
 | ------------------- | --------------------------------------------------------------------------------------------------------- |
-| **Spine JSON file** | The main file describing bones, animations, and attachments.                                              |
+| **Spine skeleton**  | The main file describing bones, animations, and attachments. Both the `.json` and the binary `.skel` skeleton formats are supported. |
 | **Scale**           | The overall display scale of the skeleton. Default value is **1**. This scale is applied to the base size of the skeleton. |
 | **Skin name**       | The default skin to apply when the object is created. Leave empty to use the "default" skin defined in Spine. |
-| **Animations list** | List of available animations. Click **Scan** to automatically generate the list from the Spine JSON file. Each animation can be set to loop or play once. |
+| **Animations list** | List of available animations. Click **Scan** to automatically generate the list from the Spine skeleton file. Each animation can be set to loop or play once. |
 
 ## Key features
 
