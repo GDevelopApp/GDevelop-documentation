@@ -20,6 +20,10 @@ When the behavior is added to an object, some properties can be modified:
 
     Obstacles may take more space than expected because a box around obstacles is used instead of the [collision mask](/gdevelop5/objects/sprite/collision-mask). The [navigation mesh pathfinding](/gdevelop5/extensions/nav-mesh-pathfinding/reference) extension can be used to solve this.
 
+!!! note
+
+    Tile maps can be used as obstacles: add the "Obstacle for Pathfinding" behavior to a [Tilemap](/gdevelop5/objects/simple_tilemap) or [Tilemap collision mask](/gdevelop5/objects/tilemap) object and only the cells containing a tile hitbox will block the path.
+
 ## Move objects while avoiding obstacles: the "Pathfinding" behavior
 
 The "Pathfinding behavior" allows to compute the shortest path from the object to a destination, and optionally move the object to this destination, while avoiding all objects that have the "Obstacle for Pathfinding".

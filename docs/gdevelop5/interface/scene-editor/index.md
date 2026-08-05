@@ -50,6 +50,7 @@ Another method to unlock an instance is finding the instance on the [instance pa
   9. **Rotation:** instance's angle on the scene, more axis are visible for 3D objects
   10. **Animation:** displays and modifies instance's animation
 
+The panel also lets you **hide an instance at the start of the scene**: the instance stays visible in the editor (shown with a dedicated icon) but is hidden when the game runs, until you show it again with events.
 
 All objects share common properties (as well as common actions and conditions in events). **You can [learn about these here](/gdevelop5/objects/base_object)**.
 * Some objects can also have special properties. For example, a [Sprite object](/gdevelop5/objects/sprite) allow you to set the initial animation of each instance on the scene (the default animation being the first). Read about [objects](/gdevelop5/objects) to see all the objects that you can use in GDevelop.
