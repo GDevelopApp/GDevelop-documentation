@@ -11,13 +11,13 @@ Display and smoothly animate a 2D object with skeletal animations made with Spin
 ### Object properties
 
 - **Scale** (🔢 Number). Default value is `1`.
-- **Spine json** (🗂️ Resource).
+- **Spine skeleton** (🗂️ Resource).
 
 ??? quote "See internal technical details"
 
 
     - **Scale** is stored as `scale` (number). Default value is `1`.
-    - **Spine json** is stored as `spineResourceName` (resource). Default value is ``.
+    - **Spine skeleton** is stored as `spineResourceName` (resource). Default value is ``.
 
 ### Object actions
 
