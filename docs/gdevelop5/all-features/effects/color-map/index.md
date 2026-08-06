@@ -22,6 +22,8 @@ Try some ready-to-use color maps
 - color-map-model-2.png : ![](color-map-model-2.png)
 - color-map-model-3.png : ![](color-map-model-3.png)
 
+The **Mix** setting (in percent) controls how strongly the new colors are applied, letting you blend between the original and remapped colors. Animating it with events is a convenient way to fade a color grading in and out — for example to tint the screen when the player enters a special area.
+
 
 ## Reference
 
