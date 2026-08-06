@@ -46,7 +46,7 @@ If this check is not satisfied, an error message will be displayed.
 Tiles can be configured to have a hitbox.
 When the atlas image is set, tiles can be selected by clicking on the image. The selected tiles with then have a hit box in game.
 
-Those hit boxes can then be used with the platform behavior, the light obstacle behavior, raycasting and others.
+Those hit boxes can then be used with the platform behavior, the pathfinding obstacle behavior, the light obstacle behavior, raycasting and others.
 
 !!! note
       The physics behavior will consider the tilemap as a whole object and not use the hitboxes to have different bodies.

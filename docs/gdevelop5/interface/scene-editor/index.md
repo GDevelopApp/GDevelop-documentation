@@ -51,6 +51,8 @@ Another method to unlock an instance is finding the instance on the [instance pa
   10. **Animation:** displays and modifies instance's animation
 
 
+You can also choose to **hide an instance at the start of the scene** from the properties panel. The instance still exists on the scene (it reacts to collisions and events as usual), but is not displayed until you show it again with events.
+
 All objects share common properties (as well as common actions and conditions in events). **You can [learn about these here](/gdevelop5/objects/base_object)**.
 * Some objects can also have special properties. For example, a [Sprite object](/gdevelop5/objects/sprite) allow you to set the initial animation of each instance on the scene (the default animation being the first). Read about [objects](/gdevelop5/objects) to see all the objects that you can use in GDevelop.
 
