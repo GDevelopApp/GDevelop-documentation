@@ -48,6 +48,8 @@ A run ends with one of these statuses:
 
 After the run, the properties panel shows every assertion, the logs (`console.log` output), the screenshots taken, and a timeline of notable events (scene changes, test inputs...).
 
+Tests can also be run without opening the editor manually — for example in continuous integration: see [Run gameplay tests from the command line](command-line/index.md).
+
 ## Writing a test
 
 A test is JavaScript code with access to a `harness` object that drives the game. The game only advances when the test asks for it, one frame at a time (a fixed 1/60th of a second per frame), so tests are **deterministic**: the same test on the same game always gives the same result.
