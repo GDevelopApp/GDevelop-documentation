@@ -6,7 +6,9 @@ title: Gameplay tests
 !!! danger
 
     This feature will be available in the next release of GDevelop.
-    
+
+![A gameplay test code being run, with a preview of the game](./gameplay-test-preview.png)
+
 !!! warning
 
     Gameplay tests are an **experimental feature**. The interface and the testing functions may still change, and some games or behaviors may not be fully testable yet. Starter games and examples will be progressively updated to include gameplay tests, so you can learn from real, working examples.
