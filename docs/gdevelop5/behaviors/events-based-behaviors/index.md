@@ -151,16 +151,15 @@ Properties won't be usable from outside of the behavior. Properties are said to 
 
 ## Rely on other behaviors
 
-It is possible for behaviors to use other "required behaviors" as properties. When this is the case, GDevelop will ensure that any object using your behavior will also use the other one.
-You can then use the behavior entered as a property inside the actions, conditions, expressions and the lifecycle functions of your own behavior.
+You can use other behaviors in your behavior events. For example, you could make a behavior called "Platformer enemy" which uses the "Platformer object" behavior and adds specific actions, conditions and logic to make an enemy chase the player.
 
-!!! tip
+First, you need to declare which behaviors you want to use by adding properties of type **required behavior** and choose the right **behavior type**.
 
-    This is an advanced feature that is helpful to create behaviors that are based on other. For example, you could make a behavior called "Platformer enemy" that is using the "Platformer object" behavior and adding specific actions, conditions and logic to make an enemy chase the player.
+![](required-behavior.png)
 
-If you create a behavior and want to use this, just go to the properties of this behavior and add a new property. Choose the type "Required Behavior" for this property. You can then use this new behavior in the events of the behavior you just edited.
+!!! note
 
-To use a behavior based on another, you don't need to do anything special! Just add it to your object as usual: any missing behavior will be added to your object, so you can start using it immediately.
+    Notice the first required behavior **object with animations** in the screenshot above. This is a behavior you will only see in the extension editor. Instead of requiring a specific object like a sprite, you can use it to make your behavior compatible with all objects handling animations (sprite, 3d model, spine...).
 
 ## Write behaviors dedicated to your project
 
