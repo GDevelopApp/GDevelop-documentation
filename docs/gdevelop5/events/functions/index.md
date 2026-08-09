@@ -82,6 +82,10 @@ When **Any object** is selected for the **object type**, the object can be used 
 
 Conditions and actions from behaviors can also be used in functions events. For this, behavior parameters must be added after an object parameter.
 
+!!! note
+
+    You will notice some behaviors you only see in the extension editor for instance **object with animations**. Instead of requiring a specific object like a sprite, you can use this behavior to make your function compatible with all objects handling animations (sprite, 3d model, spine...).
+
 #### Use parameter values
 
 Number, string and boolean parameters can be compared with the same conditions as global and scene [variables](/gdevelop5/all-features/variables).
