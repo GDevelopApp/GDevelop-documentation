@@ -3,11 +3,11 @@ title: Grid-based pathfinding
 ---
 # Grid-based pathfinding
 
-The **Pathfinding** behavior allows to move objects to a selected destination as well as to flag items as obstacles. Objects that are flagged as obstacles will be avoided by the moving objects.
+The **grid-based pathfinding** behaviors move objects to a selected destination and flag items as obstacles. Objects that are flagged as obstacles will be avoided by the moving objects.
 
-## Choose which objects to avoid: the "Obstacle for Pathfinding" behavior
+## Choose which objects to avoid
 
-By using the **Obstacle for Pathfinding (grid-based)** [behavior](/gdevelop5/behaviors), you can flag any [object](/gdevelop5/objects) to be an obstacle.
+By using the **Obstacle for pathfinding (grid-based)** [behavior](/gdevelop5/behaviors), you can flag any [object](/gdevelop5/objects) to be an obstacle.
 
 When the behavior is added to an object, some properties can be modified:
 
@@ -18,15 +18,15 @@ When the behavior is added to an object, some properties can be modified:
 
 !!! tip
 
-    Obstacles may take more space than expected because a box around obstacles is used instead of the [collision mask](/gdevelop5/objects/sprite/collision-mask). The [navigation mesh pathfinding](/gdevelop5/behaviors/nav-mesh-pathfinding) can be used instead to solve this.
+    Obstacles may take more space than expected because a box around obstacles is used instead of the [collision mask](/gdevelop5/objects/sprite/collision-mask). You can use the [navigation mesh pathfinding](/gdevelop5/behaviors/nav-mesh-pathfinding) instead to solve this.
 
 !!! note
 
-    [Tile maps](/gdevelop5/objects/tilemap) can also be used as obstacles: add the **Obstacle for Pathfinding (grid-based)** behavior to a tile map that has collisions, and the moving objects will avoid its tiles.
+    [Tile maps](/gdevelop5/objects/tilemap) can also be used as obstacles: add the **Obstacle for pathfinding (grid-based)** behavior to a tile map that has collisions, and the moving objects will avoid its tiles.
 
 ## Move objects while avoiding obstacles
 
-The **Pathfinding character (grid-based)** behavior allows to compute the shortest path from the object to a destination, and optionally move the object to this destination, while avoiding all objects that have the **Obstacle for Pathfinding (grid-based)** behavior.
+The **Pathfinding character (grid-based)** behavior computes the shortest path from the object to a destination and, optionally, moves the object along this path, while avoiding all the objects that have the **Obstacle for pathfinding (grid-based)** behavior.
 
 After adding the behavior to the object, you can customize some properties:
 
@@ -45,7 +45,7 @@ After adding the behavior to the object, you can customize some properties:
 
 !!! note
 
-    A smaller cell size implies more computations so try to still keep the size as large as possible.
+    A smaller cell size implies more computations, so try to keep the size as large as possible.
 
 To initiate a pathfinding move, add the action **Move to a position** and specify the location you want the object to move to.
 It will move using the characteristics defined in the behavior properties.
@@ -55,7 +55,7 @@ If you want to change how the object moves during the game, these properties can
 
 !!! warning
 
-    The **Move to a position** action only needs to be run once. If you run this action without any condition, it will try to compute the path at every frame. This will generate a lot of intensive computations for your device. You can add the **Destination reached** condition or use a [timer](/gdevelop5/all-features/timers-and-time) to solve this.
+    The **Move to a position** action only needs to be run once. If you run this action without any condition, it will compute the path at every frame, which is very demanding for the device. You can add the **Destination reached** condition or use a [timer](/gdevelop5/all-features/timers-and-time) to solve this.
 
 ## Examples
 
