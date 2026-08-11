@@ -16,7 +16,7 @@ When the behavior is added to an object, some properties can be modified:
 These properties are only relevant for [3D model](/gdevelop5/objects/3d-model) objects. The 2D collision mask is always used for 2D objects.
 
   * **Shape** – You can choose between using the model shape (**Mesh**) or a bounding box (**Box**).
-  * **Simplified 3D model** – Models with a lot of polygons can require a heavy computation. You can make a simplified version of your model with an external tool and add it in this property to make the obstacle faster to compute.
+  * **Simplified 3D model** – Models with a lot of polygons can require heavy computations. You can make a simplified version of your model with an external tool and add it in this property to make the obstacle faster to compute.
 
 !!! tip
 
@@ -34,7 +34,7 @@ After adding the behavior to the object, you can customize some properties:
 
 ![](nav-mesh-character-properties.png){ width="387" }
 
-  * **Radius** – The half-size of the character. This setting determines how close the object can move to the obstacles.
+  * **Radius** – The half-size of the character. This setting determines how close the object can move to obstacles.
   * **Avoidance sight range** – How far ahead the character looks to avoid other characters.
   * **Acceleration** – How fast the object is going to accelerate while moving on a path.
   * **Max speed** – Maximum speed the object can move on the path.
@@ -45,8 +45,6 @@ After adding the behavior to the object, you can customize some properties:
 !!! note
 
     If you want to change how the object moves during the game, these properties can be changed using actions.
-
-### Add an action to move the Pathfinding object
 
 To make the character move, you need to add the **Move to a position** action and specify the destination.
 
@@ -60,15 +58,16 @@ or in 3D (using the [3d raycast](/gdevelop5/extensions/raycaster3d) extension):
 
 !!! warning
 
-    The **Move to a position** action only needs to be run once. If you run this action without any condition, it will try to compute the path at every frame. This will generate a lot of intensive computation for your device. You can add the **Destination reached** condition or use a [timer](/gdevelop5/all-features/timers-and-time) to solve this.
+    The **Move to a position** action only needs to be run once. If you run this action without any condition, it will try to compute the path at every frame. This will generate a lot of intensive computations for your device. You can add the **Destination reached** condition or use a [timer](/gdevelop5/all-features/timers-and-time) to solve this.
 
 ## Avoid frame skipping when modifying obstacle
 
-When obstacles are moved, created, deleted or their behavior is deactivated or activated back, the NavMesh is updated for the next frame and it can take more than 1/60 second which leads to frame skipping.
+When obstacles are moved, created, deleted or their behavior is deactivated or activated back, the navigation mesh is updated for the next frame and it can take more than 1/60 second which leads to frame skipping.
 
 You can reduce this side effect by:
+
 - Making **Cell size** and **Cell depth** bigger in the scene properties.
-- Setting a **Simplified 3D model** for obstacles that use a **Mesh** shape. The simplified model should have the less polygons as possible. For instance, a ramp often only need 5 faces.
+- Setting a **Simplified 3D model** for obstacles that use a **Mesh** shape. The simplified model should have the least amount of polygons possible. For instance, a ramp often only need 5 faces.
 - Making a chunk system that destroys obstacles that are faraway by batch.
 
 ## Troubleshoot navigation mesh generation
@@ -81,7 +80,7 @@ Try to modify the following scene properties and check the effects on the naviga
 
   * **Max. stair height** – If characters won't climb stairs, try with a greater value.
   * **Slope max. angle** – If characters won't walk on steep slopes, try with a greater value.
-  * **Walkable depth** – If characters won't go under a roof, try with a greater value.
+  * **Walkable depth** – If characters won't go under a roof, try with a smaller value.
   * **Walkable radius** – If characters won't go on a tight way, try with a smaller value. It's usually better to keep it automatic (`-1`) and change the **Radius** on characters.
 
 ![](nav-mesh-scene-properties.png){ width="382" }

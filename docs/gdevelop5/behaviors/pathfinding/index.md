@@ -35,7 +35,7 @@ After adding the behavior to the object, you can customize some properties:
   * **acceleration:** this is how fast the object is going to accelerate while moving on a path.
   * **allow diagonals:** set if the object can move in diagonals.
   * **angle offset:** in case the sprite is facing the wrong direction we can set the angle offset
-  * **extra border size:** sets the border size around the object. This setting determines how close the object can move to the obstacles.
+  * **extra border size:** sets the border size around the object. This setting determines how close the object can move to obstacles.
   * **grid offset X/Y:** offsets the virtual grid position by the specified number of pixels. This can be useful to align the grid with your level layout. Default is 0 for both X and Y.
   * **max speed:** maximum speed the object can move on the path.
   * **rotate object:** if you don't want the object to rotate while moving on the path, disable the object's rotation.
@@ -47,8 +47,6 @@ After adding the behavior to the object, you can customize some properties:
 
     A smaller cell size implies more computations so try to still keep the size as large as possible.
 
-### Add an action to move the Pathfinding object
-
 To initiate a pathfinding move, add the action **Move to a position** and specify the location you want the object to move to.
 It will move using the characteristics defined in the behavior properties.
 If you want to change how the object moves during the game, these properties can be changed using actions.
@@ -57,7 +55,7 @@ If you want to change how the object moves during the game, these properties can
 
 !!! warning
 
-    The **Move to a position** action only needs to be run once. If you run this action without any condition, it will try to compute the path at every frame. This will generate a lot of intensive computation for your device. You can add the **Destination reached** condition or use a [timer](/gdevelop5/all-features/timers-and-time) to solve this.
+    The **Move to a position** action only needs to be run once. If you run this action without any condition, it will try to compute the path at every frame. This will generate a lot of intensive computations for your device. You can add the **Destination reached** condition or use a [timer](/gdevelop5/all-features/timers-and-time) to solve this.
 
 ## Examples
 
