@@ -22,6 +22,11 @@ Try some ready-to-use color maps
 - color-map-model-2.png : ![](color-map-model-2.png)
 - color-map-model-3.png : ![](color-map-model-3.png)
 
+## Parameters
+
+- **Mix**: how strongly the color map is applied, as a percentage. Lower it to blend the recolored result with the original colors.
+- **Disable anti-aliasing**: use "nearest" pixel rounding when reading the color map. Enable this for sharp, hard color transitions (for example when mapping to a limited palette); leave it off for smooth gradients.
+
 
 ## Reference
 
