@@ -12,9 +12,9 @@ It allows to snap objects on a 2D hexagonal grid.
 It's useful for:
 
 - level editors
-- building systems ([open the city builder example online](https://editor.gdevelop.io/?project=example://city-builder))
+- building systems ([open the city builder example online](https://editor.gdevelop.io/?create-from-example=city-builder))
 
-A [simple example](https://editor.gdevelop.io/?project=example://snap-object-to-grid) shows how to snap objects that are dragged with the mouse.
+A [simple example](https://editor.gdevelop.io/?create-from-example=snap-object-to-grid) shows how to snap objects that are dragged with the mouse.
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

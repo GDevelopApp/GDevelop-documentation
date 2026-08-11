@@ -69,25 +69,25 @@ _perfectly elastic collision_.
 
 **Physics:**
 
-[Open example in GDevelop](https://editor.gdevelop.io/?project=example://physics){ .md-button .md-button--primary }
+[Open example in GDevelop](https://editor.gdevelop.io/?create-from-example=physics){ .md-button .md-button--primary }
 
-[![](hingeleverdemo.png){ width="320" }](https://editor.gdevelop.io/?project=example://physics)
+[![](hingeleverdemo.png){ width="320" }](https://editor.gdevelop.io/?create-from-example=physics)
 
 
 
 **Car Physics**
 
-[Open example in GDevelop](https://editor.gdevelop.io/?project=example://car-physics){ .md-button .md-button--primary }
+[Open example in GDevelop](https://editor.gdevelop.io/?create-from-example=car-physics){ .md-button .md-button--primary }
 
-[![](carphysics.png){ width="320" }](https://editor.gdevelop.io/?project=example://car-physics)
+[![](carphysics.png){ width="320" }](https://editor.gdevelop.io/?create-from-example=car-physics)
 
 
 
 **Object Gravity**
 
-[Open example in GDevelop](https://editor.gdevelop.io/?project=example://object-gravity){ .md-button .md-button--primary }
+[Open example in GDevelop](https://editor.gdevelop.io/?create-from-example=object-gravity){ .md-button .md-button--primary }
 
-[![](objectgravity.png){ width="320" }](https://editor.gdevelop.io/?project=example://object-gravity)
+[![](objectgravity.png){ width="320" }](https://editor.gdevelop.io/?create-from-example=object-gravity)
 
 ## Reference
 

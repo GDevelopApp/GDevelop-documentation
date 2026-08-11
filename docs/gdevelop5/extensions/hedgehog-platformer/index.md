@@ -14,7 +14,7 @@ Jump and run on platforms at 360°.
 
 A platformer engine for Sonic-like games.
 
-A small demo shows how to use this extension ([open the project online](https://editor.gdevelop.io/?project=example://360°-platformer)).
+A small demo shows how to use this extension ([open the project online](https://editor.gdevelop.io/?create-from-example=360°-platformer)).
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

@@ -9,12 +9,12 @@ Draw dynamically changing shapes like a fog of war.
 
 It can be helpful for:
 
-  * Liquid effects like water, blobs or lava ([open the project online](https://editor.gdevelop.io/?project=example://marching-squares-liquids))
-  * Fog of wars ([open the project online](https://editor.gdevelop.io/?project=example://marching-squares-fog-of-war))
-  * Platformer with destructible platforms ([open the project online](https://editor.gdevelop.io/?project=example://marching-squares-platforms-painter))
-  * Dynamically paint territories ([open the project online](https://editor.gdevelop.io/?project=example://marching-squares-qix))
-  * Top-down relief with physics ([open the project online](https://editor.gdevelop.io/?project=example://marching-squares-terraforming))
-  * Island generator ([open the project online](https://editor.gdevelop.io/?project=example://marching-squares-island-generator))
+  * Liquid effects like water, blobs or lava ([open the project online](https://editor.gdevelop.io/?create-from-example=marching-squares-liquids))
+  * Fog of wars ([open the project online](https://editor.gdevelop.io/?create-from-example=marching-squares-fog-of-war))
+  * Platformer with destructible platforms ([open the project online](https://editor.gdevelop.io/?create-from-example=marching-squares-platforms-painter))
+  * Dynamically paint territories ([open the project online](https://editor.gdevelop.io/?create-from-example=marching-squares-qix))
+  * Top-down relief with physics ([open the project online](https://editor.gdevelop.io/?create-from-example=marching-squares-terraforming))
+  * Island generator ([open the project online](https://editor.gdevelop.io/?create-from-example=marching-squares-island-generator))
 
 [Read more...](/gdevelop5/extensions/marching-squares/details)
 

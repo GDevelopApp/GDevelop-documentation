@@ -17,7 +17,7 @@ In comparison to the built-in pathfinding behavior, this one aims to:
 - better respect obstacle shapes
 - find paths faster if obstacles don't move
 
-The isometric example shows how to use this extension to move a character to a destination ([open the project online](https://editor.gdevelop.io/?project=example://isometric-game)).
+The isometric example shows how to use this extension to move a character to a destination ([open the project online](https://editor.gdevelop.io/?create-from-example=isometric-game)).
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

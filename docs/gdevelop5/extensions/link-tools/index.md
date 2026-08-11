@@ -14,9 +14,9 @@ This provides:
 
 For instance, it can be helpful for grid-based games like:
 
-* Match-3 ([open the project online](https://editor.gdevelop.io/?project=example://bim-bam))
-* Tactical ([open the project online](https://editor.gdevelop.io/?project=example://tactical-game-grid-movement))
-* City builders ([open the project online](https://editor.gdevelop.io/?project=example://city-builder))
+* Match-3 ([open the project online](https://editor.gdevelop.io/?create-from-example=bim-bam))
+* Tactical ([open the project online](https://editor.gdevelop.io/?create-from-example=tactical-game-grid-movement))
+* City builders ([open the project online](https://editor.gdevelop.io/?create-from-example=city-builder))
 * Point and click (bypass obstacles with a predetermined polygonal chain)
 
 [Read more...](/gdevelop5/all-features/extensions/linked-objects-tools)

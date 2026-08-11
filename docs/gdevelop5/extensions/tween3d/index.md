@@ -16,7 +16,7 @@ Change 3D models proportions over time to make smooth animations like wobbling.
 
 It's used in this example:
 
-* a 3D Bomberman-like game ([open the project online](https://editor.gdevelop.io/?project=example://3d-bomber-bunny))
+* a 3D Bomberman-like game ([open the project online](https://editor.gdevelop.io/?create-from-example=3d-bomber-bunny))
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

@@ -1,13 +1,13 @@
 ---
-title: Pathfinding
+title: Grid-based pathfinding
 ---
-# Pathfinding
+# Grid-based pathfinding
 
-The **Pathfinding** behavior allows to move objects to a selected destination as well as to flag items as obstacles. Objects that are flagged as obstacles will be avoided by the moving objects.
+The **grid-based pathfinding** behaviors move objects to a selected destination and flag items as obstacles. Objects that are flagged as obstacles will be avoided by the moving objects.
 
-## Choose which objects to avoid: the "Obstacle for Pathfinding" behavior
+## Choose which objects to avoid
 
-By using the "Pathfinding obstacle" [behavior](/gdevelop5/behaviors), you can flag any [object](/gdevelop5/objects) to be an obstacle.
+By using the **Obstacle for pathfinding (grid-based)** [behavior](/gdevelop5/behaviors), you can flag any [object](/gdevelop5/objects) to be an obstacle.
 
 When the behavior is added to an object, some properties can be modified:
 
@@ -18,24 +18,24 @@ When the behavior is added to an object, some properties can be modified:
 
 !!! tip
 
-    Obstacles may take more space than expected because a box around obstacles is used instead of the [collision mask](/gdevelop5/objects/sprite/collision-mask). The [navigation mesh pathfinding](/gdevelop5/extensions/nav-mesh-pathfinding/reference) extension can be used to solve this.
+    Obstacles may take more space than expected because a box around obstacles is used instead of the [collision mask](/gdevelop5/objects/sprite/collision-mask). You can use the [navigation mesh pathfinding](/gdevelop5/behaviors/nav-mesh-pathfinding) instead to solve this.
 
 !!! note
 
-    [Tile maps](/gdevelop5/objects/tilemap) can also be used as obstacles: add the "Pathfinding obstacle" behavior to a tile map that has collisions, and the moving objects will avoid its tiles.
+    [Tile maps](/gdevelop5/objects/tilemap) can also be used as obstacles: add the **Obstacle for pathfinding (grid-based)** behavior to a tile map that has collisions, and the moving objects will avoid its tiles.
 
-## Move objects while avoiding obstacles: the "Pathfinding" behavior
+## Move objects while avoiding obstacles
 
-The "Pathfinding behavior" allows to compute the shortest path from the object to a destination, and optionally move the object to this destination, while avoiding all objects that have the "Obstacle for Pathfinding".
+The **Pathfinding character (grid-based)** behavior computes the shortest path from the object to a destination and, optionally, moves the object along this path, while avoiding all the objects that have the **Obstacle for pathfinding (grid-based)** behavior.
 
-After we add the behavior to the object, we can customize a number of options:
+After adding the behavior to the object, you can customize some properties:
 
 ![](pasted/20230304-160035.png)
 
   * **acceleration:** this is how fast the object is going to accelerate while moving on a path.
   * **allow diagonals:** set if the object can move in diagonals.
   * **angle offset:** in case the sprite is facing the wrong direction we can set the angle offset
-  * **extra border size:** sets the border size around the object. This setting determines how close the object can move to the obstacles.
+  * **extra border size:** sets the border size around the object. This setting determines how close the object can move to obstacles.
   * **grid offset X/Y:** offsets the virtual grid position by the specified number of pixels. This can be useful to align the grid with your level layout. Default is 0 for both X and Y.
   * **max speed:** maximum speed the object can move on the path.
   * **rotate object:** if you don't want the object to rotate while moving on the path, disable the object's rotation.
@@ -45,11 +45,9 @@ After we add the behavior to the object, we can customize a number of options:
 
 !!! note
 
-    A smaller cell size implies more calculations so try to still keep the size as large as possible.
+    A smaller cell size implies more computations, so try to keep the size as large as possible.
 
-### Add an action to move the Pathfinding object
-
-To initiate a pathfinding move, add the action "Move to a position" and specify the location you want the object to move to.
+To initiate a pathfinding move, add the action **Move to a position** and specify the location you want the object to move to.
 It will move using the characteristics defined in the behavior properties.
 If you want to change how the object moves during the game, these properties can be changed using actions.
 
@@ -57,7 +55,7 @@ If you want to change how the object moves during the game, these properties can
 
 !!! warning
 
-    The "Move to a position" action only needs to be run once.  If you run this action with no conditions, it will try to recalculate the path at every frame. You object will *not* move and this will generate a lot of intensive computation for your device. Instead, add a condition that makes sure the object pathfinder speed is 0 or that a path was not found already.
+    The **Move to a position** action only needs to be run once. If you run this action without any condition, it will compute the path at every frame, which is very demanding for the device. You can add the **Destination reached** condition or use a [timer](/gdevelop5/all-features/timers-and-time) to solve this.
 
 ## Examples
 
@@ -66,19 +64,17 @@ If you want to change how the object moves during the game, these properties can
         **See it in action!** 🎮
     Open these examples online.
 
-**General Path Finding Behavior**
-
-[Open example in GDevelop](https://editor.gdevelop.io/?project=example://pathfinding){ .md-button .md-button--primary }
-
-[![](pathfindinggeneral.png){ width="320" }](https://editor.gdevelop.io/?project=example://pathfinding)
-
-
-
 **Path Finding Basics**
 
-[Open example in GDevelop](https://editor.gdevelop.io/?project=example://pathfinding-basics){ .md-button .md-button--primary }
+[Open example in GDevelop](https://editor.gdevelop.io/?create-from-example=pathfinding-basics){ .md-button .md-button--primary }
 
-[![](pathfindingbasics.png){ width="320" }](https://editor.gdevelop.io/?project=example://pathfinding-basics)
+[![](pathfindingbasics.png){ width="320" }](https://editor.gdevelop.io/?create-from-example=pathfinding-basics)
+
+**4-directions pathfinding**
+
+[Open example in GDevelop](https://editor.gdevelop.io/?create-from-example=starting-point-and-click-pixel){ .md-button .md-button--primary }
+
+[![](starting-point-and-click-pixel.png){ width="320" }](https://editor.gdevelop.io/?create-from-example=starting-point-and-click-pixel)
 
 ## Reference
 

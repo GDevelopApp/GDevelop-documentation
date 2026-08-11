@@ -65,4 +65,4 @@ For showing a reward video ad, do the same as the interstitial but use the actio
         **See it in action!** 🎮
     Open this example online.
 
-[Open example in GDevelop](https://editor.gdevelop.io/?project=example://facebook-instant-game){ .md-button .md-button--primary }
+[Open example in GDevelop](https://editor.gdevelop.io/?create-from-example=facebook-instant-game){ .md-button .md-button--primary }

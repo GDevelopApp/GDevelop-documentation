@@ -30,7 +30,7 @@ Example uses:
 - Interesting animations of stacked objects that can function as a single entity 
 - Visual cue for an active character power-up, such as invincibility
 
-An example shows how to use this extension ([open the project online](https://editor.gdevelop.io/?project=example://orbiting-objects)).
+An example shows how to use this extension ([open the project online](https://editor.gdevelop.io/?create-from-example=orbiting-objects)).
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

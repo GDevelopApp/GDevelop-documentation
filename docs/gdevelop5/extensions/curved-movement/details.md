@@ -20,9 +20,9 @@ This extension allows to move objects on Bézier curve paths.
 
 A collection of small examples show how to use this extension.
 
-[Open in GDevelop](https://editor.gdevelop.io/?project=example://curved-movement){ .md-button .md-button--primary }
+[Open in GDevelop](https://editor.gdevelop.io/?create-from-example=curved-movement){ .md-button .md-button--primary }
 
-[![](train-example.png){ width="320" }](https://editor.gdevelop.io/?project=example://curved-movement)
+[![](train-example.png){ width="320" }](https://editor.gdevelop.io/?create-from-example=curved-movement)
 
 
 ## Create a path with Inkscape

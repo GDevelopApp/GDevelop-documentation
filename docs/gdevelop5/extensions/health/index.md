@@ -22,7 +22,7 @@ It can be used on:
 - NPCs
 - Inanimate objects (for insance breakable doors or mining rocks)
 
-The top-down RPG example uses this extension ([open the project online](https://editor.gdevelop.io/?project=example://top-down-rpg)).
+The top-down RPG example uses this extension ([open the project online](https://editor.gdevelop.io/?create-from-example=top-down-rpg)).
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

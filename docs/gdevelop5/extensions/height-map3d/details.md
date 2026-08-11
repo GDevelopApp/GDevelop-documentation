@@ -20,9 +20,9 @@ This extension allows to build a terrain with hills where objects with the 3D ph
 
 Basic terrains can also be generated directly inside GDevelop using the [noise extension](/gdevelop5/extensions/noise).
 
-[Open example in GDevelop](https://editor.gdevelop.io/?project=example://3d-endless-terrain){ .md-button .md-button--primary }
+[Open example in GDevelop](https://editor.gdevelop.io/?create-from-example=3d-endless-terrain){ .md-button .md-button--primary }
 
-[![](endless-terrain.png){ width="320" }](https://editor.gdevelop.io/?project=example://3d-endless-terrain)
+[![](endless-terrain.png){ width="320" }](https://editor.gdevelop.io/?create-from-example=3d-endless-terrain)
 
 
 ## Avoid stairs-like height maps

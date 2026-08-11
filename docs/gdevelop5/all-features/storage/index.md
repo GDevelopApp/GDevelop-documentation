@@ -5,7 +5,7 @@ title: Storage
 
 Games can store data, such as the player progress. By default, nothing is persisted between game sessions. **Storage** actions and conditions are an easy way to persist information like the player best score, items, etc...
 
-To see this in action, review the *[Save-Load example](https://editor.gdevelop.io/?project=example://save-load)* included with GDevelop.
+To see this in action, review the *[Save-Load example](https://editor.gdevelop.io/?create-from-example=save-load)* included with GDevelop.
 
 !!! note
 

@@ -30,7 +30,7 @@ From creating the main character and animating it, through adding controls and c
 
 ## Get the sources
 
-[Open the project online](https://editor.gdevelop.io/?project=example://geometry-monster) or get the [sources of the Geometry Monster game](/gdevelop5/tutorials/geometry-monster/geometry-monster-sources.zip) containing all the images you need to finish the game, and the old project's json file used to write this tutorial if you'd like to check everything yourself.
+[Open the project online](https://editor.gdevelop.io/?create-from-example=geometry-monster) or get the [sources of the Geometry Monster game](/gdevelop5/tutorials/geometry-monster/geometry-monster-sources.zip) containing all the images you need to finish the game, and the old project's json file used to write this tutorial if you'd like to check everything yourself.
 
 
 

@@ -6,7 +6,7 @@ title: Implementing Procedural Generation
 
 This article covers how to implement a simple top-down procedural generation system. This is a rather large topic so it is split into three sections: Creating a Grid, Adding Noise, and Colouring. Be aware that you need to have the Noise and the Extended Math extensions in your project.
 
-The example is available online to play with before dinging in this step by step tutorial ([open the project online](https://editor.gdevelop.io/?project=example://procedural-generation))
+The example is available online to play with before dinging in this step by step tutorial ([open the project online](https://editor.gdevelop.io/?create-from-example=procedural-generation))
 
 ## Part 1: Creating a Grid
 

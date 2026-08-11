@@ -9,7 +9,7 @@ Shake 3D objects.
 
 Shake 3D objects with translation and rotation.
 
-The 3D racing game example uses this extension ([open the project online](https://editor.gdevelop.io/?project=example://3d-racing-game)).
+The 3D racing game example uses this extension ([open the project online](https://editor.gdevelop.io/?create-from-example=3d-racing-game)).
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

@@ -97,23 +97,23 @@ The [3D tween](/gdevelop5/extensions/tween3d) extension has additional actions d
 
 **Tween Test**
 
-[Open example in GDevelop](https://editor.gdevelop.io/?project=example://tween-test){ .md-button .md-button--primary }
+[Open example in GDevelop](https://editor.gdevelop.io/?create-from-example=tween-test){ .md-button .md-button--primary }
 
-[![](tweentest.png){ width="320" }](https://editor.gdevelop.io/?project=example://tween-test)
+[![](tweentest.png){ width="320" }](https://editor.gdevelop.io/?create-from-example=tween-test)
 
 
 **Tween Animations**
 
-[Open example in GDevelop](https://editor.gdevelop.io/?project=example://tween-animations){ .md-button .md-button--primary }
+[Open example in GDevelop](https://editor.gdevelop.io/?create-from-example=tween-animations){ .md-button .md-button--primary }
 
-[![](tweenanimations.png){ width="320" }](https://editor.gdevelop.io/?project=example://tween-animations)
+[![](tweenanimations.png){ width="320" }](https://editor.gdevelop.io/?create-from-example=tween-animations)
 
 
 **Pairs**
 
-[Open example in GDevelop](https://editor.gdevelop.io/?project=example://pairs){ .md-button .md-button--primary }
+[Open example in GDevelop](https://editor.gdevelop.io/?create-from-example=pairs){ .md-button .md-button--primary }
 
-[![](pairs.png){ width="320" }](https://editor.gdevelop.io/?project=example://pairs)
+[![](pairs.png){ width="320" }](https://editor.gdevelop.io/?create-from-example=pairs)
 
 
 ## Reference

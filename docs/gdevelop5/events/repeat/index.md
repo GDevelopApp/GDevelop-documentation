@@ -31,12 +31,12 @@ Alternatively, click on the *"Plus" icon* in the toolbar or on *"Add..."* at the
 
 **Diagonals**
 
-[![](diagonals.png){ width="320" }](https://editor.gdevelop.io/?project=example://find-diagonals)
+[![](diagonals.png){ width="320" }](https://editor.gdevelop.io/?create-from-example=find-diagonals)
 
-[Open example in GDevelop](https://editor.gdevelop.io/?project=example://find-diagonals){ .md-button .md-button--primary }
+[Open example in GDevelop](https://editor.gdevelop.io/?create-from-example=find-diagonals){ .md-button .md-button--primary }
 
 **Laser**
 
-[![](lasernew.png){ width="320" }](https://editor.gdevelop.io/?project=example://zombie-laser)
+[![](lasernew.png){ width="320" }](https://editor.gdevelop.io/?create-from-example=zombie-laser)
 
-[Open example in GDevelop](https://editor.gdevelop.io/?project=example://zombie-laser){ .md-button .md-button--primary }
+[Open example in GDevelop](https://editor.gdevelop.io/?create-from-example=zombie-laser){ .md-button .md-button--primary }

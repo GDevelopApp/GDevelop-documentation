@@ -54,9 +54,9 @@ You can use events to manipulate the scale and positioning of tiled sprite objec
         **See it in action!** 🎮
     Open this example online.
 
-[![](Examples1PlatformerTiledSprite.png)](https://editor.gdevelop.io/?project=example://old-platformer)
+[![](Examples1PlatformerTiledSprite.png)](https://editor.gdevelop.io/?create-from-example=old-platformer)
 
-[Open example in GDevelop](https://editor.gdevelop.io/?project=example://old-platformer){ .md-button .md-button--primary }
+[Open example in GDevelop](https://editor.gdevelop.io/?create-from-example=old-platformer){ .md-button .md-button--primary }
 
 ## Reference
 

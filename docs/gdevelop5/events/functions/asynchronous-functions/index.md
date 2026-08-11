@@ -25,7 +25,7 @@ Don't forget to use the action "End asynchronous function" to mark the end of th
 
 !!! note
 
-    The full example which contains an asynchronous function with events or JavaScript can be open is accessible online ([Open the example in GDevelop](https://editor.gdevelop.io/?project=example://parse-json-from-api)).
+    The full example which contains an asynchronous function with events or JavaScript can be open is accessible online ([Open the example in GDevelop](https://editor.gdevelop.io/?create-from-example=parse-json-from-api)).
 
 
 ### Use time-based actions in asynchronous functions

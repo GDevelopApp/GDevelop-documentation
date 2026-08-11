@@ -82,7 +82,7 @@ The event below has a condition that checks the horizontal (X) position of the S
 
 !!! tip
 
-    **See it in action!** 🎮 [Open this example online](https://editor.gdevelop.io/?project=example://object-selection).
+    **See it in action!** 🎮 [Open this example online](https://editor.gdevelop.io/?create-from-example=object-selection).
 
 ![](pasted/20220124-171850.png)
 
@@ -157,7 +157,7 @@ Some "behaviors", like the Physics engine or Pathfinding, may move the objects b
 
 !!! tip
 
-    **See it in action!** 🎮 [Open this example online](https://editor.gdevelop.io/?project=example://move-object-with-physics).
+    **See it in action!** 🎮 [Open this example online](https://editor.gdevelop.io/?create-from-example=move-object-with-physics).
 
 ![](pasted/20220124-153533.png)
 

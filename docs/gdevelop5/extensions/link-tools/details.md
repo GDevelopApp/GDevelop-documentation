@@ -7,13 +7,13 @@ This extension allows to create graphs (like a road networks) and use it to find
 
 3 examples illustrate how this can be used in games:
 
-- Match-3 game: a Bust-a-Move clone ([open the project online](https://editor.gdevelop.io/?project=example://bim-bam))
+- Match-3 game: a Bust-a-Move clone ([open the project online](https://editor.gdevelop.io/?create-from-example=bim-bam))
     - to find cluster of bubbles of the same colors
     - to find bubbles that no longer held when some bubbles are removed
-- Tactical games: selection and movement of units on a hexagonal grid ([open the project online](https://editor.gdevelop.io/?project=example://tactical-game-grid-movement))
+- Tactical games: selection and movement of units on a hexagonal grid ([open the project online](https://editor.gdevelop.io/?create-from-example=tactical-game-grid-movement))
     - to find cells where a unit can go
     - to make the unit move to the selected cell
-- City builders: evaluator demo ([open the project online](https://editor.gdevelop.io/?project=example://city-builder))
+- City builders: evaluator demo ([open the project online](https://editor.gdevelop.io/?create-from-example=city-builder))
     - to evaluate distance between houses and facilities
 
 ## Understand graphs
