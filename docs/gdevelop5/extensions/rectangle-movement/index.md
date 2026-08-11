@@ -16,11 +16,11 @@ It can be used for:
 - Enemy movement patterns
 - Moving along the border of another object (inside, center, outside)
 
-The platformer example uses this extension ([open the project online](https://editor.gdevelop.io/?project=example://platformer)).
+The platformer example uses this extension ([open the project online](https://editor.gdevelop.io/?create-from-example=platformer)).
 
-This game shows how to make objects move around the border of another object ([open the project online](https://editor.gdevelop.io/?project=example://moving-saw-platformer)).
+This game shows how to make objects move around the border of another object ([open the project online](https://editor.gdevelop.io/?create-from-example=moving-saw-platformer)).
 
-This example can be used to test different settings ([open the project online](https://editor.gdevelop.io/?project=example://rectangular-movement)).
+This example can be used to test different settings ([open the project online](https://editor.gdevelop.io/?create-from-example=rectangular-movement)).
 
 
 !!! tip

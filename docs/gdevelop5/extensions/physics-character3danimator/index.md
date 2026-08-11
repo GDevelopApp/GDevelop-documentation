@@ -9,7 +9,7 @@ Change animations of 3D physics characters automatically.
 
 Automatically change the animationsof a 3D physics character based on movement and interaction with platform objects.
 
-The 3D platformer example uses this extension ([open the project online](https://editor.gdevelop.io/?project=example://3d-platformer)).
+The 3D platformer example uses this extension ([open the project online](https://editor.gdevelop.io/?create-from-example=3d-platformer)).
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

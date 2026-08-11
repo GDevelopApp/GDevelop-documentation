@@ -14,7 +14,7 @@ A timer against the clock to create timer challenges in your projects. Countdown
 
 This extension provides a timer against the clock to create timed challenges in your projects. You can set an initial time in seconds and then start the timer to count down. The extension includes actions to start or reset the timer, stop it at zero or allow negative numbers, and get the time remaining on the timer via an expression. With this extension, you will be able to easily add countdown functionality.
 
-This extension is deprecated. Prefer using a timer and a substraction like in the countdown timer example ([open the project online](https://editor.gdevelop.io/?project=example://count-down-timer)).
+This extension is deprecated. Prefer using a timer and a substraction like in the countdown timer example ([open the project online](https://editor.gdevelop.io/?create-from-example=count-down-timer)).
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

@@ -58,11 +58,11 @@ In this example, for every existing "Pathfinder" object, a new "Terrain" object 
 
 **Magnet**
 
-[Open example in GDevelop](https://editor.gdevelop.io/?project=example://magnet){ .md-button .md-button--primary }
+[Open example in GDevelop](https://editor.gdevelop.io/?create-from-example=magnet){ .md-button .md-button--primary }
 
 **Pin objects**
 
-[Open example in GDevelop](https://editor.gdevelop.io/?project=example://pin-object-to-another-multiple-parents){ .md-button .md-button--primary }
+[Open example in GDevelop](https://editor.gdevelop.io/?create-from-example=pin-object-to-another-multiple-parents){ .md-button .md-button--primary }
 
 !!! tip
 
@@ -70,7 +70,7 @@ In this example, for every existing "Pathfinder" object, a new "Terrain" object 
 
 **Basic artificial intelligence**
 
-[Open example in GDevelop](https://editor.gdevelop.io/?project=example://basic-artificial-intelligence){ .md-button .md-button--primary }
+[Open example in GDevelop](https://editor.gdevelop.io/?create-from-example=basic-artificial-intelligence){ .md-button .md-button--primary }
 
 !!! tip
 

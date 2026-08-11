@@ -94,9 +94,9 @@ Like most objects, collisions can be detected by the shape painter object.  Shap
         **See it in action!** 🎮
     Open these examples online.
 
-[![](shapepainterobject.png){ width="320" }](https://editor.gdevelop.io/?project=example://advanced-shape-based-painter)
+[![](shapepainterobject.png){ width="320" }](https://editor.gdevelop.io/?create-from-example=advanced-shape-based-painter)
 
-[Open example in GDevelop](https://editor.gdevelop.io/?project=example://advanced-shape-based-painter){ .md-button .md-button--primary }
+[Open example in GDevelop](https://editor.gdevelop.io/?create-from-example=advanced-shape-based-painter){ .md-button .md-button--primary }
 
 ## Reference
 

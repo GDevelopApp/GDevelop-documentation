@@ -78,15 +78,15 @@ Text objects are efficient for displaying text, but keep these performance tips 
 
 Manipulate a Text Object
 
-[![](changetextexample1.png){ width="320" }](https://editor.gdevelop.io/?project=example://manipulate-text-object)
+[![](changetextexample1.png){ width="320" }](https://editor.gdevelop.io/?create-from-example=manipulate-text-object)
 
-[Open example in GDevelop](https://editor.gdevelop.io/?project=example://manipulate-text-object){ .md-button .md-button--primary }
+[Open example in GDevelop](https://editor.gdevelop.io/?create-from-example=manipulate-text-object){ .md-button .md-button--primary }
 
 Typewriter effect from extension
 
-[![](type-ontexteffectexample.png){ width="320" }](https://editor.gdevelop.io/?project=example://type-on-text-effect)
+[![](type-ontexteffectexample.png){ width="320" }](https://editor.gdevelop.io/?create-from-example=type-on-text-effect)
 
-[Open example in GDevelop](https://editor.gdevelop.io/?project=example://type-on-text-effect){ .md-button .md-button--primary }
+[Open example in GDevelop](https://editor.gdevelop.io/?create-from-example=type-on-text-effect){ .md-button .md-button--primary }
 
 ## Reference
 

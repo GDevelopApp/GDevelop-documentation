@@ -66,15 +66,15 @@ If you want to change how the object moves during the game, these properties can
 
 **Path Finding Basics**
 
-[Open example in GDevelop](https://editor.gdevelop.io/?project=example://pathfinding-basics){ .md-button .md-button--primary }
+[Open example in GDevelop](https://editor.gdevelop.io/?create-from-example=pathfinding-basics){ .md-button .md-button--primary }
 
-[![](pathfindingbasics.png){ width="320" }](https://editor.gdevelop.io/?project=example://pathfinding-basics)
+[![](pathfindingbasics.png){ width="320" }](https://editor.gdevelop.io/?create-from-example=pathfinding-basics)
 
 **4-directions pathfinding**
 
-[Open example in GDevelop](https://editor.gdevelop.io/?project=example://starting-point-and-click-pixel){ .md-button .md-button--primary }
+[Open example in GDevelop](https://editor.gdevelop.io/?create-from-example=starting-point-and-click-pixel){ .md-button .md-button--primary }
 
-[![](starting-point-and-click-pixel.png){ width="320" }](https://editor.gdevelop.io/?project=example://starting-point-and-click-pixel)
+[![](starting-point-and-click-pixel.png){ width="320" }](https://editor.gdevelop.io/?create-from-example=starting-point-and-click-pixel)
 
 ## Reference
 

@@ -7,12 +7,12 @@ This extension allows to build a scalar field and draw contour lines of it.
 
 6 examples illustrate how this can be used in games:
 
-  * a liquid effect demo ([open the project online](https://editor.gdevelop.io/?project=example://marching-squares-liquids))
-  * a fog of wars demo ([open the project online](https://editor.gdevelop.io/?project=example://marching-squares-fog-of-war))
-  * a platformer with destructible platforms ([open the project online](https://editor.gdevelop.io/?project=example://marching-squares-platforms-painter))
-  * a QIX-like game that paint territories ([open the project online](https://editor.gdevelop.io/?project=example://marching-squares-qix))
-  * a top-down relief with physics ([open the project online](https://editor.gdevelop.io/?project=example://marching-squares-terraforming))
-  * an island generator ([open the project online](https://editor.gdevelop.io/?project=example://marching-squares-island-generator))
+  * a liquid effect demo ([open the project online](https://editor.gdevelop.io/?create-from-example=marching-squares-liquids))
+  * a fog of wars demo ([open the project online](https://editor.gdevelop.io/?create-from-example=marching-squares-fog-of-war))
+  * a platformer with destructible platforms ([open the project online](https://editor.gdevelop.io/?create-from-example=marching-squares-platforms-painter))
+  * a QIX-like game that paint territories ([open the project online](https://editor.gdevelop.io/?create-from-example=marching-squares-qix))
+  * a top-down relief with physics ([open the project online](https://editor.gdevelop.io/?create-from-example=marching-squares-terraforming))
+  * an island generator ([open the project online](https://editor.gdevelop.io/?create-from-example=marching-squares-island-generator))
 
 ## Understand scalar fields
 

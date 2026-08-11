@@ -27,4 +27,4 @@ This step by step example was based off a video example that was originally crea
 </div>
 
 The finished version of this game, with particle effects and mobile controls, can be found
-[here](https://editor.gdevelop.io/?project=example://space-asteroids).
+[here](https://editor.gdevelop.io/?create-from-example=space-asteroids).

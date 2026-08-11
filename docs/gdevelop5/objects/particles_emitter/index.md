@@ -47,9 +47,9 @@ You can also change the maximum number of particles rendered by the object on th
     Open these examples online.
 
 
-[![](Examples1ParticleEmitterExplosions.png)](https://editor.gdevelop.io/?project=example://particles-explosions)
+[![](Examples1ParticleEmitterExplosions.png)](https://editor.gdevelop.io/?create-from-example=particles-explosions)
 
-[Open example in GDevelop](https://editor.gdevelop.io/?project=example://particles-explosions){ .md-button .md-button--primary }
+[Open example in GDevelop](https://editor.gdevelop.io/?create-from-example=particles-explosions){ .md-button .md-button--primary }
 
 
 [![](Examples2ParticleEmitterWishForge.png)](https://editor.gdevelop.io/?project=https://resources.gdevelop-app.com/examples/particle-effects-demo/particle-effects-demo.json)

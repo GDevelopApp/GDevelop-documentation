@@ -21,7 +21,7 @@ Watch how this extension works and learn how to use it in your own game.
 
 Try out this extension in a game example:
 
-[Open in GDevelop](https://editor.gdevelop.io/?project=example://advanced-projectile){ .md-button .md-button--primary }
+[Open in GDevelop](https://editor.gdevelop.io/?create-from-example=advanced-projectile){ .md-button .md-button--primary }
 
 ## Simulate a rocket
 

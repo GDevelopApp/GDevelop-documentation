@@ -16,8 +16,8 @@ In top-down games, players may have to go though gaps the same size as their ava
 
 It's used in these examples:
 
-* a 3D Bomberman-like game ([open the project online](https://editor.gdevelop.io/?project=example://3d-bomber-bunny))
-* a 2D Bomberman-like game ([open the project online](https://editor.gdevelop.io/?project=example://goose-bomberman))
+* a 3D Bomberman-like game ([open the project online](https://editor.gdevelop.io/?create-from-example=3d-bomber-bunny))
+* a 2D Bomberman-like game ([open the project online](https://editor.gdevelop.io/?create-from-example=goose-bomberman))
 
 
 !!! tip

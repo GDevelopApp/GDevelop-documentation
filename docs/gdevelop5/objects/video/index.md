@@ -111,7 +111,7 @@ To set the volume of a video, use the `Set volume` action. You can set it to any
 
 ## Example
 
-[![](pasted/Examples1VideoPlayer.png)](https://editor.gdevelop.io/?project=example://video-player)
+[![](pasted/Examples1VideoPlayer.png)](https://editor.gdevelop.io/?create-from-example=video-player)
 
 ## Reference
 

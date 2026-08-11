@@ -13,8 +13,8 @@ This extension allows to seamlessly keep big pixels aligned when the object is s
 
 It can be used for:
 
-* Pixel-perfect platformers ([open the project online](https://editor.gdevelop.io/?project=example://platformer-with-tilemap))
-* Align top-down characters on a grid ([open the project online](https://editor.gdevelop.io/?project=example://top-down-grid-movement))
+* Pixel-perfect platformers ([open the project online](https://editor.gdevelop.io/?create-from-example=platformer-with-tilemap))
+* Align top-down characters on a grid ([open the project online](https://editor.gdevelop.io/?create-from-example=top-down-grid-movement))
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

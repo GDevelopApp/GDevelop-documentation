@@ -94,9 +94,9 @@ Try to modify the following scene properties and check the effects on the naviga
 
 **Isometric example**
 
-[Open example in GDevelop](https://editor.gdevelop.io/?project=example://isometric-game){ .md-button .md-button--primary }
+[Open example in GDevelop](https://editor.gdevelop.io/?create-from-example=isometric-game){ .md-button .md-button--primary }
 
-[![](isometric-game.png){ width="320" }](https://editor.gdevelop.io/?project=example://isometric-game)
+[![](isometric-game.png){ width="320" }](https://editor.gdevelop.io/?create-from-example=isometric-game)
 
 ## Reference
 

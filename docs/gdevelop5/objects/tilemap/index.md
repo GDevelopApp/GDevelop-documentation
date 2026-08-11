@@ -10,9 +10,9 @@ If you want to build **a Tilemap directly inside GDevelop**, prefer to use the [
 
 3 examples are using external tile maps:
 
-  * a platformer with ladders and jumpthrus ([open the project online](https://editor.gdevelop.io/?project=example://platformer-with-tilemap))
-  * a more advanced platformer ([open the project online](https://editor.gdevelop.io/?project=example://not-a-vania))
-  * various tile maps ([open the project online](https://editor.gdevelop.io/?project=example://tilemaps-made-with-tiled-editor))
+  * a platformer with ladders and jumpthrus ([open the project online](https://editor.gdevelop.io/?create-from-example=platformer-with-tilemap))
+  * a more advanced platformer ([open the project online](https://editor.gdevelop.io/?create-from-example=not-a-vania))
+  * various tile maps ([open the project online](https://editor.gdevelop.io/?create-from-example=tilemaps-made-with-tiled-editor))
 
 
 !!! note
@@ -126,7 +126,7 @@ You can then click **Apply** and drag'n'drop the object on the scene if it's not
 
 ## Handle collisions
 
-A platformer game often needs different kind of objects like platforms, jumpthru or ladders. One collision mask should be created for each kind. The example in the following screenshots can be opened in the online editor ([open the project](https://editor.gdevelop.io/?project=example://platformer-with-tilemap)).
+A platformer game often needs different kind of objects like platforms, jumpthru or ladders. One collision mask should be created for each kind. The example in the following screenshots can be opened in the online editor ([open the project](https://editor.gdevelop.io/?create-from-example=platformer-with-tilemap)).
 
 ### Enable collisions directly on the Tilemap object
 

@@ -160,19 +160,19 @@ Currently, the **Advanced options** button opens a window that allows you to tog
 **See it in action!** 🎮
 Click on the images to open the examples online.
 
-[![](./Examples1SquareSizeChange.png)](https://editor.gdevelop.io/?project=example://change-scale-of-sprites)
+[![](./Examples1SquareSizeChange.png)](https://editor.gdevelop.io/?create-from-example=change-scale-of-sprites)
 
 ----
 
-[![](./Examples2ChangeAnimation.png)](https://editor.gdevelop.io/?project=example://change-sprite-animation)
+[![](./Examples2ChangeAnimation.png)](https://editor.gdevelop.io/?create-from-example=change-sprite-animation)
 
 ----
 
-[![](./Examples3BallCreation.png)](https://editor.gdevelop.io/?project=example://change-sprite-color)
+[![](./Examples3BallCreation.png)](https://editor.gdevelop.io/?create-from-example=change-sprite-color)
 
 ----
 
-[![](./Examples4PauseAnimation.png)](https://editor.gdevelop.io/?project=example://play-stop-sprite-animation)
+[![](./Examples4PauseAnimation.png)](https://editor.gdevelop.io/?create-from-example=play-stop-sprite-animation)
 
 ## Reference
 

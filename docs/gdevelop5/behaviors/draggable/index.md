@@ -51,33 +51,33 @@ When multiple draggable objects overlap, the object with the highest Z-order wil
 
 **Snap to Grid**
 
-[Open example in GDevelop](https://editor.gdevelop.io/?project=example://snap-object-to-grid){ .md-button .md-button--primary }
+[Open example in GDevelop](https://editor.gdevelop.io/?create-from-example=snap-object-to-grid){ .md-button .md-button--primary }
 
-[![](snaptogrid.png){ width="320" }](https://editor.gdevelop.io/?project=example://snap-object-to-grid)
+[![](snaptogrid.png){ width="320" }](https://editor.gdevelop.io/?create-from-example=snap-object-to-grid)
 
 
 
 **Shoot Bullet in Parabola Pattern** (A parabola is a plane curve which is mirror-symmetrical and is approximately U-shaped. Basically, an object that shoots toward an object in a curved trajectory.)
 
-[Open example in GDevelop](https://editor.gdevelop.io/?project=example://shoot-bullet-in-parabola){ .md-button .md-button--primary }
+[Open example in GDevelop](https://editor.gdevelop.io/?create-from-example=shoot-bullet-in-parabola){ .md-button .md-button--primary }
 
-[![](shootbulletparabolapattern.png){ width="320" }](https://editor.gdevelop.io/?project=example://shoot-bullet-in-parabola)
+[![](shootbulletparabolapattern.png){ width="320" }](https://editor.gdevelop.io/?create-from-example=shoot-bullet-in-parabola)
 
 
 
 **Save and Load**
 
-[Open example in GDevelop](https://editor.gdevelop.io/?project=example://save-load){ .md-button .md-button--primary }
+[Open example in GDevelop](https://editor.gdevelop.io/?create-from-example=save-load){ .md-button .md-button--primary }
 
-[![](saveandloadexample.png){ width="320" }](https://editor.gdevelop.io/?project=example://save-load)
+[![](saveandloadexample.png){ width="320" }](https://editor.gdevelop.io/?create-from-example=save-load)
 
 
 
 **Path Finding Basics**
 
-[Open example in GDevelop](https://editor.gdevelop.io/?project=example://pathfinding-basics){ .md-button .md-button--primary }
+[Open example in GDevelop](https://editor.gdevelop.io/?create-from-example=pathfinding-basics){ .md-button .md-button--primary }
 
-[![](/gdevelop5/behaviors/pathfinding/pathfindingbasics.png){ width="320" }](https://editor.gdevelop.io/?project=example://pathfinding-basics)
+[![](/gdevelop5/behaviors/pathfinding/pathfindingbasics.png){ width="320" }](https://editor.gdevelop.io/?create-from-example=pathfinding-basics)
 
 ## Reference
 

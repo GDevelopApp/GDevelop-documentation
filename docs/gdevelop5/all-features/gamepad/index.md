@@ -36,25 +36,25 @@ The "Platformer gamepad mapper" behavior can be added to the character to make t
     Learn more about the [Platform Character behavior](/gdevelop5/behaviors/platformer).
 
 
-[Open example in GDevelop](https://editor.gdevelop.io/?project=example://platformer){ .md-button .md-button--primary }
+[Open example in GDevelop](https://editor.gdevelop.io/?create-from-example=platformer){ .md-button .md-button--primary }
 
-[![](/gdevelop5/behaviors/platformer/platformer-example.png){ width="320" }](https://editor.gdevelop.io/?project=example://platformer)
+[![](/gdevelop5/behaviors/platformer/platformer-example.png){ width="320" }](https://editor.gdevelop.io/?create-from-example=platformer)
 
 ### Move a 3D platformer character
 
 The "3D platformer gamepad mapper" behavior can be added to a [3d physics character](/gdevelop5/behaviors/physics3d) to make the character move according to player inputs automatically.
 
-[Open example in GDevelop](https://editor.gdevelop.io/?project=example://3d-platformer){ .md-button .md-button--primary }
+[Open example in GDevelop](https://editor.gdevelop.io/?create-from-example=3d-platformer){ .md-button .md-button--primary }
 
-[![](/gdevelop5/behaviors/physics3d/platformer3d.png){ width="320" }](https://editor.gdevelop.io/?project=example://3d-platformer)
+[![](/gdevelop5/behaviors/physics3d/platformer3d.png){ width="320" }](https://editor.gdevelop.io/?create-from-example=3d-platformer)
 
 ### Move a 3D shooter character
 
 The "3D shooter gamepad mapper" behavior can be added to a [3d physics character](/gdevelop5/behaviors/physics3d) to make the character move according to player inputs automatically.
 
-[Open example in GDevelop](https://editor.gdevelop.io/?project=example://3d-first-person){ .md-button .md-button--primary }
+[Open example in GDevelop](https://editor.gdevelop.io/?create-from-example=3d-first-person){ .md-button .md-button--primary }
 
-[![](/gdevelop5/behaviors/physics3d/first-person.png){ width="320" }](https://editor.gdevelop.io/?project=example://3d-first-person)
+[![](/gdevelop5/behaviors/physics3d/first-person.png){ width="320" }](https://editor.gdevelop.io/?create-from-example=3d-first-person)
 
 ### Move a character with custom movement
 

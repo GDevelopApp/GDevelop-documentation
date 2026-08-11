@@ -240,7 +240,7 @@ The demo does not use the entire capability of the extension and is aiming to pr
 
 # Examples
 
-[Open example in GDevelop](https://editor.gdevelop.io/?project=example://dialogue-tree-with-yarn){ .md-button .md-button--primary }
+[Open example in GDevelop](https://editor.gdevelop.io/?create-from-example=dialogue-tree-with-yarn){ .md-button .md-button--primary }
 
 ## Reference
 

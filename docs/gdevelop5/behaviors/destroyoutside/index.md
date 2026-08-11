@@ -47,9 +47,9 @@ The Destroy Outside behavior has two optional parameters that provide fine contr
 
 **Destroy Bullets Outside Screen/Scene**
 
-[Open example in GDevelop](https://editor.gdevelop.io/?project=example://shoot-bullets){ .md-button .md-button--primary }
+[Open example in GDevelop](https://editor.gdevelop.io/?create-from-example=shoot-bullets){ .md-button .md-button--primary }
 
-[![](Examples1BulletOutsideScreen.png){ width="320" }](https://editor.gdevelop.io/?project=example://shoot-bullets)
+[![](Examples1BulletOutsideScreen.png){ width="320" }](https://editor.gdevelop.io/?create-from-example=shoot-bullets)
 
 ## Reference
 

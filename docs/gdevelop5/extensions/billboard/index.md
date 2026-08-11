@@ -9,7 +9,7 @@ Make 3D objects always face camera, appearing as 2D sprites in 3D scenes.
 
 Rotate 3D objects to make them face the camera and appear like 2D sprite.
 
-The 3D racing game example uses this extension ([open the project online](https://editor.gdevelop.io/?project=example://3d-racing-game)).
+The 3D racing game example uses this extension ([open the project online](https://editor.gdevelop.io/?create-from-example=3d-racing-game)).
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

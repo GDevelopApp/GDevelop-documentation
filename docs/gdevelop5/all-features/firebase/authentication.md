@@ -42,7 +42,7 @@ This is all you need for a basic profile most of the time.
 To store more data, you will need to use something like [Firestore](/gdevelop5/all-features/firebase/firestore).
 !!! tip
 
-    To use the photo URL, take a look at the example that [loads an image from a URL to a sprite](https://editor.gdevelop.io/?project=example://load-image-from-url).
+    To use the photo URL, take a look at the example that [loads an image from a URL to a sprite](https://editor.gdevelop.io/?create-from-example=load-image-from-url).
 
 ## Provider setup
 

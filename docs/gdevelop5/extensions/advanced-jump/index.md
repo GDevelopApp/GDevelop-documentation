@@ -16,7 +16,7 @@ This extension provides behaviors to:
 * Dash toward the floor
 * Do coyote time, also known as "ledge tolerance". It lets players jumping even after their character is no longer touching the ground for a given amount of time. It aims to give players a feeling of control and reduce frustration.
 
-An example allows to check it out ([open the project online](https://editor.gdevelop.io/?project=example://platformer-moves)).
+An example allows to check it out ([open the project online](https://editor.gdevelop.io/?create-from-example=platformer-moves)).
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

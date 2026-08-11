@@ -19,12 +19,12 @@ This extension can be used to:
 - Move enemies that follow a pattern
 - Animate decorations
 
-A collection of [small examples](https://editor.gdevelop.io/?project=example://curved-movement) shows how to use this extension.
+A collection of [small examples](https://editor.gdevelop.io/?create-from-example=curved-movement) shows how to use this extension.
 
 2 examples use it:
 
-- a 3D racing game ([open the project online](https://editor.gdevelop.io/?project=example://3d-racing-game))
-- a Zuma-like ([open the project online](https://editor.gdevelop.io/?project=example://smoothy))
+- a 3D racing game ([open the project online](https://editor.gdevelop.io/?create-from-example=3d-racing-game))
+- a Zuma-like ([open the project online](https://editor.gdevelop.io/?create-from-example=smoothy))
 
 [Read more...](/gdevelop5/extensions/curved-movement/details/)
 

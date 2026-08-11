@@ -53,9 +53,9 @@ These behaviors make the character move according to player inputs automatically
 * [3D platformer multitouch controller mapper](/gdevelop5/objects/multitouch-joystick)
 * [3D shooter gamepad mapper](/gdevelop5/all-features/gamepad/)
 
-[Open example in GDevelop](https://editor.gdevelop.io/?project=example://3d-platformer){ .md-button .md-button--primary }
+[Open example in GDevelop](https://editor.gdevelop.io/?create-from-example=3d-platformer){ .md-button .md-button--primary }
 
-[![](platformer3d.png){ width="320" }](https://editor.gdevelop.io/?project=example://3d-platformer)
+[![](platformer3d.png){ width="320" }](https://editor.gdevelop.io/?create-from-example=3d-platformer)
 
 
 ### Move a 3D shooter ("FPS") character
@@ -66,9 +66,9 @@ These behaviors make the character move according to player inputs automatically
 * [3D shooter multitouch controller mapper](/gdevelop5/objects/multitouch-joystick)
 * [3D platformer gamepad mapper](/gdevelop5/all-features/gamepad/)
 
-[Open example in GDevelop](https://editor.gdevelop.io/?project=example://3d-first-person){ .md-button .md-button--primary }
+[Open example in GDevelop](https://editor.gdevelop.io/?create-from-example=3d-first-person){ .md-button .md-button--primary }
 
-[![](first-person.png){ width="320" }](https://editor.gdevelop.io/?project=example://3d-first-person)
+[![](first-person.png){ width="320" }](https://editor.gdevelop.io/?create-from-example=3d-first-person)
 
 
 ## Move a 3D car with controls
@@ -87,9 +87,9 @@ You may need to do the last 2 steps many times to finely tweak your game feel.
 !!! tip 
     It can be a good idea to start from an example and change some properties to see how they affect the game feel.
 
-[Open example in GDevelop](https://editor.gdevelop.io/?project=example://3d-car-coin-hunt){ .md-button .md-button--primary }
+[Open example in GDevelop](https://editor.gdevelop.io/?create-from-example=3d-car-coin-hunt){ .md-button .md-button--primary }
 
-[![](car-coin-hunt.png){ width="320" }](https://editor.gdevelop.io/?project=example://3d-car-coin-hunt)
+[![](car-coin-hunt.png){ width="320" }](https://editor.gdevelop.io/?create-from-example=3d-car-coin-hunt)
 
 ### Choose a realistic world scale
 

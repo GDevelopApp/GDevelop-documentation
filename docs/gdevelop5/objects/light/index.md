@@ -50,7 +50,7 @@ By providing a texture image, you can control the shape and pattern of the light
 
 ## Examples
 
-[Open example in GDevelop](https://editor.gdevelop.io/?project=example://lights){ .md-button .md-button--primary }
+[Open example in GDevelop](https://editor.gdevelop.io/?create-from-example=lights){ .md-button .md-button--primary }
 
 ## References
 
