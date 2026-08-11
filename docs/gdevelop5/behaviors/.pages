@@ -2,8 +2,8 @@ nav:
   - Anchor Behavior: anchor
   - Destroy outside screen behavior: destroyoutside
   - Draggable Object Behavior: draggable
-  - pathfinding
-  - nav-mesh-pathfinding
+  - Grid-based pathfinding: pathfinding
+  - Navmesh pathfinding: nav-mesh-pathfinding
   - 2D Physics Engine: physics2
   - 3D Physics Engine: physics3d
   - Platform and platformer character behaviors: platformer
