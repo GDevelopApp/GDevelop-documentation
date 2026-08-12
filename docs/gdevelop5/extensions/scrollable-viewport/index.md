@@ -11,7 +11,7 @@ Move a camera by dragging or with the scroll wheel.
 
 It can be used for
 
-- Making a scroll view ([open the project online](https://editor.gdevelop.io/?create-from-example=scrollbar))
+- Making a scroll view ([open the project online](https://editor.gdevelop.io/?project=example://scrollbar))
 - Dragging the camera on a top-down game
 
 !!! tip

@@ -9,7 +9,7 @@ Constrain object position to remain within the camera viewport boundaries.
 
 Force the object to stay visible on the screen by setting back its 2D position (X and Y coordinates) inside the viewport of the camera.
 
-The shoot'em up example uses this extension ([open the project online](https://editor.gdevelop.io/?create-from-example=space-shooter)).
+The shoot'em up example uses this extension ([open the project online](https://editor.gdevelop.io/?project=example://space-shooter)).
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

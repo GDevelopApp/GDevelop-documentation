@@ -52,6 +52,7 @@ nav:
     - Movement:
         - 2D Physics Engine: physics2
         - 3D physics engine: physics3d
+        - Navmesh pathfinding: nav-mesh-pathfinding
         - Pathfinding behavior: pathfinding-behavior
         - Physics Engine (deprecated): physics-behavior
         - Platform behavior: platform-behavior

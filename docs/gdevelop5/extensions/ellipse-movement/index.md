@@ -21,7 +21,7 @@ It can be used for:
 - Making objects float, such as powerups or coins
 - Moving platforms
 - Enemy movement patterns
-- Making a player constantly turn right or left ([open the project online](https://editor.gdevelop.io/?create-from-example=star-seeker))
+- Making a player constantly turn right or left ([open the project online](https://editor.gdevelop.io/?project=example://star-seeker))
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

@@ -12,7 +12,7 @@ This extension allows objects to fire bullets. To use it, add the behavior to th
 The properties of the behavior can be used to customize:
 
 - Cooldown between shots
-- Firing multiple bullets at a time ([open the project online](https://editor.gdevelop.io/?create-from-example=fire-bullet))
+- Firing multiple bullets at a time ([open the project online](https://editor.gdevelop.io/?project=example://fire-bullet))
 - Ammo management
 - Overheat
 
@@ -21,10 +21,10 @@ The bullets are automatically given a permanent force to make them move in the 2
 
 It can be used for:
 
-- Twin-stick shooters ([open the project online](https://editor.gdevelop.io/?create-from-example=conviction-of-gun-dude-desktop))
-- Shoot'em up ([open the project online](https://editor.gdevelop.io/?create-from-example=space-shooter))
+- Twin-stick shooters ([open the project online](https://editor.gdevelop.io/?project=example://conviction-of-gun-dude-desktop))
+- Shoot'em up ([open the project online](https://editor.gdevelop.io/?project=example://space-shooter))
 
-A simple example shows how to make firing patterns ([open the project online](https://editor.gdevelop.io/?create-from-example=firing-patterns)).
+A simple example shows how to make firing patterns ([open the project online](https://editor.gdevelop.io/?project=example://firing-patterns)).
 
 [Read more...](/gdevelop5/extensions/fire-bullet/details)
 

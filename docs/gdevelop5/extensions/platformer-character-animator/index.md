@@ -9,7 +9,7 @@ Change animations and horizontal flipping of a platformer character automaticall
 
 Automatically change the animations and horizontal flipping of an object having the 2D platformer character behavior based on movement and interaction with platform objects.
 
-The platformer example uses this extension ([open the project online](https://editor.gdevelop.io/?create-from-example=platformer)).
+The platformer example uses this extension ([open the project online](https://editor.gdevelop.io/?project=example://platformer)).
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

@@ -9,7 +9,7 @@ Generate noise values for procedural generation.
 
 Noise can be useful for many procedural generation cases such as:
 
-- Terrain, top down or side view ([open the project online](https://editor.gdevelop.io/?create-from-example=marching-squares-island-generator))
+- Terrain, top down or side view ([open the project online](https://editor.gdevelop.io/?project=example://marching-squares-island-generator))
 - Object positioning (tree, stars...)
 - Curves (roads, rivers...)
 - Textures (fog, milky way...)

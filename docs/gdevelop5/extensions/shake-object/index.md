@@ -15,7 +15,7 @@ It can be used for:
 - Object slowly rocking back and forth (like a ship)
 - Simulate engine vibration, earthquake, or pulsing
 
-The top-down RPG example uses this extension for damage animations ([open the project online](https://editor.gdevelop.io/?create-from-example=top-down-rpg)).
+The top-down RPG example uses this extension for damage animations ([open the project online](https://editor.gdevelop.io/?project=example://top-down-rpg)).
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

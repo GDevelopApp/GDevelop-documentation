@@ -11,8 +11,8 @@ Set the depth (Z-order) of the instance to the value of its Y position in the sc
 
 This is useful for:
 
-- isometric games ([open the project online](https://editor.gdevelop.io/?create-from-example=isometric-game))
-- top-down games ([open the project online](https://editor.gdevelop.io/?create-from-example=top-down-grid-movement))
+- isometric games ([open the project online](https://editor.gdevelop.io/?project=example://isometric-game))
+- top-down games ([open the project online](https://editor.gdevelop.io/?project=example://top-down-grid-movement))
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

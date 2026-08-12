@@ -818,9 +818,9 @@ Actions and conditions to store named inventories in memory, with items (indexed
 
 
 
-## Pathfinding (from extension Pathfinding behavior)
+## Pathfinding character (grid-based) (from extension Pathfinding behavior)
 
-Move objects to a target while avoiding all objects that are flagged as obstacles. [Read more explanations about it.](/gdevelop5/behaviors/pathfinding)
+Move objects to a target while avoiding all objects that are flagged as obstacles. Uses a 2D grid-based pathfinding. [Read more explanations about it.](/gdevelop5/behaviors/pathfinding)
 
 | Expression | Description |  |
 |-----|-----|-----|
@@ -832,9 +832,9 @@ Move objects to a target while avoiding all objects that are flagged as obstacle
 | `Object.Pathfinding::DestinationX()` | Destination X position ||
 | `Object.Pathfinding::DestinationY()` | Destination Y position ||
 | `Object.Pathfinding::ExtraBorder()` | Extra border applied the object on the path ||
-| `Object.Pathfinding::GetNodeX(number)` | Get next waypoint X position ||
+| `Object.Pathfinding::GetNodeX(number)` | Get a waypoint X position ||
 | | _🔢 Number_ | Node index (start at 0!) |
-| `Object.Pathfinding::GetNodeY(number)` | Get next waypoint Y position ||
+| `Object.Pathfinding::GetNodeY(number)` | Get a waypoint Y position ||
 | | _🔢 Number_ | Node index (start at 0!) |
 | `Object.Pathfinding::GridOffsetX()` | Return X offset of the virtual grid. ||
 | `Object.Pathfinding::GridOffsetY()` | Return Y offset of the virtual grid. ||
@@ -848,7 +848,7 @@ Move objects to a target while avoiding all objects that are flagged as obstacle
 | `Object.Pathfinding::NodeCount()` | Get the number of waypoints on the path ||
 | `Object.Pathfinding::Speed()` | Speed of the object on the path ||
 
-## Obstacle for pathfinding (from extension Pathfinding behavior)
+## Obstacle for pathfinding (grid-based) (from extension Pathfinding behavior)
 
 Flag objects as being obstacles for pathfinding. [Read more explanations about it.](/gdevelop5/behaviors/pathfinding)
 
@@ -1199,6 +1199,47 @@ Allow the object to be synchronized with other players in the lobby. [Read more 
 | Expression | Description |  |
 |-----|-----|-----|
 | `Object.MultiplayerObject::PlayerObjectOwnership()` | Return the player owning the object. ||
+
+---
+
+
+
+## Pathfinding character (navmesh based) (from extension Navmesh pathfinding)
+
+Move objects to a target by following walkable floors and avoiding obstacles. Uses a flexible 2D/3D "navmesh"-based pathfinding. [Read more explanations about it.](/gdevelop5/behaviors/nav-mesh-pathfinding)
+
+| Expression | Description |  |
+|-----|-----|-----|
+| `Object.NavMeshCharacter::Acceleration()` | Return the acceleration when moving the object. ||
+| `Object.NavMeshCharacter::AngleOffset()` | Return the rotation offset applied when moving the object. ||
+| `Object.NavMeshCharacter::AngularMaxSpeed()` | Return the maximum angular speed when moving the object. ||
+| `Object.NavMeshCharacter::DestinationX()` | Destination X position of the path ||
+| `Object.NavMeshCharacter::DestinationY()` | Destination Y position of the path ||
+| `Object.NavMeshCharacter::DestinationZ()` | Destination Z position of the path ||
+| `Object.NavMeshCharacter::GetNodeX(number)` | Get a waypoint X position ||
+| | _🔢 Number_ | Node index (start at 0!) |
+| `Object.NavMeshCharacter::GetNodeY(number)` | Get a waypoint Y position ||
+| | _🔢 Number_ | Node index (start at 0!) |
+| `Object.NavMeshCharacter::GetNodeZ(number)` | Get a waypoint Z position ||
+| | _🔢 Number_ | Node index (start at 0!) |
+| `Object.NavMeshCharacter::MaxSpeed()` | Return the maximum speed when moving the object. ||
+| `Object.NavMeshCharacter::MovementAngle()` | Angle of movement on its path ||
+| `Object.NavMeshCharacter::NextNodeIndex()` | Get the index of the next waypoint to reach ||
+| `Object.NavMeshCharacter::NextNodeX()` | Get next waypoint X position ||
+| `Object.NavMeshCharacter::NextNodeY()` | Get next waypoint Y position ||
+| `Object.NavMeshCharacter::NextNodeZ()` | Get next waypoint Z position ||
+| `Object.NavMeshCharacter::NodeCount()` | Get the number of waypoints on the path ||
+| `Object.NavMeshCharacter::PreviousNodeX()` | Previous waypoint X position ||
+| `Object.NavMeshCharacter::PreviousNodeY()` | Previous waypoint Y position ||
+| `Object.NavMeshCharacter::PreviousNodeZ()` | Previous waypoint Z position ||
+| `Object.NavMeshCharacter::Speed()` | Return Change the speed of the object on the path. ||
+
+## Floor/obstacle for pathfinding (navmesh based) (from extension Navmesh pathfinding)
+
+Flag objects as being walkable floors and/or obstacles for navmesh pathfinding. [Read more explanations about it.](/gdevelop5/behaviors/nav-mesh-pathfinding)
+
+_No expressions for this behavior._
+
 
 ---
 

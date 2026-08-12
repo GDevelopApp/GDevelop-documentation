@@ -208,7 +208,6 @@ nav:
             - Joint connector: joint-connector
             - 3D jump (deprecated): jump3d
             - Magnetic Effect: magnetic-effect
-            - Navigation mesh pathfinding (experimental): nav-mesh-pathfinding
             - 3D physics airplane: physics-airplane3d
             - Platform ledge grabber: platform-ledge-grabber
             - Point and Orbit: point-and-orbit

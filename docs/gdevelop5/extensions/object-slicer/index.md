@@ -15,7 +15,7 @@ Tips:
 - Adjust the collision mask to control where pieces will be created,
 - Pieces are linked to the original object which can be used in other events (i.e. explode away from the original object)
 
-This example shows how to slice objects: [open the project online](https://editor.gdevelop.io/?create-from-example=object-slicer.json).
+This example shows how to slice objects: [open the project online](https://editor.gdevelop.io/?project=example://object-slicer.json).
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

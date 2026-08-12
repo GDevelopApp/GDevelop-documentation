@@ -9,7 +9,7 @@ Simulates flocks movement.
 
 Simulates swarms or flocks movement following the separation, alignment, cohesion principles. The flock can be attracted to a location or avoid some obstacles.
 
-The [Fish School example](https://editor.gdevelop.io/?create-from-example=fish-school) shows how properties impact on the movement.
+The [Fish School example](https://editor.gdevelop.io/?project=example://fish-school) shows how properties impact on the movement.
 
 [Read more...](/gdevelop5/extensions/boids-movement/details/)
 

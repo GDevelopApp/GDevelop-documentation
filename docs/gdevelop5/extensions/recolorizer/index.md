@@ -20,7 +20,7 @@ It can be used to:
 - Add small color variation to trees of a forest.
 - Restyle objects to match other assets.
 
-An example shows how to change the 2 main colors of an object ([open the project online](https://editor.gdevelop.io/?create-from-example=recolorizer)).
+An example shows how to change the 2 main colors of an object ([open the project online](https://editor.gdevelop.io/?project=example://recolorizer)).
 
 This extension is experimental and might no longer work in future version of GDevelop.
 The [color map effect](https://wiki.gdevelop.io/gdevelop5/interface/scene-editor/layer-effects/#color-map) is the prefered way to recolorize 2D objects.

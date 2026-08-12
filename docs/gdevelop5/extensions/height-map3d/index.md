@@ -17,7 +17,7 @@ A terrain with hills where objects with the 3D physics behavior can stand.
 A terrain can be built from:
 
 - an image file
-- noise function ([open the project online](https://editor.gdevelop.io/?create-from-example=3d-endless-terrain))
+- noise function ([open the project online](https://editor.gdevelop.io/?project=example://3d-endless-terrain))
 
 
 [Read more...](/gdevelop5/extensions/height-map3d/details)

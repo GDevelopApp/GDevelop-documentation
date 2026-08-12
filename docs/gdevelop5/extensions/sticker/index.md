@@ -13,7 +13,7 @@ This extension can be useful to:
 - Animate a skeleton
 - Delete an object with another one
 
-An example allows to check it out ([open the project online](https://editor.gdevelop.io/?create-from-example=stick-objects)).
+An example allows to check it out ([open the project online](https://editor.gdevelop.io/?project=example://stick-objects)).
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

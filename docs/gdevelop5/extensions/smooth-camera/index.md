@@ -10,7 +10,7 @@ Smoothly scroll to follow an object.
 The camera follows an object according to:
 
 - a frame rate independent catch-up speed to make the scrolling from smooth to strong
-- a maximum speed to do linear following ([open the project online](https://editor.gdevelop.io/?create-from-example=platformer-with-tilemap)) or slow down the camera when teleporting the object
+- a maximum speed to do linear following ([open the project online](https://editor.gdevelop.io/?project=example://platformer-with-tilemap)) or slow down the camera when teleporting the object
 - a follow-free zone to avoid scrolling on small movements
 - an offset to see further in one direction
 - an extra delay and catch-up speed to give an impression of speed (useful for dash)

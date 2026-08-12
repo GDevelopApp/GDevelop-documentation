@@ -11,7 +11,7 @@ Reveal a text one letter after the other (a "typewriter" effect).
 
 It can be used for dialogue scenes or visual novels on Text and Bitmap Text objects.
 
-The top-down RPG example uses this extension ([open the project online](https://editor.gdevelop.io/?create-from-example=top-down-rpg)).
+The top-down RPG example uses this extension ([open the project online](https://editor.gdevelop.io/?project=example://top-down-rpg)).
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.

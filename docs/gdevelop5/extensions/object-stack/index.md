@@ -20,9 +20,9 @@ It can be helpful for:
 
 3 examples use it:
 
-* a card system demonstration ([open the project online](https://editor.gdevelop.io/?create-from-example=card-system))
-* a Klondike solitaire ([open the project online](https://editor.gdevelop.io/?create-from-example=klondike-solitaire))
-* a Zuma-like ([open the project online](https://editor.gdevelop.io/?create-from-example=smoothy))
+* a card system demonstration ([open the project online](https://editor.gdevelop.io/?project=example://card-system))
+* a Klondike solitaire ([open the project online](https://editor.gdevelop.io/?project=example://klondike-solitaire))
+* a Zuma-like ([open the project online](https://editor.gdevelop.io/?project=example://smoothy))
 
 !!! tip
     Learn [how to install new extensions](/gdevelop5/extensions/search) by following a step-by-step guide.
