@@ -243,7 +243,8 @@ The **3D renderer world scale** property define how pixels used in the events ar
 
 Extensions that uses Three.js must convert coordinates using `getRenderer3DInverseWorldScale` and `getRenderer3DWorldScale`. GDevelop uses the `scale` of the `THREE.Scene`. It means that world coordinates (`getWorldPosition`) need to be converted but not local ones (`position`).
 
-For instance, some coordinates that need to be converted:
+Here are a few instances of coordinates which need to be converted:
+
 - Camera positions
 - Raycast positions
 - Wold positions (`lookAt`...)
