@@ -72,7 +72,7 @@ This condition checks if the given file or directory exists on the file system.
 This action creates a new folder at the given file path.
 == Parameters ==
 ** Directory: ** The absolute file path to the directory which should be created.
-It is advised to use the expressions for special folders (see below), to keep you game platform independent.
+It is advised to use the expressions for special folders (see below), to keep your game platform independent.
 
 ** (Optional) Result variable: ** Variable to store the result. It can either hold the value 'ok': the task was successful or 'error': an error occurred.
 
@@ -184,7 +184,7 @@ It is advised to use the expressions for special folders (see below) to keep you
 
 ---
 
-####  Delete a file
+####  Delete a file (async)
 This action deletes the file at the given file path __asynchronously__.
 == Parameters ==
 ** File path: ** The path on the file system where the file is located.
@@ -204,6 +204,7 @@ This expression returns the operating system independent path to the _Documents_
 This is the standard folder for storing documents.
 ####  This games executable folder
 This expression returns the operating system independent path to the folder where your game is being executed from.
+There is also a separate "Game executable file" expression that returns the full path to the executable file itself (including its name), which is useful when you need the executable's exact location rather than the containing folder.
 ####  Pictures folder
 This expression returns the operating system independent path to the _Pictures_ folder of the user that runs your game.
 This is the standard folder for storing images.
@@ -213,9 +214,19 @@ This folder is used for temporary files that your operating system can delete at
 ####  Userdata folder
 This expression returns the operating system independent path to the _UserData_ folder of the user that runs your game.
 This folder is used for storing application settings.
+####  User's Home folder
+This expression returns the operating system independent path to the _Home_ folder of the user that runs your game (for example `C:\Users\Name` on Windows or `/home/name` on Linux).
 ####  Path delimiter
 This expression returns the operating system independent path delimiter character. ("\" on Windows and "/" on Linux and macOS).
 Use this expression to build cross-platform file paths that can be accessed on all supported operating systems.
+
+### Reading parts of a path
+
+A few expressions help you extract parts of an existing path without manipulating strings yourself:
+
+- **Get directory name from a path**: returns the directories portion of the path, without the ending file name.
+- **Get file name from a path**: returns the name of the file, including its extension.
+- **Get the extension from a file path**: returns the file extension including the period (for example `.txt`).
 
 ## Example
 In order to save a screenshot to the _Pictures_ directory you could write:
