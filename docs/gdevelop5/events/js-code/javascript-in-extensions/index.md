@@ -235,6 +235,32 @@ For instance, these 3 extensions expose events-based objects:
 
     Most of the previous section about events-based behaviors also applies to events-based objects.
 
+### Handle 3D renderer wold scale
+
+The **3D renderer world scale** property define how pixels used in the events are converted to meters used by Three.js. It allows more realistic physical lightening.
+
+![](world-scale-property.png){ width="376" }
+
+Extensions that uses Three.js must convert coordinates using `getRenderer3DInverseWorldScale` and `getRenderer3DWorldScale`. GDevelop uses the `scale` of the `THREE.Scene`. It means that world coordinates (`getWorldPosition`) need to be converted but not local ones (`position`).
+
+Here are a few instances of coordinates which need to be converted:
+
+- Camera positions
+- Raycast positions
+- Wold positions (`lookAt`...)
+
+Convert a position from the scene to the 3D renderer:
+```JS
+const inverseWorldScale = runtimeScene.getRenderer3DInverseWorldScale ? scene.getRenderer3DInverseWorldScale() : 1;
+const rendererDistance = sceneDistance * inverseWorldScale;
+```
+
+Convert a position from the 3D renderer to the scene:
+```JS
+const worldScale = runtimeScene.getRenderer3DWorldScale ? scene.getRenderer3DWorldScale() : 1;
+const sceneDistance = rendererDistance * worldScale;
+```
+
 ## Use the power of both events and JavaScript
 
 Although GDevelop engine features can be used in JavaScript (learn more about it in the [JavaScript events](/gdevelop5/events/js-code/) page). It's easier to use events for this.
