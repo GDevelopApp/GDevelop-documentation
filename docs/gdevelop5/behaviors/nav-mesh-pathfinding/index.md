@@ -11,7 +11,7 @@ By using the **Floor/obstacle for pathfinding (navmesh based)** [behavior](/gdev
 
 In 3D, characters walk on the flat surfaces of these objects and go around the steep ones. Add the behavior to the floors and platforms where characters must walk, and to the walls and props they must avoid.
 
-In 2D, objects with this behavior are always obstacles. Characters can only move inside the rectangle that contains all of them, so put obstacles around the area where characters can go.
+In 2D, objects with this behavior are always obstacles. Characters can move around them within a walkable area that extends beyond the obstacles, so characters can go around obstacles even when they are not enclosed. If there is no obstacle at all, characters can move freely within an area the size of the game screen.
 
 When the behavior is added to an object, some properties can be modified:
 
