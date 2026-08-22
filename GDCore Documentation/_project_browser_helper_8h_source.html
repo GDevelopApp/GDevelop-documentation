@@ -195,31 +195,36 @@ $(function() {
 <div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_events_based_object.html">gd::EventsBasedObject</a> &amp;eventsBasedObject,</div>
 <div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;      <a class="code" href="classgd_1_1_read_only_arbitrary_events_worker_with_context.html">gd::ReadOnlyArbitraryEventsWorkerWithContext</a> &amp;worker);</div>
 <div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160; </div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> ExposeProjectObjects(<a class="code" href="classgd_1_1_project.html">gd::Project</a> &amp;project,</div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;                                   <a class="code" href="classgd_1_1_arbitrary_objects_worker.html">gd::ArbitraryObjectsWorker</a> &amp;worker);</div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160; </div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> ExposeLayoutObjects(<a class="code" href="classgd_1_1_layout.html">gd::Layout</a> &amp;layout,</div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;                                  <a class="code" href="classgd_1_1_arbitrary_objects_worker.html">gd::ArbitraryObjectsWorker</a> &amp;worker);</div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160; </div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> ExposeEventsFunctionsExtensionObjects(</div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_events_functions_extension.html">gd::EventsFunctionsExtension</a> &amp;eventsFunctionsExtension,</div>
-<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;      <a class="code" href="classgd_1_1_arbitrary_objects_worker.html">gd::ArbitraryObjectsWorker</a> &amp;worker);</div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160; </div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> ExposeEventsBasedObjectVariantObjects(</div>
-<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;      <a class="code" href="classgd_1_1_events_based_object_variant.html">gd::EventsBasedObjectVariant</a> &amp;eventsBasedObjectVariant,</div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;      <a class="code" href="classgd_1_1_arbitrary_objects_worker.html">gd::ArbitraryObjectsWorker</a> &amp;worker);</div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160; </div>
-<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> ExposeProjectFunctions(<a class="code" href="classgd_1_1_project.html">gd::Project</a> &amp;project,</div>
-<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;                                     <a class="code" href="classgd_1_1_arbitrary_events_functions_worker.html">gd::ArbitraryEventsFunctionsWorker</a> &amp;worker);</div>
-<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160; </div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> ExposeProjectEventBasedBehaviors(</div>
-<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;      <a class="code" href="classgd_1_1_project.html">gd::Project</a> &amp;project, <a class="code" href="classgd_1_1_arbitrary_event_based_behaviors_worker.html">gd::ArbitraryEventBasedBehaviorsWorker</a> &amp;worker);</div>
-<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160; </div>
-<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> ExposeProjectSharedDatas(<a class="code" href="classgd_1_1_project.html">gd::Project</a> &amp;project,</div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;                                       <a class="code" href="classgd_1_1_arbitrary_behavior_shared_data_worker.html">gd::ArbitraryBehaviorSharedDataWorker</a> &amp;worker);</div>
-<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;};</div>
-<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160; </div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;} <span class="comment">// namespace gd</span></div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">void</span> ExposeEventsFunctionsExtensionFunctions(</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;        <a class="code" href="classgd_1_1_project.html">gd::Project</a> &amp;project,</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        <a class="code" href="classgd_1_1_events_functions_extension.html">gd::EventsFunctionsExtension</a> &amp;eventsFunctionsExtension,</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;        <a class="code" href="classgd_1_1_arbitrary_events_functions_worker.html">ArbitraryEventsFunctionsWorker</a> &amp;worker);</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160; </div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> ExposeProjectObjects(<a class="code" href="classgd_1_1_project.html">gd::Project</a> &amp;project,</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;                                   <a class="code" href="classgd_1_1_arbitrary_objects_worker.html">gd::ArbitraryObjectsWorker</a> &amp;worker);</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160; </div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> ExposeLayoutObjects(<a class="code" href="classgd_1_1_layout.html">gd::Layout</a> &amp;layout,</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;                                  <a class="code" href="classgd_1_1_arbitrary_objects_worker.html">gd::ArbitraryObjectsWorker</a> &amp;worker);</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160; </div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> ExposeEventsFunctionsExtensionObjects(</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;      <span class="keyword">const</span> <a class="code" href="classgd_1_1_events_functions_extension.html">gd::EventsFunctionsExtension</a> &amp;eventsFunctionsExtension,</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;      <a class="code" href="classgd_1_1_arbitrary_objects_worker.html">gd::ArbitraryObjectsWorker</a> &amp;worker);</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160; </div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> ExposeEventsBasedObjectVariantObjects(</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;      <a class="code" href="classgd_1_1_events_based_object_variant.html">gd::EventsBasedObjectVariant</a> &amp;eventsBasedObjectVariant,</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;      <a class="code" href="classgd_1_1_arbitrary_objects_worker.html">gd::ArbitraryObjectsWorker</a> &amp;worker);</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160; </div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> ExposeProjectFunctions(<a class="code" href="classgd_1_1_project.html">gd::Project</a> &amp;project,</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;                                     <a class="code" href="classgd_1_1_arbitrary_events_functions_worker.html">gd::ArbitraryEventsFunctionsWorker</a> &amp;worker);</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160; </div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> ExposeProjectEventBasedBehaviors(</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;      <a class="code" href="classgd_1_1_project.html">gd::Project</a> &amp;project, <a class="code" href="classgd_1_1_arbitrary_event_based_behaviors_worker.html">gd::ArbitraryEventBasedBehaviorsWorker</a> &amp;worker);</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160; </div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;  <span class="keyword">static</span> <span class="keywordtype">void</span> ExposeProjectSharedDatas(<a class="code" href="classgd_1_1_project.html">gd::Project</a> &amp;project,</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;                                       <a class="code" href="classgd_1_1_arbitrary_behavior_shared_data_worker.html">gd::ArbitraryBehaviorSharedDataWorker</a> &amp;worker);</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;};</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160; </div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;} <span class="comment">// namespace gd</span></div>
 <div class="ttc" id="aclassgd_1_1_arbitrary_behavior_shared_data_worker_html"><div class="ttname"><a href="classgd_1_1_arbitrary_behavior_shared_data_worker.html">gd::ArbitraryBehaviorSharedDataWorker</a></div><div class="ttdoc">ArbitraryBehaviorSharedDataWorker is an abstract class used to browse shared data and do some work on...</div><div class="ttdef"><b>Definition:</b> ArbitraryBehaviorSharedDataWorker.h:29</div></div>
 <div class="ttc" id="aclassgd_1_1_arbitrary_event_based_behaviors_worker_html"><div class="ttname"><a href="classgd_1_1_arbitrary_event_based_behaviors_worker.html">gd::ArbitraryEventBasedBehaviorsWorker</a></div><div class="ttdoc">ArbitraryEventsFunctionsWorker is an abstract class used to browse event-based behaviors and do some ...</div><div class="ttdef"><b>Definition:</b> ArbitraryEventBasedBehaviorsWorker.h:29</div></div>
 <div class="ttc" id="aclassgd_1_1_arbitrary_events_functions_worker_html"><div class="ttname"><a href="classgd_1_1_arbitrary_events_functions_worker.html">gd::ArbitraryEventsFunctionsWorker</a></div><div class="ttdoc">ArbitraryEventsFunctionsWorker is an abstract class used to browse functions signatures and do some w...</div><div class="ttdef"><b>Definition:</b> ArbitraryEventsFunctionsWorker.h:30</div></div>
