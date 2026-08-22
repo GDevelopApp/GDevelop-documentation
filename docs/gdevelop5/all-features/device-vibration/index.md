@@ -31,6 +31,10 @@ This action vibrates the device once by the given value in milliseconds. (numeri
 
 This action vibrates the device in a pattern. Every first value represents the time of vibration, every second the time of silence. Each value must be given in milliseconds as a comma-separated list of numerical values. *Don't forget the quotation marks!*
 
+!!! warning
+
+    The list must contain **only digits and commas** — no spaces or other characters. If the text doesn't match this format exactly (for example `"1000, 500"` with a space), the whole pattern is ignored and nothing happens.
+
 !!! note
 
         **Example:** "1000,500,1000"
