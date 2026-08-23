@@ -92,10 +92,10 @@ Public Member Functions</h2></td></tr>
 const gd::String &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d75/classgdjs_1_1_exporter_helper.html#ada5884debab85a04032d19fcfcbf2eb1">GetLastError</a> () const</td></tr>
 <tr class="memdesc:ada5884debab85a04032d19fcfcbf2eb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the error that occurred during the last export. <br /></td></tr>
 <tr class="separator:ada5884debab85a04032d19fcfcbf2eb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6dc1d8b2f9c8ce0e8047d030cc1fd155"><td class="memItemLeft" align="right" valign="top"><a id="a6dc1d8b2f9c8ce0e8047d030cc1fd155"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d75/classgdjs_1_1_exporter_helper.html#a6dc1d8b2f9c8ce0e8047d030cc1fd155">AddLibsInclude</a> (bool pixiRenderers, bool pixiInThreeRenderers, bool isInGameEdition, bool includeWebsocketDebuggerClient, bool includeWindowMessageDebuggerClient, bool includeMinimalDebuggerClient, bool includeCaptureManager, bool includeInAppTutorialMessage, gd::String gdevelopLogoStyle, std::vector&lt; gd::String &gt; &amp;includesFiles)</td></tr>
-<tr class="memdesc:a6dc1d8b2f9c8ce0e8047d030cc1fd155"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add libraries files to the list of includes. <br /></td></tr>
-<tr class="separator:a6dc1d8b2f9c8ce0e8047d030cc1fd155"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5d02617c931747ee0a2a3d6f767dad9"><td class="memItemLeft" align="right" valign="top"><a id="ac5d02617c931747ee0a2a3d6f767dad9"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d75/classgdjs_1_1_exporter_helper.html#ac5d02617c931747ee0a2a3d6f767dad9">AddLibsInclude</a> (bool pixiRenderers, bool pixiInThreeRenderers, bool isInGameEdition, bool includeWebsocketDebuggerClient, bool includeWindowMessageDebuggerClient, bool includeMinimalDebuggerClient, bool includeCaptureManager, bool includeInAppTutorialMessage, gd::String gdevelopLogoStyle, std::vector&lt; gd::String &gt; &amp;includesFiles, std::vector&lt; gd::String &gt; &amp;resourcesFiles)</td></tr>
+<tr class="memdesc:ac5d02617c931747ee0a2a3d6f767dad9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add libraries files to the list of includes, and the files they need at runtime to the list of resources files (these are copied next to the game, but not included with a script tag). <br /></td></tr>
+<tr class="separator:ac5d02617c931747ee0a2a3d6f767dad9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9c3e532316e5b6166c125b3f4a106ba"><td class="memItemLeft" align="right" valign="top"><a id="ab9c3e532316e5b6166c125b3f4a106ba"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d75/classgdjs_1_1_exporter_helper.html#ab9c3e532316e5b6166c125b3f4a106ba">RemoveIncludes</a> (bool pixiRenderers, std::vector&lt; gd::String &gt; &amp;includesFiles)</td></tr>
 <tr class="memdesc:ab9c3e532316e5b6166c125b3f4a106ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove include files that are Pixi renderers. <br /></td></tr>
@@ -158,6 +158,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:acbc4225a9c41020047144097e1e77ac5"><td class="memItemLeft" align="right" valign="top">static gd::String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d75/classgdjs_1_1_exporter_helper.html#acbc4225a9c41020047144097e1e77ac5">GetExportedIncludeFilename</a> (gd::AbstractFileSystem &amp;<a class="el" href="../../d0/d75/classgdjs_1_1_exporter_helper.html#ae3ea0beee067920c17974e07bc10cdc9">fs</a>, const gd::String &amp;<a class="el" href="../../d0/d75/classgdjs_1_1_exporter_helper.html#a5268f75d557814e69a2bc2202d9037d2">gdjsRoot</a>, const gd::String &amp;include, unsigned int nonRuntimeScriptsCacheBurst=0)</td></tr>
 <tr class="memdesc:acbc4225a9c41020047144097e1e77ac5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Given an include file, returns the name of the file to reference in the exported game.  <a href="../../d0/d75/classgdjs_1_1_exporter_helper.html#acbc4225a9c41020047144097e1e77ac5">More...</a><br /></td></tr>
 <tr class="separator:acbc4225a9c41020047144097e1e77ac5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72e78555d25f60ae3af179db41bf0957"><td class="memItemLeft" align="right" valign="top">static gd::String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d75/classgdjs_1_1_exporter_helper.html#a72e78555d25f60ae3af179db41bf0957">GetExportedRuntimeFilesBaseUrl</a> (gd::AbstractFileSystem &amp;<a class="el" href="../../d0/d75/classgdjs_1_1_exporter_helper.html#ae3ea0beee067920c17974e07bc10cdc9">fs</a>, const gd::String &amp;<a class="el" href="../../d0/d75/classgdjs_1_1_exporter_helper.html#a5268f75d557814e69a2bc2202d9037d2">gdjsRoot</a>)</td></tr>
+<tr class="memdesc:a72e78555d25f60ae3af179db41bf0957"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the base URL (or relative path) from which the game engine files are served in the exported game or preview.  <a href="../../d0/d75/classgdjs_1_1_exporter_helper.html#a72e78555d25f60ae3af179db41bf0957">More...</a><br /></td></tr>
+<tr class="separator:a72e78555d25f60ae3af179db41bf0957"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e5b5a1c98719015095e7d5ecef19885"><td class="memItemLeft" align="right" valign="top"><a id="a1e5b5a1c98719015095e7d5ecef19885"></a>
 static void&#160;</td><td class="memItemRight" valign="bottom"><b>AddDeprecatedFontFilesToFontResources</b> (gd::AbstractFileSystem &amp;<a class="el" href="../../d0/d75/classgdjs_1_1_exporter_helper.html#ae3ea0beee067920c17974e07bc10cdc9">fs</a>, gd::ResourcesContainer &amp;resourcesManager, const gd::String &amp;exportDir, gd::String urlPrefix=&quot;&quot;)</td></tr>
 <tr class="separator:a1e5b5a1c98719015095e7d5ecef19885"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -845,6 +848,52 @@ gd::String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
 </div><div class="memdoc">
 
 <p>Given an include file, returns the name of the file to reference in the exported game. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">fs</td><td>The abstract file system to use </td></tr>
+    <tr><td class="paramname">gdjsRoot</td><td>The root directory of GDJS, used to copy runtime files. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a72e78555d25f60ae3af179db41bf0957"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72e78555d25f60ae3af179db41bf0957">&#9670;&nbsp;</a></span>GetExportedRuntimeFilesBaseUrl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">gd::String gdjs::ExporterHelper::GetExportedRuntimeFilesBaseUrl </td>
+          <td>(</td>
+          <td class="paramtype">gd::AbstractFileSystem &amp;&#160;</td>
+          <td class="paramname"><em>fs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const gd::String &amp;&#160;</td>
+          <td class="paramname"><em>gdjsRoot</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the base URL (or relative path) from which the game engine files are served in the exported game or preview. </p>
+<p>Most of the time, they are copied next to the game index.html (in which case this is "./"), but some previews serve them from a server.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">fs</td><td>The abstract file system to use </td></tr>
