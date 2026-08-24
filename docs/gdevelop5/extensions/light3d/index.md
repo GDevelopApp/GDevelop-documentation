@@ -17,7 +17,7 @@ A collection of light object for 3D.
 ## Actions
 
 **Max lights count**  
-Change the maximum number of nearest lights displayed simultaneously.
+Change the maximum number of nearest lights displayed simultaneously, counted separately for each kind of light (point lights, spot lights, spot lights projecting a texture). Devices that can't take that many lights enforce a lower limit.
 
 ??? quote "See parameters & details"
 
@@ -29,7 +29,7 @@ Change the maximum number of nearest lights displayed simultaneously.
     > Technical note: this action internal type (in GDevelop JSON) is `Light3D::SetLightCountMax`.
 
 **Max lights with shadow count**  
-Change the maximum number of nearest lights displayed with shadow simultaneously.
+Change the maximum number of nearest lights displayed with shadow simultaneously, counted separately for each kind of light (point lights, spot lights, spot lights projecting a texture). Devices that can't take that many shadows enforce a lower limit.
 
 ??? quote "See parameters & details"
 
@@ -44,7 +44,7 @@ Change the maximum number of nearest lights displayed with shadow simultaneously
 ## Conditions
 
 **Max lights count**  
-Compare the maximum number of nearest lights displayed simultaneously.
+Compare the maximum number of nearest lights displayed simultaneously, counted separately for each kind of light (point lights, spot lights, spot lights projecting a texture). Devices that can't take that many lights enforce a lower limit.
 
 ??? quote "See parameters & details"
 
@@ -56,7 +56,7 @@ Compare the maximum number of nearest lights displayed simultaneously.
     > Technical note: this condition internal type (in GDevelop JSON) is `Light3D::LightCountMax`.
 
 **Max lights with shadow count**  
-Compare the maximum number of nearest lights displayed with shadow simultaneously.
+Compare the maximum number of nearest lights displayed with shadow simultaneously, counted separately for each kind of light (point lights, spot lights, spot lights projecting a texture). Devices that can't take that many shadows enforce a lower limit.
 
 ??? quote "See parameters & details"
 
@@ -72,8 +72,8 @@ Compare the maximum number of nearest lights displayed with shadow simultaneousl
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Light3D::LightCountMax()` | Return the maximum number of nearest lights displayed simultaneously. ||
-| `Light3D::LightShadowCountMax()` | Return the maximum number of nearest lights displayed with shadow simultaneously. ||
+| `Light3D::LightCountMax()` | Return the maximum number of nearest lights displayed simultaneously, counted separately for each kind of light (point lights, spot lights, spot lights projecting a texture). Devices that can't take that many lights enforce a lower limit. ||
+| `Light3D::LightShadowCountMax()` | Return the maximum number of nearest lights displayed with shadow simultaneously, counted separately for each kind of light (point lights, spot lights, spot lights projecting a texture). Devices that can't take that many shadows enforce a lower limit. ||
 
 ## 3D point light 
 
