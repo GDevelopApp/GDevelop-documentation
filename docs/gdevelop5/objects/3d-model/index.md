@@ -113,6 +113,8 @@ Large 3D models can impact your game as they will have:
 
     We recommend you start building a game using *"low-poly"* 3D models.
 
+GDevelop also supports GLB files compressed with **Draco**, which greatly reduces the file size of models with a lot of geometry. If your 3D modeling tool can export with Draco compression, you can use it to keep your game smaller and faster to download.
+
 ## How to find or create 3D models?
 
 !!! tip
