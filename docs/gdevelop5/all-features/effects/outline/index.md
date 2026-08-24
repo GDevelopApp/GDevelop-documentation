@@ -4,6 +4,14 @@ Add an outline on all objects of the layer having the effect.  **This won't work
 
 ![](outline-effect.png)
 
+## Properties
+
+Use **Thickness** to set the width of the outline and **Color of the outline** to set its color.
+
+!!! note
+
+    If a thick outline looks cut off at the edges of the object, increase the **Padding** property to enlarge the area in which the effect is drawn.
+
 
 ## Reference
 
