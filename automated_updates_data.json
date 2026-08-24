@@ -104,6 +104,10 @@
     {
       "date": "2026-07-07",
       "summary": "Improved keyboard docs: added 'Key just pressed' (held vs one-frame) and 'Any key released' conditions, control-remapping note, and a reference list of valid key names"
+    },
+    {
+      "date": "2026-08-21",
+      "summary": "Improved File system docs: documented Read a directory action, the Normalize file content option, added missing expressions (executable file, user home, directory/file/extension name), and fixed duplicate Delete a file heading"
     }
   ]
 }

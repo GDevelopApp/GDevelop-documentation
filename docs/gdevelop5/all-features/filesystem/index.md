@@ -184,13 +184,26 @@ It is advised to use the expressions for special folders (see below) to keep you
 
 ---
 
-####  Delete a file
+####  Delete a file (async)
 This action deletes the file at the given file path __asynchronously__.
 == Parameters ==
 ** File path: ** The path on the file system where the file is located.
 It is advised to use the expressions for special folders (see below) to keep your game platform independent.
 
 ** (Optional) Result variable: ** Variable to store the result. It can either hold the value 'ok': the task was successful or 'error': an error occurred. The variable will be updated, at the moment the file operation has finished.
+
+---
+
+####  Read a directory
+This action reads the contents of a directory (all files and sub-directories) and stores them in a variable __asynchronously__.
+== Parameters ==
+** Directory path: ** The absolute path to the directory to read.
+
+** (Optional) Variable to store the result: ** The variable is set to 'error' if an error occurred, otherwise it is filled with an array containing the names of all files and sub-directories found in the directory. Combine this with [array manipulation](/gdevelop5/all-features/variables/structures-and-arrays) or a "For each child" event to list the content of a folder.
+
+!!! note
+
+    When loading a text or JSON file, an optional **Normalize the file content** parameter is available (enabled by default). It replaces Windows-style new line characters ("CRLF") with a single new line character, so text read from a file behaves consistently on all operating systems.
 
 ## Expressions
 These expressions return the path to special folders on the users' operating system. If you use these expressions for loading and saving files it will be guaranteed to work on all supported operating systems. (Currently Windows, Linux, and macOS)
@@ -204,6 +217,8 @@ This expression returns the operating system independent path to the _Documents_
 This is the standard folder for storing documents.
 ####  This games executable folder
 This expression returns the operating system independent path to the folder where your game is being executed from.
+####  Game executable file
+This expression returns the operating system independent path to the game executable file itself (including its file name).
 ####  Pictures folder
 This expression returns the operating system independent path to the _Pictures_ folder of the user that runs your game.
 This is the standard folder for storing images.
@@ -213,9 +228,20 @@ This folder is used for temporary files that your operating system can delete at
 ####  Userdata folder
 This expression returns the operating system independent path to the _UserData_ folder of the user that runs your game.
 This folder is used for storing application settings.
+####  User home folder
+This expression returns the operating system independent path to the home folder of the user that runs your game.
 ####  Path delimiter
 This expression returns the operating system independent path delimiter character. ("\" on Windows and "/" on Linux and macOS).
 Use this expression to build cross-platform file paths that can be accessed on all supported operating systems.
+
+The following expressions help you extract parts of an existing path:
+
+####  Get directory name from a path
+This expression returns the folder path of a file (everything except the file name itself).
+####  Get file name from a path
+This expression returns the name of the file (with its extension, if any).
+####  Get the extension from a file path
+This expression returns the extension of a file (for example `.png`), including the leading dot.
 
 ## Example
 In order to save a screenshot to the _Pictures_ directory you could write:
