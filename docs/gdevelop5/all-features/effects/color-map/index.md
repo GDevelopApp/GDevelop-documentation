@@ -22,6 +22,8 @@ Try some ready-to-use color maps
 - color-map-model-2.png : ![](color-map-model-2.png)
 - color-map-model-3.png : ![](color-map-model-3.png)
 
+The **Mix** parameter (in percent) sets how strongly the color map is applied: lower it to blend the original colors with the mapped ones, which is convenient to fade the effect in and out during the game.
+
 
 ## Reference
 
