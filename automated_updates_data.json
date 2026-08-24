@@ -104,6 +104,10 @@
     {
       "date": "2026-07-07",
       "summary": "Improved keyboard docs: added 'Key just pressed' (held vs one-frame) and 'Any key released' conditions, control-remapping note, and a reference list of valid key names"
+    },
+    {
+      "date": "2026-08-20",
+      "summary": "Expanded Steamworks docs: added desktop-only/Steam-running caveat and 'Is Steamworks loaded' guidance, plus use-case sections for achievements, rich presence, Cloud saves, lobbies, Workshop, and ownership/DLC checks"
     }
   ]
 }
