@@ -104,6 +104,10 @@
     {
       "date": "2026-07-07",
       "summary": "Improved keyboard docs: added 'Key just pressed' (held vs one-frame) and 'Any key released' conditions, control-remapping note, and a reference list of valid key names"
+    },
+    {
+      "date": "2026-08-22",
+      "summary": "Improved screenshot docs (desktop-only limitation, automatic .png extension, captured content) and device-vibration docs (pattern must be digits/commas only)"
     }
   ]
 }
