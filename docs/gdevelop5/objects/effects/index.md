@@ -27,6 +27,10 @@ The window now shows the parameters for the effect - these parameters depends on
 
 You can let the default parameters or change them now.
 
+!!! note
+
+    The list of available effects depends on the object: 3D objects show 3D effects, while 2D objects (Sprite, Text, Tiled Sprite...) show 2D effects like Blur, Outline, CRT or Drop shadow. A few effects (such as Radial blur, Twist and Zoom blur) can only be applied to a [layer](/gdevelop5/interface/scene-editor/layer-effects), not directly to an object.
+
 ## Try the game with the effect
 
 Launch a preview to see the effect applied. The effect is applied on all the instances of the object you edited.
