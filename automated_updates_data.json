@@ -104,6 +104,10 @@
     {
       "date": "2026-07-07",
       "summary": "Improved keyboard docs: added 'Key just pressed' (held vs one-frame) and 'Any key released' conditions, control-remapping note, and a reference list of valid key names"
+    },
+    {
+      "date": "2026-08-08",
+      "summary": "Improved file system docs (added Read a directory action, normalize option, and executable-file/home/directory/file-name/extension expressions) and screenshot docs (platform limitation and automatic .png extension)"
     }
   ]
 }
