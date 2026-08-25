@@ -47,6 +47,15 @@ You can use events to manipulate the scale and positioning of tiled sprite objec
 
 ![](/gdevelop5/objects/ChangeOffsetActions.png)
 
+For a continuously scrolling background, increase the *Image X Offset* (or *Image Y Offset*) a little on every frame — for example by adding a value multiplied by `TimeDelta()` so the speed stays consistent regardless of the frame rate. The offset wraps around automatically as the image repeats.
+
+####  Tint and change the image
+
+Two other actions can be useful at runtime:
+
+* **Tint color** multiplies the image by a color (the default white leaves the image unchanged), which is handy to flash the object or recolor a repeating texture without a separate image.
+* **Image** replaces the displayed image with another one from your project's resources, letting you reuse a single object for several repeating textures.
+
 ## Examples
 
 !!! tip
