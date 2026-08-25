@@ -109,6 +109,10 @@ You can change the colour of **comments** and **event group** by right-clicking 
 
 ![](/gdevelop5/interface/events-editor/pasted/20230313-183427.png)
 
+## Color parameters
+
+Conditions and actions that take a color show a small color swatch next to the value directly in the event sheet, so you can see the color at a glance. Clicking the swatch opens a color picker, letting you choose a new color without having to open the full parameter editor.
+
 ## Select events
 
 You can select multiple events by holding **Shift** or **Ctrl** while clicking. To select every event in the current sheet at once, use **Select All** (available from the Edit menu and the command palette). Clicking on an already-selected event while a multi-selection is active will deselect that single event.
