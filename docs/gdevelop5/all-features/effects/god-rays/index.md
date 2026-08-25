@@ -4,6 +4,8 @@ Cast rays of light from the top of the screen. **This won't work well if shown o
 
 ![](godray-effect.gif)
 
+Set the **Center X**/**Center Y** to position the light source and the **Angle** to tilt the rays. Disable **Parallel** to make the rays radiate outward from the center point (like sunbeams from a single spot) instead of falling as parallel beams. The rays shimmer over time; use the **Animation Speed** to control this (0 pauses the animation).
+
 
 ## Reference
 
