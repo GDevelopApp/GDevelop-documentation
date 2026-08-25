@@ -106,6 +106,23 @@ For this, insert the action to enable the test mode at the beginning of your gam
 
 ![](/gdevelop5/all-features/admob/pasted/20210131-221920.png)
 
+## Knowing when an ad is ready
+
+App opens, interstitials and rewarded ads must be **loaded before they can be shown**. Loading takes some time, so trying to show an ad the very moment you loaded it usually does nothing. The AdMob category provides conditions to follow the state of each ad type, for example:
+
+  * **... loading**: the ad is currently being fetched.
+  * **... ready**: the ad is fully loaded and can be shown.
+  * **... showing**: the ad is currently displayed on screen.
+  * **... had an error**: the last loading attempt failed (for instance because of a network issue or an invalid ad unit id).
+
+A robust approach is to load the ad in advance (for example at the start of a level), then only trigger the *Show* action once the matching *ready* condition is true. You can also enable the "display automatically when loaded" option of the *Load* action so the ad is shown as soon as it becomes ready.
+
+## Rewarding the player after a rewarded ad
+
+Rewarded videos and rewarded interstitials are meant to give the player something (extra coins, a second life, etc.) in exchange for watching the ad. To grant the reward only when the player actually watched it, use the **Rewarded video reward received** (or **Rewarded interstitial reward received**) condition and give the reward inside that event.
+
+This condition stays true until the reward is *cleared*. Clearing it is required before a new rewarded ad can grant a reward. You can either let the condition clear the reward automatically (its parameter), or keep it and clear it later with the **Mark the reward as claimed** action — useful if several events need to react to the same reward before it is consumed.
+
 ## Testing and publishing your game on Android or iOS
 
 You must first build your game for Android or iOS to have the ads displayed on your device. See **[the page about Android](/gdevelop5/publishing/android) and [iOS publishing](/gdevelop5/publishing/ios)**.
