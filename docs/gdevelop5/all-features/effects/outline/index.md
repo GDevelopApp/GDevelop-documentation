@@ -4,6 +4,8 @@ Add an outline on all objects of the layer having the effect.  **This won't work
 
 ![](outline-effect.png)
 
+Set the **Thickness** and the **Color** of the outline. When the effect is applied to a single object, this is a common way to highlight it — for example the currently selected item or an interactive object the player can click.
+
 
 ## Reference
 
