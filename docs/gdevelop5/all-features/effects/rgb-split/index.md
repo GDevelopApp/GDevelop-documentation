@@ -4,6 +4,8 @@ Separate each component's RGB(red, green, blue) colors and display them on the s
 
 ![](rgb-effect.png)
 
+Each color channel has its own **X offset** and **Y offset**, letting you shift the red, green and blue layers in different directions. Small offsets give a subtle chromatic aberration around edges, while larger ones produce a strong glitch or damage look.
+
 
 ## Reference
 
