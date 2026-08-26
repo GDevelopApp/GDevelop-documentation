@@ -104,4 +104,68 @@ However, variants can differ in how they use these child objects:
 - Each variant can configure child objects differently (different images, sizes, colors, etc.)
 - Each variant can position the instances of child objects differently
 
-For example, if you have a dialog custom object with an optional "icon" child object, you should add the icon object in the main variant. Then, variants that need an icon can include an instance of it, while variants that don't need an icon simply don't place any instance of it.
+For instance, if you have a dialog custom object with an optional "icon" child object, you should add the icon object in the main variant. Then, variants that need an icon can include an instance of it, while variants that don't need an icon simply don't place any instance of it.
+
+The [game over dialog](/gdevelop5/extensions/leaderboard-dialog) is a good example for this. It has several optional child-objects:
+
+- Its `Decoration` child-object has a [tween into view]() behavior that allows fade in and out animations.
+- A `Medal` child-object where users can choose the animation with an action.
+- Several optional buttons, for instance a button to submit a score to a leaderboard.
+- For text, users can choose between [bitmap text](/gdevelop5/objects/bitmap_text) objects for pixel-art variants or [text](docs/gdevelop5/objects/text) objects for variants with smooth art (for instance `BitmapScoreLabel` and `ScoreLabel`).
+
+TODO: screenshots of the scull dialog
+
+TODO: screenshots of the tappy plane one (because it has a medal)
+
+### Add custom logic to variants
+
+You can't directly add logic to a variant, but you can create a new custom object that contains the existing custom object.
+
+The steps to create this custom object are the same as the ones detailed in the following section.
+
+### Use several custom objects as the same
+
+Sometimes objects which fill the same purpose are too much different to be the same object type because they require different logic and properties.
+
+This is the case for [Resource bar (continuous)](gdevelop5/extensions/panel-sprite-continuous-bar) and [resource bar (separated units)](/gdevelop5/extensions/tiled-units-bar) objects. In the following project example, an intermediate custom object is implemented to use the 2 kinds of bar.
+
+Creating a intermediate custom object allows to:
+- Use the 2 kind of bars in groups as if they were the same object type.
+- Switch between the 2 kinds of bars by choosing a different variant for the object.
+- Add new kinds of bar without having to change the main events.
+
+**Indirection custom object**
+
+[Open example in GDevelop](https://editor.gdevelop.io/?create-from-example=indirection-custom-object){ .md-button .md-button--primary }
+
+[![](indirection-custom-object.png){ width="320" }](https://editor.gdevelop.io/?create-from-example=indirection-custom-object)
+
+You can do the same with your own custom objects by following these steps:
+
+- Create a new custom object
+
+TODO: screenshot
+
+- Add the custom objects you want to use a child-objects
+
+TODO: screenshot
+
+- Generate functions from one of the custom object
+
+TODO: screenshot
+
+- Modify the generated functions to use all the child-objects
+
+TODO: screenshot
+
+- Remove the functions that are not shared by all the child-objects
+- Copy-paste all properties from one of the child-object
+
+TODO: screenshot
+
+- Remove properties that are not shared by all the child-objects
+- Add an hidden function to refresh the custom object properties
+
+TODO: screenshot
+
+- Call this function from `onCreated` and `onHotReloading`
