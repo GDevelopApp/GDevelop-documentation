@@ -21,6 +21,12 @@ The save path needs to be an absolute path on the file system (Like "C:\MyFolder
 
 Relative paths are not supported.
 
+If the save path does not already end with `.png`, the extension is added automatically.
+
+!!! warning
+
+    Taking a screenshot only works when the game runs on Windows, Linux or macOS. On web and mobile exports the action does nothing.
+
 !!! note
 
     In order to create a game that runs on all supported platforms you should use the special folders from the file system extension in combination with the path separator. These determine the path to common folders like *Pictures*, *Documents* or *Desktop* automatically. You can read more about it in [this article](/gdevelop5/all-features/filesystem).
