@@ -4,6 +4,8 @@ Cast rays of light from the top of the screen. **This won't work well if shown o
 
 ![](godray-effect.gif)
 
+Use the **Center X** and **Center Y** properties to choose where the rays come from. Enable **Parallel** to make the rays travel in the same direction (like distant sunlight) instead of spreading out from that point. The rays are animated: set the **Animation speed** to `0` to freeze them.
+
 
 ## Reference
 
