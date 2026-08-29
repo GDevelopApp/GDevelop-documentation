@@ -104,6 +104,10 @@
     {
       "date": "2026-07-07",
       "summary": "Improved keyboard docs: added 'Key just pressed' (held vs one-frame) and 'Any key released' conditions, control-remapping note, and a reference list of valid key names"
+    },
+    {
+      "date": "2026-08-29",
+      "summary": "Improved File system docs: documented missing expressions (User's Home folder, Game executable file, and DirectoryName/FileName/ExtensionName path-parsing) and clarified the async Delete a file action"
     }
   ]
 }
