@@ -184,7 +184,7 @@ It is advised to use the expressions for special folders (see below) to keep you
 
 ---
 
-####  Delete a file
+####  Delete a file (async)
 This action deletes the file at the given file path __asynchronously__.
 == Parameters ==
 ** File path: ** The path on the file system where the file is located.
@@ -204,6 +204,10 @@ This expression returns the operating system independent path to the _Documents_
 This is the standard folder for storing documents.
 ####  This games executable folder
 This expression returns the operating system independent path to the folder where your game is being executed from.
+####  Game executable file
+This expression returns the path to the game executable file itself (not just its folder).
+####  User's Home folder
+This expression returns the operating system independent path to the current user's _home_ folder (for example `C:\Users\Name` on Windows).
 ####  Pictures folder
 This expression returns the operating system independent path to the _Pictures_ folder of the user that runs your game.
 This is the standard folder for storing images.
@@ -216,6 +220,15 @@ This folder is used for storing application settings.
 ####  Path delimiter
 This expression returns the operating system independent path delimiter character. ("\" on Windows and "/" on Linux and macOS).
 Use this expression to build cross-platform file paths that can be accessed on all supported operating systems.
+
+These expressions extract parts of a file path (they take a path as their parameter and return a piece of it):
+
+####  Get directory name from a path
+This expression returns the directories portion of a path, without the ending file name.
+####  Get file name from a path
+This expression returns the name of the file with its extension, if any.
+####  Get the extension from a file path
+This expression returns the extension of the file designated by the given path, including the leading period (for example `.txt`).
 
 ## Example
 In order to save a screenshot to the _Pictures_ directory you could write:
