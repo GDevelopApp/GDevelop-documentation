@@ -34,6 +34,8 @@ The light texture property allows you to create a custom shape for the light. Wi
 
 By providing a texture image, you can control the shape and pattern of the light. For instance, a flashlight effect can be achieved by using a cone-shaped texture.
 
+The texture follows the object's angle, so you can rotate the light object to aim a directional texture (like a flashlight cone) wherever you need.
+
 | ![The light texture used in the object.](Cone_Light.png) | ![The result of a light texture in game](result_light_texture.png) |
 |---|---|
 | The light texture used in the object. | The result in game. |
