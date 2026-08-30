@@ -1,4 +1,8 @@
----
+juego normal 
+-y quiero ganar 
+dinero porfavor ayúdenme
+tengo ami abuelos enfermos 
+
 title: Setup
 ---
 # In App Purchases (IAP) (experimental)
