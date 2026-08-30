@@ -104,4 +104,21 @@ However, variants can differ in how they use these child objects:
 - Each variant can configure child objects differently (different images, sizes, colors, etc.)
 - Each variant can position the instances of child objects differently
 
-For example, if you have a dialog custom object with an optional "icon" child object, you should add the icon object in the main variant. Then, variants that need an icon can include an instance of it, while variants that don't need an icon simply don't place any instance of it.
+For instance, if you have a dialog custom object with an optional "icon" child object, you should add the icon object in the main variant. Then, variants that need an icon can include an instance of it, while variants that don't need an icon simply don't place any instance of it.
+
+The [game over dialog](/gdevelop5/extensions/leaderboard-dialog) is a good example for this. It has several optional child-objects:
+
+- Its `Decoration` child-object has a [tween into view]() behavior that allows fade in and out animations.
+- A `Medal` child-object where users can choose the animation with an action.
+- Several optional buttons, for instance a button to submit a score to a leaderboard.
+- For text, users can choose between [bitmap text](/gdevelop5/objects/bitmap_text) objects for pixel-art variants or [text](docs/gdevelop5/objects/text) objects for variants with smooth art (for instance `BitmapScoreLabel` and `ScoreLabel`).
+
+TODO: screenshots of the scull dialog
+
+TODO: screenshots of the tappy plane one (because it has a medal)
+
+### Add custom logic to variants
+
+Sometimes objects which fill the same purpose are too much different to be the same object type because they require different logic and properties.
+
+This is the case for [Resource bar (continuous)](gdevelop5/extensions/panel-sprite-continuous-bar) and [resource bar (separated units)](/gdevelop5/extensions/tiled-units-bar) objects.
