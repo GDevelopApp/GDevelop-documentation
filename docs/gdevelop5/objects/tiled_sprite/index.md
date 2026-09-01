@@ -47,6 +47,16 @@ You can use events to manipulate the scale and positioning of tiled sprite objec
 
 ![](/gdevelop5/objects/ChangeOffsetActions.png)
 
+By continuously increasing the **Image X Offset** or **Image Y Offset** in the events, the tile pattern appears to scroll inside the object — a common way to create a moving background without repositioning the object itself.
+
+####  Change the appearance
+
+A few actions let you change how a tiled sprite looks while the game runs:
+
+- **Tint color**: multiplies the image by a color (the default, white, leaves the image unchanged). Useful for damage flashes, day/night tinting or reusing the same tileset with different colors.
+- **Opacity**: makes the object more or less transparent (from 0 for fully invisible to 255 for fully opaque).
+- **Image**: swaps the displayed image for another resource, for example to change a wall or background texture at runtime.
+
 ## Examples
 
 !!! tip
