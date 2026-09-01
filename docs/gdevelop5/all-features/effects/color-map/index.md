@@ -11,7 +11,7 @@ Create your own color map
   - Download the reference color map image:
     ![](color-map-original-template.png)
   - Use an image editor (like [GIMP](https://www.gimp.org) or Photoshop) to tweak the color the reference color image map with some filters. For instance, you can use GIMP [Rotate Colors](https://docs.gimp.org/3.0/en/gimp-filter-color-rotate.html) filter.
-      - Try some filters on your assets first to get an dea of the end result
+      - Try some filters on your assets first to get an idea of the end result
       - Once you found the right settings, apply the same filters to the reference color map image.
       - Save it as a new file
   - Use this new image as the color image map for the effect in GDevelop.
