@@ -3,7 +3,7 @@ title: Tiled Sprite
 ---
 # Tiled Sprite
 
-A tiled sprite [object](/gdevelop5/objects) allows us to use repeating images in our games. increasing the width or height of the object will cause it repeat it's image, rather than stretching the image like a normal sprite object.
+A tiled sprite [object](/gdevelop5/objects) allows us to use repeating images in our games. Increasing the width or height of the object will cause it to repeat its image, rather than stretching the image like a normal sprite object.
 
 A tiled sprite object can be used to create platforms in a platform game, health bars, status bars, repeating wall tiles, repeating backgrounds, etc.
 
@@ -21,7 +21,7 @@ After creating the object or adding it to your game from the asset store, you ca
 
 ####  Add an image
 
-With the object's properties window open, you can add an image to the object by clicking in to the "Select an image" text field. From the drop down menu that appears you can chose where the image will come from. Chose the source of the image, and select the image you want to add. The selected image will be displayed in the preview window on the left.
+With the object's properties window open, you can add an image to the object by clicking in to the "Select an image" text field. From the drop down menu that appears you can choose where the image will come from. Choose the source of the image, and select the image you want to add. The selected image will be displayed in the preview window on the left.
 
 ![](AddImageToTiledSprite.png)
 
@@ -35,7 +35,7 @@ This will not scale or alter the original image in any way, just the default siz
 
 ####  Scale the object
 
-The size of the tiled sprite effects how much of your image is going to be visible in your game. If the image used in the tiled sprite object is larger than the size it's scaled to in scene, only a portion of the image will be visible.
+The size of the tiled sprite affects how much of your image is going to be visible in your game. If the image used in the tiled sprite object is larger than the size it's scaled to in scene, only a portion of the image will be visible.
 
 ![](tiled-sprite-3232.png)
 
@@ -43,9 +43,13 @@ If the object is scaled to be larger in pixels than the image used, then the obj
 
 ![](tiled-sprite-100100.png)
 
-You can use events to manipulate the scale and positioning of tiled sprite object, but there are actions unique to tiled sprites. Offsets, which allow a user to scroll through a tiled sprite image without changing it's position. This is often used for scrolling backgrounds, and similar effects.
+You can use events to manipulate the scale and positioning of a tiled sprite object like any other object, but there are also actions unique to tiled sprites: the **Image X Offset** and **Image Y Offset** actions.
+
+The offset scrolls the repeating image *inside* the object without moving the object itself. Because the image is tiled, the pattern wraps around seamlessly as the offset increases, which makes this the usual way to create scrolling backgrounds, moving conveyor belts, flowing water and similar effects. For example, gradually increasing the X offset every frame makes the image scroll horizontally forever, no matter how large the offset gets.
 
 ![](/gdevelop5/objects/ChangeOffsetActions.png)
+
+You can also swap the displayed image at runtime with the **Image** action ("Change the image of a Tiled Sprite"), which is useful for reusing a single object with different textures.
 
 ## Examples
 
