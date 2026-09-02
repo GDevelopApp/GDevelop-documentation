@@ -5,12 +5,12 @@ Allows to save and load the full state of a game, usually on the device storage.
 ## Actions
 
 **Check if a save exists in device storage**  
-Check if a save with the given name exists in the device storage, and store the result (yes/no) in a variable. The check is asynchronous: use the condition "Save existence check completed" to know when the result is available.
+Check if a save with the given name exists in the device storage, and store the result (true/false) in a variable. The check is asynchronous: use the condition "Save existence check completed" to know when the result is available.
 
 ??? quote "See parameters & details"
 
     - Parameter 1 (🔤 String): Storage name of the save to check
-    - Parameter 2 (🗄️ Any variable): Variable where to store the result (yes/no)
+    - Parameter 2 (🗄️ Any variable): Variable where to store the result (true/false)
 
     > Technical note: parameter 0 is an internal parameter handled by GDevelop.
 
