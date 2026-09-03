@@ -1255,7 +1255,9 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get behaviors of an object/group. </p>
-<dl class="section note"><dt>Note</dt><dd>The behaviors of a group are the behaviors which are found in common when looking all the objects of the group.</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>The behaviors of a group are the behaviors which are found in common when looking all the objects of the group. </dd>
+<dd>
+A group of the layout shadows a global group with the same name: only the group of the layout is considered.</dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>Vector containing names of behaviors </dd></dl>
 
 </div>
@@ -1367,7 +1369,9 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Get a type from an object/group name. </p>
-<dl class="section note"><dt>Note</dt><dd>If a group contains only objects of a same type, then the group has this type. Otherwise, it is considered as an object without any specific type. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>If a group contains only objects of a same type, then the group has this type. Otherwise, it is considered as an object without any specific type. </dd>
+<dd>
+A group of the layout shadows a global group with the same name: only the group of the layout is considered. </dd></dl>
 <dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000029">Deprecated:</a></b></dt><dd>Use <a class="el" href="classgd_1_1_objects_containers_list.html#a132eb1dfb21431730d65c0427d32a301" title="Get a type from an object/group name.">gd::ObjectsContainersList::GetTypeOfObject</a> instead.</dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>Type of the object/group. </dd></dl>
 
