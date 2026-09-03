@@ -126,8 +126,8 @@ It is advised to use the expressions for special folders (see below) to keep you
 
 ---
 
-####  Load a text from a JSON file
-This action loads the JSON formatted text from a file and converts it into a scene variable structure. __synchronously__.
+####  Load a scene variable from a JSON file
+This action loads the JSON formatted text from a file and converts it into a scene variable (potentially a structure with children). __synchronously__.
 == Parameters ==
 ** Scene variable: ** The name of the scene variable to which the loaded structure will be added.
 
@@ -136,10 +136,12 @@ It is advised to use the expressions for special folders (see below) to keep you
 
 ** (Optional) Result variable: ** Variable to store the result. It can either hold the value 'ok': the task was successful or 'error': an error occurred.
 
+** (Optional) Normalize the file content (recommended): ** When set to yes, replaces Windows new line characters ("CRLF") with a single new line character, so files written on Windows are read consistently on all platforms.
+
 ---
 
-####  Load a text from a JSON file (async)
-This action loads the JSON formatted text from a file and converts it into a scene variable structure. __asynchronously__.
+####  Load a scene variable from a JSON file (async)
+This action loads the JSON formatted text from a file and converts it into a scene variable (potentially a structure with children). __asynchronously__.
 == Parameters ==
 ** Scene variable: ** The name of the scene variable to which the loaded structure will be added.
 
@@ -147,6 +149,8 @@ This action loads the JSON formatted text from a file and converts it into a sce
 It is advised to use the expressions for special folders (see below) to keep your game platform independent.
 
 ** (Optional) Result variable: ** Variable to store the result. It can either hold the value 'ok': the task was successful or 'error': an error occurred. The variable will be updated, at the moment the file operation has finished.
+
+** (Optional) Normalize the file content (recommended): ** When set to yes, replaces Windows new line characters ("CRLF") with a single new line character, so files written on Windows are read consistently on all platforms.
 
 ---
 
@@ -192,6 +196,16 @@ It is advised to use the expressions for special folders (see below) to keep you
 
 ** (Optional) Result variable: ** Variable to store the result. It can either hold the value 'ok': the task was successful or 'error': an error occurred. The variable will be updated, at the moment the file operation has finished.
 
+---
+
+####  Read a directory
+This action reads the contents of a directory (all files and sub-directories) and stores them in a variable.
+== Parameters ==
+** Directory path: ** The path on the file system of the directory to read.
+It is advised to use the expressions for special folders (see below) to keep your game platform independent.
+
+** Variable to store the result: ** The variable is set to an array containing the names of all files and sub-directories present in the directory, or to `"error"` if something went wrong. You can loop over this array (for example with the *For each child* event) to list a folder's content.
+
 ## Expressions
 These expressions return the path to special folders on the users' operating system. If you use these expressions for loading and saving files it will be guaranteed to work on all supported operating systems. (Currently Windows, Linux, and macOS)
 !!! tip
@@ -202,7 +216,9 @@ This expression returns the operating system independent path to the _Desktop_ f
 ####  Documents folder
 This expression returns the operating system independent path to the _Documents_ folder of the user that runs your game.
 This is the standard folder for storing documents.
-####  This games executable folder
+####  Game executable file
+This expression returns the operating system independent path to your game's executable file itself.
+####  Game executable folder
 This expression returns the operating system independent path to the folder where your game is being executed from.
 ####  Pictures folder
 This expression returns the operating system independent path to the _Pictures_ folder of the user that runs your game.
@@ -213,9 +229,19 @@ This folder is used for temporary files that your operating system can delete at
 ####  Userdata folder
 This expression returns the operating system independent path to the _UserData_ folder of the user that runs your game.
 This folder is used for storing application settings.
+####  User's Home folder
+This expression returns the operating system independent path to the _Home_ folder of the user that runs your game.
 ####  Path delimiter
 This expression returns the operating system independent path delimiter character. ("\" on Windows and "/" on Linux and macOS).
 Use this expression to build cross-platform file paths that can be accessed on all supported operating systems.
+
+The following expressions extract a part of an existing path. They are useful to process a path returned by *Read a directory* or entered by the player.
+####  Get directory name from a path
+This expression returns the portion of the path that represents the directories, without the ending file name.
+####  Get file name from a path
+This expression returns the name of the file with its extension, if any.
+####  Get the extension from a file path
+This expression returns the extension of the file designated by the given path, including the leading period (for example: `.png`).
 
 ## Example
 In order to save a screenshot to the _Pictures_ directory you could write:
