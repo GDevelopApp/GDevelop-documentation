@@ -6,43 +6,41 @@ title: Creating a private web link
 
 Using GDevelop hosting servers, you can export your game for publication on the web. These servers are backed by Amazon's robust services. Sharing your game this way is free, and your game will be available through this link indefinitely!
 
-First make sure you have logged in within GDevelop. To upload to the servers click the publish button in the upper middle section of your screen, and in the exports window click "generate link".
+First make sure you have logged in within GDevelop. To upload to the servers, click the **Share** button at the top of the editor, then pick **gd.games** in the list of exports.
 
-![](/gdevelop5/publishing/lilou_upload_click_publish_to_get_a_link.gif)
+![The Share dialog, with gd.games at the top of the list of exports](/gdevelop5/publishing/web/share-dialog.png)
 
-When your link is generated, you'll see it on screen. You can copy and paste this link and share it with people you'd like to play your game. To copy it to your clipboard, click on the clipboard icon that is highlighted in the image below.
+Click **Publish new version** to build your game and send it to the servers. If you only want a link to share privately, turn **Update game page** off before publishing: your game is uploaded and you get a link for it, while the public page on gd.games keeps the version that is already online.
 
-This link is currently private, only those you share the link with will be able to play your game.
+![The gd.games export screen, with the Publish new version button](/gdevelop5/publishing/web/gdgames-publish-new-version.png)
 
-![](/gdevelop5/publishing/web/pasted/20220202-210531.png)
+When the upload is finished, the link to your game is displayed on screen. You can copy it, scan the QR code to open the game on a phone, or send it through social networks. Anyone with the link can play your game, so share it with the people you want to test it.
+
+![The link to the game, with a QR code and sharing buttons](/gdevelop5/publishing/web/share-your-game.png)
 
 ## Publishing on gd.games
 
-To post your game publicly on gd.games, click on the "publish this build to the game's page" button below the link. gd.games is GDevelop's game hosting platform, where free games created with GDevelop can be shared and played.
-
-![](/gdevelop5/publishing/web/pasted/20220202-215845.png)
-
-From here you are given a new link and some new options for sharing your game through social media.
+gd.games is GDevelop's game hosting platform, where free games created with GDevelop can be shared and played. When **Update game page** is on, the version you publish becomes the one played on your game page, and the game is listed on the platform.
 
 !!! tip
 
     Games published can be promoted on gd.games homepage, checkout the [Marketing Campaigns](/gdevelop5/interface/games-dashboard/marketing)!
 
-![](/gdevelop5/publishing/web/pasted/20220202-225818.png)
+Every game you publish is followed on its own dashboard, which you reach with **Open Game dashboard** right after an export, or from the project manager under **Game settings**. It gathers the link to your game, its player analytics and the feedback you receive.
 
-You can replace the current public build by repeating the steps above, or by clicking "See this game builds" as seen below. Clicking this will show you all versions of your game that you've exported to gd.games, and from this screen you can pick which build you'd like to have publicly displayed on gd.games.
+![The dashboard of a game, with its link and its analytics](/gdevelop5/publishing/web/game-dashboard.png)
 
-![](/gdevelop5/publishing/lilou_upload_click_here_to_see_current_game_builds.gif)
+Each upload creates a build, and the dashboard lists all of them under **Exports**. The build currently played on your game page is marked as online: to put another one back in front of your players, turn on **Publish this build on gd.games** on the build of your choice.
 
-You can also check on and replace the current version of your game with another existing version through your profile. To access your profile click file, in the top left corner of the screen, and then click on "My Profile" in that drop down menu.
-
-![](/gdevelop5/publishing/lilou_upload_check_profile_to_see_game_builds.gif)
+![The list of the builds of a game, with the build currently online](/gdevelop5/publishing/web/game-builds.png)
 
 ## Taking your game off gd.games
 
-If you want to take your game off of gd.games for any reason, you can do that from the game builds menu. Just access the builds menu from your profile of through the export window, and click "Unpublish this build from gd.games".
+If you want to take your game off of gd.games for any reason, open **Edit details** from the game dashboard and turn **Publish game on gd.games** off. Your builds and your analytics are kept, only the public page disappears.
 
-![](/gdevelop5/publishing/web/pasted/20220202-232127.png)
+The **Visibility** setting is a middle ground: your game page stays online for the people who have the link, but the game is no longer displayed in the search results nor on your profile.
+
+![The publishing settings of a game, with the switch to publish it on gd.games](/gdevelop5/publishing/web/game-details-publishing.png)
 
 ## Export to other platforms (iOS, Android, Windows, macOS, Linux)
 
@@ -52,6 +50,6 @@ See the [other export options](/gdevelop5/publishing) to learn how to publish yo
 
 A 16:9 ratio thumbnail is highly recommended to your game on gd.games, the game will be more attractive.
 
-To set up the thumbnail you can directly add it from the GDevelop application by opening the Project manager and clicking on **Icons and thumbnail** under Game settings.
+To set up the thumbnail, open **Edit details** from the game dashboard and click on **Change thumbnail**. It is also the place where you write the name and the description shown to the players on your game page.
 
-![](/gdevelop5/publishing/project_manager_icon_and_thumbnail.png)
+![The game details, with the thumbnail of the game and the Change thumbnail button](/gdevelop5/publishing/web/game-thumbnail.png)
