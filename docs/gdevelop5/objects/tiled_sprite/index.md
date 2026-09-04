@@ -3,7 +3,7 @@ title: Tiled Sprite
 ---
 # Tiled Sprite
 
-A tiled sprite [object](/gdevelop5/objects) allows us to use repeating images in our games. increasing the width or height of the object will cause it repeat it's image, rather than stretching the image like a normal sprite object.
+A tiled sprite [object](/gdevelop5/objects) allows us to use repeating images in our games. Increasing the width or height of the object will cause it to repeat its image, rather than stretching the image like a normal sprite object.
 
 A tiled sprite object can be used to create platforms in a platform game, health bars, status bars, repeating wall tiles, repeating backgrounds, etc.
 
@@ -43,9 +43,17 @@ If the object is scaled to be larger in pixels than the image used, then the obj
 
 ![](tiled-sprite-100100.png)
 
-You can use events to manipulate the scale and positioning of tiled sprite object, but there are actions unique to tiled sprites. Offsets, which allow a user to scroll through a tiled sprite image without changing it's position. This is often used for scrolling backgrounds, and similar effects.
+You can use events to manipulate the size and position of a tiled sprite object like any other object, but there are also actions unique to tiled sprites.
+
+The **Image X/Y offset** actions scroll the image *inside* the object without moving the object itself. Because the image repeats, the scroll is seamless: gradually increasing the offset every frame is the usual way to make a scrolling background (for example, clouds or a parallax layer that keeps moving).
 
 ![](/gdevelop5/objects/ChangeOffsetActions.png)
+
+Other actions let you adapt the object at runtime:
+
+* **Tint color** applies a color over the image (the default white leaves it unchanged), useful for reusing the same texture in different colors or flashing an object.
+* **Opacity** makes the object more or less transparent, for example to fade a background layer in or out.
+* **Image** swaps the displayed image for another resource, so a single object can be reused with different textures.
 
 ## Examples
 
