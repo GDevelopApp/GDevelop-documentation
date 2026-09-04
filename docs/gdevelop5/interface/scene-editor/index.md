@@ -23,6 +23,8 @@ If you close the Object Panel, you can reopen it by using this button on the too
 
 ![](/gdevelop5/interface/scene-editor/pasted/20230307-152850.png)
 
+You can select several objects at once to move, delete or duplicate them together: hold **Ctrl** (or **Cmd** on macOS) while clicking to add or remove individual objects, or hold **Shift** to select a whole range.
+
 Read about all [the features available and the objects types](/gdevelop5/objects) to learn more about the different kinds of objects you can use in your game.
 
 ## Instance Properties panel
@@ -119,6 +121,10 @@ By clicking the grid button in the toolbar, you get multiple options:
 By clicking on the zoom button, you can change the zoom level inside the scene editor:
 
 ![](/gdevelop5/interface/scene-editor/pasted/20230307-154849.png)
+
+!!! tip
+
+    Press **F** to focus the view on the currently selected instances.
 ## Launch a preview of the scene
 
 By clicking on the "Preview" button, you can launch a preview of your game.
