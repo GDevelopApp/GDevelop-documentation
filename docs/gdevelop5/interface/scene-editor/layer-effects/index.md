@@ -1,6 +1,6 @@
----
+jj---
 title: Layer Effects
----
+--jjj-
 # Layer Effects
 
 You can add effects to the layers of your scene. These effects allow you to quickly change the atmosphere and rendering of your game. For example, here is the _sepia_ effect added to the isometric-game example:
