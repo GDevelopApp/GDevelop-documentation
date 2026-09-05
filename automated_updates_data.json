@@ -104,6 +104,10 @@
     {
       "date": "2026-07-07",
       "summary": "Improved keyboard docs: added 'Key just pressed' (held vs one-frame) and 'Any key released' conditions, control-remapping note, and a reference list of valid key names"
+    },
+    {
+      "date": "2026-09-05",
+      "summary": "Improved Tiled Sprite object docs: fixed intro grammar, documented X/Y image offset scrolling with wrap-around and offset expressions, and the runtime Set image action; fixed Text Entry reference link"
     }
   ]
 }
