@@ -3,7 +3,7 @@ title: Tiled Sprite
 ---
 # Tiled Sprite
 
-A tiled sprite [object](/gdevelop5/objects) allows us to use repeating images in our games. increasing the width or height of the object will cause it repeat it's image, rather than stretching the image like a normal sprite object.
+A tiled sprite [object](/gdevelop5/objects) allows us to use repeating images in our games. Increasing the width or height of the object will cause it to repeat its image, rather than stretching the image like a normal sprite object.
 
 A tiled sprite object can be used to create platforms in a platform game, health bars, status bars, repeating wall tiles, repeating backgrounds, etc.
 
@@ -43,9 +43,19 @@ If the object is scaled to be larger in pixels than the image used, then the obj
 
 ![](tiled-sprite-100100.png)
 
-You can use events to manipulate the scale and positioning of tiled sprite object, but there are actions unique to tiled sprites. Offsets, which allow a user to scroll through a tiled sprite image without changing it's position. This is often used for scrolling backgrounds, and similar effects.
+You can use events to manipulate the scale and positioning of a tiled sprite object like any other object, but there are also actions unique to tiled sprites.
+
+####  Scroll the image with offsets
+
+The **Image X offset** and **Image Y offset** actions shift the repeating image inside the object without moving the object itself. Increasing an offset a little on every frame makes the image scroll continuously, which is often used for scrolling backgrounds, conveyor belts, waterfalls, and similar effects.
+
+Because the image repeats seamlessly, the offset simply wraps around once it goes past the image size, so it can be increased indefinitely without any visible jump. Matching expressions (`Object.XOffset()` and `Object.YOffset()`) return the current offset values.
 
 ![](/gdevelop5/objects/ChangeOffsetActions.png)
+
+####  Change the image with events
+
+The **Image** action ("Set image ... on ...") replaces the displayed image at runtime with another image resource of the project. This is handy to reuse a single tiled sprite object for different repeating textures instead of creating one object per texture.
 
 ## Examples
 
