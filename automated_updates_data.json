@@ -104,6 +104,10 @@
     {
       "date": "2026-07-07",
       "summary": "Improved keyboard docs: added 'Key just pressed' (held vs one-frame) and 'Any key released' conditions, control-remapping note, and a reference list of valid key names"
+    },
+    {
+      "date": "2026-09-06",
+      "summary": "Improved P2P docs: documented Disable IP address sharing, custom ICE/STUN/TURN servers, Override client ID, connection/error lifecycle conditions, and sending/receiving event data"
     }
   ]
 }
