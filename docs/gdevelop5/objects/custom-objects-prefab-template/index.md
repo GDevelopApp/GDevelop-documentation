@@ -146,7 +146,7 @@ You can do the same with your own custom objects by following these steps:
 
 TODO: screenshot
 
-- Add the custom objects you want to use a child-objects
+- Add the custom objects you want to use as child-objects
 
 TODO: screenshot
 
