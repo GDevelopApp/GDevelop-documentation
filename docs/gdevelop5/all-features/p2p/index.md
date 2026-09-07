@@ -8,6 +8,8 @@ title: Peer-to-peer
 
     P2P leaks the client's IP addresses when connecting to them. If someone knows your broker server and P2P ID, they know your IP address and can use it to DDoS or geolocalize you. Make sure to properly inform your players and not to use lobby/matchmaking systems alongside P2P, as those may share the player's P2P ID with unknown peers.
 
+    If this is a concern, you can use the **Disable IP address sharing** action (before connecting to the broker) to force all traffic through a relay (TURN) server instead of connecting peers directly. This hides player IP addresses but requires you to provide a TURN server as an ICE candidate (see "Use a custom ICE server"), and makes connections slower.
+
 
 !!! warning
 
@@ -32,7 +34,7 @@ There are two options for setting up a broker server:
 
 ####  Set up a custom (local) server
 
-A local server can be set up easily. [Install Node.js](https://nodejs.org/en/download/) will need to be installed. The LTS version is recommended.
+A local server can be set up easily. [Node.js](https://nodejs.org/en/download/) will need to be installed. The LTS version is recommended.
 
 Open a command line. To do so on Windows:
 
@@ -75,6 +77,16 @@ The default P2P ID generation is very long to avoid conflicts, but if you want t
 
 Once you got connected, you can trigger actions remotely. You can select another specific game instance (using its id) or send an event to all connected instances.
 
+A *remote event* is identified by an **event name** that you choose (for example `"PlayerMoved"` or `"Chat"`). One client sends the event with an action, and the other clients react to it with the **Event triggered by peer** condition using the same name.
+
+### Sending and receiving data along with events
+
+An event can carry **extra data**, so you can transmit more than just the fact that something happened (for example a position, a score, or a chat message).
+
+- To send data, use one of the **Trigger event on all connected clients** / **Trigger event on a specific client** actions and fill in the *extra data* parameter. The extra data is a text (string). To send a number or a structure, there are variants of these actions that take a **variable** directly (the whole variable, including its children, is sent).
+- To read the data on the receiving side (inside the **Event triggered by peer** condition), use the expression **Get event data** (`P2P::GetEventData("EventName")`) for a text value, or the action **Get event data (variable)** to copy the received variable into one of your own variables.
+- To know **who** sent an event, use the expression **Get event sender** (`P2P::GetEventSender("EventName")`), which returns the ID of the peer that triggered it. This is useful to reply only to that peer or to identify players.
+
 ### Choosing if you want to activate data loss mode
 
 You might be wondering what the "data loss" parameter is for.
@@ -88,6 +100,15 @@ Here are two examples:
 
 * if you use a synchronized score counter, you don't want to lose any data, as missing only one point of the counter would *desynchronize* the counters, so the dataloss mode would be deactivated.
 * If you want to synchronize positions, only the last position sent is relevant, not older positions. In this case, you would activate the dataloss mode *to prevent delays/lags*.
+
+## Handling connections and disconnections
+
+You can react to peers joining or leaving to keep your game state consistent (for example, to spawn or remove other players):
+
+- The **Peer Connected** condition triggers once when a new peer connects, and **Get ID of the connected peer** returns its ID.
+- The **Peer disconnected** condition triggers once when a peer leaves, and **Get last disconnected peer** returns its ID.
+
+To close connections yourself, use **Disconnect from a peer** (a single client), **Disconnect from all peers**, **Disconnect from broker** (stops being reachable by new peers while keeping current connections), or **Disconnect from all** (leaves the broker and all peers).
 
 ## Reference
 
