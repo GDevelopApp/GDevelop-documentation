@@ -4,6 +4,12 @@ Cast rays of light from the top of the screen. **This won't work well if shown o
 
 ![](godray-effect.gif)
 
+## Adjusting the effect
+
+- **Center X** and **Center Y** set the point the rays originate from, and **Angle** tilts their direction.
+- Enable **Parallel** to cast parallel rays (like distant sunlight) using the angle; disable it to make the rays spread out from the center point instead.
+- **Light** and **Gain** control how bright and intense the rays are, while **Lacunarity** changes how detailed and broken-up they look.
+- **Animation Speed** makes the rays shimmer and move over time.
 
 ## Reference
 
