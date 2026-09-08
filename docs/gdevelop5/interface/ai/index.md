@@ -103,6 +103,8 @@ If you're working on a **local project** (saved on your computer) rather than a 
 - **Stop**: if the AI starts going off-track, click **Stop** to pause it. It will wait for your next message instead of continuing.
 - **New chat**: when you've finished a task, start a new conversation. This keeps each chat focused on one topic and helps the AI avoid confusing it with unrelated details.
 
+Your previous conversations are kept in the **chat history**, with the chats of the currently opened project listed first. From there you can reopen an earlier chat to continue it, or **rename**, **archive** and **delete** chats to keep your history tidy.
+
 ## Cost of AI requests
 
 Each request uses some of your **AI usage**, depending on how much work and "thinking" it involves: a quick question costs very little, while building several events at once costs more. The reasoning level also matters — higher levels use more.
