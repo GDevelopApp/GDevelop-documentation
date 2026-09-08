@@ -104,6 +104,10 @@
     {
       "date": "2026-07-07",
       "summary": "Improved keyboard docs: added 'Key just pressed' (held vs one-frame) and 'Any key released' conditions, control-remapping note, and a reference list of valid key names"
+    },
+    {
+      "date": "2026-08-09",
+      "summary": "Improved peer-to-peer docs: fixed outdated action names and added sending/receiving event data, event sender, connection/disconnection/error handling, override ID, and custom ICE/relay server sections"
     }
   ]
 }
