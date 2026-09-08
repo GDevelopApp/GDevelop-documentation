@@ -4,6 +4,8 @@ Add blur to the top and bottom of the entire layer or object. Perfect to simulat
 
 ![](tilt-shift-effect.png)
 
+**Blur** sets how strong the blur is at the top and bottom, while **Gradient blur** controls how gradually the sharp band in the middle fades into the blurred areas. A larger gradient gives a smoother, more natural transition.
+
 
 ## Reference
 

@@ -22,6 +22,8 @@ Try some ready-to-use color maps
 - color-map-model-2.png : ![](color-map-model-2.png)
 - color-map-model-3.png : ![](color-map-model-3.png)
 
+The **Mix** property controls how strongly the color map is applied: at a low value the original colors mostly show through, at the maximum only the remapped colors are used. Animating it with events is a simple way to fade in a color grading (for example a "poisoned" or "night" tint).
+
 
 ## Reference
 

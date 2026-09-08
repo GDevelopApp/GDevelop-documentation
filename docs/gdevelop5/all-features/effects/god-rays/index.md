@@ -4,6 +4,8 @@ Cast rays of light from the top of the screen. **This won't work well if shown o
 
 ![](godray-effect.gif)
 
+Use **Center X** and **Center Y** to place the light source, and **Angle** to tilt the rays. Turn on **Parallel** for evenly spread sunlight-style rays, or turn it off to make the rays fan out from the center point (like a spotlight). **Gain** and **Lacunarity** adjust how strong and detailed the beams look, and increasing **Animation speed** makes them shimmer over time.
+
 
 ## Reference
 
