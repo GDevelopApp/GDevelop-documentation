@@ -325,8 +325,11 @@ const <a class="el" href="classgd_1_1_properties_container.html">gd::PropertiesC
 <tr class="memdesc:a1c6c074de68b11540576a85c0b052e4d inherit pub_methods_classgd_1_1_abstract_events_based_entity"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a const reference to the list of the properties. <br /></td></tr>
 <tr class="separator:a1c6c074de68b11540576a85c0b052e4d inherit pub_methods_classgd_1_1_abstract_events_based_entity"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr><td colspan="2"><div class="groupHeader">Lifecycle event functions</div></td></tr>
+<tr class="memitem:a44df25db93b0a0df4e5032497ad4c762"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_events_based_object.html#a44df25db93b0a0df4e5032497ad4c762">IsObjectLifecycleEventsFunction</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;eventsFunctionName)</td></tr>
+<tr class="separator:a44df25db93b0a0df4e5032497ad4c762"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_static_methods_classgd_1_1_abstract_events_based_entity"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classgd_1_1_abstract_events_based_entity')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classgd_1_1_abstract_events_based_entity.html">gd::AbstractEventsBasedEntity</a></td></tr>
 <tr class="memitem:a6dd4d32dda12b2a304f6b7f7908e6421 inherit pub_static_methods_classgd_1_1_abstract_events_based_entity"><td class="memItemLeft" align="right" valign="top"><a id="a6dd4d32dda12b2a304f6b7f7908e6421"></a>
 static <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classgd_1_1_abstract_events_based_entity.html#a6dd4d32dda12b2a304f6b7f7908e6421">GetPropertyActionName</a> (const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;propertyName)</td></tr>
@@ -551,6 +554,33 @@ static <a class="el" href="classgd_1_1_string.html">gd::String</a>&#160;</td><td
 <li>if <code>false</code>, the object is stretch proportionally while children local positions stay the same.</li>
 <li>if <code>true</code>, the children local positions need to be adapted by events to follow their parent size. </li>
 </ul>
+
+</div>
+</div>
+<a id="a44df25db93b0a0df4e5032497ad4c762"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44df25db93b0a0df4e5032497ad4c762">&#9670;&nbsp;</a></span>IsObjectLifecycleEventsFunction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool gd::EventsBasedObject::IsObjectLifecycleEventsFunction </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classgd_1_1_string.html">gd::String</a> &amp;&#160;</td>
+          <td class="paramname"><em>eventsFunctionName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p>Check if the name of the function is the name of a lifecycle function (for events-based objects), that will be called automatically by the game engine. </p>
 
 </div>
 </div>
