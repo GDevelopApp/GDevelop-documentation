@@ -3,75 +3,70 @@ title: Preferences
 ---
 # Preferences
 
-You can change how GDevelop looks and behaves to suit your preferences.
+The preferences let you change how GDevelop looks and behaves. They apply to the editor itself, not to a specific project: whatever project you open, you keep the same theme, the same layouts and the same keyboard shortcuts.
 
-## Opening Preferences
+## Opening the preferences
 
-**On the web app**: Projects manager → Preferences
+**From the start page**: the **Preferences** button, at the bottom of the menu on the left.
 
-**On the desktop version**: File → Preferences
-
-![](/gdevelop5/gdevelop-preferences-locate.gif)
-
-The preferences window will look like this:
+**On the desktop version**: also from the menu bar, File → Preferences (on macOS, GDevelop → Preferences).
 
 ![](/gdevelop5/preferences.png)
 
+The window is split in two tabs:
+
+* **Preferences**, where every setting is grouped in sections listed on the left.
+* **Keyboard shortcuts**, where you can change the shortcut of any command.
+
+The search field at the top searches through both tabs at once: type a few words of what you are looking for (for example *theme*, *autosave* or *tile*) and only the matching settings and shortcuts are displayed. Searching for the name of a section (for example *appearance* or *tilemap*) displays everything it contains.
+
+Some settings are only available on the desktop version, because they concern things that only exist there (the preview window, the folders on your computer, the automatic updates...). They are simply not displayed on the web app.
+
 ## Changing the theme
 
-![](/gdevelop5/properties-appearance.png)
+The **Appearance** section holds two independent themes:
 
-Themes let you customize the look of the interface.
-
-**UI theme** changes the application's appearance.
-
-**Code editor theme** changes how the JavaScript code block looks.
+* the **UI theme**, used by the whole editor,
+* the **code editor theme**, used by the JavaScript code blocks in the events sheets.
 
 ![](/gdevelop5/codeblockmonokai.png)
 
 There are multiple themes to choose from, and you can even create your own. See [how you can make one](https://github.com/4ian/GDevelop/blob/master/newIDE/README-themes.md).
 
-## Changing backdrop click behavior
+## Restoring the layout of the editors
 
-![](/gdevelop5/properties-dialogue.png)
+The **Layouts** section remembers how you arranged the panels of the scene editor, the debugger, the resource editor and the extension editor. If you moved or closed a panel and want to go back to the original arrangement, use the reset button of the corresponding layout: the change is applied the next time the editor is opened.
 
-This setting controls what happens when the backdrop (the faded area outside a window) is clicked.
+## Dialogs and hints
 
-If **No changes** is selected, clicking the backdrop won't close the window.
+The **Dialogs** section controls what happens when you click the backdrop, the faded area outside of a window. Depending on the setting, the click is ignored, or the edits made in the window are cancelled or applied. It also controls what GDevelop does when you add a resource (an image, a sound, a 3D model...) that is stored outside of the project folder.
 
-If **Cancel changes** is selected, any edits in the current window are **abandoned** (only available in some windows).
+The **Help and tutorials** section is where the hints, embedded tutorials and announcements that you dismissed can be brought back: everything you chose to hide is counted there, and can be displayed again in one click.
 
-If **Apply changes** (default) is selected, any edits in the current window are **applied** (only available in some windows).
+## Events sheet, previews and scene editor
 
+The **Events Sheet** section changes how the events are displayed and edited: object thumbnails, assignment operators (`+=` instead of *add*), indentation size, warnings about deprecated actions and conditions.
 
-## Hints and explanations
+The **Previews & Saves** section gathers everything happening when you launch a preview: saving the project beforehand, opening the diagnostic report, taking a screenshot for the game dashboard, and, on the desktop version, how the preview window itself behaves.
 
-GDevelop displays hints and explanations for certain features. You can turn them off if you prefer.
-
-Example of a hint/explanation:
-![](/gdevelop5/hints2.png)
+The **Scene editor** section lets you display the objects in 3D and show profiling information while editing a scene.
 
 ## Keyboard shortcuts
 
-There is a separate page discussing keyboard shortcuts and the command palette.
+Open the **Keyboard shortcuts** tab to see every command of the editor, grouped by area, with the shortcut currently assigned to it. Click a shortcut to record a new one, and use the reset button to go back to the default. If two commands end up with the same shortcut, a warning tells you which other command it clashes with.
 
-See [command palette and shortcuts](/gdevelop5/interface/command-palette-and-shortcuts).
+![](/gdevelop5/preferences-keyboard-shortcuts.png)
+
+Most of these commands can also be launched by name from the command palette, without any shortcut. See [command palette and shortcuts](/gdevelop5/interface/command-palette-and-shortcuts).
 
 ## Changing language
 
-You can choose what language the interface should use.
-
-Go to the **Start Page**:
+The language of the editor is chosen in the **General** section, and also from the **Start Page**:
 
 ![](/gdevelop5/home-page-language-select.png)
 
-Choose from the available languages in the list.
-
-Some languages might not be fully supported—you can see an estimate of the translation progress.
+Some languages might not be fully supported: you can see an estimate of the translation progress next to each of them.
 
 You can help translate GDevelop into your language and report any mistakes. Your help is greatly appreciated.
 
 ![](/gdevelop5/changinglanguage2.png)
-
-
-
