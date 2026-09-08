@@ -24,7 +24,7 @@ Read on to learn more about revenue sharing, transactions, and other agreements 
 
 ![](revenue-sharing.png)
 
-When an asset is sold on GDevelop's Asset Store, the purchase is distributed as follows: 40% for the Asset creator, 33% for GDevelop, and 27% for government taxes (VAT) and payment provider fees.
+When an asset is sold on GDevelop's Asset Store, the revenue is shared as follows: 55% for the Asset creator and 45% for GDevelop, after taxes and payment provider fees.
 
 !!! note
 
