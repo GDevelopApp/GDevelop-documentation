@@ -104,6 +104,10 @@
     {
       "date": "2026-07-07",
       "summary": "Improved keyboard docs: added 'Key just pressed' (held vs one-frame) and 'Any key released' conditions, control-remapping note, and a reference list of valid key names"
+    },
+    {
+      "date": "2026-08-03",
+      "summary": "Improved Steamworks docs: documented achievements, player info & rich presence, Steam Cloud saves, Workshop UGC, matchmaking lobbies, and the Is-Steamworks-loaded guard"
     }
   ]
 }
