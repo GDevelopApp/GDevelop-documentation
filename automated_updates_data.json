@@ -104,6 +104,10 @@
     {
       "date": "2026-07-07",
       "summary": "Improved keyboard docs: added 'Key just pressed' (held vs one-frame) and 'Any key released' conditions, control-remapping note, and a reference list of valid key names"
+    },
+    {
+      "date": "2026-08-01",
+      "summary": "Improved P2P docs: added IP-address protection via relay/custom ICE server, and connection/disconnection/error detection conditions and expressions"
     }
   ]
 }
