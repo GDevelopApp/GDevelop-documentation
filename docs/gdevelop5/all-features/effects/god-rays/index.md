@@ -4,6 +4,13 @@ Cast rays of light from the top of the screen. **This won't work well if shown o
 
 ![](godray-effect.gif)
 
+## Parameters
+
+- **Parallel**: when enabled the rays are parallel (like distant sunlight). When disabled they radiate out from a point set by **Center X** and **Center Y**.
+- **Angle**: direction the rays are pointing.
+- **Light**, **Gain** and **Lacunarity**: control the intensity and the detail/roughness of the rays.
+- **Animation Speed**: animates the rays over time (set to 0 to keep them static).
+
 
 ## Reference
 
