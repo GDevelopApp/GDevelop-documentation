@@ -121,7 +121,7 @@ TODO: screenshots of the tappy plane one (because it has a medal)
 
 You can't directly add logic to a variant, but you can create a new custom object that contains the existing custom object.
 
-The steps to create this custom object are the same as the ones detailed in the following section.
+The steps to create this custom object are the same as the ones detailed in the following section. The only difference is that you will use only 1 kind of custom object as child object and you may add other objects for your custom logic.
 
 ### Use several custom objects as the same
 
@@ -142,30 +142,42 @@ Creating a intermediate custom object allows to:
 
 You can do the same with your own custom objects by following these steps:
 
-- Create a new custom object
+- Add a new custom object
 
-TODO: screenshot
+![](add-custom-object.png){ width="429" }
 
 - Add the custom objects you want to use as child-objects
 
-TODO: screenshot
+![](child-objects.png){ width="283" }
+
+- If one of the custom objects has the **expands inner area with parent** box checked
+  - Check it for the new custom object
+  - Add an anchor behavior set on following the size on all children them even the ones that has it unchecked
+
+![](expand-inner-area-with-parent.png){ width="12833" }
 
 - Generate functions from one of the custom object
 
-TODO: screenshot
+![](generate-forward-functions.png){ width="685" }
 
 - Modify the generated functions to use all the child-objects
 
-TODO: screenshot
+![](forward-action.png){ width="1638" }
+
+![](forward-condition.png){ width="1638" }
+
+![](forward-expression.png){ width="1638" }
 
 - Remove the functions that are not shared by all the child-objects
 - Copy-paste all properties from one of the child-object
 
-TODO: screenshot
+![](copy-object-properties.png){ width="394" }
 
 - Remove properties that are not shared by all the child-objects
 - Add an hidden function to refresh the custom object properties
 
-TODO: screenshot
+![](update-properties-function.png){ width="1554" }
 
 - Call this function from `onCreated` and `onHotReloading`
+- Create variants with an instance of the child-object
+- Make the area fit the object dimension
