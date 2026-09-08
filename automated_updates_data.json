@@ -104,6 +104,10 @@
     {
       "date": "2026-07-07",
       "summary": "Improved keyboard docs: added 'Key just pressed' (held vs one-frame) and 'Any key released' conditions, control-remapping note, and a reference list of valid key names"
+    },
+    {
+      "date": "2026-08-12",
+      "summary": "Improved filesystem docs (added User's Home folder, game executable file, and path-parsing expressions; fixed duplicate 'Delete a file' heading and typo) and screenshot docs (desktop-only note and auto .png extension)"
     }
   ]
 }
