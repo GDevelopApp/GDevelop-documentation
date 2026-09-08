@@ -3,7 +3,7 @@ title: Tiled Sprite
 ---
 # Tiled Sprite
 
-A tiled sprite [object](/gdevelop5/objects) allows us to use repeating images in our games. increasing the width or height of the object will cause it repeat it's image, rather than stretching the image like a normal sprite object.
+A tiled sprite [object](/gdevelop5/objects) allows us to use repeating images in our games. Increasing the width or height of the object will cause it to repeat its image, rather than stretching the image like a normal sprite object.
 
 A tiled sprite object can be used to create platforms in a platform game, health bars, status bars, repeating wall tiles, repeating backgrounds, etc.
 
@@ -43,9 +43,20 @@ If the object is scaled to be larger in pixels than the image used, then the obj
 
 ![](tiled-sprite-100100.png)
 
-You can use events to manipulate the scale and positioning of tiled sprite object, but there are actions unique to tiled sprites. Offsets, which allow a user to scroll through a tiled sprite image without changing it's position. This is often used for scrolling backgrounds, and similar effects.
+You can use events to manipulate the scale and positioning of a tiled sprite object like any other object, but there are also actions unique to tiled sprites.
+
+####  Scroll the image with offsets
+
+The **Image X offset** and **Image Y offset** actions move the tiled image *inside* the object without moving the object itself. Because the image repeats seamlessly, changing an offset by a small amount every frame creates a continuous scrolling effect that never shows a seam or edge.
 
 ![](/gdevelop5/objects/ChangeOffsetActions.png)
+
+This is often used for scrolling backgrounds, conveyor belts, flowing water, and parallax layers. For a background that scrolls endlessly to the left, add a small value to the X offset each frame (for example, multiplied by `TimeDelta()` so the speed stays consistent regardless of the frame rate).
+
+####  Other properties changed at runtime
+
+- The **image** of a tiled sprite can be replaced during the game with the *Change the image* action, for example to swap a background or a status bar texture.
+- The **opacity** and **angle** can also be changed with events, just like a regular sprite.
 
 ## Examples
 
