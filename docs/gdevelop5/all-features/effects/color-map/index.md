@@ -22,6 +22,12 @@ Try some ready-to-use color maps
 - color-map-model-2.png : ![](color-map-model-2.png)
 - color-map-model-3.png : ![](color-map-model-3.png)
 
+The **Mix** property (in percent) sets how strongly the color map is applied: a lower value blends the result with the original colors, which is useful to fade the effect in and out with events (for example, to gradually tint the screen).
+
+!!! note
+
+    This effect only works on 2D layers and objects.
+
 
 ## Reference
 
