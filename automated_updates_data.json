@@ -104,6 +104,10 @@
     {
       "date": "2026-07-07",
       "summary": "Improved keyboard docs: added 'Key just pressed' (held vs one-frame) and 'Any key released' conditions, control-remapping note, and a reference list of valid key names"
+    },
+    {
+      "date": "2026-07-23",
+      "summary": "Added 'Key settings' guidance to visual effect pages (CRT, drop shadow, god rays, Kawase blur, outline, pixelate, RGB split, tilt shift) explaining their tunable parameters in use-case terms"
     }
   ]
 }
