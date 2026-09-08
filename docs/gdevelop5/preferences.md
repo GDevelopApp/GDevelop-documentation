@@ -61,12 +61,19 @@ Most of these commands can also be launched by name from the command palette, wi
 
 ## Changing language
 
-The language of the editor is chosen in the **General** section, and also from the **Start Page**:
+The language of the editor is chosen in two places, which change the same setting:
 
-![](/gdevelop5/home-page-language-select.png)
+* the **language button** at the top right of the start page, showing the code of the current language,
+* the **General** section of the preferences, opened with the **Preferences** button at the bottom of the menu on the left.
 
-Some languages might not be fully supported: you can see an estimate of the translation progress next to each of them.
+Both buttons are framed in red below:
 
-You can help translate GDevelop into your language and report any mistakes. Your help is greatly appreciated.
+![](/gdevelop5/home-page-preferences-and-language.png)
 
-![](/gdevelop5/changinglanguage2.png)
+The button opens a dialog holding the same list as the preferences:
+
+![](/gdevelop5/language-dialog.png)
+
+Next to each language, the list shows an estimate of how much of the editor is translated into it: a language below 100% displays the untranslated parts in English. Changing the language applies it immediately, without restarting GDevelop.
+
+The translations are made by the community on Crowdin, and the dialog links to it: you can complete the language you use, or add one that is missing. If a translation exists but is wrong or confusing, **Report a wrong translation** opens the issue where these mistakes are collected.
