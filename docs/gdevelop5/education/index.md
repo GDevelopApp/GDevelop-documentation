@@ -173,7 +173,7 @@ Here is the recommended workflow for managing student accounts:
 
 !!! tip
 
-    It is possible to reactivate an archived student account (for example, if a student rejoins your class). However, you must wait 15 days after archiving before you can restore an account.
+    It is possible to reactivate an archived student account at any time (for example, if a student rejoins your class).
 
 ## Cancel your subscription
 
