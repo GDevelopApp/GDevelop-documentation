@@ -113,9 +113,8 @@ The [game over dialog](/gdevelop5/extensions/leaderboard-dialog) is a good examp
 - Several optional buttons, for instance a button to submit a score to a leaderboard.
 - For text, users can choose between [bitmap text](/gdevelop5/objects/bitmap_text) objects for pixel-art variants or [text](docs/gdevelop5/objects/text) objects for variants with smooth art (for instance `BitmapScoreLabel` and `ScoreLabel`).
 
-TODO: screenshots of the scull dialog
-
-TODO: screenshots of the tappy plane one (because it has a medal)
+| ![](game-over-dialog-skull.png) | ![](game-over-dialog-plane.png) |
+|---|---|
 
 ### Add custom logic to variants
 
@@ -138,7 +137,7 @@ Creating a intermediate custom object allows to:
 
 [Open example in GDevelop](https://editor.gdevelop.io/?create-from-example=indirection-custom-object){ .md-button .md-button--primary }
 
-[![](indirection-custom-object.png){ width="320" }](https://editor.gdevelop.io/?create-from-example=indirection-custom-object)
+[![](indirection-example.png){ width="320" }](https://editor.gdevelop.io/?create-from-example=indirection-custom-object)
 
 You can do the same with your own custom objects by following these steps:
 
