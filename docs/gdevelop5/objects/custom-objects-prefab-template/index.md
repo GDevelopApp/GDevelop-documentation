@@ -129,6 +129,7 @@ Sometimes objects which fill the same purpose are too much different to be the s
 This is the case for [Resource bar (continuous)](gdevelop5/extensions/panel-sprite-continuous-bar) and [resource bar (separated units)](/gdevelop5/extensions/tiled-units-bar) objects. In the following project example, an intermediate custom object is implemented to use the 2 kinds of bar.
 
 Creating a intermediate custom object allows to:
+
 - Use the 2 kind of bars in groups as if they were the same object type.
 - Switch between the 2 kinds of bars by choosing a different variant for the object.
 - Add new kinds of bar without having to change the main events.
