@@ -94,15 +94,15 @@ An important thing to understand is that **all variants of a custom object share
 
 In practice, this means:
 
-- You cannot add new child objects to a specific variant only
-- You cannot remove child objects from a specific variant
-- The main (default) variant of your custom object should contain **all the possible child objects** that any variant might need
+- You cannot add new child objects to a specific variant only.
+- You cannot remove child objects from a specific variant.
+- The main (default) variant of your custom object should contain **all the possible child objects** that any variant might need.
 
 However, variants can differ in how they use these child objects:
 
-- A variant can choose to **not place any instances** of a child object if it doesn't need it
-- Each variant can configure child objects differently (different images, sizes, colors, etc.)
-- Each variant can position the instances of child objects differently
+- A variant can choose to **not place any instances** of a child object if it doesn't need it.
+- Each variant can configure child objects differently (different images, sizes, colors, etc).
+- Each variant can position the instances of child objects differently.
 
 For instance, if you have a dialog custom object with an optional "icon" child object, you should add the icon object in the main variant. Then, variants that need an icon can include an instance of it, while variants that don't need an icon simply don't place any instance of it.
 
@@ -142,25 +142,25 @@ Creating a intermediate custom object allows to:
 
 You can do the same with your own custom objects by following these steps:
 
-- Add a new custom object
+- Add a new custom object.
 
 ![](add-custom-object.png){ width="429" }
 
-- Add the custom objects you want to use as child-objects
+- Add the custom objects you want to use as child-objects.
 
 ![](child-objects.png){ width="283" }
 
-- If one of the custom objects has the **expands inner area with parent** box checked
-  - Check it for the new custom object
-  - Add an anchor behavior set on following the size on all children them even the ones that has it unchecked
+- If one of the custom objects has the **expands inner area with parent** box checked:
+  - Check it for the new custom object.
+  - Add an anchor behavior set on following the size on all children them even the ones that has it unchecked.
 
 ![](expand-inner-area-with-parent.png){ width="12833" }
 
-- Generate functions from one of the custom object
+- Generate functions from one of the custom object.
 
 ![](generate-forward-functions.png){ width="685" }
 
-- Modify the generated functions to use all the child-objects
+- Modify the generated functions to use all the child-objects.
 
 ![](forward-action.png){ width="1638" }
 
@@ -168,16 +168,16 @@ You can do the same with your own custom objects by following these steps:
 
 ![](forward-expression.png){ width="1638" }
 
-- Remove the functions that are not shared by all the child-objects
-- Copy-paste all properties from one of the child-object
+- Remove the functions that are not shared by all the child-objects.
+- Copy-paste all properties from one of the child-object.
 
 ![](copy-object-properties.png){ width="394" }
 
-- Remove properties that are not shared by all the child-objects
-- Add an hidden function to refresh the custom object properties
+- Remove properties that are not shared by all the child-objects.
+- Add an hidden function to refresh the custom object properties.
 
 ![](update-properties-function.png){ width="1554" }
 
-- Call this function from `onCreated` and `onHotReloading`
-- Create variants with an instance of the child-object
-- Make the area fit the object dimension
+- Call this function from `onCreated` and `onHotReloading`.
+- Create variants with an instance of the child-object.
+- Make the area fit the object dimension.
