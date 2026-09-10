@@ -18,13 +18,21 @@ The Tween (from inbe**tween**) [behavior](/gdevelop5/behaviors) animates [object
 
 Each tween is identified by a unique name (identifier). Starting a tween with an existing identifier will restart that tween from the current value.
 
-!!! note
-
-    [easings.net](https://easings.net/) is an interactive catalog of all easing functions (speed shapes) that can be used by the tween behavior.
-
 <div class="video-container">
   <iframe src="https://www.youtube.com/embed/vdYi8Miwv2E" frameborder="0" allowfullscreen></iframe>
 </div>
+
+## Easing functions
+
+The easing defines how the tweened value (a position, but also an opacity, a scale, a color, a variable...) progresses from its starting value to its target value over time. With `linear`, the value changes at a constant speed. Other easings start slowly and accelerate (`easeIn...`), start fast and slow down at the end (`easeOut...`), or do both (`easeInOut...`). The suffix (`Quad`, `Cubic`, `Quart`, `Quint`, `Expo`...) indicates how pronounced the acceleration is. Some easings go past the target value before coming back (`easeOutBack`, `elastic`) or bounce (`bounce`, `easeOutBounce`).
+
+When you select an easing in the editor, a small preview of its curve is shown next to it. Here are all the available easings, showing how the value (vertical axis) changes over time (horizontal axis). The dashed lines are the start and end values:
+
+![](easings.svg)
+
+!!! tip
+
+    [easings.net](https://easings.net/) is an interactive catalog where you can see most of these easings animated.
 
 ## Play tweens simultaneously
 
