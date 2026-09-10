@@ -1,96 +1,99 @@
 ---
-title: Selling assets on GDevelop's Asset Store
+title: Selling on GDevelop's Asset Store
 ---
 
-# Selling assets on GDevelop's Asset Store
+# Selling on GDevelop's Asset Store
 
-GDevelop has its own built-in asset store, allowing game creators to access game art and game templates directly within the app.
-By providing easy-to-use and high-quality assets, we're enabling creators to get a head start on their video game creation journey.
+The Asset Store is built into GDevelop. Game creators open it from the editor to find game art and ready-to-use game templates, and add them to their project in one click.
+
+You can sell your own work there. This page explains how it works: what you need, how much you earn, and how you get paid.
 
 ![](asset-store.png)
 
-To become a seller you will be required to:
+## What you need to become a seller
 
-1. Agree to revenue sharing.
-1. Choose for your pack: a title, a description, a price (free or paid), and a license.
-1. Produce a thumbnail image in 16:9 format.
-1. Produce between 1 and 10 images (or audio) representing the content of the pack.
-1. Integrate your assets into a GDevelop project or export valid files for the store.
+1. Accept the revenue sharing described below.
+1. Choose a title, a description, a price (free or paid) and a license for your pack.
+1. Make a thumbnail image in 16:9 format.
+1. Make between 1 and 10 preview images (or audio files) that show what is in the pack.
+1. Put your assets into a GDevelop project, or export valid files for the store.
 1. Send us your files.
-
-Read on to learn more about revenue sharing, payouts, and other agreements to know before becoming a seller.
 
 ## Revenue sharing
 
 ![](revenue-sharing.png)
 
-When one of your products is sold on GDevelop's Asset Store, the price paid by the buyer is first stripped of the taxes (VAT or sales tax), then the remaining amount is shared as follows: **60% for the creator and 40% for GDevelop**.
+When someone buys one of your products, here is what happens:
 
-In other words, your share is always expressed as a percentage of the price **excluding taxes**. Tax rates vary a lot from one country to another, and the buyer's country decides which rate applies, so this is the only way to state a share that means the same thing for every sale.
+1. The taxes (VAT or sales tax) are removed from the price paid by the buyer.
+1. What is left is shared: **60% for you, 40% for GDevelop**.
 
-A few rules apply to every sale, whatever the buyer's country or payment method:
+Your share is always a percentage of the price **without taxes**. Tax rates change a lot from one country to another, and they depend on the buyer's country, not yours. Counting your share before taxes is the only way to make it mean the same thing for every sale.
 
-- **Taxes are never part of the split.** When a buyer is charged VAT (for instance in the European Union), GDevelop collects and declares it. It is removed before the 60/40 split, so it never reduces nor increases your share.
-- **Your share is the same for every payment method.** Whether the buyer paid by card, with PayPal, through a mobile app store or with GDevelop credits, the amount you earn on a given product does not change.
-- **Discounts are shared too.** During a promotion, the 60/40 split applies to the discounted price: both you and GDevelop earn less on that sale. For example, a product sold at 10 EUR excluding taxes earns you 6 EUR, and 3 EUR if it is sold at half price during a promotion.
-- **Purchases made with GDevelop credits count as regular sales.** Creators can buy products with credits they purchased or earned. These sales are paid to you in real money along with your other sales.
+A few rules apply to every sale:
+
+- **Taxes never change your share.** GDevelop collects and declares them. They are removed before the 60/40 split.
+- **The payment method doesn't matter.** Card, PayPal, a mobile app store or GDevelop credits: you earn the same amount for a given product.
+- **Discounts are shared.** During a promotion, the 60/40 split applies to the discounted price, so both you and GDevelop earn less on that sale. For example, a product sold at 10 EUR before taxes earns you 6 EUR. Sold at half price during a promotion, it earns you 3 EUR.
+- **Sales paid with GDevelop credits are real sales.** Creators can pay with credits they bought or earned. You are paid for these sales in real money, with your other sales.
 
 !!! note
 
-    Earnings from GDevelop paying services (including [premium licenses](https://gdevelop.io/pricing)) are reinvested in internet hosting fees, engine development, product research, and feature development.
+    GDevelop's share, like the money from [premium subscriptions](https://gdevelop.io/pricing), pays for hosting, engine development, research and new features.
 
 ## The pricing
 
-Products on the store can be:
+A product on the store can be:
 
-- **Free**: These assets are accessible to anyone, royalty-free, and open for any type of modification.
-- **Paid**: These assets are of higher quality and are carefully selected by the GDevelop team for a more unique game style.
+- **Free**: anyone can use it, without paying royalties, and can change it in any way.
+- **Paid**: these products are selected by the GDevelop team for their quality and their unique style.
 
-Setting the right price for your work is important. A lower price reduces your revenue per sale, while a higher price may lead to fewer sales. Check some products on the Asset Store to understand current pricing.
+Choose your price with care. A low price means less money per sale. A high price may mean fewer sales. Look at similar products on the Asset Store to see the usual prices.
 
-If your price is significantly above or below the average, the GDevelop team may contact you to suggest an adjustment.
+If your price is far above or below the others, the GDevelop team may contact you to suggest a change.
 
 !!! note
 
-    Please note that if you would like to change the price of the pack afterward, you will have to get in touch with us.
+    To change the price of a pack after it is published, get in touch with us.
 
 ## The license(s)
 
-We suggest these licenses for your assets:
+We suggest these licenses:
 
-- **Free**: [CC0](https://creativecommons.org/public-domain/cc0/), [MIT licensed](https://en.wikipedia.org/wiki/MIT_License) or [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
-- **Paid**: Assets are covered by the [Asset Store License Agreement](https://gdevelop.io/page/asset-store-license-agreement).
+- **Free** products: [CC0](https://creativecommons.org/public-domain/cc0/), [MIT](https://en.wikipedia.org/wiki/MIT_License) or [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+- **Paid** products: they are covered by the [Asset Store License Agreement](https://gdevelop.io/page/asset-store-license-agreement).
 
 !!! warning
 
-    You have to own the rights to your assets. If an asset is flagged for infringing copyright after being accepted and uploaded to the store, we reserve the right to remove the entire pack or the asset and cancel all purchases that have been processed for it.
+    You must own the rights to what you sell. If an asset is reported for copyright infringement after it is published, we may remove the asset or the whole pack, and cancel all its purchases.
 
 ## Payouts
 
-Your earnings are accumulated and paid out in batches: every few months, or once you have a significant number of pending sales, GDevelop sends you a single payment covering all the sales made since your previous payout.
+You are not paid after each sale. Your earnings add up, and GDevelop sends you one payment every few months, or sooner if you have many pending sales. This payment covers all your sales since the previous one.
 
-- All your sales are added up, whatever the payment method used by the buyers (card, PayPal, credits).
-- The total is converted, if needed, into the currency of your own country (for instance euros for a seller in France, US dollars for a seller in New Zealand), at the exchange rate of the day of the payout.
-- The amount is paid excluding VAT.
-- A sale that is refunded or cancelled is removed from your pending earnings.
+For each payout:
 
-Payments are sent through one of these two providers, depending on your country (see the table below):
+- All your sales are added up, whatever the payment method used by the buyers.
+- The total is converted into the currency of your country if needed (for example euros in France, US dollars in New Zealand), at the exchange rate of the payout day.
+- The amount is paid without VAT.
+- A sale that was refunded or cancelled is not counted.
 
-- **Stripe:** Recommended for professionals and most EU countries. The GDevelop team will create a Stripe vendor account for you. To activate it, you'll need to complete your registration by providing your email address, home address, full name, and bank details. Once set up, you'll be able to track all your transactions through the Stripe dashboard. Payouts to your bank account can be scheduled directly from Stripe, with daily transfers available.
+Payments go through one of two providers, depending on your country (see the table below):
 
-- **Tremendous:** You will receive an email with a private link to claim your gift card or Virtual Visa Card.
+- **Stripe**, recommended for professionals and most EU countries. The GDevelop team creates a Stripe vendor account for you. To activate it, you give your email address, home address, full name and bank details. You can then follow all your transactions in the Stripe dashboard, and schedule transfers to your bank account, even daily.
+- **Tremendous**: you receive an email with a private link to claim a gift card or a Virtual Visa Card.
 
-Each payout comes with a **payout invoice** sent to you by email (its number starts with `GD-PAYOUT-`). It lists the number of sales covered and the amount paid, and serves as your accounting record for the payment. See [Invoice management](#invoice-management) below.
+Each payout comes with a **payout invoice**, sent by email. Its number starts with `GD-PAYOUT-`. It lists the number of sales covered and the amount paid, so you can keep it for your accounting. See [Invoice management](#invoice-management) below.
 
-To be eligible to sell on the Asset Store and receive payouts, we require the following:
+To sell on the Asset Store and receive payouts, we need:
 
 - Your full name.
-- Email address.
-- An address in your country of residence.
-- Bank details (Stripe only)
-- You need to be older than 13 years old. (According to [Stripe's terms and conditions](https://support.stripe.com/questions/age-requirement-to-create-a-stripe-account) users under 18 years old will need the permission of a legal guardian to withdraw their earnings.)
+- Your email address.
+- An address in the country where you live.
+- Your bank details (Stripe only).
+- You must be over 13. Under 18, you need the permission of a legal guardian to withdraw your earnings, as required by [Stripe's terms](https://support.stripe.com/questions/age-requirement-to-create-a-stripe-account).
 
-See the table below to check if your country is eligible. If your country is not on the list, please reach out to us so we can verify and let you know.
+Check the table below to see if your country is supported. If it is not listed, contact us: we will check and let you know.
 
 | Provider(s) | Country                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -99,28 +102,26 @@ See the table below to check if your country is eligible. If your country is not
 
 ## Invoice management
 
-GDevelop's Asset Store is built as a marketplace: GDevelop hosts a digital solution that allows users to sell their products (sellers) to users that would like to use them in their projects (buyers).
+The Asset Store is a marketplace: GDevelop runs the platform, sellers put their products on it, and buyers use these products in their games.
 
-Here is what happens when a buyer purchases a product on the asset store:
+When a buyer purchases your product:
 
-- GDevelop buys the product from the seller.
-- GDevelop resells it to the buyer, and handles the taxes and the payment provider on this sale.
+- GDevelop buys the product from you.
+- GDevelop sells it to the buyer, and handles the taxes and the payment provider.
 
-From the accounting point of view, the seller should create an invoice addressed to GDevelop for the products it bought.
-To avoid obliging sellers to create such invoices, GDevelop creates **self-billing invoices** on your behalf: invoices issued in your name, addressed to GDevelop France SAS, for each payout you receive. They are sent to you by email with each payout, and sellers paid through Stripe can also retrieve them from their Stripe dashboard.
+On paper, you should send GDevelop an invoice for the products it bought from you. To save you this work, GDevelop writes these invoices for you: they are called **self-billing invoices**. They are issued in your name, addressed to GDevelop France SAS, one for each payout. You receive them by email with each payout. If you are paid through Stripe, you can also find them in your Stripe dashboard.
 
-As a seller, by selling your products on GDevelop's Asset Store, you accept that GDevelop creates self-billing invoices for the purchases of your products.
+By selling on the Asset Store, you agree that GDevelop creates these self-billing invoices for you.
 
 ## Asset Pack Storage and Safety
 
-All Asset Packs are safely stored on GDevelop's cloud.
-This way, we ensure that the files are available for instant purchase and in-app use.
+All asset packs are stored on GDevelop's cloud. This keeps them available for instant purchase and use inside the editor.
 
 ## Submitting on the Asset Store
 
-First and foremost, we want to ensure the Asset Store remains a place of high quality and is safe for everyone to use. Assets must be fully functional within the game engine to be eligible for the Asset Store.
+We want the Asset Store to stay a safe place with quality products. To be accepted, your assets must work fully in GDevelop.
 
-Follow the guide that applies to your submission:
+Follow the guide that matches what you want to sell:
 
 [Submitting an asset pack](/gdevelop5/community/contribute-to-the-assets-store/){ .md-button .md-button--primary }
 
