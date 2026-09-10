@@ -12,6 +12,11 @@ You can use this effect to apply all manner of warping effects. Currently, the `
 
 > It uses the values of the displacement map to look up the correct pixels to output. This means it's not moving the original. Instead, it's starting from the original output and displays the screen differently based on the displacement map. For example, if a displacement map pixel has red = 1 and the filter scale is 20, this filter will output the pixel approximately 20 pixels to the right of the original.
 
+The **scale on X axis** and **scale on Y axis** settings control how strong the displacement is on each axis (in pixels). Set one of them to 0 to warp the image only horizontally or only vertically.
+
+!!! note
+
+    This effect only works on 2D layers and objects.
 
 ## Reference
 
