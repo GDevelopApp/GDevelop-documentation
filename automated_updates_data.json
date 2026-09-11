@@ -104,6 +104,10 @@
     {
       "date": "2026-07-07",
       "summary": "Improved keyboard docs: added 'Key just pressed' (held vs one-frame) and 'Any key released' conditions, control-remapping note, and a reference list of valid key names"
+    },
+    {
+      "date": "2026-09-11",
+      "summary": "Added a 'Settings' section to the CRT, drop shadow, god rays, Kawase blur, outline, RGB split and tilt shift effect pages explaining their key adjustable properties and padding tips"
     }
   ]
 }
