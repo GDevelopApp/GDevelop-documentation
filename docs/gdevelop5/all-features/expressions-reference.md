@@ -1699,8 +1699,8 @@ Smoothly animate object properties over time — such as position, rotation scal
 
 | Expression | Description |  |
 |-----|-----|-----|
-| `Tween::Ease(string, number, number, number)` | Tween between 2 values according to an easing function. ||
-| | _🔤 String_ | Easing |
+| `Tween::Ease(easing, number, number, number)` | Tween between 2 values according to an easing function. ||
+| | _easing_ | Easing |
 | | _🔢 Number_ | From value |
 | | _🔢 Number_ | To value |
 | | _🔢 Number_ | Weighting From 0 to 1. |
