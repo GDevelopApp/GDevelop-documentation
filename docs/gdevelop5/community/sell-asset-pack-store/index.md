@@ -1,108 +1,127 @@
 ---
-title: Selling assets on GDevelop's Asset Store
+title: Selling on GDevelop's Asset Store
 ---
 
-# Selling assets on GDevelop's Asset Store
+# Selling on GDevelop's Asset Store
 
-GDevelop has its own built-in asset store, allowing game creators to access game art and game templates directly within the app.
-By providing easy-to-use and high-quality assets, we're enabling creators to get a head start on their video game creation journey.
+The Asset Store is built into GDevelop. Game creators open it from the editor to find game art and ready-to-use game templates, and add them to their project in one click.
+
+You can sell your own work there. This page explains how it works: what you need, how much you earn, and how you get paid.
 
 ![](asset-store.png)
 
-To become a seller you will be required to:
+## What you need to become a seller
 
-1. Agree to revenue sharing.
-2. Choose for your pack: a title, a description, a price (free or paid), and a license.
-3. Produce a thumbnail image in 16:9 format.
-4. Produce between 1 and 10 images (or audio) representing the content of the pack.
-5. Integrate your assets into a GDevelop project or export valid files for the store.
-6. Send us your files.
-
-Read on to learn more about revenue sharing, transactions, and other agreements to know before becoming a seller.
+1. Accept the revenue sharing described below.
+1. Choose a title, a description, a price (free or paid) and a license for your pack.
+1. Make a thumbnail image in 16:9 format.
+1. Make between 1 and 10 preview images (or audio files) that show what is in the pack.
+1. Put your assets into a GDevelop project, or export valid files for the store.
+1. Send us your files.
 
 ## Revenue sharing
 
 ![](revenue-sharing.png)
 
-When an asset is sold on GDevelop's Asset Store, the purchase is distributed as follows: 40% for the Asset creator, 33% for GDevelop, and 27% for government taxes (VAT) and payment provider fees.
+When someone buys one of your products, here is what happens:
+
+1. The taxes (VAT or sales tax) are removed from the price paid by the buyer.
+1. What is left is shared: **60% for you, 40% for GDevelop**.
+
+Your share is always a percentage of the price **without taxes**. Tax rates change a lot from one country to another, and they depend on the buyer's country, not yours. Counting your share before taxes is the only way to make it mean the same thing for every sale.
+
+A few rules apply to every sale:
+
+- **Taxes never change your share.** GDevelop collects and declares them. They are removed before the 60/40 split.
+- **The payment method doesn't matter.** Card, PayPal, a mobile app store or GDevelop credits: you earn the same amount for a given product.
+- **Discounts are shared.** During a promotion, the 60/40 split applies to the discounted price, so both you and GDevelop earn less on that sale. For example, a product sold at 10 EUR before taxes earns you 6 EUR. Sold at half price during a promotion, it earns you 3 EUR.
+- **Sales paid with GDevelop credits are real sales.** Creators can pay with credits they bought or earned. You are paid for these sales in real money, with your other sales.
 
 !!! note
 
-    Earnings from GDevelop paying services (including [premium licenses](https://gdevelop.io/pricing)) are reinvested in internet hosting fees, engine development, product research, and feature development.
+    GDevelop's share, like the money from [premium subscriptions](https://gdevelop.io/pricing), pays for hosting, engine development, research and new features.
 
 ## The pricing
 
-Products on the store can be:
+A product on the store can be:
 
-- **Free**: These assets are accessible to anyone, royalty-free, and open for any type of modification.
-- **Paid**: These assets are of higher quality and are carefully selected by the GDevelop team for a more unique game style.
+- **Free**: anyone can use it, without paying royalties, and can change it in any way.
+- **Paid**: these products are selected by the GDevelop team for their quality and their unique style.
 
-Setting the right price for your work is important. A lower price reduces your revenue share, while a higher price may lead to fewer sales. Check some products on the Asset Store to understand current pricing.
+Choose your price with care. A low price means less money per sale. A high price may mean fewer sales. Look at similar products on the Asset Store to see the usual prices.
 
-If your price is significantly above or below the average, the GDevelop team may contact you to suggest an adjustment.
+If your price is far above or below the others, the GDevelop team may contact you to suggest a change.
 
 !!! note
 
-    Please note that if you would like to change the price of the pack afterward, you will have to get in touch with us.
+    To change the price of a pack after it is published, get in touch with us.
 
 ## The license(s)
 
-We suggest these licenses for your assets:
+We suggest these licenses:
 
-- **Free**: [CC0](https://creativecommons.org/public-domain/cc0/), [MIT licensed](https://en.wikipedia.org/wiki/MIT_License) or [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
-- **Paid**: Assets are covered by the [Asset Store License Agreement](https://gdevelop.io/page/asset-store-license-agreement).
+- **Free** products: [CC0](https://creativecommons.org/public-domain/cc0/), [MIT](https://en.wikipedia.org/wiki/MIT_License) or [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+- **Paid** products: they are covered by the [Asset Store License Agreement](https://gdevelop.io/page/asset-store-license-agreement).
 
 !!! warning
 
-    You have to own the rights to your assets. If an asset is flagged for infringing copyright after being accepted and uploaded to the store, we reserve the right to remove the entire pack or the asset and cancel all purchases that have been processed for it.
+    You must own the rights to what you sell. If an asset is reported for copyright infringement after it is published, we may remove the asset or the whole pack, and cancel all its purchases.
 
-## Invoice management
+## Payouts
 
-GDevelop's Asset Store is built as a marketplace: GDevelop hosts a digital solution that allows users to sell their products (sellers) to users that would like to use them in their projects (buyers).
+You are not paid after each sale. Your earnings add up, and GDevelop sends you one payment every few months, or sooner if you have many pending sales. This payment covers all your sales since the previous one.
 
-Here is what happens when a buyer purchases a product on the asset store:
+For each payout:
 
-- GDevelop buys the product from the seller.
-- GDevelop resells it to the buyer.
+- All your sales are added up, whatever the payment method used by the buyers.
+- The total is converted into the currency of your country if needed (for example euros in France, US dollars in New Zealand), at the exchange rate of the payout day.
+- The amount is paid without VAT.
+- A sale that was refunded or cancelled is not counted.
 
-From the accounting point of view, the seller should create an invoice addressed to GDevelop.
-To avoid obliging sellers to create such invoices, GDevelop will create self-billing invoices that you will be able to retrieve with Stripe.
+Payments go through one of two providers, depending on your country (see the table below):
 
-As a seller, by selling your products on GDevelop's Asset Store, you accept that GDevelop creates self-billing invoices for each purchase of your products.
+- **Stripe**, recommended for professionals and most EU countries. The GDevelop team creates a Stripe vendor account for you. To activate it, you give your email address, home address, full name and bank details. You can then follow all your transactions in the Stripe dashboard, and schedule transfers to your bank account, even daily.
+- **Tremendous**: you receive an email with a private link to claim a gift card or a Virtual Visa Card.
 
-## Transaction management
+Each payout comes with a **payout invoice**, sent by email. Its number starts with `GD-PAYOUT-`. It lists the number of sales covered and the amount paid, so you can keep it for your accounting. See [Invoice management](#invoice-management) below.
 
-Every few months or when you have a significant number of sales, payments are sent to you through Stripe or [Tremendous](https://www.tremendous.com/catalog/).
-
-- **Stripe:** Recommended for professionals and most EU countries. With Stripe, you’ll get access to a dashboard where you can view your transactions and invoices. The GDevelop team will create a Stripe vendor account for you. To activate it, you’ll need to complete your registration by providing your email address, home address, full name, and bank details. Once set up, you’ll be able to track all your transactions through the dashboard. Payouts to your bank account can be scheduled directly from Stripe, with daily transfers available.
-
-- **Tremendous:** You will receive an email with a private link to claim your gift card or Virtual Visa Card.
-
-GDevelop issues invoices. To do this, and to be eligible to sell on the Asset Store, we require the following:
+To sell on the Asset Store and receive payouts, we need:
 
 - Your full name.
-- Email address.
-- An address in your country of residence.
-- Bank details (Stripe only)
-- You need to be older than 13 years old. (According to [Stripe's terms and conditions](https://support.stripe.com/questions/age-requirement-to-create-a-stripe-account) users under 18 years old will need the permission of a legal guardian to withdraw their earnings.)
+- Your email address.
+- An address in the country where you live.
+- Your bank details (Stripe only).
+- You must be over 13. Under 18, you need the permission of a legal guardian to withdraw your earnings, as required by [Stripe's terms](https://support.stripe.com/questions/age-requirement-to-create-a-stripe-account).
 
-See the table below to check if your country is eligible. If your country is not on the list, please reach out to us so we can verify and let you know.
+Check the table below to see if your country is supported. If it is not listed, contact us: we will check and let you know.
 
 | Provider(s) | Country                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Stripe      | Estonia, Finland, Croatia, Cyprus, Australia, Belgium, Bulgaria, Czech Republic, Denmark, France, Germany, Gibraltar, Greece, Hungary, Ireland, Italy, Liechtenstein, Lithuania, Luxembourg, Malta, Norway, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Switzerland, United Kingdom.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | Tremendous  | Albania, Algeria, American Samoa, Andorra, Angola, Anguilla, Antarctica, Antigua and Barbuda, Argentina, Armenia, Aruba, Austria, Azerbaijan, Bahamas, Bahrain, Bangladesh, Barbados, Belize, Benin, Bermuda, Bhutan, Bolivia, Bonaire, Bosnia and Herzegovina, Botswana, Bouvet Island, Brazil, British Indian Ocean Territory, British Virgin Islands, Brunei Darussalam, Burkina Faso, Burundi, Cambodia, Cameroon, Canada, Cape Verde, Cayman Islands, Chad, Chile, Christmas Island, Cocos (Keeling) Islands, Colombia, Comoros, Congo, Cook Islands, Costa Rica, Cote d'Ivoire, Curacao, Djibouti, Dominica, Dominican Republic, East Timor, Ecuador, Egypt, El Salvador, Equatorial Guinea, Eritrea, Eswatini, Falkland Islands (Malvinas), Faroe Islands, Fiji, French Guiana, French Polynesia, French Southern Territories, Gabon, Gambia, Georgia, Ghana, Greenland, Grenada, Guadeloupe, Guam, Guatemala, Guernsey, Guinea, Guinea-Bissau, Guyana, Haiti, Heard Island and McDonald Islands, Honduras, Iceland, Isle of Man, Israel, Jamaica, Japan, Jersey, Jordan, Kazakhstan, Kenya, Kiribati, Kuwait, Kyrgyzstan, Laos, Latvia, Lesotho, Liberia, Macao, Madagascar, Malawi, Maldives, Marshall Islands, Martinique, Mauritania, Mauritius, Mayotte, Mexico, Micronesia, Moldova, Monaco, Mongolia, Montenegro, Montserrat, Morocco, Mozambique, Namibia, Nauru, Nepal, Netherlands, New Caledonia, New Zealand, Niger, Nigeria, Niue, Norfolk Island, North Macedonia, Northern Mariana Islands, Oman, Pakistan, Palau, Palestine, Panama, Paraguay, Peru, Pitcairn, Puerto Rico, Qatar, Reunion, Rwanda, Saint Barthelemy, Saint Helena, Saint Kitts and Nevis, Saint Lucia, Saint Martin (French part), Saint Pierre and Miquelon, Saint Vincent and the Grenadines, Samoa, San Marino, Sao Tome and Principe, Saudi Arabia, Senegal, Serbia, Seychelles, Sierra Leone, Singapore, Sint Maarten (Dutch part), Solomon Islands, South Africa, South Georgia and the South Sandwich Islands, South Korea, Sri Lanka, Suriname, Svalbard and Jan Mayen, Taiwan, Tajikistan, Tanzania, Togo, Tokelau, Tonga, Trinidad and Tobago, Tunisia, Turkey, Turkmenistan, Turks and Caicos Islands, Tuvalu, United Arab Emirates, United States, United States Minor Outlying Islands, Uruguay, US Virgin Islands, Uzbekistan, Vatican City, Vietnam, Wallis and Futuna, Western Sahara, Zambia, Estonia, Finland, Croatia, Cyprus, Australia, Belgium, Bulgaria, Czech Republic, Denmark, France, Germany, Gibraltar, Greece, Hungary, Ireland, Italy, Liechtenstein, Lithuania, Luxembourg, Malta, Norway, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Switzerland, United Kingdom. |
 
+## Invoice management
+
+The Asset Store is a marketplace: GDevelop runs the platform, sellers put their products on it, and buyers use these products in their games.
+
+When a buyer purchases your product:
+
+- GDevelop buys the product from you.
+- GDevelop sells it to the buyer, and handles the taxes and the payment provider.
+
+On paper, you should send GDevelop an invoice for the products it bought from you. To save you this work, GDevelop writes these invoices for you: they are called **self-billing invoices**. They are issued in your name, addressed to GDevelop France SAS, one for each payout. You receive them by email with each payout. If you are paid through Stripe, you can also find them in your Stripe dashboard.
+
+By selling on the Asset Store, you agree that GDevelop creates these self-billing invoices for you.
+
 ## Asset Pack Storage and Safety
 
-All Asset Packs are safely stored on GDevelop's cloud.
-This way, we ensure that the files are available for instant purchase and in-app use.
+All asset packs are stored on GDevelop's cloud. This keeps them available for instant purchase and use inside the editor.
 
 ## Submitting on the Asset Store
 
-First and foremost, we want to ensure the Asset Store remains a place of high quality and is safe for everyone to use. Assets must be fully functional within the game engine to be eligible for the Asset Store.
+We want the Asset Store to stay a safe place with quality products. To be accepted, your assets must work fully in GDevelop.
 
-Follow the guide that applies to your submission:
+Follow the guide that matches what you want to sell:
 
 [Submitting an asset pack](/gdevelop5/community/contribute-to-the-assets-store/){ .md-button .md-button--primary }
 
