@@ -46,6 +46,10 @@ Custom objects are full featured, autonomous objects which embeds their own logi
 
 Read more about [creating custom objects here](/gdevelop5/objects/custom-objects-prefab-template).
 
+### Organize items across extensions
+
+As your extensions grow, you can reorganize them: custom objects, behaviors and functions (as well as function folders) can be moved to another extension from their right-click menu. This is handy for splitting a large extension into smaller ones, or for regrouping related items together.
+
 ## Share your extensions
 
 If you've created an extension providing a useful, reusable behaviors or set of functions, you can [share them with the community](/gdevelop5/extensions/share-extension).
