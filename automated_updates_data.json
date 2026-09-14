@@ -104,6 +104,10 @@
     {
       "date": "2026-07-07",
       "summary": "Improved keyboard docs: added 'Key just pressed' (held vs one-frame) and 'Any key released' conditions, control-remapping note, and a reference list of valid key names"
+    },
+    {
+      "date": "2026-09-14",
+      "summary": "Improved P2P docs: documented sending/receiving event data (extra data vs variables, sender), connection/disconnection/error events, disconnect actions, and IP-hiding relay server option"
     }
   ]
 }
