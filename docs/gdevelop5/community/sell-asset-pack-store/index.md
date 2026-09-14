@@ -25,7 +25,7 @@ You can sell your own work there. This page explains how it works: what you need
 
 When someone buys one of your products, here is what happens:
 
-1. The taxes (VAT or sales tax) are removed from the price paid by the buyer.
+1. The taxes (VAT or sales tax) plus the payment processing fees are removed from the price paid by the buyer.
 1. What is left is shared: **60% for you, 40% for GDevelop**.
 
 Your share is always a percentage of the price **without taxes**. Tax rates change a lot from one country to another, and they depend on the buyer's country, not yours. Counting your share before taxes is the only way to make it mean the same thing for every sale.
