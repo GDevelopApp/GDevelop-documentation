@@ -102,6 +102,7 @@ If you're working on a **local project** (saved on your computer) rather than a 
 
 - **Stop**: if the AI starts going off-track, click **Stop** to pause it. It will wait for your next message instead of continuing.
 - **New chat**: when you've finished a task, start a new conversation. This keeps each chat focused on one topic and helps the AI avoid confusing it with unrelated details.
+- **Past chats**: you can reopen a previous conversation from the chat history, where the chats of the currently opened project are listed first. From there, chats can also be renamed, archived or deleted.
 
 ## Cost of AI requests
 
