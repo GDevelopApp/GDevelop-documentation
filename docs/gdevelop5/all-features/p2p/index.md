@@ -75,6 +75,34 @@ The default P2P ID generation is very long to avoid conflicts, but if you want t
 
 Once you got connected, you can trigger actions remotely. You can select another specific game instance (using its id) or send an event to all connected instances.
 
+Communication is based on named **events**. One client triggers an event (a text label of your choice, like `"PlayerMoved"` or `"Chat"`), optionally attaching some data. On the other clients, the "Event triggered by peer" condition becomes true for one frame when that event is received, so you can react to it.
+
+### Sending data with an event
+
+When triggering an event on other clients, you can attach data in two ways:
+
+* As **text (a string)**: convenient for a single value. To send several values at once, pack them into JSON with the string/variable conversion expressions.
+* As a **variable**: use the "(variable)" version of the action to send an entire variable, including a structure or array. This is the easiest way to send multiple or nested values.
+
+### Receiving data
+
+When the "Event triggered by peer" condition is true, retrieve what was sent with:
+
+* The `P2P::GetEventData("EventName")` expression to read the attached text.
+* The **Get event data (variable)** action to copy the received variable (structure or array) into one of your own variables.
+
+You can also identify who sent the event with the `P2P::GetEventSender("EventName")` expression, which returns the ID of the peer that triggered it — useful to send a reply back to only that client.
+
+### Detecting connections and disconnections
+
+Several conditions let you react to the connection lifecycle without polling:
+
+* **Peer connected** / **Peer disconnected**: triggered once when a remote peer connects or disconnects. Use the `P2P::GetLastConnectedPeer()` and `P2P::GetLastDisconnectedPeer()` expressions to know which peer it was (for example, to remove a disconnected player's objects).
+* **An error occurred**: triggered once when something goes wrong; read the details with `P2P::GetLastError()`.
+* **Is P2P ready**: true once the extension has finished initializing and can be used.
+
+To end connections yourself, use the disconnect actions (from a specific peer, from all peers, from the broker only, or from everything at once).
+
 ### Choosing if you want to activate data loss mode
 
 You might be wondering what the "data loss" parameter is for.
