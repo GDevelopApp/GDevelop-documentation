@@ -447,17 +447,14 @@ Tweens the object opacity from its current value to a new one (note: the value s
 
     - Parameter 0: 👾 Object
     - Parameter 1: 🧩 Behavior
-    - Parameter 2 (🔤 Name (String)): Tween Identifier
-    - Parameter 3 (🔢 Number): To opacity
-    - Parameter 4: easing
-    - Parameter 5 (🔢 Number): Duration (in seconds)
-    - Parameter 6 (❓ Yes or No): Destroy this object when tween finishes
+    - Parameter 2 (🧩 Behavior): Opacity capability
+    - Parameter 3 (🔤 Name (String)): Tween Identifier
+    - Parameter 4 (🔢 Number): To opacity
+    - Parameter 5: easing
+    - Parameter 6 (🔢 Number): Duration (in seconds)
+    - Parameter 7 (❓ Yes or No): Destroy this object when tween finishes
 
-    > Technical note: this action internal type (in GDevelop JSON) is `Tween::TweenBehavior::AddObjectOpacityTween2`.
-
-??? tip "Hints and advice"
-
-    Tweening opacity only works on 2D objects, it has no effect/won't run on 3D objects.
+    > Technical note: this action internal type (in GDevelop JSON) is `Tween::TweenBehavior::AddObjectOpacityTween3`.
 
 **Tween object position**  
 Tweens an object position from its current position to a new one.
