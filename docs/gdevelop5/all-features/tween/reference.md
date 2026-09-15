@@ -113,6 +113,21 @@ Tweens the camera rotation from the current angle to a new one.
 
     > Technical note: this action internal type (in GDevelop JSON) is `Tween::TweenCameraRotation2`.
 
+**Tween the camera Z position**  
+Tweens the camera Z position from the current one to a new one.
+
+??? quote "See parameters & details"
+
+    - Parameter 1 (🔤 Name (String)): Tween Identifier
+    - Parameter 2 (🔢 Number): Target Z position
+    - Parameter 3: 🔤 Layer name (String)
+    - Parameter 4: easing
+    - Parameter 5 (🔢 Number): Duration (in seconds)
+
+    > Technical note: parameter 0 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `Tween::TweenCameraZ`.
+
 **Tween the camera zoom**  
 Tweens the camera zoom from the current zoom factor to a new one.
 
