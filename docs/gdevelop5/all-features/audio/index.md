@@ -23,7 +23,8 @@ The supported audio file formats depends on the platform, but are generally:
 Some platforms also support:
 
 * MP3 — but quality is below AAC (and this might not be always supported on some devices or operating systems), 
-* Ogg Vorbis (OGG), but it won't work on iOS and on the Safari browser.
+* Ogg Vorbis (OGG), but it won't work on iOS and on the Safari browser,
+* MPEG-4 Audio (M4A), which usually contains AAC-encoded audio.
 
 
 !!! tip
