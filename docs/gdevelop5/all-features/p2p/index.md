@@ -75,6 +75,17 @@ The default P2P ID generation is very long to avoid conflicts, but if you want t
 
 Once you got connected, you can trigger actions remotely. You can select another specific game instance (using its id) or send an event to all connected instances.
 
+### Sending and receiving data
+
+Communication between clients works through **named events**. On the sending side, you trigger an event on one client ("Trigger event on a specific client") or on every connected client ("Trigger event on all connected clients"), choosing an event name of your own (for example `"playerMoved"` or `"chatMessage"`).
+
+You can attach data to an event in two ways:
+
+* As a piece of **extra data** (a text), passed directly in the action. To read it on the receiving side, use the `P2P::GetEventData()` expression with the same event name.
+* As a **variable** (using the "(variable)" versions of the actions). A whole structure or array can be sent this way. On the receiving side, use the "Get event data (variable)" action to load the received data back into a variable.
+
+On the receiving side, react to incoming events with the **"Event triggered by peer"** condition, using the same event name. Inside that event you can read the transmitted data and use the `P2P::GetEventSender()` expression to know which client (by its ID) sent it, so you can, for example, reply only to that peer.
+
 ### Choosing if you want to activate data loss mode
 
 You might be wondering what the "data loss" parameter is for.
@@ -88,6 +99,23 @@ Here are two examples:
 
 * if you use a synchronized score counter, you don't want to lose any data, as missing only one point of the counter would *desynchronize* the counters, so the dataloss mode would be deactivated.
 * If you want to synchronize positions, only the last position sent is relevant, not older positions. In this case, you would activate the dataloss mode *to prevent delays/lags*.
+
+## Reacting to connections, disconnections and errors
+
+Because connecting to a broker server and to other clients happens over the network, it is not instantaneous. Use these conditions to keep your game in sync with the actual connection state:
+
+* **Is P2P ready**: true once the client is connected to the broker server and has been assigned an ID. Wait for this before reading `P2P::GetID()` or trying to connect to other clients.
+* **Peer Connected**: triggers once when a remote peer connects to this client. Use the `P2P::GetLastConnectedPeer()` expression to get its ID (for example, to store it in a list of players).
+* **Peer disconnected**: triggers once when a peer disconnects. Use the `P2P::GetLastDisconnectedPeer()` expression to know who left.
+* **An error occurred**: triggers when a P2P error happens (for example, when the broker server is unreachable). Use the `P2P::GetLastError()` expression to get a description of the error.
+
+## Disconnecting
+
+You can end connections at any time with the dedicated actions: disconnect from a single peer, from all peers, from the broker server only (which keeps existing peer connections alive), or from everything at once.
+
+## Hiding player IP addresses
+
+By default, a direct P2P connection exposes each player's IP address to the peers they connect to (see the warning at the top of this page). To avoid this, use the **"Disable IP address sharing"** action: all traffic is then routed through a relay (TURN) server instead of going directly between players, so their IP addresses stay hidden from each other. This requires a suitable relay server to be configured with the **"Use a custom ICE server"** action.
 
 ## Reference
 
