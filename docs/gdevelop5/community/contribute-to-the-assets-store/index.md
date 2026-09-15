@@ -6,7 +6,7 @@ title: Submit an Asset Pack
 
 Publish on GDevelop's asset store, you can publish royalty-free, public domain assets, or even [sell your own game art](/gdevelop5/community/sell-asset-pack-store).
 
-GDevelop streamlines the integration of assets into game projects, eliminating the need for manually editing the assets. To ensure seamless compatibility with the asset store, submitted art must adhere to specific technical requirements. These constraints are easily managed within the engine: simply create objects with your art, configure the objects appropriately, and GDevelop will handle the necessary processing to export your assets in a `.gdo` file format ready for the asset store.
+GDevelop streamlines the integration of assets into game projects, eliminating the need for manually editing the assets. To ensure seamless compatibility with the asset store, submitted art must adhere to specific technical requirements. These constraints are easily managed within the engine: simply create objects with your art, configure the objects appropriately, and GDevelop will handle the necessary processing to export your assets in a [`.gdo` file format](#package-your-art) ready for the asset store.
 
 Before integrating your art into a pack, you'll need to consider its fundamental elements, such as a thumbnail, title, description, and other key details. Let's explore each of these components that define an asset pack.
 
@@ -114,7 +114,9 @@ There are two ways you can package your Asset Pack to submit it to the GDevelop 
 
 - **Recommended:** Set your objects through the engine, and export the `.gdo` file that was automatically generated. This file will include the complete object configuration and folder structure as set up in the engine.
 
-- **Manual packaging:** Set your files manually, if you have a large number of assets, you can create a pack by manually organizing the files without using the game engine editor, following [the provided technical specifications](./technical-specifications.md).
+<div class="video-container">
+  <iframe src="https://www.youtube.com/embed/gP-BLpGyRbk" frameborder="0" allowfullscreen></iframe>
+</div>
 
 To export a `.gdo` file from the GDevelop editor, follow these steps:
 
@@ -123,6 +125,12 @@ To export a `.gdo` file from the GDevelop editor, follow these steps:
 - Right click on **Scene Objects** and choose **Export as a pack**.
 
 ![](export-gdo.png)
+
+
+- **Manual packaging:** Set your files manually, if you have a large number of assets, you can create a pack by manually organizing the files without using the game engine editor, following [the provided technical specifications](./technical-specifications.md).
+
+
+
 
 ### Fit art with an object
 
