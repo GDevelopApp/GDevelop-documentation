@@ -67,6 +67,12 @@ To use that server use the action "Use the default server".
 
 To connect instances, you need to enter their ID in the other instances. The ID can be found with the expression `P2P::GetID()`. To connect, use the "Connect to other instance" action and pass as a parameter the ID of another instance. Both instances will then connect automatically. You can then send an event from one instance to the other one to make sure that the connection is established.
 
+### Reducing IP address leaks
+
+By default, peers share their IP addresses directly with each other to establish the fastest connection possible (see the warning at the top of this page). If you want to avoid this, use the **"Disable IP address sharing"** action *before* connecting to the broker server. This forces all traffic to pass through a **TURN relay server** instead of going peer-to-peer directly.
+
+For this to work you must provide such a relay by adding it with the **"Use a custom ICE server"** action (also called before connecting). This action can be used several times to declare multiple STUN/TURN servers, and accepts an optional username and password for servers that require authentication. For games played over the internet rather than a local network, it is recommended to add at least one self-hosted STUN and TURN server.
+
 ### Changing the ID generation
 
 The default P2P ID generation is very long to avoid conflicts, but if you want to have an easily shareable ID, it is not ideal. You can use a custom ID generation on your custom P2P broker by following [the instructions on the peerjs-server documentation](https://github.com/peers/peerjs-server#custom-client-id-generation).
@@ -74,6 +80,17 @@ The default P2P ID generation is very long to avoid conflicts, but if you want t
 ## Interacting with connected games
 
 Once you got connected, you can trigger actions remotely. You can select another specific game instance (using its id) or send an event to all connected instances.
+
+### Sending and receiving data
+
+A remote event is identified by an **event name** that you choose (for example `"playerMoved"` or `"chatMessage"`). The receiver reacts to it with the **"Event triggered by peer"** condition, using the same event name.
+
+You can attach data to an event when triggering it:
+
+* **Text data**: the "Trigger event on..." actions have an optional *extra data* text parameter. On the receiving side, read it with the `P2P::GetEventData("eventName")` expression.
+* **Variable data**: use the "Trigger event on... (variable)" actions to send a whole variable (including a structure or array). On the receiving side, copy it into one of your variables with the "Get event data (variable)" action.
+
+To know which peer sent an event, use the `P2P::GetEventSender("eventName")` expression, which returns the ID of the client that triggered it.
 
 ### Choosing if you want to activate data loss mode
 
