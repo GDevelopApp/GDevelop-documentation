@@ -43,9 +43,20 @@ If the object is scaled to be larger in pixels than the image used, then the obj
 
 ![](tiled-sprite-100100.png)
 
-You can use events to manipulate the scale and positioning of tiled sprite object, but there are actions unique to tiled sprites. Offsets, which allow a user to scroll through a tiled sprite image without changing it's position. This is often used for scrolling backgrounds, and similar effects.
+You can use events to manipulate the scale and positioning of a tiled sprite object like any other object. Tiled sprites also have a few actions and conditions that are specific to them.
+
+#### Scroll the image with offsets
+
+The **Image X offset** and **Image Y offset** actions shift the image *inside* the object without moving the object itself. Because the image repeats, gradually increasing an offset every frame makes the texture appear to scroll endlessly, which is the usual way to create scrolling backgrounds, moving conveyor belts, flowing water, and similar effects.
 
 ![](/gdevelop5/objects/ChangeOffsetActions.png)
+
+#### Tint and opacity
+
+Like sprites, tiled sprites can be tinted and faded:
+
+- The **Tint color** action multiplies the image by a color (the default, white, leaves the image unchanged). This is handy for reusing the same texture in different colors, or for flashing effects.
+- The **Opacity** action and condition control transparency, from 0 (fully transparent) to 255 (fully opaque).
 
 ## Examples
 
