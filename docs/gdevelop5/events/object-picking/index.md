@@ -21,6 +21,15 @@ The object picking rules are as follows:
 - The "Create an object" action will add to the list of picked objects the newly created instance. **If you use it on an object that was not subject to object picking so far, only the created instance will be picked.**
 - The "Take into account objects linked to" condition will unpick objects that are not linked to the picked instances of the other object.
 
+## Conditions comparing two objects
+
+Some conditions compare two objects together, for example "Collision between two objects", "Distance between two objects" or "Object is turned toward another object". These behave differently from a regular condition depending on whether they are inverted:
+
+- When the condition is **not inverted**, the instances of **both** objects are filtered: only the pairs of instances that satisfy the condition are kept picked. Instances that never satisfy the condition (with any instance of the other object) are unpicked from both objects.
+- When the condition is **inverted** (for example, checking that the two objects are *not* in collision), only the **first** object's instances are filtered. It keeps picked the first object's instances that satisfy the condition with *none* of the second object's instances. The second object's picked instances are left untouched.
+
+This asymmetry is a common source of confusion: after an inverted "collision between two objects" condition, the second object has not been filtered, so all of its previously picked instances are still picked.
+
 ## Examples
 
 ### Example 1: No conditions
