@@ -3,10 +3,6 @@ title: Run gameplay tests from the command line
 ---
 # Run gameplay tests from the command line
 
-!!! danger
-
-    This feature will be available in the next release of GDevelop.
-
 The [gameplay tests](../index.md) of a game can be run without opening the editor manually: GDevelop can be started from the command line, told to open a game and run its tests, and it will exit with a result code. This is useful to:
 
 - Re-run all the tests of a game in one command while working on it.

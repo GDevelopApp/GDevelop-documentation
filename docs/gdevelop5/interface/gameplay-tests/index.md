@@ -3,10 +3,6 @@ title: Gameplay tests
 ---
 # Gameplay tests
 
-!!! danger
-
-    This feature will be available in the next release of GDevelop.
-
 ![A gameplay test code being run, with a preview of the game](./gameplay-test-preview.png)
 
 !!! warning

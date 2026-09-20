@@ -80,11 +80,21 @@ Simulate realistic 3D physics for this object including gravity, forces, collisi
 - **Fixed Rotation** (🔘 Boolean). If enabled, the object won't rotate and will stay at the same angle. Default value is `false`.
 - **Friction** (🔢 Number). The friction applied when touching other objects. The higher the value, the more friction. Default value is `0.3`.
 - **Gravity Scale** (🔢 Number). Gravity Scale multiplies the world's gravity for a specific body, making it experience stronger or weaker gravitational force than normal. Default value is `1`.
+- **Layers** (🔢 Bitmask, one bit per option (Number)). Layers the object belongs to, as a bitmask. Static objects use the layers 1 to 4 (1, 2, 4 and 8) and moving ones the layers 5 to 8 (16, 32, 64 and 128). Default value is `17`.
 - **Linear Damping** (🔢 Number). Linear damping reduces an object's movement speed over time, making its motion slow down smoothly. Default value is `0.1`.
+- **Masks** (🔢 Bitmask, one bit per option (Number)). Layers the object can collide with, as a bitmask: layer 1 is 1, layer 2 is 2, layer 3 is 4, and so on up to layer 8 which is 128. Not used by static objects, which accept every collision. Default value is `17`.
+- **Center of mass X** (🔢 Number, Distance). Offset of the center of mass relative to the object center, on the X axis. Default value is `0`.
+- **Center of mass Y** (🔢 Number, Distance). Offset of the center of mass relative to the object center, on the Y axis. Default value is `0`.
+- **Center of mass Z** (🔢 Number, Distance). Offset of the center of mass relative to the object center, on the Z axis. Default value is `0`.
 - **Mass override** (🔢 Number). Leave at 0 to use the density. Default value is `0`.
 - **Restitution** (🔢 Number). The "bounciness" of the object. The higher the value, the more other objects will bounce against it. Default value is `0.1`.
-- **Shape** (Choice, one of: "Box", "Capsule", "Sphere", "Cylinder", "Mesh"). Default value is `Box`.
-- **Shape orientation** (Choice, one of: "Z", "Y", "X"). Default value is `Z`.
+- **Shape** (Choice, one of: "Box", "Capsule", "Sphere", "Cylinder", "Mesh"). The shape used for collisions. It gives their meaning to the dimension properties. A capsule or a cylinder is extended along the axis given by "Shape orientation" and a mesh uses the model given by "Simplified 3D model". Default value is `Box`.
+- **Width** (🔢 Number, Distance). Width of the box, or radius of the sphere, capsule or cylinder. Use 0 to follow the object size. Default value is `0`.
+- **Height** (🔢 Number, Distance). Height of the box, or size of the capsule or cylinder along its orientation axis. Not used by a sphere. Use 0 to follow the object size. Default value is `0`.
+- **Depth** (🔢 Number, Distance). Depth of the box. Only used by a box. Use 0 to follow the object depth. Default value is `0`.
+- **Shape offset X** (🔢 Number, Distance). Offset of the collision shape relative to the object center, on the X axis. Default value is `0`.
+- **Shape offset Y** (🔢 Number, Distance). Offset of the collision shape relative to the object center, on the Y axis. Default value is `0`.
+- **Shape offset Z** (🔢 Number, Distance). Offset of the collision shape relative to the object center, on the Z axis. Default value is `0`.
 
 ??? quote "See internal technical details"
 
@@ -96,13 +106,23 @@ Simulate realistic 3D physics for this object including gravity, forces, collisi
     - **Fixed Rotation** is stored as `fixedRotation` (Boolean). Default value is `false`.
     - **Friction** is stored as `friction` (Number). Default value is `0.3`.
     - **Gravity Scale** is stored as `gravityScale` (Number). Default value is `1`.
+    - **Layers** is stored as `layers` (Bitmask). Default value is `17`.
     - **Linear Damping** is stored as `linearDamping` (Number). Default value is `0.1`.
+    - **Masks** is stored as `masks` (Bitmask). Default value is `17`.
+    - **Center of mass X** is stored as `massCenterOffsetX` (Number). Unit is Pixel. Default value is `0`.
+    - **Center of mass Y** is stored as `massCenterOffsetY` (Number). Unit is Pixel. Default value is `0`.
+    - **Center of mass Z** is stored as `massCenterOffsetZ` (Number). Unit is Pixel. Default value is `0`.
     - **Mass override** is stored as `massOverride` (Number). Default value is `0`.
     > This behavior must be used on an object also having a behavior with type "Scene3D::Base3DBehavior". This is stored on property `object3D`.
 
     - **Restitution** is stored as `restitution` (Number). Default value is `0.1`.
     - **Shape** is stored as `shape` (Choice). Default value is `Box`.
-    - **Shape orientation** is stored as `shapeOrientation` (Choice). Default value is `Z`.
+    - **Width** is stored as `shapeDimensionA` (Number). Unit is Pixel. Default value is `0`.
+    - **Height** is stored as `shapeDimensionB` (Number). Unit is Pixel. Default value is `0`.
+    - **Depth** is stored as `shapeDimensionC` (Number). Unit is Pixel. Default value is `0`.
+    - **Shape offset X** is stored as `shapeOffsetX` (Number). Unit is Pixel. Default value is `0`.
+    - **Shape offset Y** is stored as `shapeOffsetY` (Number). Unit is Pixel. Default value is `0`.
+    - **Shape offset Z** is stored as `shapeOffsetZ` (Number). Unit is Pixel. Default value is `0`.
 
 ### Behavior shared properties
 

@@ -8,7 +8,7 @@ One SDK for cross-platform publishing HTML5 games.
 ---
 
 One SDK for cross-platform publishing HTML5 games. 
-Please refer to [Playgama documentation](https://wiki.playgama.com/playgama/sdk/getting-started) for detailed guidance.
+Please refer to [Playgama documentation](https://wiki.playgama.com/playgama/sdk/engines/gdevelop) for detailed guidance.
 
 [Read more...](/gdevelop5/extensions/playgama-bridge/details)
 
@@ -28,25 +28,14 @@ Achievements Get List.
 
     > Technical note: this action internal type (in GDevelop JSON) is `PlaygamaBridge::AchievementsGetList`.
 
-**Achievements Show Native Popup**  
-Achievements Show Native Popup.
-
-??? quote "See parameters & details"
-
-    There are no parameters to set for this action.
-
-    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
-
-    > Technical note: this action internal type (in GDevelop JSON) is `PlaygamaBridge::AchievementsShowNativePopup`.
-
 **Achievements Unlock**  
 Achievements Unlock.
 
 ??? quote "See parameters & details"
 
-    There are no parameters to set for this action.
+    - Parameter 1 (🔤 String): Id
 
-    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
     > Technical note: this action internal type (in GDevelop JSON) is `PlaygamaBridge::AchievementsUnlock`.
 
@@ -163,6 +152,83 @@ Create Post.
 
     > Technical note: this action internal type (in GDevelop JSON) is `PlaygamaBridge::CreatePost`.
 
+**Cross Promo Get Games List**  
+Cross Promo Get Games List.
+
+??? quote "See parameters & details"
+
+    There are no parameters to set for this action.
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PlaygamaBridge::CrossPromoGetGamesList`.
+
+**Cross Promo Hide**  
+Cross Promo Hide.
+
+??? quote "See parameters & details"
+
+    There are no parameters to set for this action.
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PlaygamaBridge::CrossPromoHide`.
+
+**Cross Promo Show**  
+Cross Promo Show.
+
+??? quote "See parameters & details"
+
+    There are no parameters to set for this action.
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PlaygamaBridge::CrossPromoShow`.
+
+**Daily Rewards Claim Current Reward**  
+Daily Rewards Claim Current Reward.
+
+??? quote "See parameters & details"
+
+    There are no parameters to set for this action.
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PlaygamaBridge::DailyRewardsClaimCurrentReward`.
+
+**Daily Rewards Get Current Day**  
+Daily Rewards Get Current Day.
+
+??? quote "See parameters & details"
+
+    There are no parameters to set for this action.
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PlaygamaBridge::DailyRewardsGetCurrentDay`.
+
+**Daily Rewards Get Current Reward**  
+Daily Rewards Get Current Reward.
+
+??? quote "See parameters & details"
+
+    There are no parameters to set for this action.
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PlaygamaBridge::DailyRewardsGetCurrentReward`.
+
+**Daily Rewards Get Rewards**  
+Daily Rewards Get Rewards.
+
+??? quote "See parameters & details"
+
+    There are no parameters to set for this action.
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PlaygamaBridge::DailyRewardsGetRewards`.
+
 **Get Server Time**  
 Get Server Time.
 
@@ -252,6 +318,39 @@ Leaderboards Show Native Popup.
 
     > Technical note: this action internal type (in GDevelop JSON) is `PlaygamaBridge::LeaderboardsShowNativePopup`.
 
+**Notifications Cancel**  
+Cancel a previously scheduled notification with the given id.
+
+??? quote "See parameters & details"
+
+    - Parameter 1 (🔤 String): Id
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PlaygamaBridge::NotificationsCancel`.
+
+**Notifications Cancel All**  
+Cancel every notification scheduled by the game.
+
+??? quote "See parameters & details"
+
+    There are no parameters to set for this action.
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PlaygamaBridge::NotificationsCancelAll`.
+
+**Notifications Schedule**  
+Schedule a notification built with Add Action Parameter (id, title, description, delaySeconds, image, callToAction, payload).
+
+??? quote "See parameters & details"
+
+    There are no parameters to set for this action.
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PlaygamaBridge::NotificationsSchedule`.
+
 **Payments Consume Purchase**  
 Payments Consume Purchase.
 
@@ -295,28 +394,6 @@ Payments Purchase.
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
     > Technical note: this action internal type (in GDevelop JSON) is `PlaygamaBridge::PaymentsPurchase`.
-
-**Platform Get All Games**  
-Platform Get All Games.
-
-??? quote "See parameters & details"
-
-    There are no parameters to set for this action.
-
-    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
-
-    > Technical note: this action internal type (in GDevelop JSON) is `PlaygamaBridge::PlatformGetAllGames`.
-
-**Platform Get Game By Id**  
-Platform Get Game By Id.
-
-??? quote "See parameters & details"
-
-    There are no parameters to set for this action.
-
-    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
-
-    > Technical note: this action internal type (in GDevelop JSON) is `PlaygamaBridge::PlatformGetGameById`.
 
 **Rate**  
 Rate.
@@ -367,9 +444,9 @@ Send Storage Data Delete Request.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (🔤 String): Storage Type (one of: "default", "local_storage", "platform_internal")
+    There are no parameters to set for this action.
 
-    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
     > Technical note: this action internal type (in GDevelop JSON) is `PlaygamaBridge::SendStorageDataDeleteRequest`.
 
@@ -378,9 +455,9 @@ Send Storage Data Get Request.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (🔤 String): Storage Type (one of: "default", "local_storage", "platform_internal")
+    There are no parameters to set for this action.
 
-    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
     > Technical note: this action internal type (in GDevelop JSON) is `PlaygamaBridge::SendStorageDataGetRequest`.
 
@@ -389,9 +466,9 @@ Send Storage Data Set Request.
 
 ??? quote "See parameters & details"
 
-    - Parameter 1 (🔤 String): Storage Type (one of: "default", "local_storage", "platform_internal")
+    There are no parameters to set for this action.
 
-    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
     > Technical note: this action internal type (in GDevelop JSON) is `PlaygamaBridge::SendStorageDataSetRequest`.
 
@@ -462,8 +539,53 @@ Show Rewarded.
 
     > Technical note: this action internal type (in GDevelop JSON) is `PlaygamaBridge::ShowRewarded`.
 
+**Tasks Add Progress**  
+Tasks Add Progress.
+
+??? quote "See parameters & details"
+
+    - Parameter 1 (🔤 String): Metric
+    - Parameter 2 (🔢 Number): Amount
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PlaygamaBridge::TasksAddProgress`.
+
+**Tasks Claim Reward**  
+Tasks Claim Reward.
+
+??? quote "See parameters & details"
+
+    - Parameter 1 (🔤 String): TaskId
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PlaygamaBridge::TasksClaimReward`.
+
+**Tasks Get Tasks**  
+Tasks Get Tasks.
+
+??? quote "See parameters & details"
+
+    There are no parameters to set for this action.
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PlaygamaBridge::TasksGetTasks`.
+
 
 ## Conditions
+
+**Cross Promo Is Visible**  
+Cross Promo Is Visible.
+
+??? quote "See parameters & details"
+
+    There are no parameters to set for this condition.
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PlaygamaBridge::CrossPromoIsVisible`.
 
 **Does Player Have Name**  
 Does Player Have Name.
@@ -519,39 +641,6 @@ Has Storage Data.
     > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `PlaygamaBridge::HasStorageData`.
-
-**Is Achievements Get List Supported**  
-Is Achievements Get List Supported.
-
-??? quote "See parameters & details"
-
-    There are no parameters to set for this condition.
-
-    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
-
-    > Technical note: this condition internal type (in GDevelop JSON) is `PlaygamaBridge::IsAchievementsGetListSupported`.
-
-**Is Achievements Native Popup Supported**  
-Is Achievements Native Popup Supported.
-
-??? quote "See parameters & details"
-
-    There are no parameters to set for this condition.
-
-    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
-
-    > Technical note: this condition internal type (in GDevelop JSON) is `PlaygamaBridge::IsAchievementsNativePopupSupported`.
-
-**Is Achievements Supported**  
-Is Achievements Supported.
-
-??? quote "See parameters & details"
-
-    There are no parameters to set for this condition.
-
-    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
-
-    > Technical note: this condition internal type (in GDevelop JSON) is `PlaygamaBridge::IsAchievementsSupported`.
 
 **Is Ad Block Detected**  
 Is Ad Block Detected.
@@ -630,6 +719,17 @@ Is Desktop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `PlaygamaBridge::IsDesktop`.
 
+**Is External Calls Supported**  
+Is External Calls Supported.
+
+??? quote "See parameters & details"
+
+    There are no parameters to set for this condition.
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PlaygamaBridge::IsExternalCallsSupported`.
+
 **Is External Links Allowed**  
 Is External Links Allowed.
 
@@ -640,28 +740,6 @@ Is External Links Allowed.
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `PlaygamaBridge::IsExternalLinksAllowed`.
-
-**Is Get All Games Supported**  
-Is Get All Games Supported.
-
-??? quote "See parameters & details"
-
-    There are no parameters to set for this condition.
-
-    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
-
-    > Technical note: this condition internal type (in GDevelop JSON) is `PlaygamaBridge::IsGetAllGamesSupported`.
-
-**Is Get Game By Id Supported**  
-Is Get Game By Id Supported.
-
-??? quote "See parameters & details"
-
-    There are no parameters to set for this condition.
-
-    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
-
-    > Technical note: this condition internal type (in GDevelop JSON) is `PlaygamaBridge::IsGetGameByIdSupported`.
 
 **Is Initialized**  
 Is Initialized.
@@ -729,6 +807,17 @@ Is Mobile.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `PlaygamaBridge::IsMobile`.
 
+**Is Notifications Supported**  
+Is Notifications Supported.
+
+??? quote "See parameters & details"
+
+    There are no parameters to set for this condition.
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PlaygamaBridge::IsNotificationsSupported`.
+
 **Is Payments Supported**  
 Is Payments Supported.
 
@@ -761,6 +850,17 @@ Is Player Authorized.
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `PlaygamaBridge::IsPlayerAuthorized`.
+
+**Is Player Guest**  
+Is Player Guest.
+
+??? quote "See parameters & details"
+
+    There are no parameters to set for this condition.
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PlaygamaBridge::IsPlayerGuest`.
 
 **Is Rate Supported**  
 Is Rate Supported.
@@ -806,28 +906,6 @@ Is Share Supported.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `PlaygamaBridge::IsShareSupported`.
 
-**Is Storage Available**  
-Is Storage Available.
-
-??? quote "See parameters & details"
-
-    - Parameter 1 (🔤 String): Storage Type (one of: "platform_internal", "local_storage")
-
-    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
-
-    > Technical note: this condition internal type (in GDevelop JSON) is `PlaygamaBridge::IsStorageAvailable`.
-
-**Is Storage Supported**  
-Is Storage Supported.
-
-??? quote "See parameters & details"
-
-    - Parameter 1 (🔤 String): Storage Type (one of: "platform_internal", "local_storage")
-
-    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
-
-    > Technical note: this condition internal type (in GDevelop JSON) is `PlaygamaBridge::IsStorageSupported`.
-
 **Is Tablet**  
 Is Tablet.
 
@@ -838,6 +916,40 @@ Is Tablet.
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `PlaygamaBridge::IsTablet`.
+
+**Is Task Claimed**  
+Is Task Claimed.
+
+??? quote "See parameters & details"
+
+    - Parameter 1 (🔢 Number): Task Index
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PlaygamaBridge::IsTaskClaimed`.
+
+**Is Task Completed**  
+Is Task Completed.
+
+??? quote "See parameters & details"
+
+    - Parameter 1 (🔢 Number): Task Index
+
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PlaygamaBridge::IsTaskCompleted`.
+
+**Is Task Target Completed**  
+Is Task Target Completed.
+
+??? quote "See parameters & details"
+
+    - Parameter 1 (🔢 Number): Task Index
+    - Parameter 2 (🔢 Number): Target Index
+
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PlaygamaBridge::IsTaskTargetCompleted`.
 
 **Is Tv**  
 Is Tv.
@@ -904,17 +1016,6 @@ On Achievements Get List Completed.
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `PlaygamaBridge::OnAchievementsGetListCompleted`.
-
-**On Achievements Show Native Popup Completed**  
-On Achievements Show Native Popup Completed.
-
-??? quote "See parameters & details"
-
-    There are no parameters to set for this condition.
-
-    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
-
-    > Technical note: this condition internal type (in GDevelop JSON) is `PlaygamaBridge::OnAchievementsShowNativePopupCompleted`.
 
 **On Achievements Unlock Completed**  
 On Achievements Unlock Completed.
@@ -1092,8 +1193,8 @@ On Create Post Completed.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `PlaygamaBridge::OnCreatePostCompleted`.
 
-**On Get All Games Completed**  
-On Get All Games Completed.
+**On Daily Rewards Claim Current Reward Completed**  
+On Daily Rewards Claim Current Reward Completed.
 
 ??? quote "See parameters & details"
 
@@ -1101,10 +1202,10 @@ On Get All Games Completed.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-    > Technical note: this condition internal type (in GDevelop JSON) is `PlaygamaBridge::OnGetAllGamesCompleted`.
+    > Technical note: this condition internal type (in GDevelop JSON) is `PlaygamaBridge::OnDailyRewardsClaimCurrentRewardCompleted`.
 
-**On Get Game By Id Completed**  
-On Get Game By Id Completed.
+**On Daily Rewards Get Current Day Completed**  
+On Daily Rewards Get Current Day Completed.
 
 ??? quote "See parameters & details"
 
@@ -1112,7 +1213,40 @@ On Get Game By Id Completed.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-    > Technical note: this condition internal type (in GDevelop JSON) is `PlaygamaBridge::OnGetGameByIdCompleted`.
+    > Technical note: this condition internal type (in GDevelop JSON) is `PlaygamaBridge::OnDailyRewardsGetCurrentDayCompleted`.
+
+**On Daily Rewards Get Current Reward Completed**  
+On Daily Rewards Get Current Reward Completed.
+
+??? quote "See parameters & details"
+
+    There are no parameters to set for this condition.
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PlaygamaBridge::OnDailyRewardsGetCurrentRewardCompleted`.
+
+**On Daily Rewards Get Rewards Completed**  
+On Daily Rewards Get Rewards Completed.
+
+??? quote "See parameters & details"
+
+    There are no parameters to set for this condition.
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PlaygamaBridge::OnDailyRewardsGetRewardsCompleted`.
+
+**On Get Games List Completed**  
+On Get Games List Completed.
+
+??? quote "See parameters & details"
+
+    There are no parameters to set for this condition.
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PlaygamaBridge::OnGetGamesListCompleted`.
 
 **On Get Server Time Completed**  
 On Get Server Time Completed.
@@ -1234,6 +1368,39 @@ On Leaderboards Show Native Popup Completed.
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `PlaygamaBridge::OnLeaderboardsShowNativePopupCompleted`.
+
+**On Notifications Cancel All Completed**  
+On Notifications Cancel All Completed.
+
+??? quote "See parameters & details"
+
+    There are no parameters to set for this condition.
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PlaygamaBridge::OnNotificationsCancelAllCompleted`.
+
+**On Notifications Cancel Completed**  
+On Notifications Cancel Completed.
+
+??? quote "See parameters & details"
+
+    There are no parameters to set for this condition.
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PlaygamaBridge::OnNotificationsCancelCompleted`.
+
+**On Notifications Schedule Completed**  
+On Notifications Schedule Completed.
+
+??? quote "See parameters & details"
+
+    There are no parameters to set for this condition.
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PlaygamaBridge::OnNotificationsScheduleCompleted`.
 
 **On Payments Consume Purchase Completed**  
 On Payments Consume Purchase Completed.
@@ -1411,8 +1578,8 @@ On Storage Data Set Request Completed.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `PlaygamaBridge::OnStorageDataSetRequestCompleted`.
 
-**On Visibility State Changed**  
-On Visibility State Changed.
+**On Tasks Add Progress Completed**  
+On Tasks Add Progress Completed.
 
 ??? quote "See parameters & details"
 
@@ -1420,7 +1587,29 @@ On Visibility State Changed.
 
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
-    > Technical note: this condition internal type (in GDevelop JSON) is `PlaygamaBridge::OnVisibilityStateChanged`.
+    > Technical note: this condition internal type (in GDevelop JSON) is `PlaygamaBridge::OnTasksAddProgressCompleted`.
+
+**On Tasks Claim Reward Completed**  
+On Tasks Claim Reward Completed.
+
+??? quote "See parameters & details"
+
+    There are no parameters to set for this condition.
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PlaygamaBridge::OnTasksClaimRewardCompleted`.
+
+**On Tasks Get Tasks Completed**  
+On Tasks Get Tasks Completed.
+
+??? quote "See parameters & details"
+
+    There are no parameters to set for this condition.
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PlaygamaBridge::OnTasksGetTasksCompleted`.
 
 **Platform Is Audio Enabled**  
 Platform Is Audio Enabled.
@@ -1480,7 +1669,19 @@ Platform On Pause State Changed.
 | `PlaygamaBridge::AchievementsCount()` | Achievements Count. ||
 | `PlaygamaBridge::AdvancedBannersState()` | Advanced Banners State. ||
 | `PlaygamaBridge::BannerState()` | Banner State. ||
-| `PlaygamaBridge::DefaultStorageType()` | Default Storage Type. ||
+| `PlaygamaBridge::CrossPromoGamePropertiesCount()` | Cross Promo Game Properties Count. ||
+| `PlaygamaBridge::CrossPromoGamesCount()` | Cross Promo Games Count. ||
+| `PlaygamaBridge::CrossPromoGamesPropertyName(number)` | Cross Promo Games Property Name. ||
+| | _🔢 Number_ | Property Index |
+| `PlaygamaBridge::CrossPromoGamesPropertyValue(number, string)` | Cross Promo Games Property Value. ||
+| | _🔢 Number_ | Game Index |
+| | _🔤 String_ | Property |
+| `PlaygamaBridge::DailyRewardId(number)` | Daily Reward Id. ||
+| | _🔢 Number_ | Reward Index |
+| `PlaygamaBridge::DailyRewardsAsJSON()` | Daily Rewards As JSON. ||
+| `PlaygamaBridge::DailyRewardsCount()` | Daily Rewards Count. ||
+| `PlaygamaBridge::DailyRewardsCurrentDay()` | Daily Rewards Current Day. ||
+| `PlaygamaBridge::DailyRewardsCurrentReward()` | Daily Rewards Current Reward. ||
 | `PlaygamaBridge::DeviceType()` | Device Type. ||
 | `PlaygamaBridge::InterstitialState()` | Interstitial State. ||
 | `PlaygamaBridge::LeaderboardEntriesCount()` | Leaderboard Entries Count. ||
@@ -1519,15 +1720,6 @@ Platform On Pause State Changed.
 | | _🔢 Number_ | Purchase Index |
 | | _🔤 String_ | Property |
 | `PlaygamaBridge::PaymentsPurchasesCount()` | Payments Purchases Count. ||
-| `PlaygamaBridge::PlatformAllGamePropertiesCount()` | Platform All Game Properties Count. ||
-| `PlaygamaBridge::PlatformAllGamesCount()` | Platform All Games Count. ||
-| `PlaygamaBridge::PlatformAllGamesPropertyName(number)` | Platform All Games Property Name. ||
-| | _🔢 Number_ | Property Index |
-| `PlaygamaBridge::PlatformAllGamesPropertyValue(number, string)` | Platform All Games Property Value. ||
-| | _🔢 Number_ | Game Index |
-| | _🔤 String_ | Property |
-| `PlaygamaBridge::PlatformGameByIdPropertyValue(string)` | Platform Game By Id Property Value. ||
-| | _🔤 String_ | Property |
 | `PlaygamaBridge::PlatformId()` | Platform Id. ||
 | `PlaygamaBridge::PlatformLanguage()` | Platform Language. ||
 | `PlaygamaBridge::PlatformPayload()` | Platform Payload. ||
@@ -1551,7 +1743,31 @@ Platform On Pause State Changed.
 | | _🔤 String_ | Key |
 | `PlaygamaBridge::StorageDataAsJSON(string)` | Storage Data As JSON. ||
 | | _🔤 String_ | Key |
-| `PlaygamaBridge::VisibilityState()` | Visibility State. ||
+| `PlaygamaBridge::TaskId(number)` | Task Id. ||
+| | _🔢 Number_ | Task Index |
+| `PlaygamaBridge::TaskRewardAmount(number, number)` | Task Reward Amount. ||
+| | _🔢 Number_ | Task Index |
+| | _🔢 Number_ | Reward Index |
+| `PlaygamaBridge::TaskRewardId(number, number)` | Task Reward Id. ||
+| | _🔢 Number_ | Task Index |
+| | _🔢 Number_ | Reward Index |
+| `PlaygamaBridge::TaskRewardsCount(number)` | Task Rewards Count. ||
+| | _🔢 Number_ | Task Index |
+| `PlaygamaBridge::TaskTargetAmount(number, number)` | Task Target Amount. ||
+| | _🔢 Number_ | Task Index |
+| | _🔢 Number_ | Target Index |
+| `PlaygamaBridge::TaskTargetId(number, number)` | Task Target Id. ||
+| | _🔢 Number_ | Task Index |
+| | _🔢 Number_ | Target Index |
+| `PlaygamaBridge::TaskTargetProgress(number, number)` | Task Target Progress. ||
+| | _🔢 Number_ | Task Index |
+| | _🔢 Number_ | Target Index |
+| `PlaygamaBridge::TaskTargetsCount(number)` | Task Targets Count. ||
+| | _🔢 Number_ | Task Index |
+| `PlaygamaBridge::TaskType(number)` | Task Type. ||
+| | _🔢 Number_ | Task Index |
+| `PlaygamaBridge::TasksAsJSON()` | Tasks As JSON. ||
+| `PlaygamaBridge::TasksCount()` | Tasks Count. ||
 
 
 ---

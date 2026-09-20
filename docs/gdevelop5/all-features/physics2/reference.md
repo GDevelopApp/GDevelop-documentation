@@ -78,9 +78,15 @@ Simulate realistic 2D physics for the object including gravity, forces, collisio
 - **Fixed Rotation** (🔘 Boolean). If enabled, the object won't rotate and will stay at the same angle. Useful for characters for example. Default value is `false`.
 - **Friction** (🔢 Number). The friction applied when touching other objects. The higher the value, the more friction. Default value is `0.3`.
 - **Gravity Scale** (🔢 Number). Default value is `1`.
+- **Layers** (🔢 Bitmask, one bit per option (Number)). Layers the object belongs to, as a bitmask: layer 1 is 1, layer 2 is 2, layer 3 is 4, and so on up to layer 16 which is 32768. Default value is `1`.
 - **Linear Damping** (🔢 Number). Default value is `0.1`.
+- **Masks** (🔢 Bitmask, one bit per option (Number)). Layers the object can collide with, as a bitmask: layer 1 is 1, layer 2 is 2, layer 3 is 4, and so on up to layer 16 which is 32768. Default value is `1`.
 - **Restitution** (🔢 Number). The "bounciness" of the object. The higher the value, the more other objects will bounce against it. Default value is `0.1`.
-- **Shape** (Choice, one of: "Box", "Circle", "Edge", "Polygon"). Default value is `Box`.
+- **Shape** (Choice, one of: "Box", "Circle", "Edge", "Polygon"). The shape used for collisions. It gives their meaning to the dimension properties. A polygon is defined by its "Vertices" and positioned according to "Polygon origin". Default value is `Box`.
+- **Width** (🔢 Number, Distance). Width of the box, radius of the circle or length of the edge. Use 0 to follow the object size. Default value is `0`.
+- **Height** (🔢 Number, Distance). Height of the box, or angle of the edge in degrees. Not used by a circle. Use 0 to follow the object height. Default value is `0`.
+- **Shape offset X** (🔢 Number, Distance). Offset of the collision shape relative to the object center, on the X axis. Default value is `0`.
+- **Shape offset Y** (🔢 Number, Distance). Offset of the collision shape relative to the object center, on the Y axis. Default value is `0`.
 
 ??? quote "See internal technical details"
 
@@ -93,9 +99,15 @@ Simulate realistic 2D physics for the object including gravity, forces, collisio
     - **Fixed Rotation** is stored as `fixedRotation` (Boolean). Default value is `false`.
     - **Friction** is stored as `friction` (Number). Default value is `0.3`.
     - **Gravity Scale** is stored as `gravityScale` (Number). Default value is `1`.
+    - **Layers** is stored as `layers` (Bitmask). Default value is `1`.
     - **Linear Damping** is stored as `linearDamping` (Number). Default value is `0.1`.
+    - **Masks** is stored as `masks` (Bitmask). Default value is `1`.
     - **Restitution** is stored as `restitution` (Number). Default value is `0.1`.
     - **Shape** is stored as `shape` (Choice). Default value is `Box`.
+    - **Width** is stored as `shapeDimensionA` (Number). Unit is Pixel. Default value is `0`.
+    - **Height** is stored as `shapeDimensionB` (Number). Unit is Pixel. Default value is `0`.
+    - **Shape offset X** is stored as `shapeOffsetX` (Number). Unit is Pixel. Default value is `0`.
+    - **Shape offset Y** is stored as `shapeOffsetY` (Number). Unit is Pixel. Default value is `0`.
 
 ### Behavior shared properties
 
