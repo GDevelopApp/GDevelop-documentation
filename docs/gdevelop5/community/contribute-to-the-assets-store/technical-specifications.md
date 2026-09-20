@@ -8,7 +8,7 @@ title: Manually package the assets
 
 !!! warning
 
-    This page may be not exhaustive. Contact the GDevelop team if you need help, or use the `.gdo` export.
+    This page may be not exhaustive. Contact the GDevelop team if you need help, or use the [`.gdo` export](./index.md#package-your-art).
 
 If you have too many files, you can manually package an asset pack without the game engine editor.
 
