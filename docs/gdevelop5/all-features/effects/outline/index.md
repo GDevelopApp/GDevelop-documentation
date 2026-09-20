@@ -4,6 +4,8 @@ Add an outline on all objects of the layer having the effect.  **This won't work
 
 ![](outline-effect.png)
 
+Set the **Thickness** and **Color** of the outline to match your art style. If the outline looks cut off at the edges of the object, increase the **Padding** so the effect has enough room to draw around it.
+
 
 ## Reference
 
