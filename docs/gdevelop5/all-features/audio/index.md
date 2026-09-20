@@ -18,7 +18,7 @@ The easiest way to play an audio file is to use the action "**Play a sound**" or
 The supported audio file formats depends on the platform, but are generally:  
 
 * Waveform Audio Format (WAV), for short sound effects,
-* Advanced Audio Coding (AAC), for background musics or large audio files.
+* Advanced Audio Coding (AAC), for background musics or large audio files. AAC audio is also commonly stored in files with the **.m4a** extension, which can be used too.
 
 Some platforms also support:
 
