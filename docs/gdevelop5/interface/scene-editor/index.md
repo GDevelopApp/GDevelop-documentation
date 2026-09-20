@@ -119,6 +119,11 @@ By clicking the grid button in the toolbar, you get multiple options:
 By clicking on the zoom button, you can change the zoom level inside the scene editor:
 
 ![](/gdevelop5/interface/scene-editor/pasted/20230307-154849.png)
+
+### Focus the view on the selection
+
+Press **F** while one or more instances are selected to move and zoom the view so the selection fits on screen. This is handy to quickly get back to an object after scrolling away in a large scene.
+
 ## Launch a preview of the scene
 
 By clicking on the "Preview" button, you can launch a preview of your game.
