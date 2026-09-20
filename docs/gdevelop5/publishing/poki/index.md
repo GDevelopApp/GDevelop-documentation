@@ -1,4 +1,4 @@
----
+The [Poki Games SDK extension](/gdevelop5/extensions/poki-games-sdkhtml/details) helps handling ads.---
 title: Publish your GDevelop game on Poki
 ---
 # Publish your GDevelop game on Poki
