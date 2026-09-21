@@ -101,38 +101,43 @@ In practice, this means:
 However, variants can differ in how they use these child objects:
 
 - A variant can choose to **not place any instances** of a child object if it doesn't need it.
-- Each variant can configure child objects differently (different images, sizes, colors, etc).
+- Each variant can configure child objects differently (different images, sizes, colors, etc.).
 - Each variant can position the instances of child objects differently.
 
 For instance, if you have a dialog custom object with an optional "icon" child object, you should add the icon object in the main variant. Then, variants that need an icon can include an instance of it, while variants that don't need an icon simply don't place any instance of it.
 
-The [game over dialog](/gdevelop5/extensions/leaderboard-dialog) is a good example for this. It has several optional child-objects:
+The [game over dialog](/gdevelop5/extensions/leaderboard-dialog) is a good example of this. It has several optional child objects:
 
-- Its `Decoration` child-object has a [tween into view]() behavior that allows fade in and out animations.
-- A `Medal` child-object where users can choose the animation with an action.
-- Several optional buttons, for instance a button to submit a score to a leaderboard.
-- For text, users can choose between [bitmap text](/gdevelop5/objects/bitmap_text) objects for pixel-art variants or [text](docs/gdevelop5/objects/text) objects for variants with smooth art (for instance `BitmapScoreLabel` and `ScoreLabel`).
+- A `Decoration` child object with a [Tween into view](/gdevelop5/extensions/tween-into-view) behavior, to fade it in and out.
+- A `Medal` child object, whose animation can be chosen with an action.
+- Several optional buttons, for instance a button to submit the score to a leaderboard.
+- Two child objects for each text: a [bitmap text](/gdevelop5/objects/bitmap_text) one for pixel-art variants and a [text](/gdevelop5/objects/text) one for variants with smoother art (for instance `BitmapScoreLabel` and `ScoreLabel`). Each variant only places an instance of the one it needs.
 
 | ![](game-over-dialog-skull.png) | ![](game-over-dialog-plane.png) |
 |---|---|
 
-### Add custom logic to variants
+### Add custom logic to a variant
 
-You can't directly add logic to a variant, but you can create a new custom object that contains the existing custom object.
+Variants can't have their own events, but you can add logic around one by creating a new custom object that holds the existing custom object as a child.
 
-The steps to create this custom object are the same as the ones detailed in the following section. The only difference is that you will use only 1 kind of custom object as child object and you may add other objects for your custom logic.
+The steps are the same as the ones detailed in the next section, with two differences: this new custom object only needs one kind of custom object as a child, and you can add any other object your logic needs.
 
-### Use several custom objects as the same
+### Use several custom objects as if they were one
 
-Sometimes objects which fill the same purpose are too much different to be the same object type because they require different logic and properties.
+Objects that serve the same purpose are sometimes too different to be a single object type, because they need their own logic and properties.
 
-This is the case for [Resource bar (continuous)](gdevelop5/extensions/panel-sprite-continuous-bar) and [resource bar (separated units)](/gdevelop5/extensions/tiled-units-bar) objects. In the following project example, an intermediate custom object is implemented to use the 2 kinds of bar.
+This is the case of the [Resource bar (continuous)](/gdevelop5/extensions/panel-sprite-continuous-bar) and [Resource bar (separated units)](/gdevelop5/extensions/tiled-units-bar) objects. In the example below, an intermediate custom object wraps both kinds of bar so they can be used interchangeably.
 
-Creating a intermediate custom object allows to:
+Such an intermediate custom object allows to:
 
-- Use the 2 kind of bars in groups as if they were the same object type.
-- Switch between the 2 kinds of bars by choosing a different variant for the object.
-- Add new kinds of bar without having to change the main events.
+- Put both kinds of bar in the same object group, as if they were the same object type.
+- Switch from one kind of bar to the other by simply choosing another variant.
+- Add new kinds of bar later on, without changing the events that use them.
+
+!!! tip
+
+        **See it in action!** 🎮
+    Open this example online.
 
 **Indirection custom object**
 
@@ -146,21 +151,23 @@ You can do the same with your own custom objects by following these steps:
 
 ![](add-custom-object.png){ width="429" }
 
-- Add the custom objects you want to use as child-objects.
+- Add the custom objects you want to use as its child objects.
 
 ![](child-objects.png){ width="283" }
 
-- If one of the custom objects has the **expands inner area with parent** box checked:
-  - Check it for the new custom object.
-  - Add an anchor behavior set on following the size on all children them even the ones that has it unchecked.
+- If any of these custom objects has **Expand inner area with parent** enabled:
+    - Enable it on the new custom object too.
+    - Add an **Anchor** behavior to every child object (even the ones that have it disabled) and set it to stretch on both axes, so they always fill the parent.
 
-![](expand-inner-area-with-parent.png){ width="12833" }
+![](expand-inner-area-with-parent.png){ width="1283" }
 
-- Generate functions from one of the custom object.
+![](anchor-to-fit-parent.png){ width="372" }
+
+- Click **Generate functions** and choose one of the child objects. This creates actions, conditions and expressions that forward the calls to this child object.
 
 ![](generate-forward-functions.png){ width="685" }
 
-- Modify the generated functions to use all the child-objects.
+- Edit each generated function so it also forwards the call to the other child objects.
 
 ![](forward-action.png){ width="1638" }
 
@@ -168,16 +175,15 @@ You can do the same with your own custom objects by following these steps:
 
 ![](forward-expression.png){ width="1638" }
 
-- Remove the functions that are not shared by all the child-objects.
-- Copy-paste all properties from one of the child-object.
+- Delete the generated functions that aren't shared by all the child objects.
+- Copy all the properties of one child object and paste them into the new custom object.
 
 ![](copy-object-properties.png){ width="394" }
 
-- Remove properties that are not shared by all the child-objects.
-- Add an hidden function to refresh the custom object properties.
+- Delete the properties that aren't shared by all the child objects.
+- Add a hidden function that applies these properties to the child objects, and call it from `onCreated` and `onHotReloading`.
 
 ![](update-properties-function.png){ width="1554" }
 
-- Call this function from `onCreated` and `onHotReloading`.
-- Create variants with an instance of the child-object.
-- Make the area fit the object dimension.
+- Create a variant for each kind of child object, with a single instance of that child object in it.
+- In each variant, use **Fit to content** so that the custom object area matches the instance.
