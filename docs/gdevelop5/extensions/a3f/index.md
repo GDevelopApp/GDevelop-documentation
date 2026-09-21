@@ -1,7 +1,7 @@
 # Advanced 3D Features
 
 <img src="https://asset-resources.gdevelop.io/public-resources/Icons/Line Hero Pack/Master/SVG/Graphic Design/f4c71080f9213188ee5556b1acb45ad46fe6e5225947301c363105b080fca008_Graphic Design_3d_cube_isometric.svg" class="extension-icon"></img>
-This extension adds features to the built-in 3D.
+Adds advanced 3D features such as lighting, shadows, 3D audio, object and camera controls, split-screen rendering, and camera screens.
 
 **Authors and contributors** to this experimental extension: [PANDAKO](https://gd.games/PANDAKO).
 
@@ -14,26 +14,30 @@ This extension adds features to the built-in 3D.
 
 3D features added by this extension:  
 
-- Lighting
-- Light color and intensity control
-- Shadows
-- 3D sound
-- Local translation and rotation
-- Blend modes
-- Opacity
-- Overlay objects
-- Linear interpolation
-- Look At
-- Distance between 3D objects
-- Angle between 3D objects
-- Bone control
-- Morph target control
-- Access child objects of 3D objects
-- Normalized direction
-- Axes helper
-- Light helper
-- Shadow range helper
-- Hierarchy output
+- Add lights to 3D scenes
+- Adjust light colors and intensity
+- Cast shadows from 3D objects
+- Play positional 3D audio
+- Move and rotate along local axes
+- Set object blend modes
+- Adjust object opacity
+- Position 2D overlays on 3D objects
+- Smoothly interpolate positions and rotations
+- Make objects or cameras look at a target
+- Measure distances between 3D objects
+- Measure angles between 3D objects
+- Gradually rotate 3D objects toward a target
+- Control model bones
+- Adjust model morph targets
+- Access child objects within 3D models
+- Get normalized direction vectors
+- Display multiple 3D camera views on one screen
+- Display a 3D camera view on a 3D Box face
+- Visualize object axes
+- Visualize lights
+- Visualize shadow coverage
+- Output the 3D object hierarchy
+
 
 [Read more...](https://pandako.itch.io/a3f)
 
@@ -173,6 +177,50 @@ Note that if a child is affected by a playing animation, it will override this c
     > Technical note: parameters 0, 6 are internal parameters handled by GDevelop.
 
     > Technical note: this action internal type (in GDevelop JSON) is `A3F::ChildRotateSpeed`.
+
+**🎥 Disable multi 3D camera rendering (Experimental)**  
+🎥 Disable multi 3D camera rendering (Experimental)
+
+??? quote "See parameters & details"
+
+    There are no parameters to set for this action.
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `A3F::DisableMultiCamera`.
+
+**🎥 Enable multi 3D camera rendering (Experimental)**  
+Display the 3D scene from Camera 1’s layer through two cameras. Run once to enable, or again to update the settings. No need to run every frame. Use the "Disable multi 3D camera rendering" action to return to normal rendering.  
+
+X and Y set each view’s top-left corner. Width and height set its size. All values are proportions of the screen, from 0 to 1. For example, X = 0.5 starts halfway across the screen.
+
+⚠️ Usage notes:
+- Both camera layers must support 3D rendering. Both views show the objects and lights from Camera 1’s layer. Camera 2’s layer provides only the second camera.
+- Both views must fit within the screen and have a width and height greater than 0.
+- Camera 2 appears in front of Camera 1 where the views overlap. Views do not support transparent blending with lower layers.
+- Post-processing effects on Camera 1’s layer are not applied while multi-camera rendering is enabled.
+- UI and mouse/touch coordinates are not automatically adjusted for each view.
+- Running this action again replaces the previous settings.
+- Invalid layers or view sizes restore normal rendering. Run again with valid settings to re-enable.
+- Rendering the scene twice may reduce performance.
+- Experimental: compatibility with future GDevelop versions or other extensions that modify rendering is not guaranteed.
+
+??? quote "See parameters & details"
+
+    - Parameter 1 (🔤 Layer name (String)): Camera 1 layer
+    - Parameter 2 (🔢 Number): Camera 1 X position (0 to 1)
+    - Parameter 3 (🔢 Number): Camera 1 Y position (0 to 1)
+    - Parameter 4 (🔢 Number): Camera 1 width (0 to 1)
+    - Parameter 5 (🔢 Number): Camera 1 height (0 to 1)
+    - Parameter 6 (🔤 Layer name (String)): Camera 2 layer
+    - Parameter 7 (🔢 Number): Camera 2 X position (0 to 1)
+    - Parameter 8 (🔢 Number): Camera 2 Y position (0 to 1)
+    - Parameter 9 (🔢 Number): Camera 2 width (0 to 1)
+    - Parameter 10 (🔢 Number): Camera 2 height (0 to 1)
+
+    > Technical note: parameters 0, 11 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `A3F::EnableMultiCamera`.
 
 **🔜Linearly interpolate camera**  
 Moves and/or rotates a 3D camera closer to another object’s position and rotation using linear and spherical linear interpolation.  
@@ -465,7 +513,7 @@ Note that if a child is affected by a playing animation, it will override this c
     - Parameter 2 (🧩 Behavior): 3D capability
     - Parameter 3 (🔤 String): Child name
     - Parameter 4 (🔤 String): Child front (one of: "x", "y", "z", "-x", "-y", "-z")
-    - Parameter 5 (🔢 Number): Angle (in degrees)
+    - Parameter 5 (🔢 Number): Rotation angle (in degrees)
     - Parameter 6 (👾 Object): Target 3D object
     - Parameter 7 (🧩 Behavior): Target 3D capability
     - Parameter 8 (🔤 String): Points of the target 3D object (one of: "Center point", "Origin point")
@@ -486,7 +534,7 @@ Note that if a child is affected by a playing animation, it will override this c
     - Parameter 3 (🔤 String): Child name
     - Parameter 4 (🔤 String): Child front (one of: "x", "y", "z", "-x", "-y", "-z")
     - Parameter 5 (🔤 String): Axis (one of: "x", "y", "z")
-    - Parameter 6 (🔢 Number): Angle (in degrees)
+    - Parameter 6 (🔢 Number): Rotation angle (in degrees)
     - Parameter 7 (👾 Object): Target 3D object
     - Parameter 8 (🧩 Behavior): Target 3D capability
     - Parameter 9 (🔤 String): Points of the target 3D object (one of: "Center point", "Origin point")
@@ -502,7 +550,7 @@ Unlike "👀Look at 3D object", this action rotates toward the target at a speci
 
     - Parameter 1: 👾 Object
     - Parameter 2 (🧩 Behavior): 3D capability
-    - Parameter 3 (🔢 Number): Angle (in degrees)
+    - Parameter 3 (🔢 Number): Rotation angle (in degrees)
     - Parameter 4 (👾 Object): Target 3D object
     - Parameter 5 (🧩 Behavior): Target 3D capability
     - Parameter 6 (🔤 String): Points of the target 3D object (one of: "Center point", "Origin point")
@@ -521,7 +569,7 @@ the other axes unchanged.
     - Parameter 1: 👾 Object
     - Parameter 2 (🧩 Behavior): 3D capability
     - Parameter 3 (🔤 String): Axis (one of: "y", "z")
-    - Parameter 4 (🔢 Number): Angle (in degrees)
+    - Parameter 4 (🔢 Number): Rotation angle (in degrees)
     - Parameter 5 (👾 Object): Target 3D object
     - Parameter 6 (🧩 Behavior): Target 3D capability
     - Parameter 7 (🔤 String): Points of the target 3D object (one of: "Center point", "Origin point")
@@ -628,6 +676,32 @@ This condition can be used for non-3D objects as well, but in those cases the op
 | | _🔤 String_ | Points of the target 3D object |
 | `A3F::Opacity(object)` | Returns the opacity of the 3D object, or the first opacity found among its children. ||
 | | _👾 Object_ | Object |
+
+## Advanced 3D Camera Screen 
+
+Display a 3D camera’s view on a face of a 3D Box. 
+
+### Behavior properties
+
+- **Camera layer** (🔤 Layer name (String)). The camera on the "Camera layer" captures the "Capture target layer".
+- **Capture target layer** (🔤 Layer name (String)).
+- **Display face** (Choice, one of: "front", "back", "left", "right", "top", "bottom"). ⚠ The camera view also appears on any faces that share the same material as the Display face.   ⚠ Recursive views that capture the Display face itself are not supported. This does not cause an error, but should be avoided whenever possible.   ⚠ Each camera adds rendering load. Resources are still used even when the screen is hidden or off-screen.
+- **Capture frame rate (FPS)** (🔢 Number). Set to 0 to update every frame. Default value is `0`.
+- **Capture height** (🔢 Number, Distance). Default value is `288`.
+- **Capture width** (🔢 Number, Distance). The aspect ratio of the image displayed on the Display face is determined by both the Capture width / height ratio and the Display face’s width-to-height ratio. Default value is `512`.
+
+??? quote "See internal technical details"
+
+
+    - **Camera layer** is stored as `CameraLayer` (Layer). Default value is ``.
+    - **Capture target layer** is stored as `CaptureLayer` (Layer). Default value is ``.
+    - **Display face** is stored as `Face` (Choice). Default value is ``.
+    - **Capture frame rate (FPS)** is stored as `Fps` (Number). Default value is `0`.
+    - **Capture height** is stored as `Height` (Number). Unit is Pixel. Default value is `288`.
+    - **Capture width** is stored as `Width` (Number). Unit is Pixel. Default value is `512`.
+
+_No expressions for this behavior._
+
 
 ## Advanced 3D Initial Properties 
 
