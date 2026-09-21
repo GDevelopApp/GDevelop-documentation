@@ -94,14 +94,96 @@ An important thing to understand is that **all variants of a custom object share
 
 In practice, this means:
 
-- You cannot add new child objects to a specific variant only
-- You cannot remove child objects from a specific variant
-- The main (default) variant of your custom object should contain **all the possible child objects** that any variant might need
+- You cannot add new child objects to a specific variant only.
+- You cannot remove child objects from a specific variant.
+- The main (default) variant of your custom object should contain **all the possible child objects** that any variant might need.
 
 However, variants can differ in how they use these child objects:
 
-- A variant can choose to **not place any instances** of a child object if it doesn't need it
-- Each variant can configure child objects differently (different images, sizes, colors, etc.)
-- Each variant can position the instances of child objects differently
+- A variant can choose to **not place any instances** of a child object if it doesn't need it.
+- Each variant can configure child objects differently (different images, sizes, colors, etc.).
+- Each variant can position the instances of child objects differently.
 
-For example, if you have a dialog custom object with an optional "icon" child object, you should add the icon object in the main variant. Then, variants that need an icon can include an instance of it, while variants that don't need an icon simply don't place any instance of it.
+For instance, if you have a dialog custom object with an optional "icon" child object, you should add the icon object in the main variant. Then, variants that need an icon can include an instance of it, while variants that don't need an icon simply don't place any instance of it.
+
+The [game over dialog](/gdevelop5/extensions/leaderboard-dialog) is a good example of this. It has several optional child objects:
+
+- A `Decoration` child object with a [Tween into view](/gdevelop5/extensions/tween-into-view) behavior, to fade it in and out.
+- A `Medal` child object, whose animation can be chosen with an action.
+- Several optional buttons, for instance a button to submit the score to a leaderboard.
+- Two child objects for each text: a [bitmap text](/gdevelop5/objects/bitmap_text) one for pixel-art variants and a [text](/gdevelop5/objects/text) one for variants with smoother art (for instance `BitmapScoreLabel` and `ScoreLabel`). Each variant only places an instance of the one it needs.
+
+| ![](game-over-dialog-skull.png) | ![](game-over-dialog-plane.png) |
+|---|---|
+
+### Add custom logic to a variant
+
+Variants can't have their own events, but you can add logic around one by creating a new custom object that holds the existing custom object as a child.
+
+The steps are the same as the ones detailed in the next section, with two differences: this new custom object only needs one kind of custom object as a child, and you can add any other object your logic needs.
+
+### Use several custom objects as if they were one
+
+Objects that serve the same purpose are sometimes too different to be a single object type, because they need their own logic and properties.
+
+This is the case of the [Resource bar (continuous)](/gdevelop5/extensions/panel-sprite-continuous-bar) and [Resource bar (separated units)](/gdevelop5/extensions/tiled-units-bar) objects. In the example below, an intermediate custom object wraps both kinds of bar so they can be used interchangeably.
+
+Such an intermediate custom object allows to:
+
+- Put both kinds of bar in the same object group, as if they were the same object type.
+- Switch from one kind of bar to the other by simply choosing another variant.
+- Add new kinds of bar later on, without changing the events that use them.
+
+!!! tip
+
+        **See it in action!** 🎮
+    Open this example online.
+
+**Indirection custom object**
+
+[Open example in GDevelop](https://editor.gdevelop.io/?create-from-example=indirection-custom-object){ .md-button .md-button--primary }
+
+[![](indirection-example.png){ width="320" }](https://editor.gdevelop.io/?create-from-example=indirection-custom-object)
+
+You can do the same with your own custom objects by following these steps:
+
+- Add a new custom object.
+
+![](add-custom-object.png){ width="429" }
+
+- Add the custom objects you want to use as its child objects.
+
+![](child-objects.png){ width="283" }
+
+- If any of these custom objects has **Expand inner area with parent** enabled:
+    - Enable it on the new custom object too.
+    - Add an **Anchor** behavior to every child object (even the ones that have it disabled) and set it to stretch on both axes, so they always fill the parent.
+
+![](expand-inner-area-with-parent.png){ width="1283" }
+
+![](anchor-to-fit-parent.png){ width="372" }
+
+- Click **Generate functions** and choose one of the child objects. This creates actions, conditions and expressions that forward the calls to this child object.
+
+![](generate-forward-functions.png){ width="685" }
+
+- Edit each generated function so it also forwards the call to the other child objects.
+
+![](forward-action.png){ width="1638" }
+
+![](forward-condition.png){ width="1638" }
+
+![](forward-expression.png){ width="1638" }
+
+- Delete the generated functions that aren't shared by all the child objects.
+- Copy all the properties of one child object and paste them into the new custom object.
+
+![](copy-object-properties.png){ width="394" }
+
+- Delete the properties that aren't shared by all the child objects.
+- Add a hidden function that applies these properties to the child objects, and call it from `onCreated` and `onHotReloading`.
+
+![](update-properties-function.png){ width="1554" }
+
+- Create a variant for each kind of child object, with a single instance of that child object in it.
+- In each variant, use **Fit to content** so that the custom object area matches the instance.
