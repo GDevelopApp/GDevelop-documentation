@@ -126,27 +126,31 @@ It is advised to use the expressions for special folders (see below) to keep you
 
 ---
 
-####  Load a text from a JSON file
-This action loads the JSON formatted text from a file and converts it into a scene variable structure. __synchronously__.
+####  Load a scene variable from a JSON file
+This action loads the JSON formatted text from a file and converts it into a scene variable (potentially a structure variable with children) __synchronously__. Only use this on small files to avoid any lag or freeze during the game execution.
 == Parameters ==
-** Scene variable: ** The name of the scene variable to which the loaded structure will be added.
+** Scene variable: ** The scene variable that will receive the loaded content.
 
-** Load path: ** The path on the file system where the file should be saved.
+** Load path: ** The path on the file system where the file is located.
 It is advised to use the expressions for special folders (see below) to keep your game platform independent.
 
 ** (Optional) Result variable: ** Variable to store the result. It can either hold the value 'ok': the task was successful or 'error': an error occurred.
 
+** (Optional) Normalize the file content: ** When enabled (recommended), Windows new line characters ("CRLF") are replaced by a single new line character.
+
 ---
 
-####  Load a text from a JSON file (async)
-This action loads the JSON formatted text from a file and converts it into a scene variable structure. __asynchronously__.
+####  Load a scene variable from a JSON file (async)
+This action loads the JSON formatted text from a file and converts it into a scene variable (potentially a structure variable with children) __asynchronously__. Use this for large files to avoid any lag or freeze during the game execution.
 == Parameters ==
-** Scene variable: ** The name of the scene variable to which the loaded structure will be added.
+** Scene variable: ** The scene variable that will receive the loaded content.
 
-** Load path: ** The path on the file system where the file should be saved.
+** Load path: ** The path on the file system where the file is located.
 It is advised to use the expressions for special folders (see below) to keep your game platform independent.
 
 ** (Optional) Result variable: ** Variable to store the result. It can either hold the value 'ok': the task was successful or 'error': an error occurred. The variable will be updated, at the moment the file operation has finished.
+
+** (Optional) Normalize the file content: ** When enabled (recommended), Windows new line characters ("CRLF") are replaced by a single new line character.
 
 ---
 
@@ -184,13 +188,23 @@ It is advised to use the expressions for special folders (see below) to keep you
 
 ---
 
-####  Delete a file
+####  Delete a file (async)
 This action deletes the file at the given file path __asynchronously__.
 == Parameters ==
 ** File path: ** The path on the file system where the file is located.
 It is advised to use the expressions for special folders (see below) to keep your game platform independent.
 
 ** (Optional) Result variable: ** Variable to store the result. It can either hold the value 'ok': the task was successful or 'error': an error occurred. The variable will be updated, at the moment the file operation has finished.
+
+---
+
+####  Read a directory
+This action reads the contents of a directory (all files and sub-directories) and stores them in an array. It runs __asynchronously__.
+== Parameters ==
+** Directory path: ** The path on the file system of the directory to read.
+It is advised to use the expressions for special folders (see below) to keep your game platform independent.
+
+** (Optional) Result variable: ** Variable to store the result. It is set to `"error"` if an error occurred, otherwise it is filled with an array of all files and sub-directories present in the directory.
 
 ## Expressions
 These expressions return the path to special folders on the users' operating system. If you use these expressions for loading and saving files it will be guaranteed to work on all supported operating systems. (Currently Windows, Linux, and macOS)
