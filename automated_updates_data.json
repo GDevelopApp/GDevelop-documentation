@@ -108,6 +108,10 @@
     {
       "date": "2026-09-19",
       "summary": "Improved object-picking docs: documented how conditions comparing two objects filter picked instances, including the asymmetric behavior of inverted conditions (only the first object is filtered)"
+    },
+    {
+      "date": "2026-09-24",
+      "summary": "Improved Tiled Sprite object docs (fixed grammar/typos, clarified image offsets for scrolling effects, noted runtime image/opacity/color changes) and fixed a wrong 'shape painter' reference link on the Text Entry page"
     }
   ]
 }
