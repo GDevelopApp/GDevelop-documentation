@@ -14,6 +14,8 @@ When you click on **Resources**, a new tab is opened where you can edit and cont
 
 This tab has a **properties panel**, with options based on the type of resource selected, will be displayed on the left side of the screen. And a list of resources in the project on the right side of the screen.
 
+You can select several resources at once (hold **Ctrl/Cmd** to toggle individual resources, or **Shift** to select a range). Common actions like deleting or editing shared properties are then applied to all of them at once. When resources of different kinds are selected together, only the properties they have in common can be edited.
+
 ![](/gdevelop5/interface/project-manager/resources/pasted/20230309-205841.png)
 
 !!! tip
@@ -24,7 +26,7 @@ The toolbar will be different inside of this tab, with buttons aligned to the ri
 
 * **Open the project folder** with the button on the left.
 * **Toggle the properties panel visibility** with the button in the middle.
-* **Remove the selected resource** with the button on the right.
+* **Remove the selected resource(s)** with the button on the right.
 
 ![](/gdevelop5/interface/project-manager/resources/pasted/20230309-210717.png)
 
@@ -63,7 +65,7 @@ This allows you to preload audio files as music/sound, making them start quickly
 
 ### Keyboard navigation
 
-When the resource list is focused, you can use the **arrow keys** (Up/Down) to move between resources. Pressing the **Delete** key removes the selected resource, and pressing the **Rename** shortcut (F2 by default) starts renaming it. After a resource is deleted, the next resource in the list is automatically selected so you can continue working without reaching for the mouse.
+When the resource list is focused, you can use the **arrow keys** (Up/Down) to move between resources. Hold **Shift** while using the arrow keys to extend the selection to several resources. Pressing the **Delete** key removes the selected resource(s), and pressing the **Rename** shortcut (F2 by default) starts renaming it. After a resource is deleted, the next resource in the list is automatically selected so you can continue working without reaching for the mouse.
 
 ### Some other options/tools
 
@@ -77,7 +79,7 @@ Allows you to rename the resources. The name is the path to the resource by defa
 
 ### Removing
 
-Removes the selected resource from the project.
+Removes the selected resource(s) from the project.
 
 !!! warning
 
