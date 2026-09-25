@@ -53,6 +53,16 @@ When it builds, the AI can take many concrete actions in your game, such as:
     - Experiments — *"Make the key move away from the player when they try to reach it"*,
     - Learning — by reading the events the AI writes, you can see how a mechanic is actually built.
 
+## Attaching images and files
+
+You can attach images or files to your messages to give the AI more context — for example a screenshot of a bug, a reference image for a mechanic, or an image you'd like to turn into an object. Use the **+** button next to the message box, paste from your clipboard, or drag and drop files onto the chat.
+
+When you attach an **image** (or another supported file such as a sound), the AI can not only look at it, but also **add it to your project as a resource** or use it to **replace the file of an existing resource** — so you can bring your own artwork or audio into the game just by attaching it and asking for it.
+
+!!! note
+
+    You need to be logged in to attach files. Attached files are kept for 30 days; after that, ask the AI to use them again by attaching them anew.
+
 ## How the AI works on your request
 
 The AI replies within a few seconds, then gets to work. Rather than doing everything in one block, it **breaks your request into smaller pieces of work** and tackles them one after another. You'll see these as short steps in the conversation, for example *"Exploring the game"*, *"Inspecting the game structure"*, *"Editing the game"*, or *"Searching the asset store"*.
