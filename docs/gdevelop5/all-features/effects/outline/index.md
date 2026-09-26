@@ -4,6 +4,15 @@ Add an outline on all objects of the layer having the effect.  **This won't work
 
 ![](outline-effect.png)
 
+## Properties
+
+- **Thickness** sets the width of the outline.
+- **Color** sets the color of the outline.
+
+!!! tip
+
+    To highlight a single object (for example a selected unit or an interactive item), apply this effect directly to the object rather than to the whole layer.
+
 
 ## Reference
 
