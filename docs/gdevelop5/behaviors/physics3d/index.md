@@ -44,6 +44,10 @@ The **3D physics character** behavior allows characters to walk, jump, follow sl
 !!! tip 
     The **Capsule** shape is recommended for characters to avoid them floating over slopes.
 
+!!! note
+
+    Once the character walks off a platform and starts falling, it can no longer jump (just like the 2D platformer character). To allow an air jump or a double jump, use the **Allow jumping again** action.
+
 
 ### Move a 3D platformer character
 
