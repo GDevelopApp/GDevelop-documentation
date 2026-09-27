@@ -88,6 +88,12 @@ When Auto edit is off and the AI wants to make a change, it shows a short prompt
 
     Turn Auto edit **off** while you're still figuring out *what* you want. Once you and the AI agree on a plan, turn it **on** and let it build. This avoids unwanted changes and saves credits.
 
+## Attaching images and files
+
+You can attach images or files to a message so the AI can look at them — for example a screenshot of a reference game, a mockup of the interface you want, or an image to turn into an object. Use the **+** button next to the message box, drag files onto the chat, or paste them directly.
+
+Attached images can also be added to your project as resources when the AI builds from them.
+
 ## Restoring your project to an earlier point
 
 For **cloud projects**, GDevelop automatically saves a restore point **before** each of your messages and AI requests. If a build went in a direction you don't like, you can roll back: in the conversation, find the saved point (shown as **Project saved**) and use the **restore** button to bring your project back to that state.
