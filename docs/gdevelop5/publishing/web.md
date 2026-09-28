@@ -1,57 +1,71 @@
 ---
-title: Creating a private web link
+title: Publishing your game on gd.games
 ---
 
-## Creating a private web link
+# Publishing your game on gd.games
 
-Using GDevelop hosting servers, you can export your game for publication on the web. These servers are backed by Amazon's robust services. Sharing your game this way is free, and your game will be available through this link indefinitely!
+[gd.games](https://gd.games) is GDevelop's own game platform: GDevelop hosts your game for you, and players play it in their browser, on a computer or a phone.
 
-First make sure you have logged in within GDevelop. To upload to the servers click the publish button in the upper middle section of your screen, and in the exports window click "generate link".
+Publishing there is free, your game gets a link you can share with anyone, and that link stays available. You don't need a website or a server: everything happens from the editor.
 
-![](/gdevelop5/publishing/lilou_upload_click_publish_to_get_a_link.gif)
+## Publishing your game
 
-When your link is generated, you'll see it on screen. You can copy and paste this link and share it with people you'd like to play your game. To copy it to your clipboard, click on the clipboard icon that is highlighted in the image below.
+First, make sure you are logged in to GDevelop. Then click the **Share** button at the top of the editor, and pick **gd.games** in the list of exports.
 
-This link is currently private, only those you share the link with will be able to play your game.
+![The Share dialog, with gd.games at the top of the list of exports](/gdevelop5/publishing/web/share-dialog.png)
 
-![](/gdevelop5/publishing/web/pasted/20220202-210531.png)
+Click **Publish game** to build your game and send it to the servers.
 
-## Publishing on gd.games
+![The gd.games export screen, with the Publish game button](/gdevelop5/publishing/web/gdgames-publish-new-version.png)
 
-To post your game publicly on gd.games, click on the "publish this build to the game's page" button below the link. gd.games is GDevelop's game hosting platform, where free games created with GDevelop can be shared and played.
+When the upload is finished, the link to your game is displayed on screen. You can copy it, scan the QR code to open the game on a phone, or send it through social networks. Anyone with the link can play your game.
 
-![](/gdevelop5/publishing/web/pasted/20220202-215845.png)
+![The link to the game, with a QR code and sharing buttons](/gdevelop5/publishing/web/share-your-game.png)
 
-From here you are given a new link and some new options for sharing your game through social media.
+## Sharing a private version for testing
+
+Once your game has been published a first time, the export screen offers a new choice: the button becomes **Publish new version**, with an **Update game page** switch under it.
+
+![The gd.games export screen, with the Publish new version button and the Update game page switch](/gdevelop5/publishing/web/gdgames-publish-new-version-with-update.png)
+
+This switch decides whether the version you are publishing replaces the one on your public game page:
+
+- **On**: the version you publish becomes the one everyone plays on your game page.
+- **Off**: your game page keeps the version it already had, and you get a separate link for the version you just published.
+
+Turn it off to share a work-in-progress with testers without changing what your players see.
+
+## Your game page on gd.games
+
+
+Each game you publish has its own dashboard. Open it with **Open Game dashboard** right after an export, or from the project manager under **Game settings**. It gathers the link to your game, its analytics, the feedback you receive from players, and the GDevelop services your game can use, like leaderboards, multiplayer, etc.
 
 !!! tip
 
-    Games published can be promoted on gd.games homepage, checkout the [Marketing Campaigns](/gdevelop5/interface/games-dashboard/marketing)!
+    Your game can be promoted on the gd.games homepage. See the [Marketing Campaigns](/gdevelop5/interface/games-dashboard/marketing) to learn how.
 
-![](/gdevelop5/publishing/web/pasted/20220202-225818.png)
+![The dashboard of a game, with its link and its analytics](/gdevelop5/publishing/web/game-dashboard.png)
 
-You can replace the current public build by repeating the steps above, or by clicking "See this game builds" as seen below. Clicking this will show you all versions of your game that you've exported to gd.games, and from this screen you can pick which build you'd like to have publicly displayed on gd.games.
+Each upload creates a build, and the dashboard lists all of them under **Exports** at bottom of a dashboard. The build played on your game page is marked as online. To put an older build back in front of your players, turn on **Publish this build on gd.games**.
 
-![](/gdevelop5/publishing/lilou_upload_click_here_to_see_current_game_builds.gif)
+![The list of the builds of a game, with the build currently online](/gdevelop5/publishing/web/game-builds.png)
 
-You can also check on and replace the current version of your game with another existing version through your profile. To access your profile click file, in the top left corner of the screen, and then click on "My Profile" in that drop down menu.
+## Adding a thumbnail
 
-![](/gdevelop5/publishing/lilou_upload_check_profile_to_see_game_builds.gif)
+A thumbnail in 16:9 makes your game far more attractive on gd.games, and we recommend adding one.
+
+Open **Edit details** from the game dashboard, then click **Select thumbnail** or **Change a thumbnail**. This is also where you write the name and the description shown to players on your game page.
+
+![The game details, with the thumbnail of the game and the Change thumbnail button](/gdevelop5/publishing/web/game-thumbnail.png)
 
 ## Taking your game off gd.games
 
-If you want to take your game off of gd.games for any reason, you can do that from the game builds menu. Just access the builds menu from your profile of through the export window, and click "Unpublish this build from gd.games".
+To remove your game from gd.games, open **Edit details** from the game dashboard and turn **Publish game on gd.games** off. Your builds and your analytics are kept: only the public page disappears.
 
-![](/gdevelop5/publishing/web/pasted/20220202-232127.png)
+The **Visibility** setting is a middle ground. Your game page stays online for the people who have the link, but the game is no longer shown in the search results nor on your profile.
+
+![The publishing settings of a game, with the switch to publish it on gd.games](/gdevelop5/publishing/web/game-details-publishing.png)
 
 ## Export to other platforms (iOS, Android, Windows, macOS, Linux)
 
-See the [other export options](/gdevelop5/publishing) to learn how to publish your game on other platforms!
-
-## Setup a thumbnail for gd.games
-
-A 16:9 ratio thumbnail is highly recommended to your game on gd.games, the game will be more attractive.
-
-To set up the thumbnail you can directly add it from the GDevelop application by opening the Project manager and clicking on **Icons and thumbnail** under Game settings.
-
-![](/gdevelop5/publishing/project_manager_icon_and_thumbnail.png)
+See the [other export options](/gdevelop5/publishing) to learn how to publish your game on other platforms.
