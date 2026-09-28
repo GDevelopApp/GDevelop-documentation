@@ -47,6 +47,14 @@ You can use events to manipulate the scale and positioning of tiled sprite objec
 
 ![](/gdevelop5/objects/ChangeOffsetActions.png)
 
+The **Image X Offset** and **Image Y Offset** actions shift the repeating image inside the object. Continuously increasing an offset over time (for example in an event that runs every frame) makes the image appear to scroll, while the object itself stays in place — ideal for parallax or looping backgrounds.
+
+####  Change the tint and image
+
+The **Tint color** action colors the whole object by multiplying its image with the chosen color (the default color, white, leaves the image unchanged). This is useful to reuse a single grayscale image for several colored variations.
+
+The image displayed by the object can also be replaced during the game with the **Image** action, which lets you swap in another image resource from the project.
+
 ## Examples
 
 !!! tip
