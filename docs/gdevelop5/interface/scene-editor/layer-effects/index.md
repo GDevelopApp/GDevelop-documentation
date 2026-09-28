@@ -21,6 +21,8 @@ The window that opens will prompt you to **Add an effect**. If you click on this
 
 ![](pasted/20230310-203337.png)
 
+You can also click on **Add an effect from the store** to browse ready-made effects, such as skyboxes for 3D layers, and add the chosen one to your layer in one click.
+
 A new layer effect is named "Effect" when created. This name will be useful later for modifying the parameters of the effect during the game.
 
 From the drop-down menu, you can choose the type of effect you'd like to have on your layer.
