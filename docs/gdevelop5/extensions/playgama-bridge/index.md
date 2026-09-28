@@ -142,13 +142,14 @@ Check AdBlock.
     > Technical note: this action internal type (in GDevelop JSON) is `PlaygamaBridge::CheckAdBlock`.
 
 **Create Post**  
-Create Post.
+Create Post. Pass the id of a social.posts entry from playgama-bridge-config.json, or leave it empty to use the action parameters. The payload is the game's own string for this one post, handed back as Platform Payload when someone opens it.
 
 ??? quote "See parameters & details"
 
-    There are no parameters to set for this action.
+    - Parameter 1 (🔤 String): Id
+    - Parameter 2 (🔤 String): Payload
 
-    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+    > Technical note: parameters 0, 3 are internal parameters handled by GDevelop.
 
     > Technical note: this action internal type (in GDevelop JSON) is `PlaygamaBridge::CreatePost`.
 
@@ -229,6 +230,17 @@ Daily Rewards Get Rewards.
 
     > Technical note: this action internal type (in GDevelop JSON) is `PlaygamaBridge::DailyRewardsGetRewards`.
 
+**Get Post Reward**  
+Get Post Reward. Everything the player has coming from posts right now: the reward for the post the game was launched from and what the author earned from the players who came through their posts. The list is empty when there is nothing, read it with the Post Reward expressions.
+
+??? quote "See parameters & details"
+
+    There are no parameters to set for this action.
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `PlaygamaBridge::GetPostReward`.
+
 **Get Server Time**  
 Get Server Time.
 
@@ -263,13 +275,13 @@ Hide Banner.
     > Technical note: this action internal type (in GDevelop JSON) is `PlaygamaBridge::HideBanner`.
 
 **Invite Friends**  
-Invite Friends.
+Invite Friends. Pass the id of a social.invites entry from playgama-bridge-config.json, or leave it empty to use the action parameters.
 
 ??? quote "See parameters & details"
 
-    There are no parameters to set for this action.
+    - Parameter 1 (🔤 String): Id
 
-    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
     > Technical note: this action internal type (in GDevelop JSON) is `PlaygamaBridge::InviteFriends`.
 
@@ -484,13 +496,13 @@ Set Minimum Delay Between Interstitial.
     > Technical note: this action internal type (in GDevelop JSON) is `PlaygamaBridge::SetMinimumDelayBetweenInterstitial`.
 
 **Share**  
-Share.
+Share. Pass the id of a social.shares entry from playgama-bridge-config.json, or leave it empty to use the action parameters.
 
 ??? quote "See parameters & details"
 
-    There are no parameters to set for this action.
+    - Parameter 1 (🔤 String): Id
 
-    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+    > Technical note: parameters 0, 2 are internal parameters handled by GDevelop.
 
     > Technical note: this action internal type (in GDevelop JSON) is `PlaygamaBridge::Share`.
 
@@ -861,6 +873,17 @@ Is Player Guest.
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `PlaygamaBridge::IsPlayerGuest`.
+
+**Is Post Reward Supported**  
+Is Post Reward Supported.
+
+??? quote "See parameters & details"
+
+    There are no parameters to set for this condition.
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PlaygamaBridge::IsPostRewardSupported`.
 
 **Is Rate Supported**  
 Is Rate Supported.
@@ -1247,6 +1270,17 @@ On Get Games List Completed.
     > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `PlaygamaBridge::OnGetGamesListCompleted`.
+
+**On Get Post Reward Completed**  
+On Get Post Reward Completed.
+
+??? quote "See parameters & details"
+
+    There are no parameters to set for this condition.
+
+    > Technical note: parameters 0, 1 are internal parameters handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `PlaygamaBridge::OnGetPostRewardCompleted`.
 
 **On Get Server Time Completed**  
 On Get Server Time Completed.
@@ -1720,8 +1754,12 @@ Platform On Pause State Changed.
 | | _🔢 Number_ | Purchase Index |
 | | _🔤 String_ | Property |
 | `PlaygamaBridge::PaymentsPurchasesCount()` | Payments Purchases Count. ||
+| `PlaygamaBridge::PlatformDataAsJSON()` | Platform Data As JSON. ||
+| `PlaygamaBridge::PlatformDataValue(string)` | Platform Data Value. ||
+| | _🔤 String_ | Key |
 | `PlaygamaBridge::PlatformId()` | Platform Id. ||
 | `PlaygamaBridge::PlatformLanguage()` | Platform Language. ||
+| `PlaygamaBridge::PlatformLaunchSource()` | Platform Launch Source. ||
 | `PlaygamaBridge::PlatformPayload()` | Platform Payload. ||
 | `PlaygamaBridge::PlatformTld()` | Platform Tld. ||
 | `PlaygamaBridge::PlayerExtraPropertiesCount()` | Player Extra Properties Count. ||
@@ -1734,6 +1772,14 @@ Platform On Pause State Changed.
 | `PlaygamaBridge::PlayerPhoto(number)` | Player Photo # _PARAM1_. ||
 | | _🔢 Number_ | Index |
 | `PlaygamaBridge::PlayerPhotosCount()` | Player Photos Count. ||
+| `PlaygamaBridge::PostRewardAmount(number)` | Post Reward Amount. ||
+| | _🔢 Number_ | Reward Index |
+| `PlaygamaBridge::PostRewardId(number)` | Post Reward Id. ||
+| | _🔢 Number_ | Reward Index |
+| `PlaygamaBridge::PostRewardType(number)` | Post Reward Type. ||
+| | _🔢 Number_ | Reward Index |
+| `PlaygamaBridge::PostRewardsAsJSON()` | Post Rewards As JSON. ||
+| `PlaygamaBridge::PostRewardsCount()` | Post Rewards Count. ||
 | `PlaygamaBridge::RemoteConfigValue(string)` | Remote Config Value. ||
 | | _🔤 String_ | Key |
 | `PlaygamaBridge::RewardedPlacement()` | Rewarded Placement. ||

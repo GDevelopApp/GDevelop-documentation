@@ -87,7 +87,7 @@ In addition to core features, new objects are provided by
 |---|---|---|---|
 |<img src="https://asset-resources.gdevelop.io/public-resources/Icons/b627f8e676b3aac26945b2c38db0cfa787d34d2eff23755d4eb1289452f6cd28_flashlight.svg" class="extension-icon"></img>|**3D spot light**|Light up a cone like a flashlight.|[Read more...](/gdevelop5/objects/3d-light) ([reference](/gdevelop5/extensions/light3d))|
 |<img src="https://asset-resources.gdevelop.io/public-resources/Icons/bf9158c96f4346dabd9e8ae0ddd737809652797812eb50376bae62463ac7fc42_torch.svg" class="extension-icon"></img>|**3D point light**|Light up in all directions like a fire.|[Read more...](/gdevelop5/objects/3d-light) ([reference](/gdevelop5/extensions/light3d))|
-|<img src="https://asset-resources.gdevelop.io/public-resources/Icons/f2e5a34bf465f781866677762d385d6c8e9e8d203383f2df9a3b7e0fad6a2cb5_fire.svg" class="extension-icon"></img>|**3D particle emitter**|Display a large number of particles to create visual effects.|[Read more...](/gdevelop5/extensions/particle-emitter3d)|
+|<img src="https://asset-resources.gdevelop.io/public-resources/Icons/f2e5a34bf465f781866677762d385d6c8e9e8d203383f2df9a3b7e0fad6a2cb5_fire.svg" class="extension-icon"></img>|**3D particle emitter**|Display a large number of particles to create visual effects (fire, explosions, smoke, magic, rain, ...|[Read more...](/gdevelop5/extensions/particle-emitter3d)|
 
 ## Experimental objects
 

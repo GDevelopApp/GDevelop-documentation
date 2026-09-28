@@ -7,9 +7,11 @@ Display a large number of particles in 3D to create visual effects in a 3D game.
 
 ---
 
-3D particle emitters let you create and display many small particles to simulate visual effects in your game — like fire, explosions, smoke, or dust.
+3D particle emitters let you create and display many small particles to simulate visual effects in your game — like fire, explosions, smoke, dust, magic, rain or snow.
 
 The parameters of the object can be configured in multiple different ways to create a specific desired effect. GDevelop will give a set of a pre-configured 3D particle emitters that you should try first.
+
+Particles are emitted along the local Z axis of the emitter: upward by default. Rotate the instance to aim the emission (for instance a rotation of 180° on the X axis emits downward, 90° on the Y axis emits toward X). The size of the instance has no effect: particles are emitted from a single point, or from a disc when the "Emission zone radius" property is set (useful for rain or snow falling over a whole area).
 
 Use these 3D particle emitters in 3D games. For 2D games or particles that appear on a game's 2D user interface, use the 2D particle emitter object instead.
 
@@ -20,7 +22,7 @@ Use these 3D particle emitters in 3D games. For 2D games or particles that appea
 
 ## 3D particle emitter 
 
-Display a large number of particles to create visual effects. 
+Display a large number of particles to create visual effects (fire, explosions, smoke, magic, rain, snow...). Particles are emitted along the emitter's local Z axis (upward by default): rotate the instance to aim them (180° on the X axis emits downward). The instance size has no effect: use the "Emission zone radius" property to emit from a whole area. 
 
 ### Object properties
 
@@ -32,20 +34,21 @@ Display a large number of particles to create visual effects.
 - **Start min size** (🔢 Number, Distance). Default value is `10`.
 - **Start max size** (🔢 Number, Distance). Default value is `20`.
 - **End scale** (🔢 Number, Dimensionless). Default value is `0`.
-- **Start min speed** (🔢 Number, Speed). Default value is `100`.
+- **Start min speed** (🔢 Number, Speed). Initial speed of the particles, in the emission direction (the local Z axis of the emitter). Default value is `100`.
 - **Start max speed** (🔢 Number, Speed). Default value is `100`.
 - **Min lifespan** (🔢 Number, Duration). Default value is `1`.
 - **Max lifespan** (🔢 Number, Duration). Default value is `2`.
-- **Emission duration** (🔢 Number, Duration). Default value is `5`.
-- **Particles move with the emitter** (🔘 Boolean).
-- **Spay cone angle** (🔢 Number, Angle). Default value is `30`.
-- **Blending** (Choice, one of: "Normal", "Additive", "Subtractive", "Multiply", "None"). Default value is `Additive`.
-- **Gravity top** (Choice, one of: "Y-", "Z+"). Default value is `Y-`.
-- **Gravity** (🔢 Number, Acceleration). Default value is `0`.
-- **Delete when emission ends** (🔘 Boolean). Default value is `true`.
-- **Start min length** (🔢 Number, Distance). Default value is `120`.
-- **Start max length** (🔢 Number, Distance). Default value is `120`.
-- **Render mode** (Choice, one of: "Billboard", "Trail"). Default value is `Billboard`.
+- **Emission duration** (🔢 Number, Duration). 0 emits forever. Default value is `5`.
+- **Particles move with the emitter** (🔘 Boolean). When checked, the particles already emitted follow the emitter when it moves or rotates. Leave it unchecked for rain, snow or smoke that must stay where it was emitted while the emitter follows the camera or a character.
+- **Spray cone angle** (🔢 Number, Angle). Spread of the particles around the emission direction, which is the local Z axis of the emitter (upward by default, rotate the instance to aim it). 0 or more than 180 emits in every direction, unless an emission zone radius is set: then 0 emits straight. Default value is `30`.
+- **Emission zone radius** (🔢 Number, Distance). Particles are emitted from a disc of this radius, perpendicular to the emission direction. 0 emits from a single point. Use a large radius (like 1000) for rain or snow falling over a whole area. Default value is `0`.
+- **Blending** (Choice, one of: "Normal", "Additive", "Subtractive", "Multiply", "None"). Additive makes particles glow (fire, magic, energy). Use Normal for rain, snow, smoke or dust. Only applied when the object is created. Default value is `Additive`.
+- **Gravity top** (Choice, one of: "Y-", "Z+"). Z+: gravity pulls particles down along the Z axis (the usual choice in 3D games). Y-: gravity pulls particles toward Y+. Default value is `Y-`.
+- **Gravity** (🔢 Number, Acceleration). Acceleration pulling the particles in the direction given by the gravity top. 0 disables gravity. Default value is `0`.
+- **Delete when emission ends** (🔘 Boolean). Delete the object once the emission duration is over and every particle disappeared. Uncheck it and set the emission duration to 0 for a continuous effect like fire, rain or snow. Default value is `true`.
+- **Start min length** (🔢 Number, Dimensionless). Number of past positions kept to draw the trail, one per frame: the visible length is this number multiplied by the distance traveled by the particle each frame. Default value is `120`.
+- **Start max length** (🔢 Number, Dimensionless). Number of past positions kept to draw the trail, one per frame: the visible length is this number multiplied by the distance traveled by the particle each frame. Default value is `120`.
+- **Render mode** (Choice, one of: "Billboard", "Trail"). "Image facing the camera" draws each particle as an image. "Image following a trail" stretches the image along the path of each particle (sparks, rain streaks). Default value is `Billboard`.
 - **Follow the object** (🔘 Boolean).
 - **Tail end width ratio** (🔢 Number, Dimensionless). Default value is `0`.
 
@@ -66,13 +69,14 @@ Display a large number of particles to create visual effects.
     - **Max lifespan** is stored as `LifespanMax` (Number). Unit is Second. Default value is `2`.
     - **Emission duration** is stored as `Duration` (Number). Unit is Second. Default value is `5`.
     - **Particles move with the emitter** is stored as `AreParticlesRelative` (Boolean). Default value is ``.
-    - **Spay cone angle** is stored as `SpayConeAngle` (Number). Unit is DegreeAngle. Default value is `30`.
+    - **Spray cone angle** is stored as `SpayConeAngle` (Number). Unit is DegreeAngle. Default value is `30`.
+    - **Emission zone radius** is stored as `ZoneRadius` (Number). Unit is Pixel. Default value is `0`.
     - **Blending** is stored as `Blending` (Choice). Default value is `Additive`.
     - **Gravity top** is stored as `GravityTop` (Choice). Default value is `Y-`.
     - **Gravity** is stored as `Gravity` (Number). Unit is PixelAcceleration. Default value is `0`.
     - **Delete when emission ends** is stored as `ShouldAutodestruct` (Boolean). Default value is `true`.
-    - **Start min length** is stored as `TrailStartLengthMin` (Number). Unit is Pixel. Default value is `120`.
-    - **Start max length** is stored as `TrailStartLengthMax` (Number). Unit is Pixel. Default value is `120`.
+    - **Start min length** is stored as `TrailStartLengthMin` (Number). Unit is Dimensionless. Default value is `120`.
+    - **Start max length** is stored as `TrailStartLengthMax` (Number). Unit is Dimensionless. Default value is `120`.
     - **Render mode** is stored as `RenderMode` (Choice). Default value is `Billboard`.
     - **Follow the object** is stored as `IsTrailFollowingLocalOrigin` (Boolean). Default value is ``.
     - **Tail end width ratio** is stored as `TrailEndWidthRatio` (Number). Unit is Dimensionless. Default value is `0`.
@@ -243,8 +247,8 @@ Change if delete when emission ends.
 
     > Technical note: this action internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::SetShouldAutodestruct`.
 
-**Spay cone angle**  
-Change the spay cone angle of the object.
+**Spray cone angle**  
+Change the spray cone angle of the object.
 
 ??? quote "See parameters & details"
 
@@ -372,6 +376,19 @@ Change the start min trail length of the object.
     > Technical note: parameter 3 is an internal parameter handled by GDevelop.
 
     > Technical note: this action internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::SetTrailStartLengthMin`.
+
+**Emission zone radius**  
+Change the emission zone radius of the object: particles are emitted from a disc of this radius (0 emits from a single point).
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Operator
+    - Parameter 2 (🔢 Number): Value
+
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this action internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::SetZoneRadius`.
 
 
 ### Object conditions
@@ -550,8 +567,8 @@ Check if delete when emission ends.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::ShouldAutodestruct`.
 
-**Spay cone angle**  
-Compare the spay cone angle of the object.
+**Spray cone angle**  
+Compare the spray cone angle of the object.
 
 ??? quote "See parameters & details"
 
@@ -680,6 +697,19 @@ Compare the start min trail length of the object.
 
     > Technical note: this condition internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::TrailStartLengthMin`.
 
+**Emission zone radius**  
+Compare the emission zone radius of the object: particles are emitted from a disc of this radius (0 emits from a single point).
+
+??? quote "See parameters & details"
+
+    - Parameter 0: 👾 Object
+    - Parameter 1: 🟰 Relational operator
+    - Parameter 2 (🔢 Number): Value to compare
+
+    > Technical note: parameter 3 is an internal parameter handled by GDevelop.
+
+    > Technical note: this condition internal type (in GDevelop JSON) is `ParticleEmitter3D::ParticleEmitter3D::ZoneRadius`.
+
 
 ### Object expressions
 
@@ -695,7 +725,7 @@ Compare the start min trail length of the object.
 | `Object.GravityTop()` | Return the gravity top of the object. ||
 | `Object.LifespanMax()` | Return the max lifespan of the object. ||
 | `Object.LifespanMin()` | Return the min lifespan of the object. ||
-| `Object.SpayConeAngle()` | Return the spay cone angle of the object. ||
+| `Object.SpayConeAngle()` | Return the spray cone angle of the object. ||
 | `Object.StartColor()` | Return the start color of the object. ||
 | `Object.StartOpacity()` | Return the start opacity of the object. ||
 | `Object.StartSizeMax()` | Return the start max size of the object. ||
@@ -705,6 +735,7 @@ Compare the start min trail length of the object.
 | `Object.TrailEndWidthRatio()` | Return the tail end width ratio of the object. ||
 | `Object.TrailStartLengthMax()` | Return the start max trail length of the object. ||
 | `Object.TrailStartLengthMin()` | Return the start min trail length of the object. ||
+| `Object.ZoneRadius()` | Return the emission zone radius of the object: particles are emitted from a disc of this radius (0 emits from a single point). ||
 
 
 ---
