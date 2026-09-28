@@ -22,7 +22,7 @@ Custom points can be moved directly on the animation frame on the left and coord
 
 The **Share same points for all animations** switch can be unchecked to set different positions for each animation of the sprite.
 
-The **Share same points for all sprites of this animation** switch can be unchecked to set deferent positions for each frame of the animation.
+The **Share same points for all sprites of this animation** switch can be unchecked to set different positions for each frame of the animation.
 
 ![](point-editor.png){ .align-center }
 
