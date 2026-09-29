@@ -3,7 +3,7 @@ title: Tiled Sprite
 ---
 # Tiled Sprite
 
-A tiled sprite [object](/gdevelop5/objects) allows us to use repeating images in our games. increasing the width or height of the object will cause it repeat it's image, rather than stretching the image like a normal sprite object.
+A tiled sprite [object](/gdevelop5/objects) allows us to use repeating images in our games. Increasing the width or height of the object will cause it to repeat its image, rather than stretching the image like a normal sprite object.
 
 A tiled sprite object can be used to create platforms in a platform game, health bars, status bars, repeating wall tiles, repeating backgrounds, etc.
 
@@ -43,9 +43,13 @@ If the object is scaled to be larger in pixels than the image used, then the obj
 
 ![](tiled-sprite-100100.png)
 
-You can use events to manipulate the scale and positioning of tiled sprite object, but there are actions unique to tiled sprites. Offsets, which allow a user to scroll through a tiled sprite image without changing it's position. This is often used for scrolling backgrounds, and similar effects.
+You can use events to manipulate the scale and positioning of tiled sprite object, but there are actions unique to tiled sprites. Offsets allow a user to scroll through a tiled sprite image without changing its position. Because the image wraps around, continuously changing the offset produces a seamless, endless scroll — this is often used for scrolling backgrounds and similar effects.
 
 ![](/gdevelop5/objects/ChangeOffsetActions.png)
+
+####  Change the image and appearance
+
+The image displayed by a tiled sprite can also be replaced during the game with the "Image" action, which is convenient when reusing a single object for different repeating textures. The object also supports changing its opacity and applying a tint color to recolor the repeating image.
 
 ## Examples
 
