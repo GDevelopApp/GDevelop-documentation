@@ -28,6 +28,8 @@ You simply describe what you want in plain language, and the AI decides whether 
 
 ![A conversation where the AI builds a feature in a game](./ai-conversation.png)
 
+You can also **attach images or files** to a message — for example, a screenshot or a reference picture to describe what you have in mind. Attached files can be turned into resources used in your game.
+
 The AI knows all built-in GDevelop features and the official, reviewed extensions. It does **not** know about community extensions unless they've been approved by the GDevelop team.
 
 ## What the AI can build for you
