@@ -106,6 +106,27 @@ For this, insert the action to enable the test mode at the beginning of your gam
 
 ![](/gdevelop5/all-features/admob/pasted/20210131-221920.png)
 
+## Checking the state of an ad
+
+Because loading an ad takes time (and may fail, for example if the device is offline), the extension provides conditions to check the state of each ad type. These let you avoid trying to show an ad that isn't ready yet, or react when loading failed.
+
+For every ad type you can check if the ad is currently *loading*, *ready* to be displayed, *showing*, or if it *had an error*. A typical pattern is to load the ad in advance, then only enable the "Watch ad" button once the matching "...ready" condition is true, and display the ad when the player presses it with the "Show..." action.
+
+## Rewarding the player
+
+For **rewarded videos** and **rewarded interstitials**, you must give the reward to the player yourself. Showing the ad does not grant anything on its own.
+
+Use the condition **"Rewarded video reward received"** (or **"Rewarded Interstitial reward received"**) to detect that the player watched the ad long enough to earn the reward. In the sub-events of this condition, add whatever the reward should be (give coins, an extra life, etc.).
+
+This condition stays true until the reward is *cleared*. Clearing it resets the condition to false so that a later ad can grant the reward again:
+
+  * The simplest approach is to let the condition clear the reward automatically (its parameter is enabled by default). The condition is then true for a single frame.
+  * Alternatively, keep the reward uncleared and clear it later with the action **"Mark the reward of the rewarded video as claimed"** (or the rewarded interstitial equivalent). This is useful if several events need to read the reward before it is consumed.
+
+!!! warning
+
+    Always grant the reward from the "reward received" condition, never right after the "Show..." action: the player can close a rewarded ad before the end, in which case no reward should be given.
+
 ## Testing and publishing your game on Android or iOS
 
 You must first build your game for Android or iOS to have the ads displayed on your device. See **[the page about Android](/gdevelop5/publishing/android) and [iOS publishing](/gdevelop5/publishing/ios)**.
