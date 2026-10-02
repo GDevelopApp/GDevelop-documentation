@@ -31,6 +31,10 @@ The window will then show the parameters for the effect - these parameters depen
 
 You can leave the default parameters as they are or change them from this window.
 
+## Adding an effect from the store
+
+Some effects come as ready-made assets you can install from the store. In the effects list of a layer, click **Add an effect from the store** to browse them and pick one. Skyboxes — full 3D backgrounds that surround the scene — are the first effects available this way.
+
 ## Try the game with the effect
 
 Launch a preview to see the effect applied. The effect is applied on the whole layer, so all the objects on the layer will be part of the effect.
