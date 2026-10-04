@@ -1,4 +1,4 @@
----
+---jumping Game 
 title: Guide for submitting examples
 ---
 
