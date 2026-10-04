@@ -3,7 +3,7 @@ title: Tiled Sprite
 ---
 # Tiled Sprite
 
-A tiled sprite [object](/gdevelop5/objects) allows us to use repeating images in our games. increasing the width or height of the object will cause it repeat it's image, rather than stretching the image like a normal sprite object.
+A tiled sprite [object](/gdevelop5/objects) allows us to use repeating images in our games. Increasing the width or height of the object will cause it to repeat its image, rather than stretching the image like a normal sprite object.
 
 A tiled sprite object can be used to create platforms in a platform game, health bars, status bars, repeating wall tiles, repeating backgrounds, etc.
 
@@ -43,9 +43,13 @@ If the object is scaled to be larger in pixels than the image used, then the obj
 
 ![](tiled-sprite-100100.png)
 
-You can use events to manipulate the scale and positioning of tiled sprite object, but there are actions unique to tiled sprites. Offsets, which allow a user to scroll through a tiled sprite image without changing it's position. This is often used for scrolling backgrounds, and similar effects.
+You can use events to manipulate the scale and positioning of a tiled sprite object, but there are also actions unique to tiled sprites. The X and Y *offsets* let you scroll the repeating image across the object without moving the object itself. By increasing an offset a little bit on every frame, you can create an endlessly scrolling background, a moving conveyor belt or a flowing water/lava effect. The current offsets can also be read back with the `XOffset()` and `YOffset()` expressions.
 
 ![](/gdevelop5/objects/ChangeOffsetActions.png)
+
+####  Change opacity, color and image
+
+Like a regular sprite, a tiled sprite can be made transparent with the *opacity* action (0 is fully invisible, 255 fully opaque) and tinted with the *tint color* action, which multiplies the image by a chosen color. You can also swap the displayed image at runtime with the "Change the image" action, which is handy for reusing a single object to show different repeating textures.
 
 ## Examples
 
