@@ -14,11 +14,11 @@ This game screenshot shows multiple objects with a *Outline* effect (giving the 
 
 Double click on an instance of an object on the scene editor (or in the list of objects) to edit it. Choose the **Effects** tab.
 
-Click **Add a 2D/3D effect**. A new effect called “Effect” is created. This name will be useful later for modifying the parameters of the effect during the game.
+Click **Add a 2D/3D effect**. A dialog opens where you can either start from scratch, by choosing one of the built-in effects, or browse ready-made effects coming from the store. A new effect called “Effect” is created. This name will be useful later for modifying the parameters of the effect during the game.
 
 ![](https://github.com/user-attachments/assets/9bc4cdbf-a2b2-4172-bde5-835a51f18728)
 
-Choose the type of the effect. Click on the selector and choose one.
+When starting from scratch, search for an effect and choose its type.
 
 ![](https://github.com/user-attachments/assets/9df38b2d-8c48-425d-97c4-073201226307)
 
