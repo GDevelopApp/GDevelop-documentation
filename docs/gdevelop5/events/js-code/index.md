@@ -54,6 +54,30 @@ This array is exactly like what an action or a condition would use. For example,
   * Read **[the game engine documentation](https://docs.gdevelop-app.com/GDJS%20Runtime%20Documentation/)** to get started.
   * You can also browse directly the **[GDJS game engine source code](https://github.com/4ian/GD/tree/master/GDJS/Runtime)**.
 
+## What the code can use
+
+The game engine is the `gdjs` namespace. The variables available in the code of a JavaScript event are:
+
+  * `runtimeScene` (a [gdjs.RuntimeScene](https://docs.gdevelop.io/GDJS%20Runtime%20Documentation/classes/gdjs.RuntimeScene.html)): the scene being played. From it: `runtimeScene.getGame()` (the [gdjs.RuntimeGame](https://docs.gdevelop.io/GDJS%20Runtime%20Documentation/classes/gdjs.RuntimeGame.html)), `runtimeScene.getLayer("UI")` (a [gdjs.RuntimeLayer](https://docs.gdevelop.io/GDJS%20Runtime%20Documentation/classes/gdjs.RuntimeLayer.html)), `runtimeScene.getVariables()` (the scene variables, a [gdjs.VariablesContainer](https://docs.gdevelop.io/GDJS%20Runtime%20Documentation/classes/gdjs.VariablesContainer.html)), `runtimeScene.getObjects("Enemy")` (every instance of an object, as an array of [gdjs.RuntimeObject](https://docs.gdevelop.io/GDJS%20Runtime%20Documentation/classes/gdjs.RuntimeObject.html)).
+  * `objects`, only when an object was chosen for the event: the array of its picked instances. Their class depends on the type of the object: a Sprite is a [gdjs.SpriteRuntimeObject](https://docs.gdevelop.io/GDJS%20Runtime%20Documentation/classes/gdjs.SpriteRuntimeObject.html), a Text is a [gdjs.TextRuntimeObject](https://docs.gdevelop.io/GDJS%20Runtime%20Documentation/classes/gdjs.TextRuntimeObject.html)... All of them have the methods of [gdjs.RuntimeObject](https://docs.gdevelop.io/GDJS%20Runtime%20Documentation/classes/gdjs.RuntimeObject.html) (`getX`, `setX`, `getAngle`, `hide`, `getVariables`, `deleteFromScene`...).
+  * `eventsFunctionContext`, only inside a function of an extension: see [JavaScript in extensions](/gdevelop5/events/js-code/javascript-in-extensions/).
+
+`object.getBehavior("PlatformerObject")` returns the behavior with this name on the object: a [gdjs.RuntimeBehavior](https://docs.gdevelop.io/GDJS%20Runtime%20Documentation/classes/gdjs.RuntimeBehavior.html) whose exact class depends on the behavior type (a platformer character is a [gdjs.PlatformerObjectRuntimeBehavior](https://docs.gdevelop.io/GDJS%20Runtime%20Documentation/classes/gdjs.PlatformerObjectRuntimeBehavior.html), with `simulateJumpKey()`, `getCurrentSpeed()`...). Behaviors made with events in an extension have no methods of their own from JavaScript: use their actions, conditions and expressions from events.
+
+The functions used by the actions, conditions and expressions of events are in the `gdjs.evtTools` namespaces (`gdjs.evtTools.input`, `gdjs.evtTools.sound`, `gdjs.evtTools.camera`, `gdjs.evtTools.variable`...), each taking `runtimeScene` as its first argument.
+
+### Rendering: PixiJS and Three.js
+
+2D rendering uses [PixiJS](https://pixijs.com/) (version 7.4) and 3D rendering uses [Three.js](https://threejs.org/) (version 0.185). Both are available as the `PIXI` and `THREE` globals. The engine objects give access to their renderer objects:
+
+  * `object.getRendererObject()`: the PixiJS object displaying a 2D object (a `PIXI.Sprite` for a Sprite object, for example).
+  * `object.get3DRendererObject()`: the `THREE.Object3D` of a 3D object (a 3D model, a 3D box...).
+  * `runtimeScene.getLayer("").getRendererObject()`: the `PIXI.Container` of a layer, and `runtimeScene.getLayer("").get3DRendererObject()`: the `THREE.Scene` of a 3D layer (`null` for a 2D layer).
+
+The textures of the resources of the game are described in [JavaScript in extensions](/gdevelop5/events/js-code/javascript-in-extensions/).
+
+The engine updates the position, size, angle and visibility of these renderer objects from the game objects on every frame, so changing them directly on a renderer object has no lasting effect: change the game object instead.
+
 
 ## Code examples
 
