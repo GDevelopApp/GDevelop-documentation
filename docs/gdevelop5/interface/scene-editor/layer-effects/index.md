@@ -17,13 +17,16 @@ In the scene editor, open the [Layers panel](/gdevelop5/interface/scene-editor/l
 
 ![](pasted/20230310-202848.png)
 
-The window that opens will prompt you to **Add an effect**. If you click on this button you'll add a new effect to your layer.
+The window that opens will prompt you to **Add an effect**. Clicking on this button opens a dialog with two tabs:
+
+* **Effect store** — pick a ready-to-use effect (for example, a skybox), already set up with assets and parameters.
+* **New effect from scratch** — choose an effect type yourself and configure it.
 
 ![](pasted/20230310-203337.png)
 
 A new layer effect is named "Effect" when created. This name will be useful later for modifying the parameters of the effect during the game.
 
-From the drop-down menu, you can choose the type of effect you'd like to have on your layer.
+When adding an effect from scratch, choose its type from the drop-down menu.
 
 ![](pasted/20230310-203710.png)
 
