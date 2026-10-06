@@ -31,6 +31,12 @@ The window will then show the parameters for the effect - these parameters depen
 
 You can leave the default parameters as they are or change them from this window.
 
+## Adding an effect from the store
+
+Some effects come with ready-made content that you can browse and install directly from the store, starting with **skyboxes** for 3D layers. Use the **Add an effect from the store** option to pick one: it is added to the layer already set up with its assets.
+
+A layer can only show one skybox (or one fog) at a time, so when you add one from the store while another is already present, GDevelop asks whether to replace the existing one.
+
 ## Try the game with the effect
 
 Launch a preview to see the effect applied. The effect is applied on the whole layer, so all the objects on the layer will be part of the effect.
