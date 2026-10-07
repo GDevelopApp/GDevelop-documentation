@@ -235,7 +235,7 @@ For instance, these 3 extensions expose events-based objects:
 
     Most of the previous section about events-based behaviors also applies to events-based objects.
 
-### Handle 3D renderer wold scale
+### Handle 3D renderer world scale
 
 The **3D renderer world scale** property define how pixels used in the events are converted to meters used by Three.js. It allows more realistic physical lightening.
 
@@ -247,7 +247,7 @@ Here are a few instances of coordinates which need to be converted:
 
 - Camera positions
 - Raycast positions
-- Wold positions (`lookAt`...)
+- World positions (`lookAt`...)
 
 Convert a position from the scene to the 3D renderer:
 ```JS
