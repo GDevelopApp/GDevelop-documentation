@@ -20,6 +20,14 @@ Light effects are "global lights" configured through [layer effects](/gdevelop5/
 
 Contrary to 3D light objects, light effects don't have a position in the scene, but their direction can be adjusted using two angles.
 
+## Directional light shadows
+
+A directional light casts shadows for the whole scene. A few properties let you control how these shadows look:
+
+- The **Rendering mode** should be left on *Fitted to camera view*, which draws shadows only for what the camera sees, up to the **Shadow distance**. The smaller the shadow distance, the sharper the shadows.
+- **Shadow intensity** sets how dark the shadows are, from 0 (no shadow) to 1 (fully shadowed).
+- **Shadow softness** blurs the edges of the shadows, without any impact on performance.
+
 ## Avoiding shadow artifacts
 
 When [3D model objects](/gdevelop5/objects/3d-model/) both cast and receive shadows, you may notice darkened patterns appearing on their surfaces. The **Shadow bias** property of lights can be used to prevent this issue, known as "shadow acne". Choose a value small enough to avoid creating a visible gap between shadows and objects (such as `0.001`), but not so small that it causes shadow glitches at low or medium quality settings.
