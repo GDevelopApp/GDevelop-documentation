@@ -34,6 +34,12 @@ When you select an easing in the editor, a small preview of its curve is shown n
 
     [easings.net](https://easings.net/) is an interactive catalog where you can see most of these easings animated.
 
+### Custom and named easings
+
+Besides the built-in easings, you can define your own **custom curve** using a cubic Bézier editor, by starting from a preset or by dragging the two control points. A custom curve can also be entered directly as an expression, like `"cubic-bezier(0.25, 0.1, 0.25, 1)"` (the same syntax used by websites such as [cubic-bezier.com](https://cubic-bezier.com/)).
+
+A custom curve can be saved as a **named easing** so it can be reused and edited in one place across all your tweens.
+
 ## Play tweens simultaneously
 
 Tweens can be played simultaneously simply by adding actions next to each other.
