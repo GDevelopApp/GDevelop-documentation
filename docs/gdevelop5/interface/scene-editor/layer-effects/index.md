@@ -27,6 +27,10 @@ From the drop-down menu, you can choose the type of effect you'd like to have on
 
 ![](pasted/20230310-203710.png)
 
+!!! tip
+
+    Some ready-made effects, such as skyboxes, can also be installed directly from the store when adding an effect. For 3D layers, you can combine effects like **Ambient occlusion**, **Depth of field**, **Bloom** and **Tone mapping** to give your scene a more cinematic look.
+
 The window will then show the parameters for the effect - these parameters depend on the effect type that was chosen.
 
 You can leave the default parameters as they are or change them from this window.
