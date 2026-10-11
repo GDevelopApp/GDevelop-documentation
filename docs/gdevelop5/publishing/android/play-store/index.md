@@ -1,4 +1,4 @@
----
+--
 title: Publish your game on the Play Store
 ---
 # Publish your game on the Play Store
@@ -80,4 +80,91 @@ Remember to tell about it on social medias, on the Discord and on the forum to l
 !!! tip
 
 
-    Later, if you want to publish an upload, be sure to increase the version number (in the game properties in GDevelop). Otherwise, the Play Store will reject the new Android App Bundle if it has the same version number as an existing one.
+    Later, if you want to publish an upload, be sure to increase the version number (in the game properties in GDevelop). Otherwise, the Play Store # Game Development Prompt: WHIT BATTLE
+
+একটি মোবাইল-উপযোগী Offline Battle Royale গেম তৈরি করো, যার নাম হবে **WHIT BATTLE**। গেমটি Free Fire-এর মতো Battle Royale ধারণার হবে, তবে নিজস্ব ডিজাইন, চরিত্র, ম্যাপ ও গ্রাফিক্স থাকবে।
+
+## ১. গেমের মূল বৈশিষ্ট্য
+
+* গেমটি Android মোবাইলে চলবে।
+* ইন্টারনেট ছাড়া খেলা যাবে।
+* গেম তৈরিতে কোডিং ছাড়া Visual Events ব্যবহার করতে হবে।
+* গেমটি প্রথমে 2D Top-down Shooter হিসেবে তৈরি করতে হবে।
+* স্ক্রিন Landscape মোডে থাকবে।
+
+## ২. গেমের ম্যাপ
+
+* ঘাস, গাছ, বাড়ি, রাস্তা ও দেয়াল থাকবে।
+* Player গাছ ও বাড়ির ভেতর দিয়ে চলতে পারবে না।
+* ম্যাপের বিভিন্ন স্থানে অস্ত্র, গোলাবারুদ ও Health Kit থাকবে।
+
+## ৩. Player
+
+* Player-এর নাম হবে WHIT.
+* Player সামনে, পেছনে, ডানে ও বামে চলতে পারবে।
+* Player-এর Health হবে 100।
+* স্ক্রিনে Virtual Joystick থাকবে।
+* ডান পাশে Aim এবং Fire Button থাকবে।
+
+## ৪. অস্ত্র
+
+* Pistol, Rifle এবং Shotgun থাকবে।
+* প্রতিটি অস্ত্রের Damage আলাদা হবে।
+* গোলাবারুদ সীমিত থাকবে।
+* গুলি শেষ হলে Reload করতে হবে।
+* অস্ত্র পরিবর্তন করার বাটন থাকবে।
+
+## ৫. Enemy Bots
+
+* গেমে 10টি শত্রু Bot থাকবে।
+* Bot Player-কে অনুসরণ করতে পারবে।
+* Bot Player-এর কাছাকাছি এলে আক্রমণ করবে।
+* Bot-এর Health হবে 100।
+* Bot মারা গেলে Kill Count বাড়বে।
+* সব Bot পরাজিত হলে Player জিতবে।
+
+## ৬. Safe Zone
+
+* গেমের শুরুতে বড় Safe Zone থাকবে।
+* সময়ের সঙ্গে Safe Zone ছোট হবে।
+* Safe Zone-এর বাইরে থাকলে Player-এর Health কমবে।
+* শেষ পর্যন্ত বেঁচে থাকলে Player জিতবে।
+
+## ৭. গেমের UI
+
+* Start Game Button
+* Pause Button
+* Health Bar
+* Ammo Counter
+* Kill Counter
+* Mini Map
+* Settings Button
+* Restart Button
+* Game Over Screen
+* Victory Screen-এ BOOYAH! লেখা
+
+## ৮. Main Menu
+
+গেম চালু হলে একটি সুন্দর Main Menu দেখাবে।
+
+গেমের নাম: WHIT BATTLE
+
+বাটন:
+
+* PLAY
+* SETTINGS
+* HOW TO PLAY
+* EXIT
+
+## ৯. Game Over
+
+Player-এর Health শূন্য হলে GAME OVER দেখাবে। Restart Button চাপলে নতুন ম্যাচ শুরু হবে।
+
+সব Enemy Bot পরাজিত হলে VICTORY এবং BOOYAH! দেখাবে।
+
+## ১০. প্রযুক্তিগত নির্দেশনা
+
+GDevelop ব্যবহার করে Sprite, Behaviors, Events, Variables, Timers এবং Touch Controls দিয়ে গেম তৈরি করো। প্রথমে ছোট একটি খেলার উপযোগী Prototype তৈরি করো। সব ফিচার একসঙ্গে কাজ না করলে ধাপে ধাপে যোগ করো। গেমটি পরীক্ষা করে Android APK হিসেবে Export করার নির্দেশনাও দাও।
+
+গেমের সব প্রয়োজনীয় ছবি, শব্দ এবং অন্যান্য সম্পদ প্রজেক্টে যুক্ত থাকবে, যাতে ইনস্টল করার পর গেমটি Offline-এ খেলা যায়।
+ reject the new Android App Bundle if it has the same version number as an existing one.
