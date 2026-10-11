@@ -47,6 +47,10 @@ You can use events to manipulate the scale and positioning of tiled sprite objec
 
 ![](/gdevelop5/objects/ChangeOffsetActions.png)
 
+Continuously increasing the X or Y offset over time (for example, in an event that runs every frame) is a simple way to make a background scroll endlessly.
+
+The tiled sprite also supports changing its **opacity** (from 0 for fully transparent to 255 for fully opaque) and applying a **color tint** to the whole object, which multiplies the image colors with the chosen color.
+
 ## Examples
 
 !!! tip
