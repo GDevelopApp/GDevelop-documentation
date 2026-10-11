@@ -34,6 +34,8 @@ When you select an easing in the editor, a small preview of its curve is shown n
 
     [easings.net](https://easings.net/) is an interactive catalog where you can see most of these easings animated.
 
+If none of the predefined easings fit, choose **Custom curve** in the easing selector. An editor then lets you shape your own cubic Bézier curve by dragging its two control points (or picking a preset), to design exactly how the value accelerates and decelerates. A custom curve can also be saved as a named easing to reuse it across your project.
+
 ## Play tweens simultaneously
 
 Tweens can be played simultaneously simply by adding actions next to each other.
