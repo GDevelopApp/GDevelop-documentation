@@ -24,6 +24,14 @@ Contrary to 3D light objects, light effects don't have a position in the scene, 
 
 When [3D model objects](/gdevelop5/objects/3d-model/) both cast and receive shadows, you may notice darkened patterns appearing on their surfaces. The **Shadow bias** property of lights can be used to prevent this issue, known as "shadow acne". Choose a value small enough to avoid creating a visible gap between shadows and objects (such as `0.001`), but not so small that it causes shadow glitches at low or medium quality settings.
 
+## Directional light shadows
+
+The directional light has additional properties to control the look of its shadows:
+
+- The **Rendering mode** "Fitted to camera view" draws shadows only for what the camera actually sees, up to the **Shadow distance**. The smaller the shadow distance, the sharper the shadows.
+- **Shadow intensity** sets how dark the shadows are, from `0` (no shadow) to `1`.
+- **Shadow softness** controls how blurry the edges of shadows are, without any impact on performance.
+
 ## Displaying more light objects
 
 Light objects can be demanding on the GPU, especially when they cast shadows. To allow game creators to add many lights to a scene, the engine automatically hides the lights farthest from the camera. By default, the limits are:

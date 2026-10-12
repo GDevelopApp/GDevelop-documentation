@@ -34,6 +34,10 @@ When you select an easing in the editor, a small preview of its curve is shown n
 
     [easings.net](https://easings.net/) is an interactive catalog where you can see most of these easings animated.
 
+### Custom easings
+
+Besides the built-in easings, you can design your own easing curve. In the easing selector, choose to create a custom easing and adjust its **cubic-bezier** curve by dragging the two control points (or picking a preset). You can give the custom easing a name to reuse it across the project: editing the named easing updates every tween using it.
+
 ## Play tweens simultaneously
 
 Tweens can be played simultaneously simply by adding actions next to each other.
