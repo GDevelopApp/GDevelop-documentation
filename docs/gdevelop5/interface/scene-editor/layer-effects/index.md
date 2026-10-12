@@ -31,6 +31,10 @@ The window will then show the parameters for the effect - these parameters depen
 
 You can leave the default parameters as they are or change them from this window.
 
+!!! tip
+
+    Some effects are also available as ready-to-use presets from the asset store (starting with skyboxes for 3D games). You can browse and add them directly from the effects dialog.
+
 ## Try the game with the effect
 
 Launch a preview to see the effect applied. The effect is applied on the whole layer, so all the objects on the layer will be part of the effect.
