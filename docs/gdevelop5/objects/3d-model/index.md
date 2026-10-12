@@ -61,7 +61,7 @@ The model can be set up to react to lighting in different ways through the **Mat
 - Set the object's material to **Standard without metalness** or **Keep original** (not **Basic**, which ignores lighting).
 - Enable **Shadow casting** and **Shadow receiving** in the object's properties (both enabled by default for new assets from the store).
 
-Shadows are computed around the camera with a range suitable for most games. You can adjust the light intensity, shadow quality and range by editing the Directional Light effect in the layer's effects.
+By default, shadows are fitted to what the camera can see, up to a configurable **Shadow distance**: reducing this distance makes shadows sharper. By editing the Directional Light effect in the layer's effects, you can also adjust the light intensity, the shadow quality, how dark shadows are (**Shadow intensity**) and how blurry their edges are (**Shadow softness**).
 
 !!! note
 
