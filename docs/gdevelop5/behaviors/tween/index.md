@@ -34,6 +34,8 @@ When you select an easing in the editor, a small preview of its curve is shown n
 
     [easings.net](https://easings.net/) is an interactive catalog where you can see most of these easings animated.
 
+In addition to the predefined easings, you can create your own **cubic-bezier** easing to shape a custom acceleration curve, directly from the easing selector in the editor.
+
 ## Play tweens simultaneously
 
 Tweens can be played simultaneously simply by adding actions next to each other.
