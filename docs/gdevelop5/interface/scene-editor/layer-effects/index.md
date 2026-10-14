@@ -23,11 +23,11 @@ The window that opens will prompt you to **Add an effect**. If you click on this
 
 A new layer effect is named "Effect" when created. This name will be useful later for modifying the parameters of the effect during the game.
 
-From the drop-down menu, you can choose the type of effect you'd like to have on your layer.
+A dedicated window opens where you can search and choose the type of effect you'd like to have on your layer. Effects are filtered depending on whether the layer is 2D or 3D. Some ready-to-use effects (such as skyboxes) can also be added directly from the asset store tab.
 
 ![](pasted/20230310-203710.png)
 
-The window will then show the parameters for the effect - these parameters depend on the effect type that was chosen.
+Once added, the window will show the parameters for the effect - these parameters depend on the effect type that was chosen.
 
 You can leave the default parameters as they are or change them from this window.
 

@@ -24,7 +24,7 @@ The **Material type** property (in the object's properties) controls how a 3D bo
 - Ensure the box uses the **Standard** material.
 - Enable **Shadow casting** and **Shadow receiving** in the object's properties (these are enabled for new objects by default).
 
-Shadows are rendered around the camera. You can tweak their range, quality and the light intensity by editing the Directional Light effect in the layer.
+By default, shadows are fitted to what the camera sees, up to a **Shadow distance**: a smaller distance gives sharper shadows. You can also tweak their quality, the light intensity, the shadow intensity and softness by editing the Directional Light effect in the layer.
 
 ## About transparency
 
