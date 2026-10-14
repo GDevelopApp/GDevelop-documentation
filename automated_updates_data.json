@@ -108,6 +108,10 @@
     {
       "date": "2026-09-19",
       "summary": "Improved object-picking docs: documented how conditions comparing two objects filter picked instances, including the asymmetric behavior of inverted conditions (only the first object is filtered)"
+    },
+    {
+      "date": "2026-10-14",
+      "summary": "Improved Tiled Sprite object docs: fixed intro typos and added a section explaining image X/Y offsets for scrolling backgrounds (frame-rate-independent with TimeDelta) and the XOffset/YOffset expressions"
     }
   ]
 }
