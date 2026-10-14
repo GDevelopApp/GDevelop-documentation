@@ -3,7 +3,7 @@ title: Tiled Sprite
 ---
 # Tiled Sprite
 
-A tiled sprite [object](/gdevelop5/objects) allows us to use repeating images in our games. increasing the width or height of the object will cause it repeat it's image, rather than stretching the image like a normal sprite object.
+A tiled sprite [object](/gdevelop5/objects) allows us to use repeating images in our games. Increasing the width or height of the object will cause it to repeat its image, rather than stretching the image like a normal sprite object.
 
 A tiled sprite object can be used to create platforms in a platform game, health bars, status bars, repeating wall tiles, repeating backgrounds, etc.
 
@@ -43,9 +43,19 @@ If the object is scaled to be larger in pixels than the image used, then the obj
 
 ![](tiled-sprite-100100.png)
 
-You can use events to manipulate the scale and positioning of tiled sprite object, but there are actions unique to tiled sprites. Offsets, which allow a user to scroll through a tiled sprite image without changing it's position. This is often used for scrolling backgrounds, and similar effects.
+You can use events to manipulate the scale and positioning of a tiled sprite object like any other object, but there are also actions unique to tiled sprites.
 
 ![](/gdevelop5/objects/ChangeOffsetActions.png)
+
+####  Scroll the image with offsets
+
+The **image offset** (X and Y) shifts the repeating image *inside* the object without moving the object itself. Because the image wraps around, continuously changing the offset makes the texture scroll smoothly across the object — perfect for scrolling backgrounds, conveyor belts, moving water or flowing lava.
+
+For example, to make a background scroll horizontally, add a small value to the X offset every frame (multiply by `TimeDelta()` to keep the speed independent of the frame rate):
+
+- **Action:** Change the X offset of `Background`: *add* `100 * TimeDelta()`
+
+The current offset can be read with the `XOffset` and `YOffset` [expressions](/gdevelop5/all-features/tiled-sprite-object/reference/).
 
 ## Examples
 
