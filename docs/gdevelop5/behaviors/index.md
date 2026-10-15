@@ -22,17 +22,23 @@ Most behaviors can be customized to make your game feel unique. Behaviors attach
 
 ## Most commonly used behaviors
 
-Here are some commonly used behaviors:
+Here are some commonly used behaviors, grouped like in the menu of this documentation:
 
-- [Anchor](/gdevelop5/behaviors/anchor)
-- [Destroy outside screen](/gdevelop5/behaviors/destroyoutside)
-- [Draggable](/gdevelop5/behaviors/draggable)
-- [Pathfinding](/gdevelop5/behaviors/pathfinding)
-- [Physics](/gdevelop5/behaviors/physics2)
-- [Platformer objects and platforms](/gdevelop5/behaviors/platformer)
-- [Top-down movement](/gdevelop5/behaviors/topdown)
-- [Tween](/gdevelop5/behaviors/tween)
-- [Multiplayer Object](/gdevelop5/all-features/multiplayer)
+- **Movement**:
+    - [Platformer character and platforms](/gdevelop5/behaviors/platformer): run and jump on platforms, in 2D platform games.
+    - [Top-down movement](/gdevelop5/behaviors/topdown): move in 4 or 8 directions, for RPGs, top-down shooters and isometric games.
+    - [Grid-based pathfinding](/gdevelop5/behaviors/pathfinding) and [navmesh pathfinding](/gdevelop5/behaviors/nav-mesh-pathfinding): move characters to a target while avoiding obstacles, in 2D and 3D.
+- **Physics**:
+    - [2D physics](/gdevelop5/behaviors/physics2): objects falling, bouncing and rolling realistically, joints, ragdolls.
+    - [3D physics](/gdevelop5/behaviors/physics3d): 3D objects with realistic physics, and ready-made behaviors for [3D characters](/gdevelop5/behaviors/physics3d#move-a-3d-character-with-controls) (platformers and shooters) and [cars](/gdevelop5/behaviors/physics3d#move-a-3d-car-with-controls).
+- **User interface**:
+    - [Anchor](/gdevelop5/behaviors/anchor): keep interface elements at the edges of the screen, whatever its size.
+    - [Draggable](/gdevelop5/behaviors/draggable): move objects with the mouse or a finger.
+- **Visual effect**:
+    - [Tween](/gdevelop5/behaviors/tween): smoothly animate the position, angle, size, color or opacity of objects.
+- **Game mechanic**:
+    - [Destroy outside screen](/gdevelop5/behaviors/destroyoutside): remove bullets and other objects leaving the screen.
+    - [Multiplayer object](/gdevelop5/all-features/multiplayer): synchronize objects between the players of an online game.
 
 While these behaviors are often used, the [full list of behaviors available in GDevelop](/gdevelop5/behaviors/all-behaviors) keeps growing every day: see the [list of all GDevelop extensions](/gdevelop5/extensions/) to discover them.
 

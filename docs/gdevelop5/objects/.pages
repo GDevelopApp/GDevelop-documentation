@@ -1,14 +1,36 @@
 nav:
-    - sprite
-    - Tiled Sprite: tiled_sprite
-    - Panel Sprite ("9 patch"): panel_sprite
-    - Tilemap: simple_tilemap
-    - light
-    - text
-    - 3D Box: 3d-box
-    - 3D Model: 3d-model
-    - 3D Light: 3d-light
-    - 3D Terrain: 3d-terrain
+    - General:
+        - sprite
+        - Tiled Sprite: tiled_sprite
+        - Panel Sprite ("9 patch"): panel_sprite
+        - Tilemap: simple_tilemap
+        - External Tilemap (LDtk/Tiled): tilemap
+    - 3D:
+        - 3D Box: 3d-box
+        - 3D Model: 3d-model
+        - 3D Light: 3d-light
+        - 3D Terrain: 3d-terrain
+    - Text:
+        - text
+        - BBText: bbtext
+        - Bitmap Text: bitmap_text
+    - User interface:
+        - Button: button
+        - Slider: slider
+        - Toggle Switch: toggle-switch
+        - Resource Bar: resource-bar
+        - Text Input: text_input
+        - Multitouch Joystick: multitouch-joystick
+        - Video: video
+    - Visual effects:
+        - Particle Emitter: particles_emitter
+        - Light: light
+        - Shape Painter: shape_painter
+    - Advanced:
+        - Spine: spine
+    - Using objects:
+        - Object Effects: effects
+        - Object Groups: object-groups
     - ...
-    - External Tilemap (LDtk/Tiled): tilemap
+    - All objects: all-objects.md
     - Custom Objects ("Prefabs"): custom-objects-prefab-template
