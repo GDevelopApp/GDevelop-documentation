@@ -8,6 +8,7 @@ nav:
     - 3D Box: 3d-box
     - 3D Model: 3d-model
     - 3D Light: 3d-light
+    - 3D Terrain: 3d-terrain
     - ...
     - External Tilemap (LDtk/Tiled): tilemap
     - Custom Objects ("Prefabs"): custom-objects-prefab-template
