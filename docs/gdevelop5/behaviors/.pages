@@ -1,13 +1,20 @@
 nav:
-  - Anchor Behavior: anchor
-  - Destroy outside screen behavior: destroyoutside
-  - Draggable Object Behavior: draggable
-  - Grid-based pathfinding: pathfinding
-  - Navmesh pathfinding: nav-mesh-pathfinding
-  - 2D Physics Engine: physics2
-  - 3D Physics Engine: physics3d
-  - Platform and platformer character behaviors: platformer
-  - Top-Down Movement behavior: topdown
-  - Tween behavior: tween
+  - Movement:
+      - Platform and platformer character: platformer
+      - Top-Down Movement: topdown
+      - Grid-based pathfinding: pathfinding
+      - Navmesh pathfinding: nav-mesh-pathfinding
+  - Physics:
+      - 2D Physics Engine: physics2
+      - 3D Physics Engine: physics3d
+      - Physics (deprecated): physics
+  - User interface:
+      - Anchor: anchor
+      - Draggable Object: draggable
+  - Visual effect:
+      - Tween: tween
+  - Game mechanic:
+      - Destroy outside screen: destroyoutside
   - ...
+  - All behaviors: all-behaviors.md
   - Custom behaviors: events-based-behaviors

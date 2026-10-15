@@ -16,34 +16,36 @@ Objects can also include [behaviors](/gdevelop5/behaviors), which give them buil
 
 ## Common object types in GDevelop
 
-GDevelop offers a wide variety of objects, each designed for a specific use. Below is a selection of commonly used ones, grouped by purpose:
+GDevelop offers a wide variety of objects, each designed for a specific use. Below is a selection of commonly used ones, grouped like in the menu of this documentation:
 
-- **General objects** (used for visuals, layouts, or 3D elements):
-    - [Sprite](/gdevelop5/objects/sprite)
-    - [Tiled Sprite](/gdevelop5/objects/tiled_sprite)
-    - [Panel Sprite ("9-patch")](/gdevelop5/objects/panel_sprite)
-    - [Tilemap](/gdevelop5/objects/simple_tilemap)
-    - [3D Model](/gdevelop5/objects/3d-model)
-    - [3D Box](/gdevelop5/objects/3d-box)
-- **Display text** (like scores, dialogue, or labels):
+- **General objects** (visuals and levels of 2D games):
+    - [Sprite](/gdevelop5/objects/sprite): animated images, for players, enemies, items and most elements of a 2D game.
+    - [Tiled Sprite](/gdevelop5/objects/tiled_sprite) and [Panel Sprite ("9-patch")](/gdevelop5/objects/panel_sprite): images repeated or stretched over an area, for backgrounds, platforms and frames.
+    - [Tilemap](/gdevelop5/objects/simple_tilemap) and [External Tilemap (LDtk/Tiled)](/gdevelop5/objects/tilemap): levels made of tiles.
+- **3D objects**:
+    - [3D Model](/gdevelop5/objects/3d-model): characters, vehicles, props and buildings made in a 3D modeling software.
+    - [3D Box](/gdevelop5/objects/3d-box): boxes with an image on each face, for walls, floors and crates.
+    - [3D Light](/gdevelop5/objects/3d-light): spot lights and point lights.
+    - [3D Terrain](/gdevelop5/objects/3d-terrain): a ground with hills and valleys, sculpted and painted in the scene editor, with grass and forests.
+    - [3D Particle Emitter](/gdevelop5/extensions/particle-emitter3d/): fire, smoke, explosions and magic in 3D.
+- **Display text** (like scores, dialogues, or labels):
     - [Text](/gdevelop5/objects/text)
-    - [Bitmap text](/gdevelop5/objects/bitmap_text)
-    - [BBText](/gdevelop5/objects/bbtext)
+    - [BBText](/gdevelop5/objects/bbtext), for text with several styles
+    - [Bitmap text](/gdevelop5/objects/bitmap_text), for text drawn with a pixel art or stylized font
 - **Create user interfaces** (menus, controls, input fields, etc.):
-    - [Text input](/gdevelop5/objects/text_input)
     - [Button](/gdevelop5/objects/button)
-    - [Multi-touch joystick](/gdevelop5/objects/multitouch-joystick)
     - [Slider](/gdevelop5/objects/slider)
     - [Toggle switch](/gdevelop5/objects/toggle-switch)
-    - [Resource bar](/gdevelop5/objects/resource-bar)
+    - [Resource bar](/gdevelop5/objects/resource-bar), for health, mana or progress
+    - [Text input](/gdevelop5/objects/text_input)
+    - [Multitouch joystick](/gdevelop5/objects/multitouch-joystick), for mobile controls
     - [Video](/gdevelop5/objects/video)
 - **Add visual effects** (particles, lighting, drawing shapes):
     - [2D Particle emitter](/gdevelop5/objects/particles_emitter)
-    - [3D Particle Emitter](/gdevelop5/extensions/particle-emitter3d/)
     - [2D Light](/gdevelop5/objects/light)
     - [Shape painter](/gdevelop5/objects/shape_painter)
-- **Advanced effects or rendering**:
-    - [External Tilemap (LDtk/Tiled)](/gdevelop5/objects/tilemap)
+- **Advanced**:
+    - [Spine](/gdevelop5/objects/spine), for 2D characters animated with skeletons
 
 !!! tip
 
@@ -52,12 +54,13 @@ GDevelop offers a wide variety of objects, each designed for a specific use. Bel
 ## Adding an object to your game
 
 1. Open the [Scene editor](/gdevelop5/interface/scene-editor). This is the default view after creating a new project.
-2. In the **Objects** panel, select **Click to add an object**.
-3. In the **Add a new object** dialog, select a type of object.
-4. Configure the object. The available settings depend on the type of object.
-5. Select **Apply**.
+1. In the **Objects** panel, click the **+** button next to "Scene Objects".
+1. In the **New object** dialog, either choose a ready-to-use object in the **Asset Store** tab (characters, props, backgrounds, user interface elements...), or choose a type of object in the **New object from scratch** tab.
+1. Configure the object. The available settings depend on the type of object.
 
-![](pasted/20230221-180825.png)
+![The "New object from scratch" tab of the New object dialog](/gdevelop5/objects/3d-terrain/new-object-terrain.jpg)
+
+Some types of objects, like scattered models, also show ready-to-use objects of the asset store when you choose them, so that you can start from one of them or skip to create your own.
 
 
 ## Choosing a name for your object
@@ -65,7 +68,7 @@ GDevelop offers a wide variety of objects, each designed for a specific use. Bel
 Objects are given a default name when they are created. You can change this from the object editor or by using the context menu on the object in the objects list.
 
 Note that there are limitations on how you name your object: you can only use alphanumeric characters and no spaces. You can use an underscore if you want to separate words (though games typically use camelCase to separate words, for example: `EnemyBullet`).
-This is to ensure your object will be recognized properly when used in [expressions](/gdevelop5/all-features/expressions).
+This is to ensure your object will be recognized properly when used in [expressions](/gdevelop5/events/expressions).
 
 Some good examples of names are: `Player`, `RedEnemy`, `Red_Enemy`, `Car1`, `FinalBoss`, `Final_Boss`, `Wall`... Giving a descriptive name is useful to help you quickly identify objects in events.
 
@@ -107,7 +110,7 @@ The **Angle** option defines the rotation of an object, in degrees. The followin
 
 !!! tip
 
-    Also see more details about [How to rotate objects](/gdevelop5/objects/how-to-rotate-objects).
+    Also see more details about [How to rotate objects](/gdevelop5/tutorials/how-to-rotate-objects).
 
 ### Z Order (for 2D objects)
 
