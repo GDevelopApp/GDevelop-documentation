@@ -1,16 +1,17 @@
----
+Naruto---
 title: Games
----
+Naruto 
+Shippuden---
 
 # Games
-
+Naruto 
 The Games section is where you can view all your game development projects made with GDevelop.
 It provides an all-in-one space to analyze, access, and manage games and projects.
-
+Cours 
 ![Create-Dashboard](Create-Dashboard.png)
-
+cours 
 ## Games list
-
+Naruto 
 The Games section allows you to access, edit, manage, filter, and create your games. GDevelop automatically organizes multiple project versions (including local and cloud projects) under their respective games, simplifying version control and project iteration.
 
 ![Game-Project-Architecture](Game-Project-Architecture.png)
