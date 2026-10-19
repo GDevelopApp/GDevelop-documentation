@@ -43,7 +43,15 @@ If the object is scaled to be larger in pixels than the image used, then the obj
 
 ![](tiled-sprite-100100.png)
 
-You can use events to change the scale and position of a tiled sprite object, and tiled sprites also have actions of their own: the **offsets** scroll the image inside the object without moving the object. This is often used for scrolling backgrounds (like the ground or the clouds of an endless runner) and similar effects.
+#### Scroll the image (offsets)
+
+You can use events to change the scale and position of a tiled sprite object, and tiled sprites also have actions of their own: the **Image X offset** and **Image Y offset** actions scroll the image *inside* the object without moving the object itself. This is often used for scrolling backgrounds (like the ground or the clouds of an endless runner) and similar effects.
+
+A common pattern is to continuously increase one of the offsets over time, for example `TiledSprite.XOffset() + Speed * TimeDelta()`, so the texture scrolls smoothly at a constant speed regardless of the frame rate. Because the image repeats seamlessly, the offset can keep growing without the scrolling ever showing a visible seam.
+
+#### Tint the image
+
+The **Tint color** action multiplies the image's colors by the chosen color (white, the default, leaves the image unchanged). This is a quick way to reuse a single tiled image in different colors, for example a repeating wall tinted differently per level. Like other objects, the tiled sprite also supports changing its opacity and adding visual [effects](/gdevelop5/all-features/effects).
 
 ## Examples
 
