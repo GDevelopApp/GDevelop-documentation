@@ -116,6 +116,14 @@ Enter your code and press **Redeem**. It’s then applied in a few seconds to yo
 That’s it, the confirmation of your account will be shown. You’re ready to create incredible games!
 
 
+## Invoices
+
+From your profile, click on **See invoices** to download the invoices of your subscription payments and of your purchases (asset packs, game templates, courses, bundles, and credits).
+
+!!! note
+
+        Invoices are not available in the mobile app: the receipts of payments made there are provided by the app stores instead.
+
 ## Contributions
 
 Here is a list of contributions you've made with extensions, examples, and assets that are available in the application. Each contribution is public and visible to the public through GDevelop by clicking on your username.
