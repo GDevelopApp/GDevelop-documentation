@@ -1,0 +1,49 @@
+using UnityEngine;
+
+public class TrainController : MonoBehaviour
+{
+    public float maxSpeed = 20f;
+    public float acceleration = 5f;
+    public float brakePower = 8f;
+
+    private float speed = 0f;
+
+    void Update()
+    {
+        // Keyboard testing
+        if (Input.GetKey(KeyCode.W))
+        {
+            speed += acceleration * Time.deltaTime;
+        }
+
+        if (Input.GetKey(KeyCode.S))
+        {
+            speed -= brakePower * Time.deltaTime;
+        }
+
+        speed = Mathf.Clamp(speed, 0f, maxSpeed);
+
+        // Train forward movement
+        transform.Translate(Vector3.forward * speed * Time.deltaTime);
+    }
+
+    // Mobile Accelerate button
+    public void Accelerate()
+    {
+        speed += acceleration;
+        speed = Mathf.Clamp(speed, 0f, maxSpeed);
+    }
+
+    // Mobile Brake button
+    public void Brake()
+    {
+        speed -= brakePower;
+        speed = Mathf.Clamp(speed, 0f, maxSpeed);
+    }
+
+    // Stop train
+    public void StopTrain()
+    {
+        speed = 0f;
+    }
+}
