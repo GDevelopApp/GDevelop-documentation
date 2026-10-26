@@ -45,6 +45,12 @@ If the object is scaled to be larger in pixels than the image used, then the obj
 
 You can use events to change the scale and position of a tiled sprite object, and tiled sprites also have actions of their own: the **offsets** scroll the image inside the object without moving the object. This is often used for scrolling backgrounds (like the ground or the clouds of an endless runner) and similar effects.
 
+The **Image X Offset** and **Image Y Offset** actions shift the repeating image inside the object without moving the object itself. Increasing an offset a little bit on every frame makes the texture scroll across the object, which is a common way to create endlessly scrolling backgrounds, moving conveyor belts or flowing water. The current values can also be read back with the `MyObject.XOffset()` and `MyObject.YOffset()` expressions and tested with the matching conditions.
+
+####  Change the image at runtime
+
+The image displayed by a tiled sprite can be replaced during the game with the "Set image" action (for example to swap a background or reuse the same object for different tiles). The image must be a resource already used in the project.
+
 ## Examples
 
 !!! tip
