@@ -171,6 +171,8 @@ The world holds all physics bodies and defines the rules of the simulation. Ever
 - **Dynamic**: Fully simulated — affected by gravity, forces, and collisions. Use this for any object that should move according to physics.
 - **Kinematic**: Moves only when its linear or angular velocity is set directly, not by external forces. Ideal for moving platforms, enemies following a path, or player-controlled characters that must interact with physics objects without being knocked away.
 
+The body type can also be changed during the game with the **Body type** action. For instance, an enemy moved by a pathfinding behavior can be kinematic and become dynamic to be thrown by an impulse when it is hit. The velocities are kept when the type changes. The type is not changed while an activated **3D physics character** or **3D physics car** behavior is handling the object, nor for **Mesh** shapes (which can only be static).
+
 ### Collision Shapes
 
 The collision shape determines the geometry the physics engine uses for an object. It does not have to match the visible 3D model exactly — a simpler shape is often faster and more predictable.
@@ -202,9 +204,9 @@ These properties control how a body behaves during the simulation:
 
 ### Collision Layers & Masks
 
-Collision layers and masks let you control which objects can collide with each other, using the same system as the [2D Physics Engine](/gdevelop5/behaviors/physics2/).
+Collision layers and masks let you control which objects can collide with each other. To keep static and moving objects from interfering, static bodies use the layers 1 to 4, while dynamic and kinematic bodies use the layers 5 to 8. A body therefore has two sets of **Layers** in the collision filtering properties: one used while it is static, and one used while it is dynamic or kinematic (the body type can change during the game). With the default layers (1 and 5), an object keeps colliding with the same objects after a body type change.
 
-There are 16 layers and 16 masks. Two objects can collide only when **any layer of object A matches any mask of object B, *and* any layer of object B matches any mask of object A**.
+The **Masks (collides with)** property lists the layers a dynamic or kinematic object collides with. A static object has no masks: it collides with the dynamic and kinematic objects whose masks include its layers.
 
 A common use is to prevent certain object types from interacting — for example, making enemies collide with the ground and the player, but not with each other.
 
