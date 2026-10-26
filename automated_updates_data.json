@@ -108,6 +108,10 @@
     {
       "date": "2026-09-19",
       "summary": "Improved object-picking docs: documented how conditions comparing two objects filter picked instances, including the asymmetric behavior of inverted conditions (only the first object is filtered)"
+    },
+    {
+      "date": "2026-09-22",
+      "summary": "Fixed filesystem docs: corrected 'Load a scene variable from a JSON file' action names, wrong load-path descriptions, and duplicate 'Delete a file' heading; added missing 'Read a directory' action and JSON normalize option"
     }
   ]
 }
