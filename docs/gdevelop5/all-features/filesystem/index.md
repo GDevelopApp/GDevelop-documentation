@@ -204,6 +204,8 @@ This expression returns the operating system independent path to the _Documents_
 This is the standard folder for storing documents.
 ####  This games executable folder
 This expression returns the operating system independent path to the folder where your game is being executed from.
+####  Game executable file
+This expression returns the operating system independent path to the game executable file itself (contrary to the folder returned by the expression above).
 ####  Pictures folder
 This expression returns the operating system independent path to the _Pictures_ folder of the user that runs your game.
 This is the standard folder for storing images.
@@ -213,9 +215,20 @@ This folder is used for temporary files that your operating system can delete at
 ####  Userdata folder
 This expression returns the operating system independent path to the _UserData_ folder of the user that runs your game.
 This folder is used for storing application settings.
+####  User's home folder
+This expression returns the operating system independent path to the home folder of the user that runs your game.
 ####  Path delimiter
 This expression returns the operating system independent path delimiter character. ("\" on Windows and "/" on Linux and macOS).
 Use this expression to build cross-platform file paths that can be accessed on all supported operating systems.
+
+### Reading parts of a path
+These expressions take a file path as a parameter and return a portion of it. They are useful to extract a piece of information from a path you built or read from a file.
+####  Get directory name from a path
+Returns the portion of the path that represents the directories, without the ending file name.
+####  Get file name from a path
+Returns the name of the file with its extension, if any.
+####  Get the extension from a file path
+Returns the extension of the file designated by the given path, including the extension period (for example: `.txt`).
 
 ## Example
 In order to save a screenshot to the _Pictures_ directory you could write:
