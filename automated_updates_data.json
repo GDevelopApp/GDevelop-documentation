@@ -108,6 +108,10 @@
     {
       "date": "2026-09-19",
       "summary": "Improved object-picking docs: documented how conditions comparing two objects filter picked instances, including the asymmetric behavior of inverted conditions (only the first object is filtered)"
+    },
+    {
+      "date": "2026-10-02",
+      "summary": "Improved AdMob docs: added sections on checking ad state (loading/ready/showing/error) and how to reward the player using the 'reward received' condition and clearing the reward"
     }
   ]
 }
