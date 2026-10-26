@@ -51,4 +51,4 @@ Using events, it is possible to enable or disable the "Text entry" object. Event
 
 ## Reference
 
-All actions, conditions and expressions are listed in [the shape painter reference page](/gdevelop5/all-features/text-entry-object/reference/).
+All actions, conditions and expressions are listed in [the text entry object reference page](/gdevelop5/all-features/text-entry-object/reference/).
