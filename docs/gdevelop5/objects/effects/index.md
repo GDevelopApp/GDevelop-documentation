@@ -14,7 +14,12 @@ This game screenshot shows multiple objects with a *Outline* effect (giving the 
 
 Double click on an instance of an object on the scene editor (or in the list of objects) to edit it. Choose the **Effects** tab.
 
-Click **Add a 2D/3D effect**. A new effect called “Effect” is created. This name will be useful later for modifying the parameters of the effect during the game.
+Click **Add a 2D/3D effect**. The window that opens has two tabs:
+
+- The **Effect store** tab lists ready-made effects (such as tints and status colors) that you can add in one click. These are a quick way to highlight an object, for example to show that a character is poisoned, frozen or invincible.
+- The **New effect from scratch** tab lets you build your own effect by choosing an effect type and setting its parameters.
+
+A new effect called “Effect” is created. This name will be useful later for modifying the parameters of the effect during the game.
 
 ![](https://github.com/user-attachments/assets/9bc4cdbf-a2b2-4172-bde5-835a51f18728)
 

@@ -60,6 +60,16 @@ The condition can be then used in the scene:
 
 By doing this for more complex needs, you can break down game menus or even gameplay objects (like a player character, complex obstacles, enemies, etc...) into custom object that can be edited independently. Your scene stays simple and only focused on the high level details of your game.
 
+## Convert positions and directions across the custom object boundary
+
+A child lives in its own space inside the custom object, which can be moved, rotated, scaled or flipped as a whole. Each custom object exposes expressions to convert between that inside space and the space containing the object (the scene, or an enclosing custom object):
+
+- **…of a point inside the object, in its parent** (and the reverse): convert the X/Y/Z of a position, for example to spawn a bullet in the scene from a muzzle placed relative to a child, or to find where a scene position falls inside the object.
+- **…of a direction inside the object, in its parent** (and the reverse): convert a direction (such as a forward vector) as a unit vector, which stays exact even when the object is tilted in 3D.
+- **Angle inside the object, in its parent** (and the reverse): convert a 2D direction given as an angle in degrees.
+
+These are useful when a child's logic needs to interact with the scene, or when the scene needs to reach a precise point of a child.
+
 ## Change the default size of a custom object
 
 The grey rectangle on the scene is the custom object default size. Your can change this size by clicking on the button on the top right corner.

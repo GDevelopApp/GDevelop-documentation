@@ -65,7 +65,7 @@ You can find usage of these conditions and actions in the examples:
 
 A few other built-in conditions are commonly used alongside (or instead of) the Collision condition:
 
-* The **Distance between two objects** condition checks if two objects are closer than a given distance. It's a quick way to trigger something when the player gets near an enemy, a pickup, or a trigger area — without needing them to actually touch.
+* The **Distance between two objects (2D)** condition checks if two objects are closer than a given distance. It's a quick way to trigger something when the player gets near an enemy, a pickup, or a trigger area — without needing them to actually touch. A **Distance between two objects (3D)** version also takes the Z axis into account, for 3D games.
 * The **Cursor/Touch is on object** condition reacts when the mouse cursor or a touch is over an object — useful for point-and-click games or UI buttons.
 
 ## Platformer games: use the Platformer character and Platform behaviors
