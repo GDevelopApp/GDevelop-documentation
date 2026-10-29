@@ -139,6 +139,10 @@ If you've used up your allowance, you can:
 - **Keep an eye on the work:** watch the steps and the plan. If something looks wrong, stop the AI and rephrase.
 - **Expect variation:** results can differ between attempts. Rephrasing often helps — and noting down prompts that worked well will sharpen your own process.
 
+## Using your own AI agent
+
+If you already use an AI agent like Claude Code, Cursor or Codex, you can also connect it to GDevelop to edit your game with the same tools: see [Use your own AI agent with GDevelop (MCP)](/gdevelop5/interface/ai/mcp/).
+
 ## AI privacy
 
 GDevelop AI is built on general-purpose Large Language Models (LLMs), which can be adapted, fine-tuned, or coordinate several specialized steps internally to handle a request.
