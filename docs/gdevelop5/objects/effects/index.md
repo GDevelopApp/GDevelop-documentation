@@ -18,7 +18,9 @@ Click **Add a 2D/3D effect**. A new effect called “Effect” is created. This 
 
 ![](https://github.com/user-attachments/assets/9bc4cdbf-a2b2-4172-bde5-835a51f18728)
 
-Choose the type of the effect. Click on the selector and choose one.
+In the dialog that opens, you can either pick a ready-made effect from the **Effect store** (for example tints and status colors, useful to quickly highlight an object when it is hit, selected, poisoned, etc.) or switch to **New effect from scratch** to build your own.
+
+If you create an effect from scratch, choose the type of the effect. Click on the selector and choose one.
 
 ![](https://github.com/user-attachments/assets/9df38b2d-8c48-425d-97c4-073201226307)
 

@@ -23,7 +23,7 @@ The window that opens will prompt you to **Add an effect**. If you click on this
 
 A new layer effect is named "Effect" when created. This name will be useful later for modifying the parameters of the effect during the game.
 
-From the drop-down menu, you can choose the type of effect you'd like to have on your layer.
+You can either pick a ready-made effect from the **Effect store** (for example tints and status colors) or switch to **New effect from scratch** to build your own. When building from scratch, use the drop-down menu to choose the type of effect you'd like to have on your layer.
 
 ![](pasted/20230310-203710.png)
 
