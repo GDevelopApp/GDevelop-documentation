@@ -74,7 +74,7 @@ Boosts can be purchased inside GDevelop, using GDevelop Credits.
 
 1. Head down to your Games Dashboard,
 2. Pick the game you want to promote,
-3. Click on the "Marketing & Ads" tab to explore the available packages.
+3. In the "Analytics" section, click on the "Get more players" button to explore the available packages.
 
 !!! tip
 
