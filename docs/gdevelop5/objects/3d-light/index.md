@@ -28,6 +28,8 @@ By default, a directional light draws shadows only for what the camera sees, up 
 
 When [3D model objects](/gdevelop5/objects/3d-model/) both cast and receive shadows, you may notice darkened patterns appearing on their surfaces. The **Shadow bias** property of lights can be used to prevent this issue, known as "shadow acne". Choose a value small enough to avoid creating a visible gap between shadows and objects (such as `0.001`), but not so small that it causes shadow glitches at low or medium quality settings.
 
+Directional lights also offer a **Shadow normal bias** to remove shadow acne without detaching shadows from the objects casting them. Expressed in texels of the shadow map, a value of `1` is usually enough.
+
 ## Displaying more light objects
 
 Light objects can be demanding on the GPU, especially when they cast shadows. To allow game creators to add many lights to a scene, the engine automatically hides the lights farthest from the camera. By default, the limits are:
