@@ -37,6 +37,8 @@ By default, extensions don't have any behavior. Add one by clicking on the "+" b
 
 You can choose the description and the name to display to users when they will add your behavior to an object. You can also set a custom icon and a help page link for the behavior — this is especially useful when an extension provides multiple behaviors, so each one can be visually distinguished. If you need to use a specific object (sprites, texts...), you can choose it with the drop-down list at the bottom.
 
+There is also a **Synchronized over the network by default** option, used for [multiplayer](/gdevelop5/all-features/multiplayer) objects. Uncheck it for behaviors reacting to the player's inputs (keyboard, mouse or touch "mappers"): their state won't be sent to other players, so they can stay deactivated on objects owned by other players.
+
 ![](behavior-description.png)
 
 Behaviors can also embed properties, which are number, strings or booleans that are stored inside the behavior. Check out the section below about how to add and use properties.
