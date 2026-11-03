@@ -246,14 +246,15 @@ By default, all behaviors of an object are synchronized across the network. This
 - It allows everyone to see the same thing happening in the game.
 - It allows good movement predictions, especially for behaviors like the platformer character or the physics behaviors.
 
-Some behaviors, however, might not need to be synchronized across the network. For instance, if you have a behavior that is very specific to the current player, like a behavior that controls the camera, you might want to disable the synchronization of this behavior.
+Some behaviors, however, might not need to be synchronized across the network. For instance, if you have a behavior that is very specific to the current player, like a behavior that reads the player inputs or controls the camera, you might want to disable the synchronization of this behavior.
 
-To do this, you can use the action **Disable behavior synchronization** on the game of the player who owns the synchronized object, then on the other players's games you can disable the behavior.
-It will result in it being disabled on the other players' games, but still active on the player's game.
+The simplest way is to turn off the **synchronized over the network** setting of the behavior, directly in the behaviors editor of the object (the network icon shown next to each behavior, available when the object has the Multiplayer object behavior). When a behavior is not synchronized, enabling, disabling or changing it on the owner's game has no effect on the other players, so each player keeps their own version of it.
 
 !!! note
 
-    A good example of this is the behavior **SmoothCamera**. If you have a camera that follows the player, you might want to disable the synchronization of this behavior, so that each player has their own camera following their own character.
+    A good example of this is the behavior **SmoothCamera**, or a behavior reading the player inputs. If you have a camera that follows the player, turn off its synchronization so that each player has their own camera following their own character.
+
+You can also control this at runtime with the action **Disable behavior synchronization**, used on the game of the player who owns the synchronized object. It will result in the behavior being disabled on the other players' games, but still active on the owner's game.
 
 ### Setting ownership of objects
 
