@@ -4,6 +4,11 @@ Add blur to the top and bottom of the entire layer or object. Perfect to simulat
 
 ![](tilt-shift-effect.png)
 
+## Properties
+
+- **Blur** sets the strength of the blur applied at the top and bottom.
+- **Gradient blur** sets the size of the sharp, in-focus band in the middle: a larger value keeps more of the image in focus, while a smaller value narrows the focused strip.
+
 
 ## Reference
 
