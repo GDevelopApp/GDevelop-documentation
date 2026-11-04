@@ -34,18 +34,24 @@ Read the [best practices for extensions](/gdevelop5/extensions/best-practices) h
 Once you're done, click on "Export Extension" at the bottom, then on "Export to a File".
 Choose a file and enter the same name as your extension, finishing by `.json`. For example: `Flash.json`.
 
-## Submit your extension to the community
+## Share your extension with the community
+
+The easiest way to share your extension is to add it to the [GDevelop Community List](https://github.com/GDevelopApp/GDevelop-community-list). Upload your extension on a page where people can learn about it and download it (for example on itch.io or GitHub), then [fill the submission form](https://github.com/GDevelopApp/GDevelop-community-list/issues/new?template=new-extension.yml) with a link to this page. You will need a [GitHub profile](https://github.com/join).
+
+Extensions of the community list are not reviewed by the GDevelop extensions team. This is also a good place for your extension while you keep improving it.
+
+## Submit an official or experimental extension
+
+Official and experimental extensions are available directly in GDevelop, in the list of extensions. They are hosted on the [GDevelop-extensions repository](https://github.com/GDevelopApp/GDevelop-extensions) and reviewed by the GDevelop extensions team. They are submitted with a pull request:
+
+1. [Fork the repository](https://github.com/GDevelopApp/GDevelop-extensions/fork). You will need a [GitHub profile](https://github.com/join).
+2. Add your `.json` file to the `extensions/community` folder of your fork. To update an existing extension, replace its file instead. You can do this from your browser, with "Add file" > "Upload files": there is no need to install Git.
+3. [Open a pull request](https://github.com/GDevelopApp/GDevelop-extensions/compare) and fill in the template. To help the reviewer understand your extension, include a video, screenshots, or an example project (as a ZIP file) that demonstrates what your extension does.
 
 !!! note
 
-    All extensions submitted on Github must follow the [best practices](/gdevelop5/extensions/best-practices), otherwise you will be asked to follow them before getting a review.
+    The pull request automatically checks that the extension follows the [best practices](/gdevelop5/extensions/best-practices), for example that all the descriptions are filled. If the checks fail, click on "Details" next to the "Check extensions" check to see the errors. Fix them in GDevelop, export the extension again and upload the new file to the same branch: the pull request is updated.
 
-To submit an extension to GDevelop you will need need a [GitHub profile](https://github.com/join) to continue.
+Your extension will get reviewed to ensure high quality and a good experience for GDevelop users. It is common for the reviewer to request changes, so don't feel discouraged if this happens to you! Once your extension passes the final review, it will be added to GDevelop. The extension will become available immediately and will not have to wait for a new version of GDevelop to be released.
 
-Once you are logged into your Github account, open [a new issue on this GitHub repository](https://github.com/4ian/GDevelop-extensions/issues/new/choose).  Github will not let you upload a .json file, so you will need to use a tool to package your extension into ZIP format.   You can read other ways to submit extensions directly on [the repository README](https://github.com/4ian/GDevelop-extensions).
-
-Complete **all the information** in the issue checklist, then attach your `.json` file and submit the issue. See an [example here](https://github.com/4ian/GDevelop-extensions/issues/1).
-
-To help the reviewer understand your extension, it is beneficial to include a video, screenshot, or example game that demonstrates what your extension does.
-
-Your extension will get reviewed to ensure high quality and a good experience for GDevelop users.  It is common for the reviewer to request changes, so don't feel discouraged if this happens to you!  Once your extension passes the final review, it will be added to GDevelop.  The extension will become available immediately and will not have to wait for a new version of GDevelop to be released.
+To report a bug or get help with an extension, use the [GDevelop forum](https://forum.gdevelop.io).
