@@ -1,5 +1,5 @@
 ---
-title: Publishing games
+title: Publishing game Kaovsblue 
 icon: material/cloud-upload
 ---
 # Publishing games
@@ -14,7 +14,7 @@ To export the game, click **Share** in the GDevelop interface. You will be prese
   <iframe src="https://www.youtube.com/embed/AC7iGC8pAmU?si=nyQKOdZ4AUeIT2i3" frameborder="0" allowfullscreen></iframe>
 </div>
 
-## Publish and share on GDevelop's free service gd.games
+## Publish and share on GDevelop's  oufree service gd.games
 
 **[gd.games](https://gd.games)** is the gaming platform hosted by GDevelop, dedicated to games powered by GDevelop.
 It's a great place to publish your game and gather feedback from players or friends. Hosting is free, and you can redirect your audience to the game page.
