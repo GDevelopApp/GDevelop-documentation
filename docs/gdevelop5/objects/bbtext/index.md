@@ -45,8 +45,9 @@ You can set the default style of the text displayed on the screen. Tags are then
   * Base font size: the overall font size. The default is 24px.
   * Base font family: default is Arial.
   * Text alignment: default is left. This can be "left", "right" or "center"
+  * Vertical alignment: how the text is positioned vertically within the object's bounds. This can be "top" (default), "center" or "bottom".
   * BBCode formatted text: the text to be displayed. The default is a demo of how to use the tags.
-  * Word wrap: if enabled, break the text into multilines according to the object width.
+  * Word wrap: if enabled, break the text into multiple lines. The wrapping width follows the object's width, so resize the object in the scene editor to control where lines break.
   * Visible on start: by unchecking this option, the object will be hidden at the beginning of the scene. Use events to show it on.
 
 All these properties can be modified using the actions and conditions of the object in the events sheet.
