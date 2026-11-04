@@ -3,7 +3,7 @@ title: Tiled Sprite
 ---
 # Tiled Sprite
 
-A tiled sprite [object](/gdevelop5/objects) allows us to use repeating images in our games. increasing the width or height of the object will cause it repeat it's image, rather than stretching the image like a normal sprite object.
+A tiled sprite [object](/gdevelop5/objects) allows us to use repeating images in our games. Increasing the width or height of the object causes it to repeat its image, rather than stretching the image like a normal sprite object.
 
 A tiled sprite object can be used to create platforms in a platform game, health bars, status bars, repeating wall tiles, repeating backgrounds, etc.
 
@@ -35,7 +35,7 @@ This will not scale or alter the original image in any way, just the default siz
 
 ####  Scale the object
 
-The size of the tiled sprite effects how much of your image is going to be visible in your game. If the image used in the tiled sprite object is larger than the size it's scaled to in scene, only a portion of the image will be visible.
+The size of the tiled sprite affects how much of your image is going to be visible in your game. If the image used in the tiled sprite object is larger than the size it's scaled to in scene, only a portion of the image will be visible.
 
 ![](tiled-sprite-3232.png)
 
@@ -43,7 +43,11 @@ If the object is scaled to be larger in pixels than the image used, then the obj
 
 ![](tiled-sprite-100100.png)
 
-You can use events to change the scale and position of a tiled sprite object, and tiled sprites also have actions of their own: the **offsets** scroll the image inside the object without moving the object. This is often used for scrolling backgrounds (like the ground or the clouds of an endless runner) and similar effects.
+You can use events to change the scale and position of a tiled sprite object, and tiled sprites also have actions of their own:
+
+- The **image X offset** and **image Y offset** scroll the image inside the object without moving the object. This is often used for scrolling backgrounds (like the ground or the clouds of an endless runner) and similar effects: continuously increasing an offset makes the texture appear to scroll.
+- The **tint** applies a color multiplied over the image, and the **opacity** makes the object more or less transparent.
+- The **image** action lets you replace the displayed image with another image resource at runtime, for example to swap a background without creating a new object.
 
 ## Examples
 
