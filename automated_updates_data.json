@@ -108,6 +108,10 @@
     {
       "date": "2026-09-19",
       "summary": "Improved object-picking docs: documented how conditions comparing two objects filter picked instances, including the asymmetric behavior of inverted conditions (only the first object is filtered)"
+    },
+    {
+      "date": "2026-10-26",
+      "summary": "Improved filesystem docs: documented the 'Read a directory' action and added missing expressions (game executable file, user home folder, directory name, file name, file extension)"
     }
   ]
 }
