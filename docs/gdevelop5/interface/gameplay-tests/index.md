@@ -193,6 +193,10 @@ harness.assert(
 
 If this test fails, the profile attached to the result shows *where* the time goes (events, physics, rendering...) — a great starting point to optimize.
 
+## Testing multiplayer games
+
+Multiplayer games can be tested too, through `harness.multiplayer`. It simulates a lobby game and the other players without any network, while the real multiplayer code still runs. You can start a lobby game (as the host or as another player), create and update the instances owned by the other players, send and receive messages, and check what the game sends to the others. Writing these tests is involved, so the easiest way is to describe what you want to check and let **Edit with AI** write the script for you.
+
 ## Gameplay tests and the AI
 
 Gameplay tests work hand in hand with [GDevelop AI](../ai/index.md):
