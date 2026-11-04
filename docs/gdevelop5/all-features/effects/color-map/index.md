@@ -16,6 +16,8 @@ Create your own color map
       - Save it as a new file
   - Use this new image as the color image map for the effect in GDevelop.
 
+The **Mix** parameter (in percent) controls how strongly the color map is applied: 100 fully applies the new colors, while lower values blend them with the original colors. You can animate this value during the game (with the "Effect Parameter" action) to fade the color change in or out.
+
 Try some ready-to-use color maps
 
 - color-map-model-1.png : ![](color-map-model-1.png)
