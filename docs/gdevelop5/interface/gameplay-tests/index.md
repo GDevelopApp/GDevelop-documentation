@@ -193,6 +193,10 @@ harness.assert(
 
 If this test fails, the profile attached to the result shows *where* the time goes (events, physics, rendering...) — a great starting point to optimize.
 
+!!! tip "Testing multiplayer games"
+
+    Games made with the [Multiplayer](/gdevelop5/all-features/multiplayer/) extension can also be tested: `harness.multiplayer` simulates a lobby game and the other players (without any network connection), so a test can start a game, create and update the instances owned by other players, send custom messages and check what the game replicates to them.
+
 ## Gameplay tests and the AI
 
 Gameplay tests work hand in hand with [GDevelop AI](../ai/index.md):
