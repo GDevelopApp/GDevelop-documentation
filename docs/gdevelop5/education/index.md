@@ -21,11 +21,11 @@ Once you've purchased the GDevelop for Education plan, these curriculum and extr
 
 ## Getting the Education plan
 
-The Education plan is purchased with at least 5 seats. A seat is either occupied by a teacher account, or a student account.
-For instance with 10 seats you can have:
+The Education plan is purchased with at least 5 seats. The account of the teacher holding the plan is included for free. Every other account occupies a seat: either a student account, or an additional teacher account.
+For instance with 10 seats you can have, on top of your own account, either:
 
-- 1 teacher account;
-- 9 student accounts.
+- 10 student accounts;
+- or 1 additional teacher account and 9 student accounts.
 
 **All accounts benefits from the same perks as a Gold subscription** (see details [here](https://gdevelop.io/pricing)). This means each student gets up to 100 cloud projects (with unlimited storage for each), access to the GDevelop mobile app (Android tablets and smartphones, iPads and iPhones), version history for all cloud projects.
 
