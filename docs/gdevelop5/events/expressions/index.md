@@ -52,6 +52,10 @@ This is the complete list of operators:
 - `*` (multiply)
 - `/` (divide)
 
+These are the only operators recognized in expressions. For anything else (power, modulo, square root, etc.) use a function like `pow`, `mod` or `sqrt`.
+
+As in mathematics, multiplication and division are evaluated before addition and subtraction. You can use parentheses to group a part of the expression and control the order of evaluation. For example, `2+3*4` equals `14`, while `(2+3)*4` equals `20`.
+
 Finally, functions can be used - see the next sections.
 
 ## Text
@@ -119,7 +123,7 @@ These are some examples of functions without objects:
 
 - `CurrentSceneName()` - Get the name of the current scene.
 - `FileSystem::DesktopPath()` - Get the path of the "Desktop" directory.
-- `ToNumber(<number>)` - Convert a string into a number.
+- `ToNumber(<string>)` - Convert a string into a number.
 
 !!! note
 
@@ -159,7 +163,7 @@ Some functions accept _arguments_. An argument is a value that:
 For example, the `ToString` function converts a number into a string, but it can't do anything unless you provide it with a number. That number is the argument. In the following example, the number `42` is the argument:
 
 ```
-ToNumber(42)
+ToString(42)
 ```
 
 Some functions, such as the `RandomInRange` function, accept multiple arguments:
