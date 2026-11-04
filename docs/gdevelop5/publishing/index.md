@@ -1,4 +1,4 @@
----
+docs/gdevelop5---
 title: Publishing games
 icon: material/cloud-upload
 ---
