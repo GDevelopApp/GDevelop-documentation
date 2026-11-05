@@ -193,6 +193,17 @@ harness.assert(
 
 If this test fails, the profile attached to the result shows *where* the time goes (events, physics, rendering...) — a great starting point to optimize.
 
+## Testing multiplayer games
+
+Games made with the [Multiplayer](/gdevelop5/all-features/multiplayer) extension can be tested too, through `harness.multiplayer`. It simulates a lobby game and the other players **without any network**, so a single test can check that your game sends and reacts to the right updates. The main functions:
+
+- `await harness.multiplayer.startLobbyGame({ playerNumber, isHost, players })`: make the game believe a lobby game is running, as the given player (host or not), with the other players connected.
+- `await harness.multiplayer.addRemoteInstance('Enemy', { owner: 2, x, y })`: create an instance owned by another player, as its first network update would.
+- `harness.multiplayer.receiveUpdate(instanceId, { x, y })` and `harness.multiplayer.receiveCustomMessage(name, data, fromPlayerNumber)`: feed the game the updates and messages another player would send.
+- `harness.multiplayer.getSentMessages({ type, name })`: read what the game sent to the other players (instance updates, custom messages, ownership changes...).
+
+Everything else runs through the real multiplayer code, so tests verify the actual synchronization. You can also test from the point of view of a player who is not the host (`isHost: false`).
+
 ## Gameplay tests and the AI
 
 Gameplay tests work hand in hand with [GDevelop AI](../ai/index.md):
