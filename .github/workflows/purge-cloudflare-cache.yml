@@ -1,0 +1,27 @@
+# GitHub Action purging wiki.gdevelop.io from the Cloudflare cache once a production deployment
+# succeeds: Cloudflare caches the pages of the wiki (served by Vercel) for a day, so that they are
+# not requested from Vercel at each visit. Only the wiki.gdevelop.io hostname is purged.
+
+name: Purge the Cloudflare cache of the wiki
+
+on:
+  # Vercel reports the state of its deployments to GitHub.
+  deployment_status:
+
+permissions: {}
+
+jobs:
+  purge-cloudflare-cache:
+    if: github.event.deployment_status.state == 'success' && startsWith(github.event.deployment.environment, 'Production')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Purge wiki.gdevelop.io from the Cloudflare cache
+        env:
+          CLOUDFLARE_ZONE_ID: 4fd68a437318e8ac9e3ce1f05f2f4583 # gdevelop.io
+          CLOUDFLARE_CACHE_PURGE_TOKEN: ${{ secrets.CLOUDFLARE_CACHE_PURGE_TOKEN }}
+        run: |
+          curl --fail-with-body --silent --show-error --retry 3 \
+            -X POST "https://api.cloudflare.com/client/v4/zones/$CLOUDFLARE_ZONE_ID/purge_cache" \
+            -H "Authorization: Bearer $CLOUDFLARE_CACHE_PURGE_TOKEN" \
+            -H "Content-Type: application/json" \
+            --data '{"hosts":["wiki.gdevelop.io"]}'
