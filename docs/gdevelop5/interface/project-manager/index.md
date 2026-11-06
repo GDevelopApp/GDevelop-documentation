@@ -13,6 +13,8 @@ The project manager shows the structure of your entire game.
 
 You can fold and unfold each category by clicking on the small arrow next to each category.
 
+To keep a large project tidy, you can organize scenes, external events, external layouts and gameplay tests into **folders**. Right-click a category (or an item inside it) to add a folder, then drag and drop items in and out of folders to arrange them as you like.
+
   * **1. Game settings:** This is where you can customize the global settings of the game. For example, the default size of the game window or the package name for Android and iOS. You can see [all settings in "Properties"](/gdevelop5/interface/project-manager/properties). You can also [set the icons for your game](/gdevelop5/interface/project-manager/icons) and [manage the resources](/gdevelop5/interface/project-manager/resources) from the game.
 
   * **2. Scenes:** Scenes are the different screens and levels in your game. Everything in GDevelop is created in [scenes](/gdevelop5/interface/scene-editor). By default, the first scene in the list is loaded when the game starts. To start the game from a different scene without reordering the list, right-click that scene and choose **Set as start scene** (the start scene is then marked with a flag).
