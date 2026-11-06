@@ -45,6 +45,10 @@ If the object is scaled to be larger in pixels than the image used, then the obj
 
 You can use events to change the scale and position of a tiled sprite object, and tiled sprites also have actions of their own: the **offsets** scroll the image inside the object without moving the object. This is often used for scrolling backgrounds (like the ground or the clouds of an endless runner) and similar effects.
 
+####  Change the image with events
+
+The image displayed by a tiled sprite can be swapped at runtime using the **Image** action, which takes an image resource from your project. This is useful to reuse a single tiled sprite object for several repeating textures (for example, switching the ground texture when the player reaches a new area).
+
 ## Examples
 
 !!! tip
