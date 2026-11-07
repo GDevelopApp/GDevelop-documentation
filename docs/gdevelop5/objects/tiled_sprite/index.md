@@ -3,7 +3,7 @@ title: Tiled Sprite
 ---
 # Tiled Sprite
 
-A tiled sprite [object](/gdevelop5/objects) allows us to use repeating images in our games. increasing the width or height of the object will cause it repeat it's image, rather than stretching the image like a normal sprite object.
+A tiled sprite [object](/gdevelop5/objects) allows us to use repeating images in our games. Increasing the width or height of the object causes it to repeat its image, rather than stretching the image like a normal sprite object.
 
 A tiled sprite object can be used to create platforms in a platform game, health bars, status bars, repeating wall tiles, repeating backgrounds, etc.
 
@@ -43,7 +43,19 @@ If the object is scaled to be larger in pixels than the image used, then the obj
 
 ![](tiled-sprite-100100.png)
 
-You can use events to change the scale and position of a tiled sprite object, and tiled sprites also have actions of their own: the **offsets** scroll the image inside the object without moving the object. This is often used for scrolling backgrounds (like the ground or the clouds of an endless runner) and similar effects.
+You can use events to change the scale and position of a tiled sprite object, and tiled sprites also have actions of their own.
+
+####  Scroll the image with offsets
+
+The **Image X Offset** and **Image Y Offset** actions scroll the image *inside* the object without moving the object itself. Gradually increasing an offset over time creates a continuous scrolling effect. This is often used for scrolling backgrounds (like the ground or the clouds of an endless runner), conveyor belts, flowing water, and similar effects.
+
+####  Change the image at runtime
+
+Use the **Image** action to replace the image displayed by the object with another image resource from your game. This is useful to reuse a single tiled sprite for different backgrounds or wall styles.
+
+####  Opacity and tint
+
+The object's **opacity** can be changed to make it more or less transparent (0 is fully transparent, 255 is fully opaque). The **Tint color** action multiplies the image by a color, which lets you recolor a grayscale texture or apply a colored overlay. The default tint is white, which leaves the image unchanged.
 
 ## Examples
 
