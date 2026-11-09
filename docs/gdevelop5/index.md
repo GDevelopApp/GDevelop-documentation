@@ -1,4 +1,12 @@
----
+--Stylish BMW-inspired sports car.
+Glossy black body.
+Realistic headlights and wheels.
+Detailed interior.
+Smooth driving controls.
+Realistic acceleration and braking.
+Working steering system.
+Third-person camera view.
+Android mobile optimized graphics.-
 title: GDevelop 5 documentation
 hide:
     - footer
