@@ -1,12 +1,11 @@
----
+faso patrice 
 title: Publish your game to iOS
----
+patricebayala313@gmail.com
 
 # Publish your game to iOS
 
 GDevelop can automatically package your game for iOS so that you can test it on your iPhone. GDevelop is also able to automatically send it to the App Store Connect, the website where you can publish your game on the App Store and send it to your iPhone or to other testers using _TestFlight_.
-
-!!! note
+100%
 
     GDevelop cloud builds, which includes automatic packaging for Android, iOS and desktop, are part of GDevelop memberships. Check the [GDevelop website](https://gdevelop.io/pricing) to compare the different plans and which one will work best for you.
 
