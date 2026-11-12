@@ -192,6 +192,19 @@ It is advised to use the expressions for special folders (see below) to keep you
 
 ** (Optional) Result variable: ** Variable to store the result. It can either hold the value 'ok': the task was successful or 'error': an error occurred. The variable will be updated, at the moment the file operation has finished.
 
+---
+
+####  Read a directory
+This action reads the contents of a directory (all files and sub-directories) and stores their names in a variable as an array.
+== Parameters ==
+** Directory path: ** The absolute path to the directory to read.
+
+** (Optional) Result variable: ** The variable in which the result is stored. It is set to the value 'error' if something went wrong, otherwise it is filled with an array containing the name of every file and sub-directory found in the directory. Use a [For Each child](/gdevelop5/events/foreach-child-variable) event to go through the entries.
+
+!!! note
+
+    When loading a text file written on Windows, the optional **Normalize the file content** parameter of the *Load a text from a file* actions (enabled by default) replaces Windows line endings ("CRLF") by a single new line character, so that the loaded text behaves the same on every operating system.
+
 ## Expressions
 These expressions return the path to special folders on the users' operating system. If you use these expressions for loading and saving files it will be guaranteed to work on all supported operating systems. (Currently Windows, Linux, and macOS)
 !!! tip
@@ -213,9 +226,19 @@ This folder is used for temporary files that your operating system can delete at
 ####  Userdata folder
 This expression returns the operating system independent path to the _UserData_ folder of the user that runs your game.
 This folder is used for storing application settings.
+####  User's Home folder
+This expression returns the operating system independent path to the _Home_ folder of the user that runs your game (for example `C:\Users\<USERNAME>\` on Windows).
 ####  Path delimiter
 This expression returns the operating system independent path delimiter character. ("\" on Windows and "/" on Linux and macOS).
 Use this expression to build cross-platform file paths that can be accessed on all supported operating systems.
+
+The following expressions take an existing path as a parameter and extract one of its parts. They are useful, for example, to display the name of a loaded file to the player.
+####  Directory name
+This expression returns the directories portion of a given path, without the ending file name.
+####  File name
+This expression returns the name of the file (including its extension, if any) from a given path.
+####  Extension name
+This expression returns the extension of the file designated by a given path, including the period (for example ".png").
 
 ## Example
 In order to save a screenshot to the _Pictures_ directory you could write:
