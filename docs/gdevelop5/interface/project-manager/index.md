@@ -23,4 +23,5 @@ You can fold and unfold each category by clicking on the small arrow next to eac
 
   * **5.External layouts:** Similar to external events, you can create an external layout for anything you want to use throughout your project(like UI and menu set ups), and then load them into any scene you choose. See [External Layouts](/gdevelop5/interface/scene-editor/external-layouts) to learn how to use them.
 
+As a project grows, you can organize scenes, external events, external layouts and gameplay tests into **folders**. Right-click a category (or an item) to add a folder, then drag items in and out of it to keep the project manager tidy.
 
