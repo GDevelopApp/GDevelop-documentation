@@ -136,9 +136,15 @@ When a car jumps off from a slope, you may want to give back control to the play
 
 Cars with greater friction can turn at higher speed without slipping. The friction of the ground also matters. For instance, a smaller value can be set for a grass object to make cars slip when they are off the road.
 
+The **max cornering force** caps the grip of the wheels when turning (expressed in g). A lower value makes the car slide more easily in curves, which is useful for a drifting game feel.
+
 !!! tip
 
 	**Gravity scale** and **mass override** also change how cars slip. Make sure you have followed the steps described in the above sections first.
+
+### Tune the steering feel
+
+The **steer return speed** controls how fast the wheels straighten when the player releases the steering. A lower value keeps the car turning for a moment after the input stops, while a high value snaps the wheels back to the center.
 
 ### Setup how fast cars move
 
@@ -151,9 +157,15 @@ The **max engine speed** allows to adjust how fast a car can go.
 
 The **max engine torque** allows to climb slopes faster.
 
+The car also simulates gears. The **engine speed to shift up** and **engine speed to shift down** define when a higher or lower gear is used, and the **gear switch duration** sets the short moment without engine power while gears change.
+
 !!! tip
 
 	**Friction**, **gravity scale** and **mass override** also change how fast cars move. Make sure you have followed the steps described in the above sections first.
+
+### Adjust the suspension
+
+The suspension controls how the car reacts to bumps and landings. The **suspension travel** is how far the wheels can move up and down, the **suspension frequency** sets how stiff it is (a higher value is firmer), and the **suspension damping** controls how quickly it stops bouncing.
 
 
 ## Concepts used in Physics
