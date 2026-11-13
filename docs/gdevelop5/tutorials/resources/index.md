@@ -55,6 +55,7 @@ List of websites where you can find sprites, music, sound effects for your games
   * [sounds-resource.com](https://www.sounds-resource.com/) (Free)
   * [freesound.org](https://freesound.org/) (Free)
   * [Gamesounds](https://gamesounds.xyz/) (Free some with License)
+  * [DailySounds](https://dailysounds.org/?ref=gdevwiki) (Free sound effects, MP3/WAV/OGG)
 
 ## Color
 
