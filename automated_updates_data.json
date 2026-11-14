@@ -108,6 +108,10 @@
     {
       "date": "2026-09-19",
       "summary": "Improved object-picking docs: documented how conditions comparing two objects filter picked instances, including the asymmetric behavior of inverted conditions (only the first object is filtered)"
+    },
+    {
+      "date": "2026-11-14",
+      "summary": "Improved screenshot extension docs (noted desktop-only support and automatic .png extension, removed stale beta92 note) and fixed the wrong 'shape painter' reference link in the text entry object doc"
     }
   ]
 }
