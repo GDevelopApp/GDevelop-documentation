@@ -151,9 +151,17 @@ The **max engine speed** allows to adjust how fast a car can go.
 
 The **max engine torque** allows to climb slopes faster.
 
+The car also uses an automatic gearbox. You can tune when it shifts up or down (the engine speeds triggering a gear change) and how long a gear switch takes, to give the acceleration a more or less sporty feel.
+
 !!! tip
 
 	**Friction**, **gravity scale** and **mass override** also change how fast cars move. Make sure you have followed the steps described in the above sections first.
+
+### Tune the steering and the suspension
+
+The **steer return speed** controls how fast the wheels straighten back when the player releases the steering. A lower value keeps the car turning longer for a more drifty feel.
+
+The suspension properties (how far the wheels can travel, and how stiff and damped the springs are) let you make the car feel soft and bouncy or stiff and planted, and help it keep contact with the ground on bumpy terrain.
 
 
 ## Concepts used in Physics
