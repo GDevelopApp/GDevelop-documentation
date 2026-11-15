@@ -155,6 +155,15 @@ The **max engine torque** allows to climb slopes faster.
 
 	**Friction**, **gravity scale** and **mass override** also change how fast cars move. Make sure you have followed the steps described in the above sections first.
 
+### Fine-tune the steering, suspension and gears
+
+A few advanced properties help to get closer to the game feel you want:
+
+- **Steer return speed** controls how fast the wheels straighten when the player releases the steering.
+- **Max cornering force** reduces the steering angle as the car speeds up, so it keeps turning under a given force. A low value gives an arcade racing feel, while leaving it unlimited keeps full steering at any speed.
+- The **suspension** properties (travel, frequency and damping) adjust how much the wheels move up and down and how quickly the car stops bouncing after a bump.
+- The **gear** properties let you set up an automatic gearbox, with the engine speeds at which the car shifts up or down and the time without power while it switches gears.
+
 
 ## Concepts used in Physics
 
