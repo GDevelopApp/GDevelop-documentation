@@ -108,6 +108,10 @@
     {
       "date": "2026-09-19",
       "summary": "Improved object-picking docs: documented how conditions comparing two objects filter picked instances, including the asymmetric behavior of inverted conditions (only the first object is filtered)"
+    },
+    {
+      "date": "2026-11-15",
+      "summary": "Improved AdMob docs: documented the consent dialog and auto/manual initialization flow, and added App open ads and rewarded interstitials to the loading/displaying section"
     }
   ]
 }

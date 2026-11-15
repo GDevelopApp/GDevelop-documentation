@@ -83,6 +83,17 @@ In the AdMob section, enter your **app id**, one for Android and one for iOS (th
 
     Do not confuse the *app id* and the *ad unit identifier*. The app id is the unique id for your app, while ad unit identifiers are different for each ad you're creating.
 
+## Consent and initialization
+
+By default, AdMob initializes automatically when the game starts. On the first launch, this also triggers the **consent dialog** (required by Google to ask players in regions like the European Economic Area whether they agree to personalized ads). Once the player has answered, the ads start loading.
+
+In most cases you don't need to do anything: the automatic initialization handles everything. However, you may want to control *when* the consent dialog is shown — for example, to display it only after the player has accepted your game's terms, or after a title screen rather than on the very first frame. To do so:
+
+  * Use the action **Prevent AdMob auto initialization** at the very beginning of the game.
+  * Later, when you're ready, use the action **Initialize AdMob manually**. This triggers the consent dialog (if needed) and then starts loading the ads.
+
+The conditions **AdMob initializing** and **AdMob initialized** let you check the current state, which is useful to wait for AdMob to be ready before loading an ad.
+
 ## Loading and displaying ads
 
 Once your game is set up with the *app id*, you can add an event with an action to show the ad unit that you've created. All actions can be found inside the AdMob category:
@@ -92,7 +103,12 @@ Once your game is set up with the *app id*, you can add an event with an action 
 Choose the actions adapted to your ad unit:
 
   * If you created a **banner**, use the action to 1) *Configure the banner* and 2) *Show the banner*.
-  * For **interstitials** and **rewarded videos**, use the action to first load them (during the gameplay) and then the action to show them whenever you're ready (the player just finished a level for example).
+  * For **interstitials**, **rewarded videos** and **rewarded interstitials**, use the action to first load them (during the gameplay) and then the action to show them whenever you're ready (the player just finished a level for example).
+  * For an **app open** ad, use the action to load it, then show it (for instance when the player comes back to the game). Each ad type comes with conditions to know its state (*loading*, *ready*, *showing* or *errored*) so you can wait until it's ready before displaying it.
+
+!!! note
+
+    Rewarded videos and rewarded interstitials both reward the player for watching, but a rewarded interstitial can appear at a natural transition (like between levels) without the player explicitly choosing to watch it. Use the matching condition to check that the reward was actually received before granting it in your game.
 
 In the action, paste the **ad unit id** in the parameters (one for Android and one for iOS). Because parameters are string expressions, you must put the *ad unit identifier between quotes*.
 
