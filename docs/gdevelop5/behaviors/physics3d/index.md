@@ -140,6 +140,20 @@ Cars with greater friction can turn at higher speed without slipping. The fricti
 
 	**Gravity scale** and **mass override** also change how cars slip. Make sure you have followed the steps described in the above sections first.
 
+### Tune the steering
+
+The **steer return speed** sets how fast the wheels straighten back when the player releases the steering.
+
+The **max cornering force** reduces the steer angle as the speed increases, so the car keeps turning under this force instead of spinning out. A value around 2 feels like an arcade racing game, while a higher value allows sharper turns at speed.
+
+### Setup the suspension
+
+The suspension controls how the car reacts to bumps and how it leans in turns:
+
+- **Suspension travel** is how much the wheels can move up and down.
+- **Suspension frequency** is the stiffness of the suspension. A car with a high gravity scale needs a stiffer suspension, otherwise it rests on its suspension stops.
+- **Suspension damping** sets how fast the suspension stops bouncing.
+
 ### Setup how fast cars move
 
 You set the **engine inertia** to adjust how fast the car accelerate:
@@ -150,6 +164,8 @@ You set the **engine inertia** to adjust how fast the car accelerate:
 The **max engine speed** allows to adjust how fast a car can go.
 
 The **max engine torque** allows to climb slopes faster.
+
+The car uses an automatic gearbox. The **engine speed to shift up** and **engine speed to shift down** define when a higher or lower gear is used, and the **gear switch duration** is the short moment without engine power while gears are switching.
 
 !!! tip
 
