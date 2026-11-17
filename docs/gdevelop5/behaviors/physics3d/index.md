@@ -130,11 +130,15 @@ A car usually weight about 1,500 kg. It can be a good value to start
 
 When a car jumps off from a slope, you may want to give back control to the player by making quickly it go back on the road. It's better to use the gravity scale instead of the mass for this because it won't affect the car acceleration and collision.
 
+The **suspension** properties tune how the wheels react to the road: the **suspension travel** is how much they can move up and down, the **suspension frequency** is how stiff the suspension is (increase it together with the gravity scale, otherwise the car rests on its suspension stops), and the **suspension damping** controls how quickly it stops bouncing.
+
 ### Avoid cars to slip when it turns
 
 **Friction**
 
 Cars with greater friction can turn at higher speed without slipping. The friction of the ground also matters. For instance, a smaller value can be set for a grass object to make cars slip when they are off the road.
+
+The **max cornering force** reduces the steer angle as the speed increases, to keep the car turning under a given force (around `2` feels like an arcade racing game, `0` removes the limit). The **steer return speed** sets how fast the wheels straighten when the steering is released.
 
 !!! tip
 
@@ -150,6 +154,8 @@ You set the **engine inertia** to adjust how fast the car accelerate:
 The **max engine speed** allows to adjust how fast a car can go.
 
 The **max engine torque** allows to climb slopes faster.
+
+The car automatically shifts gears as it accelerates. The **gear switch duration** sets the short time without engine power when switching gears, which you can lower for a more arcade feeling.
 
 !!! tip
 
