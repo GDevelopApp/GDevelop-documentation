@@ -31,7 +31,7 @@ When created, your **app id** will be displayed.
 
 ![](/gdevelop5/all-features/admob-app-created.png)
 
-Next, choose the type of add you want to show:
+Next, choose the type of ad you want to show:
 
 ![](/gdevelop5/all-features/gdevelop5/all-features/admob/ads-types.png)
 
@@ -105,6 +105,19 @@ Finally, while your account is not yet approved it is possible to view the space
 For this, insert the action to enable the test mode at the beginning of your game:
 
 ![](/gdevelop5/all-features/admob/pasted/20210131-221920.png)
+
+## Reacting to ads and granting rewards
+
+Loading and showing ads is not instantaneous, so the extension provides **conditions** (in the AdMob category) to react to the state of each ad:
+
+* **Readiness**: conditions like *Interstitial is ready* or *Rewarded video is ready* let you check that an ad finished loading before trying to show it. A common pattern is to load the ad in advance, then only show it when it's ready (for example, hide or disable a "Watch ad for a reward" button until the reward video is ready).
+* **Errors**: conditions like *Interstitial had an error* or *Rewarded video had an error* let you detect when an ad failed to load or display, so you can retry or let the player continue without being blocked.
+
+### Granting a reward after a rewarded video
+
+For rewarded videos (and rewarded interstitials), use the **Rewarded video reward received** condition to know when the player watched the ad long enough to earn the reward. Grant the reward (coins, extra life, etc.) inside this condition.
+
+This condition stays true until you clear it. Once you have granted the reward, use the **Clear the reward** action so that the condition becomes false again — this is required before you can show and reward another video.
 
 ## Testing and publishing your game on Android or iOS
 
