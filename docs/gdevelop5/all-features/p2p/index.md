@@ -8,6 +8,8 @@ title: Peer-to-peer
 
     P2P leaks the client's IP addresses when connecting to them. If someone knows your broker server and P2P ID, they know your IP address and can use it to DDoS or geolocalize you. Make sure to properly inform your players and not to use lobby/matchmaking systems alongside P2P, as those may share the player's P2P ID with unknown peers.
 
+    If you need to hide the players' IP addresses, the **Disable IP address sharing** action forces all traffic to go through a TURN relay server instead of connecting peers directly (see "Configuring the connection" below). This improves privacy at the cost of slower connections and the need to provide your own TURN server.
+
 
 !!! warning
 
@@ -32,7 +34,7 @@ There are two options for setting up a broker server:
 
 ####  Set up a custom (local) server
 
-A local server can be set up easily. [Install Node.js](https://nodejs.org/en/download/) will need to be installed. The LTS version is recommended.
+A local server can be set up easily. You will first need to [install Node.js](https://nodejs.org/en/download/). The LTS version is recommended.
 
 Open a command line. To do so on Windows:
 
@@ -65,15 +67,55 @@ To use that server use the action "Use the default server".
 
 ## Connecting
 
-To connect instances, you need to enter their ID in the other instances. The ID can be found with the expression `P2P::GetID()`. To connect, use the "Connect to other instance" action and pass as a parameter the ID of another instance. Both instances will then connect automatically. You can then send an event from one instance to the other one to make sure that the connection is established.
+To connect instances, you need to enter their ID in the other instances. The ID can be found with the expression `P2P::GetID()`. To connect, use the "Connect to another client" action and pass as a parameter the ID of another instance. Both instances will then connect automatically. You can then send an event from one instance to the other one to make sure that the connection is established.
+
+Before connecting, you can check that the extension is ready with the **Is P2P ready** condition (it becomes true once the connection to the broker server is established and a client ID has been assigned).
+
+### Detecting connections and disconnections
+
+Two conditions trigger once when the list of connected peers changes:
+
+* **Peer connected**: a remote peer has just connected. The expression `P2P::GetLastConnectedPeer()` returns its ID.
+* **Peer disconnected**: a peer has just disconnected. The expression `P2P::GetLastDisconnectedPeer()` returns its ID.
+
+These are useful to keep track of the connected players (for example to create or remove their avatar in the scene). To end a connection yourself, use the **Disconnect from a peer**, **Disconnect from all peers**, **Disconnect from broker** or **Disconnect from all** actions.
+
+### Handling errors
+
+If something goes wrong (for example the broker server is unreachable), the **An error occurred** condition triggers, and the expression `P2P::GetLastError()` returns a text description of the problem.
 
 ### Changing the ID generation
 
-The default P2P ID generation is very long to avoid conflicts, but if you want to have an easily shareable ID, it is not ideal. You can use a custom ID generation on your custom P2P broker by following [the instructions on the peerjs-server documentation](https://github.com/peers/peerjs-server#custom-client-id-generation).
+The default P2P ID generation is very long to avoid conflicts, but if you want to have an easily shareable ID, it is not ideal. You can force a specific ID with the **Override the client ID** action (which must be called *before* connecting to a broker), or use a custom ID generation on your custom P2P broker by following [the instructions on the peerjs-server documentation](https://github.com/peers/peerjs-server#custom-client-id-generation).
+
+## Configuring the connection
+
+When playing over the internet (rather than a local network), peers often can't reach each other directly because of routers and firewalls. P2P uses **ICE servers** (STUN and TURN) to solve this. A default list is used, but for a published game it is recommended to provide your own with the **Use a custom ICE server** action (called *before* connecting to the broker). This action can be used several times to register multiple servers.
+
+The **Disable IP address sharing** action forces all data to pass through a TURN relay server instead of connecting peers directly. This hides the players' IP addresses from each other (see the warning at the top of this page) but requires a TURN server to be registered as an ICE server, and makes connections slower.
 
 ## Interacting with connected games
 
 Once you got connected, you can trigger actions remotely. You can select another specific game instance (using its id) or send an event to all connected instances.
+
+### Sending data
+
+Communication works through named **events**. To send one, use **Trigger event on all connected clients** or **Trigger event on a specific client**, giving an *event name* of your choice (for example `"PlayerMoved"` or `"ChatMessage"`) and, optionally, some *extra data* to attach to it.
+
+The extra data can be sent in two ways:
+
+* As a **text string**, with the standard "Trigger event..." actions. To send several values at once, combine them into a single string (for example with a JSON-formatted text).
+* As a **variable** (including a structure or array), with the "(variable)" versions of the actions. This is the easiest way to send structured data like a full position, inventory or player state.
+
+### Receiving data
+
+On the receiving side, use the **Event triggered by peer** condition with the matching event name. It triggers once per received event, so you can run some logic in reaction to it.
+
+Inside that condition, read the attached data with:
+
+* `P2P::GetEventData("EventName")`: returns the text that was sent.
+* The **Get event data (variable)** action: stores the received variable into one of your variables (use this when the data was sent as a variable).
+* `P2P::GetEventSender("EventName")`: returns the ID of the peer that sent the event, which is handy to reply to it or to know which player it concerns.
 
 ### Choosing if you want to activate data loss mode
 
