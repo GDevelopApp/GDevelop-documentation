@@ -3,7 +3,7 @@ title: Tiled Sprite
 ---
 # Tiled Sprite
 
-A tiled sprite [object](/gdevelop5/objects) allows us to use repeating images in our games. increasing the width or height of the object will cause it repeat it's image, rather than stretching the image like a normal sprite object.
+A tiled sprite [object](/gdevelop5/objects) allows us to use repeating images in our games. Increasing the width or height of the object will cause it to repeat its image, rather than stretching the image like a normal sprite object.
 
 A tiled sprite object can be used to create platforms in a platform game, health bars, status bars, repeating wall tiles, repeating backgrounds, etc.
 
@@ -43,7 +43,15 @@ If the object is scaled to be larger in pixels than the image used, then the obj
 
 ![](tiled-sprite-100100.png)
 
-You can use events to change the scale and position of a tiled sprite object, and tiled sprites also have actions of their own: the **offsets** scroll the image inside the object without moving the object. This is often used for scrolling backgrounds (like the ground or the clouds of an endless runner) and similar effects.
+You can use events to change the scale and position of a tiled sprite object, and tiled sprites also have actions of their own: the **offsets** (X offset and Y offset) scroll the image inside the object without moving the object. This is often used for scrolling backgrounds (like the ground or the clouds of an endless runner) and similar effects.
+
+####  Tint, opacity and image
+
+Like other objects, a tiled sprite can be customized from events while the game runs:
+
+  * **Tint color** multiplies the image with a color (the default, white, leaves the image unchanged). This is handy to reuse the same image in different colors.
+  * **Opacity** goes from 0 (fully transparent) to 255 (fully opaque), useful for fade in/out effects.
+  * The **image** of a tiled sprite can be replaced at runtime with any image resource of the project, so a single object can show different textures depending on the situation.
 
 ## Examples
 
