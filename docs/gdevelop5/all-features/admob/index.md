@@ -106,6 +106,34 @@ For this, insert the action to enable the test mode at the beginning of your gam
 
 ![](/gdevelop5/all-features/admob/pasted/20210131-221920.png)
 
+When test mode is enabled, GDevelop uses Google's official test ad units, so you can safely trigger and display ads without any risk of your account being banned — regardless of the ad unit ids you entered in the actions.
+
+## Waiting for an ad to be ready
+
+Interstitials, rewarded videos, rewarded interstitials and app open ads must be **loaded** before they can be shown. Loading happens in the background and takes some time (and needs a working internet connection), so showing an ad immediately after loading it usually does nothing.
+
+The recommended pattern is to load the ad in advance (for example at the start of a level) and only call the *Show* action once the matching condition reports it is ready:
+
+  * **Interstitial ready**, **Rewarded video ready**, **Rewarded interstitial ready**, **App open ready**: true once the ad has finished loading and can be displayed.
+  * The **loading**, **showing** and **had an error** conditions let you track the rest of the lifecycle — for example to retry loading after an error, or to pause your game while an ad is on screen.
+
+After an ad has been shown, it is consumed: load a new one before you intend to display it again.
+
+## Rewarding the player with rewarded ads
+
+Rewarded videos and rewarded interstitials are meant to give the player something (extra coins, a continue, a bonus...) in exchange for watching the ad. GDevelop does **not** grant the reward automatically — you decide what the reward is in your events.
+
+Use the **Rewarded video reward received** (or **Rewarded interstitial reward received**) condition to check that the player actually watched the ad long enough to earn the reward, then add the actions that give your reward:
+
+  * This condition has a parameter to **clear the reward** once it is read. Set it to *yes* so the condition becomes false again and the reward is granted only once — this also lets you show another rewarded ad later.
+  * If you prefer to handle it manually, keep it set to *no* and use the **Mark the reward of the rewarded video as claimed** action after granting the reward.
+
+A typical setup is: *Load rewarded video* in advance → *Show rewarded video* when the player clicks a "watch to earn" button → in a separate event, when *Rewarded video reward received* is true, give the reward and clear it.
+
+## Consent and controlling when AdMob initializes
+
+By default, AdMob initializes automatically when the game starts, which is also when the consent dialog (GDPR in Europe, App Tracking Transparency on iOS) is shown. If you want to display this dialog at a specific moment instead — for example after the player has accepted your game's terms — use the **Prevent AdMob auto initialization** action, then call **Initialize AdMob manually** when you are ready. The consent dialog is shown during initialization, and ads start loading afterwards.
+
 ## Testing and publishing your game on Android or iOS
 
 You must first build your game for Android or iOS to have the ads displayed on your device. See **[the page about Android](/gdevelop5/publishing/android) and [iOS publishing](/gdevelop5/publishing/ios)**.
