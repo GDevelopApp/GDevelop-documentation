@@ -11,6 +11,16 @@ Clicking on this button takes us to a new dialog that talks more about something
 
 ![](screenshot_from_2019-05-21_17-00-45.png)
 
+## Default collision masks
+
+By default, a Sprite uses an **automatic collision mask**: GDevelop computes a mask that matches the shape of the image, and updates it when you change the frame. This is the best choice for most objects and requires no configuration.
+
+Alternatively, a Sprite can use a **full image collision mask**: a rectangle as large as the whole frame. This is faster to check and useful when a rectangular hitbox is enough (for example, a platform tile or a UI element).
+
+If you need a more precise or a simpler shape than the automatic one, you can draw your own polygons with a **custom collision mask**, as described below.
+
+## Add a custom collision mask
+
 To add your own custom collision mask, click on the **Use a custom collision mask** option.
 
 ![](screenshot_from_2019-05-21_17-03-48.png)
