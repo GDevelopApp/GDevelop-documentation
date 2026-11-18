@@ -108,6 +108,10 @@
     {
       "date": "2026-09-19",
       "summary": "Improved object-picking docs: documented how conditions comparing two objects filter picked instances, including the asymmetric behavior of inverted conditions (only the first object is filtered)"
+    },
+    {
+      "date": "2026-10-03",
+      "summary": "Improved file system docs: documented the 'Read a directory' action and the missing executable-file, user-home, and path-manipulation (directory/file/extension name) expressions"
     }
   ]
 }
