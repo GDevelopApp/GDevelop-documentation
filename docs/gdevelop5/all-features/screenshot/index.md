@@ -3,7 +3,11 @@ title: Screenshot extension
 ---
 # Screenshot extension
 
-This extension lets you save a screenshot of the running game in a specified folder.
+This extension lets you save a screenshot of the running game to a file.
+
+!!! note
+
+    Saving a screenshot to a file only works on games exported for Windows, Linux and macOS (desktop). It is not supported in web or mobile games, which cannot write files to the player's device.
 
 Note: As of GDevelop 5.0.0-beta92 the screenshot action is no longer an extension. Just add an action and search for `screenshot` or go to `Other Actions`/`Screenshot`/`Take screenshot`.
 
@@ -19,7 +23,7 @@ Use this action to save a screenshot of everything which is currently drawn on t
 
 The save path needs to be an absolute path on the file system (Like "C:\MyFolder\MyScreenshot.png" on Windows)'
 
-Relative paths are not supported.
+Relative paths are not supported. If the path does not end with `.png`, the extension is added automatically.
 
 !!! note
 
