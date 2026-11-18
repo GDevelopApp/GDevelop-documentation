@@ -108,6 +108,10 @@
     {
       "date": "2026-09-19",
       "summary": "Improved object-picking docs: documented how conditions comparing two objects filter picked instances, including the asymmetric behavior of inverted conditions (only the first object is filtered)"
+    },
+    {
+      "date": "2026-10-05",
+      "summary": "Improved screenshot docs: clarified it only works on Windows/Linux/macOS (not web/mobile) and that the .png extension is auto-appended"
     }
   ]
 }
