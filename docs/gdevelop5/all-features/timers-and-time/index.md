@@ -141,4 +141,4 @@ For example, `Time("hour")` returns `14` at 2 PM. `Time("timestamp")` is useful 
 
 ## Reference
 
-All actions, conditions and expressions are listed in [timers reference page](/gdevelop5/all-features/timers-and-time/reference/).
+All actions, conditions and expressions are listed in [timers reference page](/gdevelop5/all-features/time/reference/).
