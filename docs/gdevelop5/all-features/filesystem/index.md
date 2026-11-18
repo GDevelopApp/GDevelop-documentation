@@ -192,6 +192,16 @@ It is advised to use the expressions for special folders (see below) to keep you
 
 ** (Optional) Result variable: ** Variable to store the result. It can either hold the value 'ok': the task was successful or 'error': an error occurred. The variable will be updated, at the moment the file operation has finished.
 
+---
+
+####  Read a directory
+This action reads the contents of a directory (all files and sub-directories) and stores them in an array. It is executed asynchronously.
+== Parameters ==
+** Directory path: ** The absolute path to the directory to read.
+It is advised to use the expressions for special folders (see below) to keep your game platform independent.
+
+** (Optional) Variable to store the result: ** It is set to `'error'` if an error occurred, otherwise it is filled with an array containing every file and sub-directory name found in the directory. This is convenient to list save files, user-provided assets, etc.
+
 ## Expressions
 These expressions return the path to special folders on the users' operating system. If you use these expressions for loading and saving files it will be guaranteed to work on all supported operating systems. (Currently Windows, Linux, and macOS)
 !!! tip
@@ -204,6 +214,10 @@ This expression returns the operating system independent path to the _Documents_
 This is the standard folder for storing documents.
 ####  This games executable folder
 This expression returns the operating system independent path to the folder where your game is being executed from.
+####  Game executable file
+This expression returns the operating system independent path to the game executable file itself (not just its folder).
+####  User's Home folder
+This expression returns the operating system independent path to the current user's home folder.
 ####  Pictures folder
 This expression returns the operating system independent path to the _Pictures_ folder of the user that runs your game.
 This is the standard folder for storing images.
@@ -216,6 +230,14 @@ This folder is used for storing application settings.
 ####  Path delimiter
 This expression returns the operating system independent path delimiter character. ("\" on Windows and "/" on Linux and macOS).
 Use this expression to build cross-platform file paths that can be accessed on all supported operating systems.
+
+The following expressions don't access the file system: they split an existing path string into its parts, which is handy when you want to store or display only the file name, extract a folder to read, etc.
+####  Get directory name from a path
+This expression returns the portion of a path that represents the directories, without the ending file name.
+####  Get file name from a path
+This expression returns the name of the file (with its extension, if any) from a path.
+####  Get the extension from a file path
+This expression returns the extension of the file designated by the given path, including the leading period (for example `.txt`).
 
 ## Example
 In order to save a screenshot to the _Pictures_ directory you could write:
