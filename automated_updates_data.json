@@ -108,6 +108,10 @@
     {
       "date": "2026-09-19",
       "summary": "Improved object-picking docs: documented how conditions comparing two objects filter picked instances, including the asymmetric behavior of inverted conditions (only the first object is filtered)"
+    },
+    {
+      "date": "2026-10-11",
+      "summary": "Improved text/display object docs: fixed wrong reference link in text entry, added BBText vertical alignment and word-wrap width note, and documented tiled sprite opacity, color tint, and scrolling via offsets"
     }
   ]
 }
