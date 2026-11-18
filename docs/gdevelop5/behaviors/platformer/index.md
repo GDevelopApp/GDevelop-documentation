@@ -1,6 +1,6 @@
----
+-Type--
 title: Platform and platformer character behaviors
----
+-brawl stars--
 # Platform and platformer character behaviors
 
 GDevelop comes with two [behaviors](/gdevelop5/behaviors) to build platformer games. This first one, "Platform", allows to mark objects as platforms. The second, "Platformer character", allows the object to run and jump on platforms.
