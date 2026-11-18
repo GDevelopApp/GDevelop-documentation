@@ -126,7 +126,7 @@ It is advised to use the expressions for special folders (see below) to keep you
 
 ---
 
-####  Load a text from a JSON file
+####  Load a scene variable from a JSON file
 This action loads the JSON formatted text from a file and converts it into a scene variable structure. __synchronously__.
 == Parameters ==
 ** Scene variable: ** The name of the scene variable to which the loaded structure will be added.
@@ -138,7 +138,7 @@ It is advised to use the expressions for special folders (see below) to keep you
 
 ---
 
-####  Load a text from a JSON file (async)
+####  Load a scene variable from a JSON file (async)
 This action loads the JSON formatted text from a file and converts it into a scene variable structure. __asynchronously__.
 == Parameters ==
 ** Scene variable: ** The name of the scene variable to which the loaded structure will be added.
@@ -192,6 +192,19 @@ It is advised to use the expressions for special folders (see below) to keep you
 
 ** (Optional) Result variable: ** Variable to store the result. It can either hold the value 'ok': the task was successful or 'error': an error occurred. The variable will be updated, at the moment the file operation has finished.
 
+---
+
+####  Read a directory
+This action reads the contents of a directory (all files and sub-directories it contains) and stores them in a scene variable. It runs __asynchronously__.
+== Parameters ==
+** Directory path: ** The absolute path to the directory to read.
+
+** (Optional) Variable to store the result: ** The variable is set to an array containing the name of every file and sub-directory found in the directory. If something goes wrong, it is set to the text `"error"` instead. You can loop over the resulting array with a "For each child" event to process each entry.
+
+!!! note
+
+    When loading a text or JSON file, an optional **Normalize the file content** parameter is available (enabled by default). It replaces the Windows new line characters ("CRLF") with a single new line character, so that text behaves consistently across operating systems. Keep it enabled unless you specifically need the raw file content.
+
 ## Expressions
 These expressions return the path to special folders on the users' operating system. If you use these expressions for loading and saving files it will be guaranteed to work on all supported operating systems. (Currently Windows, Linux, and macOS)
 !!! tip
@@ -202,7 +215,9 @@ This expression returns the operating system independent path to the _Desktop_ f
 ####  Documents folder
 This expression returns the operating system independent path to the _Documents_ folder of the user that runs your game.
 This is the standard folder for storing documents.
-####  This games executable folder
+####  Game executable file
+This expression returns the operating system independent path to the game's executable file itself (not only its folder).
+####  Game executable folder
 This expression returns the operating system independent path to the folder where your game is being executed from.
 ####  Pictures folder
 This expression returns the operating system independent path to the _Pictures_ folder of the user that runs your game.
@@ -213,9 +228,17 @@ This folder is used for temporary files that your operating system can delete at
 ####  Userdata folder
 This expression returns the operating system independent path to the _UserData_ folder of the user that runs your game.
 This folder is used for storing application settings.
+####  User's Home folder
+This expression returns the operating system independent path to the _Home_ folder of the user that runs your game.
 ####  Path delimiter
 This expression returns the operating system independent path delimiter character. ("\" on Windows and "/" on Linux and macOS).
 Use this expression to build cross-platform file paths that can be accessed on all supported operating systems.
+####  Get directory name from a path
+This expression returns the portion of a path that represents the directories, without the ending file name. For example, given a full file path it returns the folder that contains the file.
+####  Get file name from a path
+This expression returns the name of the file (including its extension, if any) from a full path.
+####  Get the extension from a file path
+This expression returns the extension of the file designated by the given path, including the leading period (for example `.txt`).
 
 ## Example
 In order to save a screenshot to the _Pictures_ directory you could write:
