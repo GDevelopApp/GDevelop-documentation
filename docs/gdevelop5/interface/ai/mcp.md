@@ -3,7 +3,7 @@ title: Use Claude Code, Cursor, Codex or other AI agents with GDevelop (MCP)
 ---
 # Use your own AI agent with GDevelop (MCP)
 
-If you already work with an AI agent like **Claude Code**, **Cursor**, **VS Code (Copilot)**, **Codex** or **Gemini CLI**, you can connect it to GDevelop. The agent can then explore and edit the game opened in the editor, with the same tools as [GDevelop AI](/gdevelop5/interface/ai/): creating scenes and objects, placing instances, adding behaviors and variables, writing events, running gameplay tests and saving the project.
+If you already work with an AI agent like **Claude Code**, **Cursor**, **VS Code (Copilot)**, **Codex** or **Gemini CLI**, you can connect it to GDevelop. The agent can then explore and edit the game opened in the editor, with the same tools as [GDevelop AI](/gdevelop5/interface/ai/): creating scenes and objects, placing instances, adding behaviors and variables, writing events, running gameplay tests, searching the documentation and the asset store, and saving the project.
 
 Every change appears **live in the editor**, as if you made it yourself: you can watch the agent work, check what it did and keep editing alongside it.
 
