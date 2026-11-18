@@ -108,6 +108,10 @@
     {
       "date": "2026-09-19",
       "summary": "Improved object-picking docs: documented how conditions comparing two objects filter picked instances, including the asymmetric behavior of inverted conditions (only the first object is filtered)"
+    },
+    {
+      "date": "2026-10-27",
+      "summary": "Expanded thin visual effect docs (CRT, drop shadow, god rays, Kawase blur, outline, RGB split, tilt shift) with property explanations, use cases, and 2D-only notes"
     }
   ]
 }
