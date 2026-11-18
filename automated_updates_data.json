@@ -108,6 +108,10 @@
     {
       "date": "2026-09-19",
       "summary": "Improved object-picking docs: documented how conditions comparing two objects filter picked instances, including the asymmetric behavior of inverted conditions (only the first object is filtered)"
+    },
+    {
+      "date": "2026-09-30",
+      "summary": "Added concise Parameters sections to thin effect docs (drop shadow, god rays, outline, Kawase blur, CRT, RGB split, tilt shift, pixelate) explaining what each key control does"
     }
   ]
 }
