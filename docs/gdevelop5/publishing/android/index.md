@@ -1,4 +1,48 @@
----
+Create a complete playable 3D open-world action game for Android mobile, inspired by Gangstar Mirage City and GTA-style open-world games. The game must be an original game with its own name, city, characters, and assets.
+
+GAME NAME: Shadow City: Open World
+
+PLATFORM:
+
+- Android mobile phones
+- Touchscreen controls
+- Optimize for low-end and mid-range Android devices
+- Target a playable Android APK build
+- Use Unity or Godot, or another suitable 3D game engine
+
+GAME FEATURES:
+
+1. OPEN-WORLD CITY
+   Create a 3D city with roads, buildings, houses, shops, traffic lights, streetlights, parks, and enterable areas where practical. The player should be able to freely explore the city without loading a new level for every street.
+
+2. PLAYER CHARACTER
+   Create a third-person playable character with walking, running, jumping, turning, and realistic-looking animations. Add a follow camera behind the character.
+
+3. CARS AND BICYCLES
+   Add several drivable cars and bicycles. The player must be able to approach a vehicle, press an Enter Vehicle button, drive it, and press Exit Vehicle to get out. Add acceleration, braking, steering, and a camera that follows the vehicle.
+
+4. MOBILE CONTROLS
+   Add a virtual joystick on the left side of the screen and action buttons on the right. Include buttons for sprinting, jumping, entering and exiting vehicles, braking, and interacting with objects. Make the UI responsive to different Android screen sizes.
+
+5. MISSIONS
+   Create a mission system with objectives, mission markers, rewards, and a mission-complete screen. Include driving missions, delivery missions, checkpoints, time challenges, and a fictional arcade-style bank-heist mission with non-graphic action and abstract objectives.
+
+6. MONEY AND GARAGE
+   Add an in-game currency system, vehicle garage, vehicle selection, and unlockable cars. Save the player's progress locally.
+
+7. MAP AND USER INTERFACE
+   Add a minimap, health bar, money display, mission indicator, pause menu, settings, and restart option.
+
+8. GRAPHICS AND PERFORMANCE
+   Use optimized 3D models, baked lighting where appropriate, level-of-detail models, object pooling, and occlusion culling when supported. Aim for smooth performance on Android phones, with graphics settings for low-end devices.
+
+9. SOUND
+   Add engine sounds, footsteps, ambient city sounds, button sounds, and background music with volume controls.
+
+10. DELIVERABLES
+    Do not create only a concept, screenshot, or static demo. Generate a functional, playable project with actual player movement, vehicle driving, vehicle entry and exit, mission logic, and mobile controls. Include all required project files, setup instructions, and steps to export an Android APK. If direct APK generation is supported, build the APK. Otherwise, provide the complete project and explain how to build it.
+
+Start by creating a small playable city prototype, test the core gameplay systems, fix errors, and then expand the city and missions. Do not claim that the game is complete or tested unless it actually is.---
 title: Publish your game to Android
 ---
 # Publish your game to Android
@@ -64,6 +108,7 @@ GDevelop cloud builds, which includes automatic packaging for Android, iOS and d
 
 ## Publish your game on the stores ("Android App Bundles")
 
-Once you've built your game for Android and tested it, you can publish build it as an **Android App Bundle** to publish it on Google Play. Read [this page about publishing to Google Play Store](/gdevelop5/publishing/android/play-store).
+Once you've built your game for Android and tested it, you can publish build it as an **Android App Bundle** to publish it on Google Play. Read [this page about publishing to Google Play Store](/gdevelop5/p
+ublishing/android/play-store).
 
 You can also publish it on the [Amazon App Store](/gdevelop5/publishing/publishing-to-amazon-app-store) (using an **APK**).
