@@ -108,6 +108,10 @@
     {
       "date": "2026-09-19",
       "summary": "Improved object-picking docs: documented how conditions comparing two objects filter picked instances, including the asymmetric behavior of inverted conditions (only the first object is filtered)"
+    },
+    {
+      "date": "2026-11-19",
+      "summary": "Improved screenshot docs: clarified that saving to a file only works on desktop (Windows/Linux/macOS), noted automatic .png extension, and fixed a stray-apostrophe typo"
     }
   ]
 }
