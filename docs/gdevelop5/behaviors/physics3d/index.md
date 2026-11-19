@@ -140,6 +140,12 @@ Cars with greater friction can turn at higher speed without slipping. The fricti
 
 	**Gravity scale** and **mass override** also change how cars slip. Make sure you have followed the steps described in the above sections first.
 
+For a more arcade-like feel, you can set a **max cornering force** (in g): the car then keeps turning under this force by reducing the steer angle as speed increases (a value around 2 feels arcade, 0 removes the limit). The **steer return speed** controls how fast the wheels straighten once steering is released.
+
+### Tune the suspension
+
+The suspension is how much the wheels can move up and down (**suspension travel**) and how it reacts: the **suspension frequency** sets its stiffness, and the **suspension damping** how quickly it stops bouncing. If the car rests on its suspension stops, increase the frequency together with the gravity scale.
+
 ### Setup how fast cars move
 
 You set the **engine inertia** to adjust how fast the car accelerate:
@@ -150,6 +156,8 @@ You set the **engine inertia** to adjust how fast the car accelerate:
 The **max engine speed** allows to adjust how fast a car can go.
 
 The **max engine torque** allows to climb slopes faster.
+
+The car uses an automatic gearbox: each gear has its own ratio, and the engine speeds at which it shifts up or down can be tuned. The **gear switch duration** is the short time the engine delivers no power while changing gear.
 
 !!! tip
 

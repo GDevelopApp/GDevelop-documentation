@@ -58,6 +58,8 @@ Open **Edit details** from the game dashboard, then click **Select thumbnail** o
 
 ![The game details, with the thumbnail of the game and the Change thumbnail button](/gdevelop5/publishing/web/game-thumbnail.png)
 
+You can also add a short **video** that plays when players hover over your game card on gd.games. The video can be recorded directly from a preview of your game, using the recording toolbar shown during the preview.
+
 ## Taking your game off gd.games
 
 To remove your game from gd.games, open **Edit details** from the game dashboard and turn **Publish game on gd.games** off. Your builds and your analytics are kept: only the public page disappears.
