@@ -151,9 +151,19 @@ The **max engine speed** allows to adjust how fast a car can go.
 
 The **max engine torque** allows to climb slopes faster.
 
+The behavior simulates gears to deliver this power. **Gear switch duration** sets how long the car loses power while shifting, and the **gear shift up/down engine speed** define when it changes gear. Longer durations give a more realistic, less responsive feeling.
+
 !!! tip
 
 	**Friction**, **gravity scale** and **mass override** also change how fast cars move. Make sure you have followed the steps described in the above sections first.
+
+### Fine-tune the steering and suspension
+
+For more control over the car feel, a few extra properties can be adjusted:
+
+- The **steer return speed** sets how fast the wheels straighten when the player releases the steering. A higher value snaps the wheels back to center.
+- The **max cornering force** limits how hard the tires grip when turning: lower it to make the car slide more easily in curves.
+- The **suspension travel**, **frequency** and **damping** control how the car reacts to bumps and landings, from a stiff racing feel to a soft, bouncy one.
 
 
 ## Concepts used in Physics
