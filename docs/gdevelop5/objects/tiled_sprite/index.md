@@ -43,7 +43,18 @@ If the object is scaled to be larger in pixels than the image used, then the obj
 
 ![](tiled-sprite-100100.png)
 
-You can use events to change the scale and position of a tiled sprite object, and tiled sprites also have actions of their own: the **offsets** scroll the image inside the object without moving the object. This is often used for scrolling backgrounds (like the ground or the clouds of an endless runner) and similar effects.
+You can use events to change the scale and position of a tiled sprite object, and tiled sprites also have actions of their own.
+
+#### Scroll the image with offsets
+
+The **Image X Offset** and **Image Y Offset** actions scroll the image inside the object without moving the object itself. This is often used for scrolling backgrounds (like the ground or the clouds of an endless runner) and similar effects: by continuously increasing an offset every frame, the image keeps moving in place.
+
+#### Tint and opacity
+
+A tiled sprite can also be tinted and made transparent through events:
+
+  * The **Tint color** action multiplies the image by a color (the default white leaves the image unchanged), which is useful for color-coding repeating elements such as health or status bars.
+  * The **opacity** (from 0 for fully transparent to 255 for fully opaque) can be changed to fade the object in or out.
 
 ## Examples
 
