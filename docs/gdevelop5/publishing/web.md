@@ -58,6 +58,12 @@ Open **Edit details** from the game dashboard, then click **Select thumbnail** o
 
 ![The game details, with the thumbnail of the game and the Change thumbnail button](/gdevelop5/publishing/web/game-thumbnail.png)
 
+## Adding a video preview
+
+gd.games can show a few seconds of gameplay as a video preview next to your game. You can record one from the game dashboard: launch a preview, play what you want to showcase, and use the recording toolbar to capture it.
+
+A short video is also recorded automatically when you launch a preview, so your game page already has a first preview even before you record your own. This automatic recording can be turned off in GDevelop's preferences.
+
 ## Taking your game off gd.games
 
 To remove your game from gd.games, open **Edit details** from the game dashboard and turn **Publish game on gd.games** off. Your builds and your analytics are kept: only the public page disappears.
