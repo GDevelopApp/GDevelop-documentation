@@ -106,6 +106,7 @@ List of websites where you can find sprites, music, sound effects for your games
   * [SpriteCutter](http://spritecutter.sourceforge.net/) (Spritesheet cutter)
   * [TinyWOW](https://tinywow.com/) (Edit image, audio, pdf files...)
   * [TexturePacker](https://www.codeandweb.com/texturepacker) (Pack individual images in to spritesheet)
+  * [SpriteSheet.dev](https://spritesheet.dev) (Free browser sprite sheet maker, GIF to sprite sheet and sprite sheet cutter)
   * [Spriteilluminator](https://www.codeandweb.com/spriteilluminator) (Illuminate sprites with dynamic lights)
   * [Assetforge](https://assetforge.io/) (Create custom sprites from 3D objects)
   * [3D2Sprite](http://3d2sprite.blogspot.com/p/home.html) (Create sprites from 3D models)
