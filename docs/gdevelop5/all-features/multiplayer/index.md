@@ -246,9 +246,11 @@ By default, all behaviors of an object are synchronized across the network. This
 - It allows everyone to see the same thing happening in the game.
 - It allows good movement predictions, especially for behaviors like the platformer character or the physics behaviors.
 
-Some behaviors, however, might not need to be synchronized across the network. For instance, if you have a behavior that is very specific to the current player, like a behavior that controls the camera, you might want to disable the synchronization of this behavior.
+Some behaviors, however, might not need to be synchronized across the network. For instance, if you have a behavior that is very specific to the current player, like a behavior that controls the camera or reads the player inputs, you might want to disable the synchronization of this behavior.
 
-To do this, you can use the action **Disable behavior synchronization** on the game of the player who owns the synchronized object, then on the other players's games you can disable the behavior.
+The simplest way is to turn off the behavior's **synchronized over the network** setting, directly on the object's behavior (the network icon next to each behavior, available when the object has the **Multiplayer object** behavior). When disabled, enabling, disabling or changing this behavior won't affect the other players.
+
+You can also control this at runtime with the action **Disable behavior synchronization** on the game of the player who owns the synchronized object, then on the other players's games you can disable the behavior.
 It will result in it being disabled on the other players' games, but still active on the player's game.
 
 !!! note

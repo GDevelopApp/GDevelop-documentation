@@ -155,6 +155,18 @@ The **max engine torque** allows to climb slopes faster.
 
 	**Friction**, **gravity scale** and **mass override** also change how fast cars move. Make sure you have followed the steps described in the above sections first.
 
+### Tweak the steering feel
+
+The **steer return speed** sets how fast the wheels straighten when the player releases the steering, and the **max cornering force** reduces the steer angle as speed increases to keep the car from losing grip. A small cornering force (around 2) gives an arcade racing feel.
+
+### Smooth out the suspension
+
+The suspension controls how the car reacts to bumps and how much it leans in turns. Use the **suspension travel** to set how much the wheels move up and down, the **suspension frequency** for the stiffness, and the **suspension damping** to control how quickly it stops bouncing.
+
+### Use gears
+
+Cars automatically shift gears. The **engine speed to shift up** and **engine speed to shift down** define when a higher or lower gear is used, and the **gear switch duration** is the short time without engine power while shifting.
+
 
 ## Concepts used in Physics
 
