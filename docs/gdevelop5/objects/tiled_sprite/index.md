@@ -43,7 +43,21 @@ If the object is scaled to be larger in pixels than the image used, then the obj
 
 ![](tiled-sprite-100100.png)
 
-You can use events to change the scale and position of a tiled sprite object, and tiled sprites also have actions of their own: the **offsets** scroll the image inside the object without moving the object. This is often used for scrolling backgrounds (like the ground or the clouds of an endless runner) and similar effects.
+You can use events to change the scale and position of a tiled sprite object, and tiled sprites also have actions of their own.
+
+####  Scroll the image (image offset)
+
+The **Image X Offset** and **Image Y Offset** actions scroll the image *inside* the object without moving the object itself. Gradually increasing the offset every frame makes the repeating image slide across the object, which is the usual way to create infinitely scrolling backgrounds (like the ground, the clouds or a parallax layer of an endless runner) and similar effects. The matching conditions and `XOffset()` / `YOffset()` expressions let you read the current offset back.
+
+####  Tint and opacity
+
+The **Tint color** action multiplies the image by a color, which is handy to recolor a shared background or flash the object. Leave it white to display the image with its original colors.
+
+The **Opacity** action makes the object more or less transparent, which is useful to fade a background layer in or out.
+
+####  Change the image at runtime
+
+The **Image** action replaces the displayed image with another image resource from your project. Combined with the image offset, this lets you swap a scrolling background (for example, to transition between different level themes) without creating a separate object.
 
 ## Examples
 
