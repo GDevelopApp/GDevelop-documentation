@@ -120,6 +120,16 @@ Cars center of mass is as low as possible to avoid cars to roll. By default, the
 
 	In case your car is still rolling when it turns, you can try reducing the **friction**.
 
+### Tune the steering
+
+The **steer return speed** controls how fast the wheels straighten once the steering is released, which is handy to make the car feel more or less responsive.
+
+To keep the car from slipping when it turns at high speed, the **max cornering force** reduces the steering angle as the speed increases. A value around `2` feels like an arcade racing game.
+
+### Tune the suspension
+
+The **suspension** properties change how the car reacts to bumps and jumps: **suspension travel** sets how far the wheels can move up and down, **suspension frequency** its stiffness and **suspension damping** how fast it stops bouncing. If the car rests on its suspension stops, increase the suspension frequency along with the gravity scale.
+
 ### Setup how quick cars fall back on the road
 
 **Mass override**
@@ -150,6 +160,8 @@ You set the **engine inertia** to adjust how fast the car accelerate:
 The **max engine speed** allows to adjust how fast a car can go.
 
 The **max engine torque** allows to climb slopes faster.
+
+The car automatically shifts gears. You can adjust the **engine speed to shift up** and **shift down** to change when gears are switched, and the **gear switch duration** to set how long the engine loses power during a gear change.
 
 !!! tip
 

@@ -251,6 +251,8 @@ Some behaviors, however, might not need to be synchronized across the network. F
 To do this, you can use the action **Disable behavior synchronization** on the game of the player who owns the synchronized object, then on the other players's games you can disable the behavior.
 It will result in it being disabled on the other players' games, but still active on the player's game.
 
+You can also turn off the **Synchronized over the network** setting directly in a behavior (in the behavior's properties, or in the behavior settings when creating a custom behavior). When it's off, enabling, disabling or changing this behavior is never sent to the other players. This is handy for behaviors specific to the local player, like input mappers.
+
 !!! note
 
     A good example of this is the behavior **SmoothCamera**. If you have a camera that follows the player, you might want to disable the synchronization of this behavior, so that each player has their own camera following their own character.
