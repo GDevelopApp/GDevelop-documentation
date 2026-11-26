@@ -32,7 +32,7 @@ There are two options for setting up a broker server:
 
 ####  Set up a custom (local) server
 
-A local server can be set up easily. [Install Node.js](https://nodejs.org/en/download/) will need to be installed. The LTS version is recommended.
+A local server can be set up easily. You will first need to [install Node.js](https://nodejs.org/en/download/). The LTS version is recommended.
 
 Open a command line. To do so on Windows:
 
@@ -74,6 +74,29 @@ The default P2P ID generation is very long to avoid conflicts, but if you want t
 ## Interacting with connected games
 
 Once you got connected, you can trigger actions remotely. You can select another specific game instance (using its id) or send an event to all connected instances.
+
+### Sending and receiving data
+
+Remote communication is done through named **events**. To trigger one on the other instances, use the "Trigger event on all connected clients" or "Trigger event on a specific client" action and give the event a name of your choosing (for example `"PlayerMoved"` or `"Chat"`).
+
+Along with the event name, you can send some **extra data** as a string. If you need to send more than a single value (like a whole position, a structure or an array), use the "...(variable)" variant of the action and pass a variable: its whole content, including its children, will be transmitted.
+
+On the receiving instance, use the "Event triggered by peer" condition with the matching event name. When it is true, you can read what was sent:
+
+* `P2P::GetEventData("eventName")` returns the extra data that was sent as text.
+* If the data was sent from a variable, use the "Get event data (variable)" action to load it back into a scene variable, keeping its structure.
+* `P2P::GetEventSender("eventName")` returns the ID of the peer that triggered the event, which is useful to know who sent it or to reply only to them.
+
+### Detecting connections, disconnections and errors
+
+A few conditions and expressions help you react to changes in the connection:
+
+* "Peer Connected" is true the frame a new peer connects. `P2P::GetLastConnectedPeer()` returns its ID — handy to create a new player object or add it to a list of peers.
+* "Peer disconnected" is true when a peer leaves. `P2P::GetLastDisconnectedPeer()` returns the ID of the one that left, so you can remove its player object.
+* "An error occurred" is true when something goes wrong. Use `P2P::GetLastError()` to read the error message.
+* The "Is P2P ready" condition tells you when the extension has finished initializing and `P2P::GetID()` can be read.
+
+You can also leave a session at any time with the "Disconnect from a peer", "Disconnect from all peers" or "Disconnect from all" (broker included) actions.
 
 ### Choosing if you want to activate data loss mode
 
