@@ -108,6 +108,10 @@
     {
       "date": "2026-09-19",
       "summary": "Improved object-picking docs: documented how conditions comparing two objects filter picked instances, including the asymmetric behavior of inverted conditions (only the first object is filtered)"
+    },
+    {
+      "date": "2026-11-26",
+      "summary": "Improved peer-to-peer docs: fixed broken Node.js install sentence, added sending/receiving data (extra data, GetEventData/GetEventSender, variable transfer), and connection/disconnection/error detection"
     }
   ]
 }
