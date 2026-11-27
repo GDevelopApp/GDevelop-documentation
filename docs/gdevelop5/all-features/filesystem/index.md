@@ -192,6 +192,15 @@ It is advised to use the expressions for special folders (see below) to keep you
 
 ** (Optional) Result variable: ** Variable to store the result. It can either hold the value 'ok': the task was successful or 'error': an error occurred. The variable will be updated, at the moment the file operation has finished.
 
+---
+
+####  Read a directory
+This action reads the contents of a directory (all files and sub-directories) and stores them in a variable as an array. It is always executed asynchronously.
+== Parameters ==
+** Directory path: ** The absolute path to the directory to read.
+
+** (Optional) Result variable: ** Variable to store the result. On success, it is filled with an array containing the name of each file and sub-directory found in the directory (loop over it with a "For each child" event). If an error occurs, it is set to the text 'error' instead.
+
 ## Expressions
 These expressions return the path to special folders on the users' operating system. If you use these expressions for loading and saving files it will be guaranteed to work on all supported operating systems. (Currently Windows, Linux, and macOS)
 !!! tip
@@ -204,6 +213,8 @@ This expression returns the operating system independent path to the _Documents_
 This is the standard folder for storing documents.
 ####  This games executable folder
 This expression returns the operating system independent path to the folder where your game is being executed from.
+####  Game executable file
+This expression returns the full path to your game's executable file itself (including the file name), rather than just the folder containing it.
 ####  Pictures folder
 This expression returns the operating system independent path to the _Pictures_ folder of the user that runs your game.
 This is the standard folder for storing images.
@@ -213,9 +224,17 @@ This folder is used for temporary files that your operating system can delete at
 ####  Userdata folder
 This expression returns the operating system independent path to the _UserData_ folder of the user that runs your game.
 This folder is used for storing application settings.
+####  User's Home folder
+This expression returns the operating system independent path to the _Home_ folder of the user that runs your game (for example `C:\Users\Name` on Windows or `/home/name` on Linux).
 ####  Path delimiter
 This expression returns the operating system independent path delimiter character. ("\" on Windows and "/" on Linux and macOS).
 Use this expression to build cross-platform file paths that can be accessed on all supported operating systems.
+####  Get directory name from a path
+This expression takes a file or folder path and returns only the directories part of it, without the ending file name.
+####  Get file name from a path
+This expression takes a file path and returns only the file name with its extension (for example `my_screenshot.png`).
+####  Get the extension from a file path
+This expression takes a file path and returns only the file extension, including the period (for example `.png`). This is useful to check the type of a file.
 
 ## Example
 In order to save a screenshot to the _Pictures_ directory you could write:
