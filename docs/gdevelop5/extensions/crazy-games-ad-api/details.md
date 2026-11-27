@@ -16,7 +16,7 @@ It can be exported as an HTML5 game and uploaded as a new submission for QA on t
 
 ![CrazyGames SDK demo](CrazyGames_SDK_demo.png)
 
-[Open the demo](https://gdevelop.io/fr-fr/game-example/free/crazygames-sdk-demo){ .md-button .md-button--primary }
+[Open the demo](https://gdevelop.io/game-example/free/crazygames-sdk-demo){ .md-button .md-button--primary }
 
 ## Display Video Ads
 
@@ -39,13 +39,17 @@ CrazyGames games must be playable even if an ad blocker exists. To avoid blockin
 ## Banners
 ### Request a Banner
 
-An ad banner can be placed with X and Y position and use a part of the game screen according to some static dimensions such as: `970x90`, `320x50`, `160x600`, `336x280`, `728x90`, `300x600`, `468x60`, `970x250`, `300x250`, `250x250`, `120x600`.
+An ad banner can be placed with X and Y position and use a part of the game screen. CrazyGames serves banners in these sizes: `728x90`, `300x250`, `320x50` and `468x60`. The other sizes offered by the action are not served by CrazyGames.
 
 ![](ad_example.png)
 
 !!! warning
 
-    A banner can be called only once per 60 seconds. If a banner is called before the delay, an error is returned in the debugger and is also readable with the **Get last error** expression, which return a string.
+    The same banner can be displayed again only 20 seconds after its last display. If it is requested before that, an error is returned in the debugger and is also readable with the **Get last error** expression, which returns a string.
+
+    The banner must also be fully inside the game window, otherwise it won't be displayed.
+
+Banners are not available in every session: CrazyGames doesn't show them during Basic Launch, in Kids mode or when the game runs in the CrazyGames mobile app. Your game must work without them, and the **Get last error** expression explains why a banner wasn't shown.
 
 ### Clearing the Banners
 
@@ -98,6 +102,10 @@ Display on CrazyGames website a popup containing the invite link with a copy but
 ![](invite_button_crazygames.png)
 ![](invite-popup.png)
 
+!!! warning
+
+    CrazyGames is deprecating the invite button in favour of [room data](https://docs.crazygames.com/sdk/game/#room-data), which this extension doesn't support yet.
+
 
 
 ## User
@@ -109,7 +117,7 @@ Use the action **Show CrazyGames login window** to ask the player to log in to t
 
 ### Check availability
 
-The **Is user account available** is an expression that returns True when the player is playing on CrazyGames.
+The **Is user account available** is an expression that returns True when the player is playing on CrazyGames. It returns False on other websites that embed your CrazyGames game.
 
 ###  Retrieve user data
 
@@ -128,27 +136,37 @@ Once availability is confirmed and the user is logged in, the game can access th
 
  See [the references](/gdevelop5/extensions/crazy-games-ad-api/#expressions) to see how to use the expressions to get these informations.
 
+!!! note
+
+    The user token returned by this extension is signed with CrazyGames' legacy key. If your server verifies the token, use the legacy public key at [https://sdk.crazygames.com/publicKey.json](https://sdk.crazygames.com/publicKey.json), as explained in [Verify the token](https://docs.crazygames.com/sdk/user/#verify-the-token).
+
 ### Account link prompt
 
 **Show account link prompt** action is made for supporting advanced account use cases, you'll need to handle account linking between the CrazyGames account and the other providers. Check [User linking page](https://docs.crazygames.com/sdk/user-linking/user-linking-html5-v3/) to find out more about user account linking.
 
 ## Data
 
-The data allows saving and retrieving user progress. The data will also be synced on all the devices where the user plays the game. 
+The data allows saving and retrieving user progress. For players logged in to CrazyGames, the data is synced on all the devices where they play the game.
+
+For guest players, the data is stored in the browser. When a guest logs in, CrazyGames automatically transfers their guest progress to their account if they haven't played the game with that account before.
 
 To save data, use the **Save session data** action.
 A parameter name will be requested to store your data and retrieve it via the **Get user session data** expression.
 
 !!! warning
 
-        There is a 1MB data limit. And the save is made 1 second after the action to save is called. That can go up to 30 seconds if CrazyGames system detects abuse. Be careful not to perform this action on all frames.
+    Select the **Progress Save** option when you submit your game on the CrazyGames Developer Portal, otherwise the data won't be saved. Rely only on these actions to save progress, for both guests and logged-in players, rather than on other storage such as the Storage actions.
+
+!!! warning
+
+    There is a 1MB data limit: data above it isn't backed up anymore. The save is made 1 second after the action is called, and can sometimes be delayed by up to 30 seconds. Be careful not to perform this action on all frames.
 
 
 ## In-game Purchase
 
-CrazyGames has partnered with [Xsolla](https://xsolla.com/) to offer you the possibility to integrate in-game purchases only for users that are signed in with them. To do this, you must [get in touch with CrazyGames](mailto:developer-relations@crazygames.com).
+CrazyGames has partnered with [Xsolla](https://xsolla.com/) to offer you the possibility to integrate in-game purchases. Purchases are only available to players signed in to CrazyGames: guest players must not be able to buy items. In-game purchases are invite-only, so you must [get in touch with CrazyGames](mailto:developer-relations@crazygames.com) first.
 
-Once you are invited, you can then get access to the Xsolla project dashboard and get a token from Xsolla to manage transactions in your game thank to the **Generate Xsolla token** that will get a fresh token for authentification that is valid 1 hour. We recommend that you retrieve the token each time before using it for a transaction.
+Once you are invited, you can then get access to the Xsolla project dashboard and get a token from Xsolla to manage transactions in your game thanks to the **Generate Xsolla token** action, which gets a fresh authentication token that is valid for 1 hour. We recommend that you retrieve the token each time before using it for a transaction.
 
 To perform transactions you must [use the Xsolla SDK as explained here](https://docs.crazygames.com/sdk/in-game-purchases/#registering-orders).
 
@@ -161,7 +179,7 @@ To check if an ad has encountered an error, you can directly use the condition *
 
 ### Catch any errors
 
-To help debug your game and view errors or other responses from the SDK, you can use the expression **Get last error** wich returns a String.
+To help debug your game and view errors or other responses from the SDK, you can use the expression **Get last error** which returns a String.
 
 If you want to check for a specific error, the condition with the same name can be used to filter parts of your events.
 
