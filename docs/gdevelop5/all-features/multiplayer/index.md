@@ -251,6 +251,8 @@ Some behaviors, however, might not need to be synchronized across the network. F
 To do this, you can use the action **Disable behavior synchronization** on the game of the player who owns the synchronized object, then on the other players's games you can disable the behavior.
 It will result in it being disabled on the other players' games, but still active on the player's game.
 
+If you are creating your own [events-based behavior](/gdevelop5/behaviors/events-based-behaviors), you can also turn off its **Synchronized over the network by default** setting. This is useful for behaviors that react to the inputs of the current player (keyboard, mouse or touch "mappers"): their state won't be sent to other players, so they can stay deactivated on the objects owned by other players.
+
 !!! note
 
     A good example of this is the behavior **SmoothCamera**. If you have a camera that follows the player, you might want to disable the synchronization of this behavior, so that each player has their own camera following their own character.
